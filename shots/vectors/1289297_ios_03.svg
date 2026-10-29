@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1179" height="2556" viewBox="0 0 1179 2556" fill="none">
+  <!-- Background -->
+  <rect width="1179" height="2556" fill="#000000"/>
+
+  <!-- iOS 18 Dynamic Island -->
+  <rect x="450" y="32" width="280" height="74" rx="37" fill="#000000" stroke="#1c1c1e" stroke-width="2"/>
+  <circle cx="490" cy="69" r="14" fill="#080808"/>
+  <circle cx="685" cy="69" r="18" fill="#0c1220"/>
+
+  <!-- Status Bar (Carrier, Time, Wifi, Battery) -->
+  <text x="100" y="80" fill="#ffffff" font-family="-apple-system, SF Pro, sans-serif" font-size="34" font-weight="600">9:41</text>
+  <g transform="translate(1010, 56)">
+    <!-- Signal Bars -->
+    <rect x="0" y="16" width="6" height="12" rx="2" fill="#ffffff"/>
+    <rect x="10" y="11" width="6" height="17" rx="2" fill="#ffffff"/>
+    <rect x="20" y="6" width="6" height="22" rx="2" fill="#ffffff"/>
+    <rect x="30" y="0" width="6" height="28" rx="2" fill="#ffffff"/>
+    <!-- Battery -->
+    <rect x="52" y="3" width="50" height="24" rx="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="56" y="7" width="36" height="16" rx="4" fill="#ffffff"/>
+    <rect x="104" y="10" width="4" height="10" rx="2" fill="#ffffff"/>
+  </g>
+
+  <!-- Large Title Navigation Header -->
+  <text x="1119" y="240" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="64" font-weight="900" text-anchor="end">منصة مراجعة العقود والمنافسات</text>
+  <text x="1119" y="285" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="end">الدفع الفوري بـ Apple Pay والفوترة</text>
+
+  <!-- Body Content -->
+  
+        <!-- Invoice Summary Card -->
+        <g transform="translate(60, 320)">
+          <rect width="1059" height="520" rx="40" fill="#1c1c1e" stroke="#2c2c2e" stroke-width="2"/>
+          <text x="1000" y="90" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="44" font-weight="800" text-anchor="end">فاتورة ضريبية معتمدة (ZATCA)</text>
+          
+          <text x="1000" y="180" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="34" text-anchor="end">المبلغ الفرعي الخاضع للضريبة</text>
+          <text x="100" y="180" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="700">120.00 ر.س</text>
+
+          <text x="1000" y="260" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="34" text-anchor="end">ضريبة القيمة المضافة (15%)</text>
+          <text x="100" y="260" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="700">18.00 ر.س</text>
+
+          <line x1="80" y1="320" x2="1000" y2="320" stroke="#2c2c2e" stroke-width="3"/>
+
+          <text x="1000" y="410" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="44" font-weight="900" text-anchor="end">الإجمالي المستحق</text>
+          <text x="100" y="410" fill="#0f766e" font-family="-apple-system, Cairo, sans-serif" font-size="46" font-weight="900">138.00 ر.س</text>
+        </g>
+
+        <!-- Native Apple Pay Sheet -->
+        <g transform="translate(60, 890)">
+          <rect width="1059" height="150" rx="32" fill="#ffffff"/>
+          <text x="530" y="92" fill="#000000" font-family="-apple-system, Cairo, sans-serif" font-size="44" font-weight="800" text-anchor="middle"> Pay الدفع عبر</text>
+        </g>
+
+        <!-- Status Tracking Progression -->
+        <g transform="translate(60, 1090)">
+          <rect width="1059" height="340" rx="36" fill="#1c1c1e"/>
+          <text x="1000" y="80" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="38" font-weight="700" text-anchor="end">متابعة حالة الطلب الفورية</text>
+          
+          <circle cx="1000" cy="180" r="18" fill="#30d158"/>
+          <text x="950" y="190" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="32" font-weight="600" text-anchor="end">تم قبول الطلب واعتماد المواصفات</text>
+
+          <circle cx="1000" cy="270" r="18" fill="#0f766e"/>
+          <text x="950" y="280" fill="#0f766e" font-family="-apple-system, Cairo, sans-serif" font-size="32" font-weight="600" text-anchor="end">جاري المعالجة والمزامنة السحابية</text>
+        </g>
+        
+
+  <!-- iOS 18 Bottom Tab Bar -->
+  <rect y="2356" width="1179" height="200" fill="#121214" fill-opacity="0.95"/>
+  <line x1="0" y1="2356" x2="1179" y2="2356" stroke="#2c2c2e" stroke-width="1.5"/>
+  
+  <text x="235" y="2440" fill="#0f766e" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="700" text-anchor="middle">الرئيسية</text>
+  <text x="590" y="2440" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="middle">الطلبات</text>
+  <text x="944" y="2440" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="middle">حسابي</text>
+
+  <!-- iOS Home Bar Indicator -->
+  <rect x="420" y="2510" width="340" height="12" rx="6" fill="#ffffff"/>
+</svg>

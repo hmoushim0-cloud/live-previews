@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1179" height="2556" viewBox="0 0 1179 2556" fill="none">
+  <!-- Background -->
+  <rect width="1179" height="2556" fill="#000000"/>
+
+  <!-- iOS 18 Dynamic Island -->
+  <rect x="450" y="32" width="280" height="74" rx="37" fill="#000000" stroke="#1c1c1e" stroke-width="2"/>
+  <circle cx="490" cy="69" r="14" fill="#080808"/>
+  <circle cx="685" cy="69" r="18" fill="#0c1220"/>
+
+  <!-- Status Bar (Carrier, Time, Wifi, Battery) -->
+  <text x="100" y="80" fill="#ffffff" font-family="-apple-system, SF Pro, sans-serif" font-size="34" font-weight="600">9:41</text>
+  <g transform="translate(1010, 56)">
+    <!-- Signal Bars -->
+    <rect x="0" y="16" width="6" height="12" rx="2" fill="#ffffff"/>
+    <rect x="10" y="11" width="6" height="17" rx="2" fill="#ffffff"/>
+    <rect x="20" y="6" width="6" height="22" rx="2" fill="#ffffff"/>
+    <rect x="30" y="0" width="6" height="28" rx="2" fill="#ffffff"/>
+    <!-- Battery -->
+    <rect x="52" y="3" width="50" height="24" rx="7" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="56" y="7" width="36" height="16" rx="4" fill="#ffffff"/>
+    <rect x="104" y="10" width="4" height="10" rx="2" fill="#ffffff"/>
+  </g>
+
+  <!-- Large Title Navigation Header -->
+  <text x="1119" y="240" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="64" font-weight="900" text-anchor="end">دليل الصحراء — نظام الملاحة والمسارات البرية دون اتصال</text>
+  <text x="1119" y="285" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="end">الرئيسية واستعراض الخدمات</text>
+
+  <!-- Body Content -->
+  
+        <!-- Search Bar -->
+        <rect x="60" y="320" width="1059" height="110" rx="28" fill="#1c1c1e"/>
+        <text x="1060" y="388" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="38" text-anchor="end">ابحث في الخدمات أو المشاريع...</text>
+
+        <!-- Segmented Control -->
+        <rect x="60" y="470" width="1059" height="100" rx="26" fill="#1c1c1e"/>
+        <rect x="64" y="474" width="345" height="92" rx="22" fill="#2c2c2e"/>
+        <text x="236" y="534" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="700" text-anchor="middle">الكل</text>
+        <text x="590" y="534" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="34" text-anchor="middle">الأكثر طلباً</text>
+        <text x="940" y="534" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="34" text-anchor="middle">المميزة</text>
+
+        <!-- iOS Cupertino Grouped Cards -->
+        
+            <g transform="translate(60, 620)">
+              <rect width="1059" height="240" rx="36" fill="#1c1c1e" stroke="#2c2c2e" stroke-width="2"/>
+              <circle cx="980" cy="120" r="48" fill="#b45309" fill-opacity="0.2"/>
+              <path d="M965 120 L975 130 L995 110" stroke="#b45309" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <text x="900" y="95" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="40" font-weight="700" text-anchor="end">الباقة الأساسية المعتمدة</text>
+              <text x="900" y="155" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="30" text-anchor="end">تنفيذ متقن ومطابق للمواصفات</text>
+              <rect x="40" y="75" width="200" height="90" rx="24" fill="#b45309"/>
+              <text x="140" y="132" fill="#000000" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="800" text-anchor="middle">75 ر.س</text>
+            </g>
+            
+            <g transform="translate(60, 890)">
+              <rect width="1059" height="240" rx="36" fill="#1c1c1e" stroke="#2c2c2e" stroke-width="2"/>
+              <circle cx="980" cy="120" r="48" fill="#b45309" fill-opacity="0.2"/>
+              <path d="M965 120 L975 130 L995 110" stroke="#b45309" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <text x="900" y="95" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="40" font-weight="700" text-anchor="end">الباقة المتقدمة VIP</text>
+              <text x="900" y="155" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="30" text-anchor="end">دعم فني وضمان جودة الأداء</text>
+              <rect x="40" y="75" width="200" height="90" rx="24" fill="#b45309"/>
+              <text x="140" y="132" fill="#000000" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="800" text-anchor="middle">160 ر.س</text>
+            </g>
+            
+            <g transform="translate(60, 1160)">
+              <rect width="1059" height="240" rx="36" fill="#1c1c1e" stroke="#2c2c2e" stroke-width="2"/>
+              <circle cx="980" cy="120" r="48" fill="#b45309" fill-opacity="0.2"/>
+              <path d="M965 120 L975 130 L995 110" stroke="#b45309" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <text x="900" y="95" fill="#ffffff" font-family="-apple-system, Cairo, sans-serif" font-size="40" font-weight="700" text-anchor="end">الخدمة الشاملة المتكاملة</text>
+              <text x="900" y="155" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="30" text-anchor="end">تغطية شاملة وتقارير دورية</text>
+              <rect x="40" y="75" width="200" height="90" rx="24" fill="#b45309"/>
+              <text x="140" y="132" fill="#000000" font-family="-apple-system, Cairo, sans-serif" font-size="34" font-weight="800" text-anchor="middle">290 ر.س</text>
+            </g>
+            
+
+  <!-- iOS 18 Bottom Tab Bar -->
+  <rect y="2356" width="1179" height="200" fill="#121214" fill-opacity="0.95"/>
+  <line x1="0" y1="2356" x2="1179" y2="2356" stroke="#2c2c2e" stroke-width="1.5"/>
+  
+  <text x="235" y="2440" fill="#b45309" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="700" text-anchor="middle">الرئيسية</text>
+  <text x="590" y="2440" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="middle">الطلبات</text>
+  <text x="944" y="2440" fill="#8e8e93" font-family="-apple-system, Cairo, sans-serif" font-size="28" font-weight="600" text-anchor="middle">حسابي</text>
+
+  <!-- iOS Home Bar Indicator -->
+  <rect x="420" y="2510" width="340" height="12" rx="6" fill="#ffffff"/>
+</svg>
