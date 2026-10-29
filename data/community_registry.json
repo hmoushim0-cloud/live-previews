@@ -425,7 +425,10 @@
       "business_value": "التطبيق موجّه لإدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية، مع فصل واضح بين طبقات العرض والمنطق والبيانات وفق Clean Architecture. طبقة الواجهة في Jetpack Compose تعرض تدفقات العمل: طلب التقييم، درا",
       "rating": 4.98,
       "reviews_count": 24,
-      "status": "COMMUNITY_VERIFIED"
+      "status": "COMMUNITY_VERIFIED",
+      "president_status": "APPROVED_BY_PRESIDENT",
+      "president_signature": "HMAC-SHA256-ROYAL-DECREE-0C251A40810204F8C566761BB2F8970D",
+      "president_notes": "معتمد بأمر رئيس المنظومة والمالك الأعلى — منصة رائدة متكاملة"
     },
     {
       "project_id": "1289296",
