@@ -1,0 +1,43 @@
+{
+  "project_id": "1289263",
+  "app_name": "Bluetooth Hands-Free",
+  "tagline": "برمجة ESP32 للعمل كجهاز حر اليدين",
+  "preset": "standard",
+  "theme": {
+    "primary_color": "#007AFF",
+    "accent_color": "#FF4081"
+  },
+  "banner": {
+    "title": "Bluetooth Hands-Free",
+    "subtitle": "اتصال صوتي سلس وآمن"
+  },
+  "categories": [
+    "اتصالات",
+    "تقنية"
+  ],
+  "items": [
+    {
+      "title": "ESP32 Bluetooth Hands-Free",
+      "desc": "برمجة ESP32-WROOM-32 للعمل كجهاز حر اليدين، مع اتصال ثنائي الاتجاه وزمن تأخير منخفض. استمتع بمكالمات صوتية واضحة وآمنة عبر WiFi وسيرفر الإنترنت.",
+      "price": "مجاني",
+      "icon": "bluetooth"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "cart",
+      "label": "المشتريات",
+      "icon": "shopping_cart"
+    },
+    {
+      "id": "profile",
+      "label": "الملف الشخصي",
+      "icon": "person"
+    }
+  ]
+}
