@@ -4,8 +4,8 @@
   "tagline": "منصة مدونات لغوية شاملة",
   "preset": "ecommerce",
   "theme": {
-    "primary_color": "#007BFF",
-    "accent_color": "#6C757D"
+    "primary_color": "#15803D",
+    "accent_color": "#22C55E"
   },
   "description": "تعتمد المنصة على هندسة نظيفة تضمن سهولة الصيانة والتطوير. تتكون من طبقات منفصلة للواجهة الأمامية والخلفية، مع استخدام تقنيات حديثة مثل React وNode.js. يتم تخزين البيانات في قاعدة بيانات MySQL، مع ربط المنصة بخدمات سحابية لتخزين الملفات الصوتية والمرئية. تضمن هذه البنية مرونة عالية وقابلية للتوسع.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1275806_03.png"
     }
-  ]
+  ],
+  "archetype": "analytics_bento",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#15803D",
+    "secondary": "#22C55E"
+  }
 }

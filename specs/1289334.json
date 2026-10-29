@@ -4,8 +4,8 @@
   "tagline": "تعلم مع أصوات المعلمين المحترفين",
   "preset": "standard",
   "theme": {
-    "primary_color": "#007BFF",
-    "accent_color": "#FF9800"
+    "primary_color": "#15803D",
+    "accent_color": "#22C55E"
   },
   "description": "تقدم منصة التعليم الصوتية تجربة تعليمية مبتكرة للطلاب في المرحلة الثانوية. حيث توفر دروسًا صوتية تفاعلية يقدمها معلمون محترفون. تتميز المنصة بتصميمها الهندسي المتين الذي يضمن حماية البيانات وخصوصية المستخدمين. كما تدعم المنصة طبقات Clean Architecture للمرونة والتوسع. وتتصل المنصة بالسحابة لتوفير تجربة تعليمية غامرة وسهلة الوصول.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289334_03.png"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#15803D",
+    "secondary": "#22C55E"
+  }
 }

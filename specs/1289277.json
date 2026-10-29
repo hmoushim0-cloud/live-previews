@@ -4,8 +4,8 @@
   "tagline": "مونتاج احترافي لمقاطع الفيديو التعليمية والترويجية",
   "preset": "services",
   "theme": {
-    "primary_color": "#007bff",
-    "accent_color": "#ff4500"
+    "primary_color": "#C2410C",
+    "accent_color": "#FB923C"
   },
   "banner": {
     "title": "مونتاج احترافي لمقاطعك التعليمية",
@@ -52,5 +52,16 @@
       "label": "الملف الشخصي",
       "icon": "person"
     }
-  ]
+  ],
+  "archetype": "booking_timeline",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#C2410C",
+    "secondary": "#FB923C"
+  }
 }

@@ -4,8 +4,8 @@
   "tagline": "رحلة تسوق عربية أصيلة",
   "preset": "standard",
   "theme": {
-    "primary_color": "#FF7F50",
-    "accent_color": "#FF4500"
+    "primary_color": "#9D174D",
+    "accent_color": "#F43F5E"
   },
   "banner": {
     "title": "مرحباً بكم في متجركم العربي",
@@ -66,5 +66,16 @@
       "label": "الملف الشخصي",
       "icon": "user"
     }
-  ]
+  ],
+  "archetype": "analytics_bento",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#9D174D",
+    "secondary": "#F43F5E"
+  }
 }

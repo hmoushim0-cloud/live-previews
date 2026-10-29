@@ -4,8 +4,8 @@
   "tagline": "غرف حوارية حية، بودكاست تفاعلي، ومجتمعات صوتية بأقل استهلاك للبيانات",
   "preset": "standard",
   "theme": {
-    "primary_color": "#7c3aed",
-    "accent_color": "#06b6d4"
+    "primary_color": "#4338CA",
+    "accent_color": "#6366F1"
   },
   "description": "تطبيق اجتماعي للغرف الصوتية الحية والمناقشات الثقافية والمهنية. مبني على بروتوكول WebRTC الصوتي فائق السرعة، مع إدارة ذكية للأذونات والمشرفين، ونظام هدايا تفاعلية وحماية كاملة للخصوصية.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1270577_03.png"
     }
-  ]
+  ],
+  "archetype": "booking_timeline",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#4338CA",
+    "secondary": "#6366F1"
+  }
 }

@@ -4,8 +4,8 @@
   "tagline": "صياغة وتوقيع العقود القانونية مع التشفير والتوقيع البيومتري المعتمد",
   "preset": "standard",
   "theme": {
-    "primary_color": "#312e81",
-    "accent_color": "#ca8a04"
+    "primary_color": "#B45309",
+    "accent_color": "#F59E0B"
   },
   "description": "تطبيق قانوني لإدارة وتوثيق العقود بين الأطراف، يعتمد على التشفير غير المتماثل (Asymmetric Cryptography) لضمان عدم التلاعب ببنود العقد وحساب البصمة الرقمية (SHA-256). يدعم التوقيع الرقمي للطرفين وإصدار شهادة صحة الوثيقة بصيغة PDF معتمدة.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1266494_03.png"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#B45309",
+    "secondary": "#F59E0B"
+  }
 }

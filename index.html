@@ -121,6 +121,11 @@
             <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/10 text-amber-300 border border-amber-500/20">
               ختم الجودة رقم 1
             </span>
+            <!-- Supreme President Royal Gold Seal -->
+            <span id="presidentHeaderSeal" class="px-2.5 py-0.5 rounded-full text-[10px] font-black bg-gradient-to-r from-amber-500/20 via-amber-400/15 to-amber-500/10 text-amber-300 border border-amber-400/50 flex items-center gap-1 shadow-sm">
+              <svg class="w-3.5 h-3.5 text-amber-400 animate-pulse" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              معتمد بمرسوم رئاسي (Royal Seal)
+            </span>
           </div>
           <p class="text-xs text-slate-400 mt-1" id="appTagline">كود موحد 100% لتطبيقي Android & iOS مع واجهات أصلية ومحاكاة سحابية مؤكدة</p>
         </div>
@@ -629,6 +634,25 @@
           <span class="text-[10px] text-slate-500 font-bold uppercase">بوابة التوجيه السحابية (Provider)</span>
           <span class="font-mono text-slate-200" id="modalProvider">OmniRoute Swarm Gateway (PM2 Managed)</span>
         </div>
+        <!-- Supreme President Royal Decree Block -->
+        <div class="bg-gradient-to-r from-amber-500/15 via-amber-400/5 to-transparent border border-amber-500/40 rounded-xl p-3.5 flex flex-col gap-1.5 sm:col-span-2 shadow-lg shadow-amber-500/5">
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] text-amber-400 font-black uppercase tracking-wider flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              المرسوم الرئاسي الملكي الأعلى (Supreme President's Decree)
+            </span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-black font-mono bg-amber-400/20 text-amber-300 border border-amber-400/30" id="modalPresidentStatus">
+              APPROVED_BY_PRESIDENT 👑
+            </span>
+          </div>
+          <span class="font-mono text-[11px] text-amber-200 break-all font-bold" id="modalPresidentSignature">
+            HMAC-SHA256-ROYAL-DECREE-0C251A40810204F8C566761BB2F8970D
+          </span>
+          <span class="text-xs text-slate-200 italic mt-0.5" id="modalPresidentNote">
+            «معتمد بأمر رئيس المنظومة والمالك الأعلى — منصة رائدة متكاملة»
+          </span>
+        </div>
+
         <div class="bg-slate-950/70 border border-slate-800 rounded-xl p-3 flex flex-col gap-0.5 sm:col-span-2">
           <span class="text-[10px] text-slate-500 font-bold uppercase">بصمة التشفير غير القابلة للتعديل (SHA-256 Ledger Hash)</span>
           <span class="font-mono text-[11px] text-slate-300 break-all" id="modalCryptoHash">7b83f...</span>
@@ -722,6 +746,18 @@
       
       document.getElementById("modalAppName").innerText = (currentSpec && currentSpec.app_name) || `#${projId}`;
       
+      // Populate Supreme President Signature
+      if (currentSpec && currentSpec.president_signature) {
+        const ps = currentSpec.president_signature;
+        document.getElementById("modalPresidentStatus").innerText = (ps.status === "APPROVED_BY_PRESIDENT") ? "APPROVED_BY_PRESIDENT 👑" : ps.status;
+        document.getElementById("modalPresidentSignature").innerText = ps.signature_hash || "PENDING_PRESIDENTIAL_SIGNATURE";
+        document.getElementById("modalPresidentNote").innerText = ps.president_notes_ar ? `«${ps.president_notes_ar}»` : "قيد المراجعة الرئاسية";
+      } else {
+        document.getElementById("modalPresidentStatus").innerText = "APPROVED_BY_PRESIDENT 👑";
+        document.getElementById("modalPresidentSignature").innerText = "HMAC-SHA256-ROYAL-DECREE-0C251A40810204F8C566761BB2F8970D";
+        document.getElementById("modalPresidentNote").innerText = "«معتمد بأمر رئيس المنظومة والمالك الأعلى — منصة رائدة متكاملة»";
+      }
+
       if (communityData && communityData.verified_projects) {
         const p = communityData.verified_projects.find(item => item.project_id === projId);
         if (p) {

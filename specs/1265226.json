@@ -4,8 +4,8 @@
   "tagline": "فنيون معتمدون، تسعير فوري، وتتبع لحظي لموقع الفني على الخريطة",
   "preset": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#0369A1",
+    "accent_color": "#0EA5E9"
   },
   "description": "منصة رقمية متكاملة لطلب وحجز خدمات الصيانة المنزلية الطارئة والروتينية (كهرباء، سباكة، تكييف، أجهزة منزلية). يتميز التطبيق بنظام توجيه ذكي للفني الأقرب عبر GPS، اعتماد أوامر العمل والقطع بفاتورة رقمية دقيقة، وتأكيد الدفع عبر رمز OTP لضمان حقوق العميل والفني.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1265226_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0369A1",
+    "secondary": "#0EA5E9"
+  }
 }

@@ -4,8 +4,8 @@
   "tagline": "سلوجان تسويقي: مستقبل الطاقة النظيفة بين يديك",
   "preset": "standard",
   "theme": {
-    "primary_color": "#0099cc",
-    "accent_color": "#339933"
+    "primary_color": "#1E40AF",
+    "accent_color": "#3B82F6"
   },
   "description": "تطبيق \"طاقة متجددة\" هو منصة تعليمية شاملة تهدف إلى تعزيز الوعي بأهمية الطاقة النظيفة. يضم التطبيق مكتبة غنية من المقالات والأبحاث، مع أدوات تفاعلية لتوضيح المفاهيم. هندسة النظام تتبع نهج Clean Architecture، مع طبقات منفصلة للبيانات والواجهة والمكونات الأساسية. يرتبط التطبيق بالسحابة لتوفير تحديثات دورية وضمان تجربة مستخدم سلسة. يهدف التطبيق إلى تقديم قيمة مضافة للمهتمين بالطاقة المتجددة، مع الحفاظ على أعلى معايير الأمان والخصوصية.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289317_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#1E40AF",
+    "secondary": "#3B82F6"
+  }
 }

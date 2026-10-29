@@ -4,8 +4,8 @@
   "tagline": "إدارة مشاريع البناء باحترافية وفق الكود السعودي",
   "preset": "standard",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#0F766E",
+    "accent_color": "#14B8A6"
   },
   "description": "تطبيق مصنع البناء السعودي هو نظام إدارة مشاريع متكامل، يوفر تصميمات معمارية وإنشائية احترافية وفق الكود السعودي. يضمن النظام دقة الحسابات الهندسية وحصر كميات المواد، مع التركيز على حماية البيانات الحساسة للمشروع. يستند النظام إلى هندسة Clean Architecture مع ربط سحابي آمن.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289318_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0F766E",
+    "secondary": "#14B8A6"
+  }
 }

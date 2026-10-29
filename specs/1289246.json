@@ -4,8 +4,8 @@
   "tagline": "حل رقمي متكامل فائق السرعة والأداء",
   "preset": "standard",
   "theme": {
-    "primary_color": "#4f46e5",
-    "accent_color": "#06b6d4"
+    "primary_color": "#0E7490",
+    "accent_color": "#06B6D4"
   },
   "banner": {
     "title": "عرض الإطلاق الحصري",
@@ -53,5 +53,16 @@
       "label": "حسابي",
       "icon": "settings"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0E7490",
+    "secondary": "#06B6D4"
+  }
 }

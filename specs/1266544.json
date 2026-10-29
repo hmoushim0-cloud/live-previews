@@ -4,8 +4,8 @@
   "tagline": "بيع واشترِ كل ما تحتاجه مع التواصل المباشر ونظام المحفظة الآمنة",
   "preset": "ecommerce",
   "theme": {
-    "primary_color": "#4338ca",
-    "accent_color": "#ec4899"
+    "primary_color": "#4338CA",
+    "accent_color": "#6366F1"
   },
   "description": "تطبيق سوق تجاري متكامل لعرض وطلب السلع الجديدة والمستعملة والسيارات والعقارات. يشمل محرك بحث جغرافي وتصفية متقدمة حسب المدينة والفئة، نظام محادثة فورية مدمج بين البائع والمشتري، وتوثيق أمني للحسابات ضد الاحتيال.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1266544_03.png"
     }
-  ]
+  ],
+  "archetype": "catalog_grid",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#4338CA",
+    "secondary": "#6366F1"
+  }
 }

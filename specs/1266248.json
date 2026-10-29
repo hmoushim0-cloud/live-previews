@@ -4,8 +4,8 @@
   "tagline": "ابحث عن نخبة الأطباء، احجز موعدك فورياً، وتصفح التقييمات المعتمدة",
   "preset": "services",
   "theme": {
-    "primary_color": "#0284c7",
-    "accent_color": "#14b8a6"
+    "primary_color": "#4338CA",
+    "accent_color": "#6366F1"
   },
   "description": "تطبيق متكامل لحجز وإدارة المواعيد الطبية والبحث في دليل الأطباء والمراكز الصحية حسب التخصص والموقع الجغرافي. يوفر النظام قاعدة بيانات مشفرة وسريعة لملفات المرضى، إمكانية العمل دون اتصال للاطلاع على بيانات الأطباء السابقة، ونظام تأكيد فوري يمنع التكرار.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1266248_03.png"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#4338CA",
+    "secondary": "#6366F1"
+  }
 }

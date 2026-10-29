@@ -4,8 +4,8 @@
   "tagline": "نظام كاشير مالي وإدارة مخزون متوافق مع متطلبات المرحلة الثانية لهيئة الزكاة (ZATCA)",
   "preset": "ecommerce",
   "theme": {
-    "primary_color": "#1d4ed8",
-    "accent_color": "#16a34a"
+    "primary_color": "#15803D",
+    "accent_color": "#22C55E"
   },
   "description": "نظام نقاط بيع سحابي خفيف وسريع للمحلات التجارية والمتاجر المتنقلة، يتضمن مسح الباركود بالكاميرا، طباعة الفواتير عبر طابعات البلوتوث ESC/POS، وإنشاء رمز الاستجابة السريعة المشفر بنظام TLV المتوافق مع متطلبات هيئة الزكاة والضريبة والجمارك بالمملكة.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1266318_03.png"
     }
-  ]
+  ],
+  "archetype": "catalog_grid",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#15803D",
+    "secondary": "#22C55E"
+  }
 }

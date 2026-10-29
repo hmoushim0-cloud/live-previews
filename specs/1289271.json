@@ -4,8 +4,8 @@
   "tagline": "حل رقمي متكامل فائق السرعة والأداء",
   "preset": "services",
   "theme": {
-    "primary_color": "#4f46e5",
-    "accent_color": "#06b6d4"
+    "primary_color": "#1E40AF",
+    "accent_color": "#3B82F6"
   },
   "banner": {
     "title": "عرض الإطلاق الحصري",
@@ -53,5 +53,16 @@
       "label": "حسابي",
       "icon": "settings"
     }
-  ]
+  ],
+  "archetype": "booking_timeline",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#1E40AF",
+    "secondary": "#3B82F6"
+  }
 }

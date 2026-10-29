@@ -4,8 +4,8 @@
   "tagline": "برمجة ESP32 للعمل كجهاز حر اليدين",
   "preset": "standard",
   "theme": {
-    "primary_color": "#007AFF",
-    "accent_color": "#FF4081"
+    "primary_color": "#15803D",
+    "accent_color": "#22C55E"
   },
   "banner": {
     "title": "Bluetooth Hands-Free",
@@ -39,5 +39,16 @@
       "label": "الملف الشخصي",
       "icon": "person"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#15803D",
+    "secondary": "#22C55E"
+  }
 }

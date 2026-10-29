@@ -4,8 +4,8 @@
   "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
   "preset": "standard",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#B45309",
+    "accent_color": "#F59E0B"
   },
   "description": "مشروع متكامل لتنفيذ متطلبات: مراجعة خبير لمهام التخطيط والجدولة والتقارير. نحتاج مخطط مشاريع (Planner/Scheduler) له خبرة في مفاهيم التخطيط والجدولة، ومعايير الجدول ومنحنياته، والتطلعات المستقبلية (90 يوما و3 أسابيع)، ومطالبات المدة، والتقارير الأسبوعية والشهرية، وتقارير التكلفة والكميات والتكاليف السابقة، والبنود الحرجة. ويقبل حامل شهادة في إدارة المشاريع (PMP أو CAPM أو PRINC. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289306_03.png"
     }
-  ]
+  ],
+  "archetype": "service_stepper",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#B45309",
+    "secondary": "#F59E0B"
+  }
 }

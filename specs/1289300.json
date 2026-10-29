@@ -4,8 +4,8 @@
   "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
   "preset": "standard",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#6D28D9",
+    "accent_color": "#8B5CF6"
   },
   "description": "مشروع متكامل لتنفيذ متطلبات: مراجعة خبير لمهام إدارة التنفيذ في موقع المشاريع. نحتاج مهندس تنفيذ أو إشراف له خبرة في الاستفسارات الفنية، ووثائق تغيير الموقع، واعتماد المواد وفحصها، وطلبات الفحص، وعدم المطابقة، والتقارير اليومية والأسبوعية والشهرية، وقوائم الملاحظات، والاستلام. ويقبل حامل شهادة في إدارة المشاريع (PMP أو CAPM أو PRINCE2 أو ما يعادلها) أو من له خبرة عملية مماثلة،. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289300_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#6D28D9",
+    "secondary": "#8B5CF6"
+  }
 }

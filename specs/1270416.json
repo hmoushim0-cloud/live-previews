@@ -4,8 +4,8 @@
   "tagline": "برامج تدريب مخصصة، حساب السعرات الحرارية، وتمارين بالفيديو مع مدربك الشخصي",
   "preset": "standard",
   "theme": {
-    "primary_color": "#dc2626",
-    "accent_color": "#f97316"
+    "primary_color": "#0F766E",
+    "accent_color": "#14B8A6"
   },
   "description": "منصة تدريب لياقة بدنية وتغذية تقدم جداول تمارين حركية مصورة بالفيديو، تتبع الوزن والسعرات اليومية، وتنبيهات شرب الماء والنشاط البدني مع دعم كامل للاتصال بساعات اللياقة وأجهزة الاستشعار عبر Health Connect.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1270416_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0F766E",
+    "secondary": "#14B8A6"
+  }
 }

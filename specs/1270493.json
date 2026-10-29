@@ -4,8 +4,8 @@
   "tagline": "احجز مكتبك أو قاعتك المفضلة بالساعة أو اليوم مع الدفع الرقمي والإنترنت الفائق",
   "preset": "services",
   "theme": {
-    "primary_color": "#0d9488",
-    "accent_color": "#eab308"
+    "primary_color": "#0E7490",
+    "accent_color": "#06B6D4"
   },
   "description": "تطبيق مبتكر لحجز المكاتب المشتركة ومكاتب العمل المستقلة وقاعات الاجتماعات في كبرى مدن المملكة. يتيح معاينة تفاصيل المساحة، فحص توفر القاعات بالتقويم الفوري، سداد الفاتورة إلكترونياً، وإصدار بطاقة الدخول الذكية بالـ QR Code.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1270493_03.png"
     }
-  ]
+  ],
+  "archetype": "booking_timeline",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0E7490",
+    "secondary": "#06B6D4"
+  }
 }

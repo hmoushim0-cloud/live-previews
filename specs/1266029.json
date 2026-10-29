@@ -4,8 +4,8 @@
   "tagline": "ملاحة دقيقة عبر الأقمار الصناعية وحساب المسارات الحية بدون الحاجة لإنترنت",
   "preset": "standard",
   "theme": {
-    "primary_color": "#b45309",
-    "accent_color": "#0ea5e9"
+    "primary_color": "#0369A1",
+    "accent_color": "#0EA5E9"
   },
   "description": "تطبيق ملاحة وتوجيه بري متخصص لمرتادي الصحراء وهواة الرحلات البرية والتخييم في المملكة. يعمل بكفاءة 100% دون اتصال بشبكة الإنترنت مع دعم تصدير واستيراد مسارات GPX، بوصلة جيروسكوبية مدمجة، وحساب دقيق لنقاط الاهتمام ومسارات الطوارئ (SOS).",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة إتمام العملية أو التتبع اللحظي",
       "path": "shots/1266029_03.png"
     }
-  ]
+  ],
+  "archetype": "map_radar",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0369A1",
+    "secondary": "#0EA5E9"
+  }
 }

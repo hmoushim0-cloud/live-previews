@@ -4,8 +4,8 @@
   "tagline": "تعديل ألوان وتنسيقات احترافي",
   "preset": "standard",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#9D174D",
+    "accent_color": "#F43F5E"
   },
   "description": "يقدم هذا التطبيق حلًا احترافيًا لتعديل ألوان وتنسيق صفحات المواقع الإلكترونية. يتيح للمستخدمين تعديل الألوان الأساسية للصفحة الرئيسية وإعادة ترتيب العناصر بسهولة. يتميز التطبيق بواجهة مستخدم بديهية وخيارات تخصيص متقدمة. يضمن التطبيق اتساق الألوان واستقرار التنسيقات، مع الحفاظ على أمن البيانات الحساسة. يتميز التطبيق بهندسة نظام قوية وطبقات Clean Architecture للربط السحابي، مما يوفر تجربة مستخدم سلسة وآمنة.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289333_03.png"
     }
-  ]
+  ],
+  "archetype": "analytics_bento",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#9D174D",
+    "secondary": "#F43F5E"
+  }
 }

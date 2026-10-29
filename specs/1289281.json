@@ -4,8 +4,8 @@
   "tagline": "فحص دقيق يضمن الاستقرار والجودة من أول خطوة",
   "preset": "standard",
   "theme": {
-    "primary_color": "#6366f1",
-    "accent_color": "#f59e0b"
+    "primary_color": "#0E7490",
+    "accent_color": "#06B6D4"
   },
   "items": [
     {
@@ -41,5 +41,16 @@
       "title": "شاشة تتبع الطلب والخريطة الحية (GPS Tracking)",
       "path": "shots/1289281_03.svg"
     }
-  ]
+  ],
+  "archetype": "medical_portal",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0E7490",
+    "secondary": "#06B6D4"
+  }
 }

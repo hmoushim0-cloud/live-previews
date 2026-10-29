@@ -4,8 +4,8 @@
   "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
   "preset": "ecommerce",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#0E7490",
+    "accent_color": "#06B6D4"
   },
   "description": "مشروع متكامل لتنفيذ متطلبات: مطوّر Full-stack  لإكمال تكاملات واعتماد تطبيقات منصة (Next.js + Supabase). لدينا منصة سعودية شغالة فعليا تعطي أصحاب المتاجر الإلكترونية لوحة واحدة لتحليلات المتجر والإعلانات والسوشيال ميديا. أغلب التكاملات جاهزة وعدد منها معتمد بالفعل، ونحتاج مطور خبير يكمل المهام المتبقية، ويستخرج آخر الموافقات، ويثبت كل تكامل ببيانات حقيقية، ويستمر معنا فترة طوي. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
   "proof_screenshots": [
@@ -21,5 +21,16 @@
       "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1289321_03.png"
     }
-  ]
+  ],
+  "archetype": "catalog_grid",
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "brand": {
+    "primary": "#0E7490",
+    "secondary": "#06B6D4"
+  }
 }
