@@ -1,13 +1,19 @@
 {
   "project_id": "1289303",
-  "app_name": "مشروع مراجعة خبير لمهام إدارة ا",
+  "app_name": "مشروع مشروع متكامل لتنفيذ متطلب",
   "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "standard",
+  "preset": "services",
+  "archetype": "cupertino_storefront",
   "theme": {
-    "primary_color": "#B45309",
-    "accent_color": "#F59E0B"
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: مراجعة خبير لمهام إدارة الوثائق وتقنية المعلومات. نحتاج مختصا في ضبط وثائق المشاريع (Document Control): تسجيل الوثائق وترقيمها، والإحالات (Transmittals)، والمراسلات، والمراجعة بين الإدارات، والأرشفة، ووثائق مقاولي الباطن. ويشمل الجزء خطوات قليلة في خطة تقنية المعلومات للمشروع والاستدامة. ويقبل حامل شهادة في إدارة المشاريع (PMP أو CAPM أو PRINCE2 أو. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
+  "description": "مشروع متكامل لتنفيذ متطلبات: مشروع متكامل لتنفيذ متطلبات: مراجعة خبير لمهام إدارة الوثائق وتقنية المعلومات. نحتاج مختصا في ضبط وثائق المشاريع (Document Control): تسجيل الوثائق وترقيمها، والإحالات (Transmittals)، والمراسلات، والمراجعة بين الإدارات، والأرشفة، ووثائق مقاولي الباطن. ويشمل الجزء خطوات قليلة في خطة تقنية المعلومات للمشروع والاستدامة. ويقبل حامل شهادة في إدارة المشاريع (PMP أو CAPM أو PRINCE2 أو. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
+    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
+    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  },
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
@@ -22,15 +28,46 @@
       "path": "shots/1289303_03.png"
     }
   ],
-  "archetype": "service_stepper",
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289303_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289303_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289303_ios_03.png"
+    }
+  ],
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
   },
-  "brand": {
-    "primary": "#B45309",
-    "secondary": "#F59E0B"
-  }
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289303_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289303_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289303_ios_03.png"
+    }
+  ]
 }
