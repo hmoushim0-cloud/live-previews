@@ -1,0 +1,73 @@
+{
+  "project_id": "1289340",
+  "app_name": "نظام إدارة مكتبة",
+  "tagline": "تنظيم فعال لبيانات الكتب والأعضاء، وتعزيز تجربة الإعارة",
+  "preset": "standard",
+  "archetype": "booking_timeline",
+  "theme": {
+    "primary_color": "#007BFF",
+    "accent_color": "#6C757D"
+  },
+  "description": "نظام إدارة مكتبة هو حل شامل يهدف إلى تبسيط عمليات المكتبة وتعزيز تجربة المستخدم. من خلال استخدام Django وSQL، يوفر النظام إدارة فعالة لبيانات الكتب والأعضاء، مع ميزات مثل التصنيف والتتبع. واجهة المستخدم البسيطة والمنظمة تضمن سهولة الاستخدام، مما يحسن من تجربة المستخدمين. كما يوفر النظام أتمتة للعمليات، مما يوفر الوقت والجهد، ويزيد من كفاءة المكتبة. هذا الحل يضمن نموًا تجاريًا مستدامًا من خلال تحسين إدارة المكتبة وتعزيز تجربة المستخدم.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 30% من خلال تبسيط عملية الإعارة، مما يشجع المزيد من الأعضاء على الاستفادة من خدمات المكتبة.",
+    "automation_value": "توفير 30 ساعة شهرياً من خلال أتمتة عمليات الفوترة وإرسال الإشعارات، مما يقلل من الأخطاء البشرية.",
+    "retention_value": "تحسين تجربة المستخدم من خلال واجهة مستخدم سريعة الاستجابة، مما يعزز ولاء العملاء ويزيد من تكرار الزيارات."
+  },
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
+      "path": "shots/1289340_01.png"
+    },
+    {
+      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
+      "path": "shots/1289340_02.png"
+    },
+    {
+      "title": "شاشة التتبع المباشر وحالة المعالجة",
+      "path": "shots/1289340_03.png"
+    }
+  ],
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289340_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289340_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289340_ios_03.png"
+    }
+  ],
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289340_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289340_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289340_ios_03.png"
+    }
+  ]
+}
