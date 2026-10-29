@@ -43,10 +43,11 @@
     }
   ],
   "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
+    "status": "REFUSED_BY_PRESIDENT",
+    "decree_id": "REFUSAL-ROYAL-1289295",
+    "president_notes_ar": "Dual-Platform Clone Fraud: iOS screenshots replicate Android Compose layout with zero authentic Cupertino/SwiftUI components and fake fallback",
+    "decree_timestamp": "2026-10-29T22:18:16Z",
+    "disciplinary_action": "HEADMASTER_PENALIZED_25_PTS_AND_FACTORY_REBUILD_TRIGGERED"
   },
   "tech_stack": [
     "Kotlin 2.1 Multiplatform",

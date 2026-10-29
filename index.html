@@ -757,16 +757,26 @@
       
       document.getElementById("modalAppName").innerText = (currentSpec && currentSpec.app_name) || `#${projId}`;
       
-      // Populate Supreme President Signature
+      // Populate Supreme President Signature (No Fake Fallback)
       if (currentSpec && currentSpec.president_signature) {
         const ps = currentSpec.president_signature;
-        document.getElementById("modalPresidentStatus").innerText = (ps.status === "APPROVED_BY_PRESIDENT") ? "APPROVED_BY_PRESIDENT 👑" : ps.status;
-        document.getElementById("modalPresidentSignature").innerText = ps.signature_hash || "PENDING_PRESIDENTIAL_SIGNATURE";
-        document.getElementById("modalPresidentNote").innerText = ps.president_notes_ar ? `«${ps.president_notes_ar}»` : "قيد المراجعة الرئاسية";
+        if (ps.status === "REFUSED_BY_PRESIDENT") {
+          document.getElementById("modalPresidentStatus").innerText = "REFUSED_BY_PRESIDENT 🔴";
+          document.getElementById("modalPresidentSignature").innerText = ps.decree_id || "REFUSAL-ROYAL-VETO";
+          document.getElementById("modalPresidentNote").innerText = ps.president_notes_ar ? `«${ps.president_notes_ar}»` : "مرفوض بقرار رئاسي قاطع";
+        } else if (ps.status === "APPROVED_BY_PRESIDENT") {
+          document.getElementById("modalPresidentStatus").innerText = "APPROVED_BY_PRESIDENT 👑";
+          document.getElementById("modalPresidentSignature").innerText = ps.signature_hash || "PENDING_PRESIDENTIAL_SIGNATURE";
+          document.getElementById("modalPresidentNote").innerText = ps.president_notes_ar ? `«${ps.president_notes_ar}»` : "معتمد بأمر الرئيس";
+        } else {
+          document.getElementById("modalPresidentStatus").innerText = "PENDING_PRESIDENT_SIGNATURE ⏳";
+          document.getElementById("modalPresidentSignature").innerText = "NONE (لم يتم التوقيع)";
+          document.getElementById("modalPresidentNote").innerText = "قيد فحص ومصادقة الرئيس شخصياً";
+        }
       } else {
-        document.getElementById("modalPresidentStatus").innerText = "APPROVED_BY_PRESIDENT 👑";
-        document.getElementById("modalPresidentSignature").innerText = "HMAC-SHA256-ROYAL-DECREE-0C251A40810204F8C566761BB2F8970D";
-        document.getElementById("modalPresidentNote").innerText = "«معتمد بأمر رئيس المنظومة والمالك الأعلى — منصة رائدة متكاملة»";
+        document.getElementById("modalPresidentStatus").innerText = "PENDING_PRESIDENT_SIGNATURE ⏳";
+        document.getElementById("modalPresidentSignature").innerText = "NONE (لم يتم التوقيع)";
+        document.getElementById("modalPresidentNote").innerText = "قيد فحص ومصادقة الرئيس شخصياً";
       }
 
       if (communityData && communityData.verified_projects) {
@@ -922,7 +932,13 @@
       // Render Dynamic Presidential Seal in Header
       const presSeal = document.getElementById("presidentHeaderSeal");
       if (presSeal) {
-        if (spec.president_signature && spec.president_signature.status === "APPROVED_BY_PRESIDENT") {
+        if (spec.president_signature && spec.president_signature.status === "REFUSED_BY_PRESIDENT") {
+          presSeal.className = "px-2.5 py-0.5 rounded-full text-[10px] font-black bg-rose-500/20 text-rose-300 border border-rose-500/40 flex items-center gap-1 shadow-sm";
+          presSeal.innerHTML = `
+            <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+            مرفوض بأمر الرئيس ومُعاد للمصنع (Refused 🔴)
+          `;
+        } else if (spec.president_signature && spec.president_signature.status === "APPROVED_BY_PRESIDENT") {
           presSeal.className = "px-2.5 py-0.5 rounded-full text-[10px] font-black bg-gradient-to-r from-amber-500/20 via-amber-400/15 to-amber-500/10 text-amber-300 border border-amber-400/50 flex items-center gap-1 shadow-sm";
           presSeal.innerHTML = `
             <svg class="w-3.5 h-3.5 text-amber-400 animate-pulse" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
@@ -946,12 +962,22 @@
       renderScreenshots(spec);
     }
 
-    function renderFallback(projectId) {
-      renderShowcase({
-        project_id: projectId,
-        app_name: "تطبيق تجاري متكامل (Kotlin Multiplatform)",
-        tagline: "كود موحد 100% لتطبيقي Android & iOS مع واجهات أصلية ومحاكاة سحابية مؤكدة"
-      });
+    function renderErrorState(projectId, errorMsg) {
+      const container = document.getElementById("screenshotsGrid");
+      if (container) {
+        container.innerHTML = `
+          <div class="col-span-full my-8 bg-rose-950/40 border border-rose-500/40 rounded-3xl p-8 text-center space-y-4 shadow-2xl backdrop-blur">
+            <div class="w-14 h-14 mx-auto rounded-2xl bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold text-2xl">⚠️</div>
+            <h3 class="text-lg font-black text-white">مشروع غير معتمد أو مرفوض بمرسوم رئاسي (#${projectId})</h3>
+            <p class="text-xs text-rose-200/80 leading-relaxed max-w-xl mx-auto">
+              بناءً على التوجيهات الرئاسية الصارمة، تم حظر أي واجهات بديلة وهمية (Zero Fallback Policy). المشروع قيد إعادة البناء الفعلي بالمصنع.
+            </p>
+            <div class="inline-block p-2.5 px-4 bg-slate-950/80 rounded-xl border border-rose-900/50 text-xs font-mono text-rose-300">
+              ${errorMsg || "SPEC_UNAVAILABLE: Authentic dual-platform proofs are undergoing mandatory rebuild"}
+            </div>
+          </div>
+        `;
+      }
     }
 
     async function loadData() {
@@ -967,12 +993,12 @@
 
       try {
         const res = await fetch(`specs/${projectId}.json`);
-        if (!res.ok) throw new Error("Spec file not found");
+        if (!res.ok) throw new Error(`Spec file specs/${projectId}.json not found (HTTP ${res.status})`);
         currentSpec = await res.json();
         renderShowcase(currentSpec);
       } catch (err) {
-        console.warn("Falling back to default spec:", err);
-        renderFallback(projectId);
+        console.error("Zero Fallback Policy Triggered:", err);
+        renderErrorState(projectId, err.message);
       }
     }
 
