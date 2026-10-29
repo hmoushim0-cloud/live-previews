@@ -1,0 +1,73 @@
+{
+  "project_id": "1289351",
+  "app_name": "الإنجاز للشحن والتوصيل",
+  "tagline": "شحن وتوصيل سريع وموثوق لقطع الغيار في جميع أنحاء المملكة",
+  "preset": "food",
+  "archetype": "dynamic_island_tracker",
+  "theme": {
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
+  },
+  "description": "تطبيق الإنجاز للشحن والتوصيل هو منصة شحن متكاملة مصممة لتبسيط عمليات الشحن لقطع الغيار. يوفر التطبيق تجربة مستخدم سلسة، مع خيارات شحن متعددة، وتتبع لحظي، وبوابة دفع آمنة. من خلال أتمتة العمليات، نضمن كفاءة عالية وتوفير الوقت، مما يعزز نمو أعمال الشحن الخاصة بالعميل. كما أننا نضمن تجربة مستخدم سريعة وممتعة، مما يعزز ولاء العملاء ورضاهم.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال توفير حلول شحن سريعة وموثوقة، مما يعزز تجربة العملاء ويثق بهم في خدماتنا.",
+    "automation_value": "توفير 40 ساعة شهريًا من خلال أتمتة عمليات الشحن، مما يقلل من الأخطاء البشرية ويزيد من كفاءة العمليات.",
+    "retention_value": "استجابة فائقة السرعة في معالجة الطلبات وتتبع الشحنات، مما يعزز ولاء العملاء ورضاهم."
+  },
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
+      "path": "shots/1289351_01.png"
+    },
+    {
+      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
+      "path": "shots/1289351_02.png"
+    },
+    {
+      "title": "شاشة التتبع المباشر وحالة المعالجة",
+      "path": "shots/1289351_03.png"
+    }
+  ],
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289351_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289351_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289351_ios_03.png"
+    }
+  ],
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289351_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289351_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289351_ios_03.png"
+    }
+  ]
+}
