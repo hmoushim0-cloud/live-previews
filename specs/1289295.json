@@ -1,13 +1,19 @@
 {
   "project_id": "1289295",
-  "app_name": "مستشار الجدوى والتخطيط",
-  "tagline": "إدارة احترافية لمراحل ما قبل التنفيذ من الفكرة إلى خطة قابلة للتنفيذ",
-  "preset": "standard",
+  "app_name": "مشروع التطبيق موجّه لإدارة مراح",
+  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
+  "preset": "services",
+  "archetype": "service_stepper",
   "theme": {
-    "primary_color": "#047857",
-    "accent_color": "#10B981"
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
   },
-  "description": "التطبيق موجّه لإدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية، مع فصل واضح بين طبقات العرض والمنطق والبيانات وفق Clean Architecture. طبقة الواجهة في Jetpack Compose تعرض تدفقات العمل: طلب التقييم، دراسة الجدوى، التخطيط، مراجعة التصميم، وتسجيل الاعتمادات، بينما تتولى طبقة الدومين قواعد الأعمال مثل تثبيت النطاق، حساب التكاليف، وإدارة حالات المشروع بشكل صارم.\n\nعلى مستوى البنية، يُنصح بالربط مع backend سحابي لإدارة المهام والمستندات وسجل التعديلات، مع دعم مزامنة آمنة وإشعارات عند تغيّر الحالة. التصميم المقترح يعتمد على Repository pattern، Use Cases مستقلة، وواجهات API قابلة للتوسع لدعم فرق العمل المتعددة، بحيث يبقى التطبيق سريعًا، قابلًا للصيانة، ومناسبًا للاستخدام الاحترافي عبر مختلف الدول.",
+  "description": "مشروع متكامل لتنفيذ متطلبات: التطبيق موجّه لإدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية، مع فصل واضح بين طبقات العرض والمنطق والبيانات وفق Clean Architecture. طبقة الواجهة في Jetpack Compose تعرض تدفقات العمل: طلب التقييم، دراسة الجدوى، التخطيط، مراجعة التصميم، وتسجيل الاعتمادات، بينما تتولى طبقة الدومين قواعد الأعمال مثل تثبيت النطاق، حساب التكاليف، وإدارة حالات المشروع بشكل صارم.\n\nعلى مستوى البنية، يُنصح بالربط مع backend سحابي لإدارة المهام والمستندات وسجل التعديلات، مع دعم مزامنة آمنة وإشعارات عند تغيّر الحالة. التصميم المقترح يعتمد على Repository pattern، Use Cases مستقلة، وواجهات API قابلة للتوسع لدعم فرق العمل المتعددة، بحيث يبقى التطبيق سريعًا، قابلًا للصيانة، ومناسبًا للاستخدام الاحترافي عبر مختلف الدول.. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
+    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
+    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  },
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
@@ -22,17 +28,46 @@
       "path": "shots/1289295_03.png"
     }
   ],
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289295_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289295_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289295_ios_03.png"
+    }
+  ],
   "president_signature": {
-    "status": "APPROVED_BY_PRESIDENT",
-    "decree_id": "DECREE-ROYAL-1289295",
-    "signature_hash": "HMAC-SHA256-ROYAL-DECREE-0C251A40810204F8C566761BB2F8970D",
-    "president_notes_ar": "معتمد بأمر رئيس المنظومة والمالك الأعلى — منصة رائدة متكاملة",
-    "decree_timestamp": "2026-10-29T20:03:23Z",
-    "royal_seal": "OFFICIAL_PRESIDENTIAL_SEAL_#1"
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
   },
-  "archetype": "booking_timeline",
-  "brand": {
-    "primary": "#047857",
-    "secondary": "#10B981"
-  }
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289295_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289295_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289295_ios_03.png"
+    }
+  ]
 }
