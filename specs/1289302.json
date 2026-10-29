@@ -1,13 +1,19 @@
 {
   "project_id": "1289302",
   "app_name": "خبير التنفيذ",
-  "tagline": "حلول استشارية احترافية للتنفيذ والإشراف",
-  "preset": "services",
+  "tagline": "حلول شاملة لإدارة المشاريع الهندسية",
+  "preset": "ecommerce",
+  "archetype": "map_radar",
   "theme": {
-    "primary_color": "#C2410C",
-    "accent_color": "#FB923C"
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
   },
-  "description": "يقدم تطبيق خبير التنفيذ حلولاً شاملة لإدارة مشاريع التنفيذ والإشراف. يضمن النظام هندسة نظيفة وطبقات واضحة، مع ربط سحابي فعال. يوفر التطبيق منصة آمنة لاستشارات الخبراء، مع التركيز على إدارة الجودة والالتزام بالميزانية. يضمن التطبيق تقديم خدمات احترافية في مجالات الهندسة المدنية والإنشائية والكهروميكانيكية.",
+  "description": "يقدم تطبيق خبير التنفيذ منصة شاملة لإدارة المشاريع الهندسية، مع التركيز على الكفاءة والأمان. من خلال تصميم طبقات واضحة، يضمن التطبيق سهولة الاستخدام والوصول إلى الخدمات الهندسية المتخصصة. الربط السحابي الفعال يضمن أمان البيانات وسهولة الوصول إليها. يوفر التطبيق منصة استشارات موثوقة، مما يعزز ثقة العملاء ويزيد من ولائهم. أتمتة العمليات تزيد من كفاءة العمل وتقلل من الوقت المستغرق في معالجة الطلبات، مما يؤدي إلى زيادة الإنتاجية.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال تبسيط عملية الشراء في 3 خطوات فقط",
+    "automation_value": "توفير 40 ساعة شهريًا من خلال أتمتة معالجة الطلبات والفواتير",
+    "retention_value": "استجابة فائقة السرعة بمعدل 60 إطارًا في الثانية تعزز ولاء العملاء"
+  },
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
@@ -22,15 +28,46 @@
       "path": "shots/1289302_03.png"
     }
   ],
-  "archetype": "booking_timeline",
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289302_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289302_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289302_ios_03.png"
+    }
+  ],
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
   },
-  "brand": {
-    "primary": "#C2410C",
-    "secondary": "#FB923C"
-  }
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289302_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289302_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289302_ios_03.png"
+    }
+  ]
 }
