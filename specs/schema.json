@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UniversalAppSpec",
+  "type": "object",
+  "required": ["project_id", "app_name", "preset", "items"],
+  "properties": {
+    "project_id": { "type": "string" },
+    "app_name": { "type": "string" },
+    "tagline": { "type": "string" },
+    "preset": { "type": "string", "enum": ["food", "ecommerce", "standard", "services", "custom"] },
+    "theme": {
+      "type": "object",
+      "properties": {
+        "primary_color": { "type": "string" },
+        "accent_color": { "type": "string" }
+      }
+    },
+    "banner": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string" },
+          "desc": { "type": "string" },
+          "price": { "type": "string" },
+          "icon": { "type": "string" }
+        }
+      }
+    },
+    "nav_tabs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "icon": { "type": "string" }
+        }
+      }
+    },
+    "commit_hash": { "type": "string" },
+    "proof_screenshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "path": { "type": "string" },
+          "fallback": { "type": "string" }
+        }
+      }
+    }
+  }
+}
