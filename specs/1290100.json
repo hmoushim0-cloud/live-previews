@@ -3,7 +3,7 @@
   "app_name": "غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات",
   "tagline": "منصة تشغيل ميدانية متكاملة لغسيل وتلميع المركبات عند باب العميل",
   "preset": "services",
-  "archetype": "booking_timeline",
+  "archetype": "map_radar",
   "theme": {
     "primary_color": "#0284c7",
     "accent_color": "#f59e0b"

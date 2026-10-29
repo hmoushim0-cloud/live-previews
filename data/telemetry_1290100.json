@@ -9,8 +9,8 @@
     "api_calls_succeeded": 1,
     "api_calls_failed": 0,
     "fallback_retries": 0,
-    "build_run_id": 40968865486,
-    "emulator_run_id": 40969025971
+    "build_run_id": 40972272852,
+    "emulator_run_id": 40972484657
   },
   "token_accounting": {
     "prompt_tokens": 638,
@@ -32,7 +32,7 @@
     "ci_retry_count": 0
   },
   "ui_provenance": {
-    "uiex_archetype": "booking_timeline",
+    "uiex_archetype": "map_radar",
     "brand_palette": {
       "primary": "#0284c7",
       "secondary": "#f59e0b",
