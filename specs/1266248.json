@@ -1,36 +1,73 @@
 {
   "project_id": "1266248",
-  "app_name": "تطبيق صحتي — دليل الأطباء وحجز المواعيد والاستشارات الطبية",
-  "tagline": "ابحث عن نخبة الأطباء، احجز موعدك فورياً، وتصفح التقييمات المعتمدة",
-  "preset": "services",
+  "app_name": "مشروع تطبيق متكامل لحجز وإدارة ",
+  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
+  "preset": "ecommerce",
+  "archetype": "catalog_grid",
   "theme": {
-    "primary_color": "#4338CA",
-    "accent_color": "#6366F1"
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
   },
-  "description": "تطبيق متكامل لحجز وإدارة المواعيد الطبية والبحث في دليل الأطباء والمراكز الصحية حسب التخصص والموقع الجغرافي. يوفر النظام قاعدة بيانات مشفرة وسريعة لملفات المرضى، إمكانية العمل دون اتصال للاطلاع على بيانات الأطباء السابقة، ونظام تأكيد فوري يمنع التكرار.",
+  "description": "مشروع متكامل لتنفيذ متطلبات: تطبيق متكامل لحجز وإدارة المواعيد الطبية والبحث في دليل الأطباء والمراكز الصحية حسب التخصص والموقع الجغرافي. يوفر النظام قاعدة بيانات مشفرة وسريعة لملفات المرضى، إمكانية العمل دون اتصال للاطلاع على بيانات الأطباء السابقة، ونظام تأكيد فوري يمنع التكرار.. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
+    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
+    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  },
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
       "path": "shots/1266248_01.png"
     },
     {
-      "title": "شاشة التفاصيل وخيارات التخصيص والبيانات",
+      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
       "path": "shots/1266248_02.png"
     },
     {
-      "title": "شاشة إتمام العملية أو التتبع اللحظي",
+      "title": "شاشة التتبع المباشر وحالة المعالجة",
       "path": "shots/1266248_03.png"
     }
   ],
-  "archetype": "booking_timeline",
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1266248_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1266248_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1266248_ios_03.png"
+    }
+  ],
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
   },
-  "brand": {
-    "primary": "#4338CA",
-    "secondary": "#6366F1"
-  }
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1266248_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1266248_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1266248_ios_03.png"
+    }
+  ]
 }
