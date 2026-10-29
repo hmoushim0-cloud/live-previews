@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Phone Background -->
+  <rect width="390" height="844" fill="#0f172a" rx="40"/>
+
+  <!-- Status Bar -->
+  <text x="35" y="38" fill="#94a3b8" font-family="sans-serif" font-size="12" font-weight="bold">09:41</text>
+  <rect x="145" y="16" width="100" height="18" rx="9" fill="#000000"/>
+  <text x="325" y="38" fill="#94a3b8" font-family="sans-serif" font-size="11">5G 100%</text>
+
+  <!-- App Header -->
+  <text x="350" y="85" text-anchor="end" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="900">شاورما وبورجر السعادة</text>
+  <text x="350" y="105" text-anchor="end" fill="#94a3b8" font-family="sans-serif" font-size="12">أشهى الوجبات بتوصيل سريع</text>
+  <circle cx="45" cy="90" r="18" fill="#1e293b"/>
+  <text x="45" y="96" text-anchor="middle" font-size="16">🔔</text>
+
+  <!-- Hero Promo Card -->
+  <rect x="25" y="130" width="340" height="120" rx="20" fill="url(#grad1)" filter="url(#shadow)"/>
+  <text x="340" y="170" text-anchor="end" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">عرض الغداء والتوصيل المجاني 🚀</text>
+  <text x="340" y="195" text-anchor="end" fill="#e0e7ff" font-family="sans-serif" font-size="12">استخدم كود الخصم: START2026</text>
+  <rect x="45" y="160" width="80" height="32" rx="10" fill="#ffffff"/>
+  <text x="85" y="181" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="11" font-weight="bold">اطلب الآن</text>
+
+  <!-- Section Title -->
+  <text x="350" y="285" text-anchor="end" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="bold">الأصناف الأكثر طلباً</text>
+
+  <!-- Item Cards (2x2 Grid) -->
+  <rect x="25" y="305" width="160" height="180" rx="16" fill="#1e293b" filter="url(#shadow)"/>
+  <rect x="35" y="315" width="140" height="90" rx="12" fill="#334155"/>
+  <text x="105" y="370" text-anchor="middle" font-size="36">🍔</text>
+  <text x="165" y="430" text-anchor="end" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">برجر لحم أنجوس</text>
+  <text x="165" y="450" text-anchor="end" fill="#f59e0b" font-family="sans-serif" font-size="12" font-weight="bold">28 ر.س</text>
+  <circle cx="45" cy="455" r="14" fill="#6366f1"/>
+  <text x="45" y="460" text-anchor="middle" fill="#ffffff" font-size="16">+</text>
+
+  <rect x="205" y="305" width="160" height="180" rx="16" fill="#1e293b" filter="url(#shadow)"/>
+  <rect x="215" y="315" width="140" height="90" rx="12" fill="#334155"/>
+  <text x="285" y="370" text-anchor="middle" font-size="36">🌯</text>
+  <text x="345" y="430" text-anchor="end" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold">شاورما عربي دبل</text>
+  <text x="345" y="450" text-anchor="end" fill="#f59e0b" font-family="sans-serif" font-size="12" font-weight="bold">22 ر.س</text>
+  <circle cx="225" cy="455" r="14" fill="#6366f1"/>
+  <text x="225" y="460" text-anchor="middle" fill="#ffffff" font-size="16">+</text>
+
+  <!-- Bottom Nav Bar -->
+  <rect x="0" y="760" width="390" height="84" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <text x="330" y="795" text-anchor="middle" font-size="18">🏠</text>
+  <text x="330" y="815" text-anchor="middle" fill="#6366f1" font-family="sans-serif" font-size="10" font-weight="bold">الرئيسية</text>
+
+  <text x="220" y="795" text-anchor="middle" font-size="18">🛍️</text>
+  <text x="220" y="815" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="10">سلتي</text>
+
+  <text x="110" y="795" text-anchor="middle" font-size="18">🛵</text>
+  <text x="110" y="815" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="10">طلباتي</text>
+
+  <text x="35" y="795" text-anchor="middle" font-size="18">👤</text>
+  <text x="35" y="815" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="10">حسابي</text>
+</svg>
