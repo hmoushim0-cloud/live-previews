@@ -1,0 +1,73 @@
+{
+  "project_id": "1289357",
+  "app_name": "متجر سلة الأثاث المنزلي",
+  "tagline": "أثاث منزلي راقٍ بلمسة ذكية",
+  "preset": "ecommerce",
+  "archetype": "catalog_grid",
+  "theme": {
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
+  },
+  "description": "تطبيق متجر سلة الأثاث المنزلي هو منصة متكاملة تخدم أهداف العميل في مجال الأثاث المنزلي. يوفر التطبيق تجربة مستخدم سلسة مع تصميم جذاب يعرض المنتجات بطريقة احترافية. نظام إدارة المخزون الذكي يضمن دقة البيانات وتتبع الطلبات. بوابة الدفع الآمنة تضمن معاملات آمنة، بينما الإشعارات الفورية تحافظ على تواصل العملاء مع تحديثات الطلبات. هذه الميزات مجتمعة تعزز نمو الأعمال وتوفر تجربة تسوق ممتعة للعملاء.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال تجربة شراء سلسة وسهلة، مع عرض منتجات الأثاث بطريقة جذابة.",
+    "automation_value": "توفير وقت الموظفين بنسبة 40% من خلال أتمتة عمليات إدارة المخزون والفواتير، مما يسرع معالجة الطلبات.",
+    "retention_value": "تحسين تجربة العملاء من خلال الاستجابة السريعة، مع معدل استجابة فائق السرعة يعزز ولاء العملاء."
+  },
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
+      "path": "shots/1289357_01.png"
+    },
+    {
+      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
+      "path": "shots/1289357_02.png"
+    },
+    {
+      "title": "شاشة التتبع المباشر وحالة المعالجة",
+      "path": "shots/1289357_03.png"
+    }
+  ],
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289357_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289357_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289357_ios_03.png"
+    }
+  ],
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289357_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289357_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289357_ios_03.png"
+    }
+  ]
+}
