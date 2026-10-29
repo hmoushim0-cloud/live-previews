@@ -23,31 +23,31 @@
       "title": "ثوب تقليدي",
       "desc": "ثوب رجالي تقليدي مصنوع يدوياً من أقمشة فاخرة",
       "price": "99.99 دولار",
-      "icon": "clothing"
+      "icon": "category"
     },
     {
       "title": "قهوة عربية",
       "desc": "قهوة عربية عالية الجودة، مزيج أصيل من حبوب مختارة بعناية",
       "price": "29.99 دولار",
-      "icon": "coffee"
+      "icon": "category"
     },
     {
       "title": "سجادة يدوية",
       "desc": "سجادة يدوية الصنع، تصميم عربي أصيل، ألوان زاهية",
       "price": "149.99 دولار",
-      "icon": "carpet"
+      "icon": "category"
     },
     {
       "title": "زيت أركان طبيعي",
       "desc": "زيت أركان المغربي الأصلي، غني بمضادات الأكسدة",
       "price": "49.99 دولار",
-      "icon": "oil"
+      "icon": "category"
     },
     {
       "title": "مزهرية فخارية",
       "desc": "مزهرية فخارية يدوية الصنع، تصميم أنيق وأصيل",
       "price": "39.99 دولار",
-      "icon": "vase"
+      "icon": "category"
     }
   ],
   "nav_tabs": [
@@ -57,12 +57,12 @@
       "icon": "home"
     },
     {
-      "id": "cart",
+      "id": "shopping_bag",
       "label": "عربة التسوق",
       "icon": "shopping-cart"
     },
     {
-      "id": "profile",
+      "id": "settings",
       "label": "الملف الشخصي",
       "icon": "user"
     }

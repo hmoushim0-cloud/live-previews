@@ -2,7 +2,7 @@
   "project_id": "1289250",
   "app_name": "شاورما الرياض السريعة",
   "tagline": "اطلب شاورما ومشاوي ساخنة مع توصيل سريع وتتبع حي حتى بابك",
-  "preset": "food",
+  "preset": "restaurant",
   "theme": {
     "primary_color": "#0f766e",
     "accent_color": "#f59e0b"

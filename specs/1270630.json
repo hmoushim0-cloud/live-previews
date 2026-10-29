@@ -2,7 +2,7 @@
   "project_id": "1270630",
   "app_name": "بايت — منصة توصيل الأطعمة وحفظ النعمة والوجبات الفائضة",
   "tagline": "وجبات طازجة من أفضل المطاعم بخصومات حصرية وتوصيل سريع حتى بابك",
-  "preset": "food",
+  "preset": "restaurant",
   "theme": {
     "primary_color": "#ea580c",
     "accent_color": "#16a34a"

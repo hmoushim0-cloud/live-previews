@@ -2,30 +2,76 @@
   "project_id": "sample_demo",
   "app_name": "شاورما وبورجر السعادة",
   "tagline": "أشهى الوجبات السريعة بتوصيل فوري في الرياض",
-  "preset": "food",
+  "preset": "restaurant",
   "theme": {
     "primary_color": "#ef4444",
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "عرض الغداء الحارق 🔥",
+    "title": "عرض الغداء الحارق",
     "subtitle": "وجبة بورجر دبل + بطاطس + مشروب بـ 29 ر.س فقط"
   },
-  "categories": ["الكل", "شاورما عربي", "برجر كلاسيك", "وجبات أطفال", "مقبلات وصوصات"],
+  "categories": [
+    "الكل",
+    "شاورما عربي",
+    "برجر كلاسيك",
+    "وجبات أطفال",
+    "مقبلات وصوصات"
+  ],
   "items": [
-    { "title": "شاورما صاروخ بالثوم", "desc": "دجاج متبل على الفحم مع صوص الثوم الخاص", "price": "18", "icon": "🌯" },
-    { "title": "برجر لحم بلاك أنجوس", "desc": "قطعة لحم طازجة 150 جرام مع جبنة تشيدر ذائبة", "price": "28", "icon": "🍔" },
-    { "title": "بطاطس كريسبي بالجبن", "desc": "أصابع بطاطس مقرمشة مع صوص هالبينو وجبنة", "price": "14", "icon": "🍟" },
-    { "title": "عصير رمان طبيعي مثلج", "desc": "عصير طازج 100% بدون سكر مضاف", "price": "12", "icon": "🥤" }
+    {
+      "title": "شاورما صاروخ بالثوم",
+      "desc": "دجاج متبل على الفحم مع صوص الثوم الخاص",
+      "price": "18",
+      "icon": "category"
+    },
+    {
+      "title": "برجر لحم بلاك أنجوس",
+      "desc": "قطعة لحم طازجة 150 جرام مع جبنة تشيدر ذائبة",
+      "price": "28",
+      "icon": "category"
+    },
+    {
+      "title": "بطاطس كريسبي بالجبن",
+      "desc": "أصابع بطاطس مقرمشة مع صوص هالبينو وجبنة",
+      "price": "14",
+      "icon": "category"
+    },
+    {
+      "title": "عصير رمان طبيعي مثلج",
+      "desc": "عصير طازج 100% بدون سكر مضاف",
+      "price": "12",
+      "icon": "category"
+    }
   ],
   "nav_tabs": [
-    { "id": "home", "label": "القائمة", "icon": "🍔" },
-    { "id": "cart", "label": "سلتي", "icon": "🛍️" },
-    { "id": "orders", "label": "طلباتي", "icon": "🛵" }
+    {
+      "id": "home",
+      "label": "القائمة",
+      "icon": "restaurant"
+    },
+    {
+      "id": "shopping_bag",
+      "label": "سلتي",
+      "icon": "shopping_bag"
+    },
+    {
+      "id": "shopping_bag",
+      "label": "طلباتي",
+      "icon": "delivery"
+    }
   ],
   "commit_hash": "c89b21d",
   "proof_screenshots": [
-    { "title": "إقلاع التطبيق على Pixel 8", "path": "shots/01_app_launched.png", "fallback": "Android 14 ARM64 Boots Clean" },
-    { "title": "اختبار إضافة السلة والمحاكي", "path": "shots/02_flow_diagnose.png", "fallback": "Compose Recomposition OK" }
+    {
+      "title": "إقلاع التطبيق على Pixel 8",
+      "path": "shots/01_app_launched.png",
+      "fallback": "Android 14 ARM64 Boots Clean"
+    },
+    {
+      "title": "اختبار إضافة السلة والمحاكي",
+      "path": "shots/02_flow_diagnose.png",
+      "fallback": "Compose Recomposition OK"
+    }
   ]
 }

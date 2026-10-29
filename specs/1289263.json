@@ -20,7 +20,7 @@
       "title": "ESP32 Bluetooth Hands-Free",
       "desc": "برمجة ESP32-WROOM-32 للعمل كجهاز حر اليدين، مع اتصال ثنائي الاتجاه وزمن تأخير منخفض. استمتع بمكالمات صوتية واضحة وآمنة عبر WiFi وسيرفر الإنترنت.",
       "price": "مجاني",
-      "icon": "bluetooth"
+      "icon": "category"
     }
   ],
   "nav_tabs": [
@@ -30,12 +30,12 @@
       "icon": "home"
     },
     {
-      "id": "cart",
+      "id": "shopping_bag",
       "label": "المشتريات",
       "icon": "shopping_cart"
     },
     {
-      "id": "profile",
+      "id": "settings",
       "label": "الملف الشخصي",
       "icon": "person"
     }

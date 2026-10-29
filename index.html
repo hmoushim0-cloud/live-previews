@@ -20,13 +20,13 @@
     <header class="w-full flex flex-col md:flex-row items-center justify-between gap-4 pb-6 border-b border-slate-800">
       <div class="flex items-center gap-3 w-full md:w-auto">
         <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-black text-2xl shadow-xl shadow-indigo-500/20 shrink-0">
-          ⚡
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         </div>
         <div>
           <div class="flex items-center gap-2">
             <h1 class="text-xl md:text-2xl font-black text-white" id="appTitle">توثيق النظام والمشروع</h1>
             <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-              🟢 معتمد وجاهز
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> معتمد وجاهز
             </span>
           </div>
           <p class="text-xs text-slate-400 mt-0.5" id="appTagline">لقطات النظام الحقيقي + المواصفات الفنية المعتمدة</p>
@@ -57,12 +57,12 @@
       </div>
     </header>
 
-    <!-- 📸 Section 1: Real Screenshots Gallery (لقطات التطبيق الحقيقي) -->
+    <!-- Section 1: Real Screenshots Gallery (لقطات التطبيق الحقيقي) -->
     <section class="w-full flex flex-col gap-4">
       <div class="flex items-center justify-between">
         <div>
           <h2 class="text-lg font-bold text-white flex items-center gap-2">
-            <span>📸</span> لقطات النظام الحقيقي (Real Verified App Screenshots)
+            <svg class="w-5 h-5 text-indigo-400 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg> لقطات النظام الحقيقي (Real Verified App Screenshots)
           </h2>
           <p class="text-xs text-slate-400">لقطات فعلية مأخوذة آلياً من واجهات Compose ومحاكي الجهاز دون أي قوالب وهمية</p>
         </div>
@@ -75,11 +75,11 @@
       </div>
     </section>
 
-    <!-- 📄 Section 2: Technical Description & Specifications (الوصف والمواصفات الفنية) -->
+    <!-- Section 2: Technical Description & Specifications (الوصف والمواصفات الفنية) -->
     <section class="w-full bg-slate-900/60 border border-slate-800 rounded-3xl p-6 md:p-8 flex flex-col gap-6 backdrop-blur">
       <div>
         <h3 class="text-lg font-bold text-white flex items-center gap-2 mb-2">
-          <span>📝</span> تفاصيل ومواصفات المشروع (Technical Scope & Architecture)
+          <svg class="w-5 h-5 text-indigo-400 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg> تفاصيل ومواصفات المشروع (Technical Scope & Architecture)
         </h3>
         <p class="text-sm text-slate-300 leading-relaxed" id="projectBriefText">
           جاري تحميل المواصفات الفنية...
@@ -89,17 +89,17 @@
       <!-- Key Deliverables Grid -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 border-t border-slate-800/80">
         <div class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-4 flex flex-col gap-2">
-          <span class="text-2xl">🏛️</span>
+          <div class="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center shrink-0"><svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
           <h4 class="text-xs font-bold text-white">Clean Architecture</h4>
           <p class="text-[11px] text-slate-400">فصل كامل للطبقات (Domain, Data, UI) بنمط MVVM ومعايير جوجل الرسمية بدون اعتماديات مكررة.</p>
         </div>
         <div class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-4 flex flex-col gap-2">
-          <span class="text-2xl">⚡</span>
+          <span class="text-2xl"><svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></span>
           <h4 class="text-xs font-bold text-white">Kotlin 2.0 & Jetpack Compose</h4>
           <p class="text-[11px] text-slate-400">واجهات برمجية تفاعلية حديثة كلياً فائقة السرعة مع دعم كامل للوضع الليلي واللغة العربية وتوافق الشاشات.</p>
         </div>
         <div class="bg-slate-800/50 border border-slate-700/50 rounded-2xl p-4 flex flex-col gap-2">
-          <span class="text-2xl">🛡️</span>
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center shrink-0"><svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
           <h4 class="text-xs font-bold text-white">Zero-Vulnerability Gate</h4>
           <p class="text-[11px] text-slate-400">فحص أمني معتمد بشهادة فحص MobSF وحماية التشفير والبيانات الحساسة (SQLCipher & TLS Pinning).</p>
         </div>
