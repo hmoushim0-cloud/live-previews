@@ -22,7 +22,7 @@
       "path": "shots/1289318_03.png"
     }
   ],
-  "archetype": "map_radar",
+  "archetype": "service_stepper",
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,

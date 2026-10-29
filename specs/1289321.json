@@ -22,7 +22,7 @@
       "path": "shots/1289321_03.png"
     }
   ],
-  "archetype": "catalog_grid",
+  "archetype": "booking_timeline",
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,

@@ -22,7 +22,7 @@
       "path": "shots/1266494_03.png"
     }
   ],
-  "archetype": "medical_portal",
+  "archetype": "booking_timeline",
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,

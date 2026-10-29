@@ -30,7 +30,7 @@
     "decree_timestamp": "2026-10-29T20:03:23Z",
     "royal_seal": "OFFICIAL_PRESIDENTIAL_SEAL_#1"
   },
-  "archetype": "service_stepper",
+  "archetype": "booking_timeline",
   "brand": {
     "primary": "#047857",
     "secondary": "#10B981"

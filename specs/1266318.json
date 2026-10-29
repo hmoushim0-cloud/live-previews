@@ -22,7 +22,7 @@
       "path": "shots/1266318_03.png"
     }
   ],
-  "archetype": "catalog_grid",
+  "archetype": "cupertino_storefront",
   "president_signature": {
     "status": "PENDING_PRESIDENT_SIGNATURE",
     "decree_id": null,
