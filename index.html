@@ -49,8 +49,39 @@
         color: #0f172a !important;
         padding: 0 !important;
       }
-      .no-print, header, aside, #projectSelector, button, footer, #verificationModal, .seal-ribbon, #viewModeToggle {
+      .no-print, aside, #projectSelector, button, footer, #verificationModal, #interactiveSimulatorContainer {
         display: none !important;
+      }
+      header {
+        display: flex !important;
+        background: #f8fafc !important;
+        border: 2px solid #cbd5e1 !important;
+        color: #0f172a !important;
+        box-shadow: none !important;
+        margin-bottom: 24px !important;
+        page-break-after: avoid;
+        break-after: avoid;
+      }
+      #screenshotsGrid {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 16px !important;
+      }
+      #apkDownloadCard {
+        background: #f0fdfa !important;
+        border: 2px solid #0f766e !important;
+        color: #0f172a !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+      #apkDownloadCard h3, #apkDownloadCard p, #apkDownloadCard strong {
+        color: #0f172a !important;
+      }
+      #apkDownloadCard span {
+        color: #0f766e !important;
+      }
+      #apkQrCodeImg {
+        border: 1px solid #0f766e !important;
       }
       main {
         max-width: 100% !important;
@@ -349,10 +380,14 @@
               </span>
             </div>
 
-            <!-- Device Frame -->
-            <div id="simDeviceFrame" class="device-android bg-slate-950 overflow-hidden relative flex flex-col items-center border border-slate-800 p-2 shadow-inner">
+            <!-- Device Frame (Interactive Click-Through) -->
+            <div id="simDeviceFrame" onclick="advanceInteractiveScreen()" class="device-android bg-slate-950 overflow-hidden relative flex flex-col items-center border border-slate-800 p-2 shadow-inner cursor-pointer group/device" title="انقر على الشاشة للانتقال التفاعلي للشاشة التالية">
               <div id="simNotchElement" class="camera-punch"></div>
               <img id="simActiveImage" src="" alt="Interactive Screen Preview" class="w-full h-auto max-h-[580px] object-contain rounded-2xl shadow-md mt-1 transition-all duration-300">
+              <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-slate-950/85 backdrop-blur border border-teal-500/40 text-[9px] font-bold text-teal-300 px-3 py-1 rounded-full shadow-lg opacity-0 group-hover/device:opacity-100 transition pointer-events-none flex items-center gap-1.5 whitespace-nowrap">
+                <svg class="w-3 h-3 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/></svg>
+                انقر لتجربة الانتقال للشاشة التالية
+              </div>
             </div>
 
             <!-- Screen Title & Next Action Button -->
@@ -970,7 +1005,7 @@
       const activeShots = getActiveShotsList(spec);
 
       let html = "";
-      activeShots.forEach((s) => {
+      activeShots.forEach((s, sIdx) => {
         const frameClass = isIOS ? "device-ios" : "device-android";
         const notchElement = isIOS 
           ? '<div class="dynamic-island"></div>' 
@@ -980,7 +1015,7 @@
           : '<span class="text-[10px] text-teal-400 font-bold bg-teal-500/10 px-2 py-0.5 rounded-md border border-teal-500/20">Pixel 6 • 1080x2400</span>';
 
         html += `
-          <div class="bg-slate-900 border border-slate-800 rounded-3xl p-4 flex flex-col gap-3 shadow-xl hover:border-slate-700 transition relative overflow-hidden group">
+          <div onclick="switchViewMode('simulator'); setInteractiveStep(${sIdx});" class="bg-slate-900 border border-slate-800 rounded-3xl p-4 flex flex-col gap-3 shadow-xl hover:border-teal-500/50 hover:shadow-teal-500/10 cursor-pointer transition relative overflow-hidden group" title="انقر لتشغيل المحاكي التفاعلي لهذه الشاشة">
             
             <!-- Verified Community Stamp Watermark on device -->
             <div class="absolute top-6 left-6 z-10 opacity-70 group-hover:opacity-100 transition pointer-events-none">
