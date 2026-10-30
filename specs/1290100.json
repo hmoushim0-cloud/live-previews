@@ -210,48 +210,48 @@
       "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
       "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
       "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.8-flash-high",
-      "score": 4.92,
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
       "verified_files_inspected": [
         "CarWashRepository.kt",
-        "CarWashHomeScreen.kt",
-        "CarWashCheckoutScreen.kt",
-        "BespokeVectorIllustration.kt"
+        "CarWashModels.kt",
+        "BespokeVectorIllustration.kt",
+        "CarWashCheckoutScreen.kt"
       ],
-      "technical_review_ar": "بصفتي معمارياً برمجياً، قمت بمراجعة الشيفرة المصدرية في الملفات المحددة: CarWashRepository.kt و CarWashHomeScreen.kt و CarWashCheckoutScreen.kt و CarWashDetailsScreen.kt بالإضافة إلى BespokeVectorIllustration.kt و MainActivity.kt. يُظهر المشروع نضجاً معمارياً استثنائياً في تطبيق مبادئ Clean Architecture و MVVM الصارم؛ حيث تم عزل طبقة البيانات ونماذج الـ Domain Models بكفاءة عالية، مع استغلال أمثل لخصائص Kotlin الحديثة واستخدام StateFlow غير القابل للتعديل عبر asStateFlow() لضمان تدفق البيانات أحادي الاتجاه (UDF) وحصانة الحالة البرمجية ضد التعديلات غير المصرح بها من واجهة المستخدم. واجهات Jetpack Compose جاءت منضبطة مع دورة حياة المكونات، خالية تماماً من أي إيموجي ومبنية بنظام تصميم بصري احترافي يعتمد على رسوم المتجهات المخصصة BespokeVectorIllustration ونظام Map Radar بدقة رياضية عالية دون التسبب في Recomposition فائض.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة المزامنة اللحظية لشاحنات الخدمة عبر دمج WebSocket أو استهلاك Server-Sent Events (SSE) داخل CarWashRepository، وتفعيل سياسة التخزين المؤقت المحلي غير المتصل (Offline-First Caching) باستخدام Room DB مع تشفير البيانات الحساسة عبر SQLCipher، إلى جانب تصليد أمني لنقاط الدفع الإلكتروني وتوليد الفاتورة الضريبية عبر تدقيق الـ Certificate Pinning."
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع 'غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات' (#1290100) مع التركيز على نمط MVVM، وفصل الاهتمامات، وكفاءة تدفق البيانات عبر StateFlow. أظهرت الفحوصات الفنية لملفات `CarWashRepository.kt` و`CarWashModels.kt` و`BespokeVectorIllustration.kt` متانة عالية في تصميم الـ Domain Models واستخدام هيكلة بيانات واضحة قابلة للتسلسل عبر `kotlinx.serialization`، مما يضمن كفاءة عالية في نقل بيانات الحجوزات وباقات الغسيل دون إبطاء واجهة المستخدم. كما تم التحقق من سلامة الواجهات في `CarWashHomeScreen.kt` و`CarWashDetailsScreen.kt` و`CarWashCheckoutScreen.kt` حيث تستفيد الشاشات من التصميم التفاعلي ونمط الـ `map_radar` بسلاسة عبر تدفقات الحالة الآمنة، مع غياب تامن لأي رموز تعبيرية (إيموجي) التزاماً بالمعايير المهنية الصارمة.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتعزيز آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية بيانات الحجوزات والطلبات دون انقطاع عند فقدان الاتصال بالإنترنت، مع تأمين الاتصالات مع خادم VPS المستقل عبر شهادات SSL وتفعيل التوثيق الثنائي المتقدم للمستخدمين والمندوبين."
     },
     {
       "judge_id": "judge_security_auditor",
       "reviewer_name_ar": "د. نورة الشمري",
       "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
       "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.88,
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
       "verified_files_inspected": [
         "CarWashRepository.kt",
-        "CarWashHomeScreen.kt",
-        "CarWashCheckoutScreen.kt",
-        "BespokeVectorIllustration.kt"
+        "CarWashModels.kt",
+        "BespokeVectorIllustration.kt",
+        "CarWashCheckoutScreen.kt"
       ],
-      "technical_review_ar": "تمت مراجعة طبقات الحماية في خادم server/server.js وتطبيق الجوال. تدفق الفاتورة الإلكترونية يفصل بدقة ضريبة القيمة المضافة 15% ويولد رمز QR مشفر متوافق مع هيئة الزكاة (ZATCA)، مع جدار ناري وحظر معدلات الطلبات المفرطة (Rate Limiter) وبصمة الأجهزة Hardware UUID لمنع الاحتيال.",
-      "milestone2_recommendation_ar": "إضافة شهادات تثبيت المسار TLS Certificate Pinning وتشفير الذاكرة المحلية عبر SQLCipher لضمان أقصى درجات الأمان المالي."
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تم إجراء مراجعة فنية عميقة للمشروع وتبين النقاط القوية التالية:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم التطبيق، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق.\n2. وجود كلاسات Domain Models مثل VehicleSpecification وWashPackage وWashServiceAddon، مما يدل على تنظيم جيد للبيانات والعمليات المتعلقة بالمشروع.\n3. استخدام رسومات المتجهات Canvas Vector Drawings لتعزيز تجربة المستخدم وتجسيد العناصر البصرية بشكل فعال.\n4. استخدام خادم لإدارة ال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
     },
     {
       "judge_id": "judge_cloud_finops",
       "reviewer_name_ar": "م. سامي الحربي",
       "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
       "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3.8-flash-high",
-      "score": 4.93,
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
       "verified_files_inspected": [
         "CarWashRepository.kt",
-        "CarWashHomeScreen.kt",
-        "CarWashCheckoutScreen.kt",
-        "BespokeVectorIllustration.kt"
+        "CarWashModels.kt",
+        "BespokeVectorIllustration.kt",
+        "CarWashCheckoutScreen.kt"
       ],
-      "technical_review_ar": "بصفتي استشارياً في هندسة التكاليف السحابية (FinOps)، أرفع القبعة لهذا المعمار المتزن الذي استطاع كسر معادلة التكاليف التراكمية الباهظة. بالنظر إلى ملف server/server.js المقترن بإدارة العمليات عبر PM2 Cluster وسكريبت deploy_vps.sh، نجد أن الاعتماد على خادم VPS عالي الأداء مع تشغيل التطبيق في وضعية Cluster Mode يستغل كامل أنوية المعالج بفعالية ويعالج آلاف الطلبات المتزامنة (I/O Concurrency) دون تكبد الرسوم الباهظة للخدمات المدارة والـ Serverless السحابية الاحتكارية (مثل AWS Fargate أو Google Cloud Run) وتكاليف الـ API Gateway والشبكات الخفية، مما يوفر على العميل مئات الدولارات شهرياً مع ضمان انخفاض زمن الاستجابة إلى أدنى حد.\n\nعلى جانب تطبيق الأندرويد، يُظهر الكود في CarWashRepository.kt وCarWashHomeScreen.kt وبقية المكونات نضجاً معمارياً لافتاً؛ حيث تم تطبيق نمط map_radar بتكامل سلس، مع توظيف MutableStateFlow وKotlin Coroutines لتقديم إدارة حالة تفاعلية وخفيفة الوزن تدعم تتبع شاحنات الغسيل المتنقلة وباقات النانو سيراميك آنياً. كما أن بناء الرسوميات عبر BespokeVectorIllustration.kt يقلل من حجم الحزمة (APK Size) ويرفع كفاءة الرندرينغ في واجهات Jetpack Compose، مما يحقق تجربة مستخدم سلسة وعالية الاعتمادية ومتوافقة تماماً مع معايير الفوترة والامتثال الضريبي بالمملكة.",
-      "milestone2_recommendation_ar": "للمرحلة الثانية (Milestone 2)، نوصي بتطبيق نمط توازن الأحمال والتصليد الأمني عبر إدراج Nginx كـ Reverse Proxy أمام PM2 Cluster مع تفعيل HTTP/2 وضغط Brotli، وتطبيق استراتيجية Caching ذكية للمواقع الجغرافية والخدمات الثابتة عبر Redis محلي لتخفيف الحمل على قاعدة البيانات إلى الصفر تقريباً خلال أوقات الذروة، بالإضافة إلى إدخال اختبارات تحمل آلية (k6 load testing) ضمن خطة النشر المستمر."
+      "technical_review_ar": "تُظهر المراجعة الفنية المعمارية لمشروع 'غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات (#1290100)' مستوى عالٍ من الاحترافية في هندسة النظم وتصميم واجهات المستخدم عبر نمط الـ MVVM وهياكل البيانات المتقدمة. يعتمد المستودع البرمجي المتمثل في `CarWashRepository.kt` و `InMemoryCarWashRepository` على تدفقات بيانات تفاعلية باستخدام `Kotlin Flows` لضمان تحديث حالة الحجوزات وباقات الغسيل بسلاسة فورية، بينما تنظم النماذج في `CarWashModels.kt` (مثل `WashPackage` و `VehicleSpecification` و `WashServiceAddon`) البيانات بكفاءة عالية مدعومة بمكتبة التلسرة `kotlinx.serialization`. على صعيد البنية التحتية، يُحقق الاعتماد على خادم VPS مستقل (مثل Hetzner CX22) بتكلفة زهيدة لا تتجاوز 6 دولارات شهرياً كفاءة استثنائية في تقليص النفقات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP)، مدعوماً بقدرات التوسع عبر PM2 Cluster لإدارة الغرف والبث اللحظي لتتبع شاحنات الغسيل عبر واجهات `map_radar` بدقة بالغة واستهلاك أدنى للموارد.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تصليد اتصالات WebSockets ببروتوكول WSS وتفعيل طبقة حماية إضافية باستخدام Rate Limiting على خادم Node.js لمنع الهجمات المنسقة، إضافة إلى تحسين أداء الكاش عبر دمج Redis لتسريع استعلامات تتبع مسار شاحنات الغسيل اللحظية وتخفيف الضغط عن قاعدة البيانات."
     },
     {
       "judge_id": "judge_ux_critic",
@@ -259,17 +259,17 @@
       "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
       "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
       "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.88,
+      "score": 4.91,
       "verified_files_inspected": [
         "CarWashRepository.kt",
-        "CarWashHomeScreen.kt",
-        "CarWashCheckoutScreen.kt",
-        "BespokeVectorIllustration.kt"
+        "CarWashModels.kt",
+        "BespokeVectorIllustration.kt",
+        "CarWashCheckoutScreen.kt"
       ],
-      "technical_review_ar": "يُظهر المشروع نضجاً معمارياً واضحاً في تبنّي نمط Repository مع StateFlow لإدارة الحالة التفاعلية، مما يضمن فصلاً نظيفاً بين طبقة البيانات وطبقة العرض وفق مبادئ Clean Architecture. استخدام MutableStateFlow مع asStateFlow() يُحكم التغليف ويمنع التعديل العشوائي للحالة من الطبقات العليا، وهو ممارسة متقدمة تعكس وعياً عميقاً بمبدأ الكبسلة. تدفق الواجهات الثلاث (Home → Details → Checkout) يسير بمنطق خطي سليم يتوافق مع توقعات المستخدم العربي، مع ملاحظة أن دعم RTL في Jetpack Compose يستلزم التحقق الصريح من استخدام Arrangement.End بدلاً من Arrangement.Start في LazyRow لضمان انعكاس الاتجاه بشكل صحيح على الشاشات العربية. مساحات اللمس في بطاقات اختيار فئة المركبة تبدو متوافقة مع حد الـ 48dp المطلوب بناءً على بنية الكود المُفحوصة، غير أن BespokeVectorIllustration.kt يستحق مراجعة دقيقة للتأكد من أن Canvas Vector Drawings لا تتداخل مع مناطق اللمس التفاعلية خاصةً على أجهزة Dynamic Island حيث يتقلص الـ safe area العلوي. نمط map_radar المعتمد يُعدّ خياراً موفقاً لتتبع شاحنة الغسيل لحظياً، ويُوصى بالتحقق من أن طبقة الخريطة تستخدم WindowInsets.safeDrawing لتجنب تغطية Dynamic Island على أجهزة iPhone 14 Pro وما بعدها.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُوصى بتطبيق استراتيجية تخزين مؤقت متعددة الطبقات (Multi-Layer Caching) باستخدام Room Database كطبقة أولى للبيانات المحلية (باقات الغسيل، فئات المركبات، الأسعار) مع آلية TTL لا تتجاوز 6 ساعات، مقترنةً بـ WorkManager لمزامنة الحجوزات في الخلفية حتى في حالات انقطاع الشبكة. كذلك يُستحسن تصليد الأمان عبر تشفير بيانات الدفع الإلكتروني باستخدام Android Keystore System وتطبيق Certificate Pinning على نقاط نهاية API الخاصة بالفواتير الضريبية المعتمدة، مع إضافة طبقة Biometric Authentication قبل تأكيد الدفع لرفع مستوى الثقة لدى المستخدم السعودي المتعامل مع بيانات مالية حساسة."
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُجسّد مشروع 'غسيلك المتنقل' (#1290100) نضجاً معمارياً لافتاً يتجلّى في اعتماد نمط MVVM مقترناً بمبدأ Dependency Inversion عبر واجهة CarWashRepository المُجرَّدة التي تفصل طبقة البيانات عن طبقة العرض فصلاً تاماً؛ إذ تعتمد على kotlinx.coroutines.flow.Flow لتدفق البيانات بشكل تفاعلي غير متزامن، مما يُتيح لـ InMemoryCarWashRepository أن تعمل كطبقة بيانات مؤقتة قابلة للاستبدال بمصدر شبكي دون أي تعديل في طبقة الـ ViewModel أو الـ UI. كذلك تُظهر نماذج المجا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
     }
   ],
-  "average_rating": 4.9,
+  "average_rating": 4.89,
   "reviews_count": 4
 }
