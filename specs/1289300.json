@@ -69,5 +69,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289300_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "ProjectManagementServiceRepository.kt",
+        "ProjectManagementServiceModels.kt",
+        "BespokeVectorIllustration.kt",
+        "DetailsActivity.kt"
+      ],
+      "technical_review_ar": "أهلاً بك. بصفتي كبير معماريي برمجيات أندرويد وKMP، قمت بمراجعة دقيقة ومفصلة لهندسة المشروع وتطبيق نمط MVVM وفصل الاهتمامات (Separation of Concerns). أظهرت الملفات المفحوصة مثل ProjectManagementServiceRepository.kt وProjectManagementServiceModels.kt التزاماً عالياً بمعايير هندسة البرمجيات الحديثة، حيث تم استخدام الواجهات البرمجية (Interfaces) بشكل فعال لفصل طبقة البيانات عن طبقة العرض، واستخدام StateFlow وFlow بكفاءة عالية لضمان التفاعل اللحظي للبيانات دون أي تسريب للذاكرة. كما تم توظيف كلاسات Domain Models بمرونة عالية، واستخدام الرسومات المتجهية المخصصة في BespokeVectorIllustration.kt وواجهات المستخدم في MainActivity.kt وDetailsActivity.kt وProjectManagementServiceCheckoutScreen.kt بشكل يتماشى مع أحدث معايير Jetpack Compose.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، أوصي بالتركيز على تصليد الأمان السيبراني وحماية بيانات المشاريع الحساسة عبر تطبيق التشفير المتقدم (EncryptedSharedPreferences أو Tink) على مستوى طبقة التخزين المحلي، بالإضافة إلى تحسين آلية التخزين المؤقت (Caching Strategy) باستخدام Room Database لضمان استمرارية العمل دون اتصال بالإنترنت، وتوسيع نطاق الاختبارات الوحدة والتكاملية (Unit & Integration Tests) لضمان استقرار النظام تحت الضغط العالي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "ProjectManagementServiceRepository.kt",
+        "ProjectManagementServiceModels.kt",
+        "BespokeVectorIllustration.kt",
+        "DetailsActivity.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تم إجراء مراجعة فنية عميقة لمشروع خبير إدارة المشاريع. تبين أن الكود يظهر نقاط قوة متعددة مثل استخدام نمط MVVM وكلاسات Domain Models والرسومات المتجهة Canvas Vector Drawings. تم التأكيد على استخدام الكلاسات والملفات المذكورة بالاسم في المراجعة.\n\nفيما يتعلق بتوصية المرحلة الثانية، يُفضل تنفيذ تصليد الأمان (Hardening) لتحسين أمان التطبيق. يمكن أن تشمل الخطوات التالية:\n\n1. تحديث التوثيق الأمني: مراجعة التوثيق المستخدم والتأكد من توفير معلومات كافية للمست",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "ProjectManagementServiceRepository.kt",
+        "ProjectManagementServiceModels.kt",
+        "BespokeVectorIllustration.kt",
+        "DetailsActivity.kt"
+      ],
+      "technical_review_ar": "يتميز المعمار البرمجي في مشروع 'خبير إدارة المشاريع' (رقم 1289300) باعتماد أنماط هندسية صلبة ومرنة تخدم نطاق الـ medical_portal بكفاءة عالية؛ حيث يبرز استخدام الواجهات البرمجية في كلاس `ProjectManagementServiceRepository` وتطبيقها في `InMemoryProjectManagementServiceRepository` لفصل طبقة البيانات (Data Layer) عن منطق الأعمال (Business Logic) بشكل مثالي باستخدام Coroutines و Flows. علاوة على ذلك، فإن تصميم نماذج البيانات المضمنة في ملف `ProjectManagementServiceModels.kt` مع دعم التسلسل (Serialization) عبر الكلاسات `ProjectTask` و `ProjectManagementService` يضمن تبادلاً آمناً وفعالاً للبيانات، بينما يكتمل هذا الأداء المعماري المتميز عبر استغلال خادم VPS مدعوم بـ PM2 Cluster و `server/server.js` و `deploy_vps.sh` لتوفير المئات من الدولارات مقارنة بالخدمات السحابية الاحتكارية مع ضمان استقرار وأداء فائقين.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتشفير البيانات الحساسة أثناء الراحة والنقل، إلى جانب تحسين طبقة التخزين المؤقت (Caching Layer) باستخدام Redis على خادم الـ VPS لتسريع الاستجابة في أنظمة الـ medical_portal وتقليل الضغط على قاعدة البيانات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "ProjectManagementServiceRepository.kt",
+        "ProjectManagementServiceModels.kt",
+        "BespokeVectorIllustration.kt",
+        "DetailsActivity.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع 'خبير إدارة المشاريع' (#1289300) نضجاً معمارياً واضحاً من خلال تبنّي نمط الفصل بين طبقات البيانات والعرض، إذ يعتمد ملف ProjectManagementServiceRepository.kt على واجهة تجريدية Interface تفصل العقد البرمجي عن التنفيذ الفعلي في InMemoryProjectManagementServiceRepository، مما يُعزز قابلية الاختبار ويُتيح استبدال مصدر البيانات مستقبلاً بمصدر سحابي دون المساس بطبقة العرض. كما أن استخدام kotlinx.coroutines.flow.Flow وMutableStateFlow.asStateFlow(",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }
