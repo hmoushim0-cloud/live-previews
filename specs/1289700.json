@@ -1,0 +1,207 @@
+{
+  "project_id": "1289700",
+  "app_name": "مسترجع حساب فيسبوك",
+  "tagline": "حل سريع وموثوق لاسترجاع أو إغلاق حسابات فيسبوك",
+  "preset": "standard",
+  "archetype": "cupertino_storefront",
+  "theme": {
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
+  },
+  "description": "يعمل تطبيق مسترجع حساب فيسبوك على توفير حل متكامل لاسترجاع أو إغلاق حسابات فيسبوك مسروقة أو غير مرغوب فيها. يعتمد التطبيق على بنية Kotlin Multiplatform لتوفير تجربة مستخدم سلسة على Android و iOS، مع واجهة مستخدم مبسطة تتيح للمستخدمين اختيار الخدمة المطلوبة في ثلاث خطوات فقط. يتم دمج نظام دفع إلكتروني متوافق مع القوانين الضريبية السعودية، مع إمكانية تتبع الطلبات في الوقت الحقيقي وإشعارات فورية. يضمن التطبيق أماناً عالياً عبر تشفير البيانات واستخدام بروتوكولات HTTPS، مع دعم فني مستمر لضمان رضا العملاء وتحقيق قيمة تجارية ملموسة.",
+  "business_solutions": {
+    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
+    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
+    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  },
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
+      "path": "shots/1289700_01.png"
+    },
+    {
+      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
+      "path": "shots/1289700_02.png"
+    },
+    {
+      "title": "شاشة التتبع المباشر وحالة المعالجة",
+      "path": "shots/1289700_03.png"
+    }
+  ],
+  "ios_proof_screenshots": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289700_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289700_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289700_ios_03.png"
+    }
+  ],
+  "president_signature": {
+    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "decree_id": null,
+    "signature_hash": null,
+    "president_notes_ar": null
+  },
+  "tech_stack": [
+    "Kotlin 2.1 Multiplatform",
+    "Jetpack Compose MAD",
+    "StateFlow & Coroutines",
+    "Ktor Client Network Layer",
+    "Pure Vector Drawables (Zero Emojis)",
+    "Clean Architecture MVVM"
+  ],
+  "client_requirements_matrix": [
+    {
+      "id": "REQ-01",
+      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مسترجع حساب فيسبوك",
+      "status": "VERIFIED_IMPLEMENTED",
+      "category": "ui_ux",
+      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
+    },
+    {
+      "id": "REQ-02",
+      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
+      "status": "VERIFIED_IMPLEMENTED",
+      "category": "core_workflow",
+      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
+    },
+    {
+      "id": "REQ-03",
+      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
+      "status": "VERIFIED_IMPLEMENTED",
+      "category": "fintech_zatca",
+      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
+    },
+    {
+      "id": "REQ-04",
+      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
+      "status": "VERIFIED_IMPLEMENTED",
+      "category": "fintech_zatca",
+      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
+    },
+    {
+      "id": "REQ-05",
+      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
+      "status": "VERIFIED_IMPLEMENTED",
+      "category": "security",
+      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
+    }
+  ],
+  "cost_and_infra_matrix": [
+    {
+      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
+      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
+      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
+      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
+      "is_free": false,
+      "category": "dev_fee"
+    },
+    {
+      "item_ar": "حساب متجر Google Play Console",
+      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
+      "responsibility_ar": "العميل (حساب المطور الرسمي)",
+      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
+      "is_free": false,
+      "category": "store_accounts"
+    },
+    {
+      "item_ar": "حساب متجر Apple Developer Program",
+      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
+      "responsibility_ar": "العميل (حساب أبل الرسمي)",
+      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
+      "is_free": false,
+      "category": "store_accounts"
+    },
+    {
+      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
+      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
+      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
+      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
+      "is_free": false,
+      "category": "vps_hosting"
+    },
+    {
+      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
+      "cost_ar": "$0.00 (مجاني 100%)",
+      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
+      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
+      "is_free": true,
+      "category": "free_integrations"
+    },
+    {
+      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
+      "cost_ar": "$0.00 (مجاني 100%)",
+      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
+      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
+      "is_free": true,
+      "category": "free_integrations"
+    },
+    {
+      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
+      "cost_ar": "$0.00 (مجاني 100%)",
+      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
+      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
+      "is_free": true,
+      "category": "free_integrations"
+    }
+  ],
+  "server_architecture": {
+    "runtime": "Node.js 20 LTS",
+    "framework": "Express + Socket.io (WebSocket Realtime)",
+    "internal_port": 3000,
+    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
+    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
+    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
+    "security_layers": [
+      "Hardware UUID Digital Fingerprint Ban",
+      "IP-based Anti-Flood Rate Limiting (15m/300req)",
+      "Helmet Content Security Hardening",
+      "Strict TLS 1.3 Encryption via Let's Encrypt"
+    ],
+    "deploy_script": "server/deploy_vps.sh"
+  },
+  "development_milestones": [
+    {
+      "milestone_n": 1,
+      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
+      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
+      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
+      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
+    },
+    {
+      "milestone_n": 2,
+      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
+      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
+      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
+      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
+    },
+    {
+      "milestone_n": 3,
+      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
+      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
+      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
+      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
+    }
+  ],
+  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289700/releases/download/v1.0.0/app-debug.apk",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289700_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1289700_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1289700_ios_03.png"
+    }
+  ]
+}
