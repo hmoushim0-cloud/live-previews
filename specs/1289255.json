@@ -1,40 +1,47 @@
 {
   "project_id": "1289255",
-  "app_name": "تطبيق Standard الاحترافي",
-  "tagline": "حل رقمي متكامل فائق السرعة والأداء",
-  "preset": "standard",
+  "repo_name": "sanad-tech-services",
+  "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services",
+  "app_name": "تطبيق سند الفني — تطبيق ذكي متكامل لمنظومة الأ",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0E7490",
-    "accent_color": "#06B6D4"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "عرض الإطلاق الحصري",
-    "subtitle": "خصم 20% على جميع الطلبات"
+    "title": "تطبيق سند الفني — تطبيق ذكي متكامل لمنظومة الأ",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "الكل",
-    "الأكثر طلباً",
-    "العروض",
-    "خدمات VIP"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "باقة الخدمة الأساسية",
-      "desc": "تنفيذ سريع مع دعم فني 24/7",
-      "price": "149",
-      "icon": "bolt"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "باقة الأعمال المتكاملة",
-      "desc": "إدارة شاملة مع تقارير لحظية",
-      "price": "299",
-      "icon": "category"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "ترقية حصرية مخصصة",
-      "desc": "تكامل سحابي متقدم",
-      "price": "99",
-      "icon": "star"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -44,25 +51,64 @@
       "icon": "home"
     },
     {
-      "id": "shopping_bag",
-      "label": "الطلبات",
-      "icon": "shopping_bag"
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
     },
     {
-      "id": "settings",
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
       "label": "حسابي",
-      "icon": "settings"
+      "icon": "user"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#0E7490",
-    "secondary": "#06B6D4"
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "8b04234",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289255_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289255_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289255_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289255_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289255_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289255_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "sanad-tech-services",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
