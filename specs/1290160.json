@@ -96,5 +96,20 @@
     "repo_name": "masar-rtk-navigation",
     "hardware_sensor": "GPS RTK High-Precision Receiver + Gyroscope",
     "telemetry_preview": "GPS RTK High-Precision Receiver + Gyroscope: ONLINE | READY"
-  }
+  },
+  "archetype": "map_radar",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الملاحة والاستكشاف الراداري",
+      "path": "shots/1290160_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لإحداثيات المسار والتوجيه",
+      "path": "shots/1290160_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS لإتمام الرحلة والتقارير الحية",
+      "path": "shots/1290160_ios_03.png"
+    }
+  ]
 }

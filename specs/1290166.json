@@ -96,5 +96,20 @@
     "repo_name": "itqan-dispatch-services-1290166",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
     "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
-  }
+  },
+  "archetype": "service_stepper",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290166_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "path": "shots/1290166_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "path": "shots/1290166_ios_03.png"
+    }
+  ]
 }
