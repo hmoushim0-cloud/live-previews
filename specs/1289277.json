@@ -1,39 +1,47 @@
 {
   "project_id": "1289277",
-  "app_name": "خدمات المونتاج الاحترافية",
-  "tagline": "مونتاج احترافي لمقاطع الفيديو التعليمية والترويجية",
+  "repo_name": "kmp-services-0d96",
+  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-0d96",
+  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (0d96)",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#C2410C",
-    "accent_color": "#FB923C"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
   "banner": {
-    "title": "مونتاج احترافي لمقاطعك التعليمية",
-    "subtitle": "ارتقِ بمقاطعك إلى مستوى جديد مع خبراء المونتاج"
+    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (0d96)",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "مونتاج الفيديو",
-    "خدمات المونتاج الاحترافية",
-    "تصميم Motion Graphics"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "مونتاج مقاطع تعليمية",
-      "desc": "نحن نقدم خدمات مونتاج احترافية لمقاطع الفيديو التعليمية. فريقنا من المونتيرين المحترفين سيضمن لك مونتاجاً دقيقاً ومثيراً للاهتمام، مع التركيز على إبراز المعلومات المهمة بطريقة جذابة.",
-      "price": "تبدأ الأسعار من 250 دولار للمقطع الواحد",
-      "icon": "category"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "خدمات Motion Graphics",
-      "desc": "نضيف لمسة احترافية لمقاطعك من خلال تصميم Motion Graphics جذابة. نضمن لك إبراز النصوص والمعلومات المهمة بطريقة مبتكرة وممتعة.",
-      "price": "تبدأ الأسعار من 150 دولار لكل تصميم",
-      "icon": "category"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "مونتاج مقاطع الشاشة",
-      "desc": "هل تحتاج إلى مونتاج احترافي لمقاطع شاشة الكمبيوتر؟ نحن خبراء في استخدام تقنيات الزوم، والهايلايت، والكاليوتس لإبراز التفاصيل المهمة. نضمن لك مونتاجاً احترافياً ومؤثرات بصرية وصوتية جذابة.",
-      "price": "تبدأ الأسعار من 300 دولار للمقطع الواحد",
-      "icon": "category"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -43,25 +51,64 @@
       "icon": "home"
     },
     {
-      "id": "shopping_bag",
-      "label": "عربة التسوق",
-      "icon": "shopping_cart"
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
     },
     {
-      "id": "settings",
-      "label": "الملف الشخصي",
-      "icon": "person"
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#C2410C",
-    "secondary": "#FB923C"
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "1b45a7e",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289277_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289277_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289277_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289277_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289277_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289277_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "kmp-services-0d96",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
