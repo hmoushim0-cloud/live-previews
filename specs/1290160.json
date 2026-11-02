@@ -1,0 +1,100 @@
+{
+  "project_id": "1290160",
+  "repo_name": "masar-rtk-navigation",
+  "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation",
+  "app_name": "تطبيق مسار الفضائي — تهيئة برنامج odoo اودو لشركة",
+  "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
+  "preset": "navigation",
+  "layout_type": "navigation",
+  "layoutArchetype": "navigation",
+  "theme": {
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
+  },
+  "banner": {
+    "title": "تطبيق مسار الفضائي — تهيئة برنامج odoo اودو لشركة",
+    "subtitle": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع GPS RTK High-Precision Receiver + Gyroscope",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "navigation",
+      "label": "GPS RTK High-Precision Receiver + Gyroscope",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "85b50bc",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290160_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290160_02.png",
+      "fallback": "GPS RTK High-Precision Receiver + Gyroscope"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290160_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "detailed_desc": "تهيئة برنامج odoo اودو لشركة مقاولات. تحية طيبة مطلوب متخصص في اودوو للمساعدة في تهيئة برنامج اودوو لشركة متعددة الانشطة اهم نشاطين هم النقليات والمقاولات لدي خبرة في بعض التطبيقات مثل الحسابات والمخازن والمشتريات والمبيعات وسوف اقوم بالتهيئة الاساسية ولكن باشراف المستقل الهدف من المشروع هو التعلم رقم واحد عن طريق التطبيق العملي فكل ما سوف اقوم به",
+  "domain_data": {
+    "repo_name": "masar-rtk-navigation",
+    "hardware_sensor": "GPS RTK High-Precision Receiver + Gyroscope",
+    "telemetry_preview": "GPS RTK High-Precision Receiver + Gyroscope: ONLINE | READY"
+  }
+}
