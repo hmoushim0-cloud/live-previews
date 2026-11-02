@@ -1,40 +1,47 @@
 {
   "project_id": "1289253",
-  "app_name": "تطبيق Standard الاحترافي",
-  "tagline": "حل رقمي متكامل فائق السرعة والأداء",
-  "preset": "standard",
+  "repo_name": "warsha-now-services",
+  "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services",
+  "app_name": "تطبيق ورشة فوري — الصيانة الميدانية",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0E7490",
-    "accent_color": "#06B6D4"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "عرض الإطلاق الحصري",
-    "subtitle": "خصم 20% على جميع الطلبات"
+    "title": "تطبيق ورشة فوري — الصيانة الميدانية",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "الكل",
-    "الأكثر طلباً",
-    "العروض",
-    "خدمات VIP"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "باقة الخدمة الأساسية",
-      "desc": "تنفيذ سريع مع دعم فني 24/7",
-      "price": "149",
-      "icon": "bolt"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "باقة الأعمال المتكاملة",
-      "desc": "إدارة شاملة مع تقارير لحظية",
-      "price": "299",
-      "icon": "category"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "ترقية حصرية مخصصة",
-      "desc": "تكامل سحابي متقدم",
-      "price": "99",
-      "icon": "star"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -44,25 +51,50 @@
       "icon": "home"
     },
     {
-      "id": "shopping_bag",
-      "label": "الطلبات",
-      "icon": "shopping_bag"
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
     },
     {
-      "id": "settings",
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
       "label": "حسابي",
-      "icon": "settings"
+      "icon": "user"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#0E7490",
-    "secondary": "#06B6D4"
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "742b823",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289253_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289253_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289253_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "detailed_desc": "تطبيق ورشة فوري — الصيانة الميدانية وتتبع الفنيين لحظياً",
+  "domain_data": {
+    "repo_name": "warsha-now-services",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
