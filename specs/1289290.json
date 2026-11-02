@@ -1,36 +1,114 @@
 {
   "project_id": "1289290",
-  "app_name": "هوية فاخرة",
-  "tagline": "هوية بصرية راقية تعكس فخامة العلامة وتزيد حضورها في السوق",
-  "preset": "ecommerce",
+  "repo_name": "kmp-services-64da",
+  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-64da",
+  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (64da)",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#1E40AF",
-    "accent_color": "#3B82F6"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "يستهدف هذا التطبيق/الخدمة تقديم تجربة احترافية لإدارة مشاريع الهوية البصرية للعلامات الفاخرة، خصوصًا في قطاع العطور والمنتجات الراقية. القيمة المضافة تكمن في تحويل brief التصميم إلى حزمة منظمة: تحليل للهوية الحالية، توليد تصور بصري متسق، ثم تسليم مخرجات جاهزة للنشر والطباعة، مع مسار واضح للمراجعات والاعتماد.\n\nمن الناحية المعمارية، يعتمد الحل على Clean Architecture بفصل طبقة العرض عن منطق الأعمال وطبقة البيانات، بحيث تُدار الكيانات الأساسية مثل BrandIdentity وIdentityPackage بشكل مستقل وقابل للتوسع. كما يمكن ربطه بسحابة لتخزين الأصول، تتبع نسخ الملفات، إدارة الطلبات، وإشعارات الاعتماد، مع سياسات تحقق تمنع تضارب الحالات وتحافظ على سلامة المحتوى وجودة التسليم.",
-  "proof_screenshots": [
+  "banner": {
+    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (64da)",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289290_01.png"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "شاشة تفاصيل الحجز وخيارات التخصيص",
-      "path": "shots/1289290_02.png"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "شاشة التتبع اللحظي والتأكيد المباشر",
-      "path": "shots/1289290_03.png"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#1E40AF",
-    "secondary": "#3B82F6"
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "1428568",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289290_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289290_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289290_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289290_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289290_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289290_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "kmp-services-64da",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
