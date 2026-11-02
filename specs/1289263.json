@@ -1,26 +1,47 @@
 {
   "project_id": "1289263",
-  "app_name": "Bluetooth Hands-Free",
-  "tagline": "برمجة ESP32 للعمل كجهاز حر اليدين",
-  "preset": "standard",
+  "repo_name": "kmp-services-9c5b",
+  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-9c5b",
+  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (9c5b)",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#15803D",
-    "accent_color": "#22C55E"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "Bluetooth Hands-Free",
-    "subtitle": "اتصال صوتي سلس وآمن"
+    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (9c5b)",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "اتصالات",
-    "تقنية"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "ESP32 Bluetooth Hands-Free",
-      "desc": "برمجة ESP32-WROOM-32 للعمل كجهاز حر اليدين، مع اتصال ثنائي الاتجاه وزمن تأخير منخفض. استمتع بمكالمات صوتية واضحة وآمنة عبر WiFi وسيرفر الإنترنت.",
-      "price": "مجاني",
-      "icon": "category"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -30,25 +51,64 @@
       "icon": "home"
     },
     {
-      "id": "shopping_bag",
-      "label": "المشتريات",
-      "icon": "shopping_cart"
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
     },
     {
-      "id": "settings",
-      "label": "الملف الشخصي",
-      "icon": "person"
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#15803D",
-    "secondary": "#22C55E"
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "bbba894",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289263_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289263_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289263_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289263_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289263_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289263_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "kmp-services-9c5b",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
