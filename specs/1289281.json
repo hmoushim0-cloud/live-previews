@@ -1,56 +1,114 @@
 {
   "project_id": "1289281",
-  "app_name": "اختبار شامل لنظام إدارة المشاريع",
-  "tagline": "فحص دقيق يضمن الاستقرار والجودة من أول خطوة",
-  "preset": "standard",
+  "repo_name": "kmp-services-57a0",
+  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-57a0",
+  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (57a0)",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0E7490",
-    "accent_color": "#06B6D4"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
+  "banner": {
+    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (57a0)",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
   "items": [
     {
-      "title": "اختبار الوظائف الأساسية",
-      "desc": "التحقق من جميع الشاشات والعمليات الأساسية داخل النظام والتأكد من سلامة سير العمل.",
-      "price": "50",
-      "icon": "biotech"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "فحص الأخطاء والثغرات",
-      "desc": "اكتشاف الأخطاء البرمجية والمشكلات المحتملة في التكامل والبيانات والصلاحيات.",
-      "price": "75",
-      "icon": "security"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "تقرير التوصيات الفنية",
-      "desc": "توثيق الملاحظات التفصيلية وتقديم توصيات عملية لتحسين الأداء والجودة.",
-      "price": "120",
-      "icon": "assignment"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
-  "description": "يهدف هذا المشروع إلى تنفيذ اختبار شامل لنظام إدارة المشاريع للتحقق من كفاءة المنصة وسلامة وظائفها الأساسية، مع التركيز على اكتشاف الأخطاء البرمجية والثغرات المحتملة قبل الإطلاق أو أثناء التحسينات الدورية. يشمل العمل مراجعة تدفق العمليات، صحة البيانات، وتكامل المكونات المختلفة للتأكد من أن النظام يعمل بشكل متماسك وموثوق. كما يتم تقييم صلاحيات المستخدمين وآليات الوصول لضمان عدم وجود تعارضات أو نقاط ضعف أمنية.\n\nيتضمن المشروع أيضًا اختبار الأداء وتجربة المستخدم لرصد أي بطء أو تعقيد في الاستخدام، إلى جانب توثيق جميع الملاحظات الفنية بشكل منظم وواضح. في النهاية، يتم تسليم تقرير مهني يحتوي على نتائج الاختبار، ترتيب الأولويات حسب خطورة المشكلة، والتوصيات اللازمة لمعالجة المشكلات وتحسين استقرار النظام وجودته التشغيلية.",
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "80768da",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
-      "path": "shots/1289281_01.svg"
+      "path": "shots/1289281_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289281_02.svg"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289281_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة تتبع الطلب والخريطة الحية (GPS Tracking)",
-      "path": "shots/1289281_03.svg"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289281_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#0E7490",
-    "secondary": "#06B6D4"
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289281_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289281_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289281_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "kmp-services-57a0",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
