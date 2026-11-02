@@ -1,53 +1,47 @@
 {
   "project_id": "1289267",
-  "app_name": "التجربة العربية",
-  "tagline": "رحلة تسوق عربية أصيلة",
-  "preset": "standard",
+  "repo_name": "maher-field-services",
+  "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services",
+  "app_name": "تطبيق ماهر الميداني — تطبيق ذكي متكامل لمنظومة الأ",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#9D174D",
-    "accent_color": "#F43F5E"
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "مرحباً بكم في متجركم العربي",
-    "subtitle": "اكتشفوا تشكيلة واسعة من المنتجات العربية الأصيلة"
+    "title": "تطبيق ماهر الميداني — تطبيق ذكي متكامل لمنظومة الأ",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "الأزياء",
-    "المأكولات",
-    "الحرف اليدوية",
-    "المنتجات الطبيعية",
-    "الديكور المنزلي"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "ثوب تقليدي",
-      "desc": "ثوب رجالي تقليدي مصنوع يدوياً من أقمشة فاخرة",
-      "price": "99.99 دولار",
-      "icon": "category"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "قهوة عربية",
-      "desc": "قهوة عربية عالية الجودة، مزيج أصيل من حبوب مختارة بعناية",
-      "price": "29.99 دولار",
-      "icon": "category"
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
     },
     {
-      "title": "سجادة يدوية",
-      "desc": "سجادة يدوية الصنع، تصميم عربي أصيل، ألوان زاهية",
-      "price": "149.99 دولار",
-      "icon": "category"
-    },
-    {
-      "title": "زيت أركان طبيعي",
-      "desc": "زيت أركان المغربي الأصلي، غني بمضادات الأكسدة",
-      "price": "49.99 دولار",
-      "icon": "category"
-    },
-    {
-      "title": "مزهرية فخارية",
-      "desc": "مزهرية فخارية يدوية الصنع، تصميم أنيق وأصيل",
-      "price": "39.99 دولار",
-      "icon": "category"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -57,25 +51,64 @@
       "icon": "home"
     },
     {
-      "id": "shopping_bag",
-      "label": "عربة التسوق",
-      "icon": "shopping-cart"
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
     },
     {
-      "id": "settings",
-      "label": "الملف الشخصي",
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
       "icon": "user"
     }
   ],
-  "archetype": "booking_timeline",
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "brand": {
-    "primary": "#9D174D",
-    "secondary": "#F43F5E"
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "be4c9ec",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289267_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289267_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289267_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289267_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289267_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289267_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "domain_data": {
+    "repo_name": "maher-field-services",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
