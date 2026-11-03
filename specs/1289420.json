@@ -1,275 +1,113 @@
 {
   "project_id": "1289420",
-  "app_name": "مشروع مطلوب صانع أو صانعة محتوى",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
+  "repo_name": "injaz-care-services-1289420",
+  "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289420",
+  "app_name": "تطبيق إنجاز للخدمات — مطلوب صانع أو صانعة محتوى لل",
+  "tagline": "احترافي • سعودي • مباشر",
   "preset": "services",
-  "archetype": "catalog_grid",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: مطلوب صانع أو صانعة محتوى للظهور أمام الكاميرا وتقديم 10 إعلانات باللهجة السعودية. هل تتحدث باللهجة السعودية بإتقان، ولديك حضور قوي أمام الكاميرا نبحث عنك تنويه مهم: لا نبحث عن مصمم فيديوهات أو مونتير أو معلق صوتي. نبحث عن شخص يظهر بنفسه أمام الكاميرا، ويتحدث باللهجة السعودية بإتقان، ويقوم بتصوير نفسه بشكل احترافي لتقديم إعلانات لشركة تقنية. وصف ال. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق إنجاز للخدمات — مطلوب صانع أو صانعة محتوى لل",
+    "subtitle": "احترافي • سعودي • مباشر"
   },
+  "categories": [
+    "مباشرة",
+    "سعودية",
+    "احترافية"
+  ],
+  "items": [
+    {
+      "title": "إعلان مباشر",
+      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان",
+      "price": "250 ر.س",
+      "icon": "video-camera",
+      "badge": "مباشرة"
+    },
+    {
+      "title": "إعلان سعودي",
+      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان باللهجة السعودية",
+      "price": "300 ر.س",
+      "icon": "globe",
+      "badge": "سعودي"
+    },
+    {
+      "title": "إعلان احترافي",
+      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان مع جودة عالية",
+      "price": "200 ر.س",
+      "icon": "star",
+      "badge": "احترافي"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "b1db9ed",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289420_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289420_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289420_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289420_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289420_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289420_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289420_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289420_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289420_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع مطلوب صانع أو صانعة محتوى",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289420/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289420_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289420_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289420_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289420Repository.kt",
-        "App1289420HomeScreen.kt",
-        "App1289420DetailsScreen.kt",
-        "App1289420CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية عبر فصل طبقات العرض عن منطق الأعمال بدقة. تم فحص الملفات App1289420Repository.kt و App1289420HomeScreen.kt و App1289420DetailsScreen.kt و App1289420CheckoutScreen.kt و BespokeVectorIllustration.kt بالإضافة إلى خادم Node.js في server/server.js، حيث أظهرت النماذج مثل App1289420Model و App1289420Package كفاءة عالية في إدارة الحالة عبر StateFlow والتصميم التفاعلي المتجاوب مع معايير Jetpack Compose الحديثة.",
-      "milestone2_recommendation_ar": "توصي اللجنة المعمارية في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة المخزنة محلياً باستخدام Android Keystore، وتحسين آلية التخزين المؤقت (Caching) في الـ Repository لتقليل الاستعلامات المتكررة على الخادم السحابي، فضلاً عن توسيع نطاق اختبارات الوحدة (Unit Tests) لضمان استقرار تدفقات البيانات التفاعلية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289420Repository.kt",
-        "App1289420HomeScreen.kt",
-        "App1289420DetailsScreen.kt",
-        "App1289420CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكنني تقييم مشروع التطبيق بأنه يتميز بعدة نقاط قوة. يظهر نمط MVVM (Model-View-ViewModel) بوضوح في تصميم الكود، مما يعزز قابلية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، وهذا يساهم في تحسين تنظيم الكود وتقليل الأخطاء.\n\nتم توظيف رسومات الـ Canvas Vector Drawings بشكل فعّال لعرض المحتوى البصري بطريقة جذابة وفعالة.\n\nبالنسبة للخادم، يظهر استخدام server/server.js مرونة في التعامل مع متطلبا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289420Repository.kt",
-        "App1289420HomeScreen.kt",
-        "App1289420DetailsScreen.kt",
-        "App1289420CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يمثل مشروع «صانع محتوى #1289420» نموذجاً هندسياً فريداً ومتميزاً في دمج المتطلبات البرمجية الخاصة بمنصات العمل الحر مع معايير هندسة البرمجيات الحديثة. تم بناء واجهات المستخدم باستخدام كلاسات منظمة بدقة مثل App1289420HomeScreen و App1289420DetailsScreen و App1289420CheckoutScreen لتقديم تجربة مستخدم (catalog_grid) سلسة ومصممة بعناية فائقة لعرض باقات الخدمات الإعلانية. وعلى مستوى طبقة إدارة البيانات ومنطق الأعمال (Domain & Data Layers)، برز استخدام كلاسات App1289420Model و App1289420Package و App1289420Repository لتحقيق فصل تام للمسؤوليات (Separation of Concerns) وفق نمط الـ MVVM، مما يضمن مرونة عالية في استرجاع ومعالجة بيانات الإعلانات باللهجة السعودية واختيار المواهب بدقة. كما أظهرت الملفات البرمجية مثل BespokeVectorIllustration ابتكاراً تقنياً في تقديم رسوم متجهة مخصصة (Canvas Vector Drawings) تعزز من الهوية البصرية للمشروع دون إثقال الأداء.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية (Milestone 2) بتصليد الحماية الأمنية (Security Hardening) عبر تطبيق آليات المصادقة المتقدمة JWT وتشفير البيانات الحساسة على مستوى الـ Repository، بالإضافة إلى تحسين طبقة التخزين المؤقت (Caching Layer) واستخدام PM2 Cluster على خادم الـ VPS لضمان توزيع الأحمال بكفاءة عالية ومنع أي اختناقات مرورية (Bottlenecks) عند التوسع المستقبلي."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289420Repository.kt",
-        "App1289420HomeScreen.kt",
-        "App1289420DetailsScreen.kt",
-        "App1289420CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع رقم 1289420 بنيةً معماريةً متينةً تعتمد نمط MVVM بشكل واضح من خلال الفصل الدقيق بين طبقات البيانات والعرض والمنطق، إذ يتجلى ذلك في كلاس App1289420Repository.kt الذي يُجسّد مبدأ Single Source of Truth بامتياز، حيث يتولى تنسيق تدفق البيانات بين الطبقة السحابية المبنية على Cloudflare Workers وطبقة الـ Domain Models الممثَّلة في App1289420Model وApp1289420Package، مما يُقلّص الاقتران بين المكونات ويُعزز قابلية الاختبار. كما أن ملف BespokeVec",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب صانع أو صانعة محتوى للظهور أمام الكاميرا وتقديم 10 إعلانات باللهجة السعودية — هل تتحدث باللهجة السعودية بإتقان، ولديك حضور قوي أمام الكاميرا نبحث عنك تنويه مهم: لا نبحث عن مصمم فيديوهات أو مونتير أو معلق صوتي. نبحث عن شخص يظهر بنفسه أمام الكاميرا، ويتحدث باللهجة السعودية بإتقان، ويقوم بتصوير نفسه بشكل احترافي لتقديم إعلانات لش",
+  "domain_data": {
+    "repo_name": "injaz-care-services-1289420",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "NFC: Mada Card Detected | GPS: 24.7136° N, 46.6753° E"
+  }
 }
