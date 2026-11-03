@@ -1,19 +1,19 @@
 {
   "project_id": "1289287",
-  "repo_name": "kmp-services-04dd",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-04dd",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (04dd)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "chambers-legal-consulting-1289287",
+  "repo_url": "https://github.com/hmoushim0-cloud/chambers-legal-consulting-1289287",
+  "app_name": "تطبيق عدل للمحاماة — متابعة المحاسبة على برنامج ا",
+  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "preset": "legal_consulting",
+  "layout_type": "legal_consulting",
+  "layoutArchetype": "legal_consulting",
   "theme": {
-    "primary_color": "#8b5cf6",
+    "primary_color": "#f59e0b",
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (04dd)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق عدل للمحاماة — متابعة المحاسبة على برنامج ا",
+    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "legal_consulting",
+      "label": "FIPS 140-2 Cryptographic HSM Security Token",
       "status": "active"
     }
   ],
-  "commit_hash": "70a24c5",
+  "commit_hash": "80e85e2",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289287_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "FIPS 140-2 Cryptographic HSM Security Token"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289287_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "متابعة المحاسبة على برنامج الف ياء — لدي مؤسسات و اعمل على برنامج ألف ياء و احتاج محاسب و بعد التجربة قد نتوسع اكثر في العمل.",
   "domain_data": {
-    "repo_name": "kmp-services-04dd",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "chambers-legal-consulting-1289287",
+    "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
+    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
   }
 }
