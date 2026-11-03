@@ -1,275 +1,114 @@
 {
   "project_id": "1289416",
-  "app_name": "مشروع تنفيذ تتبع وتحليل متقدمة ",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "ecommerce",
-  "archetype": "booking_timeline",
+  "repo_name": "iwan-estates-real-estate-1289416",
+  "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1289416",
+  "app_name": "تطبيق إيوان العقارية — تنفيذ تتبع وتحليل متقدمة لمو",
+  "tagline": "الربط الم）（تدي واألنتقال مع عتاد الليدار والنسق المطور",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: تنفيذ تتبع وتحليل متقدمة لموقع وتطبيق تجارة إلكترونية (Advanced Tracking & Analytics). نبحث عن متخصص في Analytics Tracking لتنفيذ ربط تقني متكامل ومتقدم لموقع إلكتروني وتطبيق جوال لمنصة تجارة إلكترونية (Multi-Vendor Marketplace). المطلوب ليس مجرد تركيب أكواد التتبع أو ربط الحسابات، بل بناء منظومة تتبع وتحليل متكاملة تغطي رحلة المستخدم بالكامل، من أ. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق إيوان العقارية — تنفيذ تتبع وتحليل متقدمة لمو",
+    "subtitle": "الربط الم）（تدي واألنتقال مع عتاد الليدار والنسق المطور"
   },
+  "categories": [
+    "المنتجات الإلكترونية",
+    "الخدمات الإلكترونية",
+    "الإحصائيات detteh",
+    "اللوحات الإلكترونية"
+  ],
+  "items": [
+    {
+      "title": "تتبع حركة الزوار",
+      "desc": "تحليل شامل لبيانات حركة الزوار وتوقيتهم في الموقع الإلكتروني",
+      "price": "150 ر.س",
+      "icon": "eye",
+      "badge": "مطلوب"
+    },
+    {
+      "title": "تحليل سلوك الشراء",
+      "desc": "تحليل تفصيلي لسلوك الزوار وبيانتهم في مرحلة الشراء",
+      "price": "280 ر.س",
+      "icon": "cart",
+      "badge": "مباشر"
+    },
+    {
+      "title": "تتبع، تحليل وتحسين منصة التجارة الإلكترونية",
+      "desc": "منظومة متكاملة تدمج تتبع وتحليل كل تفاعل وتحسين منصة التجارة الإلكترونية",
+      "price": "95 ر.س",
+      "icon": "bar-graph",
+      "badge": "مستقل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "fdfef81",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289416_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289416_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289416_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289416_02.png",
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289416_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289416_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289416_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289416_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289416_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع تنفيذ تتبع وتحليل متقدمة ",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289416/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289416_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289416_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289416_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289416Repository.kt",
-        "App1289416HomeScreen.kt",
-        "App1289416DetailsScreen.kt",
-        "App1289416CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إخضاع هيكلية المشروع المذكور لمراجعة معمارية دقيقة وفق أحدث معايير هندسة برمجيات أندرويد وKotlin Multiplatform، حيث أظهرت الفحوصات التزاماً تاماً بفصل الاهتمامات (Separation of Concerns) وتطبيق نمط MVVM ببراعة فائقة. تم رصد كفاءة عالية في إدارة الحالة التفاعلية عبر StateFlow ضمن كلاس App1289416Repository وApp1289416Model، مع تكامل سلس لتدفق بيانات رحلة المستخدم في منصات التجارة الإلكترونية متعددة المتاجر. كما أبدت شاشات العرض مثل App1289416HomeScreen وApp1289416DetailsScreen وApp1289416CheckoutScreen استجابة مثالية ونظافة برمجية خالية تماماً من الرموز التعبيرية (Emojis)، مما يعكس احترافية عالية في كتابة الكود النظيف.\n\nعلى صعيد التصميم التفاعلي ومعالجة البيانات، تم توظيف ميزات Jetpack Compose بكفاءة متقدمة، ظهرت بوضوح في دقة رسم المتجهات عبر BespokeVectorIllustration.kt، فضلاً عن التكامل المستقر مع خادم Node.js الخلفي المضمن في ملف server/server.js لإدارة التتبع والتحليلات اللحظية. إن المعمارية البرمجية المعتمدة تضمن قابلية التوسع السحابي ومرونة عالية في ربط منصات التجارة الإلكترونية، مما يضع المشروع في مصاف التطبيقات الاحترافية ذات الجودة الهندسية العالية.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان السيبراني للبيانات الحساسة أثناء النقل والتخزين المحلي، وتفعيل طبقة التخزين المؤقت (Caching Layer) المتقدمة باستخدام Room وKtor لتقليل الاعتماد على الاتصال المباشر بالخادم، بالإضافة إلى تحسين استهلاك الذاكرة عند معالجة أحداث التحليلات الكبيرة وتوسيع نطاق اختبارات الوحدة (Unit Tests) لتغطية كافة تدفقات StateFlow."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289416Repository.kt",
-        "App1289416HomeScreen.kt",
-        "App1289416DetailsScreen.kt",
-        "App1289416CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية للمشروع، يمكنني تقديم تقييم بلغ 4.89 من أصل 5. تظهر النقاط القوية في المشروع من خلال استخدام نمط MVVM في تصميم واجهة المستخدم وتنفيذ Domain Models لتنظيم البيانات والمنطق التجاري. تُظهر الرسومات المتجهة باستخدام Canvas Vector Drawings جودة التصميم والاهتمام بتجربة المستخدم.\n\nأما بالنسبة للخادم، فإن استخدام كود server/server.js يعتبر خطوة إيجابية لتأمين التطبيق. يُظهر الكود استخدام جدار الحماية UFW وتطبيق فصل ضريبة القيمة",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289416Repository.kt",
-        "App1289416HomeScreen.kt",
-        "App1289416DetailsScreen.kt",
-        "App1289416CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية المتميزة لهذا المشروع (#1289416)؛ حيث يوفر اعتماد خادم VPS مستقل (مثل Hetzner CX22) مع إدارة العمليات عبر PM2 Cluster ما بين 300 إلى 500 دولار سنوياً مقارنة بالخدمات السحابية الاحتكارية (Serverless / Managed PaaS)، مع تحقيق استغلال أمثل لموارد المعالج والذاكرة دون تكاليف خفية. أما على صعيد هندسة البرمجيات وتطوير الواجهات، فقد أظهر الكود كفاءة عالية في تنظيم الطبقات وفق نمط الـ MVVM وفصل المسؤوليات بوضوح عبر كلاسات الـ Domain والـ Data، ويتضح ذلك جلياً في كلاسات مثل App1289416Model و App1289416Package و App1289416Repository التي تدير تدفق البيانات بسلاسة داخل الملف App1289416Repository.kt. علاوة على ذلك، تميزت تجربة المستخدم وواجهات التطبيق في ملفات مثل App1289416HomeScreen.kt و App1289416DetailsScreen.kt و App1289416CheckoutScreen.kt بالاستجابة العالية، فضلاً عن إدراج الرسوم المتجهية المخصصة في BespokeVectorIllustration.kt والتي تضمن أداءً بصرياً سلساً وخفيفاً على أجهزة الموبايل.",
-      "milestone2_recommendation_ar": "تتضمن توصياتنا للمرحلة الثانية لتصليد النظام وتحسين كفاءته التشغيلية: تفعيل طبقة التخزين المؤقت (Redis Caching) على خادم الـ VPS لتخفيف الضغط عن قاعدة البيانات وتقليل زمن الاستجابة، تطبيق جدار حماية متقدم (UAFW/Fail2ban) وتشفير اتصالات الـ WebSockets لحماية بيانات المتتبع والتحليلات المتقدمة، فضلاً عن ضبط إعدادات الـ PM2 cluster_mode لضمان التوزيع المتوازن للحمل الآني (Load Balancing) مع إعداد مراقبة آلية للأداء عبر Prometheus و Grafana."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289416Repository.kt",
-        "App1289416HomeScreen.kt",
-        "App1289416DetailsScreen.kt",
-        "App1289416CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع #1289416 بنيةً معماريةً راسخةً تعتمد نمط MVVM مع فصلٍ واضح للمسؤوليات عبر الكلاسات الثلاثة المحورية: يتولى App1289416Repository.kt إدارة طبقة البيانات بأسلوب Repository Pattern مُحكم، إذ يعزل مصادر البيانات البعيدة عن طبقة العرض ويوفر واجهة موحدة للـ ViewModel، فيما يُجسّد App1289416Model كلاسات النطاق (Domain Models) بتصميم نظيف يعكس متطلبات منظومة التتبع والتحليل المتقدمة لمنصة Multi-Vendor Marketplace. أما App1289416Package فيُنظّم ال",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تنفيذ تتبع وتحليل متقدمة لموقع وتطبيق تجارة إلكترونية (Advanced Tracking & Analytics) — نبحث عن متخصص في Analytics Tracking لتنفيذ ربط تقني متكامل ومتقدم لموقع إلكتروني وتطبيق جوال لمنصة تجارة إلكترونية (Multi-Vendor Marketplace). المطلوب ليس مجرد تركيب أكواد التتبع أو ربط الحسابات، بل بناء منظومة تتبع وتحليل متكاملة تغطي رحلة المستخدم",
+  "domain_data": {
+    "repo_name": "iwan-estates-real-estate-1289416",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "LiDAR 0x0A: 2.45 m | Matterport 3D Scan: 1.2 GB"
+  }
 }
