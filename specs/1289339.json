@@ -1,19 +1,19 @@
 {
   "project_id": "1289339",
-  "repo_name": "kmp-services-feec",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-feec",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (feec)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "qiyada-key-car-rental-1289339",
+  "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1289339",
+  "app_name": "تطبيق قيادة الرقمي — تصميم تغليف كامل لمركبة العم",
+  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#10b981",
-    "accent_color": "#34d399"
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (feec)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق قيادة الرقمي — تصميم تغليف كامل لمركبة العم",
+    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "status": "active"
     }
   ],
-  "commit_hash": "2f62e2b",
+  "commit_hash": "3553316",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289339_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289339_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "تصميم تغليف كامل لمركبة العمل — بسم الله الرحمن الرحيم مطلوب مصمم جرافيك مستقل (فريلانسر) تبحث شركة نظافة بالرياض عن مصمم لتصميم تغليف كامل لمركبة العمل (فان بيجو إكسبرت)، بتصميم فاخر وهادئ وجذاب يعكس هوية الشركة. الهوية البصرية متوفرة مسبقا، مع نماذج مرجعية توضح التوجه المطلوب. ال",
   "domain_data": {
-    "repo_name": "kmp-services-feec",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "qiyada-key-car-rental-1289339",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
   }
 }
