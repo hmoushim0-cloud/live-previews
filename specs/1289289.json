@@ -1,19 +1,19 @@
 {
   "project_id": "1289289",
-  "repo_name": "kmp-services-28f8",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-28f8",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (28f8)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "fawri-pay-pos-cashier-1289289",
+  "repo_url": "https://github.com/hmoushim0-cloud/fawri-pay-pos-cashier-1289289",
+  "app_name": "تطبيق فوري باي — مصمم و مسؤول سوشيال ميديا —",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
     "primary_color": "#8b5cf6",
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (28f8)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق فوري باي — مصمم و مسؤول سوشيال ميديا —",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "status": "active"
     }
   ],
-  "commit_hash": "d76e1be",
+  "commit_hash": "eaac879",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289289_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289289_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "مصمم و مسؤول سوشيال ميديا — مطلوب مصمم و مسؤول سوشيال ميديا المتطلبات 1- خبره فى التصميم لا يقل عن 4 سنوات 2- خبره فى إدارة صفحات السوشيال ميديا لا يقل على 3 سنوات 3- يجيد تصاميم السوشيال ميديا و تصاميم الموقع 4- تصاميم سوشيال ميديا ما بين 20 إلى 25 تصميم شهريا 5- تصميم منتجات",
   "domain_data": {
-    "repo_name": "kmp-services-28f8",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "fawri-pay-pos-cashier-1289289",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
   }
 }
