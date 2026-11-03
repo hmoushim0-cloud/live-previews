@@ -1,19 +1,19 @@
 {
   "project_id": "1289263",
-  "repo_name": "kmp-services-9c5b",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-9c5b",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (9c5b)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "turbine-industrial-iot-1289263",
+  "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289263",
+  "app_name": "تطبيق مجس التوربينات — برمجه ESP32 ليعمل كجهاز Blue",
+  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "preset": "industrial_iot",
+  "layout_type": "industrial_iot",
+  "layoutArchetype": "industrial_iot",
   "theme": {
-    "primary_color": "#8b5cf6",
-    "accent_color": "#06b6d4"
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (9c5b)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مجس التوربينات — برمجه ESP32 ليعمل كجهاز Blue",
+    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "industrial_iot",
+      "label": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
       "status": "active"
     }
   ],
-  "commit_hash": "bbba894",
+  "commit_hash": "277bd1c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289263_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289263_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "برمجه ESP32 ليعمل كجهاز Bluetooth Hands-Free — أريد برمجة ESP32-WROOM-32 ليعمل كجهاز Bluetooth Hands-Free مع هاتف Android أو iPhone، يستقبل صوت المكالمة ويرسله رقميا عبر WiFi إلى سيرفر على الإنترنت، ثم يستقبل الصوت العائد من السيرفر ويرسله إلى الهاتف عبر Bluetooth، باستخدام HFP Voice over HCI، مع",
   "domain_data": {
-    "repo_name": "kmp-services-9c5b",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "turbine-industrial-iot-1289263",
+    "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
   }
 }
