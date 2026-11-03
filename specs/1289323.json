@@ -1,19 +1,19 @@
 {
   "project_id": "1289323",
-  "repo_name": "kmp-services-cf82",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-cf82",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (cf82)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "ghars-lora-agritech-1289323",
+  "repo_url": "https://github.com/hmoushim0-cloud/ghars-lora-agritech-1289323",
+  "app_name": "تطبيق غرس الذكي — إعداد مخططات تنفيذية للتشجير",
+  "tagline": "منظومة agritech المتكاملة مع ربط LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
+  "preset": "agritech",
+  "layout_type": "agritech",
+  "layoutArchetype": "agritech",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (cf82)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق غرس الذكي — إعداد مخططات تنفيذية للتشجير",
+    "subtitle": "منظومة agritech المتكاملة مع ربط LoRaWAN Soil Moisture Node + Solenoid Valve Relays"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "agritech",
+      "label": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
       "status": "active"
     }
   ],
-  "commit_hash": "61dc98d",
+  "commit_hash": "5d979bb",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289323_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289323_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "إعداد مخططات تنفيذية للتشجير والري والإنارة — عنوان المشروع: إعداد مخططات تنفيذية للتشجير والري والإنارة استراحة عائلية لدي مخطط لاندسكيب جاهز لاستراحة، بمساحة إجمالية تقارب ٦٦٠٠ م، تشمل المباني والممرات والجلسات والمناطق الخارجية. أبحث عن متخصص أو فريق لإعداد تفاصيل التشجير وشبكات الري والإنارة",
   "domain_data": {
-    "repo_name": "kmp-services-cf82",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "ghars-lora-agritech-1289323",
+    "hardware_sensor": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
+    "telemetry_preview": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays: ONLINE | READY"
   }
 }
