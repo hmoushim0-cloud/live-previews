@@ -1,60 +1,95 @@
 {
   "project_id": "1289357",
-  "app_name": "متجر سلة الأثاث المنزلي",
-  "tagline": "أثاث منزلي راقٍ بلمسة ذكية",
-  "preset": "ecommerce",
-  "archetype": "catalog_grid",
+  "repo_name": "naqd-terminal-pos-cashier-1289357",
+  "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1289357",
+  "app_name": "تطبيق نقد تيرمنال — إضافة ورفع 200 منتج طاولات ع",
+  "tagline": "تجربة تسوق جمالية مع ligaGPT وطباعة وتتبع سلاسل الإمداد",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "تطبيق متجر سلة الأثاث المنزلي هو منصة متكاملة تخدم أهداف العميل في مجال الأثاث المنزلي. يوفر التطبيق تجربة مستخدم سلسة مع تصميم جذاب يعرض المنتجات بطريقة احترافية. نظام إدارة المخزون الذكي يضمن دقة البيانات وتتبع الطلبات. بوابة الدفع الآمنة تضمن معاملات آمنة، بينما الإشعارات الفورية تحافظ على تواصل العملاء مع تحديثات الطلبات. هذه الميزات مجتمعة تعزز نمو الأعمال وتوفر تجربة تسوق ممتعة للعملاء.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال تجربة شراء سلسة وسهلة، مع عرض منتجات الأثاث بطريقة جذابة.",
-    "automation_value": "توفير وقت الموظفين بنسبة 40% من خلال أتمتة عمليات إدارة المخزون والفواتير، مما يسرع معالجة الطلبات.",
-    "retention_value": "تحسين تجربة العملاء من خلال الاستجابة السريعة، مع معدل استجابة فائق السرعة يعزز ولاء العملاء."
+  "banner": {
+    "title": "تطبيق نقد تيرمنال — إضافة ورفع 200 منتج طاولات ع",
+    "subtitle": "تجربة تسوق جمالية مع ligaGPT وطباعة وتتبع سلاسل الإمداد"
   },
+  "categories": [
+    "الطاولات الدافئة",
+    "طاولات المكاتب",
+    "طاولات الطعام",
+    "طاولات البوفيه"
+  ],
+  "items": [
+    {
+      "title": "طاولة مكتب فخمة خشبية",
+      "desc": "طاولة مكتب خشبية عالية الجودة مع ركن لجهاز الكمبيوتر.",
+      "price": "1500 ر.س",
+      "icon": "laptop",
+      "badge": "مفضل"
+    },
+    {
+      "title": "طاولة طعام خشبية طويلة",
+      "desc": "طاولة طعام خشبية طويلة مع 6 مقاعد مريحة.",
+      "price": "2800 ر.س",
+      "icon": "spoon",
+      "badge": "لحوم"
+    },
+    {
+      "title": "طاولة بوفيه خشبية مع عجلات",
+      "desc": "طاولة بوفيه خشبية مع عجلات سهلة الحركة وإطار مزين.",
+      "price": "950 ر.س",
+      "icon": "trolley",
+      "badge": "قابل للتحويل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "17837b4",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289357_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289357_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289357_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289357_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289357_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289357_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289357_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289357_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289357_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -62,12 +97,18 @@
       "path": "shots/1289357_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289357_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289357_ios_03.png"
     }
-  ]
+  ],
+  "detailed_desc": "إضافة ورفع 200 منتج طاولات على متجر سلة مع تجهيز الصور والأوصاف باستخدام ChatGPT — نبحث عن مستقل محترف لديه خبرة في إدارة المتاجر الإلكترونية على منصة سلة، للعمل على إضافة ورفع حوالي 200 منتج من فئة الطاولات إلى متجرنا المتخصص في الأثاث المنزلي. نحتاج إلى شخص دقيق ومنظم، لديه حس جمالي في عرض المنتجات، ويستطيع الاستفادة من ChatGPT و",
+  "domain_data": {
+    "repo_name": "naqd-terminal-pos-cashier-1289357",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESCOPOS: 12pt Font, 25mm/s Speed | Barcode Scanner: UPC-A 123456789012"
+  }
 }
