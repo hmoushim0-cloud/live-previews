@@ -1,8 +1,8 @@
 {
   "project_id": "1289333",
-  "repo_name": "kmp-services-420e",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-420e",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (420e)",
+  "repo_name": "injaz-care-services-1289333",
+  "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289333",
+  "app_name": "تطبيق إنجاز للخدمات — تعديل ألوان وتنسيق صفحة بموق",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (420e)",
+    "title": "تطبيق إنجاز للخدمات — تعديل ألوان وتنسيق صفحة بموق",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "fa33b06",
+  "commit_hash": "3e557ca",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,9 +105,9 @@
       "path": "shots/1289333_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "تعديل ألوان وتنسيق صفحة بموقع الكترونى — لدى موقع الكترونى اريد تعديل الألوان فى الصفحة الرئيسية وإعادة تنسيق الخانات في نفس الصفحة",
   "domain_data": {
-    "repo_name": "kmp-services-420e",
+    "repo_name": "injaz-care-services-1289333",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
     "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
