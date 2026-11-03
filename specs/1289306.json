@@ -1,19 +1,19 @@
 {
   "project_id": "1289306",
-  "repo_name": "kmp-services-2d63",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-2d63",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (2d63)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "mamlaka-realty-real-estate-1289306",
+  "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1289306",
+  "app_name": "تطبيق مملكة العقار — مراجعة خبير لمهام التخطيط وا",
+  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (2d63)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مملكة العقار — مراجعة خبير لمهام التخطيط وا",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
       "status": "active"
     }
   ],
-  "commit_hash": "7cd3657",
+  "commit_hash": "bcafd8a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289306_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289306_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "مراجعة خبير لمهام التخطيط والجدولة والتقارير — نحتاج مخطط مشاريع (Planner/Scheduler) له خبرة في مفاهيم التخطيط والجدولة، ومعايير الجدول ومنحنياته، والتطلعات المستقبلية (90 يوما و3 أسابيع)، ومطالبات المدة، والتقارير الأسبوعية والشهرية، وتقارير التكلفة والكميات والتكاليف السابقة، والبنود الحرجة. وي",
   "domain_data": {
-    "repo_name": "kmp-services-2d63",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "mamlaka-realty-real-estate-1289306",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
   }
 }
