@@ -1,19 +1,19 @@
 {
   "project_id": "1289277",
-  "repo_name": "kmp-services-0d96",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-0d96",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (0d96)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "qalam-campus-smart-education-1289277",
+  "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289277",
+  "app_name": "تطبيق قلم الأكاديمية — مونتاج مقطع شورت تعليمي — أب",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#10b981",
-    "accent_color": "#34d399"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (0d96)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق قلم الأكاديمية — مونتاج مقطع شورت تعليمي — أب",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "status": "active"
     }
   ],
-  "commit_hash": "1b45a7e",
+  "commit_hash": "93e57d7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289277_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289277_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "مونتاج مقطع شورت تعليمي — أبحث عن مونتير محترف وذو خبرة عالية للعمل على مقطع تعليمي وتشويقي مخصص لمنصات التواصل الاجتماعي. المقطع تقني ويتطلب مونتاجا دقيقا واحترافيا، مع اهتمام كبير بالتفاصيل، خصوصا: Motion Graphics احترافية تخدم الشرح إبراز النصوص والمعلومات المهمة بشكل جذاب",
   "domain_data": {
-    "repo_name": "kmp-services-0d96",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "qalam-campus-smart-education-1289277",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
   }
 }
