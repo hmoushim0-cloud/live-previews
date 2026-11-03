@@ -1,19 +1,19 @@
 {
   "project_id": "1289280",
-  "repo_name": "kmp-services-00d3",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-00d3",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (00d3)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "multaqa-hub-coworking-1289280",
+  "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289280",
+  "app_name": "تطبيق ملتقى الأعمال — مدير حسابات تواصل اجتماعي لج",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (00d3)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق ملتقى الأعمال — مدير حسابات تواصل اجتماعي لج",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
       "status": "active"
     }
   ],
-  "commit_hash": "0dbb827",
+  "commit_hash": "12dca5a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289280_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289280_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "مدير حسابات تواصل اجتماعي لجدولة المحتوى ومتابعة النشر وتصميم الكاروسيل والأغلفة — نبحث عن مستقل لديه خبرة عملية في إدارة حسابات التواصل الاجتماعي، للعمل مع فريقنا على تجهيز المحتوى وجدولته ومتابعة نشره، والمساعدة في تصميم الكاروسيل وأغلفة الفيديو البسيطة باستخدام Canva أو أدوات الذكاء الاصطناعي. نطاق العمل: يشمل المشروع حسابات 10",
   "domain_data": {
-    "repo_name": "kmp-services-00d3",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "multaqa-hub-coworking-1289280",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
   }
 }
