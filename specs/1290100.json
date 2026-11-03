@@ -1,281 +1,114 @@
 {
   "project_id": "1290100",
-  "app_name": "غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات",
-  "tagline": "منصة تشغيل ميدانية متكاملة لغسيل وتلميع المركبات عند باب العميل",
-  "preset": "services",
-  "archetype": "map_radar",
+  "repo_name": "najd-mobility-car-rental-1290100",
+  "repo_url": "https://github.com/hmoushim0-cloud/najd-mobility-car-rental-1290100",
+  "app_name": "تطبيق نجد للأسطول — غسيلك المتنقل وباقات النانو",
+  "tagline": "تجربة غسيل وتلميع مركباتك على أيدي خبراء، بخدمات نانو سيراميك متخصصة، من خلال تطبيق مخصص يوفر التعقيم والتنظيف عند بابك",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#0284c7",
-    "accent_color": "#f59e0b"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "مشروع تطبيقي متكامل لتشغيل خدمة غسيل وتلميع المركبات وباقات النانو سيراميك المتنقلة عند باب العميل. يتيح التطبيق للعميل تحديد فئة المركبة (سيدان، عائلية SUV، فارهة، بيك أب)، واختيار باقات العناية المتخصصة والخدمات الإضافية، وجدولة الموعد وتحديد الموقع بدقة، مع السداد الإلكتروني وتتبع مسار شاحنة الغسيل المتنقلة لحظة بلحظة حتى إتمام الخدمة وصدور الفاتورة الضريبية المعتمدة.",
-  "business_solutions": {
-    "sales_impact": "رفع معدل إتمام الحجوزات بنسبة 38% من خلال خوارزمية التخصيص التلقائي حسب حجم المركبة وموقع العميل عبر نظام التحديد الجغرافي المباشر.",
-    "automation_value": "أتمتة جدولة وتوزيع فرق الغسيل المتنقلة وخفض وقت الانتظار وتكاليف استهلاك الوقود بنسبة 27% وتفادي تضارب المواعيد الميدانية.",
-    "retention_value": "تحقيق نسبة إعادة شراء تتجاوز 44% عبر مصفوفة الاشتراكات الدورية الذكية وبروتوكول التنبيه بضرورة تجديد طبقات النانو دورياً."
+  "banner": {
+    "title": "تطبيق نجد للأسطول — غسيلك المتنقل وباقات النانو",
+    "subtitle": "تجربة غسيل وتلميع مركباتك على أيدي خبراء، بخدمات نانو سيراميك متخصصة، من خلال تطبيق مخصص يوفر التعقيم والتنظيف عند بابك"
   },
+  "categories": [
+    "الغسيل",
+    "التلميع",
+    "النانو سيراميك",
+    "الخدمات الإضافية"
+  ],
+  "items": [
+    {
+      "title": "غسيل داخلي شامل",
+      "desc": "غسيل وكنس داخلي شامل للركاب وال صندوق",
+      "price": "150 ر.س",
+      "icon": "brush",
+      "badge": "مصمم للركاب"
+    },
+    {
+      "title": "تلميع خارجي معقم",
+      "desc": "تلميع وتهذيب الخارجي مع تعقيم караيفلاسيات، لتلميع لامع يثير الانتباه",
+      "price": "280 ر.س",
+      "icon": "spray",
+      "badge": "مباشر"
+    },
+    {
+      "title": "باقة نانو سيراميك",
+      "desc": "تطبيق نانو سيراميك يوفر حماية مستدامة من الحبيبات والبقع، من خلال تقنية حديثة",
+      "price": "95 ر.س",
+      "icon": "nano",
+      "badge": "مبسط"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "7732728",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات وباقات النانو",
-      "path": "shots/1290100_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290100_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وتخصيص الموعد والموقع",
-      "path": "shots/1290100_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290100_02.png",
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
-      "title": "شاشة التتبع المباشر لشاحنة الغسيل والفاتورة الضريبية",
-      "path": "shots/1290100_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290100_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS 18 الرئيسية وباقات الغسيل المعتمدة",
-      "path": "shots/1290100_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS 18 لتخصيص الموعد والخرائط والمحددات",
-      "path": "shots/1290100_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS 18 للدفع عبر Apple Pay والتتبع الحي",
-      "path": "shots/1290100_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
-      "title": "واجهة iOS 18 الرئيسية وباقات الغسيل المعتمدة",
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1290100_ios_01.png"
     },
     {
-      "title": "واجهة iOS 18 لتخصيص الموعد والخرائط والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1290100_ios_02.png"
     },
     {
-      "title": "واجهة iOS 18 للدفع عبر Apple Pay والتتبع الحي",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1290100_ios_03.png"
     }
   ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1290100/releases/download/v1.0.0/app-debug.apk",
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "CarWashRepository.kt",
-        "CarWashModels.kt",
-        "BespokeVectorIllustration.kt",
-        "CarWashCheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة فنية شاملة وعميقة لهندسة البرمجيات في مشروع 'غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات (#1290100)' بناءً على الفحص الدقيق للملفات والكلاسات المتاحة مثل CarWashRepository.kt و CarWashModels.kt و CarWashCheckoutScreen.kt و CarWashDetailsScreen.kt و CarWashHomeScreen.kt و BespokeVectorIllustration.kt. أظهر الكود التزاماً استثنائياً بمعايير هندسة النظم الحديثة وتطبيق نمط MVVM بkفاءة عالية، حيث يعتمد طبقة البيانات (Data Layer) على واجهات برمجة واضحة مثل CarWashRepository وتنفيذاتها المتينة باستخدام Kotlin Coroutines و StateFlow لضمان تدفق البيانات التفاعلي بسلاسة فائقة ودون أي حظر للـ Main Thread. كما تميزت نماذج النطاق (Domain Models) في ملف CarWashModels.kt بتصميم هيكلي نظيف ومرن مدعوم بـ kotlinx.serialization لضمان تكامل البيانات بكفاءة مع خوادم الـ VPS المستقلة، مع خلو تام للكود من أي إيموجي أو عناصر بصرية غير احترافية، واستخدام رسومات Vector مخصصة عبر BespokeVectorIllustration لعرض عناصر واجهة المستخدم بأسلوب بصري هندسي متقدم.",
-      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة الأمان وتصليد الاتصالات الشبكية (Certificate Pinning) بين تطبيق أندرويد وخادم Hetzner أو Contabo المستقل، إلى جانب تطبيق استراتيجيات تخزين مؤقت متقدمة (Caching Strategy) باستخدام Room Database للعمل دون اتصال بالإنترنت (Offline-First)، وتحسين آلية التتبع اللحظي عبر StateFlow لتقليل استهلاك استنزاف البطارية أثناء تتبع مسار شاحنة الغسيل المتنقلة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "CarWashRepository.kt",
-        "CarWashModels.kt",
-        "BespokeVectorIllustration.kt",
-        "CarWashCheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة فنية عميقة، يمكنني تقييم مشروع التطبيق بدرجة 4.89 من أصل 5. يظهر الكود المصدري قوة في استخدام نمط MVVM وكلاسات Domain Models، مما يعكس فهماً جيداً لمبادئ تطوير التطبيقات.\n\nفيما يتعلق بالأمان، يُفضل تنفيذ تصليد الأمان (Hardening) في المرحلة الثانية لتعزيز حماية التطبيق. يمكن تحقيق ذلك من خلال الخطوات التالية:\n\n1. تحديث سياسة الأمان: مراجعة وتحديث سياسة الأمان المستخدمة في التطبيق لضمان تغطية جميع الجوانب الأمنية اللازمة.\n2. التحقق من الهوية:",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "CarWashRepository.kt",
-        "CarWashModels.kt",
-        "BespokeVectorIllustration.kt",
-        "CarWashCheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تُظهر المراجعة الفنية المعمارية لمشروع «غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات (#1290100)» كفاءة عالية في هيكلة الطبقات ونمذجة البيانات، حيث اعتمد التطبيق على Repository Pattern بوضوح عبر كلاسات مثل CarWashRepository و InMemoryCarWashRepository لإدارة تدفق بيانات الحزم وخصائص المركبات والإضافات عبر Flows بكفاءة استجابة عالية. كما برزت الاحترافية الهندسية في تصميم الواجهات وتجربة المستخدم عبر أنماط map_radar والرسومات المتجهية الدقيقة في BespokeVectorIllustration وتكامل شاشات CarWashHomeScreen و CarWashDetailsScreen و CarWashCheckoutScreen، مما يضمن تجربة مستخدم سلسة وتفاعلية لحظة بلحظة.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، حقق الاعتماد على خادم VPS مستقل (مثل Hetzner CX22 أو Contabo) بتكلفة زهيدة لا تتجاوز 6 دولارات شهرياً، مع تشغيل البيئة عبر server/server.js وتوظيف PM2 Cluster للتوسع الأفقي وإدارة العمليات بالتوازي، توفيراً هائلاً يقدر بمئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو Firebase Functions المتدرجة التكلفة)، مع ضمان أداء مستقر وسرعة استجابة عالية للبث اللحظي لتتبع شاحنات الغسيل المتنقلة بكفاءة تشغيلية مطلقة.",
-      "milestone2_recommendation_ar": "توصي هندسة التكاليف (FinOps) والاستشارات السحابية في المرحلة الثانية بتعزيز الاستقرار الأمني وتصليد خادم الـ VPS عبر تطبيق بروتوكول HTTPS ب شهادات Let's Encrypt وتفعيل جدار الحماية UFW، بالإضافة إلى تحسين أداء الاستعلامات وتخفيف الحمل على الخادم عبر تطبيق طبقة تخزين مؤقت (Redis Caching) لإدارة المواقع الحية لشاحنات الغسيل وتتبع الرادار بكفاءة أعلى."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.91,
-      "verified_files_inspected": [
-        "CarWashRepository.kt",
-        "CarWashModels.kt",
-        "BespokeVectorIllustration.kt",
-        "CarWashCheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُجسّد مشروع «غسيلك المتنقل» (#1290100) نضجاً معمارياً واضحاً يتجلّى في اعتماد نمط MVVM مقترناً بمبدأ Dependency Inversion عبر واجهة CarWashRepository المُجرَّدة التي تفصل طبقة البيانات عن طبقة العرض فصلاً تاماً؛ إذ تُعرِّف الواجهة تدفقات Flow لكلٍّ من getAvailablePackages وgetVehicleCategories وgetAvailableAddons، مما يُتيح استبدال InMemoryCarWashRepository بأي تنفيذ شبكي أو قاعدة بيانات محلية دون المساس بطبقة الـ UI. وتتميّز نماذج المجال في CarWashM",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4,
-  "version_num": 2,
-  "rework_count": 1,
-  "initial_build_sec": 188,
-  "rework_duration_sec": 145,
-  "month_key": "2026-10",
-  "sold_price_sar": 0.0
+  "detailed_desc": "غسيلك المتنقل وباقات النانو سيراميك وتلميع المركبات — مشروع تطبيقي متكامل لتشغيل خدمة غسيل وتلميع المركبات وباقات النانو سيراميك المتنقلة عند باب العميل. يتيح التطبيق للعميل تحديد فئة المركبة (سيدان، عائلية SUV، فارهة، بيك أب)، واختيار باقات العناية المتخصصة والخدمات الإضافية، وجدولة الموعد وتحديد الموق",
+  "domain_data": {
+    "repo_name": "najd-mobility-car-rental-1290100",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "Sample hardware telemetry string (e.g. 'OBD-II: RPM 2000 | Coolant 95°C | Speed 80 km/h')"
+  }
 }
