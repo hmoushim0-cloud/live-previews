@@ -1,19 +1,19 @@
 {
   "project_id": "1275806",
-  "repo_name": "kmp-services-4241",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-4241",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (4241)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "qalam-campus-smart-education-1275806",
+  "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1275806",
+  "app_name": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#2563eb",
-    "accent_color": "#1e40af"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (4241)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "status": "active"
     }
   ],
-  "commit_hash": "6062e20",
+  "commit_hash": "f7bd959",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1275806_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1275806_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "تطوير موقع مدونة لغوية — مطلوب تطوير موقع إلكتروني عبارة عن مدونة لغوية محدودة تضم نحو 10,000 مدخل تقريبا من (نصوص/ صور/ صوتيات). يتكون الموقع: (1) لوحة تحكم لإضافة البيانات (استيرادها أو إضافة يدويا) ومراجعتها وتعديلها. (2) واجهة بحث متقدمة تتيح للمستخدمين الوصول إلى المحتو",
   "domain_data": {
-    "repo_name": "kmp-services-4241",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "qalam-campus-smart-education-1275806",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
   }
 }
