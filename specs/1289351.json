@@ -1,60 +1,95 @@
 {
   "project_id": "1289351",
-  "app_name": "الإنجاز للشحن والتوصيل",
-  "tagline": "شحن وتوصيل سريع وموثوق لقطع الغيار في جميع أنحاء المملكة",
-  "preset": "food",
-  "archetype": "dynamic_island_tracker",
+  "repo_name": "warsha-now-services-1289351",
+  "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289351",
+  "app_name": "تطبيق ورشة فوري — تصميم  فيديو موشن لشركة شحن",
+  "tagline": "نقل سريع، تتبع دقيق، ودمج مع جهاز Mada NFC GPS",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "تطبيق الإنجاز للشحن والتوصيل هو منصة شحن متكاملة مصممة لتبسيط عمليات الشحن لقطع الغيار. يوفر التطبيق تجربة مستخدم سلسة، مع خيارات شحن متعددة، وتتبع لحظي، وبوابة دفع آمنة. من خلال أتمتة العمليات، نضمن كفاءة عالية وتوفير الوقت، مما يعزز نمو أعمال الشحن الخاصة بالعميل. كما أننا نضمن تجربة مستخدم سريعة وممتعة، مما يعزز ولاء العملاء ورضاهم.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال توفير حلول شحن سريعة وموثوقة، مما يعزز تجربة العملاء ويثق بهم في خدماتنا.",
-    "automation_value": "توفير 40 ساعة شهريًا من خلال أتمتة عمليات الشحن، مما يقلل من الأخطاء البشرية ويزيد من كفاءة العمليات.",
-    "retention_value": "استجابة فائقة السرعة في معالجة الطلبات وتتبع الشحنات، مما يعزز ولاء العملاء ورضاهم."
+  "banner": {
+    "title": "تطبيق ورشة فوري — تصميم  فيديو موشن لشركة شحن",
+    "subtitle": "نقل سريع، تتبع دقيق، ودمج مع جهاز Mada NFC GPS"
   },
+  "categories": [
+    "شحن عادي",
+    "شحن سريع",
+    "شحن ثقيل",
+    "شحن مخصص"
+  ],
+  "items": [
+    {
+      "title": "شحن داخل المدينة",
+      "desc": "نقل سريع عبر الطرق الداخلية مع تتبع فوري للعنصر باستخدام جهاز الNFC و GPS",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "شحن سريع إلى تبوك",
+      "desc": "تنقل سريع بين جدة أو الرياض وتبوك مع تتبع الوقت الفعلي عبر جهاز الNFC GPS",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
+    },
+    {
+      "title": "شحن مخصص للقطع الغيار",
+      "desc": "توصيل قطع غيار غير متوفرة في المنطقة مع شاشة مراقبة حالة الشحن عبر الNFC GPS",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "ecaf9c2",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289351_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289351_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289351_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289351_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289351_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289351_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289351_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289351_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289351_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -62,12 +97,18 @@
       "path": "shots/1289351_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289351_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289351_ios_03.png"
     }
-  ]
+  ],
+  "detailed_desc": "تصميم  فيديو موشن لشركة شحن — [موسيقى إعلانية حماسية تبدأ تدريجيا] السلام عليكم ورحمة الله وبركاته يا أهل تبوك، يا هلا والله بالجميع تدور قطع غيار من جدة أو الرياض وتبي توفر في السعر أو تبحث عن قطع غيار غير متوفرة في منطقتك وتبي تشحن بضاعتك من جدة أو الرياض إلى تبوك الحل عندنا، م",
+  "domain_data": {
+    "repo_name": "warsha-now-services-1289351",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "NFC 0xE2: 30.5cm | GPS 35.6892°N 51.3910°E | Speed 60 km/h"
+  }
 }
