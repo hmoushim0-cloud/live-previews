@@ -1,60 +1,95 @@
 {
   "project_id": "1289340",
-  "app_name": "نظام إدارة مكتبة",
-  "tagline": "تنظيم فعال لبيانات الكتب والأعضاء، وتعزيز تجربة الإعارة",
-  "preset": "standard",
-  "archetype": "booking_timeline",
+  "repo_name": "riwaq-desk-coworking-1289340",
+  "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking-1289340",
+  "app_name": "تطبيق رواق المشترك — إنشاء نظام إدارة مكتبة لتنظي",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#007BFF",
-    "accent_color": "#6C757D"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "نظام إدارة مكتبة هو حل شامل يهدف إلى تبسيط عمليات المكتبة وتعزيز تجربة المستخدم. من خلال استخدام Django وSQL، يوفر النظام إدارة فعالة لبيانات الكتب والأعضاء، مع ميزات مثل التصنيف والتتبع. واجهة المستخدم البسيطة والمنظمة تضمن سهولة الاستخدام، مما يحسن من تجربة المستخدمين. كما يوفر النظام أتمتة للعمليات، مما يوفر الوقت والجهد، ويزيد من كفاءة المكتبة. هذا الحل يضمن نموًا تجاريًا مستدامًا من خلال تحسين إدارة المكتبة وتعزيز تجربة المستخدم.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 30% من خلال تبسيط عملية الإعارة، مما يشجع المزيد من الأعضاء على الاستفادة من خدمات المكتبة.",
-    "automation_value": "توفير 30 ساعة شهرياً من خلال أتمتة عمليات الفوترة وإرسال الإشعارات، مما يقلل من الأخطاء البشرية.",
-    "retention_value": "تحسين تجربة المستخدم من خلال واجهة مستخدم سريعة الاستجابة، مما يعزز ولاء العملاء ويزيد من تكرار الزيارات."
+  "banner": {
+    "title": "تطبيق رواق المشترك — إنشاء نظام إدارة مكتبة لتنظي",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "2b3ffb0",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289340_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289340_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289340_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289340_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289340_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289340_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289340_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289340_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289340_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -62,12 +97,18 @@
       "path": "shots/1289340_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289340_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289340_ios_03.png"
     }
-  ]
+  ],
+  "detailed_desc": "إنشاء نظام إدارة مكتبة لتنظيم الكتب والإعارات باستخدام Django وSQL — أرغب في تطوير نظام لإدارة المكتبات يساعد على تنظيم بيانات الكتب والأعضاء، ومتابعة عمليات استعارة الكتب وإعادتها، وتسهيل الوصول إلى المعلومات من خلال واجهة بسيطة ومنظمة. الوظائف المطلوبة: - إضافة الكتب وتعديل بياناتها وحذفها. - تصنيف الكتب حسب العنوان",
+  "domain_data": {
+    "repo_name": "riwaq-desk-coworking-1289340",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+  }
 }
