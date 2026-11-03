@@ -1,19 +1,19 @@
 {
   "project_id": "1289088",
-  "repo_name": "kmp-services-048e",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-048e",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (048e)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "riwaq-desk-coworking-1289088",
+  "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking-1289088",
+  "app_name": "تطبيق رواق المشترك — برمجة تطبيقات ونشرها في منصة",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (048e)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق رواق المشترك — برمجة تطبيقات ونشرها في منصة",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
       "status": "active"
     }
   ],
-  "commit_hash": "2b5d941",
+  "commit_hash": "773c0ec",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289088_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289088_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "برمجة تطبيقات ونشرها في منصة سلة — السلام عليكم ورحمة الله وبركاته احتاج مساعدتك اخي الكريم في برمجة بعض المواقع والتاكد من عملها بشكل صحيح وعمل اجتماعات مع سلة حتى يتم قبول التطبيقات شكرا جزيلا لوقتك واتمنى لك التوفيق المواقع هي https://twaslbot.com https://whatssharebot.com...",
   "domain_data": {
-    "repo_name": "kmp-services-048e",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "riwaq-desk-coworking-1289088",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
   }
 }
