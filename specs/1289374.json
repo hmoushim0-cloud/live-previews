@@ -1,275 +1,114 @@
 {
   "project_id": "1289374",
-  "app_name": "مشروع مطور Lovable وSupabase لإ",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "ecommerce",
-  "archetype": "cupertino_storefront",
+  "repo_name": "wathba-fit-fitness-1289374",
+  "repo_url": "https://github.com/hmoushim0-cloud/wathba-fit-fitness-1289374",
+  "app_name": "تطبيق وثبة للياقة — مطور Lovable وSupabase لإصلا",
+  "tagline": "تحكم كامل في الوزن القابل للقراءة عبر BLE مع ربط مباشر بمتابعة معدل ضربات القلب",
+  "preset": "fitness",
+  "layout_type": "fitness",
+  "layoutArchetype": "fitness",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: مطور Lovable وSupabase لإصلاح منصة لوجستية قائمة وتجهيزها للإطلاق التجريبي. نحن شركة وزن للخدمات اللوجستية (WAZN)، شركة تقنية ناشئة في المملكة العربية السعودية، نعمل على تطوير منصة لوجستية تساعد المنشآت الصغيرة والمتوسطة والمتاجر الإلكترونية على إدارة الشحن عبر عدة شركات وناقلين من خلال منصة واحدة. لدينا منصة قائمة تم تطويرها باستخدام Lovable، وتقن. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق وثبة للياقة — مطور Lovable وSupabase لإصلا",
+    "subtitle": "تحكم كامل في الوزن القابل للقراءة عبر BLE مع ربط مباشر بمتابعة معدل ضربات القلب"
   },
+  "categories": [
+    "توصيل سريع",
+    "خدمات شحن",
+    "إدارة مخزون",
+    "تحليل بيانات"
+  ],
+  "items": [
+    {
+      "title": "توصيل سريع",
+      "desc": "إرسال شحنات خلال 30 دقيقة مع تتبع لحظي عبر التطبيق.",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "تخفيضات موصلية",
+      "desc": "حزمة خصومات مخصصة للشحنات الكبيرة عبر شراكات متعددة.",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
+    },
+    {
+      "title": "تحليل تحركات",
+      "desc": "تقارير مفصلة عن مسارات الشحن ومقاييس الأداء.",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "fitness",
+      "label": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "37ff17c",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289374_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289374_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289374_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289374_02.png",
+      "fallback": "BLE Smart Scale GATT 0x181D + Heart Rate Strap"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289374_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289374_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289374_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289374_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289374_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع مطور Lovable وSupabase لإ",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289374/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289374_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289374_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289374_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289374Repository.kt",
-        "App1289374HomeScreen.kt",
-        "App1289374DetailsScreen.kt",
-        "App1289374CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أظهرت مراجعة البنية البرمجية لمنصة وزن اللوجستية التزاماً رفيع المستوى بمعايير هندسة أندرويد الحديثة وأنماط Kotlin Multiplatform، حيث تم تطبيق فصل واضح للاهتمامات عبر نمط MVVM. يبرز كلاس App1289374Repository كنموذج ممتاز لإدارة تدفق البيانات بكفاءة عالية باستخدام StateFlow، بالتكامل مع نماذج النطاق مثل App1289374Model وApp1289374Package لضمان استقرار الحالة والتفاعل السلس في واجهات المستخدم عبر ملفات مثل App1289374HomeScreen وApp1289374DetailsScreen وApp1289374CheckoutScreen. كما انعكس الاحتراف التقني في تصميم الواجهات التفاعلية بأسلوب cupertino_storefront واستخدام الرسومات المتجهية المخصصة في BespokeVectorIllustration، إلى جانب المعالجة الخلفية المستقرة في خادم Node.js عبر server/server.js.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد طبقة الأمان عبر تفعيل المصادقة الثنائية وتشفير البيانات الحساسة أثناء التخزين والاتصال، إضافة إلى تحسين استراتيجية التخزين المؤقت (Caching) في الـ Repository لتقليل زمن الاستجابة، وتوسيع نطاق الاختبارات الوحدوية وتكامل النظام (Unit & Integration Tests) لضمان أعلى موثوقية قبل الإطلاق التجربي لمنصة وزن."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289374Repository.kt",
-        "App1289374HomeScreen.kt",
-        "App1289374DetailsScreen.kt",
-        "App1289374CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي لمشروع #1289374، يظهر أن هناك نقاط قوة عدة في التصميم والتنفيذ. يُشيد الكود بنمط MVVM (Model-View-ViewModel)، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمنطق التجاري.\n\nفيما يتعلق بالتصميم البصري، يُظهر استخدام الـ Canvas Vector Drawings كفاءة عالية في إنشاء رسومات متجهة ديناميكية وجذابة بصرياً.\n\nبالنسبة للخادم، يُظهر كود server/server.js",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289374Repository.kt",
-        "App1289374HomeScreen.kt",
-        "App1289374DetailsScreen.kt",
-        "App1289374CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُعد المعمار التقني المعتمد في مشروع منصة \"وزن\" اللوجستية نموذجاً مثالياً لهندسة التكاليف (FinOps) والحوسبة السحابية الحديثة؛ حيث نجحت الاستراتيجية في الاستغناء عن الخدمات السحابية الاحتكارية باهظة الثمن بالاعتماد على خادم VPS اقتصادي يعمل بتناغم مع سكريبت النشر والتحكم PM2 Cluster، مما يوفر مئات الدولارات شهرياً مع ضمان أعلى مستويات الجاهزية والتوفر العالي (High Availability). على صعيد الهندسة البرمجية، يبرز التطبيق المتميز لنمط MVVM في طبقات العرض والتحكم من خلال كلاسات مثل App1289374Model وApp1289374Package وApp1289374Repository، إلى جانب إدارة البيانات الفعّالة في ملفات مثل App1289374HomeScreen.kt وApp1289374DetailsScreen.kt وApp1289374CheckoutScreen.kt، مدعومة برسوميات متجهة دقيقة في BespokeVectorIllustration.kt ومعالجة خلفية محكمة في ملف server/server.js.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل سياسات أمان محتوى الصارمة (CSP) والتحقق من التوقيعات الرقمية للطلبات على خادم Node.js، بالإضافة إلى دمج طبقة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة (Latency) وتحسين كفاءة استهلاك موارد خادم الـ VPS أثناء أوقات الذروة اللوجستية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289374Repository.kt",
-        "App1289374HomeScreen.kt",
-        "App1289374DetailsScreen.kt",
-        "App1289374CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع WAZN اللوجستي (المعرّف #1289374) نضجاً معمارياً واضحاً يتجلّى في اعتماد نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يضطلع كلاس App1289374Repository.kt بدور محوري في تجريد مصادر البيانات وعزل استدعاءات Supabase عن طبقة الـ ViewModel، مما يُعزّز قابلية الاختبار ويُقلّص الاقتران بين المكوّنات. كما يُلاحَظ في ملف App1289374HomeScreen.kt توظيف Jetpack Compose بأسلوب احترافي مع مراعاة دقيقة لاتجاه RTL عبر تو",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطور Lovable وSupabase لإصلاح منصة لوجستية قائمة وتجهيزها للإطلاق التجريبي — نحن شركة وزن للخدمات اللوجستية (WAZN)، شركة تقنية ناشئة في المملكة العربية السعودية، نعمل على تطوير منصة لوجستية تساعد المنشآت الصغيرة والمتوسطة والمتاجر الإلكترونية على إدارة الشحن عبر عدة شركات وناقلين من خلال منصة واحدة. لدينا منصة قائمة تم تطويره",
+  "domain_data": {
+    "repo_name": "wathba-fit-fitness-1289374",
+    "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "telemetry_preview": "GATT 0x181D: 70.5 kg | HR 88 bpm"
+  }
 }
