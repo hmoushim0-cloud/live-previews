@@ -1,19 +1,19 @@
 {
   "project_id": "1289335",
-  "repo_name": "kmp-services-b756",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-b756",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (b756)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "fawri-pay-pos-cashier-1289335",
+  "repo_url": "https://github.com/hmoushim0-cloud/fawri-pay-pos-cashier-1289335",
+  "app_name": "تطبيق فوري باي — إضافة منتجات في منصة زد — ال",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#f59e0b",
+    "primary_color": "#8b5cf6",
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (b756)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق فوري باي — إضافة منتجات في منصة زد — ال",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "status": "active"
     }
   ],
-  "commit_hash": "90b3739",
+  "commit_hash": "d6ab8ae",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289335_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289335_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "إضافة منتجات في منصة زد — السلام عليكم ، عندي 183 منتج تقريبا وابغا أضيفها كقسيمة فورية في زد طبعا اسم المنتج والوصف الوصور والكلمات المفتاحية والأسعار والتصنيف والسعر بعد الخصم عربي وإنجليزي النصوص جاهزة والصور جاهزة واسم المنتجات والوصف والكلمات المفتاحية وكل شي موجودة عندي",
   "domain_data": {
-    "repo_name": "kmp-services-b756",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "fawri-pay-pos-cashier-1289335",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
   }
 }
