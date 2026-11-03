@@ -1,60 +1,95 @@
 {
   "project_id": "1289302",
-  "app_name": "خبير التنفيذ",
-  "tagline": "حلول شاملة لإدارة المشاريع الهندسية",
-  "preset": "ecommerce",
-  "archetype": "map_radar",
+  "repo_name": "haraka-scale-fitness-1289302",
+  "repo_url": "https://github.com/hmoushim0-cloud/haraka-scale-fitness-1289302",
+  "app_name": "تطبيق حركة والميزان — مراجعة خبير لمهام أعمال التن",
+  "tagline": "الجودة والكفاءة في الأعمال الهندسية والاستشارية",
+  "preset": "fitness",
+  "layout_type": "fitness",
+  "layoutArchetype": "fitness",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "يقدم تطبيق خبير التنفيذ منصة شاملة لإدارة المشاريع الهندسية، مع التركيز على الكفاءة والأمان. من خلال تصميم طبقات واضحة، يضمن التطبيق سهولة الاستخدام والوصول إلى الخدمات الهندسية المتخصصة. الربط السحابي الفعال يضمن أمان البيانات وسهولة الوصول إليها. يوفر التطبيق منصة استشارات موثوقة، مما يعزز ثقة العملاء ويزيد من ولائهم. أتمتة العمليات تزيد من كفاءة العمل وتقلل من الوقت المستغرق في معالجة الطلبات، مما يؤدي إلى زيادة الإنتاجية.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% من خلال تبسيط عملية الشراء في 3 خطوات فقط",
-    "automation_value": "توفير 40 ساعة شهريًا من خلال أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بمعدل 60 إطارًا في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق حركة والميزان — مراجعة خبير لمهام أعمال التن",
+    "subtitle": "الجودة والكفاءة في الأعمال الهندسية والاستشارية"
   },
+  "categories": [
+    "استشارات هندسية",
+    "أعمال إنشائية",
+    "خدمات استشارية",
+    "إشراف على التنفيذ"
+  ],
+  "items": [
+    {
+      "title": "خدمة الاستشارة الهندسية",
+      "desc": "خدمة استشارية شاملة لجميع الأعمال الهندسية والإنشائية",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة الإشراف على التنفيذ",
+      "desc": "خدمة إشراف على جميع الأعمال الهندسية والإنشائية والكهروميكانيكية",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
+    },
+    {
+      "title": "خدمة التصميم الهندسي",
+      "desc": "خدمة تصميم هندسي متكاملة لجميع الأعمال الهندسية والإنشائية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "fitness",
+      "label": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "8665b5d",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289302_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289302_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289302_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289302_02.png",
+      "fallback": "BLE Smart Scale GATT 0x181D + Heart Rate Strap"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289302_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289302_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289302_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289302_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289302_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "APPROVED_BY_PRESIDENT",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -62,19 +97,18 @@
       "path": "shots/1289302_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289302_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289302_ios_03.png"
     }
   ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289302/releases/download/v1.0.0/app-debug.apk",
-  "version_num": 1,
-  "rework_count": 0,
-  "initial_build_sec": 191,
-  "rework_duration_sec": 0,
-  "month_key": "2026-10",
-  "sold_price_sar": 0.0
+  "detailed_desc": "مراجعة خبير لمهام أعمال التنفيذ التخصصية — القسم: أعمال وخدمات استشارية استشارات إدارية المهارات: الهندسة المدنية الأعمال الكهروميكانيكية الإشراف على التنفيذ الميزانية: 2550 (مبلغ الترسية 3540) المدة: 4 أيام الوصف: نحتاج مهندس تنفيذ أو إشراف له خبرة في الأعمال المدنية والإنشائية والميكانيكية",
+  "domain_data": {
+    "repo_name": "haraka-scale-fitness-1289302",
+    "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "telemetry_preview": "GATT 0x181D: 75 kg | 65 BPM"
+  }
 }
