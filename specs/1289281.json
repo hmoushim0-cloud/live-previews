@@ -1,19 +1,19 @@
 {
   "project_id": "1289281",
-  "repo_name": "kmp-services-57a0",
-  "repo_url": "https://github.com/hmoushim0-cloud/kmp-services-57a0",
-  "app_name": "منظومة تطبيق ذكي متكامل لمنظومة  (57a0)",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "services",
-  "layout_type": "services",
-  "layoutArchetype": "services",
+  "repo_name": "hakeem-vitals-telehealth-1289281",
+  "repo_url": "https://github.com/hmoushim0-cloud/hakeem-vitals-telehealth-1289281",
+  "app_name": "تطبيق حكيم للمؤشرات — اختبار شامل لنظام إدارة المش",
+  "tagline": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
+  "preset": "telehealth",
+  "layout_type": "telehealth",
+  "layoutArchetype": "telehealth",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#06b6d4"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "منظومة تطبيق ذكي متكامل لمنظومة  (57a0)",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق حكيم للمؤشرات — اختبار شامل لنظام إدارة المش",
+    "subtitle": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "desc": "تكامل مباشر مع BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "services",
-      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "type": "telehealth",
+      "label": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
       "status": "active"
     }
   ],
-  "commit_hash": "80768da",
+  "commit_hash": "b8d52b9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1289281_02.png",
-      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+      "fallback": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1289281_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "اختبار شامل لنظام إدارة المشاريع واكتشاف الأخطاء البرمجية | عاجلاً — اختبار شامل لنظام إدارة المشاريع بهدف التحقق من كفاءة النظام وسلامة وظائفه واكتشاف الأخطاء البرمجية والثغرات المحتملة والتأكد من صحة البيانات وسلامة التكامل بين مكونات النظام مع اختبار الصلاحيات والأداء وتجربة المستخدم وتوثيق الملاحظات الفنية وتقديم",
   "domain_data": {
-    "repo_name": "kmp-services-57a0",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "repo_name": "hakeem-vitals-telehealth-1289281",
+    "hardware_sensor": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
+    "telemetry_preview": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810: ONLINE | READY"
   }
 }
