@@ -1,60 +1,95 @@
 {
   "project_id": "1289296",
-  "app_name": "مشروع المنتج يُصمم كمنصة عمليات",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "services",
-  "archetype": "service_stepper",
+  "repo_name": "turbine-industrial-iot-1289296",
+  "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289296",
+  "app_name": "تطبيق مجس التوربينات — مطلوب  خبير SEO لموقع مصنع T",
+  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "preset": "industrial_iot",
+  "layout_type": "industrial_iot",
+  "layoutArchetype": "industrial_iot",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: المنتج يُصمم كمنصة عمليات SEO موجهة للمصانع والمواقع التجارية، حيث يجمع بين التدقيق الشامل والتحليل التقني والتحسين الداخلي ضمن تدفق واحد واضح ومؤسسي. القيمة الأساسية هي تحويل مخرجات SEMrush إلى مهام قابلة للتنفيذ والمتابعة، مع عرض أولويات الإصلاح والأثر المتوقع على الظهور العضوي ومؤشرات الأداء.\n\nمعماريًا، يعتمد الحل على Clean Architecture بفصل واضح بين طبقة العرض، وطبقة التطبيق، وطبقة النطاق، وطبقة البيانات، مع تكامل آمن مع الخدمات السحابية لتخزين التقارير، إدارة الحالات، ومزامنة تقدم الإصلاحات. كما يدعم الربط مع المبرمج عبر أوامر تنفيذ منظمة، سجل تدقيق، وطبقات تحقق تمنع التلاعب وتضمن تتبع كل تعديل من التحليل حتى الاعتماد النهائي.. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق مجس التوربينات — مطلوب  خبير SEO لموقع مصنع T",
+    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "industrial_iot",
+      "label": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "0b621b3",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289296_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289296_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289296_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289296_02.png",
+      "fallback": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289296_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289296_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289296_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289296_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289296_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "REFUSED_BY_PRESIDENT",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -62,19 +97,18 @@
       "path": "shots/1289296_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289296_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289296_ios_03.png"
     }
   ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289296/releases/download/v1.0.0/app-debug.apk",
-  "version_num": 3,
-  "rework_count": 2,
-  "initial_build_sec": 220,
-  "rework_duration_sec": 250,
-  "month_key": "2026-09",
-  "sold_price_sar": 0.0
+  "detailed_desc": "مطلوب  خبير SEO لموقع مصنع TOSEVEN — السلام عليكم .. هذا موقع مصنعنا https://to7motor.com/ المطلوب من خبير الـ SEO 1. التدقيق الشامل: فحص الموقع بالكامل باستخدام SEMrush. 2. SEO التقني: اكتشاف جميع المشكلات التقنية وتحديد إصلاحاتها. 3. SEO الداخلي: تحسين SEO الداخلي لجميع الصفحات الأساس",
+  "domain_data": {
+    "repo_name": "turbine-industrial-iot-1289296",
+    "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+  }
 }
