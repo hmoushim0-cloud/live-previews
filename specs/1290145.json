@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290145_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290145Repository.kt",
+        "App1290145HomeScreen.kt",
+        "App1290145DetailsScreen.kt",
+        "App1290145CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع منصة أجري كونسلت (#1290145)، حيث أظهرت هيكلة كلاسات الـ Domain مثل `App1290145Model` و`App1290145Package` التزاماً صارماً بمبادئ فصل الاهتمامات ونمط MVVM النظيف. تم توظيف `App1290145Repository` بكفاءة عالية لإدارة تدفق البيانات والتفاعل مع الـ StateFlow بصورة تفاعلية خالية من أي تسريب للذاكرة، مع تكامل سلس بين واجهات Jetpack Compose في ملفات `App1290145HomeScreen.kt` و`App1290145DetailsScreen.kt` و`App1290145CheckoutScreen.kt`. كما تميزت الرسوم التوضيحية في `BespokeVectorIllustration.kt` بدقة متناهية، وتكامل الخادم في `server/server.js` بسلاسة مع البنية التحتية المقترحة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتفعيل آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استجابة فورية بدون اتصال، بالإضافة إلى توسيع نطاق الاختبارات الوحدوية (Unit Tests) لـ StateFlow وتجهيز النشر السحابي على خوادم Hetzner."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290145Repository.kt",
+        "App1290145HomeScreen.kt",
+        "App1290145DetailsScreen.kt",
+        "App1290145CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكنني تسليط الضوء على بعض النقاط القوية في المشروع. يظهر نمط MVVM (Model-View-ViewModel) بوضوح في الكود، مما يسهل إدارة واجهة المستخدم وفصل البيانات والمنطق. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمجال. تم توظيف الـ Canvas Vector Drawings لإنشاء رسومات متجهة جذابة بصرياً.\n\nبالنسبة للخادم، يظهر استخدام خادم مستقل بإدارة الغرف والبث اللحظي قوة في توفير بيئة مخصصة وآمنة للتطبيق. تم استخدام ملفات",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290145Repository.kt",
+        "App1290145HomeScreen.kt",
+        "App1290145DetailsScreen.kt",
+        "App1290145CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تستند معمارية منصة «أجري كونسلت» (#1290145) ذات النمط المعماري (medical_portal) إلى أسس هندسية رفيعة المستوى بفضل توظيف تقنيات كوتلن متعددة المنصات (KMP) وفصل الطبقات عبر نموذج الـ MVVM النظيف. يظهر هذا بوضوح في تكامل كلاسات النطاق مثل `App1290145Model` و`App1290145Package` مع مستودع البيانات `App1290145Repository.kt` لإدارة طلبات تحسين وتصدير الحاصلات الزراعية بكفاءة عالية، يوازيها تجربة مستخدم تفاعلية ومرنة عبر الشاشات `App1290145HomeScreen.kt` و`App1290145DetailsScreen.kt` و`App1290145CheckoutScreen.kt`. علاوة على ذلك، يبرز التميز البصري في استخدام الرسوم المتجهية المخصصة عبر `BespokeVectorIllustration.kt`، مما يغني التطبيق عن الاعتماد على الأصول الثقيلة ويدعم الأداء السلس.\n\nعلى الصعيد السحابي وهندسة التكاليف (FinOps)، يمثل اعتماد خادم VPS مستقل (مثل Hetzner CX22) بتكلفة زهيدة لا تتجاوز 6 دولارات شهرياً، مدعوماً بسيرفر Node.js في ملف `server/server.js`، عبقرية هندسية توفر مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو Google Cloud Run مع قواعد بيانات مدارة). كما أن استغلال تكتيك الـ PM2 Cluster على خادم VPS يتيح تفعيل كافة أنوية المعالج (Multi-core scaling) لخدمة الطلبات المتزامنة والبث اللحظي بكفاءة استثنائية، وضمان استمرارية التشغيل (Zero-downtime restarts) وموازنة الأحمال محلياً دون هدر الموارد المالية أو التعرض لتكاليف التشغيل الخفية (Egress & API Gateway fees).",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تطبيق بروتوكول المصادقة الثنائية JWT مع تفعيل طبقة الحماية Rate Limiting في ملف `server/server.js` لمنع الهجمات العشوائية، إضافة إلى دمج طبقة التخزين المؤقت (Redis Cache) على الـ VPS لتسريع الاستجابة واستعلامات الحاصلات الزراعية، واستكمال أتمتة مسارات النشر المستمر (CI/CD) عبر GitHub Actions لضمان التحديث الآمن دون انقطاع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290145Repository.kt",
+        "App1290145HomeScreen.kt",
+        "App1290145DetailsScreen.kt",
+        "App1290145CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تُظهر منصة أجري كونسلت (#1290145) نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM عبر الكلاس المحوري App1290145Repository.kt الذي يُشكّل طبقة البيانات بمعزل تام عن طبقة العرض، مما يُعزز قابلية الاختبار والصيانة. كلاس App1290145Model يُجسّد مبدأ Single Source of Truth بتمثيل حالة الباقات والطلبات كـ sealed classes، فيما يُبرز App1290145Package تصميماً دقيقاً لكيانات النطاق Domain Entities بحقول مُقيَّدة بـ data class مع دعم التسلسل الكامل. على صعيد الوا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

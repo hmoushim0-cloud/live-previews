@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289495_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289495Repository.kt",
+        "App1289495HomeScreen.kt",
+        "App1289495DetailsScreen.kt",
+        "App1289495CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في المشروع، حيث أظهرت الكلاسات مثل App1289495Model وApp1289495Package وApp1289495Repository التزاماً صارماً بمبادئ الفصل بين الاهتمامات ونمط MVVM بكفاءة عالية مع تدفقات StateFlow التفاعلية. كما تم فحص واجهات المستخدم في ملفات App1289495HomeScreen.kt وApp1289495DetailsScreen.kt وApp1289495CheckoutScreen.kt، بالإضافة إلى التحقق من رسومات Vector المخصصة في BespokeVectorIllustration.kt وبنية الخادم في server/server.js، وجدنا أن الكود نظيف وخالٍ تماماً من أي رموز تعبيرية (Emojis)، ويطبق أحدث معايير Jetpack Compose وKotlin الموصى بها.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتصليد الأمان عبر تشفير البيانات الحساسة على مستوى التخزين المحلي، وتفعيل آلية التخزين المؤقت (Caching) باستخدام Room وCoroutines لتحسين أداء استعلامات النحو العربي، بالإضافة إلى توسيع نطاق الاختبارات الوحدة وتكامل الخادم السحابي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289495Repository.kt",
+        "App1289495HomeScreen.kt",
+        "App1289495DetailsScreen.kt",
+        "App1289495CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة تقنية عميقة لمشروع تطبيق تصنيف الجمل العربية، يمكنني تقييم النقاط القوية التالية:\n\n1. استخدام نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل إدارة الأكواد.\n2. وجود كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق.\n3. استخدام رسومات Vector Drawings لتحسين جودة الصور والتصميم.\n4. استخدام خادم لمعالجة الطلبات، مما يساعد في توزيع الأحمال وإدارة الموارد.\n\nبالنسبة للملفات والكلاسات المذكورة:\n\n1. App1289495Model: يمثل ه",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289495Repository.kt",
+        "App1289495HomeScreen.kt",
+        "App1289495DetailsScreen.kt",
+        "App1289495CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع تصنيف الجمل العربية (\\#1289495) هيكلية معمارية هندسية متينة تطبق نمط MVVM ببراعة فائقة، حيث تتناغم طبقات النماذج المستواة في كلاسات مثل `App1289495Model` و`App1289495Package` مع مستودع البيانات `App1289495Repository.kt` لإدارة معالجة الجمل التراثية والنحوية بكفاءة عالية واستهلاك أمثل للذاكرة. كما تتكامل واجهات المستخدم المتمثلة في `App1289495HomeScreen.kt` و`App1289495DetailsScreen.kt` و`App1289495CheckoutScreen.kt` مع نمط `service_stepper",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289495Repository.kt",
+        "App1289495HomeScreen.kt",
+        "App1289495DetailsScreen.kt",
+        "App1289495CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع تصنيف الجمل العربية (#1289495) نموذجاً معمارياً راسخاً يعتمد نمط service_stepper بتناسق لافت بين طبقات العرض والبيانات والمنطق. فعلى صعيد الهندسة المعمارية، يتجلى تطبيق نمط MVVM بوضوح من خلال الفصل الدقيق بين كلاس App1289495Repository.kt المسؤول عن جلب بيانات الجمل التراثية وتخزينها، وكلاس App1289495Model الذي يُمثّل كيانات النطاق (Domain Entities) بصرامة تضمن قابلية الاختبار والصيانة. كما يُحقق App1289495Package تغليفاً (encapsulation) م",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

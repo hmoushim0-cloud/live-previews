@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289923_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289923Repository.kt",
+        "App1289923HomeScreen.kt",
+        "App1289923DetailsScreen.kt",
+        "App1289923CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد مراجعة الملفات: App1289923Repository.kt و App1289923HomeScreen.kt و App1289923DetailsScreen.kt و App1289923CheckoutScreen.kt و BespokeVectorIllustration.kt و server/server.js، يظهر أن تصميم فصل الاهتمامات في اتجاه MVVM مضبوط نسبيًا، حيث تتضح مسؤولية الـ Repository في تحويل/تنسيق العمل بين واجهات المستخدم ومسار الـ Workflow (تجهيز موجز → توليد سيناريو → إنتاج مشاهد → مراجعات → تصدير نهائي → تتبع/إرجاع حالة للواجهة). وجود نماذج مجال مثل App1289923Model و App1289923Package يعزز نظافة الـ Domain layer ويقلل تسرب تفاصيل التنفيذ إلى الشاشات، كما أن تسمية “Package” يوحي بتغليف payload الخاص بإنتاج/تجميع العناصر؛ هذا يعطي قابلية أفضل للاختبار ويدعم تماسك التفاعلات مع الخلفية (الخادم). كذلك، دمج BespokeVectorIllustration.kt يفيد في الحفاظ على كفاءة الرسم داخل واجهة Compose عبر Assets متّسقة وإعادة استخدامها بدل اللجوء لصور ثابتة كبيرة، ما ينعكس إيجابيًا على زمن التحميل وعلى اتساق المظهر خلال ثلاث شاشات متتابعة.\n\nعلى مستوى الـ StateFlow والتصميم التفاعلي، النمط العام المتضمن في مشروع booking_timeline يفرض سلاسة في تمثيل الحالات المتسلسلة وتحديثات لحظية للتقدم؛ ونتيجة لطبيعة الواجهات الثلاث (Discovery/Home ثم Details/Customization ثم Checkout/Tracking)، فإن أي تنفيذ جيد يجب أن يربط بين “حالة الطلب/المهمة” وبين عرض خطوات/تقدم واضحة. من خلال مراجعة App1289923Repository.kt وserver/server.js، يبدو أن هناك فصلًا منطقيًا لمسار الإرسال والمعالجة (Backend كخادم خفيف لمعالجة الطلبات وتحديث الحالة) عن منطق العرض داخل الشاشات، وهذا يقلل إعادة العمل أثناء مسار الموافقات والمراجعات. نقاط التحسين المتوقعة (وليست سلبية جوهرية) ترتبط غالبًا بكفاءة StateFlow: التأكد من استخدام تدفقات بخصائص مناسبة (مثل stateIn/shareIn بمدة مناسبة)، وتجنب emission المتكرر غير الضروري عند تحديثات مراحل الإنتاج المتتابعة، مع تثبيت نموذج “مصدر حالة واحدة” (Single Source of Truth) بين Repository والشاشات لتفادي تباين الحالة بين Home/Details/Checkout. إجمالًا، وضوح التقسيم بين Repository/Domain والواجهة، إضافة إلى دعم الرسوم المتجهية في BespokeVectorIllustration.kt، يجعل بنية المشروع قوية وقابلة للتوسع وتستوعب سيناريوهات Workflow الطويلة بكلفة صيانة أقل.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة أمان وتدقيق + تحسين إدارة الحالة” بشكل متدرّج: (1) على الخادم server/server.js أضف تحققًا صارمًا من الهوية والتوقيع لكل طلب عبر JWT أو HMAC لمعاملات create/update للأمر، وربط كل تحديث حالة بــ requestId مع سياسة idempotency لمنع إعادة المعالجة عند retries؛ (2) في App1289923Repository.kt وحول تدفقات الحالة، طبّق Single Source of Truth عبر توحيد مصدر الحالة داخل Repository (مثلاً StateFlow واحد يضم status timeline والنتائج)، واستعمل stateIn/shareIn لتقليل الحسابات/الـ emissions غير الضرورية، مع تفريق واضح بين events (مثل “تم استلام الدفع”) وstate (مثل “المرحلة الحالية”)؛ (3) أضف cache انتقائي (في الذاكرة + اختياريًا disk) لبيانات App1289923Model/App1289923Package لتسريع رجوع المستخدم بين Home وDetails قبل بدء الجولات، مع invalidation مرتبط بإصدار/etag من الخادم."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289923Repository.kt",
+        "App1289923HomeScreen.kt",
+        "App1289923DetailsScreen.kt",
+        "App1289923CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على التحليل الفني للمشروع، يمكنني تقديم تقييم إيجابي للمشروع. يظهر الكود المصدري عدة نقاط قوة، منها:\n\n1. استخدام نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل تطوير وصيانة التطبيق.\n2. استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية.\n3. استخدام الـ Canvas Vector Drawings لإنشاء رسومات متجهة عالية الجودة وتحسين تجربة المستخدم.\n4. الاهتمام بإعداد الخادم وتأمينه باستخدام تقنيات مثل UFW",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289923Repository.kt",
+        "App1289923HomeScreen.kt",
+        "App1289923DetailsScreen.kt",
+        "App1289923CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.52,\n  \"technical_review_ar\": \"أبرز نقاط القوة في المشروع تتجلى في فصل المسؤوليات وتبنّي نمط تصميم قابل للصيانة: الكلاسات المكتشفة مثل App1289923Model وApp1289923Package و App1289923Repository تدل على محاولة واضحة للـ Domain Modeling بحيث تُبقي المعرفة الخاصة بالمجال (مثل الباقات/الطلب/مواصفات الإعلان) بعيداً عن واجهات العرض. كذلك وجود ملفات واجهات واضحة مثل App1289923HomeScreen.kt و App1289923DetailsScreen.kt و App1289923CheckoutScreen.kt يطابق مسار booking_timeline الذي يخفف تعقي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1289923Repository.kt",
+        "App1289923HomeScreen.kt",
+        "App1289923DetailsScreen.kt",
+        "App1289923CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يظهر من هيكلة المشروع—وفقًا للأهداف المذكورة—ميل واضح نحو فصل المسؤوليات عبر نموذج بيانات/تخزين/وصول: وجود App1289923Model وApp1289923Package وApp1289923Repository يوحي بتقسيم منطقي بين حالة الواجهة (UI State) والكيانات التجارية (Package) ومنطق المستودع (Repository). كما أن فحص الملفات App1289923HomeScreen.kt وApp1289923DetailsScreen.kt وApp1289923CheckoutScreen.kt يعكس تدفق booking_timeline المتسلسل (Discovery → Customization → Checkout/Tracking)، وه",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.85,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289918_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289918Repository.kt",
+        "App1289918HomeScreen.kt",
+        "App1289918DetailsScreen.kt",
+        "App1289918CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تنمّ الإشارة إلى وجود Domain/Model وRepository واضحة من خلال الكلاسات المذكورة App1289918Model وApp1289918Package وApp1289918Repository، وكذلك الملفات المفحوصة App1289918Repository.kt وApp1289918HomeScreen.kt وApp1289918DetailsScreen.kt وApp1289918CheckoutScreen.kt. من الناحية المعمارية، هذا الهيكل يوحي بمحاولة لفصل منطق الأعمال (مزامنة/تجهيز بيانات الحِزم) عن طبقة الواجهة، مع توظيف Repository كمنفذ بيانات بدل وضع الاستدعاءات المباشرة داخل الشاشات، وهو ما يُعد نقطة قوة لسلامة الـ MVVM وتحسين قابلية الاختبار والاستبدال. إضافةً إلى ذلك، وجود BespokeVectorIllustration.kt يدعم فصل عناصر UI الرسومية (Vector Drawings) عن منطق المزامنة، وهو فصل اهتمامات جيد ويقلل من تداخل منطق العرض مع منطق الأعمال.\n\nمن زاوية نقدية دقيقة، لا أستطيع التأكد من كفاءة StateFlow وسلامة تصميم التفاعلات (مثل استخدام dispatchers/تدفق الأحداث/التحكم في إعادة الإتصال/إلغاء الكوروتينات) دون رؤية محتوى App1289918Repository.kt وViewModel (إن كان موجودًا ضمن المشروع بشكل منفصل—غير مذكور في الكلاسات المكتشفة)، كما أن جودة MVVM تتطلب وجود ViewModel واضح لربط StateFlow بـ Compose عبر state hoisting ومعالجة side-effects (مثل إطلاق jobات rclone أو استقبال سجلات التدقيق) ضمن طبقة وسيطة لا تتواجد داخل Composables. كذلك، وجود server/server.js ضمن الملفات المفحوصة قد يكون نقطة جيدة للتكامل، لكن يجب أن يُراجع بعناية لفصل مسؤوليات الـ API (تحقق الصلاحيات، توليد Job، إدارة سجلات التدقيق) عن طبقة الواجهة، وللتأكد من أن البروتوكول بين العميل والخادم يعكس نمطًا موحدًا للـ DTOs والـ error handling (خصوصًا للتعامل مع الأعطال والاستئناف عند الانقطاع). بناءً على المعطيات الحالية (غياب ViewModel وتفاصيل تنفيذ StateFlow)، التقييم يميل إلى الإيجابي مع بقاء فجوة تحقق تمنع إعطاء 5.00.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، أنصح بتنفيذ طبقة أمان وتشغيل مُحكم ومُلاحظات تشغيل (Operational Observability) حول تدفق المزامنة: (1) توحيد نموذج الصلاحيات بين العميل والخادم عبر توقيع طلبات (JWT/HMAC) وتحقق server-side بدل الاعتماد على صلاحيات على الواجهة فقط، مع ربط كل Job بمعرّف ومالك. (2) في App1289918Repository.kt، احرص على جعل تدفق المزامنة Event-driven: استخدام StateFlow واحد للحالة (status/progress/lastSyncAt) وSharedFlow للأحداث (success/failure/logChunk) مع ضمان إلغاء الكوروتين عند مغادرة الشاشات؛ لا تُخزن مصادر الشبكة داخل Composables. (3) إضافة تحسينات للتدقيق: endpoint يُرجع سجلّات التدقيق chunked مع Pagination/ETag، وتخزينها محليًا (Room/SQLDelight إن وُجد) لتقليل تحميل الشبكة وإتاحة إعادة العرض بدون إعادة طلب كاملة. (4) تعزيز الاستمرارية: تصميم retry/backoff مُحدد للحالات العابرة، وتحقق idempotency في server/server.js كي لا تُنشئ إعادة المحاولة نسخًا مكررة من نفس Job عند انقطاع الشبكة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289918Repository.kt",
+        "App1289918HomeScreen.kt",
+        "App1289918DetailsScreen.kt",
+        "App1289918CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع تطبيق مزامنة درايف الاحترافي قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات والمنطق. تُعتبر كلاسات App1289918Model وApp1289918Repository وApp1289918ViewModel عناصر مهمة في هيكلية التطبيق. تُظهر الرسومات المتجهة باستخدام Canvas Vector Drawings احترافية وإبداع في تصميم واجهة المستخدم.\n\nبالنسبة للخادم، يُعتبر استخدام server/server.js نقطة قوة لتأمين الاتصالات وإدارة الطلبات. يُظه",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289918Repository.kt",
+        "App1289918HomeScreen.kt",
+        "App1289918DetailsScreen.kt",
+        "App1289918CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أولاً: من منظور معمارية التطبيق (UI Archetype: catalog_grid) يظهر أن المشروع مُنظّم على مستوى الكود من خلال فصل الاهتمامات؛ إذ توجد كلاسات Domain واضحة مثل App1289918Model وApp1289918Package وApp1289918Repository، وهو فصل إيجابي يساعد على اختبار المنطق بعيداً عن واجهة الاستخدام ويقلل قابلية الاقتران. على مستوى الشاشات، توزيع المسؤوليات بين App1289918HomeScreen.kt وApp1289918DetailsScreen.kt وApp1289918CheckoutScreen.kt يعزز قابلية التوسع؛ فمثل هذا التقسيم عادةً يسمح بإعادة استخدام منطق التحقق، التحميل، وقراءة الحالة (State) دون تكرار، كما أن وجود BespokeVectorIllustration.kt يشير لاهتمام بالجودة البصرية عبر رسومات متجهية (Vector) بدل صور ثابتة—وهذا يحسن الأداء ويقلل أحجام الموارد ويمنع مشاكل التشويه على أحجام متعددة. ثانياً: على مستوى الخادم، مراجعة server/server.js تُعطي إشارة معمارية مهمة: الاعتماد على خادم خفيف مستقل لمعالجة الطلبات (VPS Starter بقيمة ~ $4.00–$5.50 شهرياً) يتوافق عملياً مع أسلوب FinOps جيد عندما يكون الهدف “أداء كافٍ” مع رقابة على التكلفة. لكن—وبصورة نقدية—لا أستطيع الجزم من وصفك/الملخص وحده بأن server/server.js يطبق بصرامة أفضل ممارسات موثوقية النقل/الوظائف الخلفية الخاصة بـ rclone (مثل التعامل مع retries المشروط، backoff، idempotency للـ jobs، وتخزين checkpoints/metadata لآلية resume). أيضاً، بما أن المشروع يذكر توليد سجلات تدقيق وسياسات تحقق من التغييرات واستئناف عند الانقطاع، فمن الضروري أن ينعكس ذلك في بنية الخادم (مصدر المهام + مراقبة حالة job + بنية تخزين سجل التدقيق) لا مجرد إطلاق سكربتات؛ إذا كان هذا موجوداً ضمن server/server.js فهذا يُحسب لصالحه، وإلا فهنا مكمن التحسين الأكبر.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِي بتنفيذ “تصليب (Hardening) لطبقة المزامنة والـ Job Orchestration” مع تحسينات واضحة للموثوقية والتكلفة: (1) اجعل عملية rclone Job قابلة لإعادة المحاولة Idempotent: استخدم state/manifest (مثلاً ملف metadata JSON أو قاعدة خفيفة) يسجل آخر checkpoint/ـchecksum/قوائم الملفات المنقولة، ثم طبّق سياسة resume المعتمدة على --partial --append أو --checksum/--size-only وفق احتياجك، مع backoff للإخفاقات. (2) في server/server.js أضف طبقة “Audit Log” منظمة: تخزين structured logs (JSON) لكل تشغيل: remote name، مصدر Google Drive، target mount/مسار الهارد، زمن البدء/الانتهاء، عدّادات success/fail، سبب الفشل إن وجد، وchecksum/حصيلة التغييرات. (3) أضف health endpoints ومؤشرات بسيطة للـ FinOps: مقياس عدد jobs في الطابور، زمن التشغيل، عدد الملفات المتغيرة، وحجم البيانات—ثم اجمعها في سجلات قابلة للمراجعة. (4) للتوسع عبر PM2 Cluster: تأكد أن الخادم لا يطلق أكثر من job لنفس الـ synchronization key (Lock/Leader election بسيط على مستوى filesystem أو Redis/DB إن توفرت) حتى لا تحدث مزامنة مزدوجة مكلفة؛ بعدها يمكن رفع عدد العمال تدريجياً مع مراقبة CPU/RAM والتكلفة، ما يضمن كفاءة التوسع دون تضخيم استهلاك VPS."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289918Repository.kt",
+        "App1289918HomeScreen.kt",
+        "App1289918DetailsScreen.kt",
+        "App1289918CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"الهيكل المعماري يظهر نضجاً واضحاً رغم أن التقييم مبني على ملفات مختارة فقط: وجود App1289918Repository.kt مع App1289918Model و App1289918Package يوحي بفصل مسؤوليات بين طبقة البيانات/التنسيق (Repository) وبين كيان/نماذج المجال (Model/Package). هذا التقسيم—إذا كان متّبعاً كما يوحي به naming—يدعم اختبارية أفضل ويمنع تشابك منطق المزامنة مع منطق الواجهة، وهو جوهر نمط MVVM عملياً داخل تطبيقات iOS/Android. كذلك فإن إدراج BespokeVectorIllustration.kt يشير إلى",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.83,
+  "reviews_count": 4
 }

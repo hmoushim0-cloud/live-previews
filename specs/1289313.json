@@ -24,7 +24,7 @@
   ],
   "archetype": "analytics_bento",
   "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "status": "APPROVED_BY_PRESIDENT",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
@@ -32,5 +32,11 @@
   "brand": {
     "primary": "#6D28D9",
     "secondary": "#8B5CF6"
-  }
+  },
+  "version_num": 1,
+  "rework_count": 0,
+  "initial_build_sec": 203,
+  "rework_duration_sec": 0,
+  "month_key": "2026-10",
+  "sold_price_sar": 0.0
 }

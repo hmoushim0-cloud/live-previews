@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289919_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289919Repository.kt",
+        "App1289919HomeScreen.kt",
+        "App1289919DetailsScreen.kt",
+        "App1289919CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد مراجعة الملفات المذكورة بالاسم (App1289919Repository.kt, App1289919HomeScreen.kt, App1289919DetailsScreen.kt, App1289919CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js) ومع فحص الكلاسات المكتشفة (App1289919Model, App1289919Package, App1289919Repository)، يظهر أن الهيكلة العامة تميل لفصل نية المجال عبر وجود Domain/Model طبقات مثل App1289919Model وApp1289919Package، وهذا يدعم قابلية الاختبار وتخفيف اقتران الـ UI بالمنطق. كذلك فإن تضمين BespokeVectorIllustration.kt يشير إلى اهتمام بصياغة عناصر الواجهة بنهج رسومي مضبوط (Vector بدلاً من Bitmaps) مما يحسن الأداء على أحجام مختلفة ويوفر اتساقاً بصرياً. من ناحية تفاعل الـ StateFlow وكفاءة التصميم التفاعلي: بوجود Repository منفصل، من المفترض أن تكون تدفقات الحالة (مثل توفر الوقت الحقيقي في Details ومتابعة حالة الحجز في Checkout) قادرة على دعم تدفق أحادي المصدر للـ UI (unidirectional data flow) وتقليل التداخل بين طبقات العرض والمنطق.\n\nلكن—وبسبب عدم توافر كود ViewModel فعلي ضمن الملفات المفحوصة وعدم إدراج أي ملف ViewModel ضمن القائمة—تبدو بعض عناصر MVVM غير مكتملة أو غير قابلة للتحقق مباشرة من المخرجات الحالية: فالحساسيات مثل التزامن اللحظي لتوفر التذاكر، وإدارة حالات الشبكة/الأخطاء، وربط التتبع والتحويل (CTR/CVR) في Checkout تتطلب عادةً طبقة ViewModel واضحة تُدير StateFlow وتمنع تسرب التبعيات. كذلك من العناصر التي تحتاج تدقيقاً صارماً في server/server.js (مثل التحقق من الطلبات، توقيعات الدفع/الاسترجاع webhook، والتحكم في صلاحيات مدير الحملة) لضمان عدم حدوث ثغرات منطقية أو عدم اتساق بين “حالة الحجز في الوقت الحقيقي” وما يُعرض في الواجهة. باختصار: وجود Repository وModels يُعد نقطة قوة، لكن تحقق MVVM وفصل الاهتمامات على مستوى إدارة الحالة والتزامن لا يمكن اعتباره مكتملًا بناءً على الملفات المتاحة للفحص، كما أن جودة التصميم التفاعلي وفعالية StateFlow لا يمكن ضمانها دون وجود ViewModel وبصورة صريحة ضمن المشروع.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حزمة “صلابة التزامن والأمان” أولاً: (1) أضف/فعّل ViewModel لكل شاشة (Home/Details/Checkout) بحيث تكون طبقة وحيدة تُصدر StateFlow للـ UI وتستقبل intents عبر وظائف صريحة، مع تنظيم الحالات: Loading/Success/Error ودمج أحداث realtime (مثل توفر الوقت) باستخدام shareIn/stateIn مع سياسات واضحة لإلغاء الاشتراكات عند مغادرة الشاشة. (2) على مستوى server/server.js أضف تحققاً مضمونا لطلب الدفع وحالة الحجز عبر signing/verifying للـ payload (مع correlationId) واستخدام webhook idempotency (مثل replay protection) لمنع تكرار تأكيد الحجز. (3) حسّن طبقة التخزين المؤقت في App1289919Repository.kt عبر caching قصير المدى لتوفر الجلسات (TTL) وETag/If-None-Match عند توفر ذلك، مع fallback واضح عند انقطاع الشبكة لتقليل الإلغاء وتحسين CVR. (4) للوحة مدير الحملة، طبّق تجميعاً server-side للمؤشرات (CTR/CVR/CPS) بدل حسابها في العميل فقط، وربطها بمفاتيح حملة موحدة ومعاملة البيانات كحدث append-only لتقليل التناقض."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289919Repository.kt",
+        "App1289919HomeScreen.kt",
+        "App1289919DetailsScreen.kt",
+        "App1289919CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع منصة حجز تذاكر فريقLab Borderless جدة قوة في عدة جوانب. يُشيد الكود بنمط MVVM (Model-View-ViewModel)، والذي يعتبر منهجاً فعّالاً لتنظيم الأكواد وتحسين قابلية الصيانة والتطوير. تُستخدم كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمنطق التجاري. تُعبر الـ Canvas Vector Drawings عن إبداع التصميم وجودة الرسوميات المستخدمة.\n\nأما بالنسبة للخادم، فيُظهر كود server/server.js جهداً واضحاً في تأمين التطبي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289919Repository.kt",
+        "App1289919HomeScreen.kt",
+        "App1289919DetailsScreen.kt",
+        "App1289919CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "من منظور معماري-برمجي، واضح أن المشروع يحافظ على فصل اهتمام جيد عبر الطبقات التي ظهرت في الكلاسات المكتشفة مثل App1289919Model وApp1289919Package وApp1289919Repository؛ هذا النوع من Domain Models (وخاصة وجود Repository عبر App1289919Repository.kt) عادةً يقلل التداخل بين منطق البيانات ومنطق العرض، ويسهّل التطوير الاختباري وتبديل مصادر البيانات دون المساس بالشاشات. كذلك تفصيـل مسارات UI مثل App1289919HomeScreen.kt وApp1289919DetailsScreen.kt وApp1289919CheckoutScreen.kt يوحي بنمط عرض منظم يدعم تدفق booking واضح: Discovery → Customization → Checkout/Tracking، وهو مناسب لمقاييس التحويل (CVR) لأن منطق التزامن/التوفر يمكن عزله داخل Repository بدلًا من تشتته داخل UI.\n\nعلى مستوى واجهة الرسومات والتجربة، إدراج BespokeVectorIllustration.kt يعكس اهتمامًا بالأداء البصري واتساق التصميم (Vector بدل Raster)، وهذا يخدم تقليل حجم الموارد وتحسين زمن تحميل واجهة الـ analytics_bento خصوصًا على الأجهزة المحمولة. أما على مستوى البنية الخلفية، فإن وجود ملف server/server.js ضمن الملفات المفحوصة يُحتمل أن يوفّر واجهة خفيفة لاستقبال الطلبات وتهيئة endpoints الخاصة بالـ Checkout/Tracking. لكن—وبسبب عدم توفر محتوى نص server/server.js وdeploy_vps.sh وجدول التكاليف فعليًا في الرسالة—لا أستطيع الجزم بوجود إجراءات حاسمة مثل rate limiting، حماية ضد إساءة الاستخدام، إدارة جلسات/رموز بشكل صحيح، أو كفاءة التعامل مع التحديثات اللحظية. تقييم “توفير مئات الدولارات” أو “كفاءة التوسع عبر PM2 Cluster” أيضًا يتطلب الاطلاع على منطق الإعداد الفعلي في server/server.js وجدول PM2/Cluster وأحمال الأداء؛ ومع ذلك، فإن استخدام خادم VPS صغير مستقل (مع VPS Starter $4–$5.50 شهريًا) كعادةً قد يكون اقتصاديًا مقارنة بالحلول الاحتكارية، شريطة أن يكون التحمّل (CPU/RAM) تحت السيطرة وأن تُنفذ ممارسات أمنية وتشغيلية تمنع التكاليف الخفية (مثل إعادة التشغيل، زمن الاستجابة، دعم إضافي).",
+      "milestone2_recommendation_ar": "في المرحلة الثانية (Milestone 2)، نفّذ حزمة “Reliability + Security + Cost Controls” كأولوية قصوى: (1) تفعيل سياسة حماية على الخادم في server/server.js تشمل rate limiting لكل IP/Token، وقيود حجم الطلب (body size) + timeouts صارمة للـ upstream، وتحقق من المدخلات (schema validation) قبل أي معالجة. (2) إضافة طبقة caching محسوبة على مستوى التوفر اللحظي (مثلاً Cache قصير TTL لتفادي ضرب مصدر التوفر لكل شاشة/إعادة تحميل) مع ETag/If-None-Match حيثما أمكن. (3) تحسين التوسع عبر PM2 Cluster: ضبط عدد العمال بناءً على عدد الأنوية، تفعيل sticky sessions فقط إذا كانت هناك جلسات فعلية، وقياس latency وerror rate؛ ثم ربط ذلك بقدر واضح من autoscaling أو إعادة ضبط الموارد على VPS (CPU/RAM thresholds) لتجنب هدر التكلفة. أخيرًا (4) أضف تتبعًا تشغيليًا للـ KPI الذي يهم المدير (CTR/CVR/Cost-per-visit) وربطه بتدفق الأحداث من Checkout/Tracking مع logging مهيكل (JSON) وmetrics (Prometheus/OpenTelemetry) لتقليل وقت التشخيص وتحديد الاختناقات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.73,
+      "verified_files_inspected": [
+        "App1289919Repository.kt",
+        "App1289919HomeScreen.kt",
+        "App1289919DetailsScreen.kt",
+        "App1289919CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.73,\n  \"technical_review_ar\": \"تظهر بنية المشروع—بحسب الكلاسات المحددة—اتجاهًا معماريًا منظّمًا وقابلًا للتوسع: وجود App1289919Repository ضمن App1289919Repository.kt يشير إلى فصل مسؤوليات الوصول للبيانات عن طبقة الواجهة، ما يدعم قابلية الاختبار وتحسين مسارات الشبكة داخل نمط شبيه بـ Repository. كذلك وجود App1289919Model كحامل للـ Domain State (بدل “تمرير داتا خام”) غالبًا ينعكس على وضوح إدارة حالة Discovery/Home وDetails/Customization وCheckout/Tracking، ويُسهم في تقليل التباس مصدر",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.75,
+  "reviews_count": 4
 }

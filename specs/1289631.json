@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289631_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289631Repository.kt",
+        "App1289631HomeScreen.kt",
+        "App1289631DetailsScreen.kt",
+        "App1289631CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"تقرير CFD للعمود البابل كاب\" تطبيقاً متقناً في بنية MVVM، حيث تُفصل طبقة الـ ViewModel (App1289631HomeScreen.kt، App1289631DetailsScreen.kt، App1289631CheckoutScreen.kt) عن الـ Repository (App1289631Repository.kt) وتُعتمد على StateFlow بكفاءة عالية لتحديث الحالة UI دون أي تعارض. تُبرز الـ Domain Models (App1289631Model، App1289631Package) تصميماً واضحاً مع تجانس الأنواع، ما يسهل صيانة الكود وتوسيع نطاقه. إضافةً إلى ذلك، يُظهر ملف BespokeVectorIllustration.kt استخداماً متقناً لـ Canvas وVector Graphics، مما يضيف قيمة جمالية وتفاعلية للواجهة دون تحميل زائد على الأداء. أما الخادم (server/server.js) فمُصمم بسيطاً وفعالاً مع هندسة RESTful واضحة، مما يضمن استجابة سريعة للطلبات وتكامل سلس مع تطبيق Android عبر KMP.",
+      "milestone2_recommendation_ar": "لتحقيق مستوى أعلى من الأمان والكفاءة في المرحلة الثانية، يُنصح بتنفيذ نظام مصادقة JWT مع التشفير TLS 1.3، إضافة طبقة caching محلية باستخدام Room أو DataStore لتقليل استهلاك الشبكة، وتفعيل CI/CD مع GitHub Actions لتشغيل اختبارات وحدات (Unit Tests) وUI Tests تلقائياً، مع دمج تحليل الأداء (Android Profiler) لضبط استهلاك الذاكرة والبطارية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289631Repository.kt",
+        "App1289631HomeScreen.kt",
+        "App1289631DetailsScreen.kt",
+        "App1289631CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع تقرير CFD للعمود البابل كاب يتمتع بنقاط قوة عدة. يتميز الكود بنمط MVVM، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه. تظهر أيضاً استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز إعادة استخدام الكود وصيانته.\n\nمن الجوانب الإيجابية الأخرى استخدام الـ Canvas Vector Drawings لتقديم الرسومات البيانية والجداول بطريقة جذابة وفعالة. يُظهر ذلك قدرة المطورين على استغلال تقنيات الرسم ا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289631Repository.kt",
+        "App1289631HomeScreen.kt",
+        "App1289631DetailsScreen.kt",
+        "App1289631CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يظهر الكود اعتماداً واضحاً على نمط MVVM مع فصل واضح بين طبقة العرض (App1289631HomeScreen.kt، App1289631DetailsScreen.kt، App1289631CheckoutScreen.kt) وطبقة البيانات (App1289631Repository.kt) التي تتعامل مع الـ Domain Model (App1289631Model). هذا الفصل يسهل اختبار الوحدة ويقلل من التكرار، كما يتيح توسيع التطبيق بسهولة مع إضافة ميزات جديدة دون التأثير على واجهة المستخدم. إضافةً إلى ذلك، يبرز استخدام الرسوم المتجهة المخصصة في BespokeVectorIllustration.kt كتحسين بصري فريد، حيث يُستغل Canvas API لإنتاج رسومات عالية الدقة تتناسب مع مختلف أحجام الشاشات دون فقدان الجودة.\n\nمن الناحية البنية التحتية، يقدّم الخادم البسيط الموجود في server/server.js حلاً منخفض التكلفة مع قابلية التوسع عبر PM2 Cluster، ما يضمن استقرار الخدمة حتى مع زيادة الحمل. يتيح هذا النهج استغلال موارد VPS Starter بتكلفة منخفضة (4–5.5$ شهرياً) مقارنة بالخدمات السحابية الكبرى، مع إمكانية التوسع الأفقي عبر إضافة عقد جديدة بسهولة. كما يبرز الكود استخدام ملفات التكوين المتسقة وتوثيق واضح للواجهات، ما يسهل صيانة الكود وتكامل الخدمات المستقبلية مثل تخزين البيانات في قاعدة بيانات NoSQL أو إضافة طبقة تحليلية متقدمة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ آلية أمان متقدمة عبر إضافة JWT authentication مع refresh tokens، مع تشفير البيانات الحساسة في قاعدة البيانات باستخدام AES-256. كما يُفضَّل تحسين الأداء عبر تنفيذ caching محلي (Redis) لتخزين نتائج عمليات CFD المتكررة، مع ضبط إعدادات PM2 لتفعيل clustering على 2–4 نوى حسب حجم الطلب. إضافةً إلى ذلك، يُستحسن دمج CI/CD pipeline مع GitHub Actions لتشغيل اختبارات الوحدة والاختبارات التكاملية تلقائياً قبل نشر التحديثات إلى بيئة الإنتاج."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1289631Repository.kt",
+        "App1289631HomeScreen.kt",
+        "App1289631DetailsScreen.kt",
+        "App1289631CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.88,\"technical_review_ar\":\"يظهر مشروع \\\"تقرير CFD للعمود البابل كاب\\\" تطبيقاً متكاملاً يدمج نماذج CFD مع واجهة مستخدم مبنية على نمط الـ MVVM، حيث تُظهر ملفات \\\"App1289631HomeScreen.kt\\\" و\\\"App1289631DetailsScreen.kt\\\" تنظيماً واضحاً بين View وViewModel، مما يسهل اختبار الكود وصيانته. كما يبرز استخدام الكلاس \\\"App1289631Model\\\" كـ Domain Model متكامل، مع فصل واضح للبيانات والوظائف في الكلاس \\\"App1289631Repository.kt\\\"، مما يحقق فصل المسؤوليات ويعزز قابلية التوسع. إضافةً إلى ذلك، يضيف مل",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

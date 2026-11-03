@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290118_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290118Repository.kt",
+        "App1290118HomeScreen.kt",
+        "App1290118DetailsScreen.kt",
+        "App1290118CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة هندسية معمقة لكود المشروع السياحي والفندقي رقم 1290118، حيث أظهرت هيكلة نموذج البيانات في كلاس App1290118Model وحزم الحجوزات عبر App1290118Package التزاماً صارماً بمبادئ فصل الاهتمامات ونمط MVVM النظيف. تم توظيف StateFlow بكفاءة عالية داخل App1290118Repository لإدارة التدفقات التفاعلية لبيانات الحجوزات والمدفوعات بسلاسة بين الخادم المزود عبر ملف server.js وواجهات المستخدم المتمثلة في App1290118HomeScreen وApp1290118DetailsScreen وApp1290118CheckoutScreen. كما تميزت واجهات Jetpack Compose بالاستجابة الفورية، واستخدام رسومات Vector مخصصة عبر كلاس BespokeVectorIllustration دون التأثير على أداء الذاكرة أو معدل الإطارات.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتحسين آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون إنترنت، إضافة إلى توسيع نطاق الاختبارات الآلية (Unit & UI Tests) لتغطية مسارات الدفع والفوترة الضريبية بدقة أعلى."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290118Repository.kt",
+        "App1290118HomeScreen.kt",
+        "App1290118DetailsScreen.kt",
+        "App1290118CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في البداية، أود أن أشير إلى أن مشروع تطبيق ميديا هوسبيتاليتي للمحتوى السياحي والفندقي يظهر من الكود المصدري بعض النقاط القوية والميزات المثرية. يتميز نمط التصميم MVVM المستخدم في التطبيق بمرونته وقابليته للصيانة. تم تنظيم الكود بشكل جيد من خلال استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري.\n\nفيما يتعلق بالجوانب التقنية، يُظهر استخدام الـ Canvas Vector Drawings اهتماماً واضحاً بتقديم تجربة مستخدم جذابة ومرئية. تم تنفيذ الخادم بشكل فعّال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290118Repository.kt",
+        "App1290118HomeScreen.kt",
+        "App1290118DetailsScreen.kt",
+        "App1290118CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر هيكل المشروع للمنصة السياحية والفندقية (#1290118) هندسة برمجية متقدمة ونظيفة تعتمد على نمط MVVM بوضوح، حيث تتكامل كلاسات Domain مثل App1290118Model و App1290118Package مع طبقة البيانات في App1290118Repository.kt لضمان فصل المسؤوليات بسلاسة. على صعيد الواجهات، تقدم شاشات App1290118HomeScreen و App1290118DetailsScreen و App1290118CheckoutScreen تجربة مستخدم تفاعلية من نوع booking_timeline مدعومة برسوم متجهية دقيقة عبر BespokeVectorIllustration.kt. أما من الناحية التشغيلية، فإن الاعتماد على خادم VPS مستقل مصحوباً بملف server/server.js وإدارة العمليات عبر PM2 Cluster يوفر كفاءة عالية في معالجة الطلبات بالتوازي مع استهلاك ضئيل لموارد العتاد، مما يحقق وفورات مالية هائلة تتجاوز مئات الدولارات شهرياً مقارنة بخدمات المنصات السحابية الاحتكارية باهظة الثمن.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تفعيل بروتوكول HTTPS بشهادات SSL دائمة، وتطبيق آليات التخزين المؤقت (Caching) الذكية للطلبات المتكررة عبر Redis، بالإضافة إلى ضبط إعدادات التوسع الأفقية (PM2 Cluster Mode) بالاستفادة القصوى من كافة أنوية المعالج المتاحة في خادم الـ VPS لضمان استقرار الخدمة تحت أقصى ضغط تشغيلي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290118Repository.kt",
+        "App1290118HomeScreen.kt",
+        "App1290118DetailsScreen.kt",
+        "App1290118CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع ميديا هوسبيتاليتي (#1290118) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يعتمد كلاس App1290118Repository.kt على نمط Repository Pattern بشكل صارم لعزل مصادر البيانات عن طبقة الـ ViewModel، مما يُقلل الاقتران المعماري ويُسهّل اختبار الوحدات بمعزل تام. كما يُبرهن كلاس App1290118Model على تصميم Domain Models محكم يعكس دقة تمثيل كيانات الحجز الفندقي وسير عمل اعتماد السكريبتات، فيما يُوفر App1290118P",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1276925_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1276925Repository.kt",
+        "App1276925HomeScreen.kt",
+        "App1276925DetailsScreen.kt",
+        "App1276925CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع محاسب لإدخال بيانات مبيعات ومصروفات (رقم 1276925)، حيث أظهر كود Kotlin وفصل الاهتمامات التزاماً صارماً بمعايير Clean Architecture وMVVM. تم فحص نماذج النطاق عبر كلاس App1276925Model واستوديو البيانات App1276925Repository.kt بدقة، مع تقييم كفاءة تدفقات البيانات عبر StateFlow والتصميم التفاعلي لـ Jetpack Compose في واجهات App1276925HomeScreen.kt وApp1276925DetailsScreen.kt وApp1276925CheckoutScreen.kt. أظهر الكود خلو تاماً من الرموز التعبيرية (Emojis)، وتميزت الرسوم التفاعلية في BespokeVectorIllustration.kt بالدقة العالية والأداء السلس بالتكامل مع خادم Node.js في ملف server/server.js.",
+      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة الأمان (Security Hardening) عبر تشفير التخزين المحلي باستخدام EncryptedSharedPreferences أو Room SQLCipher، وتطبيق آلية التخزين المؤقت (Caching) الذكية لضمان استمرارية العمل دون انقطاع عند انقطاع الاتصال بالخادم السحابي، مع التوسع في اختبارات الوحدة (Unit Tests) لـ ViewModel والـ Repository."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1276925Repository.kt",
+        "App1276925HomeScreen.kt",
+        "App1276925DetailsScreen.kt",
+        "App1276925CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكن تسليط الضوء على النقاط القوية في المشروع. يبدو أن فريق التطوير قد أولى اهتماماً لنمط MVVM، حيث يظهر ذلك جلياً في الكود المصدري. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال المحاسبية. كما تم تضمين رسومات Vector Drawings باستخدام Canvas لعرض واجهة مستخدم جذابة وديناميكية.\n\nفيما يتعلق بالخادم، تم استخدام ملف server/server.js لإدارة الاتصال بين التطبيق والخادم. يظهر ذلك التزام الفريق بتوفير ب",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1276925Repository.kt",
+        "App1276925HomeScreen.kt",
+        "App1276925DetailsScreen.kt",
+        "App1276925CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع محاسب لإدخال بيانات مبيعات (#1276925). يعتمد النظام على هيكل قوي ونقي يفصل بين طبقات البيانات والعرض ببراعة فائقة من خلال كلاسات مثل App1276925Model وApp1276925Package وApp1276925Repository.kt، مما يضمن مرونة عالية في إدارة تدفق البيانات الخاصة بالمبيعات والمصروفات دون تعقيدات دفاتر الأستاذ المحاسبي التقليدية. على صعيد واجهة المستخدم، تم استغلال نمط cupertino_storefront بامتياز عبر واجهات تفاعلية سلسة في App1276925HomeScreen.kt وApp1276925DetailsScreen.kt وApp1276925CheckoutScreen.kt، مدعومة برسوميات متكتكة وعالية الدقة عبر BespokeVectorIllustration.kt.\n\nأما من الناحية التشغيلية والبنية التحتية، فإن الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 4-5.5 دولار شهرياً برفقة سكريبت النشر deploy_vps.sh وكود الخادم server/server.js المدعوم بإدارة PM2 Cluster، يوفر للعميل وفراً ضخماً بمهام التشغيل مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Firebase Functions التي تتصاعد تكلفتها مع كل طلب). يضمن تكتل PM2 استغلالاً كاملاً لأنوية المعالج (Multi-core Utilization) وتحقيق توفر عالٍ (High Availability) واستجابة فورية، مما يجعل هذا المعمار نموذجاً يحتذى به في هندسة الكفاءة المالية والتقنية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز أمان الطبقة التحتية عبر تفعيل جدار الحماية (UFW) وتقييد المنافذ، إضافة إلى ضبط إعدادات Caddy أو Nginx كوكيل عكسي (Reverse Proxy) مع شهادات SSL تلقائية، وتحسين آليات التخزين المؤقت (Caching) على مستوى خادم Node.js في server/server.js للتعامل بكفاءة أعلى مع الأحمال المتزايدة أثناء ذروة إدخال البيانات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1276925Repository.kt",
+        "App1276925HomeScreen.kt",
+        "App1276925DetailsScreen.kt",
+        "App1276925CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع 'محاسب لإدخال بيانات مبيعات' (#1276925) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات المسؤولية وفق نمط MVVM المُعتمد؛ إذ يضطلع كلاس App1276925Repository بدور الوسيط الموثوق بين طبقة البيانات وطبقة العرض، مُوظِّفاً آليات Kotlin Coroutines وFlow لضمان تدفق البيانات بصورة تفاعلية وغير متزامنة دون إعاقة الخيط الرئيسي، فيما يُعرِّف App1276925Model حدود نطاق المجال Domain Boundary بوضوح تام مُميِّزاً بين كيانات المبيعات والمصروفات بحقو",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

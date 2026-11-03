@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289383_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289383Repository.kt",
+        "App1289383HomeScreen.kt",
+        "App1289383DetailsScreen.kt",
+        "App1289383CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية عبر فصل الاهتمامات بين طبقات البيانات وعرض الواجهات. تم فحص كلاسات Domain مثل App1289383Model و App1289383Package و App1289383Repository، حيث أظهرت الـ Repository كفاءة ممتازة في إدارة تدفق البيانات باستخدام StateFlow والتصميم التفاعلي المستجيب لحالة التطبيق. كما تم التدقيق في ملفات الواجهات مثل App1289383HomeScreen و App1289383DetailsScreen و App1289383CheckoutScreen وكلاس الرسوم المتجهة BespokeVectorIllustration، وظهر بوضوح الالتزام بمعايير Jetpack Compose وتحسين الأداء الرسومي، بالإضافة إلى مراجعة خادم Node.js في ملف server/server.js الذي يدير العمليات الخلفية بكفاءة عالية واستهلاك منخفض للموارد.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتفعيل التخزين المؤقت المحلي باستخدام Room Database لدعم وضع العمل بدون اتصال (Offline-first)، إضافة إلى التوسع السحابي عبر نقل الخادم إلى بنية ميكروسيرفيس موزعة لضمان أقصى درجات الموثوقية والأداء اللحظي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289383Repository.kt",
+        "App1289383HomeScreen.kt",
+        "App1289383DetailsScreen.kt",
+        "App1289383CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يتضح أن مشروع تصميم المخطط الهندسي للبناء يتميز بعدة نقاط قوة. يظهر استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم وإدارة البيانات. تم تنظيم المشروع بشكل جيد من خلال استخدام كلاسات Domain Models للتعامل مع البيانات والمنطق الأعمال. تم توظيف رسومات الـ Canvas Vector Drawings لإضافة عناصر بصرية جذابة وفعالة.\n\nبالنسبة للخادم، يظهر استخدام ملف server/server.js للتحكم وإدارة عمليات التطبيق. يعتبر استخدام خادم مست",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289383Repository.kt",
+        "App1289383HomeScreen.kt",
+        "App1289383DetailsScreen.kt",
+        "App1289383CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع تصميم مخطط هندسي لبناء مبنى مواقف سيارات (#1289383) هندسة برمجية رفيعة المستوى بفضل التطبيق الصارم لأنماط التصميم الحديثة وهندسة النوافذ (analytics_bento). فقد تم بناء الطبقة البرمجية بنجاح عبر كلاسات محكمة مثل App1289383Model وApp1289383Package وApp1289383Repository.kt والتي تضمن فصالاً كاملاً للمسؤوليات ومعالجة البيانات بكفاءة عالية، بينما تقدم واجهات مثل App1289383HomeScreen وApp1289383DetailsScreen وApp1289383CheckoutScreen تجربة مستخدم سلسة ومتجاوبة.\n\nعلى صعيد البنية التحتية ومعالجة البيانات اللحظية، يعتمد النظام على خادم Node.js عبر server/server.js مدعوماً بمدير العمليات PM2 Cluster، مما يتيح استغلالاً كاملاً لأنوية المعالج وتوزيع الأحمال بكفاءة مذهلة توفر على العميل مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes)، فضلاً عن توظيف كلاس BespokeVectorIllustration لتقديم رسومات مت vectorية دقيقة تناسب متطلبات الاشتراطات السعودية للبلدية والأمانة للبيسمنت والأدوار المتعددة.",
+      "milestone2_recommendation_ar": "تتضمن توصيات المرحلة الثانية لتنفيذها بفعالية: تطبيق استراتيجية كاش متقدمة (Advanced Caching) باستخدام Redis على خادم الـ VPS لتقليل زمن الاستجابة للمخططات الهندسية الثقيلة، وتصليد طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية JWT مع تحديد معدل الطلبات (Rate Limiting) في server/server.js، وتوسيع نطاق المراقبة الآلية لأداء PM2 لضمان الاستمرارية العالية دون انقطاع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289383Repository.kt",
+        "App1289383HomeScreen.kt",
+        "App1289383DetailsScreen.kt",
+        "App1289383CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع تصميم مخطط هندسي لبناء مبنى مواقف السيارات (#1289383) نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري؛ إذ يضطلع كلاس App1289383Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إليها عبر واجهات Repository Pattern مُحكمة، فيما يُعرّف App1289383Model بنيةً بياناتية صلبة تعكس متطلبات المخططات الهندسية السعودية بما فيها طوابق الأدوار الثمانية والأدوار الأرضي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

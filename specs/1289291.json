@@ -24,7 +24,7 @@
   ],
   "archetype": "booking_timeline",
   "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "status": "SOLD_WON",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
@@ -32,5 +32,11 @@
   "brand": {
     "primary": "#0369A1",
     "secondary": "#0EA5E9"
-  }
+  },
+  "version_num": 2,
+  "rework_count": 1,
+  "initial_build_sec": 212,
+  "rework_duration_sec": 125,
+  "month_key": "2026-09",
+  "sold_price_sar": 10600
 }

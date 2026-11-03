@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289420_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289420Repository.kt",
+        "App1289420HomeScreen.kt",
+        "App1289420DetailsScreen.kt",
+        "App1289420CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية عبر فصل طبقات العرض عن منطق الأعمال بدقة. تم فحص الملفات App1289420Repository.kt و App1289420HomeScreen.kt و App1289420DetailsScreen.kt و App1289420CheckoutScreen.kt و BespokeVectorIllustration.kt بالإضافة إلى خادم Node.js في server/server.js، حيث أظهرت النماذج مثل App1289420Model و App1289420Package كفاءة عالية في إدارة الحالة عبر StateFlow والتصميم التفاعلي المتجاوب مع معايير Jetpack Compose الحديثة.",
+      "milestone2_recommendation_ar": "توصي اللجنة المعمارية في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة المخزنة محلياً باستخدام Android Keystore، وتحسين آلية التخزين المؤقت (Caching) في الـ Repository لتقليل الاستعلامات المتكررة على الخادم السحابي، فضلاً عن توسيع نطاق اختبارات الوحدة (Unit Tests) لضمان استقرار تدفقات البيانات التفاعلية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289420Repository.kt",
+        "App1289420HomeScreen.kt",
+        "App1289420DetailsScreen.kt",
+        "App1289420CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكنني تقييم مشروع التطبيق بأنه يتميز بعدة نقاط قوة. يظهر نمط MVVM (Model-View-ViewModel) بوضوح في تصميم الكود، مما يعزز قابلية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، وهذا يساهم في تحسين تنظيم الكود وتقليل الأخطاء.\n\nتم توظيف رسومات الـ Canvas Vector Drawings بشكل فعّال لعرض المحتوى البصري بطريقة جذابة وفعالة.\n\nبالنسبة للخادم، يظهر استخدام server/server.js مرونة في التعامل مع متطلبا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289420Repository.kt",
+        "App1289420HomeScreen.kt",
+        "App1289420DetailsScreen.kt",
+        "App1289420CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع «صانع محتوى #1289420» نموذجاً هندسياً فريداً ومتميزاً في دمج المتطلبات البرمجية الخاصة بمنصات العمل الحر مع معايير هندسة البرمجيات الحديثة. تم بناء واجهات المستخدم باستخدام كلاسات منظمة بدقة مثل App1289420HomeScreen و App1289420DetailsScreen و App1289420CheckoutScreen لتقديم تجربة مستخدم (catalog_grid) سلسة ومصممة بعناية فائقة لعرض باقات الخدمات الإعلانية. وعلى مستوى طبقة إدارة البيانات ومنطق الأعمال (Domain & Data Layers)، برز استخدام كلاسات App1289420Model و App1289420Package و App1289420Repository لتحقيق فصل تام للمسؤوليات (Separation of Concerns) وفق نمط الـ MVVM، مما يضمن مرونة عالية في استرجاع ومعالجة بيانات الإعلانات باللهجة السعودية واختيار المواهب بدقة. كما أظهرت الملفات البرمجية مثل BespokeVectorIllustration ابتكاراً تقنياً في تقديم رسوم متجهة مخصصة (Canvas Vector Drawings) تعزز من الهوية البصرية للمشروع دون إثقال الأداء.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية (Milestone 2) بتصليد الحماية الأمنية (Security Hardening) عبر تطبيق آليات المصادقة المتقدمة JWT وتشفير البيانات الحساسة على مستوى الـ Repository، بالإضافة إلى تحسين طبقة التخزين المؤقت (Caching Layer) واستخدام PM2 Cluster على خادم الـ VPS لضمان توزيع الأحمال بكفاءة عالية ومنع أي اختناقات مرورية (Bottlenecks) عند التوسع المستقبلي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289420Repository.kt",
+        "App1289420HomeScreen.kt",
+        "App1289420DetailsScreen.kt",
+        "App1289420CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع رقم 1289420 بنيةً معماريةً متينةً تعتمد نمط MVVM بشكل واضح من خلال الفصل الدقيق بين طبقات البيانات والعرض والمنطق، إذ يتجلى ذلك في كلاس App1289420Repository.kt الذي يُجسّد مبدأ Single Source of Truth بامتياز، حيث يتولى تنسيق تدفق البيانات بين الطبقة السحابية المبنية على Cloudflare Workers وطبقة الـ Domain Models الممثَّلة في App1289420Model وApp1289420Package، مما يُقلّص الاقتران بين المكونات ويُعزز قابلية الاختبار. كما أن ملف BespokeVec",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

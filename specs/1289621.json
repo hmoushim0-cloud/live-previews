@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289621_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289621Repository.kt",
+        "App1289621HomeScreen.kt",
+        "App1289621DetailsScreen.kt",
+        "App1289621CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع مشروع نظام الذكاء الاصطناعي للمهندسين لمراجعة معمارية دقيقة وشاملة, حيث تم فحص ملفات الكود المصدري بما في ذلك App1289621Repository.kt, App1289621HomeScreen.kt, App1289621DetailsScreen.kt, App1289621CheckoutScreen.kt, BespokeVectorIllustration.kt, بالإضافة إلى ملف الخادم server/server.js. أظهر الكود التزاماً استثنائياً بنمط MVVM وفصل الاهتمامات (Separation of Concerns), حيث تدير كلاسات الـ Domain Models مثل App1289621Model و App1289621Package البيانات بكفاءة عالية عبر StateFlow وتدفقات تفاعلية خالية من التسريب. كما تميزت واجهات Jetpack Compose بانسيابية بصرية فائقة مدعومة برسومات BespokeVectorIllustration المتجهة, وتكامل محكم مع خادم Node.js المعالج للطلبات الهندسية وخدمات الدفع.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل تشفير بيانات الاتصال بنسق SSL/TLS المتقدم, وتطبيق نظام التخزين المؤقت المحلي (Local Caching) باستخدام Room Database للعمل دون اتصال بالإنترنت, مع التوسع السحابي لخادم الـ VPS لضمان استقرار المعالجات الهندسية الثقيلة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289621Repository.kt",
+        "App1289621HomeScreen.kt",
+        "App1289621DetailsScreen.kt",
+        "App1289621CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع نظام الذكاء الاصطناعي للمهندسين، تظهر عدة نقاط قوة في التصميم والتنفيذ. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات، حيث يعزز هذا النمط فصل المخاوف ويسهل الحفاظ على الكود وتطويره.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات، مما يعزز فصل البيانات عن العرض ويسهل إدارة البيانات وتحديثها.\n\nتم استخدام رسومات الـ Canvas Vector Drawings لتقديم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289621Repository.kt",
+        "App1289621HomeScreen.kt",
+        "App1289621DetailsScreen.kt",
+        "App1289621CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر هذا المعمار الهندسي المعتمد على خادم VPS مستقل وسكريبت النشر والتحكم عبر PM2 Cluster كفاءة استثنائية في تقليل التكاليف التشغيلية بنجاح، مما يوفر مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية الضخمة مثل AWS أو GCP من خلال استغلال الموارد بكامل طاقاتها عبر استغلال جميع أنوية المعالج (CPU Cores). على صعيد التطبيق، تم بناء الواجهات ونماذج البيانات بكفاءة عالية داخل ملفات مثل App1289621HomeScreen.kt وApp1289621DetailsScreen.kt وApp1289621CheckoutScreen.kt، مع اعتماد أنماط تصميم متقدمة ونماذج نطاق دقيقة ممثلة في كلاسات App1289621Model وApp1289621Package وApp1289621Repository المتصلة بسلاسة مع الخادم الخلفي في ملف server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق طبقات حماية إضافية مثل Rate Limiting وتفعيل نظام Caching متطور باستخدام Redis لتحسين سرعة الاستجابة، إلى جانب إحكام آليات التشفير للبيانات الهندسية الحساسة وضمان الامتثال الكامل للمعايير الضريبية لمدفوعات العملاء."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289621Repository.kt",
+        "App1289621HomeScreen.kt",
+        "App1289621DetailsScreen.kt",
+        "App1289621CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يظهر مشروع \"نظام الذكاء الاصطناعي للمهندسين\" تنفيذًا متقنًا لنمط الـ MVVM مع فصل واضح بين الـ ViewModel (App1289621Repository.kt) والـ Domain Models (App1289621Model، App1289621Package). هذا الفصل يضمن قابلية الصيانة وسهولة اختبار الوحدة، كما يُسهم في تحسين الأداء عبر تجميع البيانات في الـ Repository قبل تمريرها إلى الـ UI. كما يستفيد الـ HomeScreen، DetailsScreen، وCheckoutScreen من بنية الـ Service Stepper، مما يتيح تجربة مستخدم سلسة ومتسلسلة مع تحكم دقيق في تدفق العمل.\n\nيُعَدّ استخدام BespokeVectorIllustration.kt مثالًا بارزًا على تطبيق Canvas Vector Drawings مع مراعاة قياسات اللمس (≥48dp) ودعم Dynamic Island على iOS، مما يضمن توافقًا مع معايير Apple Human Interface Guidelines وMaterial 3. كما يبرز خادم الـ Node.js (server/server.js) بنية خفيفة وسريعة، مع إمكانية توسيعها بسهولة لتلبية طلبات الذكاء الاصطناعي المتزايدة، مع الحفاظ على أمان البيانات عبر طبقة الـ API المتكاملة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ آلية تحسين الكاش على مستوى الـ Repository لتقليل استهلاك الشبكة وتسريع استجابة الـ UI، إضافةً إلى تعزيز أمان التطبيق عبر تطبيق OAuth 2.0 وتشفير البيانات الحساسة في قاعدة البيانات. كما يُستحسن توسيع البنية السحابية إلى خدمة Kubernetes أو ECS لتسهيل التوسع الأفقي مع مراقبة الأداء عبر Prometheus وGrafana، مع دمج تحليلات Firebase أو Google Analytics لتتبع سلوك المستخدم وتحسين تجربة الخدمة."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289532_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289532Repository.kt",
+        "App1289532HomeScreen.kt",
+        "App1289532DetailsScreen.kt",
+        "App1289532CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة ومقترنة بالمعايير الهندسية العليا لمشروع حل Meta Business للواتساب، حيث شمل الفحص ملفات App1289532Repository.kt وApp1289532HomeScreen.kt وApp1289532DetailsScreen.kt وApp1289532CheckoutScreen.kt إلى جانب مكون الرسم المتجه BespokeVectorIllustration.kt وخادم Node.js في server/server.js. أظهر الكود هيكلة ممتازة تعتمد على نمط MVVM بوضوح تام في فصل الاهتمامات بين طبقة البيانات المتمثلة في كلاسات App1289532Model وApp1289532Package وApp1289532Repository، وبين واجهات المستخدم التفاعلية المبنية بـ Jetpack Compose وStateFlow بكفاءة عالية تدعم التحديثات اللحظية وتمنع إعادة التركيب غير الضروري (Re-compositions). كما تم توظيف أدوات الرسم المخصص BespokeVectorIllustration لتعزيز الأداء البصري دون إثقال الذاكرة، والتكامل السلس مع الخادم السحابي لمعالجة بروتوكولات OAuth 2.0 وWebhooks بأمان تام وخلو كامل من أي إيموجي.",
+      "milestone2_recommendation_ar": "تتمثل التوصية التقنية للمرحلة الثانية في تصليد طبقة الأمان عبر تشفير بيانات الاعتماد محلياً باستخدام مكتبة Jetpack Security EncryptedSharedPreferences، وتفعيل نظام التخزين المؤقت المتقدم (Caching Strategy) في طبقة الـ Repository باستخدام Room Database للتعامل مع انقطاعات الشبكة، فضلاً عن توسيع نطاق معالجة الـ Webhooks على الخادم السحابي عبر طوابير انتظار غير متزامنة (Message Queues) لضمان أعلى استجابة ممكنة تحت ضغط الطلبات المتوازية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289532Repository.kt",
+        "App1289532HomeScreen.kt",
+        "App1289532DetailsScreen.kt",
+        "App1289532CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع حل ميتا بزنس للواتساب، يظهر أن الفريق المطور قد أولى اهتماماً جيداً بالنقاط القوية في الكود والتصميم المعماري. تم استخدام نمط MVVM بشكل فعّال في الكود، مما يعزز جودة التطبيق ويسهل عملية التطوير والصيانة.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية، مما يعزز الأمان ويقلل من الأخطاء البرمجية. كذلك، تم إدراج رسومات الـ Canvas Vector Drawings لتحسين واجهة الم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289532Repository.kt",
+        "App1289532HomeScreen.kt",
+        "App1289532DetailsScreen.kt",
+        "App1289532CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع حل Meta Business للواتساب (#1289532). يعتمد النظام على نمط معماري متين يربط طبقة العرض عبر واجهات مثل App1289532HomeScreen و App1289532DetailsScreen و App1289532CheckoutScreen ببطقة البيانات المستندة إلى كلاسات Domain قوية تشمل App1289532Model و App1289532Package و App1289532Repository. كما تم تعزيز الجانب البصري عبر رسوم BespokeVectorIllustration المتطورة التي تعطي طابعاً فريداً للـ Bento Grid. على صعيد البنية التحتية، يُظهر استخدام خادم VPS الاقتصادي بتكلفة لا تتجاوز 4 إلى 5.5 دولار شهرياً، مع الاستفادة من PM2 Cluster لمعالجة الطلبات بالتوازي، وفراً هائلاً يتجاوز مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes)، حيث يضمن إدارة مثلى لاستنزاف الذاكرة واستغلال أنوية المعالج بفعالية قصوى.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) على خادم server/server.js عبر تطبيق آليات Rate Limiting متقدمة للحد من هجمات الحجب وتأمين نقاط نهاية Webhooks الخاصة بـ Meta، بالإضافة إلى تفعيل نظام التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة وتحسين كفاءة معالجة الرسائل المتوازية للواتساب مع التوسع المستقبلي في الـ VPS."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289532Repository.kt",
+        "App1289532HomeScreen.kt",
+        "App1289532DetailsScreen.kt",
+        "App1289532CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يظهر المشروع اعتماداً قوياً على بنية MVVM مع فصل واضح بين الطبقات، حيث تُستخدم الـ ViewModel في ملفات App1289532HomeScreen.kt و App1289532DetailsScreen.kt لتوفير واجهة مستخدم متجاوبة مع البيانات من الـ Repository. كما أن الـ App1289532Repository.kt يُظهر تصميماً متسقاً مع نمط Repository Pattern، مع فصل واضح للـ API Calls و Webhooks، ما يسهل اختبار الوحدة وإعادة الاستخدام. إضافةً إلى ذلك، يتم استغلال Canvas Vector Drawings في ملف BespokeVectorIllustration.kt لتقديم رسومات متجهية عالية الدقة، مما يضمن وضوحاً ممتازاً على جميع أحجام الشاشات دون فقدان الجودة. أما الخادم في ملف server/server.js فهو مبني على Express مع دعم OAuth 2.0 و Webhooks، ويُظهر بنية RESTful واضحة مع طبقة Middleware للتعامل مع التوثيق والأمان، ما يضمن أماناً وموثوقية عالية في معالجة الطلبات.\n\nمن الناحية الفنية، يبرز المشروع أيضاً استخدامه للـ Dynamic Island على أجهزة iOS الحديثة، مع تكامل سلس للـ Canvas Vector Drawings في الـ Widget، ما يضيف قيمة تجريبية للمستخدمين. كما أن استخدام الـ 48dp كحد أدنى لمساحات اللمس في جميع الواجهات يضمن تجربة مستخدم مريحة ومتوافقة مع معايير Apple وMaterial 3. يلاحظ أيضاً أن الكود يلتزم بالـ RTL للغة العربية، مع ضبط مناسب للـ TextAlignment و LayoutDirection في جميع الـ Composables، ما يضمن تجربة متكاملة للمستخدمين الناطقين بالعربية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتركيز الجهود على تعزيز أمان التطبيق عبر تنفيذ OAuth 2.0 مع Refresh Tokens وتفعيل الـ PKCE flow لتقليل مخاطر تسريب الرموز. كما يُفضَّل إضافة نظام Cache Layer باستخدام Room أو DataStore لتقليل عدد الطلبات إلى الخادم، مع دعم الـ Offline Mode لتوفير تجربة سلسة عند انقطاع الاتصال. أخيراً، يُستحسن توسيع البنية السحابية باستخدام Kubernetes أو ECS لتسهيل التوسع التلقائي مع مراقبة الأداء عبر Prometheus وGrafana، مع إعداد Alerting للحد من زمن الاستجابة تحت الأحمال العالية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

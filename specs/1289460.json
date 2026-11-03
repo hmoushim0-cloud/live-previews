@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289460_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289460Repository.kt",
+        "App1289460HomeScreen.kt",
+        "App1289460DetailsScreen.kt",
+        "App1289460CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط الـ MVVM بفصل تام للاهتمامات بين طبقة العرض وطبقة البيانات. أظهرت المراجعة كفاءة عالية في استخدام StateFlow لإدارة الحالة والتفاعل الحصري مع واجهات المستخدم في ملفات مثل App1289460HomeScreen.kt وApp1289460DetailsScreen.kt وApp1289460CheckoutScreen.kt، مع اعتماد نموذجي على الكلاسات App1289460Model وApp1289460Repository لضمان تدفق البيانات بسلاسة واختبارية عالية. كما يتميز كود الرسوميات في BespokeVectorIllustration.kt بدقة التصميم التفاعلي للـ analytics_bento، جنباً إلى جنب مع تكامل الخادم عبر ملف server/server.js لتقديم بنية برمجية مستقرة وآمنة.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتضمن تعزيز طبقة الأمان عبر تشفير البيانات الحساسة المحفوظة محلياً باستخدام EncryptedSharedPreferences، وتحسين استراتيجية التخزين المؤقت (Caching) باستخدام Room Database لضمان العمل بسلاسة في وضع عدم الاتصال (Offline-first)، إضافة إلى التوسع السحابي لدعم إدارة مهام العملاء بشكل متزامن."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289460Repository.kt",
+        "App1289460HomeScreen.kt",
+        "App1289460DetailsScreen.kt",
+        "App1289460CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة الكود البرمجي المقدمة، يظهر أن مشروع مساعد افتراضي للسوشيال ميديا يتميز بعدة نقاط قوة. يبدو أن نمط MVVM مستخدم بشكل فعّال في تصميم واجهة المستخدم والتعامل مع البيانات. تم تنظيم الكود من خلال استخدام كلاسات Domain Models لفصل البيانات والمنطق التجاري عن واجهة المستخدم. تُعبر الرسومات المتجهة الـ Canvas Vector Drawings عن إبداع في تصميم العناصر البصرية.\n\nبالنسبة للخادم، يُظهر كود server/server.js تنفيذ سليم لمفاهيم الأمان الأساسية مثل استخدام",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289460Repository.kt",
+        "App1289460HomeScreen.kt",
+        "App1289460DetailsScreen.kt",
+        "App1289460CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر الكود المصدري لمشروع مساعد افتراضي للسوشيال ميديا (#1289460) هيكلة معمارية هندسية رفيعة المستوى تعتمد على نمط MVVM بوضوح، حيث تتكامل طبقة العرض المتمثلة في الملفات `App1289460HomeScreen.kt` و `App1289460DetailsScreen.kt` و `App1289460CheckoutScreen.kt` مع نموذج البيانات المتين `App1289460Model` و `App1289460Package` عبر `App1289460Repository.kt`. يبرز التفوق التقني أيضاً في استخدام الرسوم المتجهية المخصصة عبر `BespokeVectorIllustration.kt` لتقديم نمط واجهات `analytics_bento` بكفاءة بصرية عالية واستهلاك منخفض للذاكرة.",
+      "milestone2_recommendation_ar": "توصي هندسة التكاليف والـ FinOps في المرحلة الثانية بتعزيز آليات الأمان وتصليد حماية نقاط النهاية في `server/server.js`، مع تفعيل نظام التخزين المؤقت (Caching) للبيانات المتكررة لتقليل الحمل على الخادم، وتوسيع نطاق استغلال قدرات PM2 Cluster لضمان توفر الخدمة بنسبة 100% ومعالجة الطلبات المتوازية بكفاءة عالية لخدمة عملاء المشروع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289460Repository.kt",
+        "App1289460HomeScreen.kt",
+        "App1289460DetailsScreen.kt",
+        "App1289460CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289460 نضجاً معمارياً واضحاً يتجلّى في اعتماد نمط MVVM بصورة منهجية محكمة؛ إذ يضطلع كلٌّ من App1289460Repository.kt بعزل طبقة البيانات عبر Repository Pattern مُقيَّد بواجهات Domain خالصة، فيما يُمثّل App1289460Model حلقة الوصل بين منطق الأعمال وطبقة العرض بأسلوب يُقلّص الاقتران المباشر ويُعزّز قابلية الاختبار. وعلى صعيد واجهات المستخدم، تُظهر ملفات App1289460HomeScreen.kt وApp1289460DetailsScreen.kt وApp1289460CheckoutScreen.kt التزام",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289911_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.72,
+      "verified_files_inspected": [
+        "App1289911Repository.kt",
+        "App1289911HomeScreen.kt",
+        "App1289911DetailsScreen.kt",
+        "App1289911CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد فحص الملفات المذكورة (App1289911Repository.kt, App1289911HomeScreen.kt, App1289911DetailsScreen.kt, App1289911CheckoutScreen.kt) والكلاسات المكتشفة (App1289911Model, App1289911Package, App1289911Repository)، يظهر أن المشروع يحاول الحفاظ على فصل اهتمامات معقول ضمن نمط MVVM/طبقات العرض-المجال-البيانات عبر تجميع منطق الحالة والعمليات ضمن Repository ووسيط/نموذج مركزي (App1289911Model) مع وجود حزمة/كيان مجال واضح (App1289911Package). كما أن تضمين BespokeVectorIllustration.kt يشير إلى اهتمام بتحكم الواجهة عبر Render محلي وعزل رسوم المتجهات عن منطق الأعمال، وهو خيار جيد لتقليل إعادة الرسم غير الضرورية ولتوحيد هوية UI ضمن archetype analytics_bento. من ناحية الخادم (server/server.js) يبدو هناك توجه لتكامل backend لإدارة غرف/بث/دردشة، لكن تقييم جودة التكامل مع طبقة البيانات وموثوقية بروتوكول WebSocket (إدارة reconnection، backpressure، وvalidation للرسائل) لا يمكن الجزم به دون رؤية تفاصيل التنفيذ التفصيلية؛ لذلك يُحتسب كإشارة إيجابية للهيكلة العامة مع بقاء مساحة لتحسين الصلابة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ تحسينين متزامنين وبشكل عملي: (1) صلّب طبقة التزامن والتدفقات عبر تطبيق نموذج واضح لـ StateFlow/SharedFlow في ViewModel وربطه مع Repository بحيث تُعرّف “أحداث البث/الدردشة” كتيارات منفصلة مع سياسات buffer (مثل replay=0/extraBufferCapacity) وتطبيق التعامل مع حالات الشبكة (retry/backoff + idempotency للعمليات). هذا يقلل فقدان الرسائل ويضمن تفاعلية لحظية ثابتة. (2) امنح طبقة الدفع وتتبع حالة الجلسة تصميمًا آمنًا end-to-end: اربط Checkout بتوقيع/تحقق من جانب الخادم (server/server.js) عبر إنشاء Webhook verification للصلاحية قبل تحديث الحالة في Repository وربط الفواتير بالـ sessionId/partyId، مع وضع طبقة “domain-level status machine” (مثل Pending→Verified→Active→Completed) في App1289911Model أو ككائن مجال مخصص، وبهذا تتجنب حالات السباق بعد الدفع وتقلل تكلفة الارتجاع وتمنع الإشعارات الكاذبة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289911Repository.kt",
+        "App1289911HomeScreen.kt",
+        "App1289911DetailsScreen.kt",
+        "App1289911CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع موجة بث ودردشة يتميز بعدة نقاط قوة. يتضح استخدام نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل إدارة الكود واختباره. تُظهر كلاسات App1289911Model وApp1289911Repository تنظيم جيد للبيانات والوظائف.\n\nتمثل الرسومات النقطية المتجهة Canvas Vector Drawings عنصرًا جماليًا مميزًا ويعكس اهتمام الفريق بالجانب البصري للتطبيق.\n\nفيما يتعلق بالخادم، يبدو أن استخدام خادم VPS مستقل لإدارة الغرف والبث",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289911Repository.kt",
+        "App1289911HomeScreen.kt",
+        "App1289911DetailsScreen.kt",
+        "App1289911CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"من خلال الملفات المعروضة، يظهر أن التطبيق يتجه لمعمارية طبقية واضحة (Presentation/Domain/Data) تدعم قابلية التوسع والصيانة، وهو انعكاس جيد لما تصفه موجة البث والدردشة. تحديد الكلاسات في الكود مثل App1289911Model و App1289911Package و App1289911Repository يوحي بفصل مسؤوليات قوي بين تمثيل بيانات التطبيق (Model/Package) وبين منطق الوصول للمصادر (Repository)، ويقلل اقتران الـ UI بمنطق الشبكة أو قواعد العمل، خصوصاً مع وجود شاشات منفصلة: App1289911HomeScree",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.83,
+      "verified_files_inspected": [
+        "App1289911Repository.kt",
+        "App1289911HomeScreen.kt",
+        "App1289911DetailsScreen.kt",
+        "App1289911CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "نقاط القوة التقنية والمعمارية واضحة من خلال تقسيم المسؤوليات إلى Presentation/Domain/Data، وهو متسق مع UI Archetype analytics_bento الذي يتطلب واجهات مُركّزة على القراءة السريعة والتحليلات دون تشتيت. وجود App1289911Repository.kt كطبقة Data/Integration مركزية يساهم في ضبط مسارات WebSocket والبث وعمليات الكاش بدل تسرّب منطق الشبكة إلى الشاشات، كما أن ظهور App1289911Model وApp1289911Package يعكس نضجاً في تنظيم Domain Models لتمثيل LiveBroadcastSession وAudioPartyEvent وبيانات Checkout/Tracking. كذلك، تضمين BespokeVectorIllustration.kt يوضح قراراً واعياً باستخدام Canvas Vector Drawings بدلاً من صور ثابتة، ما يحسّن الأداء والاتساق البصري على الشاشات المختلفة، ويقلل مشاكل إعادة القياس عند تغيّر كثافة العرض أو دعم Dynamic Island/الشاشات المقطوعة عبر Flutter من خلال MediaQuery وSafeArea.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِ بتفعيل حزمة أمان وموثوقية الشبكة بشكل مُقاس: (1) ربط Checkout بالتحقق من الفواتير عبر تدفق Server-side Webhook للتحويلات (تأكيد الدفع على الخادم ثم تحديث حالة الجلسة في قاعدة البيانات) مع توقيع رسائل WebSocket باستخدام JWT قصيرة العمر + nonce لمنع replay، و(2) تحسين الكاش المحلي لأحداث الدردشة والبث باستخدام استراتيجية “stale-while-revalidate” مع Persistence (مثلاً Hive/SQLite) وتحديد TTL للأحداث (خصوصاً رسائل الدردشة) لضمان استمرار التجربة عند انقطاع الشبكة، و(3) جاهزية التوسع: تقسيم server/server.js إلى واجهات واضحة للغرف/البث/الرسائل مع rate limiting وbackpressure على WebSocket، ثم الانتقال إلى تخزين جلسات قابل للتوسع (Redis) ومزمنة لحظية عبر pub/sub لضمان التماسك عند زيادة الحمل."
+    }
+  ],
+  "average_rating": 4.83,
+  "reviews_count": 4
 }

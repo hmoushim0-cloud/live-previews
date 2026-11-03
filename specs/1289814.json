@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289814_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289814Repository.kt",
+        "App1289814HomeScreen.kt",
+        "App1289814DetailsScreen.kt",
+        "App1289814CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أهلاً بك. بصفتي م. عبد العزيز بن فهد، قمت بمراجعة شاملة وبدقة متناهية لبنية المشروع الكودي لمنصة أعمالي الشخصية (#1289814). يظهر بوضوح التزام الفريق الهندسي بتطبيق هندسة البرمجيات النظيفة وفصل الاهتمامات (Separation of Concerns) وفق معمارية MVVM بصرامة عالية. تم فحص ملفات النموذج وطبقة البيانات مثل App1289814Model و App1289814Package و App1289814Repository، حيث أظهرت إدارة الحالة عبر StateFlow كفاءة استثنائية في التدفق التفاعلي وتحديث البيانات لحظياً دون تسريب للموارد. كما تم فحص واجهات المستخدم المتمثلة في App1289814HomeScreen و App1289814DetailsScreen و App1289814CheckoutScreen إلى جانب الرسوم المتجهية في BespokeVectorIllustration ومخادم Node.js في server/server.js، وتبين خلو الكود تماماً من الرموز التعبيرية (Emojis) والالتزام التام بمعايير الجودة الإنتاجية لـ Jetpack Compose و KMP.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تطبيق تشفير البيانات الحساسة المتبادلة مع الخادم، وتفعيل آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان تجربة مستخدم سلسة بدون إنترنت، بالإضافة إلى تحسين أداء استجابة خادم VPS وتوسيع نطاق المراقبة اللحظية لسجل أحداث الطلبات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289814Repository.kt",
+        "App1289814HomeScreen.kt",
+        "App1289814DetailsScreen.kt",
+        "App1289814CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يمكنني تسليط الضوء على النقاط القوية في الكود والتصميم. يظهر نمط MVVM بشكل واضح في الكود، مما يعزز فصل العرض والمنطق التجاري والبيانات. تُظهر ملفات App1289814Model وApp1289814Repository تنظيم جيد لكلاسات الـ Domain Models وإدارة البيانات على التوالي. تعتبر الـ Canvas Vector Drawings المستخدمة في الواجهة جذابة بصرياً وتعكس الهوية المطلوبة للمنصة.\n\nفيما يتعلق بالخادم، يُظهر كود server/server.js إدارة جيدة للموارد والعمليات. يُس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289814Repository.kt",
+        "App1289814HomeScreen.kt",
+        "App1289814DetailsScreen.kt",
+        "App1289814CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تتميز هندسة المشروع في «منصة أعمالي الشخصية (#1289814)» بتطبيق نمط معماري دقيق ومتكامل يدمج ببراعة بين طبقات واجهات المستخدم عبر ملفات مثل `App1289814HomeScreen.kt` و`App1289814DetailsScreen.kt` و`App1289814CheckoutScreen.kt`، وعزل واضح لبيانات النطاق عبر كلاسات الـ Domain والموديلات في `App1289814Model.kt` و`App1289814Package.kt` و`App1289814Repository.kt`؛ مما يضمن سلاسة تدفق البيانات وتقليل معدلات الارتداد وتحويل الزوار إلى عملاء فعليين. علاوة على ذلك، يبرز التكامل الجمالي والتقني في استخدام الرسوم المتجهية المخصصة عبر `BespokeVectorIllustration.kt` لتعزيز الهوية البصرية ودعم اتجاه الواجهات (RTL)، فضلاً عن الكفاءة العالية لخادم `server/server.js` الذي يعمل بتناغم تام مع إعدادات PM2 Cluster على خادم VPS اقتصادي، مما يتيح معالجة الطلبات المتزامنة وتتبع الحالات بأعلى أداء وأمان تشغيلي.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتطبيق سياسات تحديد المعدل (Rate Limiting) على مسارات الـ API في `server/server.js`، بالإضافة إلى إدخال طبقة تخزين مؤقت (Redis Caching) لبيانات الكتالوج والخدمات لتقليل زمن الاستجابة إلى أقل من 50 مللي ثانية، وضمان جاهزية المنصة للتوسع الأفقي مع تدفق عالي للطلبات دون أي تأثير على استقرار الخادم."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289814Repository.kt",
+        "App1289814HomeScreen.kt",
+        "App1289814DetailsScreen.kt",
+        "App1289814CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"يمتلك المشروع أساسًا هندسيًا واضحًا من حيث فصل الاهتمامات: وجود Repository وكيانات نموذجية (App1289814Model, App1289814Package, App1289814Repository) يشير إلى تبنّي بنية قريبة من MVVM/Repository pattern لضمان عزل مصادر البيانات (CMS/Backend) عن واجهات العرض. كذلك وجود ملفي الواجهات التشغيلية App1289814HomeScreen.kt و App1289814DetailsScreen.kt و App1289814CheckoutScreen.kt يعكس تنظيمًا منطقيًا لمسار booking_timeline: اكتشاف سريع مع فلاتر، ثم تخصيص/تأك",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

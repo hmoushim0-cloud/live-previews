@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289721_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289721Repository.kt",
+        "App1289721HomeScreen.kt",
+        "App1289721DetailsScreen.kt",
+        "App1289721CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM نظيفة وفصل واضح للاهتمامات، حيث تتولى App1289721Repository مسؤولية منطق البيانات بدقة، بينما تركز الشاشات (App1289721HomeScreen.kt, App1289721DetailsScreen.kt, App1289721CheckoutScreen.kt) على العرض والتفاعل باستخدام Jetpack Compose بكفاءة عالية. كما يبرز استخدام BespokeVectorIllustration.kt في تقديم رسوميات Canvas خفيفة وسريعة الاستجابة، مما يعزز الأداء البصري دون استهلاك موارد الجهاز، مع تناسق ممتاز بين واجهة المستخدم وخادم server/server.js.",
+      "milestone2_recommendation_ar": "تفعيل StateFlow بشكل صريح في ViewModels لإدارة حالات التحميل والأخطاء (Loading/Error/Success) وضمان استجابة فورية للتغيرات، بالإضافة إلى إضافة طبقة تخزين مؤقت محلي (Local Caching) لبيانات المشاريع لتقليل الاعتماد على الخادم وتسريع تجربة المستخدم عند عدم توفر الاتصال."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289721Repository.kt",
+        "App1289721HomeScreen.kt",
+        "App1289721DetailsScreen.kt",
+        "App1289721CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يمكنني ملاحظة عدة نقاط قوة في المشروع. يظهر نمط MVVM بوضوح في تصميم الكود، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتحكم والمنطق التجاري. تم تنظيم الكود بشكل جيد واستخدام أسماء واضحة ومتسقة للكلاسات والملفات يعكس فهماً جيداً لمبادئ تطوير البرمجيات.\n\nبالنسبة للأمان، يمكن تحسينه من خلال تنفيذ تصليد الأمان (Hardening) في المرحلة الثانية. يمكن تطبيق الخطوات التالية لتعزيز الأمان:\n\n1. تحديث البرمجيات: التأكد",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289721Repository.kt",
+        "App1289721HomeScreen.kt",
+        "App1289721DetailsScreen.kt",
+        "App1289721CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية متينة تعتمد على نمط MVVM عبر كلاسات الـ Domain Models مثل App1289721Model و App1289721Repository، مما يفصل المنطق التجاري عن العرض بشكل مثالي في شاشات HomeScreen و DetailsScreen. كما أن استخدام الرسوميات المتجهة المخصصة (BespokeVectorIllustration) يضمن خفة الحجم وسرعة التحميل، بينما يوفر خادم Node.js (server/server.js) مع PM2 كفاءة عالية وتوسعاً فورياً دون تكاليف باهظة للخدمات السحابية الاحتكارية.",
+      "milestone2_recommendation_ar": "تفعيل نظام الكاش اللامركزي (Redis) لتحسين استجابة API في الذروة، وإضافة طبقة أمان إضافية (Rate Limiting & WAF) على خادم VPS Starter لحماية بوابة الدفع والبيانات الحساسة للعملاء."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289721Repository.kt",
+        "App1289721HomeScreen.kt",
+        "App1289721DetailsScreen.kt",
+        "App1289721CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر الكود نضجاً هندسياً ملحوظاً من خلال الفصل الواضح للمسؤوليات، حيث تتولى App128921Package تمثيل نماذج النطاق (Domain Models) بدقة، بينما تدير App1289721Repository منطق الوصول للبيانات، مما يضمن اتساق البيانات وسهولة الاختبار. كما أن اعتماد BespokeVectorIllustration للرسم على Canvas يعزز الأداء البصري ويقلل استهلاك الذاكرة مقارنة بالصور النقطية التقليدية. ومن جهة الخادم، يركز server/server.js على معالجة الطلبات بكفاءة عالية، مما يدعم تجربة مستخدم سلسة ومتجاوبة.",
+      "milestone2_recommendation_ar": "توصيتي هي تعزيز الأمان عبر إضافة طبقة MFA (المصادقة متعددة العوامل) خاصة في شاشة CheckoutScreen، وتفعيل التخزين المؤقت المحلي (Local Caching) لبيانات المشاريع باستخدام Room أو SQLite لتحسين سرعة التحميل عند انقطاع الاتصال."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

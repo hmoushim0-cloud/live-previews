@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289435_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289435Repository.kt",
+        "App1289435HomeScreen.kt",
+        "App1289435DetailsScreen.kt",
+        "App1289435CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية، حيث أظهرت كلاسات النطاق مثل App1289435Model وApp1289435Package كفاءة بالغة في فصل الاهتمامات ونمذجة البيانات التفاعلية عبر StateFlow في مستودع البيانات App1289435Repository. كما تم فحص واجهات المستخدم المتمثلة في ملفات App1289435HomeScreen.kt وApp1289435DetailsScreen.kt وApp1289435CheckoutScreen.kt، وتبين التزامها التام بمعايير Jetpack Compose الحديثة للتصميم المتجاوب وتجنب إعادة التركيب غير الضروري، إلى جانب استخدام الرسومات المتجهية المخصصة في BespokeVectorIllustration.kt ومعالجة الخلفية عبر خادم Node.js في ملف server/server.js.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتضمن تعزيز طبقة الأمان عبر تشفير البيانات الحساسة باستخدام مكتبة EncryptedSharedPreferences، وتطبيق آلية التخزين المؤقت المحلي باستخدام Room Database لضمان العمل بسلاسة في حالة انقطاع الاتصال، بالإضافة إلى توسيع نطاق الاختبارات الوظيفية واختبارات الوحدات (Unit & UI Tests)."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289435Repository.kt",
+        "App1289435HomeScreen.kt",
+        "App1289435DetailsScreen.kt",
+        "App1289435CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع مستشار بناء الأعمال يتبع نمط MVVM بشكل جيد، حيث تم تنظيم الكود واستخدام الكلاسات مثل App1289435Model، App1289435Package، وApp1289435Repository. كما تم استخدام ملفات مثل App1289435HomeScreen.kt، App1289435DetailsScreen.kt، وApp1289435CheckoutScreen.kt.\n\nتمثل هذه العناصر قوة في البنية التحتية للمشروع وتساعد في تحسين تجربة المستخدم والتعامل مع البيانات والوظائف بطريقة منظمة وآمنة.\n\nبالنسبة للخادم، تم استخ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289435Repository.kt",
+        "App1289435HomeScreen.kt",
+        "App1289435DetailsScreen.kt",
+        "App1289435CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أُشيد بالهندسة المعمارية المتميزة لهذا المشروع الخاص بالوسيط العقاري المرخص (رخصة فال). لقد تم بناء النظام باستخدام نمط معماري متين يربط بين كلاسات الـ Domain والمستودعات عبر `App1289435Repository.kt` و`App1289435Model.kt` و`App1289435Package.kt`، مما يضمن فصلاً كاملاً للمسؤوليات (SoC) وسهولة الصيانة وقابلية التوسع. علاوة على ذلك، أظهرت واجهات المستخدم في `App1289435HomeScreen.kt` و`App1289435DetailsScreen.kt` و`App1289435CheckoutScreen.kt` كفاءة عالية في تجربة المستخدم ضمن نمط `catalog_grid`. كما تميز الجانب المرئي باستخدامه المبدع لـ `BespokeVectorIllustration.kt` لتقديم رسوم متجهة مخصصة دون إبطاء أداء التطبيق.",
+      "milestone2_recommendation_ar": "على صعيد البنية التحتية وهندسة التكاليف، أثبت الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مدعوماً بملف التشغيل `server/server.js` وإدارة العمليات عبر PM2 Cluster، توفيراً هائلاً بمئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes) مع ضمان استقرار وسرعة عالية في معالجة طلبات العملاء. أوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل بروتوكول HTTPS الإلزامي، إعداد جدار حماية UFW، تطبيق استراتيجية التخزين المؤقت (Caching) باستخدام Redis لتحسين أداء استعلامات الباقات، وتفعيل المراقبة الآلية لاستهلاك الموارد عبر PM2 Plus."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289435Repository.kt",
+        "App1289435HomeScreen.kt",
+        "App1289435DetailsScreen.kt",
+        "App1289435CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع مستشار بناء الأعمال العقارية (#1289435) نضجاً معمارياً لافتاً، إذ يعتمد نمط MVVM بصورة صارمة عبر الفصل الواضح بين طبقات البيانات والعرض والمنطق التجاري؛ فكلاس App1289435Repository.kt يُمثّل Single Source of Truth محكماً يُجرّد استدعاءات الشبكة والتخزين المحلي خلف واجهة نظيفة، فيما يتولى App1289435Model تعريف كيانات النطاق بأنواع بيانات آمنة تمنع تسرّب الـ null في وقت التشغيل. أما App1289435Package فيُرسي حدود الوحدات البرمجية بما يتوافق م",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

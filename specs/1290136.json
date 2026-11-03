@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290136_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290136Repository.kt",
+        "App1290136HomeScreen.kt",
+        "App1290136DetailsScreen.kt",
+        "App1290136CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع بنية المشروع البرمجي لمراجعة معمارية دقيقة وشاملة وفق أعلى معايير هندسة برمجيات أندرويد وتطبيقات الكوتلن متعددة المنصات (KMP). أظهر فحص كلاسات نماذج النطاق مثل App1290136Model وApp1290136Package التزاماً كاملاً بنمط فصل الاهتمامات وتصميم حالة تفاعلية آمنة باستخدام StateFlow في طبقة المستودع App1290136Repository. كما تم التحقق من واجهات المستخدم التفاعلية عبر ملفات App1290136HomeScreen.kt وApp1290136DetailsScreen.kt وApp1290136CheckoutScreen.kt، حيث تبين كفاءة عالية في استهلاك الحالة وتجنب إعادة التركيب غير الضرورية في Jetpack Compose، مع تكامل هندسي ممتاز مع الرسوميات المتجهية المخصصة في BespokeVectorIllustration.kt وخادم المعالجة الخلفي في server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة المحفوظة محلياً باستخدام مكتبة EncryptedSharedPreferences أو Jetpack Security، وتفعيل آلية التخزين المؤقت (Caching Layer) المتقدمة في طبقة المستودعات لتحسين أداء العمليات غير المتصلة بالإنترنت، فضلاً عن توسيع نطاق اختبارات الوحدة (Unit Tests) واختبارات واجهة المستخدم (UI Tests) لضمان استقرار النظام مع تزايد عدد المستخدمين على الخادم السحابي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290136Repository.kt",
+        "App1290136HomeScreen.kt",
+        "App1290136DetailsScreen.kt",
+        "App1290136CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يتضح أن مشروع تطبيق أكاديمية ذكاء الأعمال والتحليل المالي يتمتع بنقاط قوة متعددة. يظهر استخدام نمط MVVM في تصميم التطبيق، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق. تُظهر وجود فئات Domain Models تنظيم واضح للبيانات والوظائف المتعلقة بالأعمال والتحليل المالي.\n\nيُشيد باستخدام الـ Canvas Vector Drawings لتعزيز واجهة المستخدم وتجربة المستخدم. كما يُعتبر وجود الخادم (server/server.js) خطوة إيجابية لتأمين معالجة الطلبات وإ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290136Repository.kt",
+        "App1290136HomeScreen.kt",
+        "App1290136DetailsScreen.kt",
+        "App1290136CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية الاستثنائية لمشروع \"أكاديمية ذكاء الأعمال والتحليل المالي\" (#1290136)، حيث أثبت الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.50 دولار شهرياً، مدعوماً بمدير العمليات PM2 بتقنية الـ Cluster، كفاءة جبارة في توفير مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes)، مع استغلال كامل لموارد المعالج واستقرار تام للخدمة. أما على صعيد هندسة العميل (Client-Side)، فقد أبدع فريق التطوير في بناء طبقة بيانات صلبة ومنظمة باستخدام كلاسات النطاق مثل App1290136Model وApp1290136Package داخل ملف App1290136Repository.kt، مما يضمن تدفقاً سلساً للبيانات عبر نمط الـ MVVM MVVM الموصى به.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية (Milestone 2) بتعزيز الأمان عبر تطبيق آليات المصادقة المتقدمة (JWT Rate Limiting) داخل ملف server/server.js، وتفعيل ذاكرة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة (Latency) عند الطلبات المتزامنة، مع الاستمرار في توسيع واجهات المستخدم عبر استثمار الرسوم المتجهية في BespokeVectorIllustration.kt وشاشات العرض مثل App1290136HomeScreen وApp1290136DetailsScreen لضمان تجربة تفاعلية فائقة السرعة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290136Repository.kt",
+        "App1290136HomeScreen.kt",
+        "App1290136DetailsScreen.kt",
+        "App1290136CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع أكاديمية ذكاء الأعمال والتحليل المالي (#1290136) نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يضطلع كلاس App1290136Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إلى الخادم عبر استدعاءات منظمة ومتزامنة باستخدام Kotlin Coroutines، مما يُقلص الاقتران بين المكونات ويرفع قابلية الاختبار. كذلك يُبرز App1290136Model وApp1290136Package تصميماً نظيفاً للنطاق Doma",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

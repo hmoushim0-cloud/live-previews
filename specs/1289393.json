@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289393_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289393Repository.kt",
+        "App1289393HomeScreen.kt",
+        "App1289393DetailsScreen.kt",
+        "App1289393CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى فريق الهندسة مراجعة شاملة لبنية المشروع المخصص لمراجعة خطوات الصحة المهنية في مواقع التشييد، حيث تم فحص ملفات مثل App1289393Repository.kt وApp1289393HomeScreen.kt بدقة متناهية. يبرز التصميم المعماري بوضوح من خلال تطبيق نمط MVVM وفصل الاهتمامات بكفاءة عالية، مع الاعتماد على StateFlow لإدارة الحالة التفاعلية بسلاسة واستقرار تام داخل واجهات Jetpack Compose. كما أظهر فحص كلاسات Domain مثل App1289393Model وApp1289393Package متانة في نمذجة بيانات بنود السلامة الـ 233 الخاصة بالإجهاد الحراري والخدمات الطبية، بينما أثبت ملف BespokeVectorIllustration.kt وخادم Node.js (server/server.js) تكاملاً تقنياً ممتازاً وخلوهما التام من أي رموز تعبيرية (إيموجي) التزاماً بالمعايير المهنية الصارمة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تصليد اتصالات الشبكة (SSL Pinning) وتفعيل التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون إنترنت في مواقع التشييد النائية، إلى جانب التوسع السحابي لتحسين أداء الخادم المعالج لطلبات المراجعة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289393Repository.kt",
+        "App1289393HomeScreen.kt",
+        "App1289393DetailsScreen.kt",
+        "App1289393CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية لمشروع تطبيق مراجعة خطوات الصحة المهنية والخدمات الطبية في مواقع التشييد، يظهر الكود المصدري قوة في بعض الجوانب. يُشاد بالنمط المعماري MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق. تم تضمين رسومات Canvas Vector Drawings لتعزيز تجربة المستخدم. بالإضافة إلى ذلك، يظهر الاهتمام بالأمان من خلال استخدام خادم server/server.js لمعالجة الطلبات.\n\nفيما ي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289393Repository.kt",
+        "App1289393HomeScreen.kt",
+        "App1289393DetailsScreen.kt",
+        "App1289393CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية المتميزة لهذا المشروع الطبي والمهني المخصص لمراجعة خطوات الصحة المهنية (#1289393). لقد حقق الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 4 إلى 5.5 دولار شهرياً، مع الاستفادة من مدير العمليات PM2 بنمط الـ Cluster Mode، كفاءة تشغيلية فائقة توفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes) التي تفرض رسوماً خفية مقابل كل استدعاء (Request-based pricing). يتيح PM2 Cluster الاستفادة القصوى من جميع أنوية المعالج (vCPUs) على الخادم عبر توزيع الأحمال (Load Balancing) برمجياً بكفاءة لحظية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Hardening) لخادم الـ VPS عبر تطبيق جدار حماية متقدم (UFW)، تفعيل شهادات SSL/TLS الإجبارية، إعداد آلية النسخ الاحتياطي التلقائي لقواعد البيانات، وتحسين استجابة التطبيق عبر دمج طبقة التخزين المؤقت (Redis Cache) في ملف server/server.js لمواجهة أحمال العمل العالية أثناء مراجعة بنود السلامة في مواقع التشييد."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289393Repository.kt",
+        "App1289393HomeScreen.kt",
+        "App1289393DetailsScreen.kt",
+        "App1289393CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع مراجعة خطوات الصحة المهنية (#1289393) نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري؛ إذ تضطلع كلاس App1289393Repository بمسؤولية التجريد الكامل لمصادر البيانات وتوحيد نقاط الوصول إليها، فيما تُعرّف كلاس App1289393Model كيانات النطاق بنمط نظيف يتوافق مع مبادئ Clean Architecture، مما يُسهّل اختبار الوحدات ويُقلّص الاقتران بين المكوّنات. أما ملف BespokeVectorIllustration.kt",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

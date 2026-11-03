@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289741_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289741Repository.kt",
+        "App1289741HomeScreen.kt",
+        "App1289741DetailsScreen.kt",
+        "App1289741CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM رصينة حيث تعزل الكلاسات الأساسية App1289741Model و App1289741Package البيانات في نماذج جافا-بيوت (Domain Models) نقية، مما يضمن سلامة البيانات قبل وصولها لـ ViewModel. كما يتفوق التطبيق في دقة التصميم التفاعلي عبر ملف BespokeVectorIllustration.kt الذي يستغل قوة Canvas لرسم الرسوميات المتجهة بدلاً من الصور الثابتة، مما يعكس الفخامة البصرية المطلوبة لمنصة 'هيل الهند'.",
+      "milestone2_recommendation_ar": "اعتماد تكتيكات تحميل الكاش باستخدام StateFlow في App1289741Repository.kt لتخزين بيانات الباقات محلياً وتجنب طلبات الشبكة غير الضرورية، مع تفعيل ميزة المزامنة الخلفية لضمان تجربة مستخدم سلسة وسريعة عند تصفح الخدمات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289741Repository.kt",
+        "App1289741HomeScreen.kt",
+        "App1289741DetailsScreen.kt",
+        "App1289741CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكن تسليط الضوء على النقاط القوية في المشروع. يتضح أن المطورين قاموا بتنفيذ نمط MVVM بشكل جيد في الكود المصدري، حيث تم تقسيم التطبيق إلى وحدات عرض (View)، نموذج (Model)، ووحدة تحكم (ViewModel). تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والخدمات.\n\nتم استخدام رسومات الـ Canvas Vector Drawings لتحسين واجهة المستخدم وتجربة المستخدم، مما يظهر اهتمام المطورين بتقديم تجربة بصرية مميزة.\n\nفيما يتعلق",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289741Repository.kt",
+        "App1289741HomeScreen.kt",
+        "App1289741DetailsScreen.kt",
+        "App1289741CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر الكلاسات Domain Models مثل App1289741Model وApp1289741Package، مما يضمن نقاء البيانات وسهولة صيانتها. كما أن استخدام الـ Canvas Vector Drawings في ملف BespokeVectorIllustration.kt يضمن أداءً عاليًا ودقة لا تتأثر بتقنيات العرض المختلفة، وهو ما يعكس الاهتمام بالتفاصيل البصرية الفاخرة. من جانب الخادم، يوفر server/server.js بيئة معالجة فعالة ومباشرة للطلبات، مما يقلل من التعقيد غير الضروري ويحسن زمن الاستجابة.",
+      "milestone2_recommendation_ar": "التركيز على تعزيز أمان الـ API باستخدام JWT Tokens مع Refresh Tokens لضمان استمرارية الجلسات بشكل آمن، إضافة إلى تطبيق استراتيجية Cache Layer للبيانات الثابتة مثل باقات الخدمات لتقليل الحمل على قاعدة البيانات وتحسين تجربة المستخدم."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289741Repository.kt",
+        "App1289741HomeScreen.kt",
+        "App1289741DetailsScreen.kt",
+        "App1289741CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر كلاسات Domain Models مثل App128941Package وApp1289741Repository، مما يضمن سلامة البيانات وسهولة الصيانة. كما أن دمج الرسوميات التفاعلية BespokeVectorIllustration مع واجهة الـ catalog_grid يعكس فهماً عميقاً لمعايير التصميم الحديث (Material 3) ودعمًا ممتازاً للغة العربية واتجاه RTL في شاشات التفاصيل والشراء.",
+      "milestone2_recommendation_ar": "التركيز في المرحلة الثانية على تحسين تجربة المستخدم عبر إضافة دعم كامل لـ Dynamic Island وإضافة ميزة الكاش المحلي (Local Caching) لتحسين أداء تحميل الباقات، بالإضافة إلى تعزيز أمان الخادم server/server.js بتفعيل HTTPS وتأمين نقاط النهاية (Endpoints) ضد هجمات CSRF."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290146_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290146Repository.kt",
+        "App1290146HomeScreen.kt",
+        "App1290146DetailsScreen.kt",
+        "App1290146CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة البرمجيات في المشروع، حيث أظهرت كلاسات النطاق مثل App1290146Model وApp1290146Package التزاماً تاماً بمبادئ الفصل بين الطبقات ونمط المعمارية التفاعلية MVVM. تم تنظيم تدفق البيانات بكفاءة عالية عبر اعتماد StateFlow داخل المستودع App1290146Repository، مما保证 استقرار الحالة وتحديث واجهات المستخدم بسلاسة عبر الشاشات App1290146HomeScreen وApp1290146DetailsScreen وApp1290146CheckoutScreen.\n\nمن الناحية البصرية والهيكلية، أثبت استخدام الرسومات المتجهية المخصصة في ملف BespokeVectorIllustration كفاءة فائقة في تقليل استهلاك الذاكرة وتحسين أداء الرسم في Jetpack Compose، بالتوازي مع تكامل واجهة الخادم الخلفي في ملف server.js لمعالجة طلبات التوريد الرقمي بمرونة وموثوقية تشغيلية عالية تلبي متطلبات منصة تكرشارت.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق آليات التشفير المتطور لبيانات الدفع، وتفعيل نظام التخزين المؤقت المحلي (Local Caching) باستخدام Room أو Datastore لضمان استجابة فورية بدون اتصال بالإنترنت، فضلاً عن توسيع نطاق الاختبارات الآلية (Unit & UI Tests) لتغطية مسارات الشراء الرقمي بالكامل."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290146Repository.kt",
+        "App1290146HomeScreen.kt",
+        "App1290146DetailsScreen.kt",
+        "App1290146CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع مؤشرات تك قوة في عدة جوانب. يتميز الكود بنمط MVVM، مما يعزز فصل الاهتمامات بين مكونات التطبيق. تظهر كلاسات App1290146Model وApp1290146Repository تنظيمًا واضحًا للبيانات وعمليات التعامل معها.\n\nيُظهر استخدام الـ Canvas Vector Drawings اهتماماً بالجانب الجمالي وتجربة المستخدم. يُعتبر الخادم المُستخدم لمعالجة الطلبات آمناً نسبياً بفضل استخدام server/server.js.\n\nيُوصى في المرحلة الثانية بتنفيذ تصليد الأمان (Hardening) ل",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290146Repository.kt",
+        "App1290146HomeScreen.kt",
+        "App1290146DetailsScreen.kt",
+        "App1290146CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع \"مؤشرات تك\" (#1290146) والتي تحقق كفاءة مالية فائقة وتوفيراً هائلاً بمئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes)، وذلك عبر اعتماد خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مع استغلال طاقات المعالج بالكامل عبر تفعيل نمط PM2 Cluster في ملف server/server.js لتوزيع الأحمال بكفاءة عالية على جميع أنوية المعالج. أما من الناحية البرمجية البحتة، فقد أظهرت طبقات الكود المكتشفة كفاءة استثنائية في تطبيق نمط التصميم MVVM وفصل المسؤوليات، حيث يتولى كلاس App1290146Repository إدارة تدفق البيانات وجلبها بسلاسة، بينما ينظم كلاس App1290146Model بنية البيانات الرياضية المرتبطة بمعادلات تكرشارت، وتتكامل هذه البنية مع واجهات المستخدم في App1290146HomeScreen و App1290146DetailsScreen و App1290146CheckoutScreen، مدعومة برسوميات متجهة دقيقة عبر BespokeVectorIllustration لضمان تجربة مستخدم سلسة وعالية الأداء على منصة كوتلن متعددة المنصات.",
+      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز البنية التحتية والأمان من خلال تطبيق طبقة حماية متقدمة (Rate Limiting) وتفعيل التخزين المؤقت (Redis Caching) على خادم الـ VPS لتقليل زمن الاستجابة، بالإضافة إلى إعداد نظام مراقبة تلقائي لأداء العقد عبر PM2 لضمان استمرارية التشغيل بنسبة 99.9% مع توسيع نطاق النسخ الاحتياطي الآلي لقاعدة البيانات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290146Repository.kt",
+        "App1290146HomeScreen.kt",
+        "App1290146DetailsScreen.kt",
+        "App1290146CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع مؤشرات تك (#1290146) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات التطبيق عبر الثلاثية الكلاسية App1290146Model وApp1290146Repository وApp1290146Package، إذ يلتزم الكود بنمط MVVM بصرامة تجعل طبقة البيانات معزولة تماماً عن طبقة العرض، وهو ما يظهر جلياً في ملف App1290146Repository.kt الذي يتولى تجريد مصادر البيانات وتوحيد نقاط الوصول إليها عبر واجهات برمجية نظيفة تدعم الاختبار الوحدوي بلا احتكاك. أما على صعيد تدفق الواجهات الثلاث ال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

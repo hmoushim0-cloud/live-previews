@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290138_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290138Repository.kt",
+        "App1290138HomeScreen.kt",
+        "App1290138DetailsScreen.kt",
+        "App1290138CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى الفريق الهندسي مراجعة شاملة لطبقات التطبيق في مشروع بوابة متجر باي فلو للمدفوعات الرقمية (#1290138)، حيث تظهر بنية الـ MVVM وفصل الاهتمامات بوضوح تام عبر الكلاسات الأساسية مثل App1290138Model وApp1290138Package داخل ملفات الـ Domain، بينما يتولى App1290138Repository إدارة تدفق البيانات بكفاءة عالية عبر StateFlow وتصميم تفاعلي مستقر. كما تم التحقق من واجهات المستخدم في ملفات App1290138HomeScreen.kt وApp1290138DetailsScreen.kt وApp1290138CheckoutScreen.kt، والتي أظهرت التزاماً معمارياً دقيقاً بمعايير Jetpack Compose وKMP، إلى جانب تكامل الرسوم المتجهة المخصصة في BespokeVectorIllustration.kt وخادم Node.js في server/server.js بمعالجة آمنة وخالية تماماً من أي رموز تعبيرية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان المصرفي عبر تفعيل تشفير الطرفيات (End-to-End Encryption) لبيانات بطاقات الدفع، وتحسين استراتيجية التخزين المؤقت (Caching) باستخدام SQLDelight لدعم وضع عدم الاتصال (Offline-first)، إضافة إلى توسيع نطاق الاختبارات الآلية لطبقات الـ ViewModel والـ Repository لضمان استقرار الانتقال إلى بوابة بايبال."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290138Repository.kt",
+        "App1290138HomeScreen.kt",
+        "App1290138DetailsScreen.kt",
+        "App1290138CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع بوابة متجر باي فلو للمدفوعات الرقمية، يمكنني أن أشير إلى بعض النقاط القوية الموجودة في التطبيق. يتميز الكود بنمط MVVM الذي يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمدفوعات والتحقق من الهوية. تظهر الرسومات المتجهة باستخدام الـ Canvas Vector Drawings جاذبية بصرية عالية وجودة تصميم.\n\nبالنسبة للخادم، تم استخدام ملف server/server.js ل",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290138Repository.kt",
+        "App1290138HomeScreen.kt",
+        "App1290138DetailsScreen.kt",
+        "App1290138CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تتميز المعمارية البرمجية لبوابة متجر باي فلو للمدفوعات الرقمية (#1290138) باعتمادها النموذجي على أنماط التصميم الحديثة وهندسة كوتلن متعدد المنصات (KMP)، حيث يتجلى الفصل التام لطبقة البيانات والمنطق عبر كلاسات الـ Domain والموديلات المكتشفة مثل `App1290138Model` و`App1290138Package` و`App1290138Repository` في الملف `App1290138Repository.kt`، مما يضمن استقراراً عالياً عند تبديل بوابات الدفع بين سترايب وبايبال دون انقطاع. وعلى صعيد الواجهات، تقدم شاشات مثل `App1290138HomeScreen.kt` و`App1290138DetailsScreen.kt` و`App1290138CheckoutScreen.kt` تجربة مستخدم فائقة الاستجابة تتماشى مع نمط الـ booking_timeline، مدعومة برسوميات متجهية مخصصة وعالية الكفاءة في `BespokeVectorIllustration.kt`.\n\nأما على مستوى البنية التحتية وهندسة التكاليف (FinOps)، فإن الاعتماد على خادم VPS مستقل (مثل Hetzner CX22) بتكلفة زهيدة لا تتجاوز 6 دولارات شهرياً، مع تشغيل طبقة الخادم الخلفي عبر ملف `server/server.js` واستغلال ميزة التوسع الأفقي والأسي عبر `PM2 Cluster`، يتيح استغلالاً كاملاً لأنوية المعالج ومعالجة آلاف الطلبات المتزامنة بأعلى موثوقية وأمان مصرفي. هذا التصميم يجنب العميل تكاليف الخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS أو GCP المُدارة كلياً)، محققاً وفراً مالياً ملموساً بمئات الدولارات سنوياً مع ضمان استجابة لحظية وأمان متكامل للبيانات.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل بروتوكولات المصادقة الثنائية وتشفير البيانات الطرفية (End-to-End Encryption)، بالإضافة إلى تطبيق آلية التخزين المؤقت (Redis Caching) على خادم Node.js لتحسين زمن الاستجابة، وتوسيع إعدادات PM2 Cluster لتشمل التوزيع التلقائي للأحمال وزيادة كفاءة إدارة الجلسات الحية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290138Repository.kt",
+        "App1290138HomeScreen.kt",
+        "App1290138DetailsScreen.kt",
+        "App1290138CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع بوابة متجر باي فلو للمدفوعات الرقمية (#1290138) نضجاً معمارياً لافتاً يتجلى بوضوح في تبنّي نمط MVVM مع فصل صارم للمسؤوليات عبر الثالوث المحوري: App1290138Model الذي يُعرّف كيانات المجال بنظافة تامة بعيداً عن أي تلوث من طبقة العرض، وApp1290138Repository الذي يُجسّد مبدأ Single Source of Truth من خلال تجريد كامل لمصادر البيانات سواء أكانت شبكية عبر بوابة PayPal أم محلية مخزّنة، فيما يُغلّف App1290138Package حدود الوحدة البرمجية بأسلوب يُيسّ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

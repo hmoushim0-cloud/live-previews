@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290141_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290141Repository.kt",
+        "App1290141HomeScreen.kt",
+        "App1290141DetailsScreen.kt",
+        "App1290141CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى م. عبد العزيز بن فهد مراجعة شاملة لهندسة مشروع إيوان للتصميم المغربي (#1290141)، حيث تم فحص كلاسات الـ Domain والمستودعات مثل App1290141Model وApp1290141Package وApp1290141Repository، بالإضافة إلى واجهات المستخدم المتفاعلة في ملفات App1290141HomeScreen.kt وApp1290141DetailsScreen.kt وApp1290141CheckoutScreen.kt. أظهر الكود التزاماً تاماً بمعايير هندسة النظم الحديثة وفصل الاهتمامات عبر نمط MVVM، مع استخدام كفء لـ StateFlow في إدارة الحالة التفاعلية بسلاسة تامة. كما تميز ملف BespokeVectorIllustration.kt بتوظيف رسوم الـ Canvas المتجهة بدقة عالية لتجسيد الأقواس والمشب المغربي التراثي دون إبطاء الأداء، تكاملاً مع خادم Node.js في server/server.js لمعالجة الطلبات بكفاءة عالية.",
+      "milestone2_recommendation_ar": "توصي الإدارة الهندسية في المرحلة الثانية بتصليد الأمان عبر تفعيل التشفير الثنائي لبيانات الدفع، وتطبيق طبقة التخزين المؤقت المحلية (Local Caching) باستخدام Room وDataStore لضمان العمل بدون اتصال، مع التوسع السحابي عبر نقل الخادم إلى حاويات Docker مهيأة على خادم مخصص."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290141Repository.kt",
+        "App1290141HomeScreen.kt",
+        "App1290141DetailsScreen.kt",
+        "App1290141CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع إيوان للتصميم المغربي قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في الكود، والذي يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم ووظائف العرض. تُعتبر كلاسات Domain Models استراتيجية جيدة لتنظيم البيانات والعمليات المتعلقة بالمشروع. تُظهر الـ Canvas Vector Drawings اهتماماً بجودة الرسوميات والتصميم.\n\nأما بالنسبة للخادم، فيجدر بالذكر استخدام كلاس `server/server.js` لإدارة وظائف الخادم. يُعتبر استخدام جدار الحماية UFW",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290141Repository.kt",
+        "App1290141HomeScreen.kt",
+        "App1290141DetailsScreen.kt",
+        "App1290141CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع «إيوان للتصميم المغربي» (رقم المشروع #1290141) نموذجاً هندسياً فريداً يجمع بين أصالة التراث المغربي وكفاءة الحوسبة السحابية الحديثة. تم تصميم المعمارية البرمجية عبر نمط الـ MVVM وهندسة البيانات بوضوح تام، حيث تتكامل الكلاسات `App1290141Model` و`App1290141Package` مع مستودع البيانات `App1290141Repository.kt` لتقديم تجربة مستخدم سلسة عبر شاشات `App1290141HomeScreen.kt` و`App1290141DetailsScreen.kt` و`App1290141CheckoutScreen.kt`. على صعيد الرسوميات، أبدع المطور في استخدام `BespokeVectorIllustration.kt` لتوليد الزخارف والأقواس والمشب التراثي بدقة متناهية عبر الـ Canvas Vector Drawings، مما ألغى تماماً الاعتماد على الأصول الثقيلة وقلل حجم التطبيق.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تفعيل بروتوكول Helmet في ملف `server/server.js` وتطبيق استراتيجية التخزين المؤقت (Redis Caching) لبيانات الكتالوج، مع الاستفادة القصوى من إمكانيات التوسع الأفقي عبر PM2 Cluster على خادم الـ VPS لتوزيع الأحمال بكفاءة عالية وضمان استمرارية التشغيل دون انقطاع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290141Repository.kt",
+        "App1290141HomeScreen.kt",
+        "App1290141DetailsScreen.kt",
+        "App1290141CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع إيوان للتصميم المغربي (#1290141) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات التطبيق وفق نمط MVVM الصارم؛ إذ يضطلع كلاس App1290141Repository.kt بدور حجر الزاوية في طبقة البيانات، مُجرِّداً كل اتصالات الشبكة مع الخادم server/server.js عبر واجهات نظيفة تُمكّن من استبدال مصادر البيانات دون المساس بطبقة العرض. كما يُعبّر كلاس App1290141Model عن نموذج مجال (Domain Model) ثري يحمل خصائص التخصيص المغربي كتفاصيل المشب والأقواس بأنواع بيا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

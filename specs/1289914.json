@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289914_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289914Repository.kt",
+        "App1289914HomeScreen.kt",
+        "App1289914DetailsScreen.kt",
+        "App1289914CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بناءً على الملفات التي تم فحصها (App1289914Repository.kt, App1289914HomeScreen.kt, App1289914DetailsScreen.kt, App1289914CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js) والكلاسات المكتشفة (App1289914Model, App1289914Package, App1289914Repository)، يظهر أن المشروع يتجه بشكل واضح إلى فصل الاهتمامات ضمن نمط قريب من MVVM: الـ Repository يتحمل منطق جمع/معالجة البيانات وتنسيقها للـ UI بدلًا من أن تُحتوي الشاشات على تفاصيل تنفيذية ثقيلة. كذلك، وجود App1289914Model و App1289914Package ككيانات/مجمّعات بيانات يدعم فكرة تنظيم الـ Domain/Entities المستخدمة بين مراحل التطبيق الثلاث (هدف المستخدم، تحليل ATS والفجوات، ثم التتبع/Checkout). على مستوى الواجهة، فصل BespokeVectorIllustration.kt إلى مكوّن مخصص يساهم في عزل عناصر العرض عن منطق الأعمال، وهو قرار نظيف يقلل التشابك ويعزز إمكانية إعادة الاستخدام، كما أن تموضع الشاشات المنفصلة (Home/Details/Checkout) يوائم الـ UI Archetype ثلاثي المراحل ويجعل مسار المستخدم مفهومًا ويسهل اختبار كل مرحلة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ طبقة أمان وتحسين تفاعلية الحالة: (1) إضافة توقيع/تحقق للطلبات القادمة من التطبيق إلى server/server.js عبر JWT أو HMAC مع Time-based nonce لمنع إعادة الإرسال (Replay) وتقييد الصلاحيات لكل من مسار التحليل ومسار الدفع/التتبع. (2) تحسين استخدام StateFlow في ViewModels (إن كانت مطبقة ضمن الشاشات الحالية) باعتماد نمط واحد واضح لإدارة حالات UI مثل Loading/Success/Error عبر sealed classes، وربط أحداث “التقدم/الإشعارات الفورية” بتدفق واحد بدلًا من تفرعات متعددة؛ مع تطبيق سياسة Backpressure أو إيقاف/دمج الأحداث عند تعدد التحديثات لتقليل إعادة الرسم غير الضرورية. (3) على مستوى التوسع، فعّل endpoint لمعالجة طويلة التنفيذ عبر job queue (حتى لو بسيطة) مع WebSocket/SSE للتحديث الفوري لحالة كل نسخة، بدل polling المتكرر، مع تخزين مؤقت للنتائج على الخادم وربطها بـ jobId داخل App1289914Repository.kt."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289914Repository.kt",
+        "App1289914HomeScreen.kt",
+        "App1289914DetailsScreen.kt",
+        "App1289914CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع مجد المستقلين تطوراً ملحوظاً ونقاط قوة متعددة. تم اتباع نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق. تم تنظيم الكود باستخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق. تم استخدام رسومات المتجهات Canvas Vector Drawings لتحسين جودة الرسوميات وتجربة المستخدم. بالإضافة إلى ذلك، يبدو أن الخادم مُدار بشكل جيد مع استخدام server.js لإدارة طلبات الخادم.\n\nفي المرحلة الثانية",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289914Repository.kt",
+        "App1289914HomeScreen.kt",
+        "App1289914DetailsScreen.kt",
+        "App1289914CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "1) من الناحية المعمارية، يظهر تقسيم المسؤوليات بشكل واضح ينسجم مع نمط عمل قابل للتوسع: وجود الـ Domain Model/Entities عبر كلاسات مثل App1289914Model وApp1289914Package وApp1289914Repository يوحي بأن منطق الأعمال (التخطيط لتحسين ملف LinkedIn و/أو تقييم فجوات ATS) لا يُختزل داخل واجهات UI فقط، بل يُدار عبر Repository كطبقة وصول/تنسيق للبيانات. كذلك فإن فصل الشاشات (App1289914HomeScreen.kt, App1289914DetailsScreen.kt, App1289914CheckoutScreen.kt) عن منطق التخصيص والمعالجة يعزز قابلية الاختبار وإعادة الاستخدام، ويقلل اقتران الواجهات بخدمات الخلفية. على مستوى واجهة المستخدم، تضمين BespokeVectorIllustration.kt يوحي بعناية بأداء العرض والاتساق البصري عبر SVG/Canvas بدلاً من أحجام صور كبيرة، وهو قرار عملي يقلل زمن التحميل وتكلفة الذاكرة ويؤثر إيجاباً على UX في التطبيقات ذات التدفقات المتعددة.\n\n2) فيما يتعلق بالخلفية، وجود server/server.js مع تشغيله ضمن نموذج يمكن توسيعه (خصوصاً إن كان deploy_vps.sh يستهدف تشغيل Node.js بإدارة عمليات متعددة) يوضح قابلية معمارية لاستغلال الـ concurrency دون اعتماد كامل على خدمات احتكارية مكلفة. من منظور FinOps، تكلفة الـ VPS Starter ($4.00–$5.50 شهرياً) مقابل استبدالها بخدمات “Managed” احتكارية عادةً يمنح هامش توفير كبير طالما أن الحمل (CPU/RAM) محدود وأن المعالجة الأساسية يمكن تحويلها إلى مهام قصيرة/غير حجبية. كما أن استخدام PM2 Cluster (عند تطبيقه فعلياً على server/server.js) يحسن كفاءة التوسع أفقيًا على مستوى نفس السيرفر عبر استغلال نوى المعالج بدل الاكتفاء بعملية واحدة؛ لكن الكفاءة هنا تعتمد على خلو server/server.js من عنق زجاجة مثل استخدام مكالمات I/O حجبية أو وجود state محلي غير متزامن بين العمال (workers). بوجه عام، التقسيم بين Repository + شاشات UI + خلفية server.js يدعم هدف تقليل زمن تجهيز المحتوى وإطلاق أحداث تقدم (progress/events) للتنبيه الفوري، وهو متوافق مع مسار التطبيق الثلاثي (اكتشاف/تخصيص/Checkout).",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حزمة أمان وتحمّل (Hardening + Scale Readiness) بشكل عملي قبل أي زيادة حمل: (1) أضف طبقة تحقق وهوية في server/server.js مع JWT موقّع (أو OAuth حسب المنتج) وتحديد Rate Limits لكل IP/Account، (2) فعّل TLS إجبارياً وHeaders مثل CSP/No-Cache على endpoints الخاصة بتوليد/تصدير السير الذاتية، (3) إن كان هناك توليد نص/قوالب/ATS parsing: أضف قيوداً على حجم الطلب (body size limits) وتطبيعاً للمدخلات ضد prompt injection/HTML injection مع ترميز صارم عند الإخراج، (4) حرّك تنفيذ التوليد إلى Job Queue (مثل BullMQ مع Redis) بدل المعالجة المتزامنة داخل request/response لتقليل timeouts وتحسين الاتساق مع PM2 Cluster، (5) راقب Metrics (CPU/mem/event loop lag/queue length) ثم حدّد HPA/توسّع VPS أو ترقية vCPU/RAM تدريجياً؛ وبالنسبة للكاش، فعّل cache قصير TTL للنتائج المتكررة (مثل ATS keyword gap assessments) لتقليل تكلفة المعالجة وتحسين الاستجابة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289914Repository.kt",
+        "App1289914HomeScreen.kt",
+        "App1289914DetailsScreen.kt",
+        "App1289914CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"من الناحية المعمارية/البرمجية، يلوح بوضوح أن المشروع تم تنظيمه حول طبقة Domain مدروسة عبر كيانات مثل LinkedInProfileOptimizationPlan وATSKeywordGapAssessment، ما يدعم فصل منطق الأعمال عن واجهة المستخدم ويمنح قابلية اختبار أعلى ومرونة توسعة لاحقة. كذلك فإن وجود App1289914Repository.kt مع App1289914Model وApp1289914Package يوحي بتطبيق نمط مستودع Repository يضبط مصدر البيانات (محلي/شبكي) ويقلل تشابك الشاشات DetailsScreen وCheckoutScreen مع تفاصيل الاتصال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289654_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289654Repository.kt",
+        "App1289654HomeScreen.kt",
+        "App1289654DetailsScreen.kt",
+        "App1289654CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهر فحص كود المشروع \"دعم الموظفين الذكي\" التزاماً معمارياً رفيع المستوى بمعايير هندسة البرمجيات الحديثة وتطبيقات Kotlin Multiplatform. تم استعراض كلاسات النطاق والبيانات مثل App1289654Model وApp1289654Package، إلى جانب طبقة المستودع App1289654Repository، حيث تتفاعل بانسجام تام مع تدفقات StateFlow لضمان إدارة حالة تفاعلية وآمنة خالية من تسريبات الذاكرة. انعكس ذلك بوضوح في الواجهات مثل App1289654HomeScreen وApp1289654DetailsScreen وApp1289654CheckoutScreen، حيث أظهر نمط الـ MVVM فصلاً تاماً للاهتمامات مع الاستفادة القصوى من تخصيص الرسوم المتجهة عبر BespokeVectorIllustration ومعالجة الخادم في server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز آليات التوثيق الأمني عبر إحكام بروتوكولات OAuth 2.0 وتشفير TLS 1.3، فضلاً عن تحسين استراتيجية التخزين المؤقت المحلي (Local Caching) في طبقة المستودعات لتقليل زمن الاستجابة عند التعامل مع تدفقات بيانات WebSocket الفورية ودعم التوسع السحابي لخادم الـ VPS."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289654Repository.kt",
+        "App1289654HomeScreen.kt",
+        "App1289654DetailsScreen.kt",
+        "App1289654CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع دعم الموظفين الذكي قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق. تُعتبر استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري قراراً موفقاً. تُعبر الرسومات المتجهة Canvas Vector Drawings عن احترافية في تصميم الرسوميات.\n\nيُظهر الخادم المُستخدم كفاءة في معالجة الطلبات وإدارة الموارد. يُستخدم كود server/server.js لإدارة الاتصالات بين العم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289654Repository.kt",
+        "App1289654HomeScreen.kt",
+        "App1289654DetailsScreen.kt",
+        "App1289654CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"دعم الموظفين الذكي (#1289654)\" كفاءة معمارية عالية من خلال دمج نمط Kotlin Multiplatform وتوظيف بنية متينة تظهر بوضوح في كلاسات مثل App1289654Model وApp1289654Package وApp1289654Repository الموجودة في ملف App1289654Repository.kt؛ حيث يتم إدارة البيانات بمرونة تدعم ربط الواجهات عبر App1289654HomeScreen وApp1289654DetailsScreen وApp1289654CheckoutScreen بشكل سلس ومتوافق مع نمط الـ UI Archetype (map_radar). كما يبرز الإبداع البصري في ملف BespokeVectorIllustration.kt عبر رسوم الـ Canvas المت Vectorية المخصصة التي تعزز تجربة المستخدم دون استهلاك موارد الذاكرة، بينما يضمن الخادم الموجود في server/server.js معالجة الاتصالات الفورية بكفاءة عالية عبر PM2 Cluster على خادم VPS اقتصادي بتكلفة لا تتجاوز 5.50 دولار شهرياً، مما يوفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية الضخمة.\n\nمن الناحية التشغيلية وهندسة التكاليف (FinOps)، يحقق هذا المعمار استغلالاً أمثل للموارد بفضل تشغيل Node.js خلف PM2 لاستغلال جميع أنوية المعالج (CPU Cores) في خادم الـ VPS المستقل، مما يغني عن الخدمات المدارية باهظة الثمن مثل AWS ECS أو Google Cloud Run في هذه المرحلة. كما يتيح دمج بروتوكولات WebSocket مع تشفير TLS 1.3 وتوثيق OAuth 2.0 أماناً موثوقاً وسرعة استجابة فائقة للربط مع أنظمة الـ HRMS، فضلاً عن دعم المعايير الضريبية السعودية المضمنة في دورة الفوترة عبر App1289654CheckoutScreen، مما يجعل هذا الحل نموذجاً مثالياً للاستدامة التقنية والمالية للشركات الناشئة.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بتصليد الأمان عبر تفعيل طبقة حماية إضافية (Rate Limiting) على خادم الـ Node.js في server/server.js لمنع هجمات الحجب، بالإضافة إلى تحسين أداء الذاكرة المخبأة (Redis Caching) لبيانات الموظفين والـ KPIs القادمة من الـ HRMS، والتوسع في استخدام ميزات الـ WebSocket لضمان مزامنة فورية دون انقطاع عبر التوزيع الجغرافي للـ VPS."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289654Repository.kt",
+        "App1289654HomeScreen.kt",
+        "App1289654DetailsScreen.kt",
+        "App1289654CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"دعم الموظفين الذكي\" بنية معماريّة متينة تعتمد على نمط MVVM مع فصل واضح بين الـ View، الـ ViewModel، و الـ Repository، ما يسهّل صيانة الكود وتوسيع الميزات في المستقبل. تُبرز الكلاسات مثل App1289654Model و App1289654Repository دورها في إدارة البيانات عبر الـ Kotlin Multiplatform، مع استخدام WebSocket لتوفير تحديثات فورية للـ KPI، وهو ما يعكس فهماً عميقاً للمعايير الحديثة لتجربة المستخدم. كما يبرز ملف BespokeVectorIllustration.kt استخدام Canvas Vector Drawings لتقديم رسومات متجاوبة وعالية الدقة، مع مراعاة قياسات لمسّ ≥48dp لضمان سهولة التفاعل على جميع الأجهزة.\n\nيُثري المشروع أيضاً بنظام أمان متكامل يدمج TLS 1.3 و OAuth 2.0، مع دعم للمعايير الضريبية السعودية، ما يضمن توافقاً قانونياً وتفوقاً في الأمان. يضيف ملف server.js بنية خادم خفيف يتيح معالجة الطلبات بكفاءة، مع إمكانية التوسع السحابي لتلبية الطلب المتزايد. إن دمج هذه العناصر معاً يُظهر تفكيراً معماريّاً متقدماً يحقق توازنًا بين الأداء، الأمان، والمرونة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ نظام كاش محلي متقدم باستخدام Room أو SQLDelight مع تشفير AES لضمان أمان البيانات عند التخزين، مع دعم للـ Offline Mode لتوفير تجربة سلسة حتى في بيئات الإنترنت غير المستقرة. كما يُفضَّل توسيع البنية السحابية عبر إضافة خدمة Kubernetes أو ECS لتسهيل التوسع التلقائي، مع دمج مراقبة الأداء عبر Prometheus و Grafana. إضافةً إلى ذلك، يُقترح تحسين واجهة المستخدم لتشمل دعم Dynamic Island على iOS 17 مع تحسينات في الوصول (Accessibility) لضمان تجربة شاملة لجميع المستخدمين."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

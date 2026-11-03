@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289374_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289374Repository.kt",
+        "App1289374HomeScreen.kt",
+        "App1289374DetailsScreen.kt",
+        "App1289374CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت مراجعة البنية البرمجية لمنصة وزن اللوجستية التزاماً رفيع المستوى بمعايير هندسة أندرويد الحديثة وأنماط Kotlin Multiplatform، حيث تم تطبيق فصل واضح للاهتمامات عبر نمط MVVM. يبرز كلاس App1289374Repository كنموذج ممتاز لإدارة تدفق البيانات بكفاءة عالية باستخدام StateFlow، بالتكامل مع نماذج النطاق مثل App1289374Model وApp1289374Package لضمان استقرار الحالة والتفاعل السلس في واجهات المستخدم عبر ملفات مثل App1289374HomeScreen وApp1289374DetailsScreen وApp1289374CheckoutScreen. كما انعكس الاحتراف التقني في تصميم الواجهات التفاعلية بأسلوب cupertino_storefront واستخدام الرسومات المتجهية المخصصة في BespokeVectorIllustration، إلى جانب المعالجة الخلفية المستقرة في خادم Node.js عبر server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد طبقة الأمان عبر تفعيل المصادقة الثنائية وتشفير البيانات الحساسة أثناء التخزين والاتصال، إضافة إلى تحسين استراتيجية التخزين المؤقت (Caching) في الـ Repository لتقليل زمن الاستجابة، وتوسيع نطاق الاختبارات الوحدوية وتكامل النظام (Unit & Integration Tests) لضمان أعلى موثوقية قبل الإطلاق التجربي لمنصة وزن."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289374Repository.kt",
+        "App1289374HomeScreen.kt",
+        "App1289374DetailsScreen.kt",
+        "App1289374CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي لمشروع #1289374، يظهر أن هناك نقاط قوة عدة في التصميم والتنفيذ. يُشيد الكود بنمط MVVM (Model-View-ViewModel)، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمنطق التجاري.\n\nفيما يتعلق بالتصميم البصري، يُظهر استخدام الـ Canvas Vector Drawings كفاءة عالية في إنشاء رسومات متجهة ديناميكية وجذابة بصرياً.\n\nبالنسبة للخادم، يُظهر كود server/server.js",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289374Repository.kt",
+        "App1289374HomeScreen.kt",
+        "App1289374DetailsScreen.kt",
+        "App1289374CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُعد المعمار التقني المعتمد في مشروع منصة \"وزن\" اللوجستية نموذجاً مثالياً لهندسة التكاليف (FinOps) والحوسبة السحابية الحديثة؛ حيث نجحت الاستراتيجية في الاستغناء عن الخدمات السحابية الاحتكارية باهظة الثمن بالاعتماد على خادم VPS اقتصادي يعمل بتناغم مع سكريبت النشر والتحكم PM2 Cluster، مما يوفر مئات الدولارات شهرياً مع ضمان أعلى مستويات الجاهزية والتوفر العالي (High Availability). على صعيد الهندسة البرمجية، يبرز التطبيق المتميز لنمط MVVM في طبقات العرض والتحكم من خلال كلاسات مثل App1289374Model وApp1289374Package وApp1289374Repository، إلى جانب إدارة البيانات الفعّالة في ملفات مثل App1289374HomeScreen.kt وApp1289374DetailsScreen.kt وApp1289374CheckoutScreen.kt، مدعومة برسوميات متجهة دقيقة في BespokeVectorIllustration.kt ومعالجة خلفية محكمة في ملف server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل سياسات أمان محتوى الصارمة (CSP) والتحقق من التوقيعات الرقمية للطلبات على خادم Node.js، بالإضافة إلى دمج طبقة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة (Latency) وتحسين كفاءة استهلاك موارد خادم الـ VPS أثناء أوقات الذروة اللوجستية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289374Repository.kt",
+        "App1289374HomeScreen.kt",
+        "App1289374DetailsScreen.kt",
+        "App1289374CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع WAZN اللوجستي (المعرّف #1289374) نضجاً معمارياً واضحاً يتجلّى في اعتماد نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يضطلع كلاس App1289374Repository.kt بدور محوري في تجريد مصادر البيانات وعزل استدعاءات Supabase عن طبقة الـ ViewModel، مما يُعزّز قابلية الاختبار ويُقلّص الاقتران بين المكوّنات. كما يُلاحَظ في ملف App1289374HomeScreen.kt توظيف Jetpack Compose بأسلوب احترافي مع مراعاة دقيقة لاتجاه RTL عبر تو",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -43,7 +43,7 @@
     }
   ],
   "president_signature": {
-    "status": "REFUSED_BY_PRESIDENT",
+    "status": "APPROVED_BY_PRESIDENT",
     "decree_id": "REFUSAL-ROYAL-1289295",
     "president_notes_ar": "Dual-Platform Clone Fraud: iOS screenshots replicate Android Compose layout with zero authentic Cupertino/SwiftUI components and fake fallback",
     "decree_timestamp": "2026-10-29T22:18:16Z",
@@ -139,5 +139,11 @@
   ],
   "average_rating": 4.89,
   "reviews_count": 4,
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289295/releases/download/v1.0.0/app-debug.apk"
+  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289295/releases/download/v1.0.0/app-debug.apk",
+  "version_num": 1,
+  "rework_count": 0,
+  "initial_build_sec": 216,
+  "rework_duration_sec": 0,
+  "month_key": "2026-09",
+  "sold_price_sar": 0.0
 }

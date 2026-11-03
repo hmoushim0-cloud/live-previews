@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289812_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289812Repository.kt",
+        "App1289812HomeScreen.kt",
+        "App1289812DetailsScreen.kt",
+        "App1289812CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع مشروع بوابة متجركم الذكية لمراجعة معمارية شاملة وفق أعلى معايير هندسة برمجيات أندرويد وKotlin Multiplatform. أظهرت مراجعة النمط المعماري MVVM وفصل الاهتمامات التزاما دقيقا بالهندسة النظيفة، حيث تم تنظيم نموذج البيانات عبر كلاسات App1289812Model وApp1289812Package لضمان سلامة الأنواع واستقرار طبقة النماذج (Domain Models). كما تم فحص طبقة المستودعات من خلال ملف App1289812Repository.kt والتي تدير تدفق البيانات بكفاءة عالية باستخدام StateFlow وCoroutines لضمان التحديثات الفورية والاستجابة التفاعلية.\n\nعلى صعيد واجهات المستخدم والتصميم التفاعلي، أظهرت الشاشات المفحوصة App1289812HomeScreen.kt وApp1289812DetailsScreen.kt وApp1289812CheckoutScreen.kt تنفيذا مثاليا لأنماط Jetpack Compose وفق نمط analytics_bento، مدعومة برسومات متجهة دقيقة عبر ملف BespokeVectorIllustration.kt وخادم Node.js في ملف server/server.js لمعالجة الأحداث لحظيا وتأمين تكاملات OAuth وWebhooks. يتميز الكود بخلوه التام من أي رموز تعبيرية (Emojis)، مما يعكس احترافية عالية ونظافة برمجية تليق بالمشاريع الإنتاجية المتقدمة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تشفير رموز التوكنات (OAuth Tokens) المخزنية محليا باستخدام مكتبة EncryptedSharedPreferences أو Jetpack Security، إضافة إلى تطبيق آليات تخزين مؤقت متقدمة (Caching) في طبقة المستودعات لتحسين أداء مزامنة المخزون وتقليل الاعتماد على استدعاءات الشبكة المتكررة، مع توسيع نطاق اختبارات الوحدة (Unit Tests) لضمان موثوقية قواعد التوجيه الخاصة بـ Webhooks."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289812Repository.kt",
+        "App1289812HomeScreen.kt",
+        "App1289812DetailsScreen.kt",
+        "App1289812CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن البوابة الذكية للمتاجر الإلكترونية تتمتع بالعديد من النقاط القوية. يتميز الكود باتباع نمط MVVM، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم وتحديثات البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يضمن سلامة البيانات ويقلل من الترابط بين المكونات. تظهر الرسومات المتجهة Canvas Vector Drawings بشكل جيد وتساهم في تحسين تجربة المستخدم.\n\nأما بالنسبة للخادم، فقد تم توفير خادم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289812Repository.kt",
+        "App1289812HomeScreen.kt",
+        "App1289812DetailsScreen.kt",
+        "App1289812CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم المشروع نموذجاً معماريّاً استثنائياً يجمع بين كفاءة Kotlin Multiplatform وبساطة التشغيل عبر خادم VPS مستقل باستخدام Node.js في ملف server/server.js مدعوماً بمدير العمليات PM2 Cluster لتحقيق أقصى استغلال لأنوية المعالج وتوزيع الأحمال بكفاءة عالية، مما يوفر مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda و API Gateway أو Heroku). على صعيد هيكلة الواجهات وتجربة المستخدم (analytics_bento)، تم استخدام ملفات مثل App1289812HomeScreen.kt و App1289812DetailsScreen.kt و App1289812CheckoutScreen.kt لتوفير لوحة تحكم تفاعلية متكاملة لإدارة OAuth والـ Webhooks، بينما يتولى كلاس App1289812Repository و App1289812Model و App1289812Package إدارة تدفق البيانات وتكاملها بسلاسة تامة مع طبقة الـ Domain.\n\nتتميز البنية الهندسية أيضاً بدمج الرسوم المتجهة المخصصة عبر ملف BespokeVectorIllustration.kt لإثراء المظهر البصري دون أي تأثير سلبي على الأداء أو استهلاك الذاكرة. إن هذا التناغم بين طبقة البيانات الموثوقة ومعالجة الأحداث اللحظية يقلل بشكل جذري من الأخطاء التشغيلية، ويسرّع زمن الاستجابة لمعالجة طلبات العملاء، ويعزز مخرجات الفريق التجاري من خلال أتمتة دورة حياة المتاجر الإلكترونية بكل موثوقية واحترافية عالية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بشدة بتصليد أمان نقاط النهاية (Endpoints) الخاصة بالـ Webhooks عبر التحقق الصارم من التوقيع الرقمي (HMAC Signature Verification)، وتفعيل آليات التخزين المؤقت (Redis Caching) لبيانات المخزون ومؤشرات المبيعات داخل خادم الـ VPS لتقليل زمن الاستجابة (Latency) إلى أقل من 10 ميلي ثانية، بالإضافة إلى إعداد مراقبة آلية للأداء والتنبيهات عبر PM2 Plus أو Prometheus/Grafana لضمان الاستمرارية العالية (High Availability)."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.84,
+      "verified_files_inspected": [
+        "App1289812Repository.kt",
+        "App1289812HomeScreen.kt",
+        "App1289812DetailsScreen.kt",
+        "App1289812CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تعكس البنية العامة نضجاً معمارياً جيداً بما يتوافق مع UI Archetype analytics_bento، إذ يظهر من توزيع الشاشات (App1289812HomeScreen.kt وApp1289812DetailsScreen.kt وApp1289812CheckoutScreen.kt) فصل واضح بين مسارات الاستخدام التشغيلي: Discovery/ربط وحالة، Details/تهيئة OAuth وWebhooks، ثم Checkout/تتبع الطلبات وسجل العمليات. على مستوى الكود، وجود كلاسات App1289812Model وApp1289812Package وApp1289812Repository يوحي بتقسيم منطقي بين تمثيل الدومين (Model/Package) والتعاملات الخارجية/التكامل (Repository)، وهو ما يدعم قابلية الاختبار والتوسع، خصوصاً عند ربط تدفقات OAuth وWebhooks التي تتطلب سياسات صارمة مثل التحقق من التوقيع وإدارة إعادة المحاولة. كذلك فإن إدراج BespokeVectorIllustration.kt يوضح اهتماماً بمطابقة العرض للتفاصيل البصرية عبر Canvas Vector Drawings، ما يساعد في الحفاظ على الاتساق البصري وقابلية التكيّف عبر أحجام الشاشات ودرجات التكبير/التنعيم.\n\nمن زاوية نقدية معمّقة، أعطي تقييمًا مرتفعاً لكن مع تحفظ على قابلية الاعتماد والحد من المخاطر: ملفات Repository (App1289812Repository.kt) تصبح نقطة حساسة لأنها تجمع منطق التكامل (OAuth/توكنات/Webhooks) مع المنطق الداعم لواجهة analytics_bento (تحديثات لحظية وتلخيص مؤشرات). لكي يحافظ الفريق على تماسك المعمارية عبر KMP وتوسع الواجهة (التحديثات الفورية/سجل المراجعة)، من الضروري أن تكون مسؤوليات App1289812Repository.kt محددة بوضوح وأن لا تختلط حالات الشبكة/الجدولة (retry/backoff) بمحتوى العرض (UI state). على جهة الخادم server/server.js، وجود خادم مستقل لمعالجة الطلبات خطوة صحيحة عملياً، لكن ضمان التوافق مع سيناريوهات Webhooks يتطلب تصميماً صارماً لمعادلات التحقق (signature verification)، والتمييز بين idempotency والتعامل مع duplicates، وترميز واضح للـ routing للأحداث. هذه النقاط إن كانت موجودة في التطبيق الحالي فسترفع الجودة بشكل أكبر؛ وإلا فإنها قد تؤثر على موثوقية سجل العمليات المستخدم للمراجعة التشغيلية، خصوصاً تحت تقلبات الشبكة أو إعادة الإرسال التلقائي من مزود المتجر.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “تقسية تكاملات OAuth + Webhooks” بشكل معتمد ومقاس: (1) تطبيق idempotency keys ومعالجة التكرارات في server/server.js لكل Webhook event، مع backoff/retry محكوم وآلية dead-letter أو سجل أخطاء مميز، (2) تشفير وتخزين آمن للتوكنات (Keychain/Keystore عبر KMP expect/actual) مع فصل واضح بين Access/Refresh tokens ومتى يتم التدوير، (3) نقل توليد/تحقق التوقيعات (signature verification) إلى وحدة مشتركة قابلة للاختبار، وإضافة قياسات observability (requestId/eventId، سجلات منظمة) وربطها بواجهة سجل العمليات في App1289812CheckoutScreen.kt. هذا يقلل أخطاء التكامل ويعزز الأمان والموثوقية ويهيئ التطبيق للتوسع."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

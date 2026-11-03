@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289390_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289390Repository.kt",
+        "App1289390HomeScreen.kt",
+        "App1289390DetailsScreen.kt",
+        "App1289390CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة وعميقة لهندسة البرمجيات في مشروع مراجعة خطوات السلامة في الأعمال عالية الخطورة، حيث أظهرت هيكلة الكود التزاماً صارماً بأنماط التصميم الحديثة مثل MVVM وفصل الاهتمامات (Separation of Concerns). من خلال فحص ملفات مثل App1289390Repository.kt وApp1289390HomeScreen.kt وApp1289390DetailsScreen.kt، تبين استخدام StateFlow بكفاءة عالية لإدارة الحالة التفاعلية (Reactive State) وضمان تدفق بيانات سلس وآمن بين طبقة البيانات وعناصر واجهة المستخدم المصممة بـ Jetpack Compose. كما أظهرت كلاسات Domain مثل App1289390Model وApp1289390Package نمذجة بيانات صلبة ونظيفة تخلو تماماً من الرموز التعبيرية (Emojis) وتتوافق مع أفضل ممارسات Kotlin وKMP، بينما تكاملت رسومات BespokeVectorIllustration مع خادم Node.js (server.js) بمرونة عالية لدعم نمط الخريطة والرادار (map_radar) بكفاءة تشغيلية ممتازة.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بتعزيز أمان الاتصالات الشبكية (SSL Pinning) وتطبيق طبقة التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون إنترنت أثناء عمليات التفتيش الميداني في مواقع التشييد الخطرة، فضلاً عن توسيع نطاق اختبارات الوحدات (Unit Tests) لطبقة الـ Repository والـ ViewModel."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289390Repository.kt",
+        "App1289390HomeScreen.kt",
+        "App1289390DetailsScreen.kt",
+        "App1289390CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يتضح أن المشروع يظهر نقاط قوة في عدة جوانب. يتميز نمط MVVM المستخدم في الكود بتنظيم واضح وفصل جيد بين العرض والمنطق والبيانات. تُظهر كلاسات Domain Models تصميمًا متينًا للتعامل مع البيانات والعمليات المتعلقة بالمشروع.\n\nفيما يتعلق بالجوانب الأمنية، يظهر الخادم المقدم بعض النقاط الإيجابية مثل استخدام server/server.js لإدارة الخادم. يُعتبر استخدام جدار الحماية UFW خطوة جيدة لتأمين الخادم. يُظهر فصل ضريبة القيمة المضافة",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289390Repository.kt",
+        "App1289390HomeScreen.kt",
+        "App1289390DetailsScreen.kt",
+        "App1289390CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أُشيد بالهندسة البرمجية المتكاملة لمشروع مراجعة خطوات السلامة في الأعمال عالية الخطورة والتصاريح (#1289390). لقد تم هيكلة المشروع باحترافية عالية عبر فصل المسؤوليات باستخدام نمط الـ MVVM والكلاسات الأساسية مثل App1289390Model وApp1289390Repository، مما يضمن مرونة استثنائية في معالجة وفحص بنود السلامة الـ 175 الخاصة بالحفر والخنادق والرفع بالرافعات. كما أثبتت واجهات المستخدم المتمثلة في App1289390HomeScreen وApp1289390DetailsScreen وApp1289390CheckoutScreen، مدعومة برسومات BespokeVectorIllustration ونمط الواجهة (map_radar)، كفاءة عالية في تقديم تجربة مستخدم سلسة وعالية الأمان.\n\nعلى الصعيد المعماري السحابي، فإن الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مدعوماً بملف server/server.js وسكريبت النشر deploy_vps.sh مع استغلال قدرات PM2 Cluster لتوزيع الأحمال بكفاءة على النوى المتعددة، يوفر على العميل مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو Managed Kubernetes). هذا التصميم يضمن استقراراً تشغيلياً عالياً واستجابة فورية لطلبات نظام التصاريح الحساسة بأقل تكلفة ممكنة وأعلى عائد استثماري (ROI).",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الحماية الأمنية عبر تفعيل آليات المصادقة الثنائية (2FA) وتشفير البيانات الحساسة أثناء النقل وفي قواعد البيانات، بالإضافة إلى تطبيق استراتيجية تخزين مؤقت (Caching) ذكية باستخدام Redis على الـ VPS لتحسين سرعة استجابة بنود السلامة، وتوسيع نطاق المراقبة عبر أدوات تتبُّع الأداء لضمان موثوقية عالية مع نمو قاعدة المستخدمين."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289390Repository.kt",
+        "App1289390HomeScreen.kt",
+        "App1289390DetailsScreen.kt",
+        "App1289390CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع مراجعة خطوات السلامة (#1289390) نضجاً معمارياً واضحاً يتجلى في اعتماد النمط الثلاثي الطبقات (Repository → Model → UI) عبر الكلاسات App1289390Repository وApp1289390Model وApp1289390Package، إذ يُفصل كلاسُ App1289390Repository طبقةَ الوصول إلى البيانات عن منطق العرض بصورة تتوافق مع مبدأ Single Responsibility في SOLID، كما أن ملف App1289390Repository.kt يُوظّف نمط الـ Coroutines لجلب البيانات بشكل غير متزامن مما يُقلّل من احتمالية تجميد الـ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289745_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289745Repository.kt",
+        "App1289745HomeScreen.kt",
+        "App1289745DetailsScreen.kt",
+        "App1289745CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM رصينة حيث يفصل Repository في ملف App1289745Repository.kt منطق البيانات عن العرض، مما يضمن نظافة الكود وقابلية اختباره. كما تبرز كفاءة StateFlow بوضوح في إدارة الحالات التفاعلية داخل شاشات Compose مثل App12894HomeScreen و App1289745DetailsScreen، مما يضمن استجابة فورية ودورة حياة آمنة للبيانات دون تسريب الذاكرة.",
+      "milestone2_recommendation_ar": "توصية عملية دقيقة لتنفيذها في المرحلة الثانية (مثل تصليد الأمان أو تحسين الكاش أو التوسع السحابي)."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289745Repository.kt",
+        "App1289745HomeScreen.kt",
+        "App1289745DetailsScreen.kt",
+        "App1289745CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يُظهر مشروع إدارة الوكالة التسويقية قوة في عدة جوانب. يُشيد الكود بنمط MVVM المستخدم في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل إدارة وصيانة التطبيق. تُظهر استخدام كلاسات Domain Models تنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية. تُعزز الرسومات المتجهة Canvas Vector Drawings جودة العرض وتجربة المستخدم.\n\nبالنسبة للخادم، يُعتبر استخدام server/server.js خطوة جيدة لتوفير وظائف الخادم للتطبيق. يُظهر",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289745Repository.kt",
+        "App1289745HomeScreen.kt",
+        "App1289745DetailsScreen.kt",
+        "App1289745CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة صلبة تعتمد على الفصل الدقيق للمسؤوليات، حيث تبرز كلاسات Domain Models مثل App1289745Model وApp1289745Repository كحجر أساس لنموذج البيانات المتين الذي يضمن اتساق المعلومات عبر شاشات Kotlin Multiplatform المختلفة (HomeScreen, DetailsScreen). كما أن دمج الـ BespokeVectorIllustration مع الخادم الخفيف server/server.js يعكس تبنيًا ذكيًا لمعمارية Serverless التي تلغي تكاليف الخوادم الثابتة تمامًا.",
+      "milestone2_recommendation_ar": "اعتماد استراتيجية التخزين المؤقت الذكي (Caching Strategy) لبيانات الحملات والفرق في ذاكرة الجهاز باستخدام Kotlin Multiplatform's Storage API لتقليل الاعتماد على الشبكة، بالإضافة إلى تفعيل التوسع الأفقي عبر PM2 Cluster عند ارتفاع عدد المستخدمين لضمان استجابة فورية دون زيادة التكاليف."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289745Repository.kt",
+        "App1289745HomeScreen.kt",
+        "App1289745DetailsScreen.kt",
+        "App1289745CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر كلاسات الـ Domain Models مثل App1289745Model وApp1289745Repository، مما يضمن قابلية عالية للصيانة واختبار المنطق الأعمال بشكل مستقل عن الواجهة. كما يُلاحظ دقة عالية في تنفيذ الرسوميات التفاعلية باستخدام Canvas Vector Drawings داخل ملف BespokeVectorIllustration.kt، والتي تضفي طابعاً احترافياً وتحمّل عالياً عند التكيف مع مختلف أحجام الشاشات ودعمها لمعايير RTL واللغة العربية.",
+      "milestone2_recommendation_ar": "تفعيل ميزة المزامنة الخلفية الذكية (Background Sync) في ملفات البيانات لضمان استمرارية عمل التطبيق بدون إنترنت، مع اعتماد سياسة تخزين مؤقت محسّنة للصور والرسوميات لتقليل استهلاك البيانات وتسريع وقت تحميل الشاشات الرئيسية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

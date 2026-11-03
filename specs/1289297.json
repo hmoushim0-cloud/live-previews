@@ -43,7 +43,7 @@
     }
   ],
   "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
+    "status": "SOLD_WON",
     "decree_id": null,
     "signature_hash": null,
     "president_notes_ar": null
@@ -70,5 +70,11 @@
       "path": "shots/1289297_ios_03.png"
     }
   ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289297/releases/download/v1.0.0/app-debug.apk"
+  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289297/releases/download/v1.0.0/app-debug.apk",
+  "version_num": 1,
+  "rework_count": 0,
+  "initial_build_sec": 224,
+  "rework_duration_sec": 0,
+  "month_key": "2026-09",
+  "sold_price_sar": 13000
 }

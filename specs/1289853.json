@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289853_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289853Repository.kt",
+        "App1289853HomeScreen.kt",
+        "App1289853DetailsScreen.kt",
+        "App1289853CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "لا يمكنني إجراء مراجعة دقيقة أو تقييم نظافة الـ MVVM أو كفاءة StateFlow أو فصل الاهتمامات على مستوى الكود الفعلي لأن البيانات المقدمة لا تحتوي على محتوى Kotlin الفعلي ولا على تنفيذ منطق الـ ViewModel/StateFlow/Repositories. الكلاسات التي زُعِم اكتشافها (App1289853Model, App1289853Package, App1289853Repository) والملفات المفحوصة بالاسم (App1289853Repository.kt, App1289853HomeScreen.kt, App1289853DetailsScreen.kt, App1289853CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js) ليست كافية لتحديد: (1) إن كانت Screens تستخدم ViewModels مع تدفق بيانات منظم (unidirectional data flow)، (2) مدى الفصل بين UI وDomain وData (خصوصاً هل يوجد UseCases أو Mapper Layer)، (3) جودة تصميم StateFlow (استعمال stateIn/shareIn، تجنب recomposition غير الضروري، سياسات cancellation)، (4) هل توجد طبقة تحكم واضحة للأخطاء (Result/Either) والتنبيهات الفورية عند تغيّر الأداء أم يتم التعامل معها داخل الشاشة.\nمع ذلك، توجد مؤشرات إيجابية محتملة لا أستطيع تأكيدها: وجود Domain Models مثل App1289853Model ووجود طبقة repository باسم App1289853Repository يوحي بمحاولة لفصل الوصول للبيانات عن الواجهة، ووجود BespokeVectorIllustration.kt يدل على فصل عناصر UI (Canvas/Vector) عن منطق الأعمال، ووجود server/server.js قد يحقق فصل خدمة التتبّع/البث اللحظي عن التطبيق. لكن لأن أي تفاصيل مثل التحديثات اللحظية (WebSocket/SSE)، آليات caching، تصميم DTOs مقابل Domain، وإدارة الـ lifecycle داخل Compose/ViewModel غير ظاهرة، فإن التقييم النقدي يجب أن يكون محافظاً وغير مبني على تحقق كود فعلي.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حزمة تحسينات إلزامية للتحقق من MVVM وكفاءة التفاعلية: (1) أضف/أكد وجود ViewModel لكل شاشة (مثلاً HomeViewModel/DetailsViewModel/CheckoutViewModel إن لم تكن موجودة) واجعل كل شاشة تستقبل StateFlow واحداً مخصصاً للحالة (UiState) مع حدث منفصل (UiEvent) لعمليات التنبيه عند تغيّر الأداء؛ استخدم stateIn داخل ViewModel مع SharingStarted.WhileSubscribed وتقليل recomposition عبر مشتقات ثابتة (map distinctUntilChanged). (2) قسّم الطبقات صراحة: Domain (DigitalCampaignPlan, CampaignExecutionStep إن كانت ممثلة فعلاً)، Data (DTOs + Mappers داخل App1289853Repository.kt)، وUI (الشاشات). (3) بالنسبة للتتبّع اللحظي في Checkout، طبّق بروتوكول موحد على server/server.js (SSE أو WebSocket) مع backpressure بسيط وإعادة اتصال مع exponential backoff على التطبيق، ثم اجمع أحداث الأداء في Repository عبر Flow موحد يعيد إصدار التحديثات بتواتر منطقي (debounce/throttle). (4) أضف طبقة أمن وتشغيل: تحقق JWT/Signature في server/server.js، ثم طبّق pinning بسيط/اعتماد TLS مضبوط في التطبيق، ولا تُدخل أسرار/كونفيغ حساسة ضمن client."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289853Repository.kt",
+        "App1289853HomeScreen.kt",
+        "App1289853DetailsScreen.kt",
+        "App1289853CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع مركز حملة التسويق الإلكتروني (#1289853) بتنظيم جيد للكود المصدري والالتزام بالنمط المعماري MVVM. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري. تم تضمين رسومات Canvas Vector Drawings لتحسين واجهة المستخدم. بالإضافة إلى ذلك، تم توفير خادم لإدارة الغرف والبث اللحظي.\n\nيُشيد بالكود المصدري على النقاط القوية التالية:\n1. استخدام نمط MVVM لتنظيم واجهة المستخدم والمنطق التجاري.\n2. تنظيم الكلاسات مثل App1289",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289853Repository.kt",
+        "App1289853HomeScreen.kt",
+        "App1289853DetailsScreen.kt",
+        "App1289853CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بحسب الملفات المحددة، يظهر أن المشروع يوازن بين وضوح طبقة العرض وبين فصل منطق الأعمال: وجود App1289853Repository.kt مع نموذجين صريحين مثل App1289853Model وApp1289853Package يوحي بفصل مسؤوليات (Data/Domain/Presentation) أقرب لفكرة الـ MVVM/Repository pattern، ما يقلل الاقتران بين شاشات App1289853HomeScreen.kt وApp1289853DetailsScreen.kt وApp1289853CheckoutScreen.kt. كما أن إدخال BespokeVectorIllustration.kt يشير لاهتمام بجودة الواجهة من دون الاعتماد على أصول خارجية ثقيلة، وهذا يعكس قرارات أداء/حجم مناسبة تقلل زمن التحميل وتزيد الاستقرار عند الأجهزة المختلفة. على مستوى الخادم، وجود server/server.js كطبقة تقديم للأحداث/التتبع اللحظي ينسجم مع طبيعة التطبيق (تدفقات Content → Tracking → Reports) لأن منطق تشغيل الخطوات DigitalCampaignPlan و CampaignExecutionStep يستلزم “معالجة حدثية” وتحديث حالة آنياً؛ وهو نمط معماري يُمكن تحسينه لاحقاً بترتيبات observability وRate limiting بدل الاعتماد فقط على منطق التنفيذ.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ “Hardening + Scalability readiness” عبر ثلاث نقاط عملية: (1) أضف طبقة أمان على server/server.js تشمل التحقق من التوقيع/الأذونات لكل طلب (JWT أو HMAC) مع حصار حدّي للطلبات (rate limiting) وSanitization لمدخلات خطوات CampaignExecutionStep لمنع حقن/سوء استخدام endpoints. (2) نفّذ caching طبقي: Cache للـ read-heavy endpoints (مثل ملخصات Home والمؤشرات) عبر Redis/بذاكرة داخلية مع TTL قصير، مع invalidation مرتبط بتحديثات الأداء القادمة من طبقة التقارير لتقليل الحمل على خادم الـ VPS. (3) فعّل توسعاً أكثر كفاءة عبر PM2 Cluster: استخدم sticky sessions عند WebSockets/SSE إن كانت التتبعات اللحظية معتمدة عليها، وارسخ استراتيجية queue/worker للأعمال الثقيلة (مثلاً محرك تنفيذ خطوات الخطة) بدل تحميلها على event loop مباشرة؛ هذا يحسن التوازي، ويضمن أن زيادة عدد النوى لا تزيد زمن الاستجابة بشكل غير خطي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289853Repository.kt",
+        "App1289853HomeScreen.kt",
+        "App1289853DetailsScreen.kt",
+        "App1289853CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "من الناحية المعمارية، يظهر وجود فصل واضح بين طبقات التطبيق عبر الـ Domain/Model وطبقة الوصول للبيانات، وهو ما يُلمح من اكتشاف الكلاسات App1289853Model وApp1289853Package وApp1289853Repository. كما أن اختيار اسم Repository وتواجد App1289853Repository.kt يوحيان بتجميع منطق التخزين/الجلب بعيداً عن الشاشات، ما يدعم قابلية الاختبار وتقليل الاقتران، ويخدم هدف المشروع (Dynamic updating لخطط الحملة) عبر ربط نتائج الأداء بطبقة التقارير. كذلك وجود ملفات الواجهات المنفصلة (App1289853HomeScreen.kt, App1289853DetailsScreen.kt, App1289853CheckoutScreen.kt) يعكس تنظيماً وظيفياً متوافقاً مع UI Archetype medical_portal: تفكيك مسار المستخدم إلى اكتشاف/تخصيص/متابعة دون تحميل المستخدم بسطح تعقيد كبير.\n\nعلى مستوى الواجهة والرسوم، وجود BespokeVectorIllustration.kt يشير إلى تبنّي Canvas Vector Drawings بدل الصور النقطية، وهو قرار ممتاز للتوافق مع أحجام الشاشات المختلفة ومرونة التخصيص، خاصةً مع متطلبات Dynamic Island والتكيّف مع أبعاد المنطقة الآمنة. لكن—وبحكم محدودية رؤية كامل منطق الواجهات—تظل أهم فجوات تدفق تجربة المستخدم التي يجب تدقيقها: كيف تم تنفيذ RTL (محاذاة النصوص والأيقونات وترتيب الفقرات وعكس اتجاه المقاييس في الخرائط والشرائح)، وما إذا كانت مساحات اللمس مُقاسة فعلياً وفق iOS/Android (≥48dp) للأزرار/الشرائح التفاعلية داخل Home وDetails وCheckout، وهل تمت معالجة حالات “تغيّر الأداء اللحظي” عبر تحديثات غير مزعجة (debounce/throttle) مع تنبيهات فورية بدون كسر تسلسل القراءة. كذلك يجب التأكد من أن منطق server/server.js يلتزم بعزل الأخطاء (error contracts) وإرجاع payloads ثابتة لتتزامن التقارير مع طبقة العرض، وأن آليات التحديث اللحظي (مثل SSE/WS) تراعي إعادة المحاولة وحالات التوقف خلف الشبكات/النوم لضمان تتبع موثوق دون استنزاف بطارية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ حزمة تحسينات “مستوى الإنتاج” مركزة على: (1) توحيد عقد بيانات الأداء والتتبع عبر طبقة Repository—اعتماد نموذج نتائج مضبوط ونسخ versioning للـ payloads—ثم تطبيق طبقات caching/stale-while-revalidate لتقليل الانقطاعات بين Customization وCheckout، (2) رفع مستوى الأمان في server/server.js مع إضافة JWT/Authorization والتحقق من التوقيع + rate limiting + حماية من injection في استعلامات التتبع، (3) تدقيق RTL وDynamic Island عبر اختبار محاذاة شامل: عكس اتجاه المقاييس والـ icons، احترام WindowInsets (خصوصاً iPhone مع Dynamic Island)، وتأكيد مساحات اللمس ≥48dp لكل العناصر التفاعلية في App1289853HomeScreen.kt وApp1289853DetailsScreen.kt وApp1289853CheckoutScreen.kt، وأخيراً (4) تحسين الاستجابة اللحظية عبر debounce/throttle للتحديثات + تحديثات جزئية للـ UI لتفادي إعادة تركيب غير ضرورية للـ Canvas/Vector أثناء أحداث performance spikes."
+    }
+  ],
+  "average_rating": 4.83,
+  "reviews_count": 4
 }

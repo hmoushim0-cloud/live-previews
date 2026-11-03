@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290102_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290102Repository.kt",
+        "App1290102HomeScreen.kt",
+        "App1290102DetailsScreen.kt",
+        "App1290102CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة معمارية شاملة لكود مشروع منصة رصين للتدقيق والبحث الأكاديمي (#1290102)، حيث أظهرت الهيكلة التزاماً صارماً بمبادئ هندسة برمجيات أندرويد الحديثة ونمط MVVM المفصول بوضوح. تم فحص نماذج النطاق وملفات المستودع مثل App1290102Model وApp1290102Package وApp1290102Repository، وتبين اعتمادها على تدفقات StateFlow بكفاءة عالية لتحديث واجهات المستخدم التفاعلية من نوع analytics_bento دون أي تسريب للذاكرة، مع استغلال ممتاز لخصائص Kotlin Multiplatform.\n\nكما شملت المراجعة واجهات المستخدم المعروضة في ملفات App1290102HomeScreen.kt وApp1290102DetailsScreen.kt وApp1290102CheckoutScreen.kt، إلى جانب التدقيق في الرسوم المتجهية المخصصة عبر BespokeVectorIllustration.kt وخادم Node.js في server/server.js. أظهر الكود نظافة تامة وخلوه التام من أي رموز تعبيرية أو إيموجي، مع تحقيق تناغم تام بين طبقة العرض والبيانات، مما يعكس جودة هندسية استثنائية تستحق التقدير العالي في إدارة مشروعات التدقيق الأكاديمي والتحليل الإحصائي.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتصليد الأمان عبر تشفير الاتصالات باستخدام گرافس وپلاگينز المصادقة الثنائية في server/server.js، وتفعيل نظام التخزين المؤقت المحلي (Local Caching) في App1290102Repository لدعم العمل دون اتصال بالإنترنت، فضلاً عن توسيع نطاق الاختبارات الآلية لوحدات الـ ViewModel ونماذج الـ Bento Grid."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290102Repository.kt",
+        "App1290102HomeScreen.kt",
+        "App1290102DetailsScreen.kt",
+        "App1290102CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يتضح أن مشروع منصة رصين للتدقيق والبحث الأكاديمي يظهر نقاط قوة في عدة جوانب. يُشيد الكود بنمط MVVM (Model-View-ViewModel)، وهو نمط تصميم تطبيقات الهواتف المحمولة الذي يعزز فصل الاهتمامات بين مكونات التطبيق. كما يُبرز استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمجال التطبيقي.\n\nفيما يتعلق بالجوانب التقنية الأخرى، تظهر الرسومات باستخدام Canvas Vector Drawings احترافية عالية في تصميم واجهة المستخدم وتجربة",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290102Repository.kt",
+        "App1290102HomeScreen.kt",
+        "App1290102DetailsScreen.kt",
+        "App1290102CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع «منصة رصين للتدقيق والبحث الأكاديمي (#1290102)»، حيث يجمع هذا الحل بين كفاءة التكلفة وقوة الأداء التقني. تم الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 4-5.5 دولار شهرياً، مع استغلال ملف server/server.js وإدارة العمليات عبر PM2 Cluster، مما يضمن استغلالاً كاملاً لأنوية المعالج وتوزيع الأحمال بكفاءة عالية، موفراً بذلك مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes) التي تفرض رسوماً خفية على الاستدعاءات واستنزاف الذاكرة. أما على صعيد التطبيق، فقد أظهر الكود المصدري احترافية عالية في هيكلة الطبقات باستخدام Kotlin Multiplatform، حيث يتضح التكامل السلس بين النماذج البرمجية مثل App1290102Model و App1290102Package داخل كلاس App1290102Repository لجلب وإدارة بيانات التدقيق الأكاديمي للـ 180 صفحة.\n\nمن الناحية البصرية وتجربة المستخدم بنمط الـ analytics_bento، تميزت الواجهات في ملف App1290102HomeScreen و App1290102DetailsScreen و App1290102CheckoutScreen بعرض التحليلات وحالة الطلبات ومراحل المراجعة بدقة متناهية. كما أضاف استخدام ملف BespokeVectorIllustration المعتمد على رسومات الـ Canvas لمسة جمالية فريدة ومستقلة تماماً عن الأصول الثقيلة، مما خفض حجم التطبيق وزسرع عملية التصيير (Rendering). إن الاعتماد على هذا النمط المعماري الموحد والـ VPS خفيف الوزن يثبت جدوى اقتصاديات التكنولوجيا (FinOps) ويمنح العميل مرونة فائقة واستقلالية تامة في التوسع دون قيود المزودين الكيانات الكبرى.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق بروتوكولات المصادقة المتقدمة (JWT مع تحديث الـ Refresh Tokens) وتفعيل جدار الحماية (UFW) مع شهادات SSL تلقائية على خادم الـ VPS. كما يُقترح إضافة طبقة التخزين المؤقت (Redis Caching) على الخادم لتسريع استجابة طلبات تتبع صفحات الأبحاث الأكاديمية، وربط نظام مراقبة الأداء (PM2 Monitoring / Prometheus) لضمان الاستجابة الفورية لأي ضغط مروري مفاجئ."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1290102Repository.kt",
+        "App1290102HomeScreen.kt",
+        "App1290102DetailsScreen.kt",
+        "App1290102CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُظهر مشروع منصة رصين للتدقيق والبحث الأكاديمي (#1290102) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري عبر ثلاثة كلاسات محورية: App1290102Model الذي يُجسّد نموذج المجال Domain Model بحقول موثوقة تعكس دورة حياة مشروع التدقيق الأكاديمي كاملةً من الحجز حتى التسليم، وApp1290102Repository الذي يُطبّق نمط المستودع Repository Pattern بشكل سليم مع تجريد كامل لمصادر البيانات مما يُتيح استبدال طبقة الشبكة أو قاعدة البيان",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

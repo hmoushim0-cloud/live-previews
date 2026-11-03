@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289524_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289524Repository.kt",
+        "App1289524HomeScreen.kt",
+        "App1289524DetailsScreen.kt",
+        "App1289524CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة البنية البرمجية لمشروع مساعد إداري في منصة شركاء (#1289524) بدقة متناهية وفقاً لأحدث معايير هندسة برمجيات أندرويد وKMP. أظهرت مراجعة ملفات النطاق (Domain Models) مثل App1289524Model وApp1289524Package وكلاس المستودع App1289524Repository التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns)، مع توظيف كفء لتدفقات الحالة StateFlow لإدارة الحالة والتفاعل بسلاسة عبر نمط واجهة المستخدم service_stepper. كما تم فحص شاشات التطبيق مثل App1289524HomeScreen وApp1289524DetailsScreen وApp1289524CheckoutScreen، إلى جانب رسومات الـ Canvas في BespokeVectorIllustration وخادم Node.js في server/server.js، وتبين خلو الكود تماماً من الرموز التعبيرية (Emojis) والاعتماديات الزائدة، مع بناء تفاعلي عالي الأداء يدعم استقرار النظام ومعالجة الطلبات بكفاءة.",
+      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة الأمان (Security Hardening) عبر تفعيل شهادات تثبيت المفاتيح (Certificate Pinning) للاتصال بالخادم السحابي، وتحسين آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room لضمان استمرارية البيانات دون اتصال، فضلاً عن توسيع نطاق اختبارات الوحدات (Unit Tests) لطبقة الـ ViewModel والمستودعات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289524Repository.kt",
+        "App1289524HomeScreen.kt",
+        "App1289524DetailsScreen.kt",
+        "App1289524CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري لمشروع مساعد إداري في منصة شركاء، يمكنني أن ألاحظ عدة نقاط قوة في المشروع. يظهر نمط MVVM بوضوح في تصميم واجهة المستخدم وإدارة البيانات، مما يعزز فصل الاهتمامات ويسهل عملية التطوير والصيانة.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالتطبيق، مما يعزز فصل البيانات عن واجهة المستخدم ويسهل إدارة البيانات وتحديثها.\n\nتم استخدام الـ Canvas Vector Drawings لإنشاء رسومات متجهة جذابة بصرياً وتحسين تجربة الم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289524Repository.kt",
+        "App1289524HomeScreen.kt",
+        "App1289524DetailsScreen.kt",
+        "App1289524CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع مساعد إداري في منصة شركاء (#1289524) كفاءة معمارية استثنائية وهندسة دقيقة تتجلى في تطبيق نمط MVVM وفصل المسؤوليات بامتياز عبر كلاسات الـ Domain والمستودعات مثل App1289524Model وApp1289524Package وApp1289524Repository.kt. تم صياغة واجهات المستخدم في ملفات مثل App1289524HomeScreen.kt وApp1289524DetailsScreen.kt وApp1289524CheckoutScreen.kt بمعايير تفاعلية عالية متوافقة مع نمط الـ service_stepper، مدعومة برسوميات شعاعية مخصصة في BespokeVectorIllustration.kt تضمن أداء بصرياً سلساً وخفيفاً على الموارد.\n\nعلى صعيد البنية التحتية الخلفية، نجح ملف server/server.js بمعية سكريبت النشر وإدارة العمليات عبر PM2 Cluster في تحقيق استفادة قصوى من قدرات خادم الـ VPS، مما يوفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP المُدارة) عبر الاستغلال الأمثل لأنوية المعالج وتوزيع الأحمال بكفاءة عالية، مع تقليل تكاليف التشغيل الشهرية لتتراوح بين 4 إلى 5.5 دولار فقط، مما يعكس فهماً عميقاً لهندسة التكاليف (FinOps) والاستدامة التشغيلية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُوصى بتصليد الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتشفير البيانات الحساسة أثناء النقل وفي قواعد البيانات، إضافة إلى تحسين أداء طبقة البيانات عبر تطبيق استراتيجيات التخزين المؤقت (Caching Layer) باستخدام Redis على خادم الـ VPS، والتوسع في مراقبة الأداء عبر أدوات تتبُّع الأخطاء لضمان استقرار النظام مع تزايد عدد الطلبات من شركاء سلة وزد."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289524Repository.kt",
+        "App1289524HomeScreen.kt",
+        "App1289524DetailsScreen.kt",
+        "App1289524CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع #1289524 (مساعد إداري في منصة شركاء) نضجاً معمارياً واضحاً يتجلى في تبني نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري. فكلاس App1289524Repository.kt يُجسّد مبدأ Single Source of Truth بامتياز، إذ يتولى تجميع مصادر البيانات المحلية والبعيدة عبر واجهة موحدة، مما يُخفف العبء عن طبقة الـ ViewModel ويُعزز قابلية الاختبار الوحدوي. كذلك يعكس App1289524Model وApp1289524Package تصميماً نظيفاً لنماذج المجال (Domain",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

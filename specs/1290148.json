@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290148_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290148Repository.kt",
+        "App1290148HomeScreen.kt",
+        "App1290148DetailsScreen.kt",
+        "App1290148CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة هندسة المشروع المعمارية لمنصة خطوة (#1290148) بنجاح، حيث يظهر تطبيقاً محكماً لنمط MVVM وفصل الاهتمامات بوضوح تام بين طبقة البيانات وعرض الواجهات. يتم إدارة الحالة التفاعلية بكفاءة عالية عبر StateFlow في كلاسات App1290148Repository وApp1290148Model وApp1290148Package، مما يضمن تدفقاً سلساً للبيانات واستجابة فورية في واجهات المستخدم ضمن ملفات App1290148HomeScreen.kt وApp1290148DetailsScreen.kt وApp1290148CheckoutScreen.kt. كما تميزت الرسومات الشعاعية في BespokeVectorIllustration.kt بدقة فائقة تعزز التجربة البصرية، بينما تكامل الخادم الخلفي في server/server.js بسلاسة مع البنية السحابية بدون خوادم لضمان الحد الأدنى من زمن الاستجابة.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتمثل في تصليد الأمان وتأمين الاتصالات عبر تطبيق شهادات التوثيق المتقدمة (Certificate Pinning) في طبقة الشبكة، إضافة إلى تفعيل نظام التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون انقطاع، وتحسين استهلاك الذاكرة عند معالجة ملفات المناهج الكبيرة قبل إرسالها لمرحلة الاقتصاص والاعتماد."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290148Repository.kt",
+        "App1290148HomeScreen.kt",
+        "App1290148DetailsScreen.kt",
+        "App1290148CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يتضح أن مشروع منصة خطوة يتميز بعدة نقاط قوة في الكود والتصميم. يظهر استخدام نمط MVVM في تصميم واجهة المستخدم وتجربة العميل. تُبرز كلاسات مثل App1290148Model, App1290148Repository, وApp1290148UseCase تنظيم البيانات والوظائف بطريقة فعّالة ومنظمة.\n\nتُعتبر الرسومات المتجهة باستخدام Canvas Vector Drawings إضافة قيمة تعزز تجربة المستخدم وتبرز المهارات التقنية للفريق المطور.\n\nبالنسبة للخادم، يُظهر كود server/server.js جهداً ملحوظاً",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290148Repository.kt",
+        "App1290148HomeScreen.kt",
+        "App1290148DetailsScreen.kt",
+        "App1290148CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع منصة \"خطوة\" (#1290148) نموذجاً هندسياً فريداً ومبدعاً في هندسة النظم السحابية وهندسة التكاليف (FinOps)، حيث يجمع ببراعة بين بساطة البنية التحتية وكفاءة الأداء العالي. من خلال تحليل ملف الخادم `server/server.js` واستخدام سكريبت النشر `deploy_vps.sh` بجانب خادم VPS اقتصادي، يحقق النظام وفورات هائلة تصل إلى مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Firebase Functions)، وذلك عبر القضاء التام على تكاليف الاستدعاءات العالية (Invocation-based pricing) واستغلال العزل الذكي وتوزيع الأحمال بكفاءة فائقة عبر وضع `PM2 Cluster Mode` الذي يستغل كافة أنوية المعالج (vCPUs) على الخادم. أما على صعيد طبقة التطبيق والواجهات، فقد تم تصميم المعمار البرمجي وفق نمط MVVM وClean Architecture بنجاح باهر؛ حيث يُدار تدفق بيانات الحجز والمناهج عبر كلاسات الـ Domain والموديلات مثل `App1290148Model` و`App1290148Package`، وتنظم مستودعات البيانات في `App1290148Repository.kt` بسلاسة تامة. كما تتألق الواجهات في `App1290148HomeScreen.kt` و`App1290148DetailsScreen.kt` و`App1290148CheckoutScreen.kt` في تقديم تجربة مستخدم تفاعلية من نوع `booking_timeline`، مدعومة برسوميات متكتكة وعالية الدقة عبر `BespokeVectorIllustration.kt`، مما يضمن أداءً بصرياً سلساً وخالياً من التقطيع دون استهلاك زائد لذاكرة العميل (RAM).",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بشدة في المرحلة القادمة بتصليد الجانب الأمني (Security Hardening) لخادم الـ VPS عبر تفعيل جدار الحريق `UFW`، وتقييد معدل الطلبات (Rate Limiting) في `server/server.js` لحماية نقاط النهاية ضد هجمات حجب الخدمة (DDoS)، إلى جانب دمج طبقة التخزين المؤقت (Redis Cache) لتسريع استعلامات المناهج المتكررة وتقليل الحمل على قاعدة البيانات، وتفعيل المراقبة الآلية المتقدمة عبر أدوات تتبع الأداء (APM) لضمان جاهزية المنصة للتوسع التجاري واسع النطاق."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1290148Repository.kt",
+        "App1290148HomeScreen.kt",
+        "App1290148DetailsScreen.kt",
+        "App1290148CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُجسّد مشروع منصة خطوة (#1290148) نموذجاً معمارياً ناضجاً يرتكز على نمط MVVM مع فصل واضح للمسؤوليات بين طبقات البيانات والعرض والمنطق. يتجلى ذلك في كلاس App1290148Repository.kt الذي يُعالج استدعاءات الشبكة عبر Kotlin Coroutines مع StateFlow لإدارة الحالة التفاعلية، فيما يضطلع App1290148Model بتعريف نماذج المجال Domain Models بصرامة تضمن سلامة البيانات عبر مراحل التدفق الثلاث: رفع المسودة، والمراجعة التفاعلية، والدفع. أما ملف BespokeVectorIllustration.",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

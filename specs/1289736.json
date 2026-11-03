@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289736_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289736Repository.kt",
+        "App1289736HomeScreen.kt",
+        "App1289736DetailsScreen.kt",
+        "App1289736CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM نظيفة ومعزولة، حيث يفصل App1289736Repository منطق الوصول للبيانات بدقة عن طبقة العرض في شاشات HomeScreen وDetailsScreen، مما يضمن تدفقاً واضحاً للحالة عبر StateFlow. كما أن استخدام BespokeVectorIllustration لإدراج رسوميات Canvas المخصصة يضيف خفة في الأداء ودقة بصرية عالية دون ثقل الصور التقليدية، مدعوماً بخادم server.js مرن وسريع الاستجابة.",
+      "milestone2_recommendation_ar": "اعتماد قاعدة بيانات محلية (مثل Room) مع آلية مزامنة خلفية لضمان عمل التطبيق في وضع عدم الاتصال (Offline-First)، وتفعيل التجميع الجزئي (ProGuard/R8) لضغط حجم الحزمة النهائية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289736Repository.kt",
+        "App1289736HomeScreen.kt",
+        "App1289736DetailsScreen.kt",
+        "App1289736CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري لمشروع إيمجلاند، يتضح أن هناك العديد من النقاط القوية والميزات المتقدمة. يظهر نمط MVVM بشكل واضح في تصميم واجهة المستخدم والتعامل مع البيانات، مما يعزز فصل المخاوف ويسهل صيانة الكود وتطويره.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق، مما يساهم في تحسين جودة الكود وتقليل الأخطاء. تعتبر الرسومات المتجهة باستخدام Canvas Vector Drawings ميزة مبتكرة تعزز تجربة المستخدم وتضيف قيمة للرسومات والتصميم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289736Repository.kt",
+        "App1289736HomeScreen.kt",
+        "App1289736DetailsScreen.kt",
+        "App1289736CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المنطق عن العرض، حيث تبرز كلاسات النماذج مثل App1289736Model و App1289736Package ككيانات مجال (Domain Models) نقية تضمن سلامة البيانات وسهولة الصيانة. كما أن استخدام App1289736Repository.kt لفصل طبقة البيانات يعزز من قابلية الاختبار، بينما تقدم BespokeVectorIllustration.kt رسوميات Canvas خفيفة الوزن تساهم في أداء واجهة المستخدم السلس.",
+      "milestone2_recommendation_ar": "اعتماد نظام إدارة الحالة المركزي (State Management) موحد بين شاشات الخطوات App1289736HomeScreen و App1289736CheckoutScreen لضمان اتساق البيانات، مع تفعيل آليات التخزين المؤقت (Caching) للرسوميات المتجهة لتقليل استهلاك وحدة المعالجة المركزية عند التمرير السريع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289736Repository.kt",
+        "App1289736HomeScreen.kt",
+        "App1289736DetailsScreen.kt",
+        "App1289736CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح، حيث تُنفذ كلاسات الـ Domain Models مثل App1289736Model وApp1289736Package المنطق الأساسي بدقة، بينما تتولى App1289736Repository مسؤولية طبقة البيانات بشكل معزول، مما يضمن قابلية عالية للاختبار والصيانة. كما أن دمج Canvas Vector Drawings في ملف BespokeVectorIllustration.kt يعزز الأداء البصري دون استهلاك موارد الجهاز، ويتكامل بسلاسة مع واجهات الشاشات الرئيسية (HomeScreen) والتفاصيل (DetailsScreen)، مما يخلق تجربة مستخدم بصرية موحدة ومتجاوبة.",
+      "milestone2_recommendation_ar": "التركيز في المرحلة الثانية على تنفيذ استراتيجية كاش متقدمة (Offline-first Caching) داخل App1289736Repository لضمان استجابة فورية للبيانات حتى عند انقطاع الاتصال، مع تفعيل آلية المزامنة التلقائية الخلفية (Background Sync) لضمان تحديث حالة الطلبات بين العميل والخادم server.js في الوقت الفعلي."
+    }
+  ],
+  "average_rating": 4.9,
+  "reviews_count": 4
 }

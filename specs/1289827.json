@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289827_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289827Repository.kt",
+        "App1289827HomeScreen.kt",
+        "App1289827DetailsScreen.kt",
+        "App1289827CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد مراجعة الملفات المحددة (App1289827Repository.kt, App1289827HomeScreen.kt, App1289827DetailsScreen.kt, App1289827CheckoutScreen.kt, BespokeVectorIllustration.kt) والكلاسات المكتشفة (App1289827Model, App1289827Package, App1289827Repository)، يظهر أن تصميم التطبيق يتبع تقسيمًا وظيفيًا واضحًا على مستوى الشاشات المرتبطة بالـ UI Archetype map_radar: Discovery/Home (إضافة الملفات/اختيار موضوع)، Details/Customization (عرض الملخص وبناء الـ Mind Map وتعديل النتائج)، ثم Checkout/Tracking (تتبع المعالجة وتأكيد التسليم). وجود App1289827Repository كواجهة وصول بيانات يوحي بنية MVVM مع فصل نسبي بين طبقة البيانات/التعامل مع المحرك وبين الواجهة، كما أن استدعاء رسوم متجهة مخصصة عبر BespokeVectorIllustration.kt يدل على اهتمام بعزل عناصر الرسم عن منطق المجال. هذا يعزز قابلية الصيانة ويقلل اقتران UI بمحرك التصيير، وهو مكسب معماري واضح للتطبيق متعدد الخطوات.",
+      "milestone2_recommendation_ar": "الخطوة الأكثر تأثيرًا في المرحلة الثانية: إعادة فحص طبقة الحالة والتدفق عبر StateFlow وإغلاق فجوات MVVM—قم بإنشاء/توحيد ViewModel لكل شاشة (Home/Details/Checkout) بحيث تكون جميع عمليات التوليد (تلخيص منظم + تحويل Mind Map + تتبع حالة المعالجة) ممثلة عبر StateFlow/SharedFlow بوضوح (UiState sealed + UiEvent). اربط Repository بواجهة مجردة (مثلاً App1289827Repository للـ domain interface) وفرض Policies واضحة للأخطاء/الإلغاءات (Cancellation للعمليات طويلة التشغيل) وإضافة طبقة Cache/Idempotency بالـ Repository لحفظ نتائج التلخيص المرتبطة بـ (hash للملف/معرّف الموضوع/إعدادات القالب). بالتوازي، عزّز الأمان للشبكات عبر مداخل موحدة لطلبات server/server.js مثل: توقيع requests (HMAC/JWT حسب الحاجة)، rate limiting، والتحقق من نوع/حجم الملفات قبل الإرسال. أخيرًا، أضف Telemetry (توقيتات + أسباب فشل + نسبة إعادة المحاولة) وربطها بمسار Checkout/Tracking لضمان تحسين زمن التشغيل وتحسين جودة المخرجات عبر البيانات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289827Repository.kt",
+        "App1289827HomeScreen.kt",
+        "App1289827DetailsScreen.kt",
+        "App1289827CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية عميقة، يظهر كود مشروع ملازم أكاديمية تلخيص وبحث وميند ماب قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم التطبيق، مما يعزز فصل البيانات والعرض والمنطق التجاري. تُعتبر فئات Domain Models مفيدة لتنظيم البيانات والعمليات المتعلقة بالمحتوى الأكاديمي والبحث. تُظهر الرسومات المتجهة Canvas Vector Drawings اهتماماً بالجانب البصري وتجربة المستخدم.\n\nأما بالنسبة للخادم، فتُظهر ملفات server/server.js وApp1289827Repository.kt تنظيم جيد وتخ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289827Repository.kt",
+        "App1289827HomeScreen.kt",
+        "App1289827DetailsScreen.kt",
+        "App1289827CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"من زاوية معمارية-برمجية، يظهر من توزيع المسؤوليات في الكلاسات المكتشفة (App1289827Model, App1289827Package, App1289827Repository) أن المشروع يميل إلى فصل طبقات الدومين/الداتا عن واجهة المستخدم، وهو ما ينسجم عادةً مع نمط MVVM ويُسهل إعادة الاستخدام وتبديل مصادر البيانات لاحقًا. ملفات الشاشة HomeScreen وDetailsScreen وCheckoutScreen تفصل تدفقات المستخدم (Discovery → Customization → Delivery/Tracking)، وهذا ينعكس إيجابًا على قابلية الاختبار ويقلل اقتران",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.84,
+      "verified_files_inspected": [
+        "App1289827Repository.kt",
+        "App1289827HomeScreen.kt",
+        "App1289827DetailsScreen.kt",
+        "App1289827CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تُظهر البنية العامة اتجاهاً سليماً نحو الفصل المعماري بين طبقات البيانات والتجربة عبر وجود App1289827Repository.kt كمنفذ واضح للتعامل مع التخزين/الطلبات، إضافةً إلى App1289827Model و App1289827Package كـ Domain Models تُسند المفاهيم بدل تمرير DTOs خام داخل الواجهات. هذا النوع من التجريد يُسهّل اختبار منطق التلخيص/التتبّع ويمنع تسرّب تفاصيل الخادم إلى App1289827HomeScreen.kt و App1289827DetailsScreen.kt و App1289827CheckoutScreen.kt. كما أن BespokeVectorIllustration.kt يشير إلى اختيار صحيح لدعم Canvas Vector Drawings بدل الصور النقطية، ما يحسن الاتساق البصري على أحجام متعددة ويقلل مخاطر التشوه عند تغيّر دقة الشاشة أو في سيناريوهات التكبير/تأثيرات الوصول (Accessibility). على مستوى المعمارية، نمط map_radar مناسب لتجميع “مناطق” المعرفة (اكتشاف → تخصيص/مراجعة → تتبع التسليم)، لكن يجب التأكيد أن التصميم يحتاج لضبط صارم لسلاسة التدفق: الانتقال من Home إلى Details ينبغي أن يضمن نقل حالة التخصيص (قالب الملخص/أولوية المصادر/هيكلة النقاط) بشكل صريح عبر Model بدلاً من إعادة حسابها داخل الشاشة، مع توحيد مصدر الحقيقة (Single Source of Truth) بين Repository وسجل التتبّع حتى لا تُقرأ نفس البيانات بأكثر من تمثيل.\n\nمن زاوية توافق RTL وقياسات اللمس (>=48dp) ومعايير HIG/Material 3 والـ Dynamic Island: لا يمكن الجزم من المقتطف بأنه تم احترام انعكاس الاتجاه في كل من عناصر الملاحة (Back/Next، ترتيب الشرائح، تخصيص الأيقونات) لأن RTL غالباً يتعثر في مكونات مثل mind map والمحاذاة داخل بطاقات “النقاط الرئيسية” وروابط المصادر. كذلك، عرض Mind Map ضمن Details يتطلب معالجة استثنائية للمساحة القابلة للتفاعل: عقد/روابط الرسم يجب أن تكون لها hit targets بمقياس dp لا يقل عن 48dp عبر طبقة Gesture/Hit Testing وليس عبر حدود الرسم نفسها. بالنسبة لـ Canvas/Vector، يجب التأكد أن BespokeVectorIllustration.kt يدعم التدرجات/الحدود بشكل لا ينهار مع اختلاف حجم الخط و Dynamic Type، وأنه لا يقطع النص في اتجاه RTL. وأخيراً، server/server.js ينبغي أن يعكس متطلبات التتبع القابل للتدقيق: على الأقل واجهات واضحة لحالة المعالجة (Queued/Processing/Completed/Failed) مع معرف عملية idempotency، وأن يكون نموذج الإشعارات event-based لتقليل polling وتحسين زمن الاستجابة، لأن Checkout/Tracking حساس جداً لتجربة المستخدم أثناء المعالجة الطويلة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ “طبقة أمان وتتبّع صارمة + تحسين أداء التوليد”: (1) أضف توقيع/مصادقة للطلبات بين العميل والخادم (JWT أو HMAC) مع التحقق من idempotency-key في server/server.js لتجنب توليد ملخص/ميند ماب مكرر عند إعادة المحاولة. (2) حسّن الكاش: cache للإصدارات الوسيطة (ملخص/عُقد Mind Map) على مستوى Repository في App1289827Repository.kt مع invalidation مضبوط عند تغيير القالب أو إعدادات التخصيص في App1289827DetailsScreen.kt. (3) انتقل من polling المتكرر إلى آلية push أو SSE/WS إن أمكن لتحديث Checkout/Tracking في App1289827CheckoutScreen.kt مع إدارة حالات واضحة للـ loading/partial/failed. (4) ولتعزيز التوافق مع RTL وHIG: فعّل انعكاس اتجاه شامل للعناصر داخل mind map والمحاذاة، واستخدم hit-target layer يضمن >=48dp على كل عقدة/رابط، مع دعم Dynamic Type بحيث لا تتجاوز كثافة النص داخل الملخص حدود الواجهة."
+    }
+  ],
+  "average_rating": 4.83,
+  "reviews_count": 4
 }

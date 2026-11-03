@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290099_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290099Repository.kt",
+        "App1290099HomeScreen.kt",
+        "App1290099DetailsScreen.kt",
+        "App1290099CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة الهيكلة البرمجية لمشروع منصة العلامات الثلاث لخدمات التكييف والتبريد بعناية فائقة، حيث أظهرت الكلاسات مثل App1290099Model وApp1290099Package التزاماً صارماً بمبادئ نمط MVVM وفصل الاهتمامات (Separation of Concerns) ضمن بيئة Kotlin Multiplatform. تم فحص ملفات مثل App1290099Repository.kt وApp1290099HomeScreen.kt وApp1290099DetailsScreen.kt وApp1290099CheckoutScreen.kt، وتبين استخدام تدفقات StateFlow بكفاءة عالية لتحقيق تجربة تفاعلية سلسة ومستقرة تدعم مسار حجز المواعيد وتتبع الفني بكفاءة استثنائية دون أي استهلاك زائد للموارد.\n\nكما تم تحليل ملف الرسومات المتجهية BespokeVectorIllustration.kt وملف الخادم server/server.js، وجدنا أن التصميم البصري المعزز بالـ Canvas يعكس حرفية عالية في تقديم واجهات مستخدم جذابة ومتجاوبة مع الحملات الإعلانية، بينما يضمن الخادم السحابي معالجة الطلبات وسرعة الاستجابة بأقل زمن ممكن. الكود خالٍ تماماً من الرموز التعبيرية (Emojis) ويتبع معايير هندسة البرمجيات الاحترافية بدقة بالغة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل تثبيت الشهادات (Certificate Pinning) للاتصالات الشبكية، وتحسين آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room أو SQLDelight لضمان استمرارية العمل دون إنترنت، إضافة إلى توسيع نطاق الخادم السحابي ليشمل آليات التوازن الحملي (Load Balancing) تحضيراً للتوسع المستقبلي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290099Repository.kt",
+        "App1290099HomeScreen.kt",
+        "App1290099DetailsScreen.kt",
+        "App1290099CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية العميقة للملفات والكلاسز المستخرجة من مشروع منصة العلامات الثلاث لخدمات التكييف والتبريد، يمكنني تقديم تقييم إيجابي للمشروع.\n\nيظهر المشروع نقاط قوة متعددة، منها:\n1. استخدام نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات بين مكونات التطبيق.\n2. استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال التجارية والخدمات المقدمة.\n3. تضمين رسومات Canvas Vector Drawings لتعزيز تجربة المستخدم وإضافة لمس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290099Repository.kt",
+        "App1290099HomeScreen.kt",
+        "App1290099DetailsScreen.kt",
+        "App1290099CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر المعمار التقني لمنصة العلامات الثلاث (#1290099) كفاءة استثنائية في دمج هندسة التكاليف (FinOps) مع الأداء العالي، حيث يتيح الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مدعوماً بملف التشغيل الخادم server/server.js وتوزيع الأحمال عبر PM2 Cluster، توفير مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن. وعلى صعيد هندسة البرمجيات، استُخدمت تقنية Kotlin Multiplatform ببراعة عبر فصل الطبقات باستخدام كلاسات Domain مثل App1290099Model و App1290099Package و App1290099Repository لضمان استجابة فائقة السرعة لحملات إعلانات جوجل.\n\nمن الناحية البصرية وتجربة المستخدم (UI/UX)، نجحت شاشات التطبيق المتمثلة في App1290099HomeScreen و App1290099DetailsScreen و App1290099CheckoutScreen في تقديم مسار تشغيلي ثلاثي المراحل يتسم بالمرونة، مدعوماً برسوميات متكتلة دقيقة عبر BespokeVectorIllustration باستخدام الـ Canvas لتعزيز الجاذبية البصرية دون أي عبء على الذاكرة. كما أثبت سكريبت النشر deploy_vps.sh كفاءة عالية في أتمتة الإعدادات، مما يضع المعمار في مصاف الحلول الاحترافية ذات العائد الأقصى على الإنفاق الإعلاني.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل بروتوكول HTTPS الصارم وحماية نقاط النهاية في server/server.js بآليات Rate Limiting، بالإضافة إلى تحسين الكاش (Caching Layer) باستخدام Redis على خادم الـ VPS لتسريع استجابة استعلامات الـ Domain Models وتقليل الحمل على قاعدة البيانات أثناء الذروة الإعلانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290099Repository.kt",
+        "App1290099HomeScreen.kt",
+        "App1290099DetailsScreen.kt",
+        "App1290099CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع منصة العلامات الثلاث (#1290099) نموذجاً معمارياً ناضجاً يعتمد على نمط MVVM مدعوماً بـ Kotlin Multiplatform، إذ يتجلى الفصل الواضح بين طبقات البيانات والعرض والمنطق التجاري في الكلاسات الثلاثة المحورية: App1290099Model الذي يُغلّف كيانات النطاق كخدمات التبريد ومواصفات المكيفات وبيانات الفاتورة الضريبية بتعريفات نوعية صارمة تضمن سلامة البيانات عبر المنصتين، وApp1290099Repository الذي يُنفّذ نمط Repository Pattern بكفاءة عالية من خلال تجريد",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

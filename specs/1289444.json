@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289444_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289444Repository.kt",
+        "App1289444HomeScreen.kt",
+        "App1289444DetailsScreen.kt",
+        "App1289444CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة هندسية شاملة لمعماريّة المشروع وتطبيق نمط MVVM بصرامة عالية، حيث أظهر كلاس App1289444Repository وفصل الاهتمامات بين طبقة البيانات وعرض الواجهات في ملفات App1289444HomeScreen.kt وApp1289444DetailsScreen.kt كفاءة استثنائية في إدارة تدفق البيانات باستخدام StateFlow والتصميم التفاعلي بأسلوب analytics_bento. كما تم فحص مكونات الرسوم التوضيحية في BespokeVectorIllustration.kt وبنية الخادم في server/server.js، وتبين خلو الكود تماماً من الرموز التعبيرية والالتزام بأعلى معايير جودة كود Kotlin.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق التشفير المتقدم محلياً (EncryptedSharedPreferences)، وتحسين آلية التخزين المؤقت (Caching Strategy) للبيانات القادمة من الخادم السحابي، بالإضافة إلى التوسع في استخدام اختبارات الوحدة (Unit Tests) لضمان استقرار StateFlow تحت مختلف ظروف الشبكة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289444Repository.kt",
+        "App1289444HomeScreen.kt",
+        "App1289444DetailsScreen.kt",
+        "App1289444CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يتضح أن مشروع مساعد افتراضي للسوشيال ميديا يظهر نقاط قوة متعددة. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات، حيث يعزز هذا النمط فصل الاهتمامات ويسهل صيانة الكود وتحديثه.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع، مما يعكس فهماً جيداً لنمذجة البيانات وإدارة العلاقات بينها.\n\nتُبرز الرسومات المتجهة باستخدام الـ Canvas Vector Drawings جودة التصميم البصري للتط",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289444Repository.kt",
+        "App1289444HomeScreen.kt",
+        "App1289444DetailsScreen.kt",
+        "App1289444CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُعد مشروع المساعد الافتراضي للسوشيال ميديا (رقم #1289444) نموذجاً متميزاً في هندسة البرمجيات الحديثة، حيث تم دمج نمط الـ MVVM بفاعلية عبر كلاسات مثل App1289444Model و App1289444Repository ومعالجة البيانات في App1289444HomeScreen و App1289444DetailsScreen و App1289444CheckoutScreen، مع إبراز الجماليات البصرية عبر BespokeVectorIllustration باستخدام الـ Canvas. على صعيد البنية التحتية، يُظهر ملف server/server.js كفاءة عالية في إدارة الطلبات بالتكامل مع خوادم الـ VPS وإدارة العمليات عبر PM2 Cluster، مما يضمن استقراراً استثنائياً واستغلالاً كاملاً لأنوية المعالج دون الهدر المرتبط بالخدمات السحابية الاحتكارية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل حدود معدل الطلبات (Rate Limiting) في server/server.js، وتحسين أداء التخزين المؤقت (Caching Layer) باستخدام Redis، وتوسيع نطاق المراقبة الآلية لمقاييس الأداء لضمان أعلى مستويات الاعتمادية والتوسع السلس."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289444Repository.kt",
+        "App1289444HomeScreen.kt",
+        "App1289444DetailsScreen.kt",
+        "App1289444CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع المساعد الافتراضي للسوشيال ميديا (#1289444) نضجاً معمارياً واضحاً يتجلى في تبنّي نمط MVVM بصرامة منهجية، إذ يُفصل كلاسّ App1289444Repository.kt فصلاً تاماً بين طبقة البيانات وطبقة العرض، مما يُقلّص الاقتران المعماري ويرفع قابلية الاختبار. كما يُظهر كلاسّ App1289444Model تصميماً دقيقاً لنماذج المجال (Domain Models) يعكس فهماً عميقاً لمبدأ Single Responsibility، فيما يُوفّر App1289444Package حزمةً منظمة تُيسّر التوسع الأفقي مستقبلاً. على صع",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289723_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289723Repository.kt",
+        "App1289723HomeScreen.kt",
+        "App1289723DetailsScreen.kt",
+        "App1289723CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM نظيفة وفصل دقيق للاهتمامات، حيث تتولى App1289723Repository مسؤولية الوصول للبيانات بكفاءة عالية باستخدام StateFlow، بينما تركز الشاشات مثل App1289723HomeScreen وApp1289723DetailsScreen على العرض التفاعلي دون ازدحام المنطق التجاري. كما يبرز استخدام BespokeVectorIllustration براعة في تنفيذ رسومات Canvas مخصصة خالية من الإيموجي، مما يعزز الأداء البصري، مدعوماً ببنية Domain Models واضحة (App1289723Model) وخادم Node.js متين.",
+      "milestone2_recommendation_ar": "توصيل الخادم server/server.js بنظام مصادقة JWT قوي مع إضافة طبقة كاش محلية (Room/SQLite) لتخزين بيانات المتاجر مؤقتاً، مما سيضمن استجابة فورية للشاشات حتى في حال انقطاع الاتصال بالإنترنت."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289723Repository.kt",
+        "App1289723HomeScreen.kt",
+        "App1289723DetailsScreen.kt",
+        "App1289723CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع منصة سلة وزد الاحترافية، يظهر أن هناك نقاط قوة متعددة في التصميم والتنفيذ. يتميز الكود بنمط MVVM، مما يعزز فصل المخاوف بين العرض والمنطق والبيانات. تُستخدم كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والوظائف. تُظهر الرسومات باستخدام الـ Canvas Vector Drawings اهتماماً بالجانب البصري والتصميم.\n\nبالنسبة للخادم، يُظهر كود server/server.js اهتماماً بالأمان من خلال استخدام Node.js وإطار Ex",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289723Repository.kt",
+        "App1289723HomeScreen.kt",
+        "App1289723DetailsScreen.kt",
+        "App1289723CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على الفصل الدقيق للمسؤوليات عبر كلاسات Domain Models مثل App1289723Model و App1289723Repository، مما يضمن سلامة البيانات وسهولة الصيانة في بيئة MVVM. كما يتفوق الجانب البصري عبر استخدام BespokeVectorIllustration.kt لتقديم رسوم متجهة مخصصة خفيفة الوزن، بينما يدير الخادم server/server.js عمليات المعالجة بكفاءة عالية مع دعم التوسع عبر PM2 Cluster، مما يوفر بنية تحتية مرنة وقوية.",
+      "milestone2_recommendation_ar": "تفعيل آلية التخزين المؤقت (Caching) للبيانات التسويقية والصور المتجهة لتقليل استهلاك النطاق العريض وتسريع وقت تحميل الواجهات، مع تعزيز أمان الـ API عبر إضافة Rate Limiting و JWT Authentication لحماية بيانات الوكلاء والمتاجر أثناء الانتقال للمرحلة الإنتاجية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289723Repository.kt",
+        "App1289723HomeScreen.kt",
+        "App1289723DetailsScreen.kt",
+        "App1289723CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات عبر الكلاسات المخصصة مثل App1289723Repository وApp1289723Model، مما يعزز قابلية الصيانة ويضمن دقة البيانات التسويقية. كما يبرز استخدام Canvas Vector Drawings في ملف BespokeVectorIllustration كفاءة عالية في الأداء مع الحفاظ على جودة الرسومات عبر مختلف أحجام الشاشات، مدعوماً ببنية خادم مخصصة (server.js) تضمن سلاسة العمليات.",
+      "milestone2_recommendation_ar": "اعتماد نظام تخزين مؤقت محسن (Caching Layer) للبيانات المتكررة وتحسين استراتيجيات المزامنة مع خوادم سلة وزد لضمان استجابة فورية للتطبيقات عند التعامل مع عدد كبير من المتاجر المتزامنة."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

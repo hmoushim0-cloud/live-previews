@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289766_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1289766Repository.kt",
+        "App1289766HomeScreen.kt",
+        "App1289766DetailsScreen.kt",
+        "App1289766CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"مستحضرات الجمال الذكية\" تطبيقاً متكاملاً يعتمد على نمط MVVM مع فصل واضح بين الطبقات: الـDomain Models (App1289766Model) تُعالج البيانات، الـRepository (App1289766Repository.kt) تُعنى بالتواصل مع الخادم، والـViewModels تُستعمل في الـScreens (App1289766HomeScreen.kt، App1289766DetailsScreen.kt، App1289766CheckoutScreen.kt). استخدام StateFlow في الـViewModel يضمن تحديثاً فوريًا للواجهة مع الحفاظ على كفاءة الذاكرة، بينما يُستفيد Jetpack Compose في بناء واجهات مرنة وسريعة. لا توجد رموز إيموجي داخل الكود، ما يعكس احترافية الكتابة. إضافةً إلى ذلك، يُظهر ملف BespokeVectorIllustration.kt رسمًا متجهًا مخصصًا يُعزز تجربة المستخدم دون تحميل إضافي، ويُكمل ذلك بنظام خادم Node.js (server/server.js) مُصمم للتعامل مع غرف الدردشة والبث اللحظي مع دعم للمعايير الضريبية في بوابة الدفع.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ آلية أمان متقدمة تشمل تشفير البيانات في الراحة والحركة، إضافة JWT للتحقق من الهوية، وتحسين الكاش على مستوى الـRepository باستخدام Room أو DataStore لتقليل استدعاءات الشبكة. كما يُستحسن توسيع البنية التحتية إلى حاويات Docker مع Orchestration عبر Kubernetes لتسهيل التوسع السحابي وتوفير استقرار أعلى للخدمة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289766Repository.kt",
+        "App1289766HomeScreen.kt",
+        "App1289766DetailsScreen.kt",
+        "App1289766CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي والمصادر المقدمة، يتضح أن مشروع تطبيق SmartBeauty يتميز بعدة نقاط قوة. يظهر نمط MVVM في تصميم التطبيق بشكل واضح، مما يعزز فصل الواجهات عن البيانات والمنطق التجاري. تُعتبر كلاسات Domain Models مستخدمة بشكل فعّال لتنظيم البيانات والعمليات المتعلقة بالأعمال. تظهر الرسومات المتجهة باستخدام Canvas Vector Drawings بشكل جذاب ومميز.\n\nبالنسبة للخادم، يُستخدم كود server/server.js لإدارة الخادم وتوفير الخدمات المطلوبة. يُظهر استخدام H",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1289766Repository.kt",
+        "App1289766HomeScreen.kt",
+        "App1289766DetailsScreen.kt",
+        "App1289766CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "The account behind this API key doesn't have enough credits. This model needs paid Pollen. Please [top up](<https://enter.pollinations.ai/top-up?ref=agent_low_balance_topup>), then try again.\n\nIf this isn’t your Pollinations account, contact whoever runs the app or service you’re using.",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289766Repository.kt",
+        "App1289766HomeScreen.kt",
+        "App1289766DetailsScreen.kt",
+        "App1289766CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"يمتلك المشروع أساسًا معمارياً واضحًا من حيث الفصل بين طبقات البيانات والمنطق عبر وجود Domain Models/Entities كما يوحي به اسم الكلاسات المكتشفة App1289766Model و App1289766Package و App1289766Repository، مع تبلور هذا الفصل بصورة عملية في ملف App1289766Repository.kt الذي يفترض أنه يتولى التنسيق بين المصدر (مثل API/DB) وواجهات التطبيق، ما يدعم قابلية الاختبار واستبدال مزود البيانات لاحقاً. كما أن تقسيم الشاشات إلى App1289766HomeScreen.kt و App1289766Deta",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

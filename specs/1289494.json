@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289494_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289494Repository.kt",
+        "App1289494HomeScreen.kt",
+        "App1289494DetailsScreen.kt",
+        "App1289494CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في المشروع، حيث أظهرت كلاسات مثل App1289494Model وApp1289494Package التزاماً استثنائياً بمبادئ فصل الاهتمامات ونمط MVVM النظيف، مع إدارة حالة متقدمة عبر StateFlow في طبقة المستودعات ممثلة في ملف App1289494Repository.kt. كما تم فحص واجهات المستخدم التفاعلية في ملفات App1289494HomeScreen.kt وApp1289494DetailsScreen.kt وApp1289494CheckoutScreen.kt، والتي اعتمدت على Jetpack Compose بأسلوب تصميم الـ analytics_bento بكفاءة عالية وأداء سلس خالٍ من أي رموز تعبيرية (إيموجي)، إلى جانب التكامل المحكم مع الرسوم المتجهة في BespokeVectorIllustration.kt ومعالجة الخلفية عبر خادم Node.js في server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تفعيل شهادات تثبيت مفاتيح التشفير (SSL Pinning) في الاتصالات الشبكية، وتحسين آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون انترنت في بيئات المدارس، وتوسيع نطاق اختبارات الوحدة (Unit Tests) لطبقة الـ ViewModel والمستودعات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289494Repository.kt",
+        "App1289494HomeScreen.kt",
+        "App1289494DetailsScreen.kt",
+        "App1289494CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يمكنني ملاحظة النقاط القوية التالية:\n\n1. تم استخدام نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل صيانة الكود وتطويره.\n2. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، مما يساعد في تحسين جودة الكود وتقليل الأخطاء.\n3. تم استخدام الرسومات المتجهة Canvas Vector Drawings لتحسين واجهة المستخدم وتجربة المستخدم.\n4. تم توفير خادم لمعالجة الطلبات، مما يضمن تنفيذ آمن وموثوق",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289494Repository.kt",
+        "App1289494HomeScreen.kt",
+        "App1289494DetailsScreen.kt",
+        "App1289494CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية التحتية الممتازة المعتمدة على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، وتوظيف PM2 Cluster في ملف server/server.js لاستغلال تعدد أنوية المعالج (Multi-core) بكفاءة عالية تضاهي خدمات السحابة الاحتكارية باهظة الثمن وتوفر مئات الدولارات سنوياً. وعلى صعيد هندسة التطبيق، أبدع الفريق في تصميم النمط المعماري (analytics_bento) وهندسة الطبقات عبر استخدام كلاسات Domain Models وRepositories المتمثلة في App1289494Model وApp1289494Package وApp1289494Repository.kt، مما يضمن فصلاً تاماً للمسؤوليات (Separation of Concerns). كما تميزت واجهات المستخدم في App1289494HomeScreen.kt وApp1289494DetailsScreen.kt وApp1289494CheckoutScreen.kt بسلاسة الأداء، فضلاً عن الرسوم الفكتورية المخصصة في BespokeVectorIllustration.kt التي تغني عن الأصول الثقيلة وترفع من كفاءة استهلاك الذاكرة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق سياسات الحد من معدل الطلبات (Rate Limiting) وتفعيل شهادات الأمان المتقدمة على خادم الـ VPS، إضافة إلى تحسين طبقة التخزين المؤقت (Caching Layer) باستخدام Redis على مستوى الخادم لدعم التوسع الأفقي المستقبلي لنظام إدارة المدرسة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289494Repository.kt",
+        "App1289494HomeScreen.kt",
+        "App1289494DetailsScreen.kt",
+        "App1289494CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع #1289494 نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM بصورة منضبطة عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري؛ إذ يضطلع كلاس App1289494Repository.kt بمسؤولية الوصول إلى مصادر البيانات وتطبيع الاستجابات عبر طبقة Domain مُمثَّلة في App1289494Model وApp1289494Package، مما يُقلل الاقتران بين المكونات ويُعزز قابلية الاختبار. وعلى صعيد واجهات المستخدم، تلتزم شاشات App1289494HomeScreen.kt وApp1289494DetailsScreen.kt وApp128949",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

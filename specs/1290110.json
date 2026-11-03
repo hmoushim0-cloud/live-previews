@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290110_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290110Repository.kt",
+        "App1290110HomeScreen.kt",
+        "App1290110DetailsScreen.kt",
+        "App1290110CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز مشروع تطبيق مداد التعليمي (#1290110) ببنية هندسية متقدمة تتبنى نمط MVVM بصرامة عالية وفصل تام للاهتمامات، حيث تم تصميم كلاسات النماذج مثل App1290110Model وApp1290110Package لتعمل بتناغم تام مع مستودع البيانات App1290110Repository عبر تدفقات StateFlow فعالة وآمنة تفاعلياً. انعكست هذه الكفاءة بوضوح في واجهات المستخدم عبر ملفات App1290110HomeScreen.kt وApp1290110DetailsScreen.kt وApp1290110CheckoutScreen.kt، والتي وظفت Jetpack Compose لتقديم تجربة تصفح سلسة ونمط حجز زمني متناسق booking_timeline دون أي تداخل في دورة حياة الـ Composable.\n\nعلاوة على ذلك، أظهرت المعمارية البرمجية احترافية عالية في دمج الرسوم التوضيحية عبر BespokeVectorIllustration.kt، إلى جانب تكامل الواجهة الخلفية الخفيفة في server/server.js مع البنية السحابية بدون خوادم، مما ضمن استجابة فورية، وأداءً استثنائياً في استعراض السجلات المدرسية والخطط التعليمية وإتمام عمليات الدفع الرقمي بكفاءة تشغيلية مطلقة وخلو تامة من أي إيموجي.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق التشفير الطرفي للبيانات الحساسة، وتفعيل آلية التخزين المؤقت المحلي باستخدام Room للعمل في وضع عدم الاتصال (Offline-first)، إضافة إلى التوسع في اختبارات الأتمتة لوحدات الـ ViewModel ومستودع App1290110Repository لضمان استقرار النظام مع تزايد حجم البيانات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290110Repository.kt",
+        "App1290110HomeScreen.kt",
+        "App1290110DetailsScreen.kt",
+        "App1290110CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع مداد التعليمي قوة في عدة جوانب. يُشاد بالنمط المعماري MVVM المستخدم في الكود، حيث يسهل هذا النمط إدارة العرض والمنطق التجاري والبيانات. تُعتبر استخدام كلاسات Domain Models فعّالة لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق. تُعزز الرسومات المتجهة Canvas Vector Drawings جاذبية التطبيق وتجربة المستخدم.\n\nبالنسبة للخادم، يُظهر ملف server/server.js اهتماماً بتأمين التطبيق من خلال استخدام Cloudflare Workers لحماية ا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290110Repository.kt",
+        "App1290110HomeScreen.kt",
+        "App1290110DetailsScreen.kt",
+        "App1290110CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم مشروع 'مداد التعليمي' (#1290110) بنية معمارية برمجية متقدمة ونموذجاً استثنائياً لهندسة التكاليف (FinOps) يعتمد على استضافة الخادم على خادم VPS اقتصادي مُدار عبر سكريبت التوزيع `deploy_vps.sh` واستخدام مدير العمليات `PM2 Cluster` لتوزيع الأحمال بكفاءة عالية على جميع أنوية المعالج (CPU Cores)، مما يلغي التكاليف الباهظة للخدمات السحابية الاحتكارية ويوفر مئات الدولارات شهرياً مع ضمان توافرية عالية (High Availability) ووقت استجابة فائق السرعة. على صعيد الكود المصدري وتطبيق نمط الـ MVVM، يُظهر هيكل التطبيق تنظيماً هندسياً دقيقاً، حيث يتولى كلاس `App1290110Model` و `App1290110Package` إدارة البيانات ونمذجة حزم التحميل والخطط المدرسية، بينما يقوم `App1290110Repository` (الموجود في ملف `App1290110Repository.kt`) بإدارة جلب البيانات ومزامنتها بسلاسة مع الخادم الخلفي (`server/server.js`). كما تتميز واجهات المستخدم مثل `App1290110HomeScreen` و `App1290110DetailsScreen` و `App1290110CheckoutScreen` بتجربة تفاعلية سلسة تتبع نمط `booking_timeline`، مدعومة برسوميات مت Vector مخصصة في `BespokeVectorIllustration.kt` تضفي طابعاً بصرياً فريداً واحترافياً يناسب قطاع التعليم بالمملكة العربية السعودية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل حدود الطلبات (Rate Limiting) في `server/server.js` لحماية نقاط النهاية ضد هجمات حجب الخدمة (DDoS)، وتطبيق طبقة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة وتحسين أداء استعلامات الخطط والسجلات المدرسية، بالإضافة إلى دمج أدوات مراقبة الأداء الآلية لتتبع استهلاك الذاكرة والمعالج عبر تجمعات PM2 Cluster."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1290110Repository.kt",
+        "App1290110HomeScreen.kt",
+        "App1290110DetailsScreen.kt",
+        "App1290110CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُظهر مشروع مداد التعليمي (#1290110) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يعتمد كلاس App1290110Repository.kt نمط Repository Pattern بشكل صارم مما يُعزز قابلية الاختبار ويُقلل الاقتران بين المكونات؛ كما أن App1290110Model يُجسّد Domain Models نظيفة تعكس كيانات قطاع التعليم السعودي بدقة (حزم التحميل، النماذج المدرسية، بيانات الدفع) مع دعم واضح لـ Kotlin Data Classes مما يضمن immutability وسلامة الحالة",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

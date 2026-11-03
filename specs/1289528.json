@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289528_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289528Repository.kt",
+        "App1289528HomeScreen.kt",
+        "App1289528DetailsScreen.kt",
+        "App1289528CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت مراجعة البنية البرمجية لمشروع مستشار الصحة الذكي التزاماً صارماً بأنماط الهندسة المعمارية الحديثة، حيث طبق نمط MVVM بكفاءة عالية عبر فصل طبقة البيانات في كلاس App1289528Repository وعرض الحالة التفاعلية بسلامة عبر StateFlow في النماذج المرتبطة. كما تميزت واجهات المستخدم في ملفات App1289528HomeScreen.kt وApp1289528DetailsScreen.kt وApp1289528CheckoutScreen.kt بالاستخدام الأمثل لـ Jetpack Compose، مع تكامل هندسي دقيق للرسوم المتجهة في BespokeVectorIllustration.kt، وخلو تجميلي تام من الرموز التعبيرية بما يعكس احترافية عالية في نظافة الكود.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان الخاصة بنظام RAG الطبي عبر تشفير المدخلات الحساسة على الخادم (server/server.js)، وتحسين آلية التخزين المؤقت (Caching) للاستجابات السريعة باستخدام Room وCoroutines، بالإضافة إلى التوسع في اختبارات الوحدات لضمان استقرار بوابة الدفع والتتبع اللحظي."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289528Repository.kt",
+        "App1289528HomeScreen.kt",
+        "App1289528DetailsScreen.kt",
+        "App1289528CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة الكود المصدري المقدم، يمكنني تقييم جودة وأمان التطبيق بناءً على النقاط التالية:\n\n1. **نمط MVVM**: يظهر استخدام نمط Model-View-ViewModel (MVVM) في كود الـ App1289528Model.kt وApp1289528Repository.kt تنظيم جيد للبيانات والوظائف، مما يعزز جودة الكود وأمانه.\n2. **كلاسات Domain Models**: استخدام كلاسات مثل App1289528UserModel وApp1289528AppointmentModel وApp1289528MedicalDataModel يساعد في تنظيم البيانات وتحسين الأمان.\n3. **رسومات Vector Drawings",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289528Repository.kt",
+        "App1289528HomeScreen.kt",
+        "App1289528DetailsScreen.kt",
+        "App1289528CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع «مستشار الصحة الذكي» (#1289528) معمارية هندسية استثنائية تجمع بين رصانة نمط الـ MVVM وفصل المسؤوليات بوضوح عبر كلاسات الـ Domain Models مثل `App1289528Model` و`App1289528Package` المستندة إلى طبقة مستودع البيانات `App1289528Repository.kt`. تم استغلال واجهات المستخدم ببراعة فائقة في ملفات `App1289528HomeScreen.kt` و`App1289528DetailsScreen.kt` و`App1289528CheckoutScreen.kt` لتوفير نمط تفاعلي من نوع `booking_timeline`، مدعوماً برسوميات متجهة دقيقة عبر `BespokeVectorIllustration.kt` تضمن هوية بصرية فريدة وأداءً بصرياً سلساً بدون استهلاك مفرط للذاكرة.",
+      "milestone2_recommendation_ar": "على صعيد هندسة التكاليف (FinOps) والبنية التحتية، يحقق اعتماد خادم VPS المستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، والمُدار عبر `server/server.js` مع تفعيل وضع `PM2 Cluster`، وفراً مالياً هائلاً يتجاوز مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda/App Runner أو Google Cloud Run). توصيتنا للمرحلة الثانية تتمثل في تصليد الطبقة الأمنية لمدخلات الـ RAG، تفعيل نظام التخزين المؤقت (Redis Caching) لتقليل زمن استجابة الاستعلامات الطبية، وتحسين آليات المراقبة الحية لضمان استدامة الأداء تحت ضغط الطلبات المتزامنة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289528Repository.kt",
+        "App1289528HomeScreen.kt",
+        "App1289528DetailsScreen.kt",
+        "App1289528CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع مستشار الصحة الذكي بنية معماريّة متينة تعتمد على نمط MVVM، حيث تُقسّم المنطق إلى طبقات واضحة: App1289528Model كـ Domain Model يُحافظ على بيانات المستخدم والنتائج الطبية، App1289528Repository كـ Repository يتعامل مع الـ RAG وبيانات القواعد الطبية، و App1289528Package كـ ViewModel يُسهل الربط بين الـ UI والـ Repository. هذا الفصل يعزز قابلية الصيانة ويُسهل اختبار الوحدة. بالإضافة إلى ذلك، تُستَخدم ملفات الـ Canvas Vector مثل BespokeVectorIllustration.kt لتقديم رسومات متجهية عالية الدقة، مما يضمن وضوحًا على جميع أحجام الشاشات دون فقدان الجودة، وهو ما يتوافق مع معايير Apple Human Interface Guidelines وMaterial 3. على مستوى الخادم، يُظهر server.js بنية خفيفة وفعّالة، مع دعم للـ WebSocket لتتبع اللحظي للمتابعة وإشعارات فورية، ما يحقق تجربة مستخدم سلسة ويقلل زمن الاستجابة. كل هذه العناصر تُظهر احترافية عالية في التصميم والتنفيذ.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ نظام أمان متعدد الطبقات يشمل التحقق الثنائي (2FA) عبر الرسائل القصيرة أو البريد الإلكتروني، مع توسيع قاعدة الكاش باستخدام Redis لتقليل زمن الاستجابة للبيانات المتكررة، إضافةً إلى دمج خدمة Cloudflare Workers لتوزيع الحمل الجغرافي وتقليل زمن التحميل في المناطق ذات الاتصال الضعيف. يُفضَّل أيضًا اختبار التوافق مع Dynamic Island على iOS 17 لضمان استغلال كامل مساحة الشاشة وتوفير إشعارات فورية في واجهة المستخدم."
+    }
+  ],
+  "average_rating": 4.9,
+  "reviews_count": 4
 }

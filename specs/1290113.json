@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290113_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290113Repository.kt",
+        "App1290113HomeScreen.kt",
+        "App1290113DetailsScreen.kt",
+        "App1290113CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية عبر فصل الاهتمامات بين طبقة الـ Domain والـ UI. أظهرت الفحوصات لكلاسات مثل App1290113Model وApp1290113Package وكلاس المستودع App1290113Repository كفاءة ملحوظة في إدارة تدفق البيانات باستخدام StateFlow وJetpack Compose بشكل تفاعلي ومرن. كما تم استعراض ملفات واجهات المستخدم مثل App1290113HomeScreen وApp1290113DetailsScreen وApp1290113CheckoutScreen، بالإضافة إلى دقة الرسوم المتجهية المخصصة في BespokeVectorIllustration وبنية الخادم في server/server.js، حيث أثبت الكود خلوه التام من أي رموز تعبيرية (إيموجي) والتزامه بأعلى معايير نظافة البرمجيات.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بالتركيز على تصليد طبقة الأمان (Security Hardening) عبر تشفير بيانات الاعتماد محلياً باستخدام EncryptedSharedPreferences، وتحسين آلية التخزين المؤقت (Caching Layer) للبيانات القادمة من الخادم السحابي لضمان أداء سلس وخالٍ من الانقطاعات عند ضعف الاتصال بالإنترنت."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290113Repository.kt",
+        "App1290113HomeScreen.kt",
+        "App1290113DetailsScreen.kt",
+        "App1290113CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية لمشروع منصة نمو الذكية لإدارة محتوى إنستغرام، يمكن ملاحظة العديد من النقاط الإيجابية في الكود المصدري والملفات المستعرضة. يظهر استخدام نمط MVVM في تصميم واجهة المستخدم وتجربة العميل، مما يعزز فصل العرض والمنطق التجاري والبيانات.\n\nتمثل كلاسات App1290113Model وApp1290113Repository وApp1290113ViewModel نماذج دومين متطورة تعزز فصل البيانات والمنطق التجاري عن واجهة المستخدم.\n\nتُظهر الرسومات المتجهة باستخدام تقنية Canvas Vector Drawin",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290113Repository.kt",
+        "App1290113HomeScreen.kt",
+        "App1290113DetailsScreen.kt",
+        "App1290113CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر الكود الهندسي لمشروع 'منصة نمو الذكية لإدارة محتوى إنستغرام (#1290113)' كفاءة استثنائية في تطبيق نمط هندسة البرمجيات المتكاملة عبر تقنية كوتلن متعددة المنصات (KMP). تم بناء طبقة إدارة الحالة واسترجاع البيانات باحترافية عالية عبر كلاسات مثل App1290113Model و App1290113Package و App1290113Repository داخل ملف App1290113Repository.kt، مما يضمن فصلاً تاماً للمسؤوليات (Separation of Concerns) وسهولة اختبار وحدات النظام (Unit Testing). كما تميزت واجهات المستخدم في App1290113HomeScreen و App1290113DetailsScreen و App1290113CheckoutScreen بالاعتماد على تصميم تفاعلي من نمط map_radar يمنح المستخدمين تجربة بصرية سلسة مدعومة برسوم متجهة مخصصة عبر BespokeVectorIllustration.kt.\n\nعلى صعيد البنية التحتية الخلفية، نجح ملف server/server.js بمعية سكريبت النشر والـ VPS في استغلال ميزات مدير العمليات PM2 Cluster بشكل أقصى لتوزيع الأحمال (Load Balancing) الاستفادة القصوى من نوى المعالج المتاحة، مما يوفر على العميل مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو Google Cloud Run المُدارة بالكامل)، محققاً استقراراً عالياً، زمن استجابة منخفض جداً، وكفاءة مالية مطلقة تناسب الشركات الناشئة.",
+      "milestone2_recommendation_ar": "يوصى في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية (2FA) وتشفير بيانات الاعتماد الحساسة لحسابات إنستغرام في قاعدة البيانات، بالإضافة إلى تحسين أداء الكاش (Caching Layer) باستخدام Redis على خادم الـ VPS لتخفيف الضغط على قواعد البيانات وتحسين سرعة الاستجابة تحت الضغط العالي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290113Repository.kt",
+        "App1290113HomeScreen.kt",
+        "App1290113DetailsScreen.kt",
+        "App1290113CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع منصة نمو الذكية (#1290113) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يعتمد كلاس App1290113Repository.kt نمط Repository Pattern بشكل صارم كحاجز عازل بين مصادر البيانات البعيدة والـ ViewModel، مما يُقلل الاقتران المعماري ويُسهّل اختبار الوحدات بمعزل تام. كما يُوظّف كلاس App1290113Model بنية Domain Models نظيفة تعكس كيانات الأعمال الحقيقية كمؤشرات الأداء وجداول النشر وبيانات الجمهور، بينما يُنظّ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

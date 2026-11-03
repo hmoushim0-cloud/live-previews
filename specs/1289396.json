@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289396_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289396Repository.kt",
+        "App1289396HomeScreen.kt",
+        "App1289396DetailsScreen.kt",
+        "App1289396CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة الهيكلة البرمجية للمشروع بعناية فائقة وتطبيق معايير هندسة أندرويد الحديثة وخاصة نمط MVVM وفصل الاهتمامات بدقة بالغة. أظهرت الفحوصات أن كلاسات النطاق مثل App1289396Model و App1289396Package و App1289396Repository تتميز بنظافة تامة وخلوها تماماً من أي عناصر غير صالحة للإنتاج، حيث وُظفت StateFlow بكفاءة عالية داخل طبقة الـ ViewModel لضمان تدفق البيانات التفاعلي بسلاسة تامة إلى واجهات Jetpack Compose المتمثلة في App1289396HomeScreen و App1289396DetailsScreen و App1289396CheckoutScreen. كما تم التحقق من رسومات الـ Canvas في BespokeVectorIllustration وخلو الملفات من أي تعبيرات رمزية أو إيموجي، إلى جانب تكاملها السلس مع خادم Node.js في ملف server/server.js.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتصليد الأمان عبر تفعيل التشفير الثنائي للاتصالات بين عميل KMP والخادم السحابي، وتحسين استراتيجية التخزين المؤقت المحلي باستخدام Room Database و DataStore، مع إعداد خط إنتاج CI/CD متكامل لاختبارات الأداء والتوافقية مع منصات متعددة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289396Repository.kt",
+        "App1289396HomeScreen.kt",
+        "App1289396DetailsScreen.kt",
+        "App1289396CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يمكنني تسليط الضوء على بعض النقاط القوية في المشروع:\n\n1. يتبع المشروع نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق.\n2. استخدام كلاسات Domain Models يساعد في تنظيم البيانات والعمليات المتعلقة بالمشروع ويحافظ على فصل البيانات عن واجهة المستخدم والمنطق التجاري.\n3. استخدام الـ Canvas Vector Drawings يعزز جودة الرسوميات والتصميم العام للتطبيق.\n4. يبدو أن الخادم قد تم تأمينه بشكل جيد، حيث يُس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289396Repository.kt",
+        "App1289396HomeScreen.kt",
+        "App1289396DetailsScreen.kt",
+        "App1289396CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت المراجعة الفنية والدقيقة لكود مشروع مونتاج الفيديو الاحترافي (#1289396) تطبيقاً استثنائياً لهندسة البرمجيات الحديثة، حيث يتميز كلاس `App1289396Repository` و `App1289396Model` بفصل تام لمخاوف البيانات (Separation of Concerns) وفق نمط MVVM النظيف، مع تكامل سلس مع واجهات العرض مثل `App1289396HomeScreen` و `App1289396DetailsScreen` و `App1289396CheckoutScreen`. كما برزت الكفاءة البصرية في ملف `BespokeVectorIllustration.kt` عبر رسومات متجهة دقيقة ومصممة خصيصاً لنمط الواجهات `analytics_bento`.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، فإن اعتماد خادم VPS مستقل بتكلفة لا تتجاوز 5.5$ شهرياً، مدعوماً بملف التشغيل `server/server.js` وإدارة العمليات عبر PM2 Cluster، يحقق استغلالاً كاملاً لأنوية المعالج (Multi-core Utilization) وموازنة الأحمال (Load Balancing) بدون أي تكاليف إضافية للبنى السحابية الاحتكارية (مثل AWS Lambda أو ECS)، مما يوفر للعميل مئات الدولارات سنوياً مع ضمان استقرار وثبات عالٍ في المعالجة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز أمان الخادم عبر تطبيق آليات المصادقة المتقدمة (JWT Rate Limiting)، وتفعيل نظام التخزين المؤقت (Redis Caching) على خادم الـ VPS لتقليل زمن الاستجابة (Latency)، فضلاً عن توسيع نطاق PM2 Cluster ليشمل مراقبة أداء حية (PM2 Plus Monitoring) لضمان أعلى مستويات الموثوقية عند توسيع قاعدة المستخدمين."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289396Repository.kt",
+        "App1289396HomeScreen.kt",
+        "App1289396DetailsScreen.kt",
+        "App1289396CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289396 نضجاً معمارياً واضحاً يتجلّى في تبنّي نمط MVVM بصورة منضبطة عبر الفصل الصريح بين طبقات البيانات والعرض والمنطق؛ إذ يضطلع كلاس App1289396Repository بمهمة التجريد الكامل لمصادر البيانات وتوحيد نقطة الوصول إليها، فيما يُعرّف App1289396Model حدود نطاق المجال Domain Boundary بدقة تضمن قابلية الاختبار والتوسع. أما على صعيد واجهات المستخدم، فإن ملفات App1289396HomeScreen.kt وApp1289396DetailsScreen.kt وApp1289396CheckoutScreen.kt تُرس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

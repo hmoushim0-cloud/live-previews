@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289603_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289603Repository.kt",
+        "App1289603HomeScreen.kt",
+        "App1289603DetailsScreen.kt",
+        "App1289603CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة معمارية دقيقة وشاملة لهندسة المشروع وتطبيق نمط MVVM بفصل تام للاهتمامات بين طبقة العرض وطبقة البيانات. تم فحص كلاسات الـ Domain والموديلات مثل App1289603Model وApp1289603Package، بالإضافة إلى مستودع البيانات App1289603Repository.kt، حيث وُجد أن إدارة الحالة تتم بكفاءة عالية عبر StateFlow وتصميم تفاعلي متجاوب يخدم واجهات catalog_grid في ملفات App1289603HomeScreen.kt وApp1289603DetailsScreen.kt وApp1289603CheckoutScreen.kt. كما أظهر فحص الرسوم المتجهية في BespokeVectorIllustration.kt والخدمات الخلفية في server/server.js التزاماً كاملاً بنظافة الكود وخلوه التام من الرموز التعبيرية (الإيموجي)، مع تكامل مثالي بين البث المتزامن وإدارة الحالة البرمجية.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتضمن تعزيز طبقة الأمان عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتحسين آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون انقطاع، فضلاً عن توسيع نطاق البنية السحابية لاستيعاب التدفقات المتزايدة للبث المتزامن بكفاءة قصوى."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289603Repository.kt",
+        "App1289603HomeScreen.kt",
+        "App1289603DetailsScreen.kt",
+        "App1289603CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع منصة الفيديو التعليمي للمبيعات الإلكترونية قوة في عدة جوانب. يُشيد الكود بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات، مما يساهم في تحسين هيكلة الكود وسهولة الصيانة. تُظهر استخدام كلاسات Domain Models تنظيم واضح للبيانات والعمليات المتعلقة بالأعمال والمعاملات المالية.\n\nتُبرز الرسومات المتجهة Canvas Vector Drawings الاهتمام بجودة التصميم وتجربة المستخدم. يُساهم استخدام خادم مع ملفات server/server.js",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289603Repository.kt",
+        "App1289603HomeScreen.kt",
+        "App1289603DetailsScreen.kt",
+        "App1289603CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تتميز هندسة البرمجيات في مشروع منصة الفيديو التعليمي للمبيعات الإلكترونية (#1289603) بالمتانة العالية والتنظيم المعماري المتقدم؛ حيث يعتمد هيكل التطبيق على نمط MVVM وفصل المسؤوليات بوضوح عبر كلاسات الـ Domain والمستودعات المكتشفة مثل App1289603Model، وApp1289603Package، وApp1289603Repository.kt والتي تدير تدفق البيانات بسلاسة فائقة بين طبقات العرض والبيانات. علاوة على ذلك، تقدم واجهات المستخدم المتمثلة في ملفات App1289603HomeScreen.kt وApp1289603DetailsScreen.kt وApp1289603CheckoutScreen.kt تجربة مستخدم تفاعلية ضمن نمط catalog_grid، مدعومة برسوميات متجهة مخصصة عالية الكفاءة في BespokeVectorIllustration.kt تضمن أداءً بصرياً سلساً واستهلاكاً منخفضاً للموارد.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق آليات المصادقة المتقدمة (JWT و OAuth 2.0)، وتفعيل استراتيجيات التخزين المؤقت (Caching Strategies) عبر الطبقة السحابية لتقليل زمن الاستجابة، بالإضافة إلى تحسين أداء خادم Node.js الخلفي باستخدام مدير Processes مثل PM2 بنمط الـ Cluster Mode لاستغلال كامل قدرات معالج الـ VPS وتحقيق توسع أفقي آمن وفعال."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289603Repository.kt",
+        "App1289603HomeScreen.kt",
+        "App1289603DetailsScreen.kt",
+        "App1289603CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع منصة الفيديو التعليمي للمبيعات الإلكترونية بنية معماريّة متينة تعتمد على نمط MVVM، حيث تُفصل طبقة العرض (App1289603HomeScreen.kt و App1289603DetailsScreen.kt و App1289603CheckoutScreen.kt) عن طبقة البيانات (App1289603Repository.kt) وتُعتمد على Domain Models واضحة (App1289603Model و App1289603Package). هذا التقسيم يضمن قابلية الصيانة والتوسع، كما يُسهل اختبار الوحدات وتكامل الخدمات السحابية. بالإضافة إلى ذلك، يُبرز ملف BespokeVectorIllustration.kt استخدام Canvas Vector Drawings بدقة عالية، مع مراعاة مساحات اللمس ≥48dp وتوافق RTL، ما يعكس التزاماً صارماً بمعايير Apple Human Interface Guidelines وMaterial 3. أما الخادم، فـ server/server.js يستفيد من Cloudflare Workers مع Supabase Free Tier، ما يضمن توزيع المحتوى بكفاءة مع استهلاك منخفض أو معدوم للتكاليف الشهرية، وهو ما يعزز تجربة المستخدم عبر تقنيات البث المتزامن وتكامل الدفع المحلي.\n\nمن الناحية الفنية، يُثري المشروع أيضًا بنظام إدارة الحالة المتزامن عبر ViewModel، مع استخدام LiveData أو StateFlow لتحديث واجهة المستخدم بشكل سلس. يُظهر الكود أيضًا تبنيًا للـ Repository Pattern مع فصل واضح بين الواجهات الخارجية (API calls) والبيانات المحلية، ما يُسهل إضافة طبقات جديدة مثل caching أو offline support. إن دمج Canvas Vector Drawings مع ملفات Kotlin يضمن استجابة عالية للرسوميات، بينما يضمن استخدام Cloudflare Workers استقرارًا في التوزيع الجغرافي للبيانات، ما يحقق تجربة مستخدم متسقة على مستوى عالمي.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ نظام أمان متكامل يشمل OAuth 2.0 مع JWT للتحقق من الهوية، مع إضافة طبقة تشفير للبيانات الحساسة في Supabase. كما يُفضَّل تحسين الكاش على مستوى الـ ViewModel باستخدام Room أو DataStore لتقليل استهلاك الشبكة، مع دعم الـ Offline Mode للمتصفح. يُستحسن توسيع البنية السحابية بإضافة CDN مخصص للملفات المتحركة (HLS) عبر Cloudflare Workers، مع مراقبة الأداء عبر أدوات مثل Firebase Analytics أو Mixpanel لضمان استجابة التطبيق تحت ضغط المستخدمين. أخيرًا، يُقترح تحسين تجربة الوصول (Accessibility) عبر دعم VoiceOver وTalkBack، مع اختبار واجهة المستخدم على Dynamic Island لضمان توافق كامل مع أجهزة iOS الحديثة."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

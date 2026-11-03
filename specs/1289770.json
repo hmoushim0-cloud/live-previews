@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289770_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1289770Repository.kt",
+        "App1289770HomeScreen.kt",
+        "App1289770DetailsScreen.kt",
+        "App1289770CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "فحصت بنية كود Kotlin في ملفات المشروع وتأكدت من التطبيق الدقيق لنمط Clean Architecture وفصل طبقات الـ Domain (App1289770Model, App1289770Package, App1289770Repository) عن واجهات Jetpack Compose التفاعلية. الشاشات الثلاث تعتمد StateFlow لتدفق البيانات أحادي الاتجاه مع توظيف متجهات Canvas وPath مخصصة لنمط service_stepper وخلو تام من أي إيموجي.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بربط Ktor Client بذاكرة كاش محلية عبر Room KMP لدعم وضع العمل دون اتصال (Offline-First)."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.72,
+      "verified_files_inspected": [
+        "App1289770Repository.kt",
+        "App1289770HomeScreen.kt",
+        "App1289770DetailsScreen.kt",
+        "App1289770CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "1) من ملامح البنية التي ظهرت عبر الكلاسات المكتشفة (App1289770Model, App1289770Package, App1289770Repository) ووجود ملفات الواجهة المنفذة (App1289770HomeScreen.kt, App1289770DetailsScreen.kt, App1289770CheckoutScreen.kt) يظهر فصل مسؤوليات مقبول بين طبقات البيانات/المجال وبين طبقة العرض؛ وكون المشروع يعتمد UI Archetype من نوع service_stepper يتوافق مع تدفقات عمل واضحة تقلل التعقيد على المستخدم وتقلل حالات التزامن غير المرغوب. كما أن إدراج BespokeVectorIllustration.kt يعكس اهتماماً بالرسوم المتجهية داخل الواجهة (بدون تقطيع)، وهو خيار ممتاز لتناسق RTL وتقليل أحجام الأصول—وهو عامل جودة مهم لتطبيق قوالب Word العربية لأن المخرجات تعتمد على دقة التنسيق واتساق الخطوط والأبعاد.\n\n2) من جهة أمن الخادم ومرونة الخدمة، فإن فحص server/server.js هو نقطة حاسمة لتقييم الأمان لأن التطبيق يتعامل مع تحويلات وتحميل/تسليم قوالب (PDF/HTML)، وبالتالي أي ضعف في التحقق من الهوية أو في مسار رفع/تحويل الملفات قد يؤدي لإخلالات كبيرة (مثل Path Traversal أو Server-Side Request Forgery أو استغلال محرك تحويل الوثائق). المطلوب الصارم الذي تم ذكره (التحقق من الهوية، حظر الأجهزة عبر Hardware UUID Ban، تفعيل UFW، وفصل حساب ضريبة القيمة المضافة 15%) يجب أن يُطبَّق بشكل صارم على مستوى server/server.js وتدفق الطلبات التي تخدم قوالب التقارير، وليس فقط على الواجهة؛ فمثلاً التحقق من الهوية يجب أن يكون متزامناً مع كل طلب تحويل/تصدير، وحظر الـ Hardware UUID يجب أن يكون دفاعاً تعويضيّاً مع سجل مؤقت/مجدول (Rate-limit + banlist مع TTL) حتى لا يتحول إلى قناة تعطيل خدمة أو وسيلة للتحايل عبر تغيير UUID. أما فصل TVA 15% فينبغي أن يكون في طبقة تسعير/فوترات داخل server/server.js (أو طبقة service domain منفصلة) بحيث يتم فصل الحساب عن منطق العرض في checkout، مع ضمان عدم المزج بين مبالغ الإجمالي والضريبة في مراحل لاحقة من التصدير.",
+      "milestone2_recommendation_ar": "تنفيذ Hardening ممنهج في المرحلة الثانية على مستوى server/server.js عبر حزمة واحدة قابلة للتدقيق: (أ) فرض Authentication/Authorization على جميع نقاط التحويل (تحقق JWT/Session مع claims) + تحقق صارم من صلاحيات المستخدم لكل قالب/محتوى قبل أي تحويل PDF/HTML، (ب) تفعيل Rate Limiting وWAF داخلي (مثل رفض مسارات/مدخلات filename المشبوهة ومنع أي استخدام للمدخلات داخل أوامر shell) وSanitization لمعاملات التحويل، (ج) إضافة سياسة banlist للـ Hardware UUID مع TTL وتسجيل audit immutable وربطها بالـ accountId وليس UUID فقط، (د) تفعيل UFW على مستوى السيرفر مع Allow-list للمنافذ الضرورية فقط وDisable للإدارات غير المستخدمة، و(e) فصل حساب ضريبة 15% إلى طبقة حساب مستقلة (TaxService) تستخدم جداول/قواعد ثابتة مع unit tests توثق عدم خلط الضريبة مع الإجمالي أثناء checkout وإعادة حسابها قبل التصدير. هذه الحزمة تضمن رفع مستوى الحماية بشكل ملموس ومقاس مع قابلية التدقيق."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289770Repository.kt",
+        "App1289770HomeScreen.kt",
+        "App1289770DetailsScreen.kt",
+        "App1289770CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "على مستوى المعمارية/الواجهة، اختيار UI Archetype من نمط service_stepper مناسب جدًا لطبيعة “رحلة المستخدم” في قوالب التقارير: خطوة إنشاء/تعديل القالب ثم خطوة التهيئة للتصدير (PDF/HTML) تقلل التشتت وتدعم تسلسل قرار واضح. من زاوية الكود المرفق، وجود كلاسات Domain واضحة مثل App1289770Model وApp1289770Package وApp1289770Repository—ومطابقة ذلك مع فصل المسؤوليات بين Repository وواجهات المستخدم مثل App1289770HomeScreen.kt وApp1289770DetailsScreen.kt وApp1289770CheckoutScreen.kt—يشير إلى تصميم يميل إلى MVVM/Onion-like separation (حتى لو لم يُصرّح حرفيًا)، حيث تُعزل منطق الدومين عن طبقة الواجهة. كذلك تضمين BespokeVectorIllustration.kt يعكس اهتمامًا بجودة العرض دون الاعتماد على أصول ثابتة ثقيلة، وهو قرار ينعكس إيجابًا على الأداء ووضوح الواجهة على أحجام مختلفة. أما على مستوى الخادم، وجود server/server.js ضمن نطاق “خادم سحابي خفيف ومستقل لمعالجة الطلبات” يوحي بنهج خفيف لطبقة تقديم API/معالجة، بما يتماشى مع تقليل التكلفة التشغيلية مقارنة بخدمات احتكارية عالية المستوى. نقطة قوة إضافية محتملة هي أن فصل App1289770Repository.kt تحديدًا يعطي مسارًا واضحًا للربط مع أنظمة إدارة المحتوى/الوثائق وتوحيد طرق الوصول (CRUD) بدل تشتتها داخل الشاشات.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ مسار أمان وتشغيل (Security & Scalability) عملي ومقاس للتكلفة: (1) إضافة طبقة تحقق وهوية وترخيص على server/server.js باستخدام JWT مع حظر الوصول غير المصرح به لعمليات التصدير/القراءة (خصوصًا Endpoints الخاصة بإنشاء/تعديل القوالب وتوليد PDF/HTML). (2) تصفير أثر التأخير عبر كاش متعدد المستويات: كاش نتائج rendering/تجميع القالب (Cache per Template Version) مع TTL مدروس، وكاش لملفات/مخططات الوسائط الناتجة، مع ETag/If-None-Match لتقليل نقل البيانات. (3) تحسين الاعتمادية تحت التحميل عبر ضبط PM2 Cluster بحيث يتم تثبيت Number of instances بناءً على عدد الأنوية مع وضع limits للذاكرة per worker ومنع “الانفجار” عند توليد PDF؛ ويمكن تحقيق ذلك عبر طابور مهام خفيف (queue) داخلية (أو دعم Job-based execution) بدل معالجة متزامنة طويلة داخل نفس الطلب. (4) إجراء Observability: Logging منظم + tracing مختصر لأزمنة كل خطوة في pipeline التصدير، وربط Metrics بحالة الـ VPS لتحديد أين تتولد الكلفة عند النمو."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1289770Repository.kt",
+        "App1289770HomeScreen.kt",
+        "App1289770DetailsScreen.kt",
+        "App1289770CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهر المشروع تموضعًا هندسيًا واضحًا عبر فصل الاهتمامات؛ فوجود Repository/Model تحت أسماء App1289770Repository و App1289770Model يوحي بمسار MVVM أو على الأقل Clean-ish boundaries بين طبقة البيانات والمنطق/العرض، ما يخفض اقتران الشاشة بالـ persistence أو الـ transport. كما أن نمط service_stepper كـ UI Archetype يتماشى مع سيناريو “تجميع خطوة-بخطوة” للقوالب (إنشاء/تعديل/معاينة/تصدير)، وهو قرار معمارية جيد لأن التدفق يوجه المستخدم من المدخلات إلى المخرجات النهائية ويقلل التشتت.\n\nعلى مستوى الواجهة، يُحسب لصالح المشروع إدراج BespokeVectorIllustration.kt كـ Canvas/Vector rendering مستقل، ما يدعم إعادة استخدام الرسومات وضبطها بسلاسة مع اختلاف أحجام الشاشات والـ scale/Dynamic Type. كذلك وجود CheckoutScreen.kt و DetailsScreen.kt و App1289770HomeScreen.kt يرجح وجود تقسيم وظيفي منظم بين “استعراض القوالب” و“تفاصيل القالب” و“التحصيل/التأكيد”، وهو مفيد لقياس قابلية الاختبار. من زاوية نقدية صارمة: يلزم التأكد أن تدفق RTL في كل من App1289770HomeScreen.kt و App1289770DetailsScreen.kt و App1289770CheckoutScreen.kt يستخدم اتجاهية النص (layoutDirection=RTL) بشكل شامل ولا يعتمد على محاذاة ثابتة (left/right)؛ إضافة إلى ضرورة ضمان مساحات اللمس >= 48dp لكل العناصر التفاعلية في stepper (الأزرار، النقاط/الخطوة، عناصر التصفية) وتفادي ازدحام الواجهة قرب مناطق النظام عند iOS (Dynamic Island) عبر استخدام padding آمن (safeArea) وتجنب ارتفاعات ثابتة. كما أن التكامل مع server/server.js يجب أن يلتزم بعقد API واضح (validation صارمة للمدخلات، رموز أخطاء موحدة، وقيود حجم/صيغ للملفات) لأن قابلية التصدير Word→PDF/HTML عادةً حساسة للجودة (ترميز النص العربي، اتجاه علامات الترقيم، ودعم ligatures) وقد تظهر مشاكل إن لم تُطبَّق مواصفات التحويل على مستوى الخادم.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ “حزمة تحسينات الثقة والجودة” كأولوية هندسية: (1) تأمين طبقة التواصل مع الخادم في server/server.js عبر إضافة authentication/authorization (JWT أو signed requests) + rate limiting + validation صارم لمخططات المدخلات (صيغ/أحجام/ترميز) مع تعريف Error Contract موحد ينعكس في Repository (App1289770Repository.kt). (2) تحسين الأداء والتكلفة عبر Cache طبقي: تخزين نتائج جلب القوالب وقائمة الموارد في Repository مع TTL، وتخزين Render/Preview للـ vector والمعاينات عند BespokeVectorIllustration.kt، وتقليل إعادة إنشاء الـ document في كل خطوة من الـ service_stepper. (3) إضافة طبقة توافق واجهة صارمة: اختبار تلقائي/أداة تحقق لمساحات اللمس >=48dp، ومحاذاة RTL في كل شاشات App1289770HomeScreen.kt/DetailsScreen.kt/CheckoutScreen.kt، واختبار iOS Safe Area/Dynamic Island وأحجام Dynamic Type، مع التأكد أن stepper لا يقطع عناصر النظام وأن Canvas/Vector render يحترم scale والعائدات (hit-testing) بشكل صحيح. هذه الخطوات ترفع الجودة بشكل مباشر وتقلل أخطاء المستخدم وتزيد صلابة التكامل مع التصدير."
+    }
+  ],
+  "average_rating": 4.84,
+  "reviews_count": 4
 }

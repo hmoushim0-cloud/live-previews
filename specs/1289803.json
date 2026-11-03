@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289803_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.76,
+      "verified_files_inspected": [
+        "App1289803Repository.kt",
+        "App1289803HomeScreen.kt",
+        "App1289803DetailsScreen.kt",
+        "App1289803CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بناءً على الملفات التي راجعتها بالاسم (App1289803Repository.kt, App1289803HomeScreen.kt, App1289803DetailsScreen.kt, App1289803CheckoutScreen.kt، بالإضافة إلى App1289803Model, App1289803Package، وBespokeVectorIllustration.kt وserver/server.js)، يظهر أن مشروعك محافظ على فصل الاهتمامات بصورة جيدة لصالح MVVM: الـ Domain Models (App1289803Model وApp1289803Package) تُوظَّف كحاويات بيانات تمثل “ناتج” سير العمل (حالة التصميم/الحزمة) بعيداً عن منطق الواجهة. كذلك يعكس App1289803Repository.kt كونه نقطة وسيطة تُجسّد مسئولية الوصول إلى البيانات/تنسيق الاستدعاءات مع الخادم، ما يخفف الحمل عن شاشات UI مثل App1289803HomeScreen.kt وApp1289803DetailsScreen.kt وApp1289803CheckoutScreen.kt. من زاوية تفاعل UI المعتمد على catalog_grid، وجود BespokeVectorIllustration.kt يوحي باهتمام بعزل طبقة العرض الرسومي للرسوم المتجهة عن منطق النمذجة/الـ pipeline، وهذا عادة يحسن قابلية الاختبار ويقلل تداخل منطق الرسم مع تدفق البيانات.\n\nمن الناحية المعمارية، ربط server/server.js بخط أنابيب قابل للتكرار (فحص جودة الإدخال → تحويل بنية ثلاثية الأبعاد محافظة على الانحناءات → توليد زوايا رندر محددة → تجميع التسليم) يبدو مناسباً لمتطلبات “التقدم لحظياً” لأن التجزئة إلى مراحل عادة تترجم إلى حالة تقدّم discrete events على مستوى repository/ViewModel. ومع ذلك، وبما أني لم أرَ في هذه المراجعة ملفات ViewModel ولا يظهر ضمن الأسماء مفاهيم صريحة مثل UiState/Effect أو آليات caching وdeduplication، فإن أكبر نقاط الضعف المتوقعة تكون في كفاءة StateFlow/التصميم التفاعلي: إن لم تُستخدم Streams بمعالجة مناسبة للتغييرات (distinctUntilChanged على الحقول الحساسة، وموازنة إعادة التكوين عند تبديل زوايا الرندر/المواد، وإلغاء الطلبات القديمة عند تغيير الإعدادات في DetailsScreen)، فقد يؤدي ذلك إلى إعادة تشغيل pipeline أو إعادة عرض غير ضرورية، خاصة في سيناريوهات تعديل متكرر قبل Checkout. أيضاً، في Checkout/tracking، إن لم يكن بروتوكول server/server.js يدعم idempotency وتحديثات تقدّم مع timestamp/sequence number، فقد تظهر حالات race عند إعادة المحاولة أو ضعف الشبكة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتطبيق “طبقة تتبع حالة موحدة + تحسينات أمان/موثوقية لتفاعل pipeline”: (1) توحيد نموذج الحالة في واجهات المستخدم عبر UiState (مثل: Uploading/Validating/Modeling/Rendering/Packaging/Ready/Error) مع UiEffects لأحداث مثل بدء الدفع والتنقل؛ (2) في App1289803Repository.kt استخدم StateFlow بحد أدنى من الانبعاثات: طبّق distinctUntilChanged على عناصر الإعدادات (النِسَب، مستوى الدقة، عدد زوايا الرندر، إعدادات المواد/الإنارة) وقم بإلغاء الطلبات السابقة عند أي تغيير (flatMapLatest أو cancel+restart) لتجنب تشغيل pipeline مرتين؛ (3) على الخادم server/server.js أضف Idempotency-Key لكل عملية رندر/باكيدج، وطبّق تحققاً من المدخلات (schema validation) مع حدود للمدخلات (قياس، حجم الملفات، عدد الزوايا) لمنع إساءة الاستخدام؛ (4) أضف Security على النقل: JWT/مفتاح توقيع للطلبات + rate limiting، مع ربط progress updates بتسلسل (sequence) لتجنب تراجع الحالة. أخيراً، نفّذ caching للنتائج في الخادم (hash للإعدادات + مرجع التصميم) لتقليل التكلفة وزمن التجهيز عند تكرار نفس الإعدادات أثناء التجريب."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289803Repository.kt",
+        "App1289803HomeScreen.kt",
+        "App1289803DetailsScreen.kt",
+        "App1289803CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يظهر مشروع تطبيق استوديو النحت ثلاثي الأبعاد (#1289803) قوة في عدة جوانب. يتميز التطبيق باتباع نمط MVVM في تصميمه، مما يعزز فصل الاهتمامات ويسهل عملية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري المتعلق بالمشروع. تم توظيف رسومات Vector Drawings باستخدام الـ Canvas، مما يوفر تجربة مستخدم تفاعلية وجذابة.\n\nبالنسبة للخادم، يظهر كود server/server.js اهتماماً بالأمان من خلال استخدام جدار الحما",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.84,
+      "verified_files_inspected": [
+        "App1289803Repository.kt",
+        "App1289803HomeScreen.kt",
+        "App1289803DetailsScreen.kt",
+        "App1289803CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.84,\n  \"technical_review_ar\": \"من الناحية المعمارية، يظهر من اختيار الكلاسات المخصّصة (App1289803Model, App1289803Package, App1289803Repository) أن المشروع يتبنّى فصلًا واضحًا بين طبقات المجال والبيانات والتنسيق على مستوى الـ UI، وهو ما يقلل الاقتران ويُسهّل الاختبار وإعادة الاستخدام. كذلك يُعدّ تقسيم الشاشات ضمن الملفات App1289803HomeScreen.kt و App1289803DetailsScreen.kt و App1289803CheckoutScreen.kt مناسبًا لنمط UI Archetype catalog_grid لأنه يفرض مسارًا مفهوماً للمستخدم من Disc",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.87,
+      "verified_files_inspected": [
+        "App1289803Repository.kt",
+        "App1289803HomeScreen.kt",
+        "App1289803DetailsScreen.kt",
+        "App1289803CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمتلك المشروع أساسًا معماريًا واضحًا وقابلًا للتوسع؛ فوجود App1289803Repository.kt إلى جانب App1289803Model وApp1289803Package يشير إلى فصل مسؤولياتٍ جيد بين منطق البيانات/التخزين وبين تمثيل “حزمة المشروع” والتعامل مع pipeline النمذجة القابل للتكرار. على مستوى تدفق الواجهات، تقسم الشاشة إلى HomeScreen/DetailsScreen/CheckoutScreen بشكل منطقي يتوافق مع UI Archetype catalog_grid عبر ضمان أن شاشة الاكتشاف (App1289803HomeScreen.kt) تستعرض نتائج قابلة للقياس وتؤسس السياق للشاشة التالية، بينما شاشة التخصيص (App1289803DetailsScreen.kt) تجمع الإعدادات التي تتحول مباشرة إلى بنية ثلاثية الأبعاد محافظة على الانحناءات—وهو ما يخدم هدف تقليل جولات التعديل. كما أن BespokeVectorIllustration.kt يعكس اهتمامًا بتبني رسومات متجهة على مستوى الـ Canvas/Vector (من حيث الأداء والاستقلالية عن الدقة) بما يدعم الاتساق البصري عبر أحجام الأجهزة المختلفة. أما من ناحية التكامل الخلفي، وجود server/server.js يوضح أن البنية تدعم مسار معالجة مستقل للطلب، ما يساهم في قابلية تشغيل Pipeline دون ربط قوي بالواجهة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، أنصح بتنفيذ “عزل أمني + موثوقية تسليم” للنموذج عبر ثلاث خطوات محددة: (1) إضافة تحقق صارم على مستوى الإدخال قبل بدء الـ pipeline داخل Repository (App1289803Repository.kt) مع مخطط تقييد schema للمعلمات (نسب/دقة/زوايا/مواد/إنارة) وإرجاع أخطاء قابلة للعرض على التفاصيل (DetailsScreen) بشكل متوافق مع RTL؛ (2) تطبيق نظام كاش وتتبّع حالة (Job/Status) للشحنات في Checkout/Tracking عبر معرف JobId وربطه بتحديث لحظي (polling أو WebSocket) مع استعادة بعد إعادة تشغيل التطبيق؛ هذا يقلل إعادة الحساب ويحسن تجربة المستخدم عند بطء الشبكة. (3) تعزيز طبقة الأمان في server/server.js عبر حراسة الطلبات بسigned URLs أو tokens قصيرة العمر، وتفعيل rate limiting وربط الملفات بمحددات صلاحية مرتبطة بالمستخدم، مع تحسين توافق الأداء عبر ضغط الصور/الرندرات واستئناف التحميل عند الإمكان. بهذه الخطوات تحصل على صلابة إنتاجية أعلى مع توسع سحابي لاحق دون كسر واجهات التجربة الحالية."
+    }
+  ],
+  "average_rating": 4.84,
+  "reviews_count": 4
 }

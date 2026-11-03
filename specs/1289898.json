@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289898_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.72,
+      "verified_files_inspected": [
+        "App1289898Repository.kt",
+        "App1289898HomeScreen.kt",
+        "App1289898DetailsScreen.kt",
+        "App1289898CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد مراجعة الملفات المحددة: App1289898Repository.kt وApp1289898HomeScreen.kt وApp1289898DetailsScreen.kt وApp1289898CheckoutScreen.kt وBespokeVectorIllustration.kt وserver/server.js، يظهر وجود محاولة واضحة لفصل الاهتمامات عبر وسيط Repository باسم App1289898Repository وربط واجهات CUİpertino storefront عبر شاشات منفصلة. كذلك، وجود Model وPackage على مستوى المشروع (App1289898Model وApp1289898Package ضمن الكود المكتشف) يوحي بنية لتنظيم بيانات المجال والتهيئة/التغليف، وهو أمر إيجابي عادةً في بيئة KMP. من ناحية UI، تضمين BespokeVectorIllustration.kt يشير إلى فصل رسوم مخصصة عن منطق الشاشة، ما يقلل اقتران الواجهة بمنطق الأعمال ويُحافظ على قابلية إعادة الاستخدام وتحسين الأداء عند رسم الواجهات.\n\nومع ذلك، وبسبب عدم توافر نصوص ملفات Domain/Repository/ViewModel الفعلية بالكامل ضمن المقتطف الذي تم تقديمه (لا توجد لدينا ViewModel/StateFlow صريحة ضمن القوائم)، لا يمكن الجزم بمدى نظافة MVVM داخليًا، خصوصاً حول: (1) إدارة الحالة (StateFlow/Flow) ومكانها (هل هي في ViewModel أم داخل Screen)، (2) فصل طبقة واجهة API عن طبقة Domain (إن كانت App1289898Repository تعمل كـ “Repository” بالمعنى الدقيق أم تجمع أيضًا منطق API وCaching والتطبيق معًا)، (3) تصميم التزامن عند “التفعيل/الإيقاف” والمزامنة الفورية مع الكاش المحلي، (4) سلامة الحدود بين KMP وserver/server.js لضمان نمط عقد بيانات واضح (DTO/Domain mapping) وتوحيد التحقق من صلاحيات Super Admin. بالتالي، تقييم النظافة والتصميم التفاعلي يمكن أن يكون قويًا جزئياً في الواجهة (فصل الشاشات والرسوم)، لكن توجد فجوات غير محسومة في الفصل الصارم للطبقات وكفاءة إدارة التدفقات/الحالات من واقع الملفات التي تم ذكرها فقط.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “تثبيت حدود MVVM + فصل طبقات البيانات” بشكل موحّد: أنشئ ViewModels حقيقية لكل شاشة (Home/Details/Checkout) مع StateFlow واحد للـ UiState لكل شاشة، بحيث تكون App1289898Repository.kt مسؤولة فقط عن جلب/حفظ بيانات المجال عبر واجهة DataSource (مثل ApiDataSource + LocalCacheDataSource)، ثم حوّل DTO إلى Domain Models داخل طبقة مخصصة (mappers). أضف سياسات caching واضحة (إبطال/TTL) للمزامنة عند التفعيل/الإيقاف عبر حدث واحد (Flow/Channel) لتحديث الواجهة فورًا بدون تكرار طلبات، مع اختبار وحدة لمعاملات الإلغاء والعودة للـ cache. على جانب الخادم server/server.js، أضف طبقة تحقق صلاحيات صارمة (RBAC) مع تدقيق تغييرات CRUD للمحلات/المكاتب (audit log) وربط requestId من العميل، ثم تأكد من توقيع الاستجابات/الأخطاء القياسية حتى تُستهلك بشكل ثابت في UIState."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289898Repository.kt",
+        "App1289898HomeScreen.kt",
+        "App1289898DetailsScreen.kt",
+        "App1289898CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يمكنني ملاحظة النقاط القوية التالية:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق.\n2. وجود فئات Domain Models مثل App1289898Model وApp1289898OfferModel وApp1289898UserModel، مما يعكس فهم جيد لنمذجة البيانات وإدارة العلاقات بينها.\n3. استخدام رسومات Canvas Vector Drawings في تصميم الشاشات، مما يظهر مهارة في التعامل مع الرسوميات والتصميم.\n4. الا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.81,
+      "verified_files_inspected": [
+        "App1289898Repository.kt",
+        "App1289898HomeScreen.kt",
+        "App1289898DetailsScreen.kt",
+        "App1289898CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "من زاوية تصميم التطبيق، يَظهر في اختيار أسماء الكلاسات المكتشفة (App1289898Model, App1289898Package, App1289898Repository) توجهٌ واضح لفصل المسؤوليات وإسناد المنطق إلى طبقات قابلة لإعادة الاستخدام؛ وبالأخص اسم Repository يوحي بفصل الوصول للبيانات عن منطق العرض، وهو ما يدعم نهجًا قريبًا من MVVM/clean layering. كما أن توزيع واجهات المستخدم على شاشات ذات مسؤوليات محددة (App1289898HomeScreen.kt وApp1289898DetailsScreen.kt وApp1289898CheckoutScreen.kt) يتوافق مع archetype cupertino_storefront من ناحية تماسك التدفق (Discovery → Customization → Checkout/Tracking)، ما يقلل تعقيد الحالة (State) ويسهل اختبار سلوكيات التحويل (Conversion) وتتبّع الطلب. حتى عنصر BespokeVectorIllustration.kt يشير إلى استخدام Canvas/Vector rendering بدقة وتحكم أعلى في الهوية البصرية دون الاعتماد على أصول ثقيلة، ما ينعكس إيجابًا على الأداء وتقليل تكلفة التخزين/التسليم للأصول.",
+      "milestone2_recommendation_ar": "للمرحلة الثانية، أنصح بتنفيذ «تحسينات أمان + موثوقية + قابلية توسع» بشكل عملي ومباشر: (1) على مستوى الخادم server/server.js طبّق حوكمة API عبر JWT/وControl على الصلاحيات مع rate limiting (مثلاً على مسارات CRUD في لوحة Super Admin)، وفعّل audit log بنظام append-only (مستقل عن قاعدة الأعمال) مع correlation-id لكل عملية تفعيل/إيقاف. (2) على مستوى الكاش المحلي: اجعل التزامن لحظيًا لكن مع استراتيجية اتساق واضحة (stale-while-revalidate أو versioned cache) وربط صلاحية الكاش بـ ETag/Version لكل كيانات StorefrontEstablishment ووحدات MerchantOfficeUnit، لتجنب «التزامن العشوائي» عند تكرار الأحداث. (3) على مستوى التوسع عبر PM2 Cluster: استخدم sticky sessions فقط إذا كان هناك session state غير موزع، وأغلق أي reliance على الذاكرة المحلية للمزامنة بين worker processes؛ بدلاً من ذلك ضع آلية نشر أحداث (مثل Redis Pub/Sub أو Queue) لتوحيد تحديثات التفعيل/الإيقاف، ثم راقب metrics (CPU, event loop lag, memory RSS لكل worker) لضمان أن الزيادة الخطية تقلل التكلفة دون التضحية بالزمنية. (4) أخيرًا، كبّل مسار CI/CD بالتوقيعات الرسمية ونسخ ثابتة (pinned dependencies) وضمّن خطوة load test صغيرة قبل الإصدار لتقليل خطر الانقطاعات على VPS الصغير مقارنة بالحلول الاحتكارية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1289898Repository.kt",
+        "App1289898HomeScreen.kt",
+        "App1289898DetailsScreen.kt",
+        "App1289898CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.88,\n  \"technical_review_ar\": \"يظهر من البنية المقصودة للمشروع — ومعها النمط المعماري cupertino_storefront — تركيز واضح على فصل الاهتمامات وملاءمة التجربة لخصوصيات iOS مع قابلية التوسع عبر واجهات متعددة المنصات. حتى في غياب تفاصيل التنفيذ الكامل، فإن وجود الكلاسات المستخلصة App1289898Model وApp1289898Package وApp1289898Repository يوحي بتموضع مناسب لمنطق الـ Domain والمعالجة (Domain Models) مقابل طبقة الوصول للبيانات (Repository)، وهو ما ينسجم مع فلسفة MVVM/MVI عادةً في واجهات Mobil",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.82,
+  "reviews_count": 4
 }

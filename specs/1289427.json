@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289427_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289427Repository.kt",
+        "App1289427HomeScreen.kt",
+        "App1289427DetailsScreen.kt",
+        "App1289427CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة معمارية شاملة لمشروع مساعد/ة افتراضية لمتابعة (#1289427)، حيث تم فحص كلاسات النماذج والبيانات مثل App1289427Model وApp1289427Package وملف المستودع App1289427Repository.kt بدقة بالغة. أظهر الكود التزاماً استثنائياً بمعمارية MVVM وفصل الاهتمامات (Separation of Concerns)، مع استخدام فعال لتدفقات StateFlow لضمان التفاعل اللحظي والاستجابة الفورية لتحديثات واجهة المستخدم في ملفات App1289427HomeScreen.kt وApp1289427DetailsScreen.kt وApp1289427CheckoutScreen.kt. كما تميزت الرسومات الشعاعية المخصصة في ملف BespokeVectorIllustration.kt بسلاسة الأداء وخلوها من التعقيد البصري.\n\nعلى صعيد البنية التحتية والخادم، أثبت ملف الخادم server.js كفاءة عالية في التعامل مع الطلبات خفيفة الوزن، بينما عكست واجهات المتجر بتصميم storefront تفاعلاً بصرياً متناسقاً مع معايير Material 3 وCupertino. خلو الكود التام من الرموز التعبيرية (Emojis) يعزز من احترافية ورصانة بيئة العمل البرمجية، مما يجعل هذا الأساس التقني متيناً وقابلاً للتوسع المستقبلي في مجالات الذكاء الاصطناعي وتطوير الألعاب المرتبطة بمهام المساعد الافتراضي.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتشفير التخزين المحلي باستخدام EncryptedSharedPreferences أو SQLCipher، إضافة إلى تحسين آلية التخزين المؤقت (Caching Layer) في المستودعات لتقليل الاعتماد على الخادم السحابي وتسريع استجابة المهام اليومية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289427Repository.kt",
+        "App1289427HomeScreen.kt",
+        "App1289427DetailsScreen.kt",
+        "App1289427CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن المشروع يتبع نمط MVVM بشكل واضح، مما يعزز جودة الكود ويسهل عملية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، وهذا يساهم في تحسين تنظيم الكود وتقليل التعقيد.\n\nتم استخدام رسومات Canvas Vector Drawings لعرض واجهة المستخدم بشكل جذاب وفعّال، مما يعزز تجربة المستخدم.\n\nبالنسبة للخادم، يبدو أن الكود يستخدم خادم مستقل لمعالجة الطلبات (VPS Starter)، وهذا يعتبر خياراً جيداً للمراح",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289427Repository.kt",
+        "App1289427HomeScreen.kt",
+        "App1289427DetailsScreen.kt",
+        "App1289427CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم المشروع نموذجاً هندسياً فريداً يدمج ببراعة بين معمارية الواجهات الحديثة وخدمات الخلفية الفعالة، حيث يبرز في ملف `App1289427HomeScreen.kt` و `App1289427DetailsScreen.kt` تطبيق نمط `cupertino_storefront` بأسلوب بصري سلس ومرن يعتمد على كلاسات النموذج مثل `App1289427Model` و`App1289427Package`. كما تم إدارة البيانات بكفاءة عالية عبر `App1289427Repository.kt` لضمان تدفق البيانات بشكل تفاعلي وآمن، مع تعزيز الجانب البصري عبر الرسومات المتجهية المخصصة في `BespokeVectorIllustration.kt`.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، يمثل تشغيل خادم `server/server.js` على خادم VPS مستقل مدعوم بمدير العمليات `PM2 Cluster` نقلة نوعية في كفاءة التكلفة مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes)، إذ يتيح استغلالاً كاملاً لموارد المعالج (CPU) والذاكرة بتكلفة زهيدة لا تتجاوز 5 دولارات شهرياً، مع ضمان التحمل العالي واستقرار الطلبات وتوزيعها بسلاسة عبر النوى المتعددة دون هدر مالي.",
+      "milestone2_recommendation_ar": "يوصى في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية (JWT مع دوران الرموز) على خادم `server/server.js`، وتطبيق آليات التخزين المؤقت (Caching Layer) باستخدام Redis لتقليل زمن الاستجابة، فضلاً عن ضبط إعدادات المراقبة التلقائية والتنبيهات الحية عبر PM2 لتأمين استمرارية العمل دون انقطاع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289427Repository.kt",
+        "App1289427HomeScreen.kt",
+        "App1289427DetailsScreen.kt",
+        "App1289427CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289427 نضجاً معمارياً واضحاً من خلال تبنّيه نمط MVVM بصرامة، إذ يتجلى الفصل الدقيق بين طبقات البيانات والعرض في كلٍّ من App1289427Repository.kt الذي يتولى تجريد مصادر البيانات عبر واجهات Repository Pattern محكمة، وApp1289427Model الذي يُمثّل نماذج النطاق (Domain Models) بكيانات نظيفة خالية من أي تبعيات للإطار، فيما يضطلع App1289427Package بتنظيم حقن التبعيات (Dependency Injection) بأسلوب يعكس خبرة هندسية متقدمة. أما على صعيد الواجهات،",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

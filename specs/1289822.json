@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289822_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289822Repository.kt",
+        "App1289822HomeScreen.kt",
+        "App1289822DetailsScreen.kt",
+        "App1289822CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بعد فحص ملفات: App1289822Repository.kt و App1289822HomeScreen.kt و App1289822DetailsScreen.kt و App1289822CheckoutScreen.kt و BespokeVectorIllustration.kt و server/server.js، يظهر هيكل معماري واضح نسبيًا حول “فصل الاهتمامات” عبر وجود طبقة مستودع مرتبطة بكائنات المجال، حيث تمثلت أسماء الكلاسات المكتشفة: App1289822Model و App1289822Package و App1289822Repository. وجود Repository يُشير إلى محاولة فصل منطق جلب/تحضير بيانات الطلب عن منطق الواجهة، ما يدعم قابلية الاختبار ويقلل تداخل UI مع تفاصيل الاتصال بالشبكة أو التعامل مع حالة الطلب. كذلك، وجود BespokeVectorIllustration.kt يوضح اهتمامًا بجودة العرض عبر رسم متجهات بدل الاعتماد على صور ثابتة، وهو توجه ممتاز لكفاءة الواجهة واستمراريتها على أحجام/دقات مختلفة، خصوصًا في UI Archetype من نوع catalog_grid حيث تُعد قابلية التوسع البصري عنصرًا مهمًا.\n\nمع ذلك، وبالرغم من وضوح الهيكل العام، لا أستطيع الجزم بأن MVVM “نظيف بالكامل” أو أن فصل الاهتمامات كامل دون تداخل، لأن عدم ظهور (ضمن المعلومات المتاحة في الرسالة) ViewModel/Kotlin StateFlow صريح يثير احتمالًا بأن بعض منطق الحالة قد يكون داخل الـ Screens نفسها (App1289822HomeScreen.kt و App1289822DetailsScreen.kt و App1289822CheckoutScreen.kt) أو داخل Repository بشكل يتجاوز مجرد طبقة بيانات. كما أن وجود server/server.js يعني وجود منطق خادم/بث/إشعارات؛ لكن بدون مؤشرات على اتفاقية واضحة للـ DTOs، التحقق من المدخلات، إدارة الأخطاء، أو تصميم حالات الطلب (Pending/Processing/Completed/Failed) عبر عقدة واجهة موحدة، قد تتحول كفاءة الـ StateFlow/التفاعلية (مثل تجميع الأحداث وإعادة محاولة الطلبات والتحكم بالسباقات) إلى نقطة ضعف. تقييم 4.70 يعكس أن الأساس المعماري يبدو جيدًا (Domain + Repository + UI + Vector + Backend)، لكن يبقى احتمال تحسين كبير على مستوى اتساق نمط MVVM، صرامة تدفق الحالة، وحوكمة بروتوكول الطلب بين العميل والخادم.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصيك بتنفيذ “حزمة صلابة الحالة والتواصل” كخطوة واحدة قابلة للقياس: 1) إدخال/توحيد ViewModel لكل شاشة (أو التأكد من وجودها فعليًا) بحيث تكون Screens مسؤولة فقط عن rendering وحدث المستخدم، بينما ينتقل منطق الحالة لتدفقات StateFlow (واستخدام sealed UiState لحالات الطلب، وsealed UiEvent لمعالجة side-effects مثل التنقل/التنبيهات). 2) توحيد عقد API بين العميل والخادم عبر DTOs واضحة (حقل requestId، status، timestamps، errorCode) وتطبيق mapping من Repository إلى Domain (App1289822Model/App1289822Package) مع حوكمة الأخطاء (retry policy + timeout + cancellation). 3) في server/server.js أضف تحققًا صارمًا من payload وتحسينًا للـ streaming/events عبر idempotency (مثلاً requestId) لمنع ازدواجية التحديث عند إعادة المحاولة، ثم اربط ذلك بتحديث StateFlow على العميل بحيث يتم إلغاء/تجميع الأحداث بشكل صحيح لمنع حالات السباق. هذا سيحسن MVVM، ويزيد كفاءة التفاعلية، ويجعل نظام تتبع حالة الطلب والإشعارات فورياً أكثر موثوقية وقابلية للتوسع."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289822Repository.kt",
+        "App1289822HomeScreen.kt",
+        "App1289822DetailsScreen.kt",
+        "App1289822CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية دقيقة لمشروع التطبيق المستخلص من المشروع. يظهر الكود المصدري قوة في بعض الجوانب مثل استخدام نمط MVVM وتطبيق كلاسات Domain Models واستخدام الرسومات المتجهية Canvas Vector Drawings. كما يُشاد بالخادم المُنفذ وآلية إدارة الغرف والبث اللحظي.\n\nفيما يتعلق بالمرحلة الثانية، يُقترح تنفيذ توصيات تصليد الأمان لضمان حماية أفضل للتطبيق وبيانات المستخدمين. يمكن أن تشمل هذه التوصيات تحسين آليات التحقق من الهوية والتأكد من عدم تسرب المعلومات",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289822Repository.kt",
+        "App1289822HomeScreen.kt",
+        "App1289822DetailsScreen.kt",
+        "App1289822CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"بالاستناد إلى هيكلة الكلاسات المكتشفة (App1289822Model, App1289822Package, App1289822Repository) والملفات المفحوصة (App1289822Repository.kt, App1289822HomeScreen.kt, App1289822DetailsScreen.kt, App1289822CheckoutScreen.kt, BespokeVectorIllustration.kt) يظهر تبنّي فصل واضح بين طبقة الـ Domain وطبقة الوصول/التنسيق (Repository) وطبقة الواجهات (Home/Details/Checkout). هذا النمط يقلّل الاقتران ويجعل سلوك تدفق بيانات الطلب (من إدخال المستخدم حتى استدعاء تسل",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.71,
+      "verified_files_inspected": [
+        "App1289822Repository.kt",
+        "App1289822HomeScreen.kt",
+        "App1289822DetailsScreen.kt",
+        "App1289822CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.71,\n  \"technical_review_ar\": \"بالنظر إلى الكلاسات المكتشفة (App1289822Model, App1289822Package, App1289822Repository) والملفات البرمجية المفحوصة (App1289822Repository.kt, App1289822HomeScreen.kt, App1289822DetailsScreen.kt, App1289822CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js)، يظهر تصميم ذو قابلية للتدرّج باتجاه فصل الاهتمامات: Repository كـ Data Abstraction ووجود Domain model واضح عبر App1289822Model و App1289822Package يوحي بأن طبقة “المنطق/البيانات” منفص",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.8,
+  "reviews_count": 4
 }

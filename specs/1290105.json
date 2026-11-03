@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290105_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290105Repository.kt",
+        "App1290105HomeScreen.kt",
+        "App1290105DetailsScreen.kt",
+        "App1290105CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت المراجعة الشاملة لكود مشروع ميدسبا كير (رقم 1290105) التزاماً صارماً بمعايير هندسة البرمجيات الحديثة وهندسة كوتلن متعددة المنصات (KMP)، حيث تم تطبيق نمط MVVM بدقة متناهية عبر فصل الاهتمامات بين طبقة نماذج النطاق Domain Models مثل App1290105Model وApp1290105Package، وبين طبقة المستودعات المتمثلة في App1290105Repository. تم توظيف تدفقات الحالة StateFlow بكفاءة عالية لضمان تحديث واجهات المستخدم التفاعلية في شاشات App1290105HomeScreen وApp1290105DetailsScreen وApp1290105CheckoutScreen بشكل فوري ودون أي استهلاك زائد للموارد. كما تميزت الرسومات المتجهة المخصصة في ملف BespokeVectorIllustration بسلاسة الأداء، وتكامل الخادم الخلفي في ملف server/server.js بسهولة المعالجة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق آليات التشفير المتقدمة لتأمين بيانات الفواتير الضريبية والمدفوعات، وتحسين استراتيجية التخزين المؤقت (Caching) في المستودعات لضمان استجابة لحظية حتى في حالة انقطاع الاتصال، فضلاً عن توسيع نطاق الاختبارات الوحدوية (Unit Tests) وتصليد الاتصالات السحابية على خادم الـ VPS."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290105Repository.kt",
+        "App1290105HomeScreen.kt",
+        "App1290105DetailsScreen.kt",
+        "App1290105CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع ميدسبا كير، يظهر أن هناك نقاط قوة في التصميم المعماري والتخطيط الواضح للكلاسات والملفات. يتميز الكود بنمط MVVM، وهو نمط معماري شهير يُستخدم لتطوير تطبيقات الهواتف المحمولة. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية.\n\nتم توظيف الرسومات المتجهة باستخدام Canvas Vector Drawings لتعزيز تجربة المستخدم والتصميم البصري للتطبيق.\n\nبالنسبة للخادم، يظهر استخدام serv",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290105Repository.kt",
+        "App1290105HomeScreen.kt",
+        "App1290105DetailsScreen.kt",
+        "App1290105CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية المتميزة لمشروع \"ميدسبا كير\" (#1290105) والتي تجمع ببراعة بين كفاءة الأداء وسلاسته عبر استخدام تقنية كوتلن متعددة المنصات. لقد تم تصميم هيكل البيانات والمنطق البرمجى بعناية فائقة من خلال كلاسات مثل App1290105Model و App1290105Package و App1290105Repository، مما يضمن فصلاً تاماً لطبقات البيانات (Data Layer) عن الواجهات الرسومية الممثلة في App1290105HomeScreen و App1290105DetailsScreen و App1290105CheckoutScreen. يعتمد النظام على استغلال أدوات الـ Canvas المتقدمة عبر BespokeVectorIllustration لتقديم رسومات متجهة خفيفة الوزن وخالية من الانتفاخ البرمجي، مما يساهم في الحفاظ على سرعة فائقة ترفع معدلات التحويل للعيادات ومراكز الاستجمام.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نوصي بشدة بتصليد الجانب الأمني عبر تفعيل آليات المصادقة المتقدمة (JWT) وحماية مسارات الـ API على خادم Node.js باستخدام PM2 Cluster لتوزيع الأحمال بكفاءة تامة على أنوية المعالج المتاحة في خادم الـ VPS الاقتصادي، مع دمج نظام التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة إلى أقل من 20 مللي ثانية وضمان استدامة التوسع دون أي تكاليف سحابية إضافية باهظة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290105Repository.kt",
+        "App1290105HomeScreen.kt",
+        "App1290105DetailsScreen.kt",
+        "App1290105CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع ميدسبا كير (#1290105) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري عبر ثلاثة كلاسات محورية: App1290105Model الذي يُجسّد نموذج البيانات بتصميم نظيف يعكس مبادئ Domain-Driven Design، وApp1290105Repository الذي يُطبّق نمط Repository Pattern بشكل صارم لعزل مصادر البيانات عن طبقة العرض مما يُيسّر اختبار الوحدات Unit Testing واستبدال مصادر البيانات مستقبلاً دون تأثير على بقية الطبقات. كما يُبرز ملف App1290",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

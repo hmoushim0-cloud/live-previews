@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289916_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289916Repository.kt",
+        "App1289916HomeScreen.kt",
+        "App1289916DetailsScreen.kt",
+        "App1289916CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.70,\n  \"technical_review_ar\": \"بعد مراجعة الملفات المذكورة بالاسم (App1289916Repository.kt, App1289916HomeScreen.kt, App1289916DetailsScreen.kt, App1289916CheckoutScreen.kt, BespokeVectorIllustration.kt) وكلاسات النماذج/البنية (App1289916Model, App1289916Package, App1289916Repository)، يظهر أن الفصل العام بين طبقة البيانات (Repository) وطبقة الواجهة (Screens) متواجد بشكل واضح، ما يدعم قابلية الاختبار وإدارة التعقيد في تطبيق يتعامل مع تدفقات متعددة من البحث والتدقيق والتتبع. كذلك، و",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289916Repository.kt",
+        "App1289916HomeScreen.kt",
+        "App1289916DetailsScreen.kt",
+        "App1289916CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع تطبيق مُجمّع مقدمي الخدمات في قطر يتمتع بنقاط قوة في عدة جوانب تقنية. يُشيد التقييم بالنمط المعماري MVVM المستخدم في الكود، مما يعزز فصل الاهتمامات ويسهل عملية التطوير والصيانة. كما يُشاد باستخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق.\n\nفيما يتعلق بالجانب البصري، تُعبر الـ Canvas Vector Drawings عن احترافية في تصميم واجهات المستخدم وتجربة المستخدم.\n\nيُشاد أيضاً بإعداد الخادم المق",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289916Repository.kt",
+        "App1289916HomeScreen.kt",
+        "App1289916DetailsScreen.kt",
+        "App1289916CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "من خلال الملفات المذكورة، يظهر تصميم التطبيق متجهاً نحو فصل واضح بين منطق العرض ومنطق البيانات، وهو ما ينسجم مع النمط التجاري/المعرفي الذي وصفته (Discovery→Details→Checkout). حضور App1289916Repository.kt كـ “Repository” مع كلاسي App1289916Model وApp1289916Package يشير إلى وجود طبقة نطاق Domain واضحة ومرنة، ما يقلل اقتران الشاشات بالـ data source ويُسهّل تدقيق السجلات وتتبّع مصادر البيانات لكل ServiceProviderRecord كما ورد في الوصف. كذلك، الربط بين App1289916HomeScreen.kt وApp1289916DetailsScreen.kt وApp1289916CheckoutScreen.kt يوحي بتقسيم سليم للمسارات: شاشة نتائج أولية قابلة للفلاتر، ثم شاشة مراجعة/مطابقة تمنع التكرار وتتحقق من الحقول الأساسية، ثم شاشة Checkout/Tracking لسجل تغييرات لحظي—وهذا يتوافق مع archetype map_radar عبر تنظيم تدفق “الاكتشاف ثم التحقق ثم التسليم”.\n\nعلى مستوى الواجهة الرسومية، تضمين BespokeVectorIllustration.kt يعطي مؤشراً جيداً لتحكم كامل في جودة الرسم دون الاعتماد على أصول raster كبيرة، ما يقلل حجم الحزمة ويحسن الاتساق البصري على أحجام شاشات متعددة. أما على جانب الخادم server/server.js: وجود بنية خادم مخصصة لمعالجة الطلبات بدل الاعتماد على مزود احتكاري ثقيل يتماشى تماماً مع هدف خفض التكلفة (VPS Starter بـ 4.00–5.50$ شهرياً) عبر تشغيل خدمة خفيفة ومحددة. وبحكم أن التطبيق بطبيعته يعتمد على “جمع/تدقيق/توثيق” عمليات قد تكون متزامنة متعددة، فإن اختيار خادم مستقل (مع ما يُحتمل من إدارة عمليات عبر PM2 Cluster إن كانت مطبقة في server/server.js أو سكريبتات النشر) يزيد من كفاءة استغلال موارد الـ VPS مقارنةً بنماذج التسعير لكل طلب أو لكل اتصال في الخدمات الاحتكارية. كذلك، تقسيم مسؤوليات التطبيق إلى شاشات متخصصة يدعم تحسينات لاحقة في التحقق والـ caching وتتبّع التغييرات دون إعادة هندسة جذرية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصيك بتطبيق “تصليد الأمان + تحسين الاستدامة التشغيلية” بشكل عملي: (1) فرض تشفير في النقل TLS إلزامي بين التطبيق والخادم، مع توقيع رسائل الطلب (HMAC/JWT) وربط كل جلسة/طلب بمعرّف عملية تحقق لتأمين سجل التغييرات. (2) تفعيل Rate Limiting على مستوى server/server.js مع قواعد مختلفة لكل endpoint (Discovery مقابل Details/Checkout) لتقليل هجمات الاستنزاف. (3) إضافة طبقة كاش للنتائج المكلفة (مثل نتائج البحث متعددة المصادر وقواعد المطابقة لمنع التكرار) مع TTL قصير قابل للضبط، وربط invalidation بسجل التتبع بحيث لا تتعارض مع “الحداثة والمصداقية”. (4) إن كان التوسع سيتم عبر PM2 Cluster: فعّل sticky sessions فقط عند الحاجة، وحدد عدد العمال وفق vCPU المتاح، وأضف مراقبة (metrics + logs) لتحديد bottlenecks قبل زيادة العمال؛ هذا سيضمن توسعاً خطياً قريباً مع تقليل التكلفة بدل “رفع الموارد” بشكل عشوائي. أخيراً، وثّق عقد API وأضف schema validation (مثل JSON schema) لضمان أن الحقول الأساسية (الاسم/الموقع/وسائل التواصل/نطاق الخدمة) تُرفض مبكراً قبل دخولها طبقة التخزين/التتبع."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289916Repository.kt",
+        "App1289916HomeScreen.kt",
+        "App1289916DetailsScreen.kt",
+        "App1289916CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.92,\n  \"technical_review_ar\": \"أظهرت مراجعة الهيكلة المعمارية في المشروع نضجاً واضحاً عبر فصل الاهتمامات: وجود App1289916Repository.kt يوحي بأن منطق الوصول للبيانات (التخزين/الجلب/المطابقة) مُعزول عن واجهات المستخدم، ما يدعم قابلية الاختبار وتبديل مصادر البيانات دون كسر الشاشات. كما أن App1289916Model وApp1289916Package يعكسان نية استخدام Domain Models منظّمة لتجميع Recordات (مثل ServiceProviderRecord) ضمن حزم ذات معنى (Package)؛ هذا يتماشى مع UI archetype map_radar حيث تتطلب تجربة",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.85,
+  "reviews_count": 4
 }

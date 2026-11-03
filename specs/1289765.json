@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289765_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289765Repository.kt",
+        "App1289765HomeScreen.kt",
+        "App1289765DetailsScreen.kt",
+        "App1289765CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع ببنية MVVM نظيفة ومفصولة الاهتمامات بشكل واضح، حيث تتولى App1289765Repository مسؤولية إدارة البيانات عبر StateFlow بكفاءة عالية، مما يضمن تدفقاً تفاعلياً سلساً للبيانات إلى واجهات المستخدم في ملفات App1289765HomeScreen وApp1289765DetailsScreen. كما يبرز استخدام Domain Models مثل App1289765Model والتركيز على الرسوميات المخصصة عبر BespokeVectorIllustration دقة هندسية عالية تعزز من تجربة المستخدم البصرية والأداء التقني للتطبيق.",
+      "milestone2_recommendation_ar": "اعتماد آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room أو DataStore لتحسين استجابة الواجهة عند ضعف الاتصال بالإنترنت، وتفعيل التوثيق المزدوج (Two-Factor Authentication) مع تشفير بيانات العملاء الحساسة في App1289765CheckoutScreen لضمان أعلى معايير الأمان قبل النشر."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289765Repository.kt",
+        "App1289765HomeScreen.kt",
+        "App1289765DetailsScreen.kt",
+        "App1289765CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي لمشروع متصدر، تبين لي العديد من النقاط القوية والميزات المميزة. يظهر نمط MVVM بوضوح في تصميم التطبيق، مما يعزز فصل العرض والمنطق والبيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، وهو ما يساهم في تحسين جودة الكود وسهولة الصيانة.\n\nتم توظيف الرسومات المتجهة باستخدام الـ Canvas Vector Drawings، مما يوفر أداءً ممتازًا وتجربة مستخدم سلسة.\n\nأما بالنسبة للخادم، فإن استخدام خادم مستقل بإدار",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.94,
+      "verified_files_inspected": [
+        "App1289765Repository.kt",
+        "App1289765HomeScreen.kt",
+        "App1289765DetailsScreen.kt",
+        "App1289765CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "الاعتماد على خادم VPS مستقل بنظام Ubuntu وNode.js عبر PM2 Max-Cluster يمثل الخيار الهندسي الأمثل لتقليل نفقات العميل التشغيلية بنسبة 80% مقارنة بالمنصات السحابية الاحتكارية. سكريبت deploy_vps.sh يؤتمت بالكامل ضبط جدار الحماية UFW وعكس Nginx ومزامنة WebSocket.",
+      "milestone2_recommendation_ar": "تفعيل Redis Adapter لمضاعفة قدرة البث اللحظي للغرف والطلبات عند تخطي حاجز 10,000 مستخدم متزامن."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289765Repository.kt",
+        "App1289765HomeScreen.kt",
+        "App1289765DetailsScreen.kt",
+        "App1289765CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر الكود نضجاً هندسياً واضحاً من خلال الفصل المنطقي للمسؤوليات في كلاسات النماذج مثل App1289765Model والـ Repository، مما يضمن بنية MVVM متينة وقابلة للصيانة. كما أن دمج الخادم server.js مع واجهات تفاعلية مثل App1289765HomeScreen و App1289765DetailsScreen يعزز تجربة المستخدم، بينما تدعم الرسوم المتجهة Canvas Vector Drawings في BespokeVectorIllustration الدقة البصرية وسلاسة التحجيم عبر الشاشات المختلفة.",
+      "milestone2_recommendation_ar": "تعزيز أداء التطبيق بإضافة طبقة كاش محلية فعّالة (مثل Room أو DataStore) لتقليل استهلاك البيانات وتسريع عرض النتائج، مع تحسين أمان الاتصال بين التطبيق والخادم server.js عبر استخدام JWT Tokens."
+    }
+  ],
+  "average_rating": 4.91,
+  "reviews_count": 4
 }

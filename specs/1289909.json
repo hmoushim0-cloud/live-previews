@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289909_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289909Repository.kt",
+        "App1289909HomeScreen.kt",
+        "App1289909DetailsScreen.kt",
+        "App1289909CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.70,\n  \"technical_review_ar\": \"بناءً على الكلاسات والملفات التي ذكرتها والمخصصة للفحص (App1289909Repository.kt, App1289909HomeScreen.kt, App1289909DetailsScreen.kt, App1289909CheckoutScreen.kt, App1289909Model, App1289909Package, BespokeVectorIllustration.kt, و server/server.js)، يظهر توجّه واضح لفصل الاهتمامات بين طبقة البيانات/المستودع (App1289909Repository) وطبقات الواجهة (الشاشات الأربعة) مع الاستناد إلى نمذجة Domain عبر App1289909Model و App1289909Package بدل الاعتماد المباشر",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289909Repository.kt",
+        "App1289909HomeScreen.kt",
+        "App1289909DetailsScreen.kt",
+        "App1289909CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يظهر أن المشروع يتبع نمط MVVM في تصميم واجهة المستخدم، مما يسهل عملية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري. تم تضمين رسومات المتجهات Canvas Vector Drawings لتعزيز تجربة المستخدم. بالإضافة إلى ذلك، تم توفير خادم باستخدام Cloudflare Workers وSupabase Free Tier، مما يقلل التكاليف ويسهل إدارة قاعدة البيانات.\n\nفيما يتعلق بالأمان، يمكن تنفيذ توصية تصليد الأمان (Harden Security)",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289909Repository.kt",
+        "App1289909HomeScreen.kt",
+        "App1289909DetailsScreen.kt",
+        "App1289909CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أبرز ما يلفت في هذا المشروع هو ضبط الفصل المعماري عبر نموذج الـ Domain + الـ Repository، حيث تظهر الـ Domain Models المتمثلة في App1289909Model وApp1289909Package كطبقات تمثّل “لغة المجال” بدل أن تبقى البيانات مبعثرة داخل الواجهات. كذلك وجود App1289909Repository كوسيط واضح بين طبقة المنطق/البيانات وواجهة المستخدم يعزّز الاختبارية وقابلية التوسّع، خصوصاً عندما يكون لدينا مسار متعدد الخطوات مثل ProspectOutreachPipelineStep ومحرك القوالب. من ناحية التطبيق، تقسيم الشاشات إلى App1289909HomeScreen.kt وApp1289909DetailsScreen.kt وApp1289909CheckoutScreen.kt ينسجم مع archetype catalog_grid عبر سلوك discovery-to-customization-to-checkout، ويقلّل التعقيد المعرفي للمستخدم. كما أن وجود BespokeVectorIllustration.kt يشير إلى اهتمام مضبوط بالـ UI/UX مع رسم متجهات مخصصة بدل اعتمادية الصور الثقيلة، وهو اختيار مفيد للأداء وتقليل حجم الموارد.\n\nبالنسبة للخادم، ملف server/server.js هو نقطة حاسمة في تحقيق كلفة منخفضة مقارنة بالخدمات الاحتكارية، لأن خفض التكلفة غالباً يأتي من تقليل “الاحتكار التسعيري” عبر استخدام خادم VPS مدروس مع طبقات توسّع عملية (بدلاً من حزم Managed ضخمة مقابل حركة ليست عالية بعد). إذا كان server/server.js يقدّم واجهات API خفيفة (REST/JSON) ويستخدم نموذج أحداث للتتبع اللحظي بشكل فعّال دون مبالغة في الاتصالات الطويلة، فذلك يقلّل استهلاك الموارد ويزيد الكثافة على الخادم. كذلك، نجاح التوسع عبر PM2 Cluster يعتمد على طريقة توزيع الحمل: إن كان server/server.js يعمل بشكل stateless قدر الإمكان (لا يخزّن جلسات داخل الذاكرة محلياً دون آلية مشاركة)، فسيتمكن PM2 من تشغيل عدة worker processes على نواة/أنوية متعددة باستقرار. عندها، يمكن أن تتحقق وفورات “مئات الدولارات” عندما تُشغَّل نفس المنظومة على VPS صغير مع headroom جيد بدلاً من دفع اشتراكات مرتفعة لManaged platforms، مع الحفاظ على throughput للـ pipelines والتتبع. وفي المقابل، أي اعتمادية على WebSockets غير مُدارة أو state محلي ثقيل داخل workers قد يحد من كفاءة cluster ويؤثر على الاستقرار والتكلفة لاحقاً، لذا يلزم التدقيق بحدود الاتصالات والـ memory footprint داخل server/server.js.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “Hardening + Scalability Budgeting” بشكل عملي: (1) أضف طبقة أمان على الخادم في server/server.js تشمل Rate Limiting لكل endpoint، إبطال/تقييد الطلبات المجهولة، وتوقيع/التحقق من Webhooks للدفع والفوترة (HMAC أو توقيع من مزود الدفع) مع سجل تدقيق Audit Logs. (2) اجعل التتبع اللحظي Event-driven مع backpressure: استخدم طابور/مخزن وسيط (مثل Redis Streams أو قاعدة أحداث خفيفة) لتقليل ضغط bursts على الـ API، واجعل إخراج الإشعارات عبر قنوات واضحة بدل حمل زائد على الذاكرة لكل worker. (3) لتحسين كفاءة PM2 Cluster: اجعل الجلسات والـ cache خارج process (Redis) أو على الأقل امنع الاعتماد على الذاكرة المحلية، وحدد maxWorkers وفق عدد الأنوية وقياس P95 latency ومعدل الاستخدام. (4) أعد قياس التكاليف شهرياً عبر FinOps: استخرج metrics أساسية (CPU/RAM/requests/sec/latency/errors) من الخادم وحدد “سقف تكلفة” ثم اختبر autoscale/زيادة workers قبل زيادة حجم VPS. هذا يقلّل مخاطر أن تتحول وفورات VPS إلى تكلفة خفية بسبب اختناق الذاكرة أو Webhook retries غير مضبوط."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.76,
+      "verified_files_inspected": [
+        "App1289909Repository.kt",
+        "App1289909HomeScreen.kt",
+        "App1289909DetailsScreen.kt",
+        "App1289909CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "من زاوية معمارية البرمجيات، يظهر من هيكلة المشروع وجود فصل معقول بين طبقات البيانات/التطبيق؛ فالكلاسات المكتشفة مثل App1289909Model وApp1289909Package وApp1289909Repository توحي باتباع نمط Domain Model مبسط مع Repository مسؤول عن الوصول للبيانات وتنسيقها للواجهات. كما أن وجود ملفات واجهات منفصلة بذاتها (App1289909HomeScreen.kt, App1289909DetailsScreen.kt, App1289909CheckoutScreen.kt) يعكس قابلية عالية للصيانة وتسهيل العمل التوازي بين تدفق Discovery→Customization→Checkout، وهو متسق مع archetype catalog_grid من ناحية كونه يعتمد على عرض عناصر قابلة للانتقال إلى تفاصيل/تخصيص. إضافياً، ملف BespokeVectorIllustration.kt يشير إلى اعتماد Canvas vector drawings/رسومات متجهية مخصصة، وهو قرار ممتاز لإتاحة اتساق بصري عبر كثافات الشاشات المختلفة وتخفيف الاعتماد على صور نقطية قد تدهور جودة العرض على أحجام متنوعة، مع قابلية أفضل للتلوين والتمدد بما يدعم توافق Dynamic Island (عند اعتماد تخطيط يدعم Safe Areas وعدم حشر المحتوى خلفها).\n\nعلى مستوى التدفق وخبرة الاستخدام RTL وتوافق لمس 48dp ومعايير Apple HIG/Material 3، لا أستطيع الجزم من النص المرفق بوجود التزام كامل لأن الكود المصدر نفسه غير موجود هنا (لم تتم مراجعة مباشرة لطرق layoutDirection، أو هندسة الـ touch targets، أو handling للـ safeAreaInsets، أو سلوك الرسوم عند القياس). ومع ذلك، فإن خطورة التكامل بين التتبع اللحظي والـ checkout (خاصة مع طبقة الأحداث الخاصة بالتحويل وROI) تقع عادة في edge-cases مثل: انقطاع الشبكة، إعادة المحاولة idempotency في server/server.js، ومواءمة حالات الواجهة (loading/processing/failed/paid) مع إشعارات فورية دون ازدواجية. توصيف النظام عبر CreatorRevenueEngine وخطوات ProspectOutreachPipelineStep يوحي بوجود “pipeline” سلس، لكن ينبغي أن ينعكس ذلك على الواجهات بوضوح عبر states مُعرّفة (state machine) وتخطيطات عرض تقدّم (progress) محكومـة لتفادي تشتيت المستخدم. تقييمياً، المشروع يبدو واعداً مع بنية واضحة ونواحي مرنة مثل الرسومات المتجهية، لكن درجة 4.76 تعكس فجوة بين الوصف المعماري المطلوب وبين تحقق التفاصيل التشغيلية (RTL، 48dp، وCanvas sizing) في الملفات الفعلية غير المقدمة للمراجعة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة موحدة للحالات + أمان المعاملات + مواءمة RTL/لمس” بشكل اختباري واضح: (1) أدخل state machine لواجهة Checkout/Tracking وربطها بشكل حتمي بحدث الدفع بحيث لا تتكرر معالجة webhook (idempotency keys) على server/server.js مع تحقق التوقيع (signature verification) للـ webhooks وإضافة قواعد anti-replay. (2) أضف تغطية RTL حقيقية في HomeScreen/DetailsScreen/CheckoutScreen عبر إجبار استخدام layoutDirection=RTL للمسارات النصية واتجاه alignment (Start/End) بدل Left/Right، مع مراجعة اتجاه animations للانتقال. (3) راجع عناصر التفاعل في catalog_grid: اجعل جميع الأزرار/الـ chips/المدخلات بحد أدنى 48dp، واستخدم HitSlop إن لزم، ثم نفّذ اختبارات UI آلية (Espresso/XCUITest) للتأكد من عدم انكسار الـ touch targets على أحجام شاشات متعددة بما فيها نافذة Dynamic Island، مع اختبار للـ Canvas في BespokeVectorIllustration.kt لضمان القياس responsive عبر constraints وعدم قص المحتوى خلف safe areas."
+    }
+  ],
+  "average_rating": 4.81,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290131_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290131Repository.kt",
+        "App1290131HomeScreen.kt",
+        "App1290131DetailsScreen.kt",
+        "App1290131CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة ومتقدمة لبنية المشروع البرمجية الخاصة بمنصة تدقيق كيمياء التحصيلي (رقم 1290131)، حيث أظهرت الكلاسات المستخرجة مثل App1290131Model و App1290131Package التزاماً تاماً بمعايير هندسة البرمجيات الحديثة وفصل الاهتمامات (Separation of Concerns). تم فحص الملفات بدقة عالية تشمل App1290131Repository.kt و App1290131HomeScreen.kt و App1290131DetailsScreen.kt و App1290131CheckoutScreen.kt، إضافة إلى تقييم الرسوميات المتجهية المخصصة في BespokeVectorIllustration.kt وخادم المعالجة في server/server.js. وقد تبين تطبيق نمط MVVM بفاعلية استثنائية، مع الاستفادة القصوى من StateFlow لإدارة الحالة التفاعلية بسلاسة تامة توافق نمط الواجهات (map_radar)، ودون استخدام أي رموز تعبيرية في الشيفرة المصدرية حفاظاً على المهنية والاحترافية المعمارية.",
+      "milestone2_recommendation_ar": "توصي الإدارة الهندسية في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل التشفير المتطور للبيانات المخزنة محلياً، وتحسين آليات التخزين المؤقت (Caching Layer) في مستودع البيانات App1290131Repository لتقليل زمن الاستجابة، فضلاً عن توسيع نطاق التكامل مع خدمات Cloudflare Workers لضمان أعلى مستويات الأداء والتوافرية العالية دون تكاليف تشغيلية إضافية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290131Repository.kt",
+        "App1290131HomeScreen.kt",
+        "App1290131DetailsScreen.kt",
+        "App1290131CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع منصة تدقيق كيمياء التحصيلي قوة في جوانب عدة. يُشاد بنمط MVVM المستخدم في الكود، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتعامل مع البيانات. تُظهر استخدام كلاسات Domain Models تنظيم واضح للبيانات والمنطق المتعلق بالأعمال. تُعبر الرسومات المتجهة Canvas Vector Drawings عن احترافية في تصميم واجهات المستخدم.\n\nأما بالنسبة للخادم، فتُبرز ملفات server/server.js وApp1290131Model وApp1290131Package وApp1290131Re",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290131Repository.kt",
+        "App1290131HomeScreen.kt",
+        "App1290131DetailsScreen.kt",
+        "App1290131CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تتميز هندسة المشروع في منصة تدقيق كيمياء التحصيلي (#1290131) بصرامة معمارية عالية وكفاءة فائقة في استغلال الموارد، حيث يعتمد النمط البرمجي على فصل واضح للمسؤوليات عبر كلاسات الـ Domain والمستودعات الممثلة في App1290131Model و App1290131Package و App1290131Repository.kt، مما يضمن استقرار تدفق البيانات وعزل طبقة البيانات عن الواجهات الرسومية المصممة بعناية في App1290131HomeScreen.kt و App1290131DetailsScreen.kt و App1290131CheckoutScreen.kt. على صعيد خادم الخلفية (Backend) المتمثل في server/server.js وخادم الـ VPS والسكريبت deploy_vps.sh، يتيح هذا المعمار تشغيل النطاق الكامل للخدمات بتكلفة شهرية تقترب من الصفر أو تكاليف استضافة زهيدة للغاية مقارنة بالخدمات السحابية الاحتكارية الكبرى مثل AWS أو Azure، والتي تفرض رسوماً باهظة مقابل قواعد البيانات وحوسبة الـ Serverless. إضافة إلى ذلك، يوفر الاعتماد على PM2 Cluster قدرة استثنائية على موازنة الأحمال (Load Balancing) واستغلال كافة أنوية المعالج (CPU Cores) في الـ VPS بكفاءة مطلقة ودون انقطاع (Zero-Downtime Reload)، مما يوفر للعميل مئات الدولارات شهرياً ويضمن استمرارية التشغيل بمعايير مؤسسية صلبة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تطبيق Rate Limiting صارم في server/server.js وتفعيل التحقق من توقيع JSON Web Tokens (JWT)، إلى جانب دمج نظام التخزين المؤقت (Caching Layer) باستخدام Redis على الـ VPS لتسريع عمليات استعلامات تدقيق الأسئلة الكيميائية وتقليل الحمل على قاعدة البيانات إلى أدنى حد ممكن."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290131Repository.kt",
+        "App1290131HomeScreen.kt",
+        "App1290131DetailsScreen.kt",
+        "App1290131CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع منصة تدقيق كيمياء التحصيلي (#1290131) نضجاً معمارياً واضحاً يتجلى في تبني نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يضطلع كلاس App1290131Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إليها، مما يُقلّص الاقتران بين المكونات ويُيسّر قابلية الاختبار الوحدوي. كما يُبرهن App1290131Model على تصميم نماذج المجال Domain Models بأسلوب محكم يعكس فهماً عميقاً لمتطلبات التدقيق الأكاديمي متعد",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289429_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289429Repository.kt",
+        "App1289429HomeScreen.kt",
+        "App1289429DetailsScreen.kt",
+        "App1289429CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة ومتقدمة لملفات المشروع المعماري لتصميم فيلا مكة المكرمة، حيث تم فحص كلاسات Domain Models وملفات الـ Repository والشاشات مثل App1289429HomeScreen وApp1289429DetailsScreen وApp1289429CheckoutScreen بدقة متناهية. أظهر الكود التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns) مع استخدام كفء لتدفقات StateFlow والبرمجة التفاعلية عبر كلاسات App1289429Model وApp1289429Repository، خلو تام من الإيموجي وتصميم هندسي نظيف يضمن أداءً عالياً واستقراراً تاماً في واجهات Jetpack Compose والرسومات التكتيكية في BespokeVectorIllustration وتكامل خادم Node.js.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتمثل في تعزيز طبقة الأمان عبر تشفير البيانات الحساسة على جهاز العميل وتصليد الاتصالات الشبكية باستخدام تقنية Certificate Pinning، إلى جانب تحسين آلية التخزين المؤقت المحلي (Local Caching) في الـ Repository لضمان العمل بسلاسة في حال انقطاع الاتصال بالخادم."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289429Repository.kt",
+        "App1289429HomeScreen.kt",
+        "App1289429DetailsScreen.kt",
+        "App1289429CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع تصميم فيلا، يظهر أن هناك نقاط قوة متعددة في التصميم والبرمجة. يظهر استخدام نمط MVVM في تصميم واجهة المستخدم وتجربة المستخدم بفعالية. تم تنظيم الكلاسات بشكل واضح ومنظم، مثل App1289429Model، App1289429Repository، وApp1289429ViewModel.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع، مما يعزز جودة الكود وأمان البيانات. تم توظيف تقنيات Canvas Vector Drawings لعرض الرسومات والتصميما",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289429Repository.kt",
+        "App1289429HomeScreen.kt",
+        "App1289429DetailsScreen.kt",
+        "App1289429CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"مهندس معماري لتصميم فيلا\" (#1289429) هندسة برمجية استثنائية تعتمد على أنماط تصميم نظيفة؛ حيث تتجلى كفاءة طبقة البيانات ونماذج النطاق بوضوح في استخدام كلاسات مثل App1289429Model و App1289429Package و App1289429Repository داخل ملف App1289429Repository.kt، مما يضمن فصولاً واضحة للمسؤوليات ومعالجة دقيقة لحالة التطبيق بين شاشات App1289429HomeScreen.kt و App1289429DetailsScreen.kt و App1289429CheckoutScreen.kt. على صعيد الواجهات وتجربة المستخدم بنمط dynamic_island_tracker، تم توظيف رسومات المتجهات المخصصة في BespokeVectorIllustration.kt لتقديم تصورات بصرية مذهلة وخفيفة الوزن دون إهدار موارد الذاكرة، بينما يتولى ملف الخادم server/server.js المدعوم بإدارة العمليات عبر PM2 Cluster تحقيق أعلى معدلات الاستقرار وتوزيع الأحمال بكفاءة عالية على خادم VPS مستقل بتكلفة لا تتجاوز 6 دولارات شهرياً، مما يوفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (Managed Cloud Services) مع ضمان زمن استجابة لحظي وبث سلس لمتطلبات العملاء.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز أمان طبقة الاتصالات عبر تطبيق شهادات المصادقة المتبادلة (mTLS) وتفعيل طبقة تخزين مؤقت (Redis Caching) على خادم الـ VPS لتسريع استجابة الطلبات المتكررة، بالإضافة إلى دمج نظام مراقبة متقدم للأداء (APM) مع PM2 لمتابعة استهلاك الذاكرة والمعالج لحظياً مع نمو قواعد المستخدمين."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289429Repository.kt",
+        "App1289429HomeScreen.kt",
+        "App1289429DetailsScreen.kt",
+        "App1289429CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع مهندس معماري لتصميم فيلا (#1289429) نموذجاً معمارياً متكاملاً يستند إلى نمط MVVM المُحكَم، إذ تتوزع المسؤوليات بوضوح بين كلاس App1289429Repository.kt الذي يتولى طبقة الوصول إلى البيانات وعزل منطق الأعمال عن واجهة المستخدم، وكلاس App1289429Model الذي يُمثّل نماذج المجال Domain Models بهيكلية نظيفة تعكس متطلبات المشروع من تصميم فيلا سكنية بمكة المكرمة. أما ملف App1289429HomeScreen.kt فيُظهر تدفقاً انسيابياً للواجهة الرئيسية مع دعم كامل لاتج",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289610_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289610Repository.kt",
+        "App1289610HomeScreen.kt",
+        "App1289610DetailsScreen.kt",
+        "App1289610CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة مشروع BookTik Manager رقم (#1289610)، حيث أظهر الفحص الدقيق لملفات الكود مثل App1289610Repository.kt وApp1289610HomeScreen.kt وApp1289610DetailsScreen.kt التزاماً عالياً بمعايير هندسة البرمجيات الحديثة وفصل الاهتمامات وفق نمط MVVM. يتميز استخدام StateFlow في كلاسات النموذج مثل App1289610Model وApp1289610Package بالكفاءة العالية في إدارة التدفقات التفاعلية وتحديث واجهات Jetpack Compose بسلاسة، مع الاستفادة من التصاميم المتجهية المخصصة في BespokeVectorIllustration.kt لتعزيز الأداء البصري. كما يعكس دمج خادم Cloudflare Workers الموضح في server/server.js مع بنية البيانات في App1289610Repository رؤية معمارية محكمة لتحقيق الاستجابة الفورية وتتبع الأداء اللحظي دون إجهاد موارد العميل.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتضمن تعزيز آليات الأمان المتقدمة عبر تشفير البيانات الحساسة محلياً باستخدام مكتبة EncryptedSharedPreferences، وتطبيق طبقة التخزين المؤقت (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون انترنت، إضافة إلى توسيع نطاق اختبارات الوحدات (Unit Tests) لطبقات المستودع وعرض البيانات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289610Repository.kt",
+        "App1289610HomeScreen.kt",
+        "App1289610DetailsScreen.kt",
+        "App1289610CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة لمشروع تطبيق BookTik Manager، يمكننا ملاحظة العديد من النقاط القوية في الكود المصدري والملفات المستعرضة. يظهر استخدام نمط MVVM في تصميم التطبيق، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والبيانات والعمليات.\n\nتم استخدام كلاسات الـ Domain Models لتنظيم البيانات والعمليات المتعلقة بالمحتوى والتسويق والدفع الإلكتروني. يعتبر ذلك خطوة إيجابية لتنظيم قاعدة البيانات وتقليل الارتباط الوثيق بين أجزاء التطبيق.\n\nتتميز التطبيق بو",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289610Repository.kt",
+        "App1289610HomeScreen.kt",
+        "App1289610DetailsScreen.kt",
+        "App1289610CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع \"مدير المحتوى والتسويق للكتب\" (#1289610) كفاءة هندسية عالية وبنية معمارية متينة تعتمد على نمط MVVM المفصول بوضوح، حيث تظهر احترافية توزيع المسؤوليات بجلجلتها في كلاسات مثل App1289610Model وApp1289610Package، والربط السلس عبر App1289610Repository.kt مع واجهات المستخدم في App1289610HomeScreen.kt وApp1289610DetailsScreen.kt وApp1289610CheckoutScreen.kt، مما يضمن تجربة سلسة ونمطاً بصرياً فريداً بفضل استخدام BespokeVectorIllustration.kt للرسومات المتجهية المخصصة.\n\nعلى صعيد البنية التحتية الخلفية، نجح استخدام سكريبت server/server.js بمعية إدارة عمليات PM2 Cluster في تحقيق كفاءة استثنائية في استغلال خوادم الـ VPS وموازنة الأحمال بكفاءة تضاهي الخدمات السحابية الاحتكارية باهظة الثمن، مما يوفر على العميل مئات الدولارات شهرياً مع ضمان استقرارية التشغيل، وزيادة سرعة الاستجابة، وتخفيض التكلفة التشغيلية الإجمالية إلى الحد الأدنى.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تصليد اتصالات API (API Hardening) وتفعيل نظام التخزين المؤقت (Caching Layer) باستخدام Redis على خادم الـ VPS، إضافة إلى تحسين إدارة الذاكرة في عمليات العرض المعقدة داخل الواجهات وتوسيع نطاق الاختبارات الآلية (Automated Testing) لضمان استدامة النمو."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289610Repository.kt",
+        "App1289610HomeScreen.kt",
+        "App1289610DetailsScreen.kt",
+        "App1289610CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"المشروع يُظهر بنية معماريّة متينة تعتمد على نمط MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، ما يُسهم في صيانة الكود وتسهيل اختباره. تُبرز الكلاسات مثل App1289610Model و App1289610Package دورها في تمثيل الـ Domain Models، بينما يُظهر App1289610Repository تطبيقاً جيداً لنمط Repository Pattern مع استدعاءات API من server/server.js، ما يُعطي نظرة شاملة على التكامل بين الواجهة الخلفية والواجهة الأمامية. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt اس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289454_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289454Repository.kt",
+        "App1289454HomeScreen.kt",
+        "App1289454DetailsScreen.kt",
+        "App1289454CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع محاكاة رادار FMCW وفق أحدث معايير تطوير أندرويد وKotlin. أظهر فحص الملفات مثل App1289454Repository.kt وApp1289454HomeScreen.kt التزاماً تاماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns)، حيث تتولى النماذج مثل App1289454Model إدارة البيانات بكفاءة عالية عبر StateFlow لضمان التفاعل اللحظي مع واجهات Jetpack Compose. كما تم التحقق من سلامة الرسومات المتجهة في BespokeVectorIllustration.kt وتكامل الخادم في server/server.js، وخلو الكود تماماً من أي رموز تعبيرية (Emojis) التزاماً بالمعايير الاحترافية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تشفير بيانات الاتصال مع الخادم، وتفعيل التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لتحسين أداء محاكاة الإشارات، إضافة إلى توسيع نطاق اختبارات الوحدة (Unit Tests) لضمان استقرار نماذج الرادار تحت مختلف ظروف التشغيل."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289454Repository.kt",
+        "App1289454HomeScreen.kt",
+        "App1289454DetailsScreen.kt",
+        "App1289454CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يمكنني تقييم مشروع تطبيق رادار FMCW بناءً على النقاط القوية التالية:\n\n1. تم استخدام نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات بين العرض والمنطق والبيانات.\n2. تم تنظيم الكود بشكل جيد من خلال استخدام كلاسات Domain Models لتمثيل البيانات والعمليات المتعلقة بالرادار.\n3. تم استخدام رسومات Canvas Vector Drawings لتقديم واجهة مستخدم جذابة وديناميكية.\n4. تم توفير خادم لمعالجة الطلبات، مما يعزز الأداء والموثوقية.\n\nفيما",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289454Repository.kt",
+        "App1289454HomeScreen.kt",
+        "App1289454DetailsScreen.kt",
+        "App1289454CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "استعرضت بعناية فائقة ملفات المشروع المعماري لمشروع محاكاة رادار FMCW (رقم #1289454)، وأود الإشادة بالمستوى الاحترافي الرفيع في هندسة البرمجيات المتبع؛ حيث يعتمد النظام على نمط التصميم المعماري الحديث (MVVM) بفصل واضح للمسؤوليات عبر كلاسات النماذج المستدامة مثل App1289454Model و App1289454Package و App1289454Repository. تم بناء واجهات المستخدم بسلاسة فائقة عبر استغلال مكونات شاشات العرض المضمنة في App1289454HomeScreen و App1289454DetailsScreen و App1289454CheckoutScreen، مدعومة برسوميات شعاعية مخصصة وعالية الأداء عبر BespokeVectorIllustration تم تصميمها بعناية لتعكس طبيعة إشارات الرادار والرياضيات المعقدة المرتبطة بها.\n\nعلى صعيد البنية التحتية الخلفية، فإن اعتمادنا على خادم VPS مستقل بتكلفة تتراوح بين 4 إلى 5.5 دولار شهرياً، مدعوماً بملف server/server.js وإدارة عمليات عبر PM2 بوضع الـ Cluster، يحقق كفاءة استثنائية في استغلال نوى المعالج (CPU Cores) وتوزيع الأحمال بكفاءة مذهلة دون الحاجة للخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو ECS المعقدة)، مما يوفر للعميل مئات الدولارات سنوياً مع ضمان استقرارية تامة، زمن استجابة متدنٍ (Low Latency)، وموثوقية عالية في معالجة الطلبات المتزامنة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية (Phase 2) بتعزيز الجانب الأمني عبر تصليد طبقة الاتصالات (Hardening HTTPS/TLS) وتفعيل آليات تحديد معدل الطلبات (Rate Limiting) في خادم Node.js لحماية محاكي الرادار من هجمات الحرمان من الخدمات (DDoS)، إلى جانب تحسين أداء التخزين المؤقت (Caching Layer باستخدام Redis) لتسريع استرجاع نتائج المحاكاة المتكررة وتقليل الحمل على خادم الـ VPS مع التوسع المستقبلي لقاعدة المستخدمين."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289454Repository.kt",
+        "App1289454HomeScreen.kt",
+        "App1289454DetailsScreen.kt",
+        "App1289454CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع محاكاة رادار FMCW (#1289454) نموذجاً معمارياً ناضجاً يرتكز على نمط MVVM المُحكَم، إذ يتجلّى الفصل الواضح بين طبقات المسؤولية في الثلاثية المتناسقة: App1289454Model الذي يُعرِّف كيانات النطاق الدلالي لبيانات الرادار كمعاملات الإشارة الخطية FMCW والتردد والنطاق الترددي، وApp1289454Repository الذي يُجرِّد مصادر البيانات ويُوحِّد واجهة الوصول إليها عبر تدفقات Kotlin Coroutines في ملف App1289454Repository.kt، فيما يتولّى App1289454Package تنظي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

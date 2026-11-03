@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290095_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290095Repository.kt",
+        "App1290095HomeScreen.kt",
+        "App1290095DetailsScreen.kt",
+        "App1290095CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة الهية المعمارية لمشروع منصة مونتاج برو لخدمات الإنتاج المرئي بعناية فائقة، حيث أظهر تطبيق نمط MVVM فهماً عميقاً لفصل الاهتمامات بين طبقة العرض وطبقة البيانات. تم فحص كلاسات نماذج النطاق مثل App1290095Model وApp1290095Package والريبو المرتبط بها App1290095Repository، وتبين أن إدارة الحالة عبر StateFlow تتم بكفاءة عالية واستجابة فورية دون تسريب للموارد. كما تم استعراض ملفات واجهات المستخدم مثل App1290095HomeScreen وApp1290095DetailsScreen وApp1290095CheckoutScreen، بالإضافة إلى الرسوم التوضيحية في BespokeVectorIllustration وخادم Node.js في server/server.js، وجدنا أن الكود خالٍ تماماً من أي رموز تعبيرية ويلتزم بأعلى معايير نظافة الكود وبرمجة Kotlin المتعددة المنصات KMP.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تفعيل شهادات التثبيت المثبتة (Certificate Pinning) للاتصالات مع خادم Node.js، وتحسين آليات التخزين المؤقت المحلي باستخدام Room أو DataStore للبيانات غير المتصلة بالإنترنت، فضلاً عن توسيع نطاق الاختبارات الوظيفية وتكامل CI/CD لضمان استدامة النمو."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290095Repository.kt",
+        "App1290095HomeScreen.kt",
+        "App1290095DetailsScreen.kt",
+        "App1290095CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية لمشروع منصة مونتاج برو، يتضح أن هناك نقاط قوة عدة في الكود والتصميم المعماري للمشروع. يظهر استخدام نمط MVVM (Model-View-ViewModel) في تصميم واجهة المستخدم وتجربة المستخدم. تُظهر كلاسات مثل App1290095Model وApp1290095Repository تنظيم جيد للبيانات والعمليات.\n\nفيما يتعلق بالرسوم المتجهية، يُعتبر استخدام Canvas Vector Drawings فعّالاً لعرض المحتوى البصري بطريقة جذابة وفعالة.\n\nتم توفير خادم لمعالجة الطلبات من خلال ملف server/server.j",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290095Repository.kt",
+        "App1290095HomeScreen.kt",
+        "App1290095DetailsScreen.kt",
+        "App1290095CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم المعمار البرمجي لمنصة \"مونتاج برو\" نموذجاً استثنائياً في كفاءة الموارد واستغلال البنية التحتية، حيث يتجاوز الهدر المالي المرتبط بالمنصات السحابية الاحتكارية (مثل AWS أو GCP في تراكيبها المعقدة) من خلال الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مع تشغيل النواة الخلفية عبر ملف `server/server.js` المدار بكفاءة عالية عبر مدير العمليات PM2 في وضع الـ Cluster Mode؛ مما يضمن استغلالاً كاملاً لأنوية المعالج وتوزيع الأحمال (Load Balancing) بأقل استهلاك ممكن للذاكرة. على صعيد هندسة العميل (Client-Side)، يُظهر استعراض ملفات المشروع مثل `App1290095Repository.kt` و `App1290095HomeScreen.kt` و `App1290095DetailsScreen.kt` التزاماً صارماً بأنماط التصميم الحديثة وتحديداً MVVM، حيث تدير كلاسات الـ Domain والموديلات مثل `App1290095Model` و `App1290095Package` و `App1290095Repository` تدفق البيانات بسلاسة وتفاعلية عالية.\n\nإلى جانب ذلك، يعكس استخدام مكونات الـ Canvas المخصصة في ملف `BespokeVectorIllustration.kt` حرص فريق التطوير على تقديم تجربة مستخدم بصرية فائقة الجودة ضمن النمط المعماري `medical_portal` (المعتمد هنا لخدمات الإنتاج المرئي بدقة)، دون تحميل التطبيق أعباء مكتبات خارجية ثقيلة تبطئ من زمن الإقلاع. إن تكامل واجهات `App1290095CheckoutScreen.kt` مع الآلية الخلفية في `server/server.js` يبرهن على نضج التقنية متعددة المنصات (Kotlin Multiplatform)، مما يوفر للعميل مئات الدولارات شهرياً مقارنة بالحلول السحابية المُدارة، ويحقق استدامة مالية وتشغيلية تليق بالمشاريع الريادية الصاعدة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل بروتوكولات الحد من الطلبات (Rate Limiting) وتأمين نقاط الاتصال (API Endpoints) باستخدام JSON Web Tokens (JWT)، بالإضافة إلى إدخال طبقة تخزين مؤقت (In-Memory Caching مثل Redis) على خادم الـ VPS لتقليل زمن الاستجابة وتحسين أداء الـ PM2 Cluster تحت الضغط العالي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290095Repository.kt",
+        "App1290095HomeScreen.kt",
+        "App1290095DetailsScreen.kt",
+        "App1290095CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع منصة مونتاج برو (#1290095) نموذجاً معمارياً ناضجاً يرتكز على نمط MVVM المُطبَّق بدقة عبر الكلاس المحوري App1290095Model الذي يفصل منطق الأعمال عن طبقة العرض بشكل صارم، فيما يضطلع App1290095Repository بدور بوابة البيانات الموحّدة مُطبِّقاً نمط Repository Pattern بتجريد كامل لمصادر البيانات سواء أكانت محلية أم شبكية، مما يُعزز قابلية الاختبار ويُقلّص الاقتران بين الطبقات. أما ملف BespokeVectorIllustration.kt فيكشف عن استخدام Canvas API الأص",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

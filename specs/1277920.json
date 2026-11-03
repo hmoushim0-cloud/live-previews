@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1277920_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1277920Repository.kt",
+        "App1277920HomeScreen.kt",
+        "App1277920DetailsScreen.kt",
+        "App1277920CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة هندسية شاملة لكود مشروع تصميم الهوية البصرية لشركة الديكورات، حيث أظهرت الهيكلة التزاماً صارماً بأنماط الهندسة المعمارية الحديثة وتصميم واجهات المستخدم. تم فحص الملفات الأساسية بدقة وتشمل App1277920Repository.kt وApp1277920HomeScreen.kt وApp1277920DetailsScreen.kt وApp1277920CheckoutScreen.kt بالإضافة إلى مكونات الرسم المتجه BespokeVectorIllustration.kt وخادم Node.js في server/server.js. يتميز الكود بفصل واضح للاهتمامات ضمن نموذج MVVM، حيث تدير كلاسات Domain مثل App1277920Model وApp1277920Package تدفق البيانات بفاعلية عالية باستخدام StateFlow، مع ضمان استجابة واجهات Jetpack Compose بسلاسة تامة ومعالجة آمنة للحالات التفاعلية.",
+      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة الأمان عبر تشفير الاتصالات بين عميل أندرويد والخادم السحابي، وتفعيل آلية تخزين مؤقت متقدمة (Caching Strategy) باستخدام Room وDataStore لتقليل الاعتماد على الشبكة، فضلاً عن توسيع قدرات الخادم السحابي لاستيعاب تدفق الحجوزات والطلبات الكبيرة بكفاءة عالية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1277920Repository.kt",
+        "App1277920HomeScreen.kt",
+        "App1277920DetailsScreen.kt",
+        "App1277920CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يمكنني تقييم مشروع التطبيق بناءً على العناصر التالية:\n\n1. نمط MVVM: يظهر الكود استخدام نمط Model-View-ViewModel (MVVM)، وهو نمط تصميم يساعد في تنظيم الكود وتحسين قابلية الصيانة والتطوير. يعتبر هذا النمط قويًا ويساهم في تحسين تنظيم الكود وتعزيز الأداء.\n\n2. كلاسات Domain Models: تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع. يساعد هذا النهج في فصل البيانات عن واجهة المستخدم والتحكم، مما يعزز الأمان",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1277920Repository.kt",
+        "App1277920HomeScreen.kt",
+        "App1277920DetailsScreen.kt",
+        "App1277920CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع تصميم الهوية البصرية لشركة الديكورات (#1277920) نموذجاً هندسياً فريداً يدمج بين كفاءة التطوير عبر نمط الـ MVVM وهندسة التكاليف الذكية (FinOps). تم بناء طبقة البيانات وعرض الواجهات باستخدام كلاسات نموذجية متكاملة مثل App1277920Model وApp1277920Package وApp1277920Repository، إلى جانب شاشات تفاعلية مصممة بعناية فائقة مثل App1277920HomeScreen وApp1277920DetailsScreen وApp1277920CheckoutScreen، مما يضمن تدفقاً سلساً لبيانات الحجوزات والجداول الزمنية (booking_timeline). كما أظهر الكود احترافية عالية في معالجة الرسوم المتجهية عبر BespokeVectorIllustration.kt، ما يعزز الأداء البصري دون استهلاك مفرط لموارد الذاكرة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نوصي بتعزيز حماية طبقة الاتصالات (API Security) وتفعيل استراتيجيات التخزين المؤقت (Caching) على مستوى الخادم باستخدام PM2 Cluster لضمان أقصى استفادة من نوى المعالج في خادم الـ VPS، مع دمج أدوات مراقبة الأداء الحية (APM) لتقليل زمن الاستجابة (Latency) إلى أدنى حد ممكن وتحسين تجربة المستخدم أثناء ذروة الطلبات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1277920Repository.kt",
+        "App1277920HomeScreen.kt",
+        "App1277920DetailsScreen.kt",
+        "App1277920CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر المشروع رقم 1277920 نضجاً معمارياً واضحاً يتجلى في تبني نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يضطلع كلاس App1277920Repository بمهمة التجريد الكامل لمصادر البيانات وتوحيد نقطة الوصول إليها، فيما يتولى App1277920Model تمثيل كيانات النطاق بنمط Domain-Driven Design يعكس خبرة هندسية متقدمة. وعلى صعيد واجهات المستخدم، تُبرهن ملفات App1277920HomeScreen.kt وApp1277920DetailsScreen.kt وApp1277920CheckoutScreen.",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290134_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290134Repository.kt",
+        "App1290134HomeScreen.kt",
+        "App1290134DetailsScreen.kt",
+        "App1290134CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم المشروع نموذجاً هندسياً رفيع المستوى في تطبيق أنماط هندسة البرمجيات الحديثة عبر تقنيات كوتلن متعددة المنصات (KMP)، حيث تم تطبيق نمط MVVM بصرامة فائقة وفصل تام للاهتمامات بين طبقة العرض وطبقة البيانات. يظهر ذلك بوضوح في تصميم النماذج ضمن كلاسات App1290134Model وApp1290134Package، وإدارة تدفق الحالة بكفاءة عالية عبر App1290134Repository باستخدام StateFlow وJetpack Compose لضمان استجابة واجهات المستخدم بسلاسة فائقة في ملفات App1290134HomeScreen.kt وApp1290134DetailsScreen.kt وApp1290134CheckoutScreen.kt. كما أظهر الكود احترافية عالية في دمج الرسومات الشعاعية المخصصة عبر BespokeVectorIllustration وتوظيف بيئة الخادم بكفاءة في server/server.js.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة أثناء التخزين المحلي المؤقت (Local Caching)، وتوسيع نطاق الاختبارات الوحدوية (Unit Tests) لجميع حالات الـ ViewModels، إضافة إلى تحسين استراتيجية المزامنة مع الخادم السحابي لضمان تجربة مستخدم خالية من الانقطاعات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290134Repository.kt",
+        "App1290134HomeScreen.kt",
+        "App1290134DetailsScreen.kt",
+        "App1290134CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية دقيقة لمشروع منصة تدقيق التحصيلي الرياضي. تبين أن المشروع يتميز بعدة نقاط قوة في الكود المصدري. يظهر نمط MVVM بشكل واضح في تصميم الواجهات والتفاعل بين المكونات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق المتعلق بمجال المنصة. تم توظيف رسومات Canvas Vector Drawings لتقديم واجهات جذابة بصرياً. بالإضافة إلى ذلك، تم تطوير الخادم باستخدام تقنيات مناسبة مثل server.js.\n\nفيما يتعلق بالأمان، يُوصى بتنفيذ تصليد الأمان (Hard",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290134Repository.kt",
+        "App1290134HomeScreen.kt",
+        "App1290134DetailsScreen.kt",
+        "App1290134CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تتميز منصة تدقيق التحصيلي الرياضي (#1290134) بمعمارية برمجية متقدمة ومستدامة عبر Kotlin Multiplatform، حيث تم تصميم هيكل البيانات والمنطق التجاري بعناية فائقة من خلال كلاسات `App1290134Model` و`App1290134Package` و`App1290134Repository`، مما يضمن فصلاً تاماً لطبقات العرض عن إدارة البيانات ويحقق كفاءة عالية في تدقيق الـ 42 درساً والـ 94 سؤالاً بمعايير دقيقة. وعلى صعيد الواجهات والتجربة البصرية، استغل المشروع نمط الـ service_stepper ببراعة عبر شاشات `App1290134HomeScreen` و`App1290134DetailsScreen` و`App1290134CheckoutScreen`، مدعوماً برسوميات متجهية مخصصة في `BespokeVectorIllustration` ترفع من سلاسة التفاعل البصري وتلبي المعايير السعودية بكفاءة تامة دون تحميل المنصة أعباء رسومية إضافية.\n\nأما على مستوى البنية التحتية الخلفية وكفاءة التكاليف (FinOps)، فقد اعتمد الحل في `server/server.js` على نموذج خادم مدمج وخفيف (Lean Node.js Server) يدعم التوسع الأفقي عبر مدير العمليات PM2 Cluster، مما يتيح استغلال كافة أنوية المعالج (CPU Cores) على خادم VPS اقتصادي بتكلفة تشغيلية تقترب من الصفر ($0.00 شهرياً بالاعتماد على الطبقات المجانية أو خوادم موفرة)، مقارنة بالخدمات السحابية الاحتكارية (Managed PaaS) مثل AWS Elastic Beanstalk أو Google App Engine التي تكلف مئات الدولارات شهرياً لنفس القدرة الاستيعابية. هذا التصميم الهندسي المزدوج يوفر استقراراً عالياً، استجابة فورية، وتوفراً مالياً هائلاً للعميل.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُوصى بتصليد الأمان (Security Hardening) عبر تطبيق آليات المصادقة الثنائية (JWT Authentication)، تفعيل معدل الطلبات المحدود (Rate Limiting) على `server/server.js` لحماية نقاط النهاية ضد هجمات حجب الخدمة، وتحسين أداء الاستعلامات عبر إضافة طبقة تخزين مؤقت (In-Memory Caching / Redis) لبيانات الأسئلة والدروس لتقليل زمن الاستجابة إلى أقل من 10 ميلي ثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1290134Repository.kt",
+        "App1290134HomeScreen.kt",
+        "App1290134DetailsScreen.kt",
+        "App1290134CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُظهر مشروع منصة تدقيق التحصيلي الرياضي (#1290134) نضجاً معمارياً واضحاً يتجلى في تبني نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق، إذ يضطلع كلاس App1290134Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إلى الـ 94 سؤالاً والـ 42 درساً عبر واجهات برمجية نظيفة تتوافق مع مبادئ Clean Architecture، فيما يُعرّف App1290134Model بنيات البيانات بدقة تضمن سلامة النوع في بيئة Kotlin Multiplatform مع الاستفادة من dat",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

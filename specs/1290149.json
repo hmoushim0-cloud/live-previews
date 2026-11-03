@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290149_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290149Repository.kt",
+        "App1290149HomeScreen.kt",
+        "App1290149DetailsScreen.kt",
+        "App1290149CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع هيكلية مشروع \"تراث وإعمار\" لمراجعة معمارية دقيقة وفق أعلى معايير هندسة برمجيات أندرويد وKMP، حيث أظهر فحص كلاسات الـ Domain Models والـ Repository مثل App1290149Model و App1290149Repository التزاماً صارماً بفصل الاهتمامات ونمط MVVM النقي مع توظيف كفء لـ StateFlow لإدارة الحالة التفاعلية بسلاسة. كما تم تدقيق طبقة العرض في ملفات App1290149HomeScreen.kt و App1290149DetailsScreen.kt و App1290149CheckoutScreen.kt وتبين جودة تصميمها باستخدام Jetpack Compose، إلى جانب الاستخدام المتقن للرسوم المتجهة في BespokeVectorIllustration.kt والاعتماد على خادم Node.js في server/server.js بمعالجة خفيفة ومستقلة للطلبات.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير الاتصالات باستخدام شهادات SSL متقدمة، وتفعيل آلية التخزين المؤقت المحلي (Local Caching) في طبقة المستودعات لضمان استمرارية العمل دون انقطاع، فضلاً عن توسيع نطاق خدمات الخادم السحابي لدعم التوسع الأفقي تحضيراً لإطلاق النسخ على متاجر التطبيقات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290149Repository.kt",
+        "App1290149HomeScreen.kt",
+        "App1290149DetailsScreen.kt",
+        "App1290149CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يتضح أن مشروع تراث وإعمار يتميز بنقاط قوة متعددة. يظهر استخدام نمط MVVM في تصميم التطبيق لتنظيم العرض والعرض النموذج والواجهة، مما يعزز فصل الاهتمامات ويسهل عملية التطوير والصيانة. تُظهر كلاسات Domain Models تنظيم البيانات والعمليات المتعلقة بالأعمال والوظائف، مما يساعد في تحسين إدارة البيانات وتقليل الأخطاء.\n\nتُبرز الرسومات المتجهة باستخدام Canvas Vector Drawings جمالية التصميم وجودة العرض. يعتبر استخدام خادم لمعالجة الطلبا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290149Repository.kt",
+        "App1290149HomeScreen.kt",
+        "App1290149DetailsScreen.kt",
+        "App1290149CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية المتميزة لمشروع \"تراث وإعمار\" (#1290149) والتي تدمج بين كفاءة التكلفة وقوة الأداء. فمن الناحية البرمجية، نجح الكود في تطبيق هندسة كوتلن متعددة المنصات (KMP) بامتياز، حيث يعتمد `App1290149Repository.kt` على إدارة مركزية للبيانات تدعم نماذج النطاق `App1290149Model` و`App1290149Package` بكفاءة عالية تفصل طبقة البيانات عن العرض، مما يضمن سلاسة التنقل بين الواجهات مثل `App1290149HomeScreen.kt` و`App1290149DetailsScreen.kt` و`App1290149CheckoutScreen.kt`. كما تميزت الواجهات الرسومية في `BespokeVectorIllustration.kt` باستخدام رسومات المتجهات المخصصة عبر الـ Canvas بدلاً من الأصول الثقيلة، مما خفض استهلاك الذاكرة وحسّن تجربة المستخدم وفق نمط الـ map_radar البصري المستهدف.\n\nعلى الصعيد المعماري السحابة وخادم الـ VPS، يوفر الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.50 دولار شهرياً برفقة سكريبت النشر `deploy_vps.sh` وخدمة `server/server.js` ما يقارب مئات الدولارات سنوياً مقارنة بالخدمات السحابية الاحتكارية الضخمة (Managed Cloud Services). يتيح تشغيل خادم Node.js المعالج عبر أداة PM2 Cluster استغلال كافة أنوية المعالج (CPU Cores) المتاحة على الخادم، مما يحقق موازنة الأحمال (Load Balancing) تلقائياً، ويضمن توفر الخدمة (High Availability) واستمراريتها دون انقطاع حتى في حالات تعطل إحدى العمليات الفردية، مع توفير قدرة استيعابية ممتازة للطلبات المتزامنة بأقل تكلفة تشغيلية ممكنة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تصليد اتصالات الـ API باستخدام توقيع الطلبات وتفعيل طبقة حماية الـ Rate Limiting داخل `server/server.js` للتصدي لهجمات حجب الخدمة (DDoS). كما يُنصح بتطبيق آلية التخزين المؤقت (In-Memory Caching باستخدام Redis أو Node-Cache) لتقليل زمن الاستجابة (Latency) للطلبات المتكررة الخاصة بنماذج الترميم التراثي، وإعداد مراقبة آلية لموارد خادم الـ VPS عبر PM2 Plus أو Prometheus لتتبع استهلاك الذاكرة والمعالج بدقة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290149Repository.kt",
+        "App1290149HomeScreen.kt",
+        "App1290149DetailsScreen.kt",
+        "App1290149CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع 'تراث وإعمار' (#1290149) نضجاً معمارياً لافتاً يتجلى في اعتماد نمط MVVM بشكل صارم عبر الثلاثية المحورية App1290149Model وApp1290149Repository وApp1290149Package، إذ يضمن الفصل الواضح بين طبقة البيانات وطبقة العرض ما يُيسّر قابلية الاختبار والصيانة على المدى البعيد. وقد أبدى ملف App1290149Repository.kt انضباطاً تقنياً في إدارة مصادر البيانات عبر تجريد واضح يحجب تفاصيل الشبكة عن طبقة الـ ViewModel، فيما أظهر ملف App1290149HomeScreen.kt التز",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

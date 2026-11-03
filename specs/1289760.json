@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289760_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289760Repository.kt",
+        "App1289760HomeScreen.kt",
+        "App1289760DetailsScreen.kt",
+        "App1289760CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM نظيفة ومعزولة، حيث تتعامل App1289760Repository مع طبقة البيانات بكفاءة عالية باستخدام StateFlow لإدارة الحالة التفاعلية، مما يضمن تزامنًا سلسًا بين ViewModel والشاشات المختلفة مثل App1289760HomeScreen و App1289760DetailsScreen. كما أن استخدام كلاسات Domain Models المحددة بدقة (App1289760Model) يضمن تجانس البيانات عبر المنصات المتعددة، بينما يعزز BespokeVectorIllustration الأداء البصري دون استنزاف الموارد، مدعومًا بخادم server/server.js الخفيف الذي يدير الطلبات بسلاسة.",
+      "milestone2_recommendation_ar": "اعتماد آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room أو DataStore لتحسين سرعة تحميل الشبكة في App1289760HomeScreen، وتفعيل التحقق من صحة التوكن (JWT Validation) في server/server.js لتعزيز أمان جلسات المستخدمين."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289760Repository.kt",
+        "App1289760HomeScreen.kt",
+        "App1289760DetailsScreen.kt",
+        "App1289760CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يمكن تسليط الضوء على النقاط القوية التالية في مشروع التطبيق:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه.\n2. استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، مما يعزز فصل البيانات عن واجهة المستخدم ويسهل إدارة البيانات وتحديثها.\n3. استخدام الـ Canvas Vector Drawings لعرض الرسومات البيانية والجرافيكية بطريقة جذابة وفعالة",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289760Repository.kt",
+        "App1289760HomeScreen.kt",
+        "App1289760DetailsScreen.kt",
+        "App1289760CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر كلاسات الـ Domain Models مثل App1289760Model وApp1289760Package في ملف App1289760Repository.kt، مما يضمن اتساق البيانات وسهولة الصيانة. كما أن استخدام الرسومات المتجهة المخصصة BespokeVectorIllustration.kt يعزز الأداء البصري دون استهلاك موارد الجهاز، بينما يوفر خادم server.js بنية خلفية خفيفة ومتوافقة مع بيئة PM2 لتوزيع الحمل بكفاءة عالية.",
+      "milestone2_recommendation_ar": "اعتماد نظام كاش ذكي على مستوى التطبيق (Client-Side Caching) لبيانات الدورات والخبراء لتقليل عدد الطلبات المرسلة للخادم، مع تفعيل مراقبة الأحمال عبر PM2 Cluster لمعالجة الذروات المفاجئة في عدد الزوار دون الحاجة لترقية الخادم فوراً."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289760Repository.kt",
+        "App1289760HomeScreen.kt",
+        "App1289760DetailsScreen.kt",
+        "App1289760CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر الكلاسات المنطقية App1289760Model و App1289760Repository، مما يضمن قابلية صيانة عالية وتوافقاً مثالياً مع معايير MVVM في بيئة كوتلين متعددة المنصات. كما أن استخدام Canvas Vector Drawings في ملف BespokeVectorIllustration.kt يضمن أداءً بصرياً سلساً ودقة عالية في العرض دون استهلاك موارد الجهاز، مدعوماً بخادم Node.js مستقر.",
+      "milestone2_recommendation_ar": "التركيز في المرحلة الثانية على تطبيق آليات التخزين المؤقت (Caching) المحلي للبيانات لتسريع تحميل الواجهات، وتعزيز أمان الخادم server/server.js عبر إضافة طبقات التحقق من المصادقة (Authentication) وتشفير البيانات الحساسة لضمان جاهزية التطبيق للنشر التجاري."
+    }
+  ],
+  "average_rating": 4.9,
+  "reviews_count": 4
 }

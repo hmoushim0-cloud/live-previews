@@ -32,5 +32,11 @@
   "brand": {
     "primary": "#0F766E",
     "secondary": "#14B8A6"
-  }
+  },
+  "version_num": 1,
+  "rework_count": 0,
+  "initial_build_sec": 212,
+  "rework_duration_sec": 0,
+  "month_key": "2026-10",
+  "sold_price_sar": 0.0
 }

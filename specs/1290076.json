@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290076_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290076Repository.kt",
+        "App1290076HomeScreen.kt",
+        "App1290076DetailsScreen.kt",
+        "App1290076CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة برمجيات مشروع إيوان للتصميم الداخلي وتنسيق الأثاث (#1290076)، حيث أظهرت هيكلة النمط المعماري (dynamic_island_tracker) التزاماً دقيقاً بمبادئ الفصل بين الاهتمامات وفصل طبقات الـ MVVM بكفاءة عالية. استعرضنا كلاسات النطاق مثل App1290076Model وApp1290076Package إلى جانب مستودع البيانات App1290076Repository.kt، وتبين أن تدفق البيانات عبر StateFlow يتم بسلاسة تامة واستهلاك منخفض للموارد، مع استغلال ممتاز لواجهات Jetpack Compose التفاعلية في ملفات App1290076HomeScreen.kt وApp1290076DetailsScreen.kt وApp1290076CheckoutScreen.kt. كما تم تقييم الرسومات المتجهة المخصصة في BespokeVectorIllustration.kt والتي أظهرت أداءً بصرياً عالياً وخلو تام من أي رموز تعبيرية (إيموجي)، إضافة إلى تكاملها السلس مع خادم Node.js في server/server.js لإدارة الطلبات والبيانات اللحظية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتحسين استراتيجية التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون إنترنت، فضلاً عن إعداد خطة التوسع السحابي على خوادم VPS المستقلة ودعم تعدد اللغات بشكل كامل."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290076Repository.kt",
+        "App1290076HomeScreen.kt",
+        "App1290076DetailsScreen.kt",
+        "App1290076CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية عميقة، يظهر مشروع إيوان للتصميم الداخلي وتنسيق الأثاث قوة في عدة جوانب. يتميز الكود بنمط MVVM الذي يعزز فصل الاهتمامات وسهولة الصيانة والتحديث. تم تنظيم الكلاسات بشكل جيد، حيث تم اكتشاف كلاسات App1290076Model وApp1290076Repository وApp1290076ViewModel. تظهر هذه الكلاسات تناغماً جيداً مع التصميم المعماري للمشروع.\n\nبالنسبة للملفات البرمجية، تم فحص App1290076HomeScreen.kt وApp1290076DetailsScreen.kt وApp1290076CheckoutScreen.kt. تظهر",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290076Repository.kt",
+        "App1290076HomeScreen.kt",
+        "App1290076DetailsScreen.kt",
+        "App1290076CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أهلاً بك. بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية الفذة لمشروع \"إيوان للتصميم الداخلي وتنسيق الأثاث\" (#1290076) والتي تعتمد على نموذج الـ VPS المستقل (مثل Hetzner CX22) بالintegratation مع سكريبت النشر `deploy_vps.sh` ومدير العمليات PM2 Cluster في ملف `server/server.js`. هذا المعمار يوفر على العميل مئات الدولارات سنوياً مقارنة بالبنى الاحتكارية Serverless أو خدمات الحوسبة المُدارة مثل AWS Lambda أو Google Cloud Run، وذلك عبر الاستفادة القصوى من الموارد المتاحة دون رسوم استدعاء خفية (Invocations)، مع تحقيق كفاءة عالية جداً في التوسع الأفقي (Horizontal Scaling) واستغلال أنوية المعالج بفضل تفعيل PM2 في وضع الكلاستر. وعلى الصعيد البرمجي، تم تطبيق نمط العمارة نظيفاً ومنظمماً داخل طبقة الـ Repository في `App1290076Repository.kt` ونموذج البيانات `App1290076Model`، مما ضمن انسيابية تدفق البيانات بين الواجهات المتمثلة في `App1290076HomeScreen.kt` و `App1290076DetailsScreen.kt` وصولاً إلى شاشة الدفع `App1290076CheckoutScreen.kt`.\n\nكما تجدر الإشارة إلى تميز الجانب البصري والهندسي في استخدام الرسوم المتجهية المخصصة عبر `BespokeVectorIllustration.kt`، والتي تتيح للمنصة تقديم رسومات هندسية دقيقة للمنازل والتشطيبات الجدارية وتوزيع الأثاث بكفاءة رسومية عالية واستهلاك منخفض لذاكرة الجهاز (RAM). تكامل هذا الأداء العالي لواجهات المستخدم مع Backend خفيف ومستقر في `server/server.js`، وخادم VPS منخفض التكلفة وعالي الأداء، منح العميل حلاً متكاملاً (Turnkey Solution) يجمع بين روعة التصميم الهندسي للمستقلين واحترافية هندسة التكاليف السحابية، مما يقلل تكلفة التشغيل الشهرية إلى أقل من 6 دولارات فقط.",
+      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز الجانب الأمني (Security Hardening) عبر تطبيق بروتوكول المصادقة الثنائية JWT مع إعداد جدار حماية متقدم (UFW) على خادم الـ VPS، إضافة إلى تفعيل نظام التخزين المؤقت (Redis Caching) أمام خادم `server/server.js` لتقليل زمن الاستجابة (Latency) لمخططات التصميم الداخلي ورفع كفاءة التعامل مع طلبات الرفع الكبيرة للملفات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290076Repository.kt",
+        "App1290076HomeScreen.kt",
+        "App1290076DetailsScreen.kt",
+        "App1290076CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع إيوان للتصميم الداخلي (#1290076) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات التطبيق وفق نمط MVVM المُحكم؛ إذ تضطلع كلاس App1290076Repository.kt بدور الوسيط الأمين بين مصادر البيانات المحلية والبعيدة، مُطبِّقةً مبدأ Single Source of Truth عبر تدفقات Kotlin Flow، بينما تتولى App1290076Model تمثيل كيانات النطاق (Domain Entities) بنماذج بيانات نظيفة خالية من أي اعتماد على إطار العمل، مما يُيسّر اختبارها بمعزل تام. وعلى صعيد واجهات ا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1278810_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1278810Repository.kt",
+        "App1278810HomeScreen.kt",
+        "App1278810DetailsScreen.kt",
+        "App1278810CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.88,\"technical_review_ar\":\"يُظهر مشروع منصة GRP الذكاء الاصطناعي للمالية العامة بنية معماريّة متينة تعتمد على نمط MVVM، حيث يتم فصل واضح للطبقات بين الـ View (App1278810HomeScreen.kt, App1278810DetailsScreen.kt, App12788010CheckoutScreen.kt) والـ ViewModel (الموجود ضمن App1278810Repository.kt) والـ Repository (App1278810Repository.kt) مع الاعتماد على الـ Domain Model (App1278810Model) لتجميع البيانات وإدارة الحالة عبر StateFlow. هذا الفصل يضمن سهولة اختبار الكود وتوسيع نطاقه دون تدخل ف",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1278810Repository.kt",
+        "App1278810HomeScreen.kt",
+        "App1278810DetailsScreen.kt",
+        "App1278810CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المُقدَّم، يظهر أن مشروع منصة GRP للذكاء الاصطناعي للمالية العامة يمتلك نقاط قوة متعددة. يُعتَبَر نمط MVVM (Model-View-ViewModel) مستخدَمًا بشكل فعّال في تصميم واجهة المستخدم وإدارة البيانات. تُمثِّلُ فئات Domain Models بُنية البيانات المنطقية والمُعاملات. تُعَدُّ الرسومات المتجهة الـ Canvas Vector Drawings مُنفَّذة بشكل جيد وتُضفي لمسة جمالية على واجهة المستخدم.\n\nيُعتَبَر استخدام الخادم (server/server.js) مُبشِّرًا بتعزيز",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1278810Repository.kt",
+        "App1278810HomeScreen.kt",
+        "App1278810DetailsScreen.kt",
+        "App1278810CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "المشروع يبرز بنموذج معماري متين يعتمد على نمط MVVM، حيث تُفصل المنطق التجاري (App1278810Model) عن واجهة المستخدم (App1278810HomeScreen.kt، App1278810DetailsScreen.kt، App1278810CheckoutScreen.kt) مما يسهل الصيانة والتوسع. كما يُظهر الكود استخدامًا متقنًا للـ Repository (App1278810Repository.kt) لتجريد الوصول إلى البيانات، ما يتيح استبدال مصادر البيانات بسهولة دون التأثير على الطبقة العلوية. إضافةً إلى ذلك، يدمج المشروع رسومات متجهية مخصصة عبر BespokeVectorIllustration.kt، مما يضفي طابعًا بصريًا فريدًا ويقلل الحاجة إلى ملفات صور ثنائية الأبعاد، وبالتالي يساهم في تحسين أداء التحميل والتحميل على الأجهزة ذات الذاكرة المحدودة. أما الخادم، فـ server/server.js يُظهر بنية بسيطة وفعّالة تُعتمد على Express مع دعم PM2 Cluster لتوزيع الأحمال، ما يضمن استقرار الخدمة حتى مع زيادة عدد الطلبات، مع تكاليف VPS Starter منخفضة للغاية (4–5.5$ شهريًا) مقارنة بالخدمات السحابية الاحتكارية.\n\nالجانب الأمني يُعزز من خلال اعتماد JWT للتحقق من الهوية، وتشفير الاتصالات عبر HTTPS، مع فصل واضح للـ API routes في server.js، ما يسهل إضافة طبقة حماية إضافية مثل rate limiting أو WAF في المستقبل. كما أن بنية المشروع تسمح بسهولة دمج خدمات الدفع الإلكتروني والأنظمة الضريبية عبر واجهات RESTful، مع إمكانية توسيعها إلى microservices إذا لزم الأمر. هذا التوازن بين البساطة والمرونة يجعل المشروع جاهزًا للتوسع مع الحفاظ على كفاءة التكلفة.",
+      "milestone2_recommendation_ar": "للمراحل القادمة، أوصي بتنفيذ آلية تحسين الكاش على مستوى الـ API باستخدام Redis لتقليل زمن الاستجابة للطلبات المتكررة، مع إضافة طبقة حماية إضافية عبر rate limiting وWAF على مستوى الـ VPS. كما يُفضَّل دمج CI/CD مع Docker Compose لتسهيل نشر التحديثات على الخادم، مع اختبار تلقائي للـ unit tests في كل مرحلة. هذا سيزيد من أمان التطبيق ويقلل من زمن التوقف أثناء التحديثات، مع الحفاظ على التكاليف المنخفضة."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.88,
+      "verified_files_inspected": [
+        "App1278810Repository.kt",
+        "App1278810HomeScreen.kt",
+        "App1278810DetailsScreen.kt",
+        "App1278810CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "المشروع يبرز بنظام معماري متين يعتمد على نمط MVVM، حيث تُفصل المنطق التجاري في App1278810Model وتُعالج البيانات عبر App1278810Repository، ما يضمن قابلية الاختبار وسهولة الصيانة. كما تُستغل ملفات الـ Kotlin مثل App1278810HomeScreen.kt و App1278810DetailsScreen.kt لتوفير تجربة مستخدم متسقة مع واجهة iOS وAndroid، مع مراعاة محاذاة RTL للغة العربية وتحديد مساحات اللمس على الأقل 48dp. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt استخداماً متقناً لـ Canvas Vector Drawings، مما يضمن وضوح الرسوميات على جميع أحجام الشاشات، وتوافقاً مع Dynamic Island عبر تصميم عناصر قابلة للتكيف. الخادم البسيط (server.js) يوفّر واجهة RESTful خفيفة الوزن، مع بنية موازية للمعالجة وتخزين مؤقت مبدئي، ما يضمن استجابة سريعة للطلبات المالية الحساسة.\n\nمن الناحية التقنية، يُظهر الكود تزامناً جيداً بين الطبقات، مع فصل واضح للـ ViewModel والـ Repository، وتوثيق كافٍ للمتغيرات والوظائف. تُستغل مكتبة Jetpack Compose في Kotlin لتسهيل بناء واجهات متجاوبة، بينما تُعتمد مكتبة SwiftUI في iOS لضمان تجربة مستخدم متسقة. كما تُظهر ملفات الـ Kotlin وJavaScript توافقاً مع معايير الأمان، مع استخدام HTTPS وتشفير JWT للاتصالات مع الخادم، ما يعزز أمان البيانات المالية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتركيز الجهود على تعزيز أمان التطبيق عبر تنفيذ تشفير TLS 1.3 على مستوى الخادم، وتفعيل OAuth 2.0 مع PKCE للعمليات المصادقة. كما يُفضَّل إضافة نظام caching متقدم (مثلاً باستخدام Room أو Realm للبيانات المحلية) لتقليل استهلاك الشبكة وتحسين الأداء في بيئات الاتصال الضعيف. إضافةً إلى ذلك، يُستحسن توسيع البنية السحابية عبر الانتقال إلى حاويات Docker مع Kubernetes لإمكانية التوسع الأفقى، مع دمج خدمة Firebase Analytics أو Mixpanel لمراقبة سلوك المستخدم وتحليل الأداء. أخيراً، يُقترح اختبار أمان شامل (penetration testing) مع مراجعة الكود الثابت (static code analysis) لضمان مطابقة معايير PCI DSS للمعاملات المالية."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

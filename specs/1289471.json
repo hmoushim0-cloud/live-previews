@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289471_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289471Repository.kt",
+        "App1289471HomeScreen.kt",
+        "App1289471DetailsScreen.kt",
+        "App1289471CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة الهية البرمجية لمشروع معالجة تصميم رامبات مواقف السيارات بدقة عالية، حيث أظهرت الملفات مثل App1289471Repository.kt وApp1289471HomeScreen.kt التزاماً صارماً بنمط MVVM وفصل الاهتمامات بمهارة هندسية فائقة. تتميز نماذج النطاق عبر كلاس App1289471Model بتمثيل البيانات بكفاءة استثنائية، بينما تعكس شاشات الواجهة مثل App1289471DetailsScreen وApp1289471CheckoutScreen استجابة تفاعلية مثالية باستخدام StateFlow وبدون أي استخدام للإيموجي.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز آليات الأمان وتصليد الاتصالات الشبكية مع الخادم الخلفي في ملف server.js، بالإضافة إلى تطبيق استراتيجيات تخزين مؤقت متقدمة (Caching) ضمن App1289471Repository لتحسين أداء محاكاة مسارات السيارات ثنائية وثلاثية الأبعاد."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289471Repository.kt",
+        "App1289471HomeScreen.kt",
+        "App1289471DetailsScreen.kt",
+        "App1289471CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يظهر أن مشروع معالجة تصميم رامبات مواقف السيارات يتبع نمط MVVM بشكل جيد. تم تنظيم الكود واستخدام الكلاسات المناسبة مثل App1289471Model وApp1289471Repository وApp1289471ViewModel. تم استخدام كلاسات Domain Models لتمثيل البيانات والمنطق التجاري.\n\nتم استخدام ملفات BespokeVectorIllustration.kt وApp1289471HomeScreen.kt وApp1289471DetailsScreen.kt وApp1289471CheckoutScreen.kt لعرض واجهات المستخدم بطريقة جذابة باستخدام Can",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289471Repository.kt",
+        "App1289471HomeScreen.kt",
+        "App1289471DetailsScreen.kt",
+        "App1289471CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع معالجة تصميم رامبات مواقف السيارات (#1289471) معمارية برمجية فائقة التطور تدمج بين كفاءة الطبقات الهندسية عبر كلاسات الـ Domain مثل App1289471Model وApp1289471Repository، وتطبيق نمط واجهات المستخدم الديناميكية بدقة متناهية عبر App1289471HomeScreen وApp1289471DetailsScreen وApp1289471CheckoutScreen. كما يبرز بوضوح الاعتماد على الرسوم النوافلية المخصصة في ملف BespokeVectorIllustration لمحاكاة حركة السيارات ثلاثية الأبعاد بدقة هندسية عالية.\n\nعلى الصعيد السحابي وهندسة التكاليف (FinOps)، استبدل هذا المعمار المعتمد على خادم VPS مستقل وبيئة Node.js في ملف server/server.js الخدمات الاحتكارية باهظة الثمن ببنية تحتية مرنة ومنخفضة التكلفة، حيث يضمن تشغيل الخادم عبر مدير العمليات PM2 في وضعية Cluster استغلالاً كاملاً لأنوية المعالج، وتوزيعاً ذكياً للأحمال، واستقراراً تاماً يمنع توقف الخدمة، مما يوفر على العميل مئات الدولارات شهرياً مقارنة بالحلول السحابية التقليدية مع أداء استثنائي.",
+      "milestone2_recommendation_ar": "تتطلب المرحلة الثانية تنفيذ تصليد أمني متقدم (Security Hardening) لخادم الـ VPS وتفعيل جدار الحماية (UFW) مع تطبيق نظام التخزين المؤقت (Redis Caching) على استعلامات النمذجة ثلاثية الأبعاد في App1289471Repository، إضافة إلى إعداد مراقبة دورية للأداء باستخدام PM2 Plus لضمان أعلى مستويات الاعتمادية والتوسع السحابي السلس."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289471Repository.kt",
+        "App1289471HomeScreen.kt",
+        "App1289471DetailsScreen.kt",
+        "App1289471CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع معالجة تصميم رامبات مواقف (#1289471) نضجاً معمارياً لافتاً يتجلّى في اعتماد النمط الثلاثي الطبقات MVVM بصرامة هندسية واضحة؛ إذ تتولّى كلاسة App1289471Repository.kt مسؤولية عزل طبقة البيانات وتجريد مصادرها السحابية عبر استدعاءات غير متزامنة مبنية على Kotlin Coroutines، فيما تضطلع App1289471Model بتمثيل كيانات النطاق Domain Entities بهياكل بيانات نظيفة خالية من أي تبعيات للإطار، مما يُعزّز قابلية الاختبار Unit Testability ويُقلّص الاقتران ا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

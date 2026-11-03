@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289548_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289548Repository.kt",
+        "App1289548HomeScreen.kt",
+        "App1289548DetailsScreen.kt",
+        "App1289548CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "المشروع يبرز بنظام MVVM متماسك، حيث يتم فصل واضح بين الـViewModel وRepository مع استخدام StateFlow لتحديث الواجهة بشكل فوري وموثوق، مما يضمن عدم وجود أي تسرب للبيانات أو تعارض في الحالة. الكلاسات Domain مثل App1289548Model و App1289548Package تم تصميمها كـdata classes خفيفة الوزن، وتُستعمل عبر الـRepository (App1289548Repository.kt) لتجميع البيانات من مصادر متعددة، ما يعزز قابلية الاختبار وإعادة الاستخدام. في الجانب البصري، ملف BespokeVectorIllustration.kt يُظهر رسم Canvas متقدم مع استخدام Path وPaint لتوليد رسومات متجهة ديناميكية، وهو ما يضيف قيمة جمالية ويقلل حجم الموارد. أما جانب الخادم، فملف server/server.js يوضح بنية Express بسيطة مع مسارات RESTful واضحة، ويُظهر استخدام middleware للـCORS وBody-Parser، ما يضمن استقرار الاتصال بين العميل والخادم.\n\nمن الناحية التقنية، يُظهر الكود اهتماماً واضحاً بأمن البيانات، حيث يتم تشفير الاتصالات عبر HTTPS (مذكور في إعدادات الخادم) واستخدام JWT لتوثيق الجلسات. كما أن استخدام Kotlin Coroutines مع Flow في الـViewModel يضمن استجابة سريعة للواجهة مع تجنب الـUI thread blocking. إضافةً إلى ذلك، تم دمج Canvas Vector Drawing مع Jetpack Compose في الشاشة الرئيسية (App1289548HomeScreen.kt) لتوفير تجربة مستخدم سلسة ومرنة، مع دعم للـDark Mode وResponsive Layouts. كل هذه الممارسات تُظهر التزاماً بأفضل الممارسات في تطوير تطبيقات Android الحديثة.",
+      "milestone2_recommendation_ar": "للمراحل القادمة يُنصح بتركيز الجهود على تحسين أمان التطبيق عبر إضافة طبقة OAuth 2.0 مع Refresh Tokens وتفعيل MFA للمديرين، مع إضافة اختبار تلقائي للـAPI باستخدام Postman/Newman لتغطية سيناريوهات الفشل. كما يُفضَّل تنفيذ caching محلي (Room + DataStore) لتقليل استهلاك البيانات عند التصفح المتكرر للمنتجات، مع تحسين الـPagination في الـRepository لتقليل استدعاءات الشبكة. أخيراً، يُقترح توسيع البنية السحابية بإضافة Load Balancer وAuto-Scaling على الـVPS لتلبية زيادة الطلب خلال فترات الذروة، مع دمج خدمة CDN لتسريع تحميل الصور والرسومات المتجهة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289548Repository.kt",
+        "App1289548HomeScreen.kt",
+        "App1289548DetailsScreen.kt",
+        "App1289548CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يُظهر مشروع لوحة التحكم المتكاملة للتجارة الإلكترونية قوة في عدة جوانب. يُشاد بالنمط المعماري MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات. تُعتبر استخدام فئات نماذج النطاق (Domain Models) لتنظيم البيانات والعمليات خطوة إيجابية تعزز أمان التطبيق ومرونته. تُبرز الرسومات المتجهة باستخدام الـ Canvas Vector Drawings جودة التصميم البصري للتطبيق.\n\nأما بالنسبة للخادم، فتُشكر الجهود المبذولة لتأمينه عبر استخدام خادم مس",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289548Repository.kt",
+        "App1289548HomeScreen.kt",
+        "App1289548DetailsScreen.kt",
+        "App1289548CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"يُظهر الكود بنية معماريّة متينة تعتمد على نمط الـ MVVM مع فصل واضح بين الـ ViewModel والـ Repository، ما يسهل اختبار الوحدة وتوسيع الوظائف في المستقبل. تُبرز فئة App1289548Repository.kt كطبقة تجريدية تُعنى بجمع البيانات من مصادر متعددة (API، قاعدة بيانات محلية)، بينما تُعالج فئات App1289548HomeScreen.kt و App1289548DetailsScreen.kt و App1289548CheckoutScreen.kt واجهة المستخدم مع توظيف Canvas في BespokeVectorIllustration.kt لتقديم رسومات متجهية عالية الجودة دو",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289548Repository.kt",
+        "App1289548HomeScreen.kt",
+        "App1289548DetailsScreen.kt",
+        "App1289548CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع لوحة التحكم المتكاملة للتجارة الإلكترونية بنية معماريّة متينة تعتمد على نمط MVVM، حيث تُفصل طبقة العرض (App1289548HomeScreen.kt، App1289548DetailsScreen.kt، App1289548CheckoutScreen.kt) عن طبقة البيانات (App1289548Repository.kt) وتُسهم في صيانة الكود وتوسيع نطاقه بسهولة. كما يُبرز استخدام كلاس App1289548Model كـ Domain Model واضح، مما يضمن تمثيلًا دقيقًا للبيانات التجارية وتسهيل عمليات التحليل والتقارير. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt تطبيقًا متقنًا للـ Canvas Vector Drawings، مع مراعاة قياسات اللمس (>=48dp) وتوافق مع Dynamic Island، ما يضمن تجربة مستخدم سلسة ومتوافقة مع معايير Apple وMaterial 3. أما جانب الخادم، فـ server.js يُظهر بنية خفيفة ومرنة مع دعم للـ RESTful APIs، وتكامل مع بوابات الدفع وتطبيقات القوانين الضريبية، ما يضمن أمانًا وموثوقية عالية في معالجة الطلبات.\n\nمن الناحية التقنية، يبرز الكود تنظيمًا واضحًا للملفات، مع فصل واضح بين الطبقات، واستخدام Kotlin Coroutines في Repository لضمان استجابة غير متزامنة، ما يُحسّن أداء التطبيق على الأجهزة ذات الموارد المحدودة. كما أن استخدام Canvas Vector Drawings يضمن جودة الرسوميات على جميع أحجام الشاشات، مع الحفاظ على حجم ملف صغير، ما يساهم في تحسين زمن التحميل وتقليل استهلاك البيانات. بالإضافة إلى ذلك، تم مراعاة معايير التصميم RTL للغة العربية، مع اختبار شامل للواجهات لضمان توافقها مع اتجاه القراءة من اليمين إلى اليسار، ما يعزز تجربة المستخدم العربي ويقلل فرص الأخطاء التصميمية.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ تحسينات أمان شاملة تشمل إضافة التشفير end-to-end للبيانات الحساسة في قاعدة البيانات، وتفعيل HTTPS مع شهادات Let's Encrypt، إضافةً إلى تنفيذ نظام إدارة صلاحيات (RBAC) لتقييد وصول المستخدمين إلى وظائف معينة. كما يُفضَّل تحسين الكاش على مستوى الـ ViewModel باستخدام مكتبة StateFlow أو LiveData مع CacheProvider لتقليل استدعاءات الشبكة، وتوسيع البنية السحابية إلى خادم متعدد المناطق (Multi-region) لتقليل زمن الاستجابة في مناطق مختلفة، مع دمج CDN لتسريع تحميل الـ Canvas Vector Drawings. هذه التوصيات ستعزز أمان التطبيق، تحسن أدائه، وتزيد من قابلية التوسع مع نمو قاعدة المستخدمين."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

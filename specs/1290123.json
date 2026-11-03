@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290123_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290123Repository.kt",
+        "App1290123HomeScreen.kt",
+        "App1290123DetailsScreen.kt",
+        "App1290123CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة البنية البرمجية لمنصة راصد لمخاطر ومؤشرات المشاريع بدقة متناهية، حيث أظهرت الكلاسات مثل App1290123Model وApp1290123Package التزاماً عالياً بمبادئ هندسة كوتلن متعددة المنصات (KMP) وفصل الاهتمامات بefectiveness تامة. كما تم فحص ملف المستودع App1290123Repository.kt والملفات المرتبطة واجهات المستخدم مثل App1290123HomeScreen.kt وApp1290123DetailsScreen.kt وApp1290123CheckoutScreen.kt، وتبين استخدام تدفقات الحالة (StateFlow) بكفاءة عالية تضمن استجابة فورية دون أي تعليق في الواجهات، فضلاً عن التكامل السلس مع رسومات Vector الاحترافية عبر ملف BespokeVectorIllustration.kt ومعالجة بيانات الخادم في server/server.js.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بالتركيز على تصليد الأمان (Security Hardening) لبيانات إكسل الضخمة، وتفعيل نظام التخزين المؤقت المتقدم (Advanced Caching) باستخدام SQLDelight لضمان استمرارية العمل دون إنترنت، مع التوسع السحابي لخادم الـ VPS لتحسين زمن الاستجابة أثناء المعالجة الفورية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290123Repository.kt",
+        "App1290123HomeScreen.kt",
+        "App1290123DetailsScreen.kt",
+        "App1290123CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري للمشروع، يظهر أن هناك نقاط قوة متعددة تعكس احترافية المطورين وجهودهم المبذولة. يمكن تلخيص المراجعة الفنية بالعربية الفصحى على النحو التالي:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل إدارة الكود واختباره.\n2. استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع، مما يعزز فصل البيانات عن واجهة المستخدم ويسهل تطوير وصيانة التطبيق.\n3. استخدام Canvas Vec",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290123Repository.kt",
+        "App1290123HomeScreen.kt",
+        "App1290123DetailsScreen.kt",
+        "App1290123CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع مشروع \"منصة راصد لمخاطر ومؤشرات المشاريع (#1290123)\" لمراجعة معمارية دقيقة وتقييم هندسي شامل لتكاليف التشغيل (FinOps). يظهر بوضوح تميز البنية التحتية المعتمدة على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، مما يوفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes) مع ضمان أقصى استفادة من موارد العتاد عبر استغلال PM2 Cluster لتوزيع الأحمال بكفاءة عالية على كافة أنوية المعالج. أما على مستوى الكود، فقد أبدع الفريق في هندسة طبقة البيانات عبر كلاس App1290123Repository.kt وإدارة النماذج في App1290123Model.kt و App1290123Package.kt لضمان معالجة مجموعات البيانات الضخمة المستوردة من ملفات إكسل بسلاسة تامة، متوازناً مع واجهات تفاعلية فائقة السرعة في App1290123HomeScreen.kt و App1290123DetailsScreen.kt و App1290123CheckoutScreen.kt، ومدعومة برسوميات متجهة دقيقة عبر BespokeVectorIllustration.kt، وخادم خلفي مرن في server/server.js يضمن استجابة فورية خالية من التعليق.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الحماية الأمنية للخادم عبر تفعيل آليات المصادقة المتقدمة (JWT مع Rate Limiting) في server/server.js، إضافة إلى تطبيق طبقة التخزين المؤقت (Redis Caching) لبيانات المخاطر الكبيرة لتقليل زمن الاستجابة إلى أدنى حد ممكن وتحسين كفاءة استهلاك الذاكرة العشوائية على خادم الـ VPS."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290123Repository.kt",
+        "App1290123HomeScreen.kt",
+        "App1290123DetailsScreen.kt",
+        "App1290123CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تكشف المراجعة المعمارية لمشروع منصة راصد (#1290123) عن بنية تقنية متينة تعتمد نمط MVVM بشكل صريح عبر الفصل الواضح بين طبقات المسؤولية؛ إذ يتولى كلاس App1290123Repository.kt مهمة استيعاب البيانات من مصادر متعددة كملفات Excel وتمريرها عبر طبقة منطق الأعمال المتمثلة في App1290123Model وApp1290123Package، مما يضمن نظافة الكود وقابليته للاختبار والصيانة وفق مبادئ Clean Architecture. أما على صعيد واجهات المستخدم، فإن الملفات الثلاثة App1290123HomeScreen.kt",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

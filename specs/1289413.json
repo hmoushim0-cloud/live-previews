@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289413_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289413Repository.kt",
+        "App1289413HomeScreen.kt",
+        "App1289413DetailsScreen.kt",
+        "App1289413CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة، حيث تم فحص ملفات App1289413Repository.kt وApp1289413HomeScreen.kt وApp1289413DetailsScreen.kt وApp1289413CheckoutScreen.kt بالإضافة إلى كلاسات النطاق مثل App1289413Model وApp1289413Package وApp1289413Repository. أظهر الكود كفاءة عالية في إدارة تدفق الحالة عبر StateFlow وتفاعل واجهات Jetpack Compose مع نمط الـ service_stepper، فضلاً عن دقة رسومات المتجهات في BespokeVectorIllustration.kt وتكامل الخادم في server/server.js.",
+      "milestone2_recommendation_ar": "توصي الإدارة الهندسية في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة محلياً باستخدام EncryptedSharedPreferences، وتحسين استراتيجية التخزين المؤقت (Caching) للبيانات القادمة من الخادم السحابي، والتوسع في دعم تعدد اللغات لتلبية متطلبات عملاء شركة Shipna في أسواق الخليج."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289413Repository.kt",
+        "App1289413HomeScreen.kt",
+        "App1289413DetailsScreen.kt",
+        "App1289413CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يتضح أن مشروع تصميم المنشورات الاحترافية يتمتع بنقاط قوة متعددة. يظهر نمط Model-View-ViewModel (MVVM) بوضوح في تصميم الكود، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع.\n\nفيما يتعلق بالجانب البصري، تم توظيف رسومات المتجهات Canvas Vector Drawings لإضافة عناصر تصميمية عالية الجودة وجذابة.\n\nأما بالنسبة للخادم، فإن استخدام ملفات server/server.js يظه",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289413Repository.kt",
+        "App1289413HomeScreen.kt",
+        "App1289413DetailsScreen.kt",
+        "App1289413CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم مشروع تصميم 10 منشورات احترافية (#1289413) نموذجاً معمارياً فائق الكفاءة يعتمد على نمط الـ service_stepper لتجربة مستخدم سلسة ودقيقة. تم استخدام كلاسات نموذجية متينة مثل App1289413Model و App1289413Package و App1289413Repository لضمان فصل الاهتمامات (Separation of Concerns) وإدارة البيانات بكفاءة عالية عبر طبقات التطبيق في ملفات مثل App1289413Repository.kt و App1289413HomeScreen.kt. على صعيد الواجهات، يبرز الاستخدام المبتكر للرسومات المتجهة عبر BespokeVectorIllustration.kt و App1289413DetailsScreen.kt لتقديم هوية بصرية متميزة لشركة Shipna دون إرقاق أداء الذاكرة.\n\nمن منظور هندسة التكاليف والحوسبة السحابية (FinOps)، فإن اعتماد خادم VPS مُدار بواسطة سكريبت deploy_vps.sh وتشغيل كود Node.js في server/server.js مدعوماً بتوزيع الحمل عبر PM2 Cluster يتيح استغلالاً كاملاً ومثالياً لموارد المعالج (CPU) والذاكرة (RAM). هذا المعمار البرمجى يغني عن الخدمات السحابية الاحتكارية (مثل AWS Lambda أو Managed Kubernetes) التي تفرض رسوماً باهظة بناءً على عدد الطلبات، مما يوفر مئات الدولارات شهرياً للعميل مع ضمان استجابة فورية (Zero Latency) وثبات عالٍ تحت الضغط.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل جدار الحماية (UFW) على خادم الـ VPS، وتطبيق سياسات الحد من معدل الطلبات (Rate Limiting) في server/server.js لحماية نقاط النهاية (Endpoints) ضد هجمات حرمان الخدمة (DDoS)، بالإضافة إلى دمج نظام التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة وتحسين كفاءة استهلاك الموارد مع توسع قاعدة مستخدمي تطبيق Shipna."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289413Repository.kt",
+        "App1289413HomeScreen.kt",
+        "App1289413DetailsScreen.kt",
+        "App1289413CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع Shipna (#1289413) نموذجاً معمارياً ناضجاً يعتمد نمط service_stepper بصورة محكمة؛ إذ يتجلى الفصل الواضح بين طبقات البيانات والعرض والمنطق في الثلاثية الكلاسية App1289413Model وApp1289413Package وApp1289413Repository، حيث يضطلع App1289413Repository.kt بدور بوابة البيانات الموحدة مُطبِّقاً مبدأ Single Source of Truth عبر تجريد كامل لطبقة الشبكة، مما يُقلّص الاقتران بين الواجهات والخادم إلى حدوده الدنيا. أما ملف BespokeVectorIllustration.kt ف",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

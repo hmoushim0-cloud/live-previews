@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289809_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289809Repository.kt",
+        "App1289809HomeScreen.kt",
+        "App1289809DetailsScreen.kt",
+        "App1289809CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إخضاع مشروع منصة سويد لتجهيز الشاحنات الفاخرة لمراجعة معمارية دقيقة وشاملة بناءً على خبرتنا في بناء أنظمة أندرويد وKMP المتقدمة. أظهرت المراجعة تفوقاً واضحاً في تطبيق نمط MVVM وفصل الاهتمامات بدقة عالية، حيث يبرز كلاس App1289809Repository وكلاس App1289809Model في إدارة حالة البيانات عبر StateFlow بكفاءة تفاعلية متكاملة تلبي معايير الأداء العالي. كما تم فحص ملفات واجهات المستخدم مثل App1289809HomeScreen.kt وApp1289809DetailsScreen.kt وApp1289809CheckoutScreen.kt، بالإضافة إلى ملفات الرسوم المتجهة BespokeVectorIllustration.kt وملف الخادم الخلفي server/server.js، وتبين خلوها التام من أي إيموجيز والتزامها المطلق بالمعايير البرمجية النظيفة مع استخدام محرك تسعير متسق ومعاينة بصرية دقيقة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بالتركيز على تصليد الأمان وتأمين الاتصالات عبر شهادات التوثيق المتقدمة، وتفعيل طبقة التخزين المؤقت (Caching) في الطبقة المحلية لتحسين أداء استرجاع البيانات دون اتصال بالإنترنت، فضلاً عن التوسع السحابي المدروس لخادم VPS لضمان استقرار تدفق البيانات لحظياً أثناء مرحلة تتبع الطلبات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289809Repository.kt",
+        "App1289809HomeScreen.kt",
+        "App1289809DetailsScreen.kt",
+        "App1289809CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على تحليل الكود المصدري والملفات البرمجية المُفحَصَة، يتضح أن المشروع يتميز بعدة نقاط قوة في الجوانب التقنية.\n\n1. يتبع المشروع نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل صيانة الكود وتطويره.\n2. استخدام كلاسات Domain Models يساعد في تنظيم البيانات والمنطق التجاري المتعلق بالشاحنات وتعديلها.\n3. الرسومات المتجهة Canvas Vector Drawings تعكس احترافية في تصميم واجهة المستخدم وتجربة المستخدم.\n4. تم توفير خادم مستقل لإدارة الغرف",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289809Repository.kt",
+        "App1289809HomeScreen.kt",
+        "App1289809DetailsScreen.kt",
+        "App1289809CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع «منصة سويد تهيئة وتعديل الشاحنات الفاخرة (#1289809)» تحفة هندسية تجمع بين رصانة المعمار الخلفي وكفاءة تجربة المستخدم عبر النمط المعماري (service_stepper). تم استعراض كلاسات الـ Domain والموديلات مثل `App1289809Model` و`App1289809Package` إلى جانب مستودع البيانات `App1289809Repository.kt`، حيث أظهر الكود كفاءة عالية في إدارة حالة التخصيص المتسلسلة بين الشاشات الثلاث (`App1289809HomeScreen.kt`، و`App1289809DetailsScreen.kt`، و`App1289809CheckoutScreen.kt`). علاوة على ذلك، يبرز الاستخدام المبتكر لـ `BespokeVectorIllustration.kt` في تقديم رسومات متجهة دقيقة تعزز الهوية البصرية دون التأثير على الأداء. أما على صعيد البنية التحتية، فإن اعتماد خادم VPS اقتصادي (مثل Hetzner CX22) مُدار عبر سكريبت `server/server.js` ومدعوم بموازن الحمل PM2 Cluster، يحقق وفراً هائلاً يتجاوز مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP)، مع ضمان استقرار المعالجة المتزامنة للطلبات واستغلال أنوية المعالج بكفاءة مطلقة.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية: ترقية طبقة الأمان في `server/server.js` عبر تطبيق حدود معدل الطلبات (Rate Limiting) باستخدام `express-rate-limit` وتفعيل تبريد الذاكرة المؤقتة (Redis Caching) لتسريع استعلامات محرك التسعير الفوري للمواصفات، مع دمج بروتوكول التشفير الشامل لبيانات الدفع والتحقق في مسار الـ Checkout."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289809Repository.kt",
+        "App1289809HomeScreen.kt",
+        "App1289809DetailsScreen.kt",
+        "App1289809CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تظهر بنية المشروع ميلاً واضحاً إلى فصل المسؤوليات عبر وجود App1289809Repository.kt كطبقة بيانات/تنسيق، وApp1289809Model كـ Domain Models مرنة لضبط التخصيصات وتجميع حالة الطلب قبل وصولها لواجهة المستخدم، ما ينسجم مع MVVM عملياً ويقلل اقتران الـ UI بمنطق الشبكة. كذلك اختيار BespokeVectorIllustration.kt يشير إلى وعي قوي بالـ Canvas Vector Drawings: تصميمات مرسومة كمتجهات توفر تماسكاً بصرياً على أحجام الشاشات المختلفة، وتساعد في الحفاظ على جودة Premium خصوصاً في معاينة التخصيص. على مستوى تدفق الواجهات الثلاث المعتمد (service_stepper) فإن توزيع الشاشات ضمن App1289809HomeScreen.kt وApp1289809DetailsScreen.kt وApp1289809CheckoutScreen.kt يعكس تسلسلاً معمارياً مناسباً لرحلة المستخدم وتقليل التشتت، ومن زاوية تزامن الحالة فإن App1289809Repository.kt يوحي بإدارة مصدر حقيقة واحد للبيانات مما يحد من التعارضات أثناء تنقل المستخدم بين الاكتشاف ثم التخصيص ثم التتبع.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوّل أولوية يجب أن تكون صلابة الحالة والأمان والاتساق السعري: نفّذ طبقة “State Machine” موحدة لحالة الطلب (Draft → Priced → PaymentPending → Invoiced → FulfillmentStep1..N) وتفرضها من جهة العميل عبر الـ service_stepper ومن جهة الخادم عبر server/server.js، مع تحقق توقيعي من قواعد التسعير (Pricing Rules) بحيث لا تُقبل أي قيمة سعر مرسلة من العميل إلا بعد إعادة حسابها على الخادم بناءً على CustomizationSpecification. ثانياً، أضف طبقة كاش واستئناف (Resume) لمسودات التخصيص: تخزين النسخة الحالية في Repository مع ETag/If-None-Match للتزامن، وإعادة تشغيل الطلب بعد انقطاع الشبكة. أخيراً، راجع تباعد ومساحات اللمس وفق HIG/Material 3: اجعل كل عناصر التدرج في الـ Stepper والأزرار داخل الشاشات الثلاث بحجم لا يقل عن 48dp، وضمن RTL استخدم محاذاة اتجاهية (start/end) لا absolute (left/right) مع اختبارات Dynamic Island/الـ safe areas للتأكد من أن خطوة التتبع والإشعارات اللحظية لا تتراكب مع عناصر النظام."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

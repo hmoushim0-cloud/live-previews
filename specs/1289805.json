@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289805_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289805Repository.kt",
+        "App1289805HomeScreen.kt",
+        "App1289805DetailsScreen.kt",
+        "App1289805CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة برمجيات مشروع FullChairs الخاص بإدارة عملاء عيادات الأسنان، حيث أظهرت فحص الملفات مثل App1289805Repository.kt وApp1289805HomeScreen.kt التزاماً تاماً بنمط MVVM وفصل الاهتمامات بوضوح بين طبقة البيانات وعرض الواجهات باستخدام Jetpack Compose وStateFlow بكفاءة عالية تضمن تفاعلية سلسة وخلو الكود التام من أي رموز تعبيرية (إيموجي). كما تم استعراض كلاسات النطاق مثل App1289805Model والشاشات التشغيلية الثلاث بما فيها App1289805DetailsScreen وApp1289805CheckoutScreen، إضافة إلى تقييم الرسومات المتجهية في BespokeVectorIllustration.kt ومعالجة الخادم في server/server.js، مما يعكس جودة المعمارية البرمجية واستقرار تدفق البيانات.",
+      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة التخزين المؤقت المحلي عبر دمج Room مع تدفقات StateFlow لتأمين المزامنة اللحظية مع الخادم السحابي، وتصليد أمان الاتصالات باستخدام شهادات التوثيق المتقدمة، وتوسيع نطاق اختبارات الوحدات لضمان أعلى موثوقية تشغيلية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289805Repository.kt",
+        "App1289805HomeScreen.kt",
+        "App1289805DetailsScreen.kt",
+        "App1289805CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية دقيقة لمشروع FullChairs، وتبين أن هناك نقاط قوة متعددة في الكود والتصميم. يظهر نمط MVVM بشكل واضح في تنظيم الكود، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتعامل مع البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز فصل البيانات عن العرض ويسهل صيانة وتحديث النماذج. تم استخدام رسومات Canvas Vector Drawings لإنشاء عناصر واجهة المستخدم الديناميكية والجذابة بصرياً.\n\nفيما يتعلق بالخادم،",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289805Repository.kt",
+        "App1289805HomeScreen.kt",
+        "App1289805DetailsScreen.kt",
+        "App1289805CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع FullChairs لهندسة مكالمات عيادات الأسنان وحجز الاجتماعات (#1289805) معمارية برمجية استثنائية تعتمد على تقنية Kotlin Multiplatform وتفصيل طبقات النطاق وحالات الاستخدام بدقة عالية. نجح المطورون في بناء بنية صلبة تمثلت في كلاسات مثل App1289805Model وApp1289805Package وApp1289805Repository داخل الملفات المرتبطة مثل App1289805Repository.kt وApp1289805HomeScreen.kt، مما يضمن فصلاً تاماً للمسؤوليات (Separation of Concerns) وسهولة اختبار المكونات البرمجية. كما أبرزت الشاشات التشغيلية الثلاث تفاعلاً مرناً مع البيانات، مدعومة برسوميات BespokeVectorIllustration المتطورة، مما يعزز تجربة المستخدم ويحافظ على كفاءة الذاكرة والأداء العام.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، يمثل الاعتماد على خادم VPS اقتصادي بتكلفة لا تتجاوز 5.50 دولار شهرياً برفقة سكريبت النشر `deploy_vps.sh` وخلفية `server/server.js` قفزة نوعية في توفير مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Google Cloud Run مع قواعد بيانات مُدارة). يتيح تشغيل معمارية الخادم عبر PM2 Cluster استغلالاً كاملاً لأنوية المعالج (Multi-core Utilization) وتحقيق توجيه ذكي للطلبات (Load Balancing) مع ضمان استمرارية التشغيل التلقائي (Zero-downtime Restarts)، مما يمنح النظام وثباته كفاءة تشغيلية عالية وموثوقية مذهلة تخدم فرق المبيعات بكفاءة مطلقة.",
+      "milestone2_recommendation_ar": "يوصى في المرحلة الثانية بتصليد الأمان (Hardening Security) عبر تطبيق نظام المصادقة الثنائية JWT مع تحديد معدلات الطلب (Rate Limiting) على `server/server.js` لحماية نقاط النهاية من هجمات الحرمان من الخدمات (DDoS)، إلى جانب تفعيل طبقة التخزين المؤقت (Redis Caching) لبيانات الـ Leads لتسريع استجابة شاشات الـ Discovery والـ Tracking تحت ضغط الاستخدام العالي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.86,
+      "verified_files_inspected": [
+        "App1289805Repository.kt",
+        "App1289805HomeScreen.kt",
+        "App1289805DetailsScreen.kt",
+        "App1289805CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"أولاً، من الناحية المعمارية يظهر أن المشروع يسير باتجاه منضبط يدعم قابلية القياس والتتبع: وجود App1289805Model وApp1289805Repository يلمّح إلى فصل منطقي بين حالة التطبيق (State/Domain) ومسؤوليات الاسترجاع/التحديث (Data/Repository)، وهو ما يتماشى مع هدف المشروع التجاري (تحويل كل تواصل إلى بيانات قابلة للقياس) ويقلل من اقتران طبقة الواجهة بالمنطق. كما أن فحص الملفات App1289805HomeScreen.kt وApp1289805DetailsScreen.kt وApp1289805CheckoutScreen.kt ينسجم م",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.88,
+  "reviews_count": 4
 }

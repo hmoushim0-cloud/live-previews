@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289499_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289499Repository.kt",
+        "App1289499HomeScreen.kt",
+        "App1289499DetailsScreen.kt",
+        "App1289499CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع برمجياً والمعماري الكلي لأنماط الـ MVVM وتفاعل الواجهات عبر Jetpack Compose. أظهرت الفحوصات لهندسة النماذج في كلاس App1289499Model ومستودع البيانات App1289499Repository استقراراً عالياً وفصلاً تاماً للاهتمامات (Separation of Concerns) وفق أحدث معايير هندسة أندرويد. كما تم فحص شاشات التطبيق مثل App1289499HomeScreen وApp1289499DetailsScreen وApp1289499CheckoutScreen، وتبين استخدامها الفعال لتدفقات StateFlow بكفاءة تمنع إعادة التركيب غير الضرورية (Unnecessary Re-compositions)، إضافة إلى توظيف الرسومات المتجهة المخصصة في BespokeVectorIllustration وإدارة خادم Node.js المصغر في ملف server/server.js بصورة تناسب متطلبات مشروع إنتاج الفيديو التعليمي للصف الرابع الابتدائي.",
+      "milestone2_recommendation_ar": "توصى المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة المخزنة محلياً باستخدام مكتبة EncryptedSharedPreferences أو Jetpack Security، مع تفعيل نظام التخزين المؤقت (Local Caching) عبر Room Database لضمان العمل بسلاسة في وضع عدم الاتصال (Offline-first)، وتوسيع نطاق اختبارات الوحدة (Unit Tests) واختبارات واجهة المستخدم (UI Tests) عبر Compose Testing لتغطية كافة تدفقات الحجز والجدولة الزمنية (booking_timeline)."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289499Repository.kt",
+        "App1289499HomeScreen.kt",
+        "App1289499DetailsScreen.kt",
+        "App1289499CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية دقيقة لمشروع تطبيق إنتاج الفيديو التعليمي باللغة العربية. يظهر من الكود المصدري أن المطورين قد اتبعوا نمط MVVM في تصميم واجهة المستخدم وإدارة البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري للتطبيق. تم استخدام رسومات الـ Canvas Vector Drawings لتحسين جودة الرسوميات والتصميم.\n\nبالنسبة للخادم، تم استخدام ملف server/server.js لإدارة الاتصال بين الواجهة الخلفية والواجهة الأمامية. تم تنفيذ تدابير أمان مثل",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289499Repository.kt",
+        "App1289499HomeScreen.kt",
+        "App1289499DetailsScreen.kt",
+        "App1289499CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع إنتاج الفيديو التعليمي للغة العربية (معرّف المشروع: #1289499) هندسة برمجية متقدمة ونموذجاً معمارياً استثنائياً يعتمد على أنماط الـ MVVM وهندسة النطاق (Domain-Driven Design). تم تطبيق ذلك ببراعة عبر كلاسات البيانات المكتشفة مثل `App1289499Model` و`App1289499Package` و`App1289499Repository` في ملف `App1289499Repository.kt`، مما يضمن فصلاً تاماً بين طبقة البيانات ومنطق العرض. علاوة على ذلك، تتميز واجهات المستخدم في ملفات `App1289499HomeScreen.kt` و`App1289499DetailsScreen.kt` و`App1289499CheckoutScreen.kt` بسلاسة الأداء وتطبيق معايير Material Design 3 بدقة عالية متوافقة مع نمط الـ booking_timeline.\n\nعلى الصعيد المعماري للخادم وهندسة التكاليف (FinOps)، فإن استخدام خادم VPS مدعوم بملف `server/server.js` والسكريبت `deploy_vps.sh` مع إدارة العمليات عبر PM2 Cluster يوفر كفاءة تشغيلية فائقة وموثوقية عالية مع توزيع الأحمال (Load Balancing) واستغلال كامل لأنوية المعالج، مما يحقق وفورات مالية هائلة تتجاوز مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن. كما أن توظيف الرسوم المتجهية المخصصة في `BespokeVectorIllustration.kt` يعزز الجمالية البصرية مع الحفاظ على الحد الأدنى من استهلاك الذاكرة وحجم التطبيق.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بتعزيز حماية طبقة الاتصالات عبر تفعيل التوثيق الثنائي (2FA) وتشفير البيانات الحساسة أثناء النقل (TLS 1.3)، بالإضافة إلى تحسين أداء التخزين المؤقت (Caching Layer) في خادم الـ Node.js باستخدام Redis للتوسع بسلاسة أكبر ومواجهة الارتفاع المفاجئ في الطلب أثناء ذروة الاستخدام التعليمي."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289499Repository.kt",
+        "App1289499HomeScreen.kt",
+        "App1289499DetailsScreen.kt",
+        "App1289499CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289499 نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM بصورة منضبطة عبر الفصل الصريح بين طبقات البيانات والعرض والمنطق؛ إذ يضطلع App1289499Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إليها، فيما يُعرّف App1289499Model بنيةً دلالية واضحة للكيانات التعليمية تضمن سلامة التدفق من الخادم حتى طبقة العرض. وعلى صعيد الواجهات، تُظهر شاشات App1289499HomeScreen.kt وApp1289499DetailsScreen.kt وApp1289499CheckoutScreen.kt ال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

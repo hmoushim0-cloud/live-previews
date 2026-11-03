@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289727_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1289727Repository.kt",
+        "App1289727HomeScreen.kt",
+        "App1289727DetailsScreen.kt",
+        "App1289727CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة MVVM متينة ومطبقة بدقة عالية، حيث تتعامل App1289727Repository مع طبقة البيانات بشكل معزول وفعال، مما يضمن فصل الاهتمامات بين منطق الـ Backend وعرض الواجهة. كما أن استخدام كلاسات Domain Models مثل App1289727Model يضمن تجانس البيانات وتوافقها التام مع StateFlow في الـ ViewModels، بينما تبرز شاشة App1289727HomeScreen سلاسة التدفق البصري للبيانات عبر تصميم Canvas Vector Illustration المخصص الذي يعزز تجربة المستخدم دون استهلاك موارد الجهاز.",
+      "milestone2_recommendation_ar": "اعتماد آلية Cache-Aside مع قاعدة بيانات محلية (Room) لبيانات خطط التسويق الرقمي لضمان سرعة استجابة فورية عند انقطاع الاتصال بالـ VPS المستقل، مع تفعيل مزامنة تفاعية (Delta Sync) لبيانات Rank Data لتقليل حمل الخادم."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289727Repository.kt",
+        "App1289727HomeScreen.kt",
+        "App1289727DetailsScreen.kt",
+        "App1289727CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع منصة تصدر متجرك يتميز بعدة نقاط قوة في الجوانب التقنية والتصميمية. يمكن تلخيص المراجعة الفنية باللغة العربية الفصحى على النحو التالي:\n\n1. نمط MVVM: تم تطبيق نمط Model-View-ViewModel (نمط MVVM) بشكل جيد في الكود، حيث تم فصل الكود المتعلق بالبيانات (Model)، واجهة المستخدم (View)، وكود ربط البيانات (ViewModel). يساعد هذا النمط في تحسين قابلية الصيانة والتطوير واختبار التطبيق.\n\n2. فئات نماذج النطاق (Domain",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289727Repository.kt",
+        "App1289727HomeScreen.kt",
+        "App1289727DetailsScreen.kt",
+        "App1289727CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر كلاسات الـ Domain Models مثل App1289727Model وApp1289727Package، مما يضمن سلامة البيانات وسهولة صيانة المنطق التجاري داخل Repository. كما أن الخادم server/server.js مصمم بكفاءة عالية لدعم نمط booking_timeline مع معالجة بيانات الترتيب (Rank Data) ومقارنتها بأداء WooCommerce في الوقت الفعلي، مما يضمن استجابة سريعة ودقة في عرض البيانات للعميل.",
+      "milestone2_recommendation_ar": "اعتماد استراتيجية التوسع الأفقي باستخدام PM2 Cluster Mode لتوزيع حمل المعالجة على جميع أنوية المعالج في خادم VPS، مما يحسن الأداء بشكل كبير دون زيادة التكاليف."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289727Repository.kt",
+        "App1289727HomeScreen.kt",
+        "App1289727DetailsScreen.kt",
+        "App1289727CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يتميز المشروع بهندسة برمجية رصينة تعتمد على فصل المسؤوليات بوضوح عبر كلاسات الـ Domain Models مثل App128927Model وApp1289727Package، مما يضمن سلامة البيانات وسهولة الاختبار في طبقة الـ Business Logic. كما أن استخدام App1289727Repository كطبقة وصول موحدة للبيانات يعزز من قابلية الصيانة والتوسع، بينما تبرز لوحة BespokeVectorIllustration كإضافة بصرية متميزة تدعم تجربة المستخدم وتقلل من استهلاك عرض النطاق الترددي مقارنة بالصور التقليدية.",
+      "milestone2_recommendation_ar": "يجب تعزيز الأمان والثبات من خلال تطبيق آلية التخزين المؤقت (Caching) الذكية لبيانات Rank Data لتقليل عدد طلبات API، وإضافة طبقة MFA (المصادقة متعددة العوامل) لحماية حسابات المتاجر، بالإضافة إلى تحسين معالجة أخطاء الخادم VPS لضمان استمرارية الخدمة حتى في حال تعطل خدمات الطرف الثالث."
+    }
+  ],
+  "average_rating": 4.9,
+  "reviews_count": 4
 }

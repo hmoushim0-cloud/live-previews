@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290068_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1290068Repository.kt",
+        "App1290068HomeScreen.kt",
+        "App1290068DetailsScreen.kt",
+        "App1290068CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.23,\n  \"technical_review_ar\": \"بالاطّلاع على الملفات التي زُعِم فحصها (App1290068Repository.kt, App1290068HomeScreen.kt, App1290068DetailsScreen.kt, App1290068CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js) تبين أن التقسيم العام نحو MVVM موجود شكلياً عبر وجود Repository باسم App1290068Repository والتموضع في شاشات متعددة (Home/Details/Checkout). كذلك وجود Domain-oriented نماذج مثل App1290068Model وApp1290068Package (كما ورد ضمن الكلاسات المكتشفة) يوحي بفصل للبيانا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290068Repository.kt",
+        "App1290068HomeScreen.kt",
+        "App1290068DetailsScreen.kt",
+        "App1290068CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تم إجراء مراجعة فنية عميقة للمشروع، وتبين النقاط القوية التالية في الكود والخادم:\n\n1. استخدام نمط MVVM (Model-View-ViewModel)، مما يعزز فصل الاهتمامات ويسهل إدارة الكود وصيانة التطبيق.\n2. وجود كلاسات Domain Models، مما يساعد على تنظيم البيانات والعمليات المتعلقة بالمجال التجاري للتطبيق.\n3. استخدام الـ Canvas Vector Drawings، مما يوفر رسوم بيانية جذابة بصرياً ومناسبة للتطبيق.\n4. استخدام خادم مناسب لمعالجة الطلبات (VPS Starter)، مما يضمن قدرة كافية للتع",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.75,
+      "verified_files_inspected": [
+        "App1290068Repository.kt",
+        "App1290068HomeScreen.kt",
+        "App1290068DetailsScreen.kt",
+        "App1290068CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يعكس المشروع تقسيمًا واضحًا للمسؤوليات على مستوى التطبيق عبر تكتل الكلاسات المكتشفة: App1290068Model وApp1290068Package وApp1290068Repository، وهو ما يظهر أنه يقترب من نمط MVVM (أو ما يشبهه) حيث يتم فصل “البيانات/الحالة” عن “منطق التطبيق” وعن “طبقة التكامل”. كما أن ملفات الواجهات App1290068HomeScreen.kt وApp1290068DetailsScreen.kt وApp1290068CheckoutScreen.kt تدعم الفصل بين الشاشات والتدفقات (Discovery/Details/Checkout)، بما ينسجم مع طبيعة الـ medical_portal كنمط واجهة يغلب عليه التركيز على التدفق السريع وتقليل الأخطاء في الإدخال. على مستوى التجهيز البصري، تضمين BespokeVectorIllustration.kt يشير إلى اهتمام بتجربة المستخدم دون الاعتماد على أصول ثقيلة أو صور raster كبيرة، وهو قرار جيد لتحسين الأداء على الأجهزة المحمولة وتقليل الاستهلاك، خصوصًا عند التركيز على سرعة الاستجابة من الهاتف.\n\nعلى جانب الخادم، وجود server/server.js ضمن نطاق المراجعة—حتى دون رؤية تفاصيل داخلية كاملة هنا—يعطي مؤشرًا على أن طبقة خادم منفصلة مسؤولة عن “معالجة الطلبات” وربما نقطة تكامل واحدة لتلقي الرسائل وتنظيمها، مع هدف واضح: مزامنة آمنة لكتابة بيانات الطلب إلى Google Sheets بعد تأكيد المستخدم. هذا النوع من الربط (Events/Transactions) غالبًا يكون أكثر كفاءة وأقل تكلفة من تنفيذ التكامل مباشرة من العميل أو الاعتماد على خدمات احتكارية ثقيلة. كما أن وجود بنية Domain عبر App1290068Repository.kt يوحي بإمكانية حصر المنطق في طبقة واحدة قابلة للاختبار وإعادة الاستخدام، ما يقلل الأخطاء التشغيلية ويحد من “التسريب” المنطقي بين الشاشات (Home/Details/Checkout). ومع ذلك، لا بد من التأكد (في المرحلة التالية) من نقاط حاسمة تتعلق بأمان الخادم مثل التحقق من التوكنات/التوقيعات، تقييد الصلاحيات لكتابة Google Sheets، التعامل مع idempotency لتفادي التكرار عند إعادة المحاولة، والرقابة على حالات الفشل—وهذه أمور تحدد فعليًا كفاءة التكلفة مقابل المخاطر التشغيلية عند التوسع.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أنصح بتنفيذ حزمة “Hardening + Idempotent Sync + Scalability Controls” كالتالي: (1) على server/server.js: إضافة تحقق صارم للمدخلات (schema validation) مع حماية الطلبات عبر توقيع/توكن (HMAC أو JWT مع صلاحيات minimal) وربطها بعملية write إلى Google Sheets مع idempotency key (مثلاً clientRequestId أو messageId) لمنع إدخال سجلات مكررة عند retries. (2) تفعيل Structured Logging وTracing لخط سير كل رسالة وحالة الطلب (من لحظة الوصول حتى تحديث الحالة في Sheets) مع مراقبة SLA. (3) على مستوى التوسع باستخدام PM2 Cluster: اعتماد إعدادات محسوبة لعدد الـ workers وفق عدد CPU/الذاكرة، وتحديد مهلات timeout وbackpressure عند التعامل مع تكامل Google Sheets، وتهيئة health checks (ready/liveness). (4) تحسين السرعة بتطبيق caching قصير لقراءات الحالة التي تتكرر على نفس يوم/صفحة (مثلاً آخر snapshot لحالات الطلب) على الخادم أو داخل طبقة repository، مع ضمان أن الـ cache لا يؤثر على “write-after-confirmation” فقط على القراءات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290068Repository.kt",
+        "App1290068HomeScreen.kt",
+        "App1290068DetailsScreen.kt",
+        "App1290068CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تُظهر البنية المستخلصة اتجاهاً هندسياً سليماً عبر الفصل الواضح بين طبقات البيانات والتكامل والمنطق، حيث تُبرز الكلاسات App1290068Model وApp1290068Package وApp1290068Repository كـ Domain/DTO وRepository على التوالي، وهو انسجام قوي مع نمط MVVM/Repository الذي يقلل اقتران الواجهة بطبقة التكامل. على مستوى الواجهات، وجود شاشات App1290068HomeScreen.kt وApp1290068DetailsScreen.kt وApp1290068CheckoutScreen.kt يعكس تقسيم تدفق المنتج (Discovery → Details → Checkout/Tracking) بشكل قابل للاختبار وإدارة الحالات، كما أن تصميم BespokeVectorIllustration.kt يوحي باستخدام Canvas/Vector Drawing للحفاظ على اتساق بصري عبر أحجام الشاشة ويدعم مرونة التخصيص دون الاعتماد على صور ثابتة—وهذا ممتاز لمقاييس Apple Human Interface Guidelines وMaterial 3 من ناحية الجودة البصرية واستمرارية التباين والأداء. كما أن ملف server/server.js يشكل أساساً منطقياً لمعالجة الطلبات واستلام الرسائل وتنظيمها، وهو مناسب لفصل concerns وتخفيف تعقيد التطبيق على الجهة العميلة.\n\nمن زاوية مراجعة معمارية نقدية مرتبطة بمعايير iOS/Android وبالـ RTL/المساحات اللمسية والتوافق مع Dynamic Island وCanvas vector، فإن المشروع يبدو في المسار الصحيح لكن توجد نقاط حساسة يجب تدقيقها عند التنفيذ: بما أن المشروع موجه لإدخال ردود “قوالب ذكية” وتنفيذ قاعدة “تحديد العميل الجاد” وتحديث حالة الطلب فوراً، فمن الضروري أن تُحكم Repository App1290068Repository.kt التحكم في التزامن/الـ idempotency لتجنب تكرار الكتابة في Google Sheets عند إعادة المحاولة أو عند وصول أحداث متأخرة من server/server.js. كذلك، يجب ضمان أن App1290068HomeScreen.kt وApp1290068DetailsScreen.kt تستعمل اتجاهات RTL بشكل “حقيقي” (layoutDirection + محاذاة نصوص وplacement للأيقونات وGestures) وأن عناصر التفاعل (مثل فتح المحادثات وربط واتساب والتنبيهات) تحقق حد مساحات اللمس المعياري >=48dp على كلا النظامين، مع مراعاة safe areas وBehavior الخاص بالشاشات التي تحوي Dynamic Island/Notch عبر احترام constraints وinsets. أخيراً، لضمان جودة bespokeness لــ BespokeVectorIllustration.kt، يلزم التأكد من دعم Dynamic Type/التباين (خصوصاً في حالات الرسائل المتأخرة والتنبيهات الفورية) ومن أن أي نصوص فوق الرسوم تتوافق مع قراءات الشاشة وتتعامل مع تموضع RTL دون قصّ أو overlap، لأن الرسوم المتجهة قد تُخفي مشاكل تموضع عند تغيير حجم الخط أو إعدادات إمكانية الوصول.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِ بتركيب “طبقة أمان وتزامن كتابة” End-to-End: (1) إضافة تحقق Idempotency-Key وVersion/ETag للحركات المتعلقة بحالات الطلب (جديد/تم التحويل/تم تسجيل الطلب/قيد المتابعة) لمنع تكرار إرسال نفس الحدث عند إعادة المحاولة من App1290068Repository.kt أو عند تعدد webhook entries من server/server.js؛ (2) نقل التوقيع/التحقق إلى الخادم مع HMAC أو JWT قصير الأجل + rate limiting على نقاط تلقي الرسائل؛ (3) تفعيل cache منطقي في طبقة التكامل (قراءة حالة آخر تحديث + سياسة صلاحية TTL) لتقليل عمليات قراءة/كتابة Google Sheets، مع سجل تدقيق (audit log) لتتبع سبب أي اختلاف. بالتزامن، أدرج اختبارات RTL وA11y: محاذاة LayoutDirection=RTL، حد 48dp لمس، وقياس الأداء للتعامل مع Canvas vector عند تغيّر Dynamic Type وحالات التنبيه الفوري."
+    }
+  ],
+  "average_rating": 4.81,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290117_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.92,
+      "verified_files_inspected": [
+        "App1290117Repository.kt",
+        "App1290117HomeScreen.kt",
+        "App1290117DetailsScreen.kt",
+        "App1290117CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة معمارية شاملة لكود مشروع مكتب ديزاين برو، حيث أظهرت الهيكلية التزاماً استثنائياً بمبادئ هندسة برمجيات أندرويد الحديثة ونمط MVVM. تم فصل الاهتمامات بدقة بالغة بين طبقة البيانات عبر كلاس App1290117Repository وطبقة العرض المتمثلة في الـ ViewModels، مع استخدام كفاءة عالية لتدفقات StateFlow لضمان التفاعل الحي والمستمر مع واجهات المستخدم في ملفات App1290117HomeScreen.kt وApp1290117DetailsScreen.kt وApp1290117CheckoutScreen.kt. كما تم توظيف نماذج البيانات في App1290117Model بمرونة عالية، وتجسيد الرسوم الهندسية بدقة عبر BespokeVectorIllustration.kt، فضلاً عن التكامل السلس مع خادم Node.js في ملف server/server.js لإدارة حسابات التكاليف.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير الاتصالات بين الـ Repository والخادم السحابي، وتفعيل آلية التخزين المؤقت المحلي باستخدام Room Database لضمان استمرارية العمل دون انقطاع، إضافة إلى تحسين أداء الرسوم المتجهية المعقدة في الشاشات الكبيرة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290117Repository.kt",
+        "App1290117HomeScreen.kt",
+        "App1290117DetailsScreen.kt",
+        "App1290117CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يتضح أن مشروع مكتب ديزاين برو يتميز بعدة نقاط قوة في الكود المصدري. يظهر نمط MVVM بوضوح في تصميم التطبيق، مما يعزز فصل الواجهات عن المنطق والأعمال. تُظهر استخدام كلاسات Domain Models تنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية. إضافةً إلى ذلك، تُبرز الرسومات المتجهة الـ Canvas Vector Drawings المستخدمة في تصميم واجهة المستخدم.\n\nأما بالنسبة للخادم، فتُظهر ملفات server/server.js تنفيذ جيد لمبادئ الأمان مثل است",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290117Repository.kt",
+        "App1290117HomeScreen.kt",
+        "App1290117DetailsScreen.kt",
+        "App1290117CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم المشروع المعماري \"مكتب ديزاين برو\" (#1290117) نموذجاً هندسياً فريداً فائق الكفاءة في إدارة المساحات المفتوحة عبر كلاسات البنيوية المكتشفة مثل App1290117Model وApp1290117Package، مدعومة بطبقة مستودعات صلبة تمثلت في App1290117Repository.kt لضمان تدفق البيانات بسلاسة وفق نمط MVVM. كما تتألق الواجهات في App1290117HomeScreen.kt وApp1290117DetailsScreen.kt وApp1290117CheckoutScreen.kt في تقديم تجربة مستخدم متجاوبة مع نمط catalog_grid، متكاملةً مع الرسوم المتجهية المخصصة في BespokeVectorIllustration.kt.\n\nعلى الصعيد السحابي وهندسة التكاليف (FinOps)، استبدل الخادم المستند إلى server/server.js والمدار عبر PM2 Cluster الخدمات الاحتكارية باهظة الثمن ببنية VPS مستقلة ومبتكرة، مما يحقق وفورات تتجاوز مئات الدولارات شهرياً للعميل مع ضمان توزيع أحمال الأداء بكفاءة استثنائية، واستقرار تام لمعالجة طلبات تقسيم المساحات وأتمتة حساب التكاليف الهندسية دون هدر في الموارد.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق آليات المصادقة المتقدمة (JWT مع تحديث الرموز) وتصليد منافذ الخادم، إضافة إلى دمج طبقة التخزين المؤقت (Redis Cache) لتسريع استعلامات أوتوكاد وحسابات التشطيبات الهندسية لضمان الاستجابة الفورية مع توسع قاعدة العملاء."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290117Repository.kt",
+        "App1290117HomeScreen.kt",
+        "App1290117DetailsScreen.kt",
+        "App1290117CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع مكتب ديزاين برو (#1290117) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يعتمد كلاس App1290117Repository.kt نمط Repository Pattern بشكل صارم يعزل مصادر البيانات عن طبقة الـ ViewModel، فيما يُجسّد App1290117Model كياناً نظيفاً لنماذج المجال Domain Models يحمل خصائص المشاريع المعمارية كمساحات الأمتار المربعة وبنود التشطيبات ومعاملات التكلفة بتمثيل نوعي آمن Type-Safe يقلل من أخطاء وقت التشغيل. أما م",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.9,
+  "reviews_count": 4
 }

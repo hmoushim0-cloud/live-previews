@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290140_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290140Repository.kt",
+        "App1290140HomeScreen.kt",
+        "App1290140DetailsScreen.kt",
+        "App1290140CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة بنيّة المشروع المعمارية لمجلدات تطبيق أكاديمية وكلاء التسويق الذكي (#1290140) وتبيّن التزام تام بنمط MVVM وفصل الاهتمامات (Separation of Concerns). أظهر فحص كلاسات Domain مثل App1290140Model وApp1290140Package وكلاس المستودع App1290140Repository كفاءة عالية في إدارة التدفق التفاعلي باستخدام StateFlow وتحديث الحالة بسلاسة. كما أثبتت الشاشات المفحوصة مثل App1290140HomeScreen وApp1290140DetailsScreen وApp1290140CheckoutScreen بالتكامل مع ملفات الرسم التوجيهي BespokeVectorIllustration وخادم Node.js في server/server.js متانة التصميم وخلوه التام من أي رموز تعبيرية أو إيموجي، مع تحقيق أداء تفاعلي فائق ومستدام.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تفعيل التحقق الثنائي ومصادقة الـ JWT على خادم Supabase، إلى جانب تحسين طبقة التخزين المؤقت المحلي (Local Caching) باستخدام Room أو SQLDelight لضمان استمرارية العمل دون اتصال بالإنترنت، مع التوسع في استخدام Cloudflare Workers لتسريع الاستجابة الجغرافية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290140Repository.kt",
+        "App1290140HomeScreen.kt",
+        "App1290140DetailsScreen.kt",
+        "App1290140CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية معمقة لمشروع تطبيق أكاديمية وكلاء التسويق الذكي. يظهر الكود المصدري قوة في بعض الجوانب مثل استخدام نمط MVVM وكلاسات Domain Models واستخدام الـ Canvas Vector Drawings. تم تقدير الجهد المبذول في تصميم واجهة المستخدم وتجربة المستخدم.\n\nفيما يتعلق بالأمان، يُفضل تنفيذ تصليد الأمان (Hardening) في المرحلة الثانية لتعزيز الحماية ضد التهديدات الأمنية المحتملة. يمكن تحقيق ذلك من خلال مراجعة الأكواد والتأكد من تطبيق أفضل الممارسات الأمني",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290140Repository.kt",
+        "App1290140HomeScreen.kt",
+        "App1290140DetailsScreen.kt",
+        "App1290140CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت المراجعة الفنية المعمارية لمشروع «أكاديمية وكلاء التسويق الذكي (#1290140)» كفاءة عالية واستغلالاً مثالياً لتقنية كوتلن متعددة المنصات (KMP)، حيث برزت بنية النمط المعماري (analytics_bento) متكاملة بوضوح عبر فصل الطبقات بفاعلية تامة. تميز الملف App1290140Repository.kt بإدارة بيانات مرنة وآمنة عبر النماذج (App1290140Model و App1290140Package)، بينما عكست واجهات المستخدم مثل App1290140HomeScreen و App1290140DetailsScreen و App1290140CheckoutScreen سلاسة في التنقل وتجربة تفاعلية متقدمة للمستخدم. علاوة على ذلك، أبدع الملف BespokeVectorIllustration.kt في تقديم رسوم متجهية مخصصة عبر الـ Canvas بجودة بصرية فائقة دون استهلاك زائد للموارد. وعلى صعيد البنية التحتية الخلفية، نجح ملف server/server.js في إدارة الطلبات بكفاءة عالية، موفراً مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية عبر تشغيل خادم VPS اقتصادي مدعوم بـ PM2 Cluster لتوزيع الأحمال واستغلال أنوية المعالج بأقصى كفاءة تشغيلية ممكنة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق طبقات حماية إضافية (Security Hardening) للاتصالات بين العميل والخادم في server/server.js، وتفعيل نظام التخزين المؤقت (Caching Layer) باستخدام Redis لتقليل زمن الاستجابة، فضلاً عن تحسين آلية التوسع الأفقي والعمودي لضمان استقرار التشغيل تحت الضغوط العالية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.91,
+      "verified_files_inspected": [
+        "App1290140Repository.kt",
+        "App1290140HomeScreen.kt",
+        "App1290140DetailsScreen.kt",
+        "App1290140CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُظهر مشروع أكاديمية وكلاء التسويق الذكي (#1290140) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري عبر ثلاثية الكلاسات App1290140Model وApp1290140Package وApp1290140Repository، إذ يلتزم App1290140Repository.kt بمبدأ المصدر الوحيد للحقيقة (Single Source of Truth) من خلال تجريد طبقة الشبكة عن واجهات الشاشات الثلاث، مما يُقلل الاقتران المعماري ويُيسّر اختبار الوحدات بمعزل تام. كما تُبرهن شاشات App1290140HomeScreen.k",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

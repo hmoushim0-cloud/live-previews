@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289391_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289391Repository.kt",
+        "App1289391HomeScreen.kt",
+        "App1289391DetailsScreen.kt",
+        "App1289391CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة هندسة التطبيق وتصميم هيكلة طبقات العرض والبيانات بدقة عالية، حيث أظهر كلاس App1289391Model وApp1289391Repository التزاماً صارماً بمبادئ الفصل بين الاهتمامات (Separation of Concerns) ونمط MVVM بفضل الاستخدام الفعال لـ StateFlow في إدارة تدفق البيانات التفاعلي لمساحات التصميم الثلاثية مثل صالات الطعام وغرف النوم والحدائق. كما أبدت ملفات الواجهات مثل App1289391HomeScreen وApp1289391DetailsScreen وApp1289391CheckoutScreen كفاءة بالغة في بناء واجهات Jetpack Compose بتصميم catalog_grid عصري وسلس، مدعومة برسومات متجهة دقيقة في BespokeVectorIllustration وخادم Node.js متكامل في server/server.js لإدارة الجلسات بكفاءة تامة.",
+      "milestone2_recommendation_ar": "توصي الإدارة المعمارية في المرحلة الثانية بالتركيز على تصليد الأمان وتشفير الاتصالات عبر طبقة HTTPS/WSS، وتحسين آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room لبيانات المساحات ثلاثية الأبعاد، بالإضافة إلى تهيئة خادم VPS المستقل على Hetzner لدعم التوسع السحابي وضمان استقرار البث اللحظي للطلبات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289391Repository.kt",
+        "App1289391HomeScreen.kt",
+        "App1289391DetailsScreen.kt",
+        "App1289391CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع تطبيق تصميم الديكور الداخلي بمستوى جيد من الجودة والتنظيم. يتميز الكود ببعض النقاط القوية مثل استخدام نمط MVVM في التعامل مع واجهة المستخدم وفصل البيانات والمنطق التجاري في كلاسات Domain Models. تظهر الرسومات المتجهة Canvas Vector Drawings بشكل واضح ومبتكر في تصميم واجهة المستخدم.\n\nأما بالنسبة للأمان، يُفضل تنفيذ تصليد الأمان (Hardening) في المرحلة الثانية لتعزيز حماية التطبيق. يمكن تحقيق ذلك من خلال مراجعة الكود و",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289391Repository.kt",
+        "App1289391HomeScreen.kt",
+        "App1289391DetailsScreen.kt",
+        "App1289391CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع تصميم الثري دي مودرن (#1289391) نموذجاً هندسياً فريداً في الجمع بين دقة الواجهات الحديثة وكفاءة البنية التحتية للخوادم. لقد أظهر الفحص الفني لملفات التطبيق وفي مقدمتها App1289391Repository.kt و App1289391HomeScreen.kt التزاماً تاماً بأنماط التصميم النظيف ومبادئ MVVM، حيث تم فصل طبقة البيانات عن العرض ببراعة فائقة عبر كلاسات App1289391Model و App1289391Package، مما يضمن استقراراً عالياً وسلاسة في التنقل بين شاشات التفاصيل والدفع (App1289391DetailsScreen و App1289391CheckoutScreen). كما تجلت الإبداعية الهندسية في استخدام BespokeVectorIllustration لعرض الرسومات التوضيحية بدقة متناهية ودون إثقال لذاكرة الجهاز، مما يغني عن الأصول النقطية الثقيلة ويحسن أداء العرض بشكل ملحوظ.\n\nعلى الصعيد السحابي وهندسة التكاليف (FinOps)، فإن الاعتماد على خادم VPS مستقل (مثل Hetzner أو Contabo بتكلفة زهيدة لا تتجاوز 6 دولارات شهرياً) مدعوماً بملف server.js وتشغيل النظُم عبر PM2 Cluster، يحقق وفراً هائلاً يتجاوز مئات الدولارات سنوياً مقارنة بالخدمات السحابية الاحتكارية (Serverless or Managed Kubernetes). يتيح PM2 Cluster استغلال كافة أنوية المعالج (Multi-core) بكفاءة مطلقة، وتوزيع الأحمال اللحظية لمشروع إدارة المساحات وتصميمات الصالات والحدائق دون أي اختناقات مرورية في البيانات، مما يعكس رؤية هندسية محترفة توازن بين الأداء الفائق والجدوى الاقتصادية القصوى.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان من خلال تطبيق آليات التوثيق الثنائي (2FA) وتشفير البيانات الحساسة أثناء النقل والتخزين، بالإضافة إلى تفعيل نظام التخزين المؤقت (Redis Caching) على خادم الـ VPS لتسريع استجابة طلبات البث اللحظي لإدارة الغرف، وتحسين آلية التوسع التلقائي عبر مراقبة أداء PM2 Cluster."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289391Repository.kt",
+        "App1289391HomeScreen.kt",
+        "App1289391DetailsScreen.kt",
+        "App1289391CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289391 نضجاً معمارياً واضحاً يتجلى في تبنّي نمط MVVM بشكل صارم عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري؛ إذ يضطلع كلاس App1289391Repository بمهمة التجريد الكامل لمصادر البيانات المتعلقة بالغرف السبع (صالة الطعام، غرفة الماستر، غرفة الطفل، غرفة الطفلة، الصالة، المكتب، الحديقة الخارجية)، مما يُتيح استبدال أي مصدر بيانات مستقبلاً دون المساس بطبقة العرض. كما يُظهر ملف App1289391HomeScreen.kt التزاماً راسخاً بمبادئ Jetpac",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

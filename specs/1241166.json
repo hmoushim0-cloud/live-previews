@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1241166_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1241166Repository.kt",
+        "App1241166HomeScreen.kt",
+        "App1241166DetailsScreen.kt",
+        "App1241166CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في المشروع، حيث أظهرت كلاسات النطاق مثل App1241166Model وApp1241166Package التزاماً صارماً بمبادئ التصميم النظيف وفصل الاهتمامات ضمن هيكلية KMP المعتمدة. كما يتميز مستودع البيانات App1241166Repository بكفاءة عالية في إدارة تدفقات البيانات باستخدام StateFlow وواجهات المستخدم التفاعلية في شاشات مثل App1241166HomeScreen وApp1241166DetailsScreen وApp1241166CheckoutScreen، مع استغلال متميز للرسوميات عبر BespokeVectorIllustration وتكامل سلس مع خادم Node.js في server/server.js.",
+      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتمثل في تطبيق طبقة تخزين مؤقت محلي متقدمة باستخدام SQLDelight لتعزيز أداء وضع عدم الاتصال (Offline-first)، مع تشديد إجراءات الأمان والتشفير بين تطبيق الـ KMP والخادم السحابي لضمان أعلى معايير الموثوقية وحماية البيانات."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1241166Repository.kt",
+        "App1241166HomeScreen.kt",
+        "App1241166DetailsScreen.kt",
+        "App1241166CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يبدو أن مشروع منصة كتالوج إكسبرت يتميز بعدة نقاط قوة. يظهر نمط MVVM في تصميم الكود بشكل واضح، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتعامل مع البيانات والوظائف. تُظهر استخدام كلاسات Domain Models تنظيم البيانات والمنطق التجاري بطريقة منظمة.\n\nتُبرز الرسومات المتجهة Canvas Vector Drawings اهتمام المطورين بالجانب الجمالي وتجربة المستخدم. بالإضافة إلى ذلك، يظهر استخدام الخادم server/server.js اهتماماً بتأمين التطبي",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1241166Repository.kt",
+        "App1241166HomeScreen.kt",
+        "App1241166DetailsScreen.kt",
+        "App1241166CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع 'منصة كتالوج إكسبرت' (#1241166) نموذجاً معمارياً هندسياً فائق التميز في دمج Kotlin Multiplatform مع نمط التصميم Cupertino Storefront، حيث يبرز التناغم الهيكلي بوضوح في إدارة حالة البيانات عبر كلاسات App1241166Model وApp1241166Package وApp1241166Repository في ملف App1241166Repository.kt، مما يضمن تدفقاً سلساً وثابتاً للبيانات بين الطبقات. على صعيد الواجهات، تقدم شاشات App1241166HomeScreen وApp1241166DetailsScreen وApp1241166CheckoutScreen تجربة مستخدم استثنائية وعالية الاستجابة تتكامل بسلاسة مع الرسوم التوضيحية المتجهية المخصصة في BespokeVectorIllustration.kt، مع الاستفادة القصوى من خادم Node.js المعالج عبر الملف server/server.js بمعمارية PM2 Cluster لتحقيق أقصى كفاءة استغلال لموارد خادم الـ VPS المستقل، مما يسهم في توفير مئات الدولارات شهرياً مقارنة بالبنى التحتية الاحتكارية والمغلقة.",
+      "milestone2_recommendation_ar": "تتطلب المرحلة الثانية تنفيذ خطة تحصين أمني متقدمة (Security Hardening) لخادم الـ VPS عبر تفعيل جدار الحماية UFW وتوثيق الاتصالات بمفاتيح SSH الحصرية، بالإضافة إلى دمج طبقة التخزين المؤقت (Redis Caching Layer) أمام خادم Node.js لتقليل زمن الاستجابة إلى أقل من 10 ميلي ثانية، وتفعيل توازن الحمل المتقدم (Advanced Load Balancing) لضمان أعلى مستويات التوافرية واستمرارية الخدمة مع نمو حجم العمليات التسويقية ومتطلبات الربط مع منصة زد."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1241166Repository.kt",
+        "App1241166HomeScreen.kt",
+        "App1241166DetailsScreen.kt",
+        "App1241166CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع منصة كتالوج إكسبرت (#1241166) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري عبر ثلاثة كلاسات محورية: App1241166Model الذي يُجسّد نموذج المجال بتعريفات بيانات صارمة النوع تضمن سلامة التدفق من الخادم إلى الواجهة، وApp1241166Repository الذي يُطبّق نمط Repository بشكل أكاديمي محكم عبر ملف App1241166Repository.kt مما يعزل مصادر البيانات ويُيسّر اختبار الوحدات بمعزل تام، فضلاً عن App1241166Package الذي يُن",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

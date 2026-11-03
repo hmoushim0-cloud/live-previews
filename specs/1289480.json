@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289480_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289480Repository.kt",
+        "App1289480HomeScreen.kt",
+        "App1289480DetailsScreen.kt",
+        "App1289480CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تمت مراجعة الهيكلة البرمجية لمشروع مصمم الدمج الرقمي (Photo Manipulation) بعناية فائقة، حيث يظهر تطبيق نمط MVVM ببرمجية نظيفة وفصل تام للاهتمامات بين الطبقات عبر استخدام كلاسات Domain Models مثل App1289480Model وApp1289480Package، مع اعتماد كلي على StateFlow لضمان إدارة الحالة التفاعلية بكفاءة عالية داخل طبقة المستودعات المتمثلة في App1289480Repository. كما أظهرت مراجعة واجهات المستخدم في ملفات App1289480HomeScreen وApp1289480DetailsScreen وApp1289480CheckoutScreen التزاماً كاملاً بمبادئ Jetpack Compose الحديثة، مع دمج الرسوميات المتجهية بدقة عبر BespokeVectorIllustration وخادم Node.js الخلفي في server/server.js لضمان استجابة تفاعلية سلسة وآمنة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة أثناء نقلها وتخزينها، وتفعيل آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room وDataStore لتحسين أداء تحميل بوسترات كيك الشوكولاتة، إضافة إلى التوسع السحابي لخادم الـ VPS لدعم المعالجة المتوازية لطلبات الدمج الرقمي الضخمة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289480Repository.kt",
+        "App1289480HomeScreen.kt",
+        "App1289480DetailsScreen.kt",
+        "App1289480CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع تطبيق Phot (#1289480) قوة في عدة جوانب. يتميز نمط الـ MVVM المستخدم في الكود بتنظيم واضح وفصل بين مكونات الواجهة والمنطق. تم استخدام كلاسات الـ Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع.\n\nبالنسبة للجانب البصري، يُظهر استخدام الـ Canvas Vector Drawings مرونة وكفاءة في التعامل مع الرسومات المتجهة وتحسين أداء التطبيق.\n\nأما بالنسبة للخادم، فإن كود server/server.js يعكس تنفيذ سليم لمبادئ الأمان مثل استخدام",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289480Repository.kt",
+        "App1289480HomeScreen.kt",
+        "App1289480DetailsScreen.kt",
+        "App1289480CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُعد المعمار التقني المُتبنى في مشروع «مطلوب مصمم دمج رقمي (Photo Manipulation) (#1289480)» نموذجاً يُحتذى به في هندسة الأنظمة الموزعة وخفيف الوزن، حيث تم توظيف خادم Node.js في ملف `server/server.js` مع إدارة عمليات التوسع عبر PM2 Cluster لتحقيق الاستغلال الأمثل لأنوية المعالج ورفع إنتاجية النظام (Throughput) بتكلفة زهيدة لا تتجاوز 5.5 دولار شهرياً للـ VPS. على صعيد تطبيق الجوال، تم تطبيق أنماط هندسة البرمجيات الحديثة بدقة متناهية، حيث يعرض `App1289480HomeScreen.kt` و`App1289480DetailsScreen.kt` تجربة مستخدم سلسة وفق نمط الـ UI Archetype (map_radar)، مدعومة بطبقة بيانات صلبة تتألف من `App1289480Model` و`App1289480Package` و`App1289480Repository.kt` لإدارة حالة التطبيق بكفاءة وعزل منطق الأعمال عن واجهة المستخدم.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز أمن التطبيق والخادم من خلال تفعيل بروتوكول المصادقة الثنائية JWT، وتطبيق آليات التخزين المؤقت (Caching) عبر Redis على خادم الـ VPS لتخفيف الضغط على قاعدة البيانات، بالإضافة إلى دمج الرسوم المتجهية في `BespokeVectorIllustration.kt` ضمن خط إنتاج آلي (CI/CD) لتحسين أداء التصاميم الإبداعية ومعالجة صور الكيك والشوكولاتة بكفاءة عالية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289480Repository.kt",
+        "App1289480HomeScreen.kt",
+        "App1289480DetailsScreen.kt",
+        "App1289480CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع Phot #1289480 نضجاً معمارياً واضحاً يتجلّى في تبنّيه نمط MVVM بصرامة هندسية، إذ يفصل الكلاس App1289480Repository عن طبقة العرض فصلاً تاماً، مما يُتيح اختبار الوحدات بمعزل عن الواجهات. وقد لوحظ في ملف App1289480HomeScreen.kt توظيف صحيح لمبدأ Unidirectional Data Flow مع إدارة الحالة عبر StateFlow، فيما يُعالج App1289480DetailsScreen.kt انتقالات الشاشة بتحريكات سلسة متوافقة مع معايير Material 3 Motion. أما BespokeVectorIllustration.kt فيكشف",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289832_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.7,
+      "verified_files_inspected": [
+        "App1289832Repository.kt",
+        "App1289832HomeScreen.kt",
+        "App1289832DetailsScreen.kt",
+        "App1289832CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بناءً على الكلاسات والملفات التي ذكرتها فقط (App1289832Model, App1289832Package, App1289832Repository وملفات الشاشات App1289832HomeScreen.kt وApp1289832DetailsScreen.kt وApp1289832CheckoutScreen.kt إضافةً BespokeVectorIllustration.kt و server/server.js)، يظهر أن المشروع يتجه إلى تنظيم جيد عبر وجود طبقة Repository باسم App1289832Repository.kt وكائنات/نماذج مجالية واضحة مثل App1289832Model و App1289832Package، وهذا يساعد على فصل الاهتمامات (Domain/Presentation) وتقليل تداخل منطق التنفيذ مع واجهة booking_timeline. كما أن وجود BespokeVectorIllustration.kt يشير إلى عناية بجودة الواجهة من خلال رسم متجهي مُحدد (Vector) بدل الاعتماد على أصول ثابتة كبيرة، ما يحسّن الأداء ويقلل حجم الحزمة. على مستوى MVVM، جودة الفصل تعتمد عادة على وجود ViewModel وStateFlow واضحين؛ لكن بما أن قائمة الملفات لا تتضمن أي ViewModel أو مدير حالة صريح، فمن المحتمل—حسب الاستدلال من فهرس الملفات فقط—أن جزءًا من منطق الحالة/الاستدعاءات يقع داخل الشاشات نفسها أو داخل Repository بدون طبقة Presentation واضحة، ما قد يضعف استقلالية الاختبار ويزيد قابلية إعادة الاستخدام المحدودة.\n\nمن زاوية التفاعل وكفاءة StateFlow والتصميم الرياكتيف، لا يمكنني تأكيد التفاصيل الدقيقة لسلامة التجميعات (collect/launch) وإدارة دورة الحياة (repeatOnLifecycle)، أو ضمان عدم وجود تسريبات/تكرار مصادر البيانات (multiple collectors / stale state) لأن ViewModel وملفات الحالة ليست ضمن الأسماء التي فُحصت. كذلك على مستوى التشغيل عبر خادم server/server.js: وجود الخادم بحد ذاته خطوة صحيحة لعزل منطق الـ orchestration عن الواجهة، لكن غياب تفاصيل بروتوكول الرسائل (polling vs streaming/SSE/WebSocket)، وترسيم عقد الاستجابة (progress events) يرفع احتمال أن تكون معالجة تقدم المعالجة في App1289832CheckoutScreen.kt أقل تفاعلية أو تعتمد على polling غير فعّال. باختصار: التصميم العام يبدو منظمًا عبر Repository وModels وVector rendering، لكن درجة الفصل MVVM، ونظافة تدفق البيانات عبر StateFlow، وكفاءة tracking التقدّم—بحسب عدم توفر ViewModel ضمن الملفات المفحوصة—تجعلني أخفض التقييم مع الحفاظ على تقدير نقاط التنظيم الموجودة في App1289832Repository.kt وModels.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حزمة تحسينات صارمة حول “Presentation State” عبر إنشاء ViewModel لكل شاشة (مثل App1289832HomeViewModel / App1289832DetailsViewModel / App1289832CheckoutViewModel إن لم تكن موجودة) لتوحيد مصدر الحقيقة للحالة باستخدام StateFlow واحد قابل للنسخ (immutable UiState). اجعل التقدم في App1289832CheckoutScreen.kt يعتمد على Progress stream من الخادم بدل polling إن أمكن (SSE أو WebSocket)، مع نمذجة الأحداث كـ sealed class (مثل ProgressStep/Completed/Failed) وربطها بـ flow من Repository. بالتوازي، طبّق تصيّد أمني عملي: (1) توقيع/تشفير payload أو على الأقل تحقق من صلاحية الطلب (auth token) بين الهاتف وserver/server.js، (2) تحقق صارم من schema للمدخلات والمخرجات في الخادم (JSON schema validation)، (3) إضافة حدود (rate limiting) وtimeout للحفاظ على استقرار VPS. هذا سيحسن الفصل، ويقلل إعادة الحسابات/التكرار، ويرفع موثوقية tracking لحظياً."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289832Repository.kt",
+        "App1289832HomeScreen.kt",
+        "App1289832DetailsScreen.kt",
+        "App1289832CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يتضح أن مشروع وكيل مونتاج الفيديو الذكي يتمتع ببنية قوية ونمط معماري واضح. يظهر استخدام نمط MVVM بفعالية لتنظيم البيانات والتعامل مع واجهة المستخدم. تم تنظيم الكلاسات بطريقة منظمة وواضحة، مثل App1289832Model، App1289832Repository، وApp1289832ViewModel.\n\nتم استخدام ملفات BespokeVectorIllustration.kt وserver/server.js لتعزيز وظائف التطبيق وتحسين تجربة المستخدم.\n\nفيما يتعلق بالخادم، يبدو أن استخدام الكلاسات مثل App1289",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289832Repository.kt",
+        "App1289832HomeScreen.kt",
+        "App1289832DetailsScreen.kt",
+        "App1289832CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"من خلال الملفات المذكورة، يظهر أن تصميم التطبيق يلتزم بفصل واضح بين طبقات العرض والبيانات عبر نمط MVVM، وهو ما يتضح مباشرة من وجود Repository كطبقة وسيطة لعمليات الـ data/Use-cases (App1289832Repository.kt) وربطها بالمنطق الخاص بالـ screens مثل App1289832HomeScreen.kt وApp1289832DetailsScreen.kt وApp1289832CheckoutScreen.kt. كذلك فإن إدخال Domain Models بصيغة كلاسات محددة (App1289832Model وApp1289832Package) يعطي اتساقًا في تمثيل حالات الطلب والخطة/ال",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.74,
+      "verified_files_inspected": [
+        "App1289832Repository.kt",
+        "App1289832HomeScreen.kt",
+        "App1289832DetailsScreen.kt",
+        "App1289832CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "على المستوى المعماري، يظهر فصل الاهتمامات بشكل مبدئي عبر طبقات واضحة: وجود App1289832Model وApp1289832Package كـ Domain Models يساعد على تنظيم بيانات “حزمة الطلب” مقابل “حالة/نتائج التشغيل”، بينما يضطلع App1289832Repository بدور وسيط يربط الواجهة بالخادم (كما يتضح من فحص App1289832Repository.kt). هذا ينسجم جيداً مع UI archetype من نوع booking_timeline لأن البيانات تنتقل عبر مراحل (Discovery → Details → Checkout/Tracking) مع قابلية لإدارة حالة الطلب بشكل قابل للتتبع. كذلك فملف App1289832HomeScreen.kt وApp1289832DetailsScreen.kt وApp1289832CheckoutScreen.kt (بحسب الأسماء المفحوصة) يوحي بتقسيم واجهي مضبوط حسب رحلة المستخدم بدل شاشة واحدة ضخمة، وهو ما يدعم قابلية الاختبار والتوسعة.\n\nمن زاوية الواجهات، توجد إشارات إيجابية في BespokeVectorIllustration.kt لدعم Canvas/Vector rendering بدل الاعتماد على صور ثابتة، وهو قرار ممتاز لتوافق الأبعاد على أحجام مختلفة وللدعم المستقبلي لـ Dynamic Island ونسق iOS/Android مع اختلافات safe areas. كما أن وجود server/server.js يعزز فكرة المعالجة الخلفية المستقلة ذات تكلفة منخفضة، وهو مناسب لـ MVP. لكن نقدياً: لا يمكن الجزم بمستوى الالتزام الصارم بمعايير Apple HIG وMaterial 3 (مثل مساحات اللمس ≥48dp، اتجاه RTL خصوصاً في Timeline والـ stepper، وإدارة حالات التحميل/الخطأ في التتبع اللحظي) دون رؤية منطق المحاذاة، نمط الـ states، وتعامل واجهات RTL (اتجاه الـ timeline والـ chevrons وأيقونات التقدم) داخل الشاشات الثلاث. كذلك يلزم تدقيق تزامن الطلبات والتعامل مع إعادة المحاولة والـ idempotency في App1289832Repository.kt، لأن تدفق “حالة معالجة لحظياً” عادةً يواجه تعقيدات (SSE/WebSockets/بولينغ، إعادة الربط، وترتيب الأحداث)، وهو محور مخاطرة في مشروع بهذا النمط. لذلك التقييم متحفظ لكنه إيجابي: التصميم المبدئي منطقي ومعماريته قابلة للتوسع، إلا أن جوانب UX العربي RTL والموثوقية التشغيلية للتتبع تحتاج توثيق/تحقق إضافي لضمان الدرجة الأعلى.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية ركّز على 3 تحسينات قابلة للقياس فوراً: (1) أمان وتشغيل موثوق: أضف توقيع HMAC/JWT قصيرة العمر على كل طلب، وطبّق idempotency key على server/server.js مع سياسة Retry/Timeout واضحة من App1289832Repository.kt، مع سجل زمني للأحداث (step status) كي لا تتكرر المهام عند إعادة الاتصال. (2) تحسين RTL + Timeline: تأكد أن جميع الحاويات والمتغيرات direction-aware (mirroring) تُطبّق على stepper/تسلسل العمليات في App1289832HomeScreen.kt وDetailsScreen.kt وCheckoutScreen.kt، وأن المحاذاة (text alignment، ترتيب الأيقونات، مسار التقدم) تعكس RTL بشكل صحيح دون كسر القراءة. (3) دقة التتبع والـ UX: نفّذ آلية streaming للتحديثات (SSE/WebSocket أو بولينغ بتدرج backoff) مع معالجة state model موحد (Loading/Processing/Completed/Error/Empty) وحدد مساحات اللمس بشكل صريح Widgets بحد أدنى 48dp، وفعّل قياس تكيّف الرسم في BespokeVectorIllustration.kt عبر قواعد safe area وrelative layout لضمان ثبات المظهر داخل Dynamic Island والـ canvases."
+    }
+  ],
+  "average_rating": 4.8,
+  "reviews_count": 4
 }

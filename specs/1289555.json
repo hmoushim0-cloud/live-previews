@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289555_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289555Repository.kt",
+        "App1289555HomeScreen.kt",
+        "App1289555DetailsScreen.kt",
+        "App1289555CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"المشروع يُظهر تطبيقًا متقنًا لنمط MVVM، حيث تُفصل طبقة الـ Repository (App1289555Repository.kt) عن الـ ViewModel (التي تُستورد في App1289555HomeScreen.kt وApp1289555DetailsScreen.kt) والـ UI، مما يضمن قابلية الصيانة والاختبار. تُستخدم StateFlow بكفاءة في الـ Repository لتوفير تدفق بيانات مستمر، وتُستقبل هذه البيانات في الـ ViewModel عبر collectAsState، ما يضمن تحديثًا فوريًا للواجهة في Jetpack Compose دون الحاجة إلى استدعاءات متكررة. كما أن استخدام BespokeVec",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289555Repository.kt",
+        "App1289555HomeScreen.kt",
+        "App1289555DetailsScreen.kt",
+        "App1289555CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المقدم، يظهر أن مشروع تحليل الأعمال الذكي يتمتع بنقاط قوة عديدة. يُشيد النمط المعماري MVVM بفصل العرض عن المنطق والأعمال، مما يعزز قابلية الصيانة والتوسع. تُعتبر استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري ممارسة جيدة لضمان تناسق البيانات وتقليل التعقيد.\n\nيُظهر استخدام Canvas Vector Drawings في تصميم الواجهات إبداعًا وتميزًا.\n\nأما بالنسبة للخادم، فإن استخدام server/server.js يعكس فهمًا جيدًا لمفاهيم الأمان",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289555Repository.kt",
+        "App1289555HomeScreen.kt",
+        "App1289555DetailsScreen.kt",
+        "App1289555CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يظهر المشروع اعتماداً قوياً على نمط MVVM مع فصل واضح بين الـ ViewModel والـ Repository، ما يضمن قابلية الاختبار وسهولة الصيانة. تُستَخدم كلاسـات الـ Domain Models مثل App1289555Model و App1289555Package لتجميع البيانات وتوفير طبقة تجريدية بين الـ UI والـ Data Layer، ما يتيح توسيع نطاق التطبيق بسهولة. كما يبرز استخدام BespokeVectorIllustration.kt كأداة رسم Canvas مخصصة، مما يضيف طابعاً بصرياً فريداً ويقلل الحاجة إلى ملفات SVG ثانوية. على الجانب الخادم، يُظهر server/server.js بنية خفيفة مع دعم PM2 Cluster لتوزيع الحمل، ما يضمن استقرار الخدمة مع استهلاك منخفض للموارد. هذه الممارسات تجعل البنية تحتية أقل تكلفة مقارنة بالخدمات السحابية الاحتكارية، مع الحفاظ على الأداء والمرونة.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بدمج آلية التشفير AES-256 على مستوى الـ API endpoints وتفعيل TLS 1.3 في جميع الاتصالات، مع إضافة طبقة Cache محلية للـ Power BI API لتقليل استهلاك الـ API Calls. كما يُفضَّل توسيع الـ PM2 Cluster إلى 2-3 نسخ مع إعداد Auto-Scaling على مستوى الـ VPS لضمان استجابة سريعة أثناء فترات الذروة، مع مراقبة الأداء عبر أدوات مثل Prometheus و Grafana."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289555Repository.kt",
+        "App1289555HomeScreen.kt",
+        "App1289555DetailsScreen.kt",
+        "App1289555CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"يُظهر مشروع \\\"تحليل الأعمال الذكي\\\" بنية معماريّة متينة، حيث يُطبّق نمط الـ MVVM عبر فصل واضح بين الـ ViewModel (App1289555HomeScreen.kt، App1289555DetailsScreen.kt، App1289555CheckoutScreen.kt) والـ Repository (App1289555Repository.kt) الذي يتعامل مع مصادر البيانات المتعددة (SQL، CSV، Power BI API). يُستفاد من مكتبة Apache POI و ExcelJS لتوليد ملفات Excel، و PDFBox لإنشاء ملفات PDF، مع تأمين TLS 1.3 وتشفير AES‑256 للبيانات الحساسة، ما يعكس التزامًا قويًا بمع",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

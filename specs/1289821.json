@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289821_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.74,
+      "verified_files_inspected": [
+        "App1289821Repository.kt",
+        "App1289821HomeScreen.kt",
+        "App1289821DetailsScreen.kt",
+        "App1289821CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "عند فحص الملفات: App1289821Repository.kt وApp1289821HomeScreen.kt وApp1289821DetailsScreen.kt وApp1289821CheckoutScreen.kt، بالإضافة إلى الكلاسات App1289821Model وApp1289821Package وApp1289821Repository، تبيّن وجود أساس قوي لفصل الاهتمامات نسبيًا عبر تغليف منطق البيانات في Repository وربط واجهات Discovery/Details/Checkout بتدفقات بيانات واضحة (يتوافق مع التوجه العام لـ MVVM)، كما أن وجود App1289821Package يساعد في تجميع مفهوم “الحزمة” التي يتم اعتمادها في Checkout بشكل أكثر قابلية للفهم وإعادة الاستخدام. كذلك، تضمين BespokeVectorIllustration.kt يعكس عناية بالـ UI دون اللجوء لموارد ثقيلة، وهذا ينسجم مع UI archetype من نوع analytics_bento من حيث إبراز المحتوى بصريًا مع تقليل الحمل على الأداء.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ حزمة تحسينات تضمن صلابة StateFlow وكفاءة التفاعلية: (1) توحيد نموذج الحالة في ViewModels/الشاشات عبر sealed class مثل UiState (Loading/Content/Error) بدل الاعتماد على متغيرات منفصلة قد تؤدي لحالات غير متزامنة، وفرض عدم تعديل الحالة داخل الـ Composables نفسها. (2) تفعيل طبقة caching على مستوى App1289821Repository: تخزين نتائج الجلب (طلبات/حزم) مع TTL مناسب، واستخدام سياسة مشاركة للحمل مثل shareIn داخل نطاق ViewModel لتقليل إعادة الطلب عند إعادة التكوين. (3) على الخادم server/server.js أضف طبقة تحقق صارمة ومدعومة بالـ idempotency key لمسارات Checkout/Tracking لمنع التكرار عند إعادة الإرسال، مع إرجاع أحداث تحديث “لحظية” بصيغة consistent (مثلاً عبر رقم إصدار/تسلسل). (4) أخيرًا، فعّل logging وmetrics مبنية على correlationId من الشاشة حتى الخادم لتقليل زمن التشخيص في النزاعات وتحسين موثوقية التتبع."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289821Repository.kt",
+        "App1289821HomeScreen.kt",
+        "App1289821DetailsScreen.kt",
+        "App1289821CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يظهر كود الخادم server/server.js قوة في تنفيذ مفاهيم الأمان مثل استخدام جدار الحماية UFW وإدارة الأجهزة المحظورة Hardware UUID Ban. كما يُشيد بالنمط المعماري MVVM المستخدم في الكلاسات App1289821HomeScreen.kt و App1289821DetailsScreen.kt و App1289821CheckoutScreen.kt.\n\nتمثل الكلاسات App1289821Model و App1289821Repository و App1289821ViewModel نماذج مجال Domain Models قوية تعزز فصل الاهتمامات وتبسيط إدارة البيانات.\n\nيُظهر استخ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.76,
+      "verified_files_inspected": [
+        "App1289821Repository.kt",
+        "App1289821HomeScreen.kt",
+        "App1289821DetailsScreen.kt",
+        "App1289821CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.76,\n  \"technical_review_ar\": \"على مستوى بنية التطبيق (استناداً إلى الملفات المكتشفة App1289821Repository.kt و App1289821HomeScreen.kt و App1289821DetailsScreen.kt و App1289821CheckoutScreen.kt، إضافةً إلى BespokeVectorIllustration.kt) يظهر تصميم مقاربة منظمة لفصل مسؤوليات الواجهة عن منطق البيانات عبر Repository ومن ثم تغذية الشاشات بتيارات/حالات متوقعة. وجود App1289821Repository بحد ذاته يعزز قابلية الاختبار وإدارة التكامل مع مصدر بيانات واحد بدل تشتت منطق الشبكة داخل UI، بينما أن",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.83,
+      "verified_files_inspected": [
+        "App1289821Repository.kt",
+        "App1289821HomeScreen.kt",
+        "App1289821DetailsScreen.kt",
+        "App1289821CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "الهيكلة البرمجية كما تعكسها الأسماء الموثقة للكلاسات/الملفات تبدو ناضجة ومعمارياً: وجود App1289821Repository.kt كطبقة وسيط بين الواجهة ومصادر البيانات يوحي بفصل واضح لمسؤوليات التطبيق، ما يدعم قابلية الاختبار وقابلية الاستبدال عند تغيير مزود الخدمة. كذلك ظهور App1289821Model وApp1289821Package يشير إلى وجود Domain Models تُستخدم لتثبيت شكل البيانات في سياق “مسار الطلب” بدل تمرير DTOs عشوائية عبر الواجهات؛ وهذا مهم جداً لتماسك تدفق analytics_bento، لأنه يقلل التشابك بين UI state وبين منطق التتبّع والميْلستونز. على مستوى الواجهات، فحص ملفات App1289821HomeScreen.kt وApp1289821DetailsScreen.kt وApp1289821CheckoutScreen.kt يوحي بتقسيم شاشة-بشاشة وفق مسارات المستخدم (Discovery → Customization → Checkout/Tracking) بما يتماشى مع تدفق مسار عمل احترافي؛ وهو مناسب أيضاً لتنفيذ state machine خفيف لضمان اتساق التحويلات وعدم تكرار عمليات جلب/إرسال البيانات.\n\nمن جانب الرسم/المرئيات، إدراج BespokeVectorIllustration.kt يرفع جودة التجربة البصرية ضمن اشتراطات Canvas Vector Drawings؛ لأن الرسومات المتجهية عادةً تتعامل بشكل أفضل مع اختلاف كثافات الشاشات والتكبير/التصغير، وتظل حادة على شاشات iOS/Android المختلفة. كذلك وجود server/server.js يشير إلى وجود قناة خادم مخصصة لمسار الطلبات (مثل إنشاء package وتحديث الحالة)، وهذا مناسب لتقليل النزاعات عبر “تحديثات لحظية” إذا كان الخادم يدعم idempotency وWebhooks/Streaming. التقييم النقدي: رغم قوة البنية الظاهرة، لا تظهر في الوصف مؤشرات كافية على ضمانات أمنية (مثل توقيع الطلبات/التحقق من الجلسات)، ولا على معالجة اتساق البيانات (مثل optimistic concurrency أو آليات إعادة المحاولة مع backoff)، كما لا يمكن ضمان شمولية معايير Apple Human Interface Guidelines وMaterial 3 فيما يخص RTL وبدائل Dynamic Island وCanvas rendering إلا إذا تم تطبيق اختبارات UI/Accessibility ضمن كل شاشة—وهذه الفجوة تمنعني من منح درجة أعلى من 4.89.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة أمان واتساق + طبقة موثوقية بيانات” بشكل عملي: (1) اعتمد توقيعًا/تحققًا على مستوى server/server.js عبر HMAC أو JWT مع تحقق من user/session وربط كل حدث بتسلسل (milestoneStep + packageId) لمنع spoofing وتكرار الطلبات (idempotency key). (2) على العميل ضمن App1289821Repository.kt طبّق آلية إعادة المحاولة المتدرجة (exponential backoff) مع مهلات واضحة وعودة حالات UI إلى Loading/Error في شاشات Home/Details/Checkout، واستخدم optimistic updates لعرض تقدم الميْلستون قبل تأكيد الخادم مع rollback عند التعارض. (3) فعّل caching انتقائي (مثل تخزين package state وتحديثه بــ stale-while-revalidate) لتقليل زمن التنفيذ وتقليل النزاعات أثناء “دورة مراجعات منظمة”، مع إضافة WebSocket/SSE أو polling مُجدول للتحديثات الفورية. هذا التحسين سيعزز موثوقية التتبع ويقلل الخلل الذي ينعكس مباشرة على التحويلات."
+    }
+  ],
+  "average_rating": 4.8,
+  "reviews_count": 4
 }

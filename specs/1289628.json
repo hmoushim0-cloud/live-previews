@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289628_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289628Repository.kt",
+        "App1289628HomeScreen.kt",
+        "App1289628DetailsScreen.kt",
+        "App1289628CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع «ألفة» لتعليم الأطفال، حيث أظهرت هيكلة النمط المعماري (MVVM) التزاماً صارماً بفصل الاهتمامات بين طبقة العرض وططبقة البيانات. تم فحص كلاسات الـ Domain Models مثل App1289628Model وApp1289628Package، بالإضافة إلى طبقة المستودعات App1289628Repository.kt، والتي تُدار بكفاءة عالية عبر StateFlow لضمان تدفق البيانات التفاعلي بسلاسة ودون تسريب للموارد. كما تم التدقيق في واجهات المستخدم المتمثلة في App1289628HomeScreen.kt وApp1289628DetailsScreen.kt وApp1289628CheckoutScreen.kt، إلى جانب مكونات الرسوم الشعاعية في BespokeVectorIllustration.kt وخادم المعالجة الخلفية في server/server.js، حيث أثبت الكود خلوه التام من أي رموز تعبيرية (إيموجي) والتزامه بأعلى معايير النظافة البرمجية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق تقنيات التشفير المتقدمة للبيانات المحلية باستخدام SQLCipher، وتحسين آليات التخزين المؤقت (Caching) للنماذج ثلاثية الأبعاد وبيانات القصص المتحركة لتقليل استهلاك الشبكة. كما يُفضل التوسع في استخدام خدمات Supabase لتوثيق هوية المستخدمين وتفعيل مزامنة التقدم التعليمي للأطفال بسلاسة عبر منصات متعددة باستخدام تقنيات Kotlin Multiplatform."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289628Repository.kt",
+        "App1289628HomeScreen.kt",
+        "App1289628DetailsScreen.kt",
+        "App1289628CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع تصميم شخصيات الأطفال يتمتع بنقاط قوة عدة. يُشيد النمط المعماري MVVM (Model-View-ViewModel) بفصل واضح بين مكونات التطبيق. تُستخدم كلاسات Domain Models لتنظيم البيانات والمنطق المتعلق بالأعمال. تُعبر الـ Canvas Vector Drawings عن مهارات التصميم الجرافيكي المتقن.\n\nأما بالنسبة للجانب الأمني، يُعتبر استخدام الخادم server/server.js خطوة إيجابية لتأمين التطبيق. يُظهر الكود استخدام إطار العمل Node.js و Express",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289628Repository.kt",
+        "App1289628HomeScreen.kt",
+        "App1289628DetailsScreen.kt",
+        "App1289628CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يمثل مشروع 'ألفة' نموذجاً هندسياً فريداً يجمع بين كفاءة التكلفة الرأسمالية والتشغيلية عبر هندسة الـ FinOps المتقدمة. من الناحية المعمارية، أثبت استخدام كلاسات مثل App1289628Model و App1289628Repository في ملف App1289628Repository.kt كفاءة عالية في إدارة تدفق البيانات وفق نمط الـ MVVM، مما يضمن فصلاً تاماً بين طبقة البيانات واجهات المستخدم المتمثلة في App1289628HomeScreen و App1289628DetailsScreen و App1289628CheckoutScreen. على صعيد الواجهات والرسوم، استُخدمت كلاسات مثل BespokeVectorIllustration لتقديم رسومات متجهة دقيقة تعزز تجربة المستخدم دون إهدار موارد الذاكرة أو طاقة المعالجة.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان من خلال تطبيق مصادقة التوكنات (JWT) المحصنة على خادم Node.js في server/server.js، وتفعيل نظام التخزين المؤقت (Caching) عبر Redis للحد من استعلامات قاعدة البيانات، بالإضافة إلى تحسين إدارة العمليات الموزعة عبر تفعيل ميزة PM2 Cluster بكامل طاقة أنوية المعالج لضمان أعلى توافرية واستقرار أثناء الذروة التشغيلية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "auto/best-coding",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289628Repository.kt",
+        "App1289628HomeScreen.kt",
+        "App1289628DetailsScreen.kt",
+        "App1289628CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "المشروع يبرز بنظام معماري متين يعتمد على نمط MVVM، حيث تُظهر فئات مثل App1289628Model و App1289628Repository التفاعل المنظم بين طبقة البيانات وطبقة العرض، ما يضمن فصل واضح للمهام وتسهيل الصيانة. كما أن استخدام Canvas Vector Drawings في ملف BespokeVectorIllustration.kt يضيف مرونة عالية في توليد الرسوم المتجهة، مع الحفاظ على جودة عالية عبر مختلف أحجام الشاشات، وهو ما يتماشى مع معايير Apple Human Interface Guidelines وMaterial 3.\\n\\nمن الناحية الخلفية، يُظهر ملف server.js بنية خفيفة تعتمد على Cloudflare Workers وSupabase Free Tier، ما يضمن استجابة سريعة وتكلفة منخفضة، مع توفير آليات أمان أساسية للبيانات. إن دمج هذه المكونات معًا يخلق بيئة متكاملة تدعم التطوير السريع وتسهيل التوسع في المستقبل، مع الحفاظ على جودة تجربة المستخدم على منصات iOS وAndroid.",
+      "milestone2_recommendation_ar": "للمراحل القادمة، يُنصح بتنفيذ نظام أمان متقدم يشمل التشفير المتنقل للبيانات (TLS 1.3) وتوثيق JWT مع التحقق من صلاحية الرموز في كل طلب. إضافة إلى ذلك، يُفضَّل تحسين الكاش على مستوى التطبيق باستخدام مكتبة مثل Coil أو Glide للصور، وCacheKit للبيانات النصية، مع إعداد سياسة تجديد تلقائي للبيانات غير المستخدمة. أخيراً، توسيع البنية السحابية عبر إضافة خدمة Supabase Edge Functions لتقليل زمن الاستجابة للعمليات الحساسة، مع مراقبة الأداء عبر أدوات مثل Sentry أو Firebase Crashlytics لضمان استقرار التطبيق في بيئات الإنتاج."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

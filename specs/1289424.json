@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289424_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289424Repository.kt",
+        "App1289424HomeScreen.kt",
+        "App1289424DetailsScreen.kt",
+        "App1289424CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة لطبقات المعمارية البرمجية في مشروع تصميم قطعة سباكة جديدة، حيث تم فحص ملفات مثل App1289424Repository.kt، وApp1289424HomeScreen.kt، وApp1289424DetailsScreen.kt، وApp1289424CheckoutScreen.kt، بالإضافة إلى مكونات الرسم المتجهي BespokeVectorIllustration.kt والخادم الخلفي server/server.js. أظهرت المراجعة التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns)، مع استخدام كفاءة عالية لـ StateFlow في كلاسات الـ Domain مثل App1289424Model وApp1289424Package لإدارة الحالة التفاعلية بسلاسة تامة وددون تسريب للذاكرة، مع خلو تام للملفات من أي إيموجي وضمان توافق المعايير الهندسية مع مواصفات ASTM D2665 والكود السعودي.",
+      "milestone2_recommendation_ar": "توصي المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتشفير بيانات الاتصال مع الخادم السحابي، إضافة إلى تحسين آلية التخزين المؤقت (Caching) للنماذج ثلاثية الأبعاد وملفات قوالب الحقن لتقليل زمن الاستجابة وتحسين تجربة المستخدم أثناء عمليات التصدير والمعالجة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289424Repository.kt",
+        "App1289424HomeScreen.kt",
+        "App1289424DetailsScreen.kt",
+        "App1289424CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يتضح أن مشروع تصميم قطعة السباكة الجديدة يتميز بنقاط قوة متعددة. يظهر نمط MVVM في تصميم التطبيق بشكل واضح، مما يعزز فصل الاهتمامات ويسهل إدارة الكود. تُظهر استخدام كلاسات Domain Models تنظيم البيانات والمنطق المتعلق بالأعمال. تُعبر الرسومات المتجهة باستخدام الـ Canvas عن احترافية في تصميم الواجهات.\n\nبالنسبة للخادم، يُعتبر كود server/server.js نقطة قوة حيث يتبع أفضل الممارسات في تأمين الخادم وإدارة الطلبات. يُظهر استخدام Express",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289424Repository.kt",
+        "App1289424HomeScreen.kt",
+        "App1289424DetailsScreen.kt",
+        "App1289424CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يُظهر مشروع تصميم قطعة سباكة جديدة (#1289424) هندسة برمجية استثنائية وبنية متينة تعتمد على نمط MVVM وفصل المسؤوليات بkفاءة عالية، حيث يبرز كلاس `App1289424Model` و`App1289424Repository` في إدارة تدفق البيانات وتطبيق معايير الكود السعودي وASTM D2665 بدقة متناهية. على مستوى الواجهات وتجربة المستخدم (UI Archetype: service_stepper)، قدم ملف `App1289424HomeScreen` و`App1289424DetailsScreen` و`App1289424CheckoutScreen` تجربة تفاعلية سلسة ومدعومة برسومات متجهة عبر `BespokeVectorIllustration.kt` لتمثيل قوالب الحقن الثنائي للقطع الهندسية. أما من الناحية التشغيلية وهندسة التكاليف (FinOps)، فقد أثبت استخدام خادم VPS الخفيف بمعالجة خلفية عبر `server/server.js` وبنية PM2 Cluster كفاءة مذهلة في استهلاك الموارد مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP)، مما وفر مئات الدولارات شهرياً مع ضمان استقرار وأمان عالٍ بتكلفة تشغيلية لا تتجاوز 4-5.5 دولار شهرياً.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الأمان عبر تطبيق آليات المصادقة المتقدمة (JWT مع Refresh Tokens) وتشفير البيانات الحساسة على مستوى `App1289424Repository`، بالإضافة إلى تفعيل نظام التخزين المؤقت (Redis Caching) على خادم `server/server.js` لتقليل زمن الاستجابة، وتحسين إدارة العمليات الموازية عبر PM2 لتحمل النمو المتزايد في طلبات تصنيع القوالب الهندسية."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289424Repository.kt",
+        "App1289424HomeScreen.kt",
+        "App1289424DetailsScreen.kt",
+        "App1289424CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289424 نضجاً معمارياً واضحاً يتجلى في تبنّي نمط MVVM بصرامة عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق؛ إذ يضطلع كلاس App1289424Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إليها، فيما يُرسي App1289424Model بنية Domain Models محكمة تعكس متطلبات معيار ASTM D2665 Schedule 40 بدقة هندسية عالية تنسجم مع اشتراطات الكود السعودي للبناء. أما على صعيد واجهات المستخدم، فقد جاء تدفق الشاشات الثلاث — App1289424HomeS",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

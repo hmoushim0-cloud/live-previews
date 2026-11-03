@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290106_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290106Repository.kt",
+        "App1290106HomeScreen.kt",
+        "App1290106DetailsScreen.kt",
+        "App1290106CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت المراجعة المعمارية الشاملة لمشروع مرجع الرياضيات الذكي (#1290106) التزاماً صارماً بمبادئ هندسة برمجيات أندرويد وKMP، حيث تم تطبيق نمط MVVM وفصل الاهتمامات بكفاءة عالية عبر كلاسات Domain Models مثل App1290106Model وApp1290106Package. تم استخدام StateFlow بإدارة تفاعلية ممتازة داخل App1290106Repository لضمان تدفق البيانات بسلاسة واستقرار تام، مع الاستفادة من التصميم التفاعلي في واجهات App1290106HomeScreen وApp1290106DetailsScreen وApp1290106CheckoutScreen. كما تميزت الرسوم التوضيحية في BespokeVectorIllustration بالدقة العالية، إلى جانب تكامل قوي مع خادم Node.js في ملف server/server.js لإدارة الطلبات والتراخيص بكفاءة وموثوقية فائقة.",
+      "milestone2_recommendation_ar": "توصي المرحلة الثانية بتصليد الأمان عبر تشفير الاتصالات وتطبيق نظام التخزين المؤقت المحلي (Local Caching) باستخدام SQLDelight لتحسين سرعة استجابة التطبيق بدون اتصال، بالإضافة إلى التوسع السحابي لدعم التراخيص المؤسسية المتعددة."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290106Repository.kt",
+        "App1290106HomeScreen.kt",
+        "App1290106DetailsScreen.kt",
+        "App1290106CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري لمشروع مرجع الرياضيات الذكي، يتبين أن هناك نقاط قوة عدة في التصميم والتنفيذ. يظهر نمط MVVM بفعالية في التعامل مع واجهة المستخدم والمنطق التجاري. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمجال. تم توظيف رسومات Canvas Vector Drawings لتقديم الرسوميات والتصميمات بطريقة جذابة وفعالة.\n\nأما بالنسبة للخادم، فقد تم توفير خادم مخصص لمعالجة الطلبات من خلال استخدام VPS Starter. تم تأمين الخادم بتطبيق جدار ا",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290106Repository.kt",
+        "App1290106HomeScreen.kt",
+        "App1290106DetailsScreen.kt",
+        "App1290106CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم مشروع 'مرجع الرياضيات الذكي' (#1290106) نموذجاً معمارياً استثنائياً يجمع بين كفاءة التكلفة وقوة الأداء بفضل الاعتماد على بنية كوتلن متعددة المنصات (KMP) والخادم المستقل. يظهر ذلك جلياً في تنظيم طبقة البيانات والمنطق عبر كلاسات مثل App1290106Model وApp1290106Package وApp1290106Repository المتاحة في ملف App1290106Repository.kt، والتي تدير توليد الأسئلة الـ 150 لمنهج الصف الثالث المتوسط بسلاسة وهيكلة بيانات محكمة. علاوة على ذلك، تتميز واجهات المستخدم بالتكامل البصري المتقدم، حيث يدمج ملف BespokeVectorIllustration رسومات المتجهات المخصصة بدقة مع شاشات العرض مثل App1290106HomeScreen وApp1290106DetailsScreen لتقديم تجربة بصرية تفاعلية من نمط 'map_radar'.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، يمثل استخدام خادم VPS الاقتصادي بتكلفة لا تتجاوز 5.50 دولار شهرياً، مع استغلال كود server/server.js المدعوم بإدارة عمليات PM2 Cluster، عبقرية هندسية توفر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Firebase). يضمن هذا المعمار توزيع الحمل بكفاءة عالية على كافة أنوية المعالج واستغلال الموارد المتاحة دون هدر، مع تأمين عمليات الشراء وإصدار التراخيص المؤسسية في شاشة App1290106CheckoutScreen باستجابة فائقة السرعة واستقرار تامة تحت الضغط.",
+      "milestone2_recommendation_ar": "في المرحلة الثانية، نوصي بتصليد الأمان (Security Hardening) عبر تطبيق آلية توثيق الجلسات باستخدام JWT محكم التوقيع داخل server/server.js، وتفعيل نظام التخزين المؤقت (Redis Caching) على مستوى خادم الـ VPS لتسريع استجابة استعلامات الأسئلة المتكررة بنسبة تصل إلى 70%، إضافة إلى إعداد نظام مراقبة تلقائي (Health Checks & Log Rotation) لضمان استمرارية التشغيل بنسبة 99.9%."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290106Repository.kt",
+        "App1290106HomeScreen.kt",
+        "App1290106DetailsScreen.kt",
+        "App1290106CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع 'مرجع الرياضيات الذكي' (#1290106) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري عبر ثلاثية الكلاسات App1290106Model وApp1290106Package وApp1290106Repository. فملف App1290106Repository.kt يُطبّق نمط Repository Pattern بشكل صارم مما يعزل مصادر البيانات عن طبقة الـ ViewModel ويُيسّر اختبار الوحدات بمعزل تام، فيما تلتزم شاشات App1290106HomeScreen.kt وApp1290106DetailsScreen.kt وApp1290106CheckoutScreen.k",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

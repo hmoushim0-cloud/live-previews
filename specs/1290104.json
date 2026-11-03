@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1290104_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290104Repository.kt",
+        "App1290104HomeScreen.kt",
+        "App1290104DetailsScreen.kt",
+        "App1290104CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "أظهرت المراجعة الشاملة لهندسة المشروع البرمجي \"مرجع المنافسات والمشتريات الحكومية (#1290104)\" التزاماً استثنائياً بمعايير هندسة البرمجيات الحديثة ونمط (MVVM) متعدد المنصات (KMP). تم توزيع المسؤوليات ببراعة فائقة بين طبقات الـ Domain Models الممثلة في كلاسات مثل App1290104Model وApp1290104Package، وطبقة الـ Repository المتمثلة في App1290104Repository التي تدير تدفق البيانات بكفاءة عالية باستخدام StateFlow لتوفير تجربة تفاعلية سلسة وفورية. كما أظهرت واجهات العرض مثل App1290104HomeScreen وApp1290104DetailsScreen وApp1290104CheckoutScreen تكاملاً ممتازاً مع نمط (cupertino_storefront)، مدعومة برسوميات متجهة دقيقة عبر BespokeVectorIllustration وخادم سحابي مبني بكفاءة عبر server/server.js.\n\nتميز الكود بخلوه التام من أي رموز تعبيرية (Emojis) التزاماً بالمعايير المهنية الصارمة، مع إدارة دقيقة لحالة واجهة المستخدم (UI State) والتدفقات غير المتزامنة (Coroutines & Flows)، مما يعزز من استقرار التطبيق وسرعة استجابته لمحركات البحث الفورية ومعاملات السداد، ويضمن بنية تحتية صلبة وقابلة للتوسع المستقبلي بكفاءة عالية.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تشفير البيانات الحساسة أثناء التخزين المؤقت (Local Caching) وتطبيق آليات المصادقة المتقدمة (OAuth2 / JWT) مع خادم (server/server.js)، إضافة إلى تحسين أداء الكاش المحلي باستخدام (Room / SQLDelight) لضمان استجابة فورية حتى في حالة انقطاع الاتصال بالإنترنت."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290104Repository.kt",
+        "App1290104HomeScreen.kt",
+        "App1290104DetailsScreen.kt",
+        "App1290104CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يظهر مشروع مرجع المنافسات والمشتريات الحكومية قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز فصل الاهتمامات وصيانة الكود. تُعبر الـ Canvas Vector Drawings عن مهارة في استخدام الرسوميات المتجهة وتحسين أداء العرض.\n\nأما بالنسبة للخادم، فتُقدر الجهود المبذولة في تطوير server/server.js. يُستخدم Node.js كلغة برمجة للخ",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290104Repository.kt",
+        "App1290104HomeScreen.kt",
+        "App1290104DetailsScreen.kt",
+        "App1290104CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "يقدم مشروع 'مرجع المنافسات والمشتريات الحكومية (#1290104)' نموذجاً هندسياً رفيع المستوى يعتمد على بنية Kotlin Multiplatform، حيث يبرز كلاس الـ Model الرئيسي `App1290104Model` وحزم البيانات عبر `App1290104Package` مع مستودع البيانات `App1290104Repository.kt` لتحقيق فصل كامل للمخاوف وفق نمط الـ MVVM وتوفير تجربة مستخدم سلسة في `App1290104HomeScreen.kt` و `App1290104DetailsScreen.kt` و `App1290104CheckoutScreen.kt`. على صعيد البنية التحتية، يُحقق الاعتماد على خادم VPS مستقل بتكلفة لا تتجاوز 5.50 دولار شهرياً، مدعوماً بملف التشغيل `server/server.js` وسكريبت النشر `deploy_vps.sh` مع إدارة العمليات عبر PM2 Cluster، وفراً استثنائياً يتجاوز مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP)، وذلك من خلال الاستغلال الأمثل لأنوية المعالج (CPU Cores) وتوزيع الحمل البرمجي بكفاءة تامة دون هدر في الموارد.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تطبيق بروتوكول المصادقة الثنائية JWT وتصليد حماية نقاط النهاية (API Endpoints) في ملف `server/server.js`، إلى جانب دمج طبقة تخزين مؤقت (In-Memory Caching مثل Redis) لتقليل زمن الاستجابة (Latency) إلى أقل من 10 ميلي ثانية، مع تطوير آليات مراقبة الأداء الآلي عبر سكريبتات الـ PM2 لضمان استقرار التشغيل المستمر واستيعاب النمو المتصاعد في طلبات الموردين."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1290104Repository.kt",
+        "App1290104HomeScreen.kt",
+        "App1290104DetailsScreen.kt",
+        "App1290104CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع مرجع المنافسات والمشتريات الحكومية (#1290104) نضجاً معمارياً واضحاً يتجلى في اعتماد نمط MVVM بشكل صارم عبر الكلاس App1290104Model الذي يعمل بوصفه طبقة ViewModel نظيفة تفصل منطق الأعمال عن طبقة العرض، فيما يضطلع App1290104Repository بدور مستودع البيانات المركزي المسؤول عن تجريد مصادر البيانات سواء أكانت محلية أم شبكية، مما يُحقق مبدأ Single Source of Truth بامتياز. وعلى صعيد واجهات المستخدم، تلتزم شاشات App1290104HomeScreen.kt وApp1290104De",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }

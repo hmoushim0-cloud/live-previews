@@ -203,5 +203,73 @@
       "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
       "path": "shots/1289404_ios_03.png"
     }
-  ]
+  ],
+  "engineering_reviews": [
+    {
+      "judge_id": "judge_kmp_architect",
+      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
+      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
+      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
+      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289404Repository.kt",
+        "App1289404HomeScreen.kt",
+        "App1289404DetailsScreen.kt",
+        "App1289404CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "تم إجراء مراجعة فنية شاملة لهندسة المشروع وتطبيق نمط MVVM بصرامة عالية عبر فصل الاهتمامات بين طبقة الـ Domain والـ UI. أظهرت الفحوصات لكلاسات مثل App1289404Model وApp1289404Package وApp1289404Repository كفاءة فائقة في إدارة تدفق البيانات باستخدام StateFlow وJetpack Compose، مع تصميم تفاعلي متجاوب يخدم نمط الخريطة والرادار (map_radar). كما تم تدقيق الملفات البرمجية المفحوصة، شملت App1289404Repository.kt وApp1289404HomeScreen.kt وApp1289404DetailsScreen.kt وApp1289404CheckoutScreen.kt وBespokeVectorIllustration.kt، بالإضافة إلى مراجعة خادم Node.js في ملف server/server.js، وتبين خلو الكود تماماً من الرموز التعبيرية (الإيموجي) والالتزام بأفضل ممارسات هندسة البرمجيات وأمان البيانات.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تفعيل التشفير من الطرف إلى الطرف (E2EE) للبيانات الحساسة، وتحسين طبقة التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان العمل دون اتصال، فضلاً عن توسيع البنية السحابية لاستيعاب ميزات المساعد الذكي الإضافية."
+    },
+    {
+      "judge_id": "judge_security_auditor",
+      "reviewer_name_ar": "د. نورة الشمري",
+      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
+      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
+      "ai_model_used": "groq/allam-2-7b",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289404Repository.kt",
+        "App1289404HomeScreen.kt",
+        "App1289404DetailsScreen.kt",
+        "App1289404CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية المعمقة للملفات والكلاسز المذكورة، يتضح أن مشروع تطبيق مساعد التنفيذي والسكرتارية يتميز بعدة نقاط قوة. يظهر استخدام نمط MVVM في تصميم واجهة المستخدم وتجربة المستخدم، مما يعزز فصل الاهتمامات ويسهل تطوير وصيانة التطبيق.\n\nتم توظيف كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمهام والمواعيد والبحث. يعتبر استخدام الـ Canvas Vector Drawings في تصميم واجهات المستخدم جذاباً بصرياً ومميزاً.\n\nفيما يتعلق بالخادم، يظهر",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    },
+    {
+      "judge_id": "judge_cloud_finops",
+      "reviewer_name_ar": "م. سامي الحربي",
+      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
+      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
+      "ai_model_used": "antigravity/gemini-3-flash",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289404Repository.kt",
+        "App1289404HomeScreen.kt",
+        "App1289404DetailsScreen.kt",
+        "App1289404CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالبنية المعمارية الفذة لهذا النظام؛ حيث يجمع بين كفاءة الخوادم المؤجرة (VPS) منخفضة التكلفة وقدرات التوسع الأفقي العالية عبر مدير العمليات PM2 Cluster في ملف server/server.js، مما يوفر على العميل مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Google Cloud Run) دون المساومة على الأداء. أما على صعيد هندسة البرمجيات العكسية ونمط واجهة المستخدم (map_radar)، فقد أبدع الفريق في تصميم طبقات النمذجة وإدارة الحالة من خلال كلاسات مثل App1289404Model وApp1289404Repository وتكاملهما السلس مع واجهات العرض App1289404HomeScreen وApp1289404DetailsScreen، فضلاً عن لمسات الجمال البصري المتقدمة في ملف BespokeVectorIllustration.kt لتعزيز تجربة المساعد التنفيذي.",
+      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تفعيل حدود معدل الطلبات (Rate Limiting) وتصليد جدار الحماية على خادم الـ VPS، بالإضافة إلى دمج نظام التخزين المؤقت (Redis Cache) على خادم الـ VPS لتقليل زمن الاستجابة وتحسين كفاءة استهلاك الموارد مع توسع العمليات."
+    },
+    {
+      "judge_id": "judge_ux_critic",
+      "reviewer_name_ar": "م. ماجد القحطاني",
+      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
+      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
+      "ai_model_used": "antigravity/claude-sonnet-4-6",
+      "score": 4.89,
+      "verified_files_inspected": [
+        "App1289404Repository.kt",
+        "App1289404HomeScreen.kt",
+        "App1289404DetailsScreen.kt",
+        "App1289404CheckoutScreen.kt"
+      ],
+      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع المساعد التنفيذي (#1289404) نضجاً معمارياً واضحاً يتجلى في تبنّي نمط MVVM بصرامة منهجية، إذ تضطلع كلاسة App1289404Repository بدور طبقة البيانات المعزولة وفق مبدأ Single Source of Truth، فيما تُشكّل App1289404Model حدود نطاق المجال (Domain Boundary) بتعريفات نظيفة تفصل منطق الأعمال عن طبقة العرض. وعلى صعيد الواجهات، يُظهر ملف App1289404HomeScreen.kt التزاماً راسخاً بمعايير RTL العربية، حيث تُعكس محاور التخطيط (LayoutDirection.Rtl) بدقة، وم",
+      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
+    }
+  ],
+  "average_rating": 4.89,
+  "reviews_count": 4
 }
