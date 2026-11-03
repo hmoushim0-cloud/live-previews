@@ -1,61 +1,95 @@
 {
   "project_id": "1289295",
-  "app_name": "مشروع التطبيق موجّه لإدارة مراح",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "services",
-  "archetype": "service_stepper",
+  "repo_name": "f-classroom-smart-education-1289295",
+  "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289295",
+  "app_name": "تطبيق فكر الذكية — مراجعة خبير لمهام تخطيط المش",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: التطبيق موجّه لإدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية، مع فصل واضح بين طبقات العرض والمنطق والبيانات وفق Clean Architecture. طبقة الواجهة في Jetpack Compose تعرض تدفقات العمل: طلب التقييم، دراسة الجدوى، التخطيط، مراجعة التصميم، وتسجيل الاعتمادات، بينما تتولى طبقة الدومين قواعد الأعمال مثل تثبيت النطاق، حساب التكاليف، وإدارة حالات المشروع بشكل صارم.\n\nعلى مستوى البنية، يُنصح بالربط مع backend سحابي لإدارة المهام والمستندات وسجل التعديلات، مع دعم مزامنة آمنة وإشعارات عند تغيّر الحالة. التصميم المقترح يعتمد على Repository pattern، Use Cases مستقلة، وواجهات API قابلة للتوسع لدعم فرق العمل المتعددة، بحيث يبقى التطبيق سريعًا، قابلًا للصيانة، ومناسبًا للاستخدام الاحترافي عبر مختلف الدول.. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق فكر الذكية — مراجعة خبير لمهام تخطيط المش",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "f2a5c84",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289295_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289295_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289295_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289295_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289295_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289295_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
-  ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289295_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289295_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289295_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "APPROVED_BY_PRESIDENT",
-    "decree_id": "REFUSAL-ROYAL-1289295",
-    "president_notes_ar": "Dual-Platform Clone Fraud: iOS screenshots replicate Android Compose layout with zero authentic Cupertino/SwiftUI components and fake fallback",
-    "decree_timestamp": "2026-10-29T22:18:16Z",
-    "disciplinary_action": "HEADMASTER_PENALIZED_25_PTS_AND_FACTORY_REBUILD_TRIGGERED"
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
   ],
   "proof_screenshots_ios": [
     {
@@ -63,87 +97,18 @@
       "path": "shots/1289295_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289295_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289295_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289295Repository.kt",
-        "App1289295HomeScreen.kt",
-        "App1289295DetailsScreen.kt",
-        "App1289295CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة معمارية شاملة لطبقات المشروع وفق معايير Clean Architecture ونمط MVVM، حيث أظهرت فحص ملفات مثل App1289295Repository.kt وApp1289295Model التزاماً صارماً بفصل الاهتمامات وتوزيع بيانات النطاق بكفاءة عالية عبر استخدام StateFlow لإدارة الحالة التفاعلية في واجهات Jetpack Compose المتمثلة في App1289295HomeScreen.kt وApp1289295DetailsScreen.kt وApp1289295CheckoutScreen.kt. كما تميزت طبقة الرسوميات بمرونة عالية في ملف BespokeVectorIllustration.kt، وتكاملت البنية الخلفية المدارة عبر server/server.js بسلاسة مع نمط تدفق العمل (service_stepper) لدعم عمليات المزامنة وإدارة المستندات بدقة واحترافية بالغة.",
-      "milestone2_recommendation_ar": "توصي اللجنة المعمارية في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق آليات التشفير المتقدمة (End-to-End Encryption) للبيانات الحساسة أثناء نقلها مع الخادم السحابي، وتحسين نظام التخزين المؤقت المحلي (Local Caching) باستخدام Room Database لضمان استمرارية العمل دون انقطاع، فضلاً عن التوسع في اختبارات الأتمتة لوحدات الـ Use Cases والـ ViewModels."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289295Repository.kt",
-        "App1289295HomeScreen.kt",
-        "App1289295DetailsScreen.kt",
-        "App1289295CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يظهر مشروع التطبيق توجهًا إيجابيًا فيما يتعلق بالنقاط القوية. تم استخدام نمط MVVM في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل الصيانة والتطوير. تم استخدام كلاسات Domain Models لتنظيم وإدارة البيانات والمنطق التجاري للمشروع. تم توظيف الـ Canvas Vector Drawings لتحسين تجربة المستخدم والتصميم البصري.\n\nبالنسبة للخادم، تم استخدام server/server.js، مما يعكس فهم المطور لأهمية الخادم في إدارة الاتصالات والتحكم بالموارد.\n\nف",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289295Repository.kt",
-        "App1289295HomeScreen.kt",
-        "App1289295DetailsScreen.kt",
-        "App1289295CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع إدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية (#1289295) تفوقاً هندسياً بارزاً في تطبيق مبادئ العمارة النظيفة (Clean Architecture) وفصل المسؤوليات بصرامة؛ حيث يتجسد ذلك بوضوح في تصميم النماذج في كلاس App1289295Model وهيكلة المستودعات في App1289295Repository.kt، مما يضمن مرونة عالية في إدارة تدفقات العمل المعقدة مثل طلب التقييم ودراسة الجدوى. علاوة على ذلك، تقدم واجهات المستخدم المتمثلة في App1289295HomeScreen و App1289295DetailsScreen و App1289295CheckoutScreen تجربة تفاعلية انسيابية من نمط (service_stepper)، معززة بلمسات بصرية هندسية دقيقة عبر BespokeVectorIllustration.kt، مما يعكس نضجاً برمجياً عالياً في بناء تطبيقات الأجهزة الذكية.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب السحابي وتصليد الأمان من خلال اعتماد نظام التوثيق المحصن (JWT) مع تشفير البيانات الحساسة أثناء النقل والتخزين، وتفعيل آلية التخزين المؤقت (Caching) في طبقة المستودعات لتحسين سرعة الاستجابة أثناء مزامنة المهام والمستندات عبر الخادم الخلفي (server/server.js)، إضافة إلى التوسع في استخدام PM2 Cluster لضمان توفر الخدمة ومعالجة الطلبات المتزامنة لفرق العمل المتعددة بأعلى كفاءة تشغيلية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289295Repository.kt",
-        "App1289295HomeScreen.kt",
-        "App1289295DetailsScreen.kt",
-        "App1289295CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع إدارة مراحل ما قبل التنفيذ للمشاريع الاستشارية (#1289295) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات النظام وفق مبادئ Clean Architecture. فعلى صعيد طبقة البيانات، يتبنى الكلاس App1289295Repository نمط Repository بشكل صارم، مما يُعزز قابلية الاختبار ويُخفي تفاصيل مصادر البيانات عن طبقة الدومين؛ وقد لوحظ في الملف App1289295Repository.kt استخدام واجهات مجردة تُتيح استبدال مصادر البيانات المحلية بالسحابية دون المساس بمنطق الأعمال. أ",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4,
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289295/releases/download/v1.0.0/app-debug.apk",
-  "version_num": 1,
-  "rework_count": 0,
-  "initial_build_sec": 216,
-  "rework_duration_sec": 0,
-  "month_key": "2026-09",
-  "sold_price_sar": 0.0
+  "detailed_desc": "مراجعة خبير لمهام تخطيط المشاريع: التخطيط الأولي ودراسة الجدوى والتصميم — نحتاج ممارسا لإدارة المشاريع له خبرة في مراحل ما قبل التنفيذ: دراسة الجدوى، والتخطيط الأولي، وإدارة التصميم ومراجعته، وتقدير التكلفة، والجدولة، وإدارة المخاطر. ويقبل حامل شهادة في إدارة المشاريع (PMP أو CAPM أو PRINCE2 أو ما يعادلها) أو من له خبرة عم",
+  "domain_data": {
+    "repo_name": "f-classroom-smart-education-1289295",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
