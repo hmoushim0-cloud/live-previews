@@ -1,275 +1,114 @@
 {
   "project_id": "1289424",
-  "app_name": "مشروع تصميم قطعة سباكة جديدة. ي",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "standard",
-  "archetype": "service_stepper",
+  "repo_name": "sanad-tech-services-1289424",
+  "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289424",
+  "app_name": "تطبيق سند الفني — تصميم قطعة سباكة جديدة — يتط",
+  "tagline": "تحويل التصميمات المبدئية إلى احترافية مع موافقة الكود السعودي",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: تصميم قطعة سباكة جديدة. يتطلب تحويل تصميم مبدئي لقطعة سباكة الى تصميم احترافي (strictly complying with ASTM D2665 Schedule 40 dimensional standards) متوافق مع متطلبات الكود السعودي و تجهيز ملفات مكتملة لتصنيع قالب الحقن الثنائي. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق سند الفني — تصميم قطعة سباكة جديدة — يتط",
+    "subtitle": "تحويل التصميمات المبدئية إلى احترافية مع موافقة الكود السعودي"
   },
+  "categories": [
+    "تحويل التصميمات",
+    "تصميمات احترافية",
+    "توافق الكود السعودي",
+    "ملفات تصنيع القالب"
+  ],
+  "items": [
+    {
+      "title": "تصميم احترافي",
+      "desc": "تحويل تصميم مبدئي إلى احترافي بالامتثال لـ ASTM D2665 Schedule 40",
+      "price": "450 ر.س",
+      "icon": "brush",
+      "badge": "احترافي"
+    },
+    {
+      "title": "مراجعة الكود السعودي",
+      "desc": "تأكد من مطابقته مع متطلبات الكود السعودي",
+      "price": "250 ر.س",
+      "icon": "shield-check",
+      "badge": "موثوق"
+    },
+    {
+      "title": "تجهيز ملفات تصنيع القالب",
+      "desc": "تجهيز جميع الملفات اللازمة لتصنيع قالب الحقن الثنائي",
+      "price": "350 ر.س",
+      "icon": "file",
+      "badge": "مكتمل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "3aa94b3",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289424_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289424_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289424_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289424_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289424_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289424_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289424_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289424_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289424_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع تصميم قطعة سباكة جديدة. ي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289424/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289424_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289424_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289424_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289424Repository.kt",
-        "App1289424HomeScreen.kt",
-        "App1289424DetailsScreen.kt",
-        "App1289424CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة لطبقات المعمارية البرمجية في مشروع تصميم قطعة سباكة جديدة، حيث تم فحص ملفات مثل App1289424Repository.kt، وApp1289424HomeScreen.kt، وApp1289424DetailsScreen.kt، وApp1289424CheckoutScreen.kt، بالإضافة إلى مكونات الرسم المتجهي BespokeVectorIllustration.kt والخادم الخلفي server/server.js. أظهرت المراجعة التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns)، مع استخدام كفاءة عالية لـ StateFlow في كلاسات الـ Domain مثل App1289424Model وApp1289424Package لإدارة الحالة التفاعلية بسلاسة تامة وددون تسريب للذاكرة، مع خلو تام للملفات من أي إيموجي وضمان توافق المعايير الهندسية مع مواصفات ASTM D2665 والكود السعودي.",
-      "milestone2_recommendation_ar": "توصي المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل المصادقة الثنائية وتشفير بيانات الاتصال مع الخادم السحابي، إضافة إلى تحسين آلية التخزين المؤقت (Caching) للنماذج ثلاثية الأبعاد وملفات قوالب الحقن لتقليل زمن الاستجابة وتحسين تجربة المستخدم أثناء عمليات التصدير والمعالجة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289424Repository.kt",
-        "App1289424HomeScreen.kt",
-        "App1289424DetailsScreen.kt",
-        "App1289424CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يتضح أن مشروع تصميم قطعة السباكة الجديدة يتميز بنقاط قوة متعددة. يظهر نمط MVVM في تصميم التطبيق بشكل واضح، مما يعزز فصل الاهتمامات ويسهل إدارة الكود. تُظهر استخدام كلاسات Domain Models تنظيم البيانات والمنطق المتعلق بالأعمال. تُعبر الرسومات المتجهة باستخدام الـ Canvas عن احترافية في تصميم الواجهات.\n\nبالنسبة للخادم، يُعتبر كود server/server.js نقطة قوة حيث يتبع أفضل الممارسات في تأمين الخادم وإدارة الطلبات. يُظهر استخدام Express",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289424Repository.kt",
-        "App1289424HomeScreen.kt",
-        "App1289424DetailsScreen.kt",
-        "App1289424CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع تصميم قطعة سباكة جديدة (#1289424) هندسة برمجية استثنائية وبنية متينة تعتمد على نمط MVVM وفصل المسؤوليات بkفاءة عالية، حيث يبرز كلاس `App1289424Model` و`App1289424Repository` في إدارة تدفق البيانات وتطبيق معايير الكود السعودي وASTM D2665 بدقة متناهية. على مستوى الواجهات وتجربة المستخدم (UI Archetype: service_stepper)، قدم ملف `App1289424HomeScreen` و`App1289424DetailsScreen` و`App1289424CheckoutScreen` تجربة تفاعلية سلسة ومدعومة برسومات متجهة عبر `BespokeVectorIllustration.kt` لتمثيل قوالب الحقن الثنائي للقطع الهندسية. أما من الناحية التشغيلية وهندسة التكاليف (FinOps)، فقد أثبت استخدام خادم VPS الخفيف بمعالجة خلفية عبر `server/server.js` وبنية PM2 Cluster كفاءة مذهلة في استهلاك الموارد مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP)، مما وفر مئات الدولارات شهرياً مع ضمان استقرار وأمان عالٍ بتكلفة تشغيلية لا تتجاوز 4-5.5 دولار شهرياً.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الأمان عبر تطبيق آليات المصادقة المتقدمة (JWT مع Refresh Tokens) وتشفير البيانات الحساسة على مستوى `App1289424Repository`، بالإضافة إلى تفعيل نظام التخزين المؤقت (Redis Caching) على خادم `server/server.js` لتقليل زمن الاستجابة، وتحسين إدارة العمليات الموازية عبر PM2 لتحمل النمو المتزايد في طلبات تصنيع القوالب الهندسية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289424Repository.kt",
-        "App1289424HomeScreen.kt",
-        "App1289424DetailsScreen.kt",
-        "App1289424CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289424 نضجاً معمارياً واضحاً يتجلى في تبنّي نمط MVVM بصرامة عبر الفصل الدقيق بين طبقات البيانات والعرض والمنطق؛ إذ يضطلع كلاس App1289424Repository.kt بدور محوري في تجريد مصادر البيانات وتوحيد نقاط الوصول إليها، فيما يُرسي App1289424Model بنية Domain Models محكمة تعكس متطلبات معيار ASTM D2665 Schedule 40 بدقة هندسية عالية تنسجم مع اشتراطات الكود السعودي للبناء. أما على صعيد واجهات المستخدم، فقد جاء تدفق الشاشات الثلاث — App1289424HomeS",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصميم قطعة سباكة جديدة — يتطلب تحويل تصميم مبدئي لقطعة سباكة الى تصميم احترافي (strictly complying with ASTM D2665 Schedule 40 dimensional standards) متوافق مع متطلبات الكود السعودي و تجهيز ملفات مكتملة لتصنيع قالب الحقن الثنائي",
+  "domain_data": {
+    "repo_name": "sanad-tech-services-1289424",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Sample hardware telemetry string (e.g. 'NFC: Mada Contactless EMV L2, GPS: Lat 24.7136, Long 46.6745')"
+  }
 }
