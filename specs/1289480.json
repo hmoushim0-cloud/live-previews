@@ -1,275 +1,114 @@
 {
   "project_id": "1289480",
-  "app_name": "مشروع مطلوب مصمم دمج رقمي (Phot",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "ecommerce",
-  "archetype": "map_radar",
+  "repo_name": "sajil-zatca-pos-cashier-1289480",
+  "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289480",
+  "app_name": "تطبيق سجل زاتكا — مطلوب مصمم دمج رقمي (Photo M",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: مطلوب مصمم دمج رقمي (Photo Manipulation) لتنفيذ 40 بوستراً إبداعياً لمنتجات كيك وشوكولاتة. أبحث عن مصمم جرافيك محترف ومبدع في مجال الدمج الرقمي (Photo Manipulation) لتركيب وتصميم بوسترات إعلانية مبتكرة لمنصات التواصل الاجتماعي. طبيعة العمل والمعطيات: المنتجات: (منتج كيك) و(منتج شوكولاتة). الملفات المتوفرة: التصاميم الأساسية للعبوات وصور المنتجات جا. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق سجل زاتكا — مطلوب مصمم دمج رقمي (Photo M",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d74f667",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289480_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289480_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289480_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289480_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289480_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289480_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289480_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289480_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289480_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع مطلوب مصمم دمج رقمي (Phot",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289480/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289480_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289480_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289480_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289480Repository.kt",
-        "App1289480HomeScreen.kt",
-        "App1289480DetailsScreen.kt",
-        "App1289480CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تمت مراجعة الهيكلة البرمجية لمشروع مصمم الدمج الرقمي (Photo Manipulation) بعناية فائقة، حيث يظهر تطبيق نمط MVVM ببرمجية نظيفة وفصل تام للاهتمامات بين الطبقات عبر استخدام كلاسات Domain Models مثل App1289480Model وApp1289480Package، مع اعتماد كلي على StateFlow لضمان إدارة الحالة التفاعلية بكفاءة عالية داخل طبقة المستودعات المتمثلة في App1289480Repository. كما أظهرت مراجعة واجهات المستخدم في ملفات App1289480HomeScreen وApp1289480DetailsScreen وApp1289480CheckoutScreen التزاماً كاملاً بمبادئ Jetpack Compose الحديثة، مع دمج الرسوميات المتجهية بدقة عبر BespokeVectorIllustration وخادم Node.js الخلفي في server/server.js لضمان استجابة تفاعلية سلسة وآمنة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة أثناء نقلها وتخزينها، وتفعيل آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room وDataStore لتحسين أداء تحميل بوسترات كيك الشوكولاتة، إضافة إلى التوسع السحابي لخادم الـ VPS لدعم المعالجة المتوازية لطلبات الدمج الرقمي الضخمة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289480Repository.kt",
-        "App1289480HomeScreen.kt",
-        "App1289480DetailsScreen.kt",
-        "App1289480CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع تطبيق Phot (#1289480) قوة في عدة جوانب. يتميز نمط الـ MVVM المستخدم في الكود بتنظيم واضح وفصل بين مكونات الواجهة والمنطق. تم استخدام كلاسات الـ Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع.\n\nبالنسبة للجانب البصري، يُظهر استخدام الـ Canvas Vector Drawings مرونة وكفاءة في التعامل مع الرسومات المتجهة وتحسين أداء التطبيق.\n\nأما بالنسبة للخادم، فإن كود server/server.js يعكس تنفيذ سليم لمبادئ الأمان مثل استخدام",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289480Repository.kt",
-        "App1289480HomeScreen.kt",
-        "App1289480DetailsScreen.kt",
-        "App1289480CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُعد المعمار التقني المُتبنى في مشروع «مطلوب مصمم دمج رقمي (Photo Manipulation) (#1289480)» نموذجاً يُحتذى به في هندسة الأنظمة الموزعة وخفيف الوزن، حيث تم توظيف خادم Node.js في ملف `server/server.js` مع إدارة عمليات التوسع عبر PM2 Cluster لتحقيق الاستغلال الأمثل لأنوية المعالج ورفع إنتاجية النظام (Throughput) بتكلفة زهيدة لا تتجاوز 5.5 دولار شهرياً للـ VPS. على صعيد تطبيق الجوال، تم تطبيق أنماط هندسة البرمجيات الحديثة بدقة متناهية، حيث يعرض `App1289480HomeScreen.kt` و`App1289480DetailsScreen.kt` تجربة مستخدم سلسة وفق نمط الـ UI Archetype (map_radar)، مدعومة بطبقة بيانات صلبة تتألف من `App1289480Model` و`App1289480Package` و`App1289480Repository.kt` لإدارة حالة التطبيق بكفاءة وعزل منطق الأعمال عن واجهة المستخدم.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز أمن التطبيق والخادم من خلال تفعيل بروتوكول المصادقة الثنائية JWT، وتطبيق آليات التخزين المؤقت (Caching) عبر Redis على خادم الـ VPS لتخفيف الضغط على قاعدة البيانات، بالإضافة إلى دمج الرسوم المتجهية في `BespokeVectorIllustration.kt` ضمن خط إنتاج آلي (CI/CD) لتحسين أداء التصاميم الإبداعية ومعالجة صور الكيك والشوكولاتة بكفاءة عالية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289480Repository.kt",
-        "App1289480HomeScreen.kt",
-        "App1289480DetailsScreen.kt",
-        "App1289480CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد مشروع Phot #1289480 نضجاً معمارياً واضحاً يتجلّى في تبنّيه نمط MVVM بصرامة هندسية، إذ يفصل الكلاس App1289480Repository عن طبقة العرض فصلاً تاماً، مما يُتيح اختبار الوحدات بمعزل عن الواجهات. وقد لوحظ في ملف App1289480HomeScreen.kt توظيف صحيح لمبدأ Unidirectional Data Flow مع إدارة الحالة عبر StateFlow، فيما يُعالج App1289480DetailsScreen.kt انتقالات الشاشة بتحريكات سلسة متوافقة مع معايير Material 3 Motion. أما BespokeVectorIllustration.kt فيكشف",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب مصمم دمج رقمي (Photo Manipulation) لتنفيذ 40 بوستراً إبداعياً لمنتجات كيك وشوكولاتة — أبحث عن مصمم جرافيك محترف ومبدع في مجال الدمج الرقمي (Photo Manipulation) لتركيب وتصميم بوسترات إعلانية مبتكرة لمنصات التواصل الاجتماعي. طبيعة العمل والمعطيات: المنتجات: (منتج كيك) و(منتج شوكولاتة). الملفات المتوفرة: التصاميم الأساسية للعبوات وصور ال",
+  "domain_data": {
+    "repo_name": "sajil-zatca-pos-cashier-1289480",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
