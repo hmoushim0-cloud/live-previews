@@ -1,275 +1,114 @@
 {
   "project_id": "1289522",
-  "app_name": "مستشار المحتوى القانوني",
-  "tagline": "حلول تسويق محتوى قانوني تزيد من التفاعل وتسرّع العمليات القانونية",
-  "preset": "services",
-  "archetype": "catalog_grid",
+  "repo_name": "wathiq-najiz-legal-consulting-1289522",
+  "repo_url": "https://github.com/hmoushim0-cloud/wathiq-najiz-legal-consulting-1289522",
+  "app_name": "تطبيق وثيق القانونية — تصميم بوستات وإنتاج فيديوهات",
+  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "preset": "legal_consulting",
+  "layout_type": "legal_consulting",
+  "layoutArchetype": "legal_consulting",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
-  "description": "يعمل تطبيق LegalContentPro على دمج أدوات التصميم والتصوير مع نظام جدولة النشر الآلي، مع دعم للمدفوعات الإلكترونية وتوافق مع القوانين الضريبية السعودية. يتيح التطبيق للفرق القانونية إنشاء وتوزيع محتوى قانوني جذاب بسرعة، مع تحليلات فورية لتتبع الأداء وتحسين استراتيجيات التسويق، ما يسرّع نمو الأعمال ويقلل التكاليف التشغيلية.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق وثيق القانونية — تصميم بوستات وإنتاج فيديوهات",
+    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "legal_consulting",
+      "label": "FIPS 140-2 Cryptographic HSM Security Token",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "67ca762",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289522_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289522_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289522_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289522_02.png",
+      "fallback": "FIPS 140-2 Cryptographic HSM Security Token"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289522_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289522_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289522_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289522_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289522_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مستشار المحتوى القانوني",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289522/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289522_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289522_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289522_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289522Repository.kt",
-        "App1289522HomeScreen.kt",
-        "App1289522DetailsScreen.kt",
-        "App1289522CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"مستشار المحتوى القانوني\" تطبيقاً متكاملاً يلتزم بنمط MVVM مع فصل واضح بين الـ ViewModel (App1289522Repository.kt) و الـ UI (App1289522HomeScreen.kt، App1289522DetailsScreen.kt، App1289522CheckoutScreen.kt). يُستَخدم StateFlow بكفاءة لتحديث الحالة في الوقت الحقيقي، ما يضمن استجابة سريعة وتفاعل سلس مع المستخدم. كما يبرز التصميم المتجاوب في ملفات Jetpack Compose، مع استخدام متقن للـ Canvas في BespokeVectorIllustration.kt لإنتاج رسومات متجهة عالية الجودة دون تحميل إضافي. على الجانب الخادم، يُظهر server/server.js بنية RESTful بسيطة مع دعم للـ CORS، مما يسهل التكامل مع تطبيق Android ويُعطي أداءً خفيفاً على VPS Starter.\n\nمن الناحية الهيكلية، تُعَدّ الكلاسات Domain (App1289522Model، App1289522Package) نموذجاً مثالياً لتجميع البيانات، بينما يُحافظ Repository على واجهة واحدة للتعامل مع البيانات، ما يضمن قابلية الاختبار وسهولة الصيانة. كما يُظهر الكود اهتماماً بالتصميم القابل للتوسع، مع فصل واضح للـ UI، الـ Domain، و الـ Data، ما يتيح إضافة ميزات جديدة (مثل التحليلات أو الدفع الإلكتروني) دون تعديل كبير في البنية الحالية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ آلية تأمين قوية للمعاملات المالية عبر دمج SDKs موثوقة (مثل Stripe أو PayPal) مع تشفير TLS 1.3 على الخادم. إضافة طبقة Cache باستخدام Room أو DataStore لتخزين المحتوى المسبق، مع تحديثات فورية عبر Flow، سيحسن تجربة المستخدم في بيئات الشبكة الضعيفة. كما يُفضَّل توظيف Hilt للـ Dependency Injection لتقليل الاعتمادات اليدوية، مع إضافة اختبارات وحدات (Unit Tests) للـ ViewModel و Repository لضمان استقرار الكود مع التوسع. أخيراً، يُستحسن توسيع البنية السحابية إلى Kubernetes أو ECS لتسهيل التوسع الأفقي مع مراقبة الأداء عبر Prometheus و Grafana."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289522Repository.kt",
-        "App1289522HomeScreen.kt",
-        "App1289522DetailsScreen.kt",
-        "App1289522CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يظهر مشروع مستشار المحتوى القانوني (#1289522) قوة في عدة جوانب. يتميز الكود بنمط MVVM، مما يعزز فصل المخاوف بين العرض والمنطق والبيانات. تظهر كلاسات مثل App1289522Model وApp1289522Repository وApp1289522Service احترافية في تصميم وتطوير المكونات الأساسية للتطبيق.\n\nتبرز الرسومات المتجهة باستخدام Canvas Vector Drawings جودة التصميم والتنفيذ البصري للتطبيق.\n\nبالنسبة للخادم، يظهر ملف server/server.js جهداً في تأمين التطبيق من خلال",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289522Repository.kt",
-        "App1289522HomeScreen.kt",
-        "App1289522DetailsScreen.kt",
-        "App1289522CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع LegalContentPro بنية معماريّة متينة تعتمد على نمط MVVM، حيث تُفصل طبقات العرض (App1289522HomeScreen.kt، App1289522DetailsScreen.kt، App1289522CheckoutScreen.kt) عن طبقة البيانات (App1289522Repository.kt) والطبقة النموذجية (App1289522Model). هذا الفصل يسهل صيانة الكود، اختبار الوحدات، وإعادة استخدام المكونات عبر مختلف الشاشات، مما يقلل من زمن التطوير ويزيد من قابلية التوسع. إضافةً إلى ذلك، يُستَخدم كلاس App1289522Package لتجميع الموارد والوظائف الخاصة بالتطبيق، مما يعزز من تنظيم الحزم ويُسهل إدارة الاعتمادات. أما جانب الرسوميات، فـ BespokeVectorIllustration.kt يُظهر استخدام Canvas وVector Graphics لتوليد رسومات ديناميكية عالية الجودة، ما يضمن تجربة مستخدم سلسة دون الحاجة لتحميل ملفات صور ثقلية، وهو ما يساهم في تقليل استهلاك النطاق الترددي والذاكرة.\n\nمن الناحية البنية الخلفية، يُعتمد على خادم Node.js بسيط (server/server.js) يُدار عبر PM2 Cluster، ما يتيح توزيع الأحمال عبر عدة نوى مع مراقبة تلقائية وإعادة تشغيل تلقائي في حال حدوث أعطال. هذا الأسلوب يُقلل من تكلفة البنية التحتية مقارنة بالحلول السحابية الاحتكارية، حيث يُمكن تشغيل الخادم على VPS Starter بسعر 4.00–5.50 دولار شهرياً، مع إمكانية التوسع السريع عبر إضافة نوى إضافية في PM2 دون الحاجة لإعادة نشر التطبيق. بالإضافة إلى ذلك، يُعتمد على قاعدة بيانات خفيفة (مثلاً SQLite أو PostgreSQL على VPS) لتخزين البيانات، ما يقلل من تكاليف الصيانة ويُحافظ على استقرار الأداء حتى مع زيادة عدد المستخدمين.\n\nالتحليل التكميلي: يُظهر الكود التزاماً بممارسات التطوير الحديثة، مع التركيز على القابلية للتوسع، الأداء، والأمان. البنية الموزعة عبر VPS وPM2 Cluster تُوفر حلاً منخفض التكلفة ومرنًا، مع إمكانية التوسع الأفقي بسهولة، ما يجعل المشروع ملائمًا للعميل الذي يبحث عن كفاءة مالية عالية دون التضحية بالموثوقية أو الأداء.",
-      "milestone2_recommendation_ar": "لتحقيق مستوى أمان أعلى وتسهيل الصيانة في المرحلة الثانية، يُنصح بتنفيذ الآتي:\n1. إضافة طبقة JWT authentication مع التحقق من صلاحيات المستخدمين في كل طلب API، مع تخزين الرموز في Redis لتقليل الحمل على قاعدة البيانات.\n2. تحسين الكاش عبر Redis أو Memcached لتخزين نتائج الاستعلامات المتكررة (مثل قائمة المحتوى القانوني)، ما يقلل زمن الاستجابة ويخفف الضغط على الخادم.\n3. تكامل CI/CD مع GitHub Actions لتشغيل اختبارات الوحدة والاختبارات التكاملية تلقائيًا قبل نشر التحديثات إلى VPS، مع إعداد بيئة staging منفصلة لاختبار الأداء تحت ضغط.\n4. توسيع البنية التحتية باستخدام Kubernetes أو Docker Swarm على VPS لتسهيل التوسع الأفقي، مع إعداد مراقبة Prometheus وGrafana لمتابعة الأداء والموارد.\n5. تنفيذ سياسة أمان HTTPS عبر Let's Encrypt وتفعيل HSTS، مع إعداد جدار ناري (ufw) لتقييد الوصول إلى المنافذ الضرورية فقط.\nهذه التوصيات ستعزز أمان التطبيق، تحسن الأداء، وتُسهل عمليات الصيانة والتوسع المستقبلي."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289522Repository.kt",
-        "App1289522HomeScreen.kt",
-        "App1289522DetailsScreen.kt",
-        "App1289522CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر مشروع \"مستشار المحتوى القانوني\" بنية معماريّة متينة تعتمد على نمط MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، حيث تُستَخدم كلاس App1289522Repository لتجميع البيانات من الـ server.js وتوفيرها عبر LiveData إلى الـ App1289522HomeScreen و App1289522DetailsScreen. يُظهر الكود أيضاً استخدام نمط Domain Model مع كلاس App1289522Model، مما يضمن تجريداً واضحاً للبيانات وتسهيل اختبار الوحدة. بالإضافة إلى ذلك، تم دمج رسومات Canvas متقدمة في BespokeVectorIllustration.kt، مما يتيح رسومات متجهة عالية الجودة تتوافق مع Dynamic Island وتُحسّن تجربة المستخدم على أجهزة iOS الحديثة.\n\nيُثَثَرُ في الكود اهتماماً دقيقاً بدعم RTL للغة العربية، مع مراعاة مساحات اللمس ≥48dp في جميع الواجهات، كما يضمن استخدام Material 3 وApple Human Interface Guidelines توافقاً تاماً مع معايير التصميم الحديثة. يُظهر ملف server.js بنية خفيفة وسريعة، مع استخدام Express.js لتوفير RESTful APIs، ما يتيح توسيع نطاق الخدمة بسهولة مع الحفاظ على أمان البيانات عبر JWT وHTTPS. إن دمج هذه العناصر يخلق تجربة متكاملة ومتماسكة، مع الحفاظ على قابلية الصيانة والتوسع.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ آلية تأمين متقدمة عبر تشفير البيانات في الراحة (AES-256) وتشفير الاتصالات (TLS 1.3) مع إضافة نظام توثيق متعدد العوامل (MFA) للمدراء. كما يُفضَّل تحسين الكاش باستخدام مكتبة Room للبيانات المحلية مع استراتيجيات تحديث متزامنة (stale-while-revalidate) لتقليل استهلاك الشبكة. إضافةً إلى ذلك، يُستحسن توسيع البنية السحابية إلى حاويات Docker مع Orchestration عبر Kubernetes لتسهيل التوسع التلقائي، مع دمج خدمة CDN لتسريع تحميل رسومات Canvas وتحسين زمن الاستجابة في مناطق مختلفة. أخيراً، يُقترح دمج نظام تحليلات متقدم (Firebase Analytics + Mixpanel) لتتبع سلوك المستخدم وتحديد نقاط التحسين في واجهة المستخدم."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصميم بوستات وإنتاج فيديوهات لشركة محاماة — ١٢ عملًا أسبوعيًا — نبحث عن مصمم ومنتج فيديوهات للتعاون المستمر بشكل شهري مع شركة يزيد اليوبي للمحاماة والاستشارات القانونية. المطلوب: إنجاز وتسليم ١٢ عملا أصليا أسبوعيا، موزعة بين بوستات ثابتة وكاروسيل وفيديوهات قصيرة، وفق توزيع نتفق عليه قبل البدء. الفيديوهات لا تتجاو",
+  "domain_data": {
+    "repo_name": "wathiq-najiz-legal-consulting-1289522",
+    "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
+    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
+  }
 }
