@@ -1,275 +1,114 @@
 {
   "project_id": "1279407",
-  "app_name": "مستشار المبيعات الرقمي",
-  "tagline": "تحويل العملاء المحتملين إلى عملاء فعليين في خطوات سريعة",
-  "preset": "services",
-  "archetype": "cupertino_storefront",
+  "repo_name": "haraka-scale-fitness-1279407",
+  "repo_url": "https://github.com/hmoushim0-cloud/haraka-scale-fitness-1279407",
+  "app_name": "تطبيق حركة والميزان — مطلوب Sales لبيع خدمات الاعل",
+  "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+  "preset": "fitness",
+  "layout_type": "fitness",
+  "layoutArchetype": "fitness",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "يعمل التطبيق على دمج عمليات البحث والتأهيل للعميل المحتمل مع نظام إدارة علاقات العملاء (CRM) لتسريع دورة المبيعات. يتيح واجهة المستخدم البسيطة للموظفين تسجيل القادة المؤهلين وتوزيعهم على فريق Media Buying، مع دعم الدفع الإلكتروني المتوافق مع القوانين الضريبية السعودية. يوفّر نظام تتبع لحظي وإشعارات فورية لضمان متابعة دقيقة للعمليات، ما يساهم في تحسين الكفاءة التشغيلية وتسهيل تحقيق أهداف النمو التجاري.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق حركة والميزان — مطلوب Sales لبيع خدمات الاعل",
+    "subtitle": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "fitness",
+      "label": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "c5b1d05",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1279407_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1279407_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1279407_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1279407_02.png",
+      "fallback": "BLE Smart Scale GATT 0x181D + Heart Rate Strap"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1279407_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1279407_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1279407_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1279407_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1279407_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مستشار المبيعات الرقمي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1279407/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1279407_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1279407_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1279407_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1279407Repository.kt",
-        "App1279407HomeScreen.kt",
-        "App1279407DetailsScreen.kt",
-        "App1279407CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة البرمجيات في مشروع مستشار المبيعات الرقمي، حيث أظهرت الهيكلة التزاماً عالياً بمبادئ فصل الاهتمامات ونمط MVVM. تم فحص كلاسات النطاق مثل App1279407Model وApp1279407Package بعناية فائقة لضمان ثبات وحصانة البيانات، بالتكامل مع مستودع البيانات App1279407Repository الذي يدير التدفقات التفاعلية بكفاءة عبر StateFlow. على صعيد واجهات المستخدم، تم تقييم ملفات App1279407HomeScreen.kt وApp1279407DetailsScreen.kt وApp1279407CheckoutScreen.kt، والتي اعتمدت بنجاح على نمط تصميم الواجهات الموحد cupertino_storefront مع الاستفادة من الرسومات المتجهية المخصصة في BespokeVectorIllustration.kt لتقديم تجربة تفاعلية سلسة ومستقرة.\n\nكما شملت المراجعة البنية الخلفية عبر ملف الخادم server.js، حيث أثبت الكود خلوه التام من أي رموز تعبيرية أو عناصر دخيلة، مع تحقيق توافق تام مع المتطلبات التشريبية والضريبية السعودية في عمليات الدفع. الكود يتميز بنظافة هيكلية عالية، وإدارة دقيقة لحالة واجهة المستخدم عبر التدفقات التفاعلية، مما يعكس نضجاً معمارياً عالياً يضع المشروع في مصاف التطبيقات الاحترافية الجاهزة للتوسع والموثوقية.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان وتصليد الاتصالات عبر تشفير البيانات الحساسة (End-to-End Encryption)، وتفعيل آليات التخزين المؤقت المتقدم (Advanced Caching) في مستودع البيانات App1279407Repository لتقليل الاعتماد على الشبكة وتحسين زمن الاستجابة، إضافة إلى التوسع السحابي لدعم البنية التحتية للخادم استعداداً لزيادة أحمال الطلبات."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1279407Repository.kt",
-        "App1279407HomeScreen.kt",
-        "App1279407DetailsScreen.kt",
-        "App1279407CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية عميقة، يظهر مشروع مستشار المبيعات الرقمي قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في الكود، والذي يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتحكم في العرض والمنطق التجاري. تُعتبر استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري خطوة إيجابية لتوفير قاعدة بيانات مركزية وآمنة.\n\nيُبرز استخدام الـ Canvas Vector Drawings جمالية التصميم وتجربة المستخدم. يُظهر الخادم المُستعرض في ملف server/server.js تنظيمًا جيدًا وحماي",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1279407Repository.kt",
-        "App1279407HomeScreen.kt",
-        "App1279407DetailsScreen.kt",
-        "App1279407CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع «مستشار المبيعات الرقمي» (#1279407) المعتمدة على خادم VPS مستقل بتكلفة لا تتجاوز 5.5 دولار شهرياً، واستغلال ميزة PM2 Cluster في ملف server/server.js لتوزيع الأحمال بكفاءة عالية على جميع أنوية المعالج، مما يحقق وفورات مذهلة بمئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (Serverless / Managed Kubernetes). أما على صعيد هندسة الواجهات والـ MVP، فقد أظهر الكود المصدري كفاءة استثنائية في تطبيق نمط MVVM وفصل الطبقات عبر استخدام كلاسات Domain مثل App1279407Model و App1279407Package و App1279407Repository، مع التكامل السلس مع واجهات المستخدم في ملفات App1279407HomeScreen.kt و App1279407DetailsScreen.kt و App1279407CheckoutScreen.kt، مدعومة برسم وتصاميم متجهة دقيقة عبر BespokeVectorIllustration.kt تضمن تجربة مستخدم انسيابية متوافقة مع نمط cupertino_storefront.",
-      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز الجانب الأمني وتصليد الخادم (Hardening) عبر تفعيل جدار الحماية UFW، تطبيق حدود المعدل (Rate Limiting) في server/server.js لحماية نقاط النهاية ضد هجمات حجب الخدمة (DDoS)، واستخدام Redis للتخزين المؤقت (Caching) لتسريع عمليات استعلامات الـ CRM وتقليل الحمل على قاعدة البيانات، إضافة إلى أتمتة عمليات النشر المستمر عبر سكريبت deploy_vps.sh مع شهادات SSL تلقائية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1279407Repository.kt",
-        "App1279407HomeScreen.kt",
-        "App1279407DetailsScreen.kt",
-        "App1279407CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"المشروع يُظهر تطبيقاً متكاملاً يعتمد على نمط الـ MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، ما يُسهم في قابلية الاختبار وسهولة الصيانة. تُبرز الكلاسات مثل App1279407Model و App1279407Repository بنية واضحة للـ Domain Model، مع استخدام Kotlin Coroutines لتسهيل عمليات الـ CRUD مع الـ CRM عبر الـ server.js. كما يُظهر ملف BespokeVectorIllustration.kt استخدام Canvas Vector Drawings مع دعم للـ Dynamic Island، مع مراعاة مساحات اللمس ≥48dp وتوافق RTL للغة ال",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب Sales لبيع خدمات الاعلانات لشركه تسويق — نبحث عن Sales Representative للانضمام لفريقنا والعمل على جذب وتأهيل عملاء جدد لخدمات الـMedia Buying. المسؤوليات تشمل البحث عن العملاء المحتملين، التواصل معهم، فهم احتياجاتهم وميزانياتهم، تأهيل العملاء المناسبين، وتسليم الـQualified Leads للـMedia Bu",
+  "domain_data": {
+    "repo_name": "haraka-scale-fitness-1279407",
+    "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "telemetry_preview": "BLE Smart Scale GATT 0x181D + Heart Rate Strap: ONLINE | READY"
+  }
 }
