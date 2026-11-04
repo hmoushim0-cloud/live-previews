@@ -2,7 +2,7 @@
   "project_id": "1289496",
   "repo_name": "hayyiz-space-coworking-1289496",
   "repo_url": "https://github.com/hmoushim0-cloud/hayyiz-space-coworking-1289496",
-  "app_name": "تطبيق حيز للمكاتب — مطلوب مساعد شخصي لتنفيذ المه",
+  "app_name": "hayyiz-space-coworking-1289496",
   "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
   "preset": "coworking",
   "layout_type": "coworking",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق حيز للمكاتب — مطلوب مساعد شخصي لتنفيذ المه",
+    "title": "hayyiz-space-coworking-1289496",
     "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "54bd78e",
+  "commit_hash": "8761ac3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
