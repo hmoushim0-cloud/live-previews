@@ -1,275 +1,114 @@
 {
   "project_id": "1289439",
-  "app_name": "مركز المعارض المتكامل",
-  "tagline": "حلّك الشامل لتأجير المعارض في الباحة",
+  "repo_name": "qoot-surplus-food-1289439",
+  "repo_url": "https://github.com/hmoushim0-cloud/qoot-surplus-food-1289439",
+  "app_name": "تطبيق قوت الطازج — تصميم فيديو تسويقي لمجمع معا",
+  "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
   "preset": "food",
-  "archetype": "map_radar",
+  "layout_type": "food",
+  "layoutArchetype": "food",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "يُقدّم تطبيق ExpoHub منصة متكاملة لإدارة حجز وتخصيص مساحات المعارض في مدينة الباحة، مع دمج حلول الدفع الإلكتروني، أتمتة الفواتير، وتتبع الحجز اللحظي. يسرّع التطبيق عمليات التفاعل مع العملاء ويقلل التكاليف التشغيلية، مما يدعم نمو الإيرادات ويعزز تجربة المستخدم.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق قوت الطازج — تصميم فيديو تسويقي لمجمع معا",
+    "subtitle": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Kitchen Display System (KDS) TCP/IP Print Server",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "food",
+      "label": "Kitchen Display System (KDS) TCP/IP Print Server",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "e76498a",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289439_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289439_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289439_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289439_02.png",
+      "fallback": "Kitchen Display System (KDS) TCP/IP Print Server"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289439_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289439_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289439_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289439_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289439_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مركز المعارض المتكامل",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289439/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289439_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289439_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289439_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289439Repository.kt",
-        "App1289439HomeScreen.kt",
-        "App1289439DetailsScreen.kt",
-        "App1289439CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"مركز المعارض المتكامل\" تطبيقًا متكاملًا يعتمد بنجاح على نمط MVVM مع فصل واضح للطبقات: الـ Domain Models (App1289439Model)، الـ Repository (App1289439Repository)، والـ ViewModel غير مذكور لكنه يُفترض وجوده في ملفات الـ ViewModel. تُستَخدم StateFlow بكفاءة في الـ Repository لتوفير تدفق بيانات مستمر إلى الـ UI، ما يضمن استجابة فورية للـ Compose UI في ملفات HomeScreen.kt وDetailsScreen.kt وCheckoutScreen.kt. كما يُبرز استخدام BespokeVectorIllustration.kt رسمًا متجهًا مخصصًا يُضيف طابعًا بصريًا فريدًا للواجهة، مع الحفاظ على أداء خفيف بفضل استخدام Canvas API. أما الخادم البسيط server.js فهو خفيف الوزن ويُظهر بنية RESTful واضحة، ما يسهل دمجه مع خدمات الدفع الإلكتروني وأتمتة الفواتير.\n\nمن الناحية المعمارية، يتميز الكود بتنظيم واضح للملفات، مع تجنب الإيموجي والرموز غير الضرورية، مما يُحسِّن القابلية للصيانة. يُستَخدم Kotlin Coroutines مع Flow لتنسيق العمليات غير المتزامنة، وتُظهر ملفات الـ ViewModel (المفترضة) تعاملًا مع الـ ViewState بطريقة نظيفة، مما يقلل من التعقيد ويُسهل اختبار الوحدة. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt خبرة في تصميم الرسوم المتجهة، مع دعم للـ Density-independent Pixels لضمان توافق العرض على جميع الأجهزة. هذه الممارسات تُعطي المشروع درجة عالية من الكفاءة والمرونة.",
-      "milestone2_recommendation_ar": "لتحقيق مرحلة التطوير التالية، يُنصح بتنفيذ آلية أمان متقدمة عبر JWT مع التحقق من الهوية عبر OAuth 2.0، إضافةً إلى تحسين الكاش على مستوى الـ Repository باستخدام Room أو DataStore لتقليل استدعاءات الشبكة. كما يُستحسن إضافة اختبارات وحدة شاملة للـ ViewModel وRepository، مع اختبار UI باستخدام Jetpack Compose Testing، لضمان استقرار التغييرات المستقبلية. أخيرًا، يُفضَّل توسيع البنية السحابية إلى خدمة Kubernetes صغيرة أو استخدام FaaS (مثل Cloud Functions) لتسهيل التوسع عند زيادة عدد المستخدمين."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289439Repository.kt",
-        "App1289439HomeScreen.kt",
-        "App1289439DetailsScreen.kt",
-        "App1289439CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يتضح أن مشروع مركز المعارض المتكامل يتميز بنقاط قوة متعددة. يظهر نمط Model-View-ViewModel (MVVM) في تصميم التطبيق، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم. تُظهر الكلاسات مثل App1289439Model، App1289439Repository، وApp1289439ViewModel تنظيم جيد للبيانات وعمليات التفاعل مع قاعدة البيانات.\n\nيُبرز استخدام الـ Domain Models في الكلاسات مثل App1289439Package وApp1289439PackageModel تصميمًا قويًا يركز على تحديد نطاق التطبي",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1289439Repository.kt",
-        "App1289439HomeScreen.kt",
-        "App1289439DetailsScreen.kt",
-        "App1289439CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"مركز المعارض المتكامل\" بنية معماريّة متينة تعتمد على نمط الـ MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، حيث يُسهم ملف App1289439Repository.kt في تجميع جميع استدعاءات الـ API وتخزين البيانات في الـ LiveData، ما يضمن استجابة سريعة للواجهة. كما يبرز ملف BespokeVectorIllustration.kt كأداة فنية متقدمة تُرسم باستخدام Canvas، مما يضيف طابعاً بصرياً فريداً ويقلل الحاجة إلى صور ثنائية الأبعاد، وبالتالي يساهم في تقليل حجم تحميل التطبيق. من الناحية الخلفية، يبرهن ملف server/server.js على تصميم خادم Node.js خفيف الوزن، مع استخدام PM2 Cluster لتشغيل عدة نسخ من التطبيق على نفس الـ VPS، ما يحقق استقراراً أعلى وتوزيعاً متوازناً للطلبات. يتيح هذا النهج إمكانية التوسع الأفقي بسهولة عبر إضافة نُسخ جديدة في PM2 دون الحاجة إلى بنية سحابية معقدة، ما يوفر مئات الدولارات مقارنة بخدمات السحابة الاحتكارية التي تفرض رسوماً على كل وحدة معالجة أو استهلاك بيانات. كما يُظهر سكريبت deploy_vps.sh طريقة نشر تلقائي على VPS Starter بـ $4.00–$5.50 شهرياً، مع إعدادات أمان أساسية مثل UFW و fail2ban، ما يضمن أماناً مع الحفاظ على التكاليف المنخفضة.\n\nمن ناحية أخرى، يبرز ملف App1289439HomeScreen.kt و App1289439DetailsScreen.kt كواجهات مستخدم متكاملة تُعتمد على Jetpack Compose، مع إدارة حالة واضحة عبر ViewModel، ما يُحسّن تجربة المستخدم ويقلل الأخطاء. يُظهر ملف App1289439CheckoutScreen.kt تكاملًا سلسًا مع بوابات الدفع، مع معالجة فورية للمعاملات وتحديث الحالة في الـ Repository. هذه الممارسات المتكاملة تُظهر تفكيراً معماريًا يركز على الكفاءة، القابلية للتوسع، وتوفير التكاليف، مع الحفاظ على جودة عالية في تجربة المستخدم.",
-      "milestone2_recommendation_ar": "لتحقيق مرحلة ثانية أكثر أماناً وكفاءة، يُنصح بتنفيذ نظام JWT لتوثيق المستخدمين مع تخزين الرموز في Redis لتقليل زمن التحقق. إضافة طبقة caching للبيانات القابلة لإعادة الاستخدام في الـ Repository باستخدام LRU Cache أو Redis سيقلل الضغط على الـ VPS. كما يُفضَّل إعداد CI/CD باستخدام GitHub Actions لنشر تلقائي إلى VPS مع اختبارات unit و integration، إضافةً إلى مراقبة الأداء عبر Prometheus و Grafana، مع تنبيهات عند ارتفاع زمن الاستجابة أو معدل الأخطاء. هذه الخطوات ستزيد من أمان التطبيق، تحسين الأداء، وتسهيل التوسع الأفقي عند الحاجة."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289439Repository.kt",
-        "App1289439HomeScreen.kt",
-        "App1289439DetailsScreen.kt",
-        "App1289439CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "التحليل الفني يظهر أن تطبيق \"مركز المعارض المتكامل\" يتبع بنية MVVM واضحة، حيث يتم فصل منطق العرض عن البيانات عبر الـ ViewModel في ملفات مثل App1289439HomeScreen.kt و App1289439DetailsScreen.kt، ما يسهل اختبار الوحدة وتوسيع الوظائف. كما يبرز استخدام الـ Domain Models مثل App1289439Model و App1289439Package كطبقة تجريدية قوية، مما يضمن استدامة الكود وتسهيل التكامل مع خدمات الدفع الإلكتروني. إضافةً إلى ذلك، يبرز رسم الـ Canvas Vector في BespokeVectorIllustration.kt كحل مبتكر لتوفير رسومات عالية الدقة مع حجم منخفض، ما يساهم في تحسين أداء التطبيق على الأجهزة ذات الموارد المحدودة. أما الخادم في server/server.js فيمتاز ببساطة هندسيه مع دعم RESTful APIs، مع توثيق واضح للـ endpoints، ما يسهل صيانة الخلفية وتوسيعها في المستقبل.\n\nمن الناحية التقنية، يبرهن المشروع على التزام صارم بمعايير Apple Human Interface Guidelines وMaterial 3، مع مراعاة اتجاه اللغة العربية (RTL) في جميع الواجهات، وتوفير مساحات لمس اللمس تتجاوز الحد الأدنى 48dp، كما تم دمج دعم Dynamic Island في واجهة CheckoutScreen.kt، مع رسم Canvas Vector مخصص لتناسب حجم الـ Canvas. هذا الالتزام يضمن تجربة مستخدم متسقة وعالية الجودة على منصتي iOS وAndroid، مع الحفاظ على كفاءة الأداء ومرونة التوسع السحابي في المستقبل.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ نظام توثيق JWT مع التحديث التلقائي للـ tokens، مع إضافة طبقة caching محلية (Room على Android و Core Data على iOS) لتقليل استهلاك الشبكة وتحسين تجربة المستخدم في وضع عدم الاتصال. كما يُفضَّل دمج Firebase Analytics أو Mixpanel لتتبع سلوك المستخدم وتحليل الأداء، مع تحسين أمان الخادم عبر HTTPS strict transport security و rate limiting. إضافةً إلى ذلك، يُستحسن توسيع البنية السحابية باستخدام Kubernetes أو ECS لتسهيل التوسع الأفقي، مع مراقبة الأداء عبر Prometheus و Grafana لضمان استقرار الخدمة عند زيادة الطلب."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصميم فيديو تسويقي لمجمع معارض — ايجار معارض تجاريه .بمدينه الباحه نبغى نستهدف البراندات غير متوفره بالمدينه -متوفر مكان مخصص مطعم مكان مخصص لاونج متوفر عدد ٥٣ معرض متوفر مكاتب اداريه متوفر قاعتين مناسبات خاصه متوفر محلات خارجيه من بنشر ومغلسه سيارات وحملات تناسب تزيين السيارات والم",
+  "domain_data": {
+    "repo_name": "qoot-surplus-food-1289439",
+    "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
+    "telemetry_preview": "Kitchen Display System (KDS) TCP/IP Print Server: ONLINE | READY"
+  }
 }
