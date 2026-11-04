@@ -2,7 +2,7 @@
   "project_id": "1289494",
   "repo_name": "injaz-care-services-1289494",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289494",
-  "app_name": "تطبيق إنجاز للخدمات — مطور Full Stack ذو خبرة في P",
+  "app_name": "injaz-care-services-1289494",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — مطور Full Stack ذو خبرة في P",
+    "title": "injaz-care-services-1289494",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "23e4e7e",
+  "commit_hash": "4953a28",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
