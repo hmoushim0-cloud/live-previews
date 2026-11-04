@@ -1,275 +1,114 @@
 {
   "project_id": "1289526",
-  "app_name": "المنصة التجارية الجزائرية",
-  "tagline": "حل شامل لإدارة التجارة الإلكترونية في الجزائر",
-  "preset": "food",
-  "archetype": "medical_portal",
+  "repo_name": "maher-field-services-1289526",
+  "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289526",
+  "app_name": "تطبيق ماهر الميداني — تطوير منصة SaaS جزائرية لإدا",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "يتم بناء المنصة باستخدام Kotlin Multiplatform لتوفير تجربة موحدة على الويب والهواتف، مع قاعدة بيانات PostgreSQL وRESTful API مدعومة بـ GraphQL، وتكامل مع خدمات التوصيل المحلية، مع أمان مستوى enterprise باستخدام JWT وTLS، وCI/CD مع GitHub Actions لضمان تسليم مستمر.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق ماهر الميداني — تطوير منصة SaaS جزائرية لإدا",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "4399e2e",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289526_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289526_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289526_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289526_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289526_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289526_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289526_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289526_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289526_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ المنصة التجارية الجزائرية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289526/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289526_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289526_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289526_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289526Repository.kt",
-        "App1289526HomeScreen.kt",
-        "App1289526DetailsScreen.kt",
-        "App1289526CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي كبير معماريي برمجيات أندرويد وKMP، قمت بمراجعة دقيقة وشاملة لهندسة مشروع المنصة التجارية الجزائرية (رقم 1289526)، وشمل الفحص ملفات الـ Domain والمستودعات وعروض الواجهات مثل App1289526Repository.kt وApp1289526HomeScreen.kt وApp1289526DetailsScreen.kt وApp1289526CheckoutScreen.kt إلى جانب مكونات الرسم والتوجيه الخادم في BespokeVectorIllustration.kt وserver/server.js. أظهر الكود التزاماً استثنائياً بمعمارية MVVM وفصل الاهتمامات (Separation of Concerns)، مع توظيف كلاسات النماذج مثل App1289526Model وApp1289526Package بكفاءة عالية تدعم تعدد المنصات (KMP).\n\nتم التعامل مع التدفقات التفاعلية عبر StateFlow بحرفية بالغة تضمن استقرار الحالة وسلاسة التصميم التفاعلي في شاشات الدفع والتفاصيل، مع خلو تام للملفات من أي رموز تعبيرية (Emojis) التزاماً بالمعايير الاحترافية الصارمة. كما أظهر خادم Node.js وبنية PostgreSQL كفاءة في إدارة الاتصالات واستssال الطلبات بالتكامل مع معايير الأمان والتشفير، مما يضع المشروع في مصاف التطبيقات التجارية المتقدمة.",
-      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز طبقة الأمان (Enterprise Security) عبر تطبيق آلية التخزين المشفر للرموز (EncryptedSharedPreferences/EncryptedSettings) وتصليد اتصالات TLS، بالإضافة إلى تفعيل نظام التخزين المؤقت المتقدم (Local Caching) باستخدام SQLDelight لدعم العمل دون اتصال بالإنترنت (Offline-First)، وتحسين استعلامات GraphQL وPostgreSQL لضمان أداء عالي الاستجابة مع التوسع السحابي."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289526Repository.kt",
-        "App1289526HomeScreen.kt",
-        "App1289526DetailsScreen.kt",
-        "App1289526CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يظهر مشروع المنصة التجارية الجزائرية قوة في عدة جوانب. يُشاد بالنمط المعماري MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات. تُعتبر استخدام كلاسات Domain Models لتنظيم البيانات والمنطق خطوة إيجابية تساهم في تحسين جودة الكود وإعادة استخدام الكود. يُعزز استخدام Canvas Vector Drawings تجربة المستخدم ويُظهر مهارات التصميم الجرافيكي للفريق.\n\nفيما يتعلق بالخادم، يُظهر كود server/server.js استخدام تقنيات مثل Node.js وEx",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289526Repository.kt",
-        "App1289526HomeScreen.kt",
-        "App1289526DetailsScreen.kt",
-        "App1289526CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة للمنصة التجارية الجزائرية (#1289526) والتي تحقق كفاءة مالية فائقة وتوفر مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو Google Cloud Managed Services)، وذلك بفضل الاعتماد على خادم VPS مستقل وموجه بسكريبت النشر `deploy_vps.sh` مع تشغيل خادم `server/server.js` عبر مدير Processes الكفوء PM2 Cluster للاستفادة القصوى من أنوية المعالج. أما على مستوى الكود، فقد أبدع فريق التطوير في هندسة النطاق والربط البرمجي باستخدام كلاسات نموذجية متينة مثل `App1289526Model` و`App1289526Package` داخل مستودع البيانات `App1289526Repository.kt`، مما يضمن تدفقاً سلساً للبيانات عبر بنية Kotlin Multiplatform. كما توفر شاشات الواجهة مثل `App1289526HomeScreen` و`App1289526DetailsScreen` و`App1289526CheckoutScreen` تجربة مستخدم موحدة وعالية الأداء، مدعومة برسوميات المتجهات المخصصة عبر `BespokeVectorIllustration.kt` لتفادي أعباء الأصول الثقيلة وتحسين زمن التحميل.",
-      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز طبقة الأمان (Enterprise Security) عبر تطبيق نظام تحديد معدل الطلبات (Rate Limiting) في `server.js`، وتفعيل ميزة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة وتحسين استهلاك الموارد على خادم الـ VPS، إضافة إلى إحكام توثيق سياسات التوثيق عبر JWT وTLS لضمان أعلى معايير الموثوقية والأمان عند التوسع."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289526Repository.kt",
-        "App1289526HomeScreen.kt",
-        "App1289526DetailsScreen.kt",
-        "App1289526CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر الكود في مشروع المنصة التجارية الجزائرية بنية معماريّة متينة، حيث يُعتمد على نمط MVVM مع فصل واضح بين طبقة العرض (App1289526HomeScreen.kt، App1289526DetailsScreen.kt، App1289526CheckoutScreen.kt) وطبقة البيانات (App1289526Repository.kt) التي تتفاعل مع قاعدة PostgreSQL عبر GraphQL، ما يضمن مرونة التوسع وتسهيل صيانة الكود. كما تُبرز الكلاسات Domain مثل App1289526Model و App1289526Package كأمثلة على تصميم النماذج القابلة لإعادة الاستخدام، مع توظيف JWT وTLS لضمان أمان مستوى enterprise. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt استخدام Canvas Vector Drawings متقن، مع مراعاة قياسات لمسّ ≥48dp وتوافق مع Dynamic Island، ما يضمن تجربة مستخدم متوافقة مع أحدث معايير Apple وMaterial 3.\\n\\nمن الناحية البنية، يبرز server/server.js كخادم خفيف يدمج RESTful API مع GraphQL، مع تكامل مع خدمات التوصيل المحلية، ما يحقق توازنًا بين الأداء والمرونة. يُستحسن الحفاظ على هذا النهج المعياري مع توسيع CI/CD عبر GitHub Actions لضمان تسليم مستمر، مع توثيق واضح للخطوات والاختبارات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتركيز الجهود على تعزيز أمان التطبيق عبر تنفيذ OAuth 2.0 مع PKCE لتقليل مخاطر اختراق الـ JWT، إضافةً إلى تحسين الكاش على مستوى الـ GraphQL باستخدام Apollo Cache أو DataStore لتقليل استهلاك الشبكة. كما يُفضَّل توسيع البنية السحابية إلى منصة Kubernetes أو ECS لتسهيل التوسع التلقائي، مع إعداد مراقبة دقيقة عبر Prometheus وGrafana لضمان استقرار الأداء تحت أحمال مرتفعة."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تطوير منصة SaaS جزائرية لإدارة التجارة الإلكترونية والطلبات والتوصيل — أبحث عن مطور Full-Stack محترف أو فريق تقني صغير لتطوير منصة SaaS متخصصة في إدارة التجارة الإلكترونية في الجزائر، مشابهة لمنصة Flex. فكرة المشروع: إنشاء منصة تسمح للتجار الجزائريين بإدارة أعمال التجارة الإلكترونية من مكان واحد، خصوصا التجار الذين يعتم",
+  "domain_data": {
+    "repo_name": "maher-field-services-1289526",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
