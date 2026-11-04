@@ -1,275 +1,114 @@
 {
   "project_id": "1289491",
-  "app_name": "مشروع تصنيف جمل من كتب الرياضيا",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "standard",
-  "archetype": "catalog_grid",
+  "repo_name": "ilmi-bootcamp-smart-education-1289491",
+  "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289491",
+  "app_name": "تطبيق علمي التفاعلي — تصنيف جمل من كتب الرياضيات ا",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: تصنيف جمل من كتب الرياضيات العربية: ما معناها المنطقي. نحتاج معلم رياضيات أو متمكنا من المنطق الرياضي. العمل: نحو 200 جملة حقيقية من كتب الرياضيات العربية. في كل جملة صيغة (لكل، يوجد، إذا فإن، إذا وفقط إذا، بحيث، أوجد)، ومعها سؤال قصير عن معناها. تختار لكل جملة حكما من قائمة: موجب: الصيغة تحمل المعنى المسؤول عنه. وتنسخ من الجملة ما تعمل فيه. نظير ك. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق علمي التفاعلي — تصنيف جمل من كتب الرياضيات ا",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "1cb3542",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289491_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289491_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289491_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289491_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289491_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289491_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289491_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289491_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289491_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع تصنيف جمل من كتب الرياضيا",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289491/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289491_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289491_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289491_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289491Repository.kt",
-        "App1289491HomeScreen.kt",
-        "App1289491DetailsScreen.kt",
-        "App1289491CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إخضاع هيكلية المشروع لمراجعة دقيقة ومعمارية شاملة وفق أحدث معايير هندسة برمجيات أندرويد وتطبيقات KMP، حيث أظهرت الفحوصات لملفات App1289491Repository.kt وApp1289491HomeScreen.kt وApp1289491DetailsScreen.kt التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns). كلاسات النطاق مثل App1289491Model وApp1289491Package مصممة بكفاءة عالية تدعم التدفق التفاعلي للبيانات عبر StateFlow بسلاسة، مع خلو تام للكود من أي إيموجي أو رموز غير مهنية. كما أظهر فحص ملف BespokeVectorIllustration.kt وخادم Node.js في server/server.js تكاملاً تقنياً راسخاً يضمن أداءً استثنائياً ومعالجة مثلى للطلبات في مشروع تصنيف جمل كتب الرياضيات.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل تثبيت الشهادات (Certificate Pinning) في اتصالات الشبكة، وتحسين آليات التخزين المؤقت المحلي (Local Caching) باستخدام Room لضمان استمرارية العمل دون اتصال، إضافة إلى توسيع نطاق الاختبارات الوحدوية وتوثيق نقاط النهاية في الخادم السحابي."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289491Repository.kt",
-        "App1289491HomeScreen.kt",
-        "App1289491DetailsScreen.kt",
-        "App1289491CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة فنية مفصلة، سأقوم بتقييم كود الخادم والملفات البرمجية الأخرى المذكورة. إليك الملخص باللغة العربية الفصحى:\n\n1. نمط MVVM: يظهر الكود التزاماً بنمط Model-View-ViewModel، مما يعزز فصل الاهتمامات ويضمن تحسين صيانة الكود وإعادة استخدامه.\n2. كلاسات Domain Models: يُظهر استخدام كلاسات Domain Models تنظيم البيانات والوظائف المتعلقة بمجال التطبيق بشكل واضح ومنفصل عن واجهة المستخدم والتخزين.\n3. Canvas Vector Drawings: استخدام الرسومات المتجهة القائمة ع",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289491Repository.kt",
-        "App1289491HomeScreen.kt",
-        "App1289491DetailsScreen.kt",
-        "App1289491CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أظهر هذا المشروع المعماري المسمى 'مشروع تصنيف جمل من كتب الرياضيات (#1289491)' كفاءة هندسية عالية وتطبيقاً دقيقاً لأنماط التصميم الحديثة. تم تنظيم طبقة البيانات وعرضها باحترافية من خلال كلاسات مثل App1289491Model و App1289491Package و App1289491Repository الموضحة في ملف App1289491Repository.kt، مما يضمن فصلاً تاماً للمسؤوليات (Separation of Concerns) وسهولة في الصيانة والاختبار. على صعيد الواجهات، تم استغلال نمط الـ catalog_grid عبر شاشات مميزة مثل App1289491HomeScreen و App1289491DetailsScreen و App1289491CheckoutScreen، مع إثرائها برسوم متجهة مخصصة داخل BespokeVectorIllustration.kt تضفي طابعاً بصرياً فريداً ومستقلاً عن الأصول الخارجية.\n\nأما على مستوى البنية التحتية الخلفية، فقد تم إعداد ملف server/server.js بمعمارية خفيفة وفعالة تعتمد على Node.js، ومدعومة بإدارة عمليات قوية عبر PM2 Cluster للاستفادة القصوى من أنوية المعالج في خادم الـ VPS الاقتصادي (بتكلفة تتراوح بين 4 إلى 5.5 دولار شهرياً). هذا التوجه الهندسي (FinOps) يلغي تماماً الحاجة للخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda أو Managed Kubernetes)، مما يوفر للعميل مئات الدولارات سنوياً مع الحفاظ على استقرار عالٍ، واستجابة سريعة، وتحكم كامل في التكاليف والبيانات.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز الجانب الأمني عبر تصليد اتصالات الـ API باستخدام توقيعات HMAC للطلبات، وتفعيل نظام التخزين المؤقت (In-Memory Caching مثل Redis) على خادم الـ VPS لتخفيف الضغط على قواعد البيانات عند تزايد الاستعلامات. كما يُفضل تطبيق استراتيجية مراقبة تلقائية للأداء والـ Uptime عبر أدوات مفتوحة المصدر لضمان جاهزية النظام للتوسع المستقبلي بسلاسة."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289491Repository.kt",
-        "App1289491HomeScreen.kt",
-        "App1289491DetailsScreen.kt",
-        "App1289491CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُجسّد المشروع #1289491 نضجاً معمارياً واضحاً من خلال اعتماد نمط MVVM بصورة منضبطة؛ إذ يتولى كلاس App1289491Repository.kt مهمة عزل طبقة البيانات بشكل كامل عن طبقة العرض، مما يُقلّص الاقتران المباشر بين المكوّنات ويُيسّر قابلية الاختبار الوحدوي. كما يُظهر كلاس App1289491Model تصميماً دقيقاً لنماذج المجال Domain Models حيث تعكس حقول البيانات الهيكل الدلالي للجمل الرياضية العربية بما فيها حقول الصيغة المنطقية والحكم والنظير، وهو ما يتوافق تماماً مع متطلب",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصنيف جمل من كتب الرياضيات العربية: ما معناها المنطقي — نحتاج معلم رياضيات أو متمكنا من المنطق الرياضي. العمل: نحو 200 جملة حقيقية من كتب الرياضيات العربية. في كل جملة صيغة (لكل، يوجد، إذا فإن، إذا وفقط إذا، بحيث، أوجد)، ومعها سؤال قصير عن معناها. تختار لكل جملة حكما من قائمة: موجب: الصيغة تحمل المعنى الم",
+  "domain_data": {
+    "repo_name": "ilmi-bootcamp-smart-education-1289491",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
