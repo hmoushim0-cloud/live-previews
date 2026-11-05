@@ -1,0 +1,114 @@
+{
+  "project_id": "1291015",
+  "repo_name": "ilmi-bootcamp-smart-education",
+  "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education",
+  "app_name": "تطبيق علمي التفاعلي — مطلوب مبرمج Full Stack لإنشا",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
+  "theme": {
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
+  },
+  "banner": {
+    "title": "تطبيق علمي التفاعلي — مطلوب مبرمج Full Stack لإنشا",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "39df06b",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291015_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291015_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291015_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291015_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291015_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291015_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مطلوب مبرمج Full Stack لإنشاء منصة توظيف إلكترونية – TAWZEEFI. أبحث عن مبرمج محترف لتنفيذ موقع توظيف إلكتروني باسم TAWZEEFI، يستهدف المدارس والأكاديميات والمراكز التعليمية والرياضية داخل المملكة العربية السعودية، على أن تتم إدارة المشروع بالكامل من مصر. المطلوب في النسخة الأولى MVP: 1. موقع إلكتروني متوافق مع الموبايل والكمبيوتر. 2. تسجيل حسابات لل",
+  "domain_data": {
+    "repo_name": "ilmi-bootcamp-smart-education",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
+}

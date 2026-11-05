@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-05T15:51:53.788453+00:00",
+    "updated_at": "2026-11-05T19:10:55.108281+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "355",
+      "value": "358",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -50,6 +50,30 @@
   },
   "verified_projects": [
     {
+      "project_id": "1291053",
+      "app_name": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291053",
+      "stamp_id": "SA-KMP-1291053",
+      "crypto_hash": "sha256-1291053",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291049",
+      "app_name": "تطبيق إيوان العقارية — بناء تطبيق وموقع خبير ذكي بن",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291049",
+      "stamp_id": "SA-KMP-1291049",
+      "crypto_hash": "sha256-1291049",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
       "project_id": "1291028",
       "app_name": "تطبيق قيادة الرقمي — تطوير منصة MOX MEDIA – تطبيق",
       "tagline": "منظومة car_rental المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
@@ -57,6 +81,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291028",
       "stamp_id": "SA-KMP-1291028",
       "crypto_hash": "sha256-1291028",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291015",
+      "app_name": "تطبيق علمي التفاعلي — مطلوب مبرمج Full Stack لإنشا",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "preset": "smart_education",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291015",
+      "stamp_id": "SA-KMP-1291015",
+      "crypto_hash": "sha256-1291015",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
@@ -2139,9 +2175,9 @@
     },
     {
       "project_id": "1289680",
-      "app_name": "متجر كفرات الهواتف الفاخر",
-      "tagline": "أعلى جودة، تجربة فاخرة، تسوق بلا حدود",
-      "preset": "ecommerce",
+      "app_name": "تطبيق فوري باي — تصميم متجر إلكتروني فاخر لبي",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289680",
       "stamp_id": "SA-KMP-1289680",
       "crypto_hash": "sha256-1289680",
@@ -2163,9 +2199,9 @@
     },
     {
       "project_id": "1289675",
-      "app_name": "حل تحليل بيانات المدارس",
-      "tagline": "حل تحليل بيانات المدارس في الإمارات بفعالية",
-      "preset": "standard",
+      "app_name": "تطبيق حركة والميزان — مطلوب بائع اونلاين محترف لبي",
+      "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "preset": "fitness",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289675",
       "stamp_id": "SA-KMP-1289675",
       "crypto_hash": "sha256-1289675",
@@ -2187,9 +2223,9 @@
     },
     {
       "project_id": "1289662",
-      "app_name": "مدير حسابات المحتوى",
-      "tagline": "تحقيق نمو العلامة التجارية بسرعة وفعالية",
-      "preset": "standard",
+      "app_name": "تطبيق إنجاز للخدمات — مطلوب مدير حسابات ومحتوى لوك",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289662",
       "stamp_id": "SA-KMP-1289662",
       "crypto_hash": "sha256-1289662",
@@ -2211,9 +2247,9 @@
     },
     {
       "project_id": "1289658",
-      "app_name": "إدارة الحملات الرقمية",
-      "tagline": "تحقيق أعلى عوائد من الحملات الإعلانية في السوق السعودي",
-      "preset": "standard",
+      "app_name": "تطبيق مملكة العقار — مطلوب مسئول إدارة حملات إعلا",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289658",
       "stamp_id": "SA-KMP-1289658",
       "crypto_hash": "sha256-1289658",
@@ -2223,9 +2259,9 @@
     },
     {
       "project_id": "1289654",
-      "app_name": "دعم الموظفين الذكي",
-      "tagline": "حلّات دعم فورية لزيادة الإنتاجية",
-      "preset": "standard",
+      "app_name": "تطبيق إنجاز للخدمات — مستقل للعمل بخدمة العملاء —",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289654",
       "stamp_id": "SA-KMP-1289654",
       "crypto_hash": "sha256-1289654",

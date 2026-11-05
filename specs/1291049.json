@@ -1,0 +1,114 @@
+{
+  "project_id": "1291049",
+  "repo_name": "iwan-estates-real-estate-1291049",
+  "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1291049",
+  "app_name": "تطبيق إيوان العقارية — بناء تطبيق وموقع خبير ذكي بن",
+  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "تطبيق إيوان العقارية — بناء تطبيق وموقع خبير ذكي بن",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "a6d2d79",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291049_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291049_02.png",
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291049_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291049_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291049_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291049_ios_03.png"
+    }
+  ],
+  "detailed_desc": "بناء تطبيق وموقع خبير ذكي بنظام التتبع الرقمي (Plant Passport & AI Diagnosis). وثيقة المواصفات والمتطلبات التقنية والعقدية للمنصة الرقمية (Scope of Work Terms) 1. الفكرة الجوهرية وهيكلية النظام (Multi-tenant Architecture) بناء منصة سحابية مركزية تعمل بنظام (Multi-tenancy) لتوفير لوحة تحكم رئيسية للإدارة، تتفرع منها حسابات فرعية مستقلة للعملاء (التج",
+  "domain_data": {
+    "repo_name": "iwan-estates-real-estate-1291049",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+  }
+}

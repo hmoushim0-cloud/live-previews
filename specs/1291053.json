@@ -1,0 +1,114 @@
+{
+  "project_id": "1291053",
+  "repo_name": "fada-cowork-coworking",
+  "repo_url": "https://github.com/hmoushim0-cloud/fada-cowork-coworking",
+  "app_name": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "958b374",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291053_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291053_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291053_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291053_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291053_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291053_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تصميم ومحاكاة شبكة حاسوبية لمؤسسة صغيرة باستخدام Cisco Packet Tracer. مرحبا، أبحث عن مهندس/ة شبكات لديه خبرة في استخدام Cisco Packet Tracer لتصميم وتنفيذ ومحاكاة شبكة حاسوبية متوسطة الحجم، مع تطبيق مجموعة من تقنيات الشبكات وإعدادات أجهزة Cisco. فكرة المشروع: إنشاء شبكة افتراضية لمؤسسة متعددة الأقسام، تتضمن شبكة مركزية وفرعا صغيرا، مع تنظيم الأجهزة",
+  "domain_data": {
+    "repo_name": "fada-cowork-coworking",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+  }
+}
