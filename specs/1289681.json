@@ -1,275 +1,114 @@
 {
   "project_id": "1289681",
-  "app_name": "محرر الفيديو الذكي",
-  "tagline": "حل متكامل لتحرير الفيديو يرفع مبيعاتك ويقلل وقت الإنتاج",
-  "preset": "standard",
-  "archetype": "booking_timeline",
+  "repo_name": "multaqa-hub-coworking-1289681",
+  "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289681",
+  "app_name": "تطبيق ملتقى الأعمال — مطلوب محرر فيديو — مطلوب مون",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
-  "description": "يعمل تطبيق محرر الفيديو الذكي على دمج أدوات مونتاج احترافية مع تقنيات الذكاء الاصطناعي لتسريع عملية الإنتاج وتقديم فيديوهات عالية الجودة. يتيح التطبيق واجهة مستخدم مبسطة تسمح بإنشاء ثلاث خطوات رئيسية: اختيار الحزمة، رفع المواد، ومراجعة النتيجة. يتم تخزين الملفات في قاعدة بيانات آمنة مع تشفير، وتستخدم خدمات السحابة لتوزيع الحمل وتحسين الأداء. يدمج التطبيق بوابة دفع إلكترونية متوافقة مع القوانين الضريبية السعودية، مع نظام إشعارات فورية يضمن متابعة العميل لحالة طلبه. هذه البنية التقنية تدعم نمو الأعمال من خلال تقليل الوقت والجهد، وزيادة رضا العملاء، وتحسين معدلات التحويل.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق ملتقى الأعمال — مطلوب محرر فيديو — مطلوب مون",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d60c3c6",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289681_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289681_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289681_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289681_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289681_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289681_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289681_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289681_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289681_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ محرر الفيديو الذكي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289681/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289681_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289681_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289681_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289681Repository.kt",
-        "App1289681HomeScreen.kt",
-        "App1289681DetailsScreen.kt",
-        "App1289681CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع محرر الفيديو الذكي بنية MVVM متماسكة، حيث يُفصل ViewModel (App1289681Repository.kt) عن UI (App1289681HomeScreen.kt، App1289681DetailsScreen.kt، App1289681CheckoutScreen.kt) ويعتمد على StateFlow لتحديث الحالة بشكل غير متزامن، ما يضمن استجابة سريعة وتجنب الـ UI blocking. كما أن تصميم الـ Domain Models (App1289681Model و App1289681Package) يلتزم بمبادئ Clean Architecture، مع فصل واضح بين البيانات والنطاق التجاري، ما يسهل اختبار الوحدة وإعادة الاستخدام. إضافةً إلى ذلك، يُبرز BespokeVectorIllustration.kt استخدام Canvas وVectorDrawable لتوليد رسومات ديناميكية بدون إيموجي، مما يحقق جودة عالية مع استهلاك منخفض للموارد. في الجانب الخادم، يُظهر server/server.js بنية Express بسيطة مع نقاط نهاية RESTful تُعالج الطلبات بكفاءة، مع توظيف JWT للتوثيق وتشفير البيانات، ما يضمن أمانًا متينًا للملفات الحساسة.",
-      "milestone2_recommendation_ar": "يُنصح في المرحلة الثانية بإضافة طبقة Cache محلية (Room + DataStore) لتخزين ملفات الفيديو المراجعة مؤقتًا، مع تنفيذ آلية Sync آمنة باستخدام WorkManager لضمان استقرار البيانات عند انقطاع الشبكة. كما يُفضَّل توسيع الخادم إلى بنية Serverless (مثل AWS Lambda أو Firebase Functions) لتقليل التكاليف وتوفير التوسع التلقائي مع تعزيز أمان البيانات عبر تشفير TLS 1.3 وتطبيق سياسة CORS صارمة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289681Repository.kt",
-        "App1289681HomeScreen.kt",
-        "App1289681DetailsScreen.kt",
-        "App1289681CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يمكننا ملاحظة عدة نقاط إيجابية في كود مشروع محرر الفيديو الذكي. يظهر استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم وتنظيم الأكواد. تم تنظيم الكلاسات بطريقة واضحة ومنظمة، مثل App1289681Model، App1289681Repository، وApp1289681ViewModel.\n\nتم استخدام رسومات المتجهات Canvas Vector Drawings لتعزيز تجربة المستخدم والتصميم البصري للتطبيق. تم توفير ملفات مثل BespokeVectorIllustration.kt لتحسين جودة الرسومات والجاذبية ا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289681Repository.kt",
-        "App1289681HomeScreen.kt",
-        "App1289681DetailsScreen.kt",
-        "App1289681CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع محرر الفيديو الذكي بنية معماريّة متينة تستند إلى نمط MVVM، حيث يتم فصل المنطق التجاري عن واجهة المستخدم عبر الكلاسات App1289681Model و App1289681Package، مما يسهل اختبار الوحدة وتوسيع الوظائف في المستقبل. كما يبرز ملف App1289681Repository كطبقة تجريدية تتعامل مع قاعدة البيانات وتشفير الملفات، ما يضمن أمانًا عاليًا للبيانات الحساسة. في الجانب البصري، يضيف ملف BespokeVectorIllustration رسمًا متجهًا مخصصًا يُحسّن تجربة المستخدم ويقلل استهلاك الموارد مقارنة بالصور الثابتة. أما الخادم، فـ server/server.js يُظهر بنية خفيفة تعتمد على Express مع دعم PM2 Cluster، ما يتيح توسيع الخادم بسهولة عبر عمليات متعددة مع الحفاظ على استقرار الأداء وتوزيع الحمل على الـ VPS Starter بسعر منخفض.\n\nمن ناحية التكامل، يدمج التطبيق بوابة دفع إلكترونية متوافقة مع القوانين السعودية، مع نظام إشعارات فورية يضمن متابعة العميل لحالة طلبه. هذا التكامل مع خدمات السحابة لتوزيع الحمل يحقق كفاءة عالية في معالجة الطلبات ويقلل من زمن الاستجابة، ما ينعكس إيجابًا على معدلات التحويل. بالإضافة إلى ذلك، يُظهر استخدام خادم VPS مستقل مع PM2 Cluster كخيار اقتصادي يوفّر مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية، مع مرونة في التوسع حسب الحاجة دون الحاجة إلى بنية تحتية معقدة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتركيز الجهود على تعزيز أمان التطبيق عبر تنفيذ تشفير TLS 1.3 على جميع نقاط الاتصال، إضافةً إلى تطبيق سياسة CORS صارمة وتفعيل OWASP Top 10 hardening. كما يُفضَّل تحسين الكاش باستخدام Redis لتخزين نتائج عمليات المعالجة المؤقتة، ما يقلل الحمل على قاعدة البيانات ويزيد من سرعة الاستجابة. أخيرًا، يُنصح بتوسيع البنية السحابية بإضافة خوادم إضافية في مناطق جغرافية مختلفة عبر PM2 Cluster، مع مراقبة الأداء عبر Prometheus وGrafana لضمان استقرار الخدمة أثناء الارتفاعات الموسمية في الطلب."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289681Repository.kt",
-        "App1289681HomeScreen.kt",
-        "App1289681DetailsScreen.kt",
-        "App1289681CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنظام معماري واضح يدمج نمط MVVM مع طبقات Domain Models، حيث تُظهر فصول App1289681Model و App1289681Package تنظيمًا منطقيًا للبيانات وتسهيل اختبار الكود. كما يُظهر ملف App1289681Repository.kt تطبيقًا متينًا للـ Repository Pattern مع استدعاءات API مُنظمة، ما يضمن فصل الاهتمامات وتسهيل الصيانة.\\n\\nإضافةً إلى ذلك، يُستَخدم ملف BespokeVectorIllustration.kt لتوليد رسومات Canvas Vector عالية الدقة، ما يضمن توافقًا سلسًا مع Dynamic Island و Canvas Vector Drawings الحديثة، مع مراعاة مساحات اللمس ≥48dp في واجهات App1289681HomeScreen.kt و App1289681DetailsScreen.kt و App1289681CheckoutScreen.kt. يبرز هذا التزامًا صارمًا بمعايير Apple Human Interface Guidelines و Material 3، مع دعم قوي للغة العربية RTL وتنسيق النصوص بشكل متسق عبر جميع الشاشات.",
-      "milestone2_recommendation_ar": "المرحلة الثانية يجب أن تركز على تعزيز أمان البيانات عبر إضافة تشفير TLS للاتصالات مع الخادم server/server.js، وتفعيل JWT مع توقيع رقمي للتحقق من هوية المستخدمين. كما يُنصح بدمج نظام Cache محلي (Room أو SharedPreferences) لتقليل استدعاءات الشبكة وتحسين تجربة المستخدم في وضع عدم الاتصال. أخيرًا، توسيع البنية السحابية باستخدام Kubernetes أو ECS لتوزيع الحمل تلقائيًا مع مراقبة الأداء عبر Prometheus و Grafana لضمان استقرار الخدمة مع زيادة عدد المستخدمين."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب محرر فيديو — مطلوب مونتير محترف Video Editor يعلن مكتب أكايا العلمي عن حاجته إلى مونتير محترف المتطلبات: خبرة في مونتاج الفيديوهات الإعلانية والـ Reels. إجادة استخدام برامج المونتاج، خصوصا Premiere Pro وAfter Effects. معرفة بأدوات الذكاء الاصطناعي (AI) في صناعة و",
+  "domain_data": {
+    "repo_name": "multaqa-hub-coworking-1289681",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+  }
 }
