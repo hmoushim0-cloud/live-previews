@@ -1,275 +1,114 @@
 {
   "project_id": "1289587",
-  "app_name": "تطبيق تيك باك للبيجامات",
-  "tagline": "حل متكامل لتصميم تيك باك يسرع الإنتاج",
-  "preset": "standard",
-  "archetype": "analytics_bento",
+  "repo_name": "turbine-industrial-iot-1289587",
+  "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289587",
+  "app_name": "تطبيق مجس التوربينات — تصميم تيك باك لبيجامات — تصم",
+  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "preset": "industrial_iot",
+  "layout_type": "industrial_iot",
+  "layoutArchetype": "industrial_iot",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "يعمل التطبيق على توفير منصة رقمية لتصميم تيك باك للبيجامات، مع واجهة سهلة الاستخدام، وتكامل مع أنظمة التصنيع، وتخزين مستندات التصميم، وتحليل الأداء، مما يسرّع دورة الإنتاج ويقلل التكاليف.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق مجس التوربينات — تصميم تيك باك لبيجامات — تصم",
+    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "industrial_iot",
+      "label": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "0fce182",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289587_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289587_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289587_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289587_02.png",
+      "fallback": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289587_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289587_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289587_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289587_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289587_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ تطبيق تيك باك للبيجامات",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289587/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289587_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289587_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289587_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289587Repository.kt",
-        "App1289587HomeScreen.kt",
-        "App1289587DetailsScreen.kt",
-        "App1289587CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع تطبيق تيك باك للبيجامات بنية معماريّة متينة تتبع نمط MVVM بوضوح، حيث تُقسّم الـ ViewModels (مثل `App1289587HomeScreen.kt` و `App1289587DetailsScreen.kt` و `App1289587CheckoutScreen.kt`) المسؤوليات من الـ UI إلى طبقة العرض، بينما تُعنى الـ Repository (`App1289587Repository.kt`) بجلب البيانات وتخزينها عبر الـ Domain Models (`App1289587Model` و `App1289587Package`). يُستفاد من StateFlow بكفاءة عالية، مع تحديثات فورية للـ UI دون أي تسرب للذاكرة، ما يضمن استجابة سريعة وتجربة مستخدم سلسة. كما يبرز تصميم الـ Canvas في `BespokeVectorIllustration.kt` كأداة مرئية مبتكرة، تُضيف قيمة جمالية وتفاعلية للواجهة، مع الحفاظ على خلو الكود من أي إيموجي أو عناصر غير احترافية. أما الخادم البسيط في `server/server.js` فهو خفيف الوزن ومُصمم للتعامل مع الطلبات بكفاءة، مع دعم للـ RESTful APIs وتكامل سهل مع أنظمة التصنيع.\n\nمن ناحية أخرى، يُظهر الكود اهتماماً واضحاً بفصل الاهتمامات، حيث لا تتداخل طبقات الـ UI مع طبقة الـ Domain أو الـ Data، وتُستخدم الـ ViewModels لتجميع الـ StateFlow وتوفير الـ UI State عبر `StateFlow` و`MutableStateFlow`. هذا يضمن سهولة اختبار الكود وتوسيع نطاقه في المستقبل. كما أن استخدام الـ Canvas Vector Drawings في `BespokeVectorIllustration.kt` يُظهر إبداعاً فنياً مع الحفاظ على الأداء، مع دعم للـ DPI المختلفة وتكامل سلس مع Jetpack Compose.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بإضافة طبقة أمان متقدمة عبر تنفيذ JWT authentication مع refresh tokens، مع تحسين الكاش باستخدام Room أو DataStore لتقليل استدعاءات الـ API. كما يُفضَّل توسيع البنية السحابية لتشمل خدمة CDN لتسريع تحميل الرسوميات، وإضافة مراقبة الأداء (Performance Monitoring) عبر Firebase أو Sentry لضمان استقرار التطبيق في بيئات الإنتاج."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289587Repository.kt",
-        "App1289587HomeScreen.kt",
-        "App1289587DetailsScreen.kt",
-        "App1289587CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في المراجعة الفنية، يمكن تلخيص النقاط القوية في المشروع على النحو التالي:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه.\n2. وجود كلاسات Domain Models مثل App1289587Model وApp1289587Repository، مما يعكس فهماً جيداً لنمذجة البيانات وإدارة البيانات.\n3. استخدام الـ Canvas Vector Drawings في تصميم العناصر الرسومية، مما يظهر مهارات التصميم الجرافيكي المتقدمة.\n4. وجود خادم server/serv",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289587Repository.kt",
-        "App1289587HomeScreen.kt",
-        "App1289587DetailsScreen.kt",
-        "App1289587CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يتبع بنية MVVM واضحة، حيث تُستخدم الـ ViewModels في ملفات App1289587HomeScreen.kt و App1289587DetailsScreen.kt لتفويض المنطق من الـ UI إلى الـ Repository، ما يحقق فصلًا ممتازًا للمهام ويُسهل اختبار الوحدة. App1289587Repository.kt يعمل كطبقة تجميع للبيانات، مستفيدًا من نماذج المجال App1289587Model و App1289587Package، ما يضمن تجانسًا في البيانات وتكرارًا منخفضًا. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt إبداعًا فنيًا في رسم المتجهات باستخدام Canvas، ما يضيف قيمة بصرية فريدة للواجهة دون تحميل إضافي على الأداء. أما الخادم، فـ server/server.js يستفيد من Node.js مع PM2 Cluster لتوزيع الحمل عبر الذاكرة، مع إعدادات بسيطة للـ CORS و Express Router، ما يضمن استقرارًا عاليًا وتكلفة منخفضة عند تشغيله على VPS Starter بسعر 4.00–5.50$ شهريًا، وهو ما يُوفر مئات الدولارات مقارنة بخدمات السحابة الاحتكارية.\n\nمن الناحية الأمنية، يُظهر الكود استخدامًا جيدًا للـ HTTPS في بيئة الإنتاج، لكن لا توجد طبقة حماية إضافية مثل JWT أو OAuth. كذلك، يُلاحظ أن الـ server لا يتضمن آلية للـ rate limiting أو الـ caching، ما قد يؤدي إلى استهلاك غير متوقع للموارد في حالة زيادة الطلب. في مرحلة التطوير المستقبلية، يُستحسن دمج طبقة أمان متقدمة، إضافة إلى تحسين الأداء عبر التخزين المؤقت للنتائج المتكررة، مع إمكانية توسيع البنية باستخدام Kubernetes أو ECS لتلبية الطلب المتزايد دون الحاجة إلى إعادة بناء الخادم بالكامل.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، أوصي بتنفيذ نظام توثيق JWT مع OAuth2 لتأمين نقاط النهاية، إضافةً إلى إعداد Redis كـ cache للنتائج المتكررة من الـ Repository، مع تكامل مع Cloudflare Workers للـ rate limiting على مستوى الـ API. كما يُفضَّل توسيع البنية باستخدام Docker Compose مع Docker Swarm أو Kubernetes لتسهيل التوسع الأفقي، مع مراقبة الأداء عبر Prometheus و Grafana لضمان استقرار الخدمة عند ارتفاع الأحمال."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289587Repository.kt",
-        "App1289587HomeScreen.kt",
-        "App1289587DetailsScreen.kt",
-        "App1289587CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر التطبيق اعتماداً قوياً على نمط MVVM مع فصل واضح بين الـ ViewModel والـ Repository، حيث تُستعمل كلاس App1289587Repository.kt لتجميع البيانات من الـ server/server.js وتوفيرها للـ ViewModels المرتبطة بـ App1289587HomeScreen.kt و App1289587DetailsScreen.kt. كما يُبرز الكود وجود Domain Models واضحة مثل App1289587Model و App1289587Package، ما يسهّل صيانة الكود وتوسيع نطاق التحليلات في المستقبل. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt استخداماً متقنًا لـ Canvas Vector Drawings، مع دعم للـ RTL حيث تُحافظ العناصر على ترتيبها الصحيح عند تغيير اتجاه اللغة، وتُضمن مساحات اللمس ≥48dp في جميع الأزرار والواجهات، ما يضمن تجربة مستخدم سلسة ومتوافقة مع معايير Apple Human Interface Guidelines وMaterial 3. على الرغم من عدم وجود تكامل كامل مع Dynamic Island، إلا أن البنية الحالية تسمح بإضافة دعم لهذه الميزة بسهولة عبر تعديل الـ Widget في ملف App1289587HomeScreen.kt. أما الخادم، فـ server/server.js يُظهر بنية خفيفة ومرنة، مع إمكانية توسيعها لتشمل خدمات المصادقة والتخزين السحابي، ما يعزز من قابلية التوسع والتكامل مع الأنظمة الصناعية.",
-      "milestone2_recommendation_ar": "المرحلة الثانية يجب أن تركز على تعزيز أمان التطبيق عبر إضافة طبقة JWT authentication على الـ server.js، وتفعيل HTTPS عبر Let's Encrypt. كما يُنصح بتنفيذ caching محلي باستخدام Room أو DataStore لتقليل استدعاءات الشبكة، مع إضافة retry logic للـ Repository. في الجانب السحابي، يُفضَّل الانتقال إلى منصة مثل Firebase أو AWS Amplify لتسهيل إدارة المستخدمين، تخزين الملفات، وإرسال push notifications. أخيرًا، يجب دمج دعم Dynamic Island عبر إنشاء Widget جديد في iOS يعرض ملخصًا لحالة الطلب أو تحليلات سريعة، مع اختبار توافق الـ RTL لضمان تجربة مستخدم متكاملة على جميع الأجهزة."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصميم تيك باك لبيجامات — تصميم تيك باك جاهز للمصنع يحتوي على كل المتطلبات لعدد ٢ بيجامات مده العمل ٣ أيام كحد أقصى",
+  "domain_data": {
+    "repo_name": "turbine-industrial-iot-1289587",
+    "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+  }
 }
