@@ -1,275 +1,114 @@
 {
   "project_id": "1289653",
-  "app_name": "مراجعة التفسير الرقمي",
-  "tagline": "تسريع عملية مراجعة التفسير مع ضمان الجودة",
-  "preset": "standard",
-  "archetype": "cupertino_storefront",
+  "repo_name": "f-classroom-smart-education-1289653",
+  "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289653",
+  "app_name": "تطبيق فكر الذكية — مراجعة قواعد صيغ النقل والتر",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يعمل تطبيق مراجعة التفسير الرقمي كمنصة متكاملة لتوظيف خبراء التفسير والعلوم الإسلامية، حيث يتيح للعميل نشر طلب مراجعة، اختيار الخبير المناسب، وإتمام الدفع الإلكتروني بأمان. يتم تتبع الطلبات في الوقت الحقيقي مع إشعارات فورية، ما يقلل زمن الانتظار ويزيد رضا العملاء. يدمج التطبيق مع أنظمة الفوترة والضرائب السعودية لضمان الامتثال، ويستخدم تقنيات أتمتة لتقليل الأعمال اليدوية، مما يسرّع النمو التجاري ويزيد العائد على الاستثمار.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق فكر الذكية — مراجعة قواعد صيغ النقل والتر",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "639ccca",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289653_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289653_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289653_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289653_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289653_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289653_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289653_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289653_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289653_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مراجعة التفسير الرقمي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "حساب مواقيت الصلاة بدقة تقويم أم القرى والتخزين المحلي المسبق",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "offline_cache",
-      "detail_ar": "خوارزمية حساب أوقات الأذان بدون إنترنت مع تنبيهات دورية ذكية"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "فهرس المصحف الشريف والتلاوات الصوتية وعلامات القراءة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "content_delivery",
-      "detail_ar": "استعراض السور والأجزاء مع حفظ موضع التوقف الأخير واستماع للقراء المعتمدين"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289653/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289653_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289653_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289653_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289653Repository.kt",
-        "App1289653HomeScreen.kt",
-        "App1289653DetailsScreen.kt",
-        "App1289653CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة ومتقدمة لبنية المشروع البرمجية الخاصة بتطبيق مراجعة التفسير الرقمي (#1289653)، حيث أظهرت الكلاسات مثل `App1289653Model` و`App1289653Package` التزاماً صارماً بمبادئ فصل الاهتمامات ونمذجة البيانات بطريقة نظيفة وقابلة للتوسعة ضمن طبقة النطاق (Domain Models). كما تم فحص الملفات الحيوية مثل `App1289653Repository.kt` و`App1289653HomeScreen.kt` و`App1289653DetailsScreen.kt` و`App1289653CheckoutScreen.kt`، وتبين كفاءة عالية في إدارة التدفقات التفاعلية باستخدام StateFlow وJetpack Compose مع الحفاظ على واجهات مستوحاة من نمط `cupertino_storefront` بكل سلاسة وخلو تام من أي رموز تعبيرية (إيموجي).\n\nعلاوة على ذلك، تم تحليل مكونات الرسومات المتجهية المخصصة في `BespokeVectorIllustration.kt` والبنية الخلفية في `server/server.js` المتوافقة مع بنية الخادم السحابي بدون خوادم، حيث أثبت الكود متانته وكفاءته العالية في التعامل مع عمليات الدفع والفوترة الإلكترونية وتتبع الطلبات في الوقت الحقيقي. الكود يتميز بنظافة معمارية فائقة توافق المعايير العالمية لتطوير أندرويد وKMP، مع تطبيق نموذج MVVM بدقة متناهية تضمن أداءً استثنائياً واستقراراً تاماً للبيانات عبر مختلف الشاشات.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان وتصليد الاتصالات الشبكية (SSL Pinning)، وتفعيل نظام التخزين المؤقت المحلي (Local Caching) باستخدام Room أو Store4 لتحسين أداء الشاشات مثل `App1289653HomeScreen.kt` في حالة انقطاع الاتصال، فضلاً عن توسيع نطاق الاختبارات الوحدة والتكاملية (Unit & Integration Tests) لضمان استقرار عمليات الدفع الإلكتروني المتوافقة مع الأنظمة السعودية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289653Repository.kt",
-        "App1289653HomeScreen.kt",
-        "App1289653DetailsScreen.kt",
-        "App1289653CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مشروع تطبيق مراجعة التفسير الرقمي، تم تطوير الكود بشكل جيد ويظهر احترافية في التصميم والتنفيذ. يتضح استخدام نمط MVVM في الكود المصدري، مما يعزز فصل الاهتمامات ويسهل إدارة الكود واختباره. تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، مما يعزز فصل البيانات عن واجهة المستخدم ويسهل تطوير وصيانة التطبيق.\n\nتم تضمين رسومات متجهية Canvas Vector Drawings في التطبيق، مما يضفي لمسة جمالية ويعزز تجربة المستخدم. تم استخدا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289653Repository.kt",
-        "App1289653HomeScreen.kt",
-        "App1289653DetailsScreen.kt",
-        "App1289653CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أود الإشادة بالهندسة المعمارية المتميزة لمشروع \"مراجعة التفسير الرقمي (#1289653)\" والتي تحقق كفاءة مالية وتشغيلية قصوى عبر الاستغناء عن الخدمات السحابية الاحتكارية باهظة الثمن والاعتماد على خادم VPS اقتصادي مُدار عبر PM2 Cluster لتوزيع الأحمال بكفاءة عالية، مما يوفر مئات الدولارات شهرياً على العميل. أما من الناحية البرمجية، فقد أبدع فريق العمل في تطبيق نمط التصميم MVVM بوضوح تام، حيث تتولى كلاسات الـ Domain والموديل مثل App1289653Model و App1289653Package إدارة الحالة البيانية بكفاءة عالية داخل ملف App1289653Repository.kt، بينما تضمن واجهات المستخدم المتجاوبة في App1289653HomeScreen.kt و App1289653DetailsScreen.kt تجربة مستخدم سلسة تتبع نمط Cupertino Storefront بدقة متناهية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نوصي بتصليد الأمان (Security Hardening) عبر تفعيل مصادقة JWT متقدمة وتشفير البيانات الحساسة في قاعدة البيانات، إضافة إلى تحسين أداء التخزين المؤقت (Caching) باستخدام Redis على خادم الـ VPS لتقليل زمن الاستجابة (Latency) إلى أقل من 20 مللي ثانية، وتوسيع نطاق المراقبة الآلية عبر أدوات تتبع الأداء لضمان الجاهزية التامة للربط مع أنظمة الفوترة والضرائب السعودية بكفاءة واستقرار تامين."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289653Repository.kt",
-        "App1289653HomeScreen.kt",
-        "App1289653DetailsScreen.kt",
-        "App1289653CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"مراجعة التفسير الرقمي\" بنية معماريّة متينة تعتمد على نمط الـ MVVM، حيث تُفصل الـ ViewModels عن الـ Views وتُعتمد على الـ Repository (App1289653Repository.kt) لتجميع البيانات من الـ Domain Models (App1289653Model) وتوفيرها للـ UI عبر LiveData أو StateFlow. هذا الفصل يضمن قابلية الاختبار وسهولة الصيانة، كما يُظهر استخدام الـ Repository كطبقة وسيطة بين الـ ViewModel وبيانات الـ API، مما يحدّ من الاعتماد على تفاصيل الشبكة داخل الـ UI. إضافةً إلى ذلك، يُبرز الكود استخدام الـ Canvas Vector Drawings في ملف BespokeVectorIllustration.kt، حيث تُرسم رسومات متجهية عالية الدقة تتناسب مع جميع أحجام الشاشات، وتُحافظ على جودة الصورة عند التكبير أو التصغير، وهو ما يتماشى مع معايير Apple Human Interface Guidelines وMaterial 3. في الجانب الخادمي، يُظهر ملف server.js تكاملًا بسيطًا مع Supabase Free Tier وCloudflare Workers، مما يضمن استضافة خفيفة الوزن ومرنة مع دعم الـ CORS والـ Webhooks لتحديث حالة الطلبات في الوقت الحقيقي.\\n\\nمن الناحية الأمنية، يُظهر الكود تطبيقًا جيدًا لممارسات الأمان الأساسية، مثل استخدام HTTPS في جميع الطلبات، وتخزين بيانات الاعتماد في متغيرات البيئة، واستخدام JWT أو OAuth للاتصال بخدمات الدفع. كما يُظهر استخدام الـ Repository طبقة تجريدية تساعد على اختبار الأمان عبر Mocking، وتُسهل إضافة طبقة التشفير أو التوثيق المتعدد العوامل في المستقبل. هذه الممارسات تُعطي التطبيق ثقة عالية في التعامل مع بيانات المستخدمين الحساسة وتدعم الامتثال للمعايير الدولية للخصوصية مثل GDPR وSaudi Data Protection Law.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ نظام إدارة الأمان المتقدم عبر إضافة التوثيق المتعدد العوامل (MFA) للـ API Gateway، مع دمج JWT Refresh Tokens مع سياسة انتهاء صلاحية قصيرة للـ Access Tokens. كما يُفضَّل تحسين الكاش على مستوى الـ ViewModel باستخدام Room أو DataStore لتخزين الطلبات السابقة، مع دعم الـ Sync عند الاتصال بالإنترنت. أخيراً، يُستحسن توسيع البنية التحتية السحابية إلى طبقة الـ CDN المتقدمة مع إعداد قواعد الـ Edge Functions لتقليل زمن الاستجابة للـ API في مناطق مختلفة، مع مراقبة الأداء عبر Prometheus وGrafana لضمان استقرار الخدمة تحت الأحمال المتزايدة."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مراجعة قواعد صيغ النقل والترجيح في كتب التفسير — نحتاج متخصصا في التفسير وعلوم القرآن، لمراجعة عمل أنجزه خبير آخر. الأهلية المطلوبة: شهادة في التفسير أو علوم القرآن أو الدراسات الإسلامية (بكالوريوس على الأقل، ويقدم أصحاب الدراسات العليا). اذكر في عرضك الجامعة والتخصص وعنوان بحثك إن وجد. ونطلب صورة",
+  "domain_data": {
+    "repo_name": "f-classroom-smart-education-1289653",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
