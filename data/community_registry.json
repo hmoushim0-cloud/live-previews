@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-05T21:11:27.567143+00:00",
+    "updated_at": "2026-11-05T23:11:08.143814+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2151,9 +2151,9 @@
     },
     {
       "project_id": "1289683",
-      "app_name": "مكتبة التواصل",
-      "tagline": "تجربة قراءة تفاعلية تزيد من تفاعل القرّاء",
-      "preset": "services",
+      "app_name": "تطبيق مقر الذكي — تطوير MVP لتطبيق اجتماعي وثق",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289683",
       "stamp_id": "SA-KMP-1289683",
       "crypto_hash": "sha256-1289683",
@@ -2187,9 +2187,9 @@
     },
     {
       "project_id": "1289678",
-      "app_name": "مشروع مطلوب مساعد أكاديمي لكورس",
-      "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-      "preset": "standard",
+      "app_name": "تطبيق رؤية للتدريب — مطلوب مساعد أكاديمي لكورس او",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289678",
       "stamp_id": "SA-KMP-1289678",
       "crypto_hash": "sha256-1289678",

@@ -1401,9 +1401,9 @@
   },
   {
     "project_id": "1289683",
-    "app_name": "مكتبة التواصل",
-    "tagline": "تجربة قراءة تفاعلية تزيد من تفاعل القرّاء",
-    "preset": "services",
+    "app_name": "تطبيق مقر الذكي — تطوير MVP لتطبيق اجتماعي وثق",
+    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1289683.json"
   },
@@ -1425,9 +1425,9 @@
   },
   {
     "project_id": "1289678",
-    "app_name": "مشروع مطلوب مساعد أكاديمي لكورس",
-    "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-    "preset": "standard",
+    "app_name": "تطبيق رؤية للتدريب — مطلوب مساعد أكاديمي لكورس او",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289678.json"
   },
