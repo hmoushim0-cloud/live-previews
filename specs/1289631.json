@@ -1,275 +1,114 @@
 {
   "project_id": "1289631",
-  "app_name": "تقرير CFD للعمود البابل كاب",
-  "tagline": "تحليل CFD دقيق لعمود التقطير لتقليل التكاليف وزيادة الكفاءة",
-  "preset": "standard",
-  "archetype": "analytics_bento",
+  "repo_name": "rekab-telematics-car-rental-1289631",
+  "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1289631",
+  "app_name": "تطبيق ركاب الذكي — إعداد CFD report — مطلوب CFD",
+  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "يعمل التطبيق على دمج نماذج CFD المتقدمة مع واجهة مستخدم سهلة الاستخدام، مما يتيح للمهندسين إعداد تقارير دقيقة للعمود البابل كاب في دقائق. يتم جمع البيانات من أجهزة القياس المدمجة وتحليلها باستخدام خوارزميات CFD عالية الدقة، ثم يتم تقديم النتائج بصيغة PDF وXML لتسهيل التبادل مع أنظمة ERP. يضمن هذا التكامل تقليل الأخطاء البشرية، تقليل زمن التوريد، وتحسين كفاءة العمليات الصناعية.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق ركاب الذكي — إعداد CFD report — مطلوب CFD",
+    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "197cf47",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289631_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289631_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289631_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289631_02.png",
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289631_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289631_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289631_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289631_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289631_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ تقرير CFD للعمود البابل كاب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289631/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289631_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289631_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289631_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289631Repository.kt",
-        "App1289631HomeScreen.kt",
-        "App1289631DetailsScreen.kt",
-        "App1289631CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"تقرير CFD للعمود البابل كاب\" تطبيقاً متقناً في بنية MVVM، حيث تُفصل طبقة الـ ViewModel (App1289631HomeScreen.kt، App1289631DetailsScreen.kt، App1289631CheckoutScreen.kt) عن الـ Repository (App1289631Repository.kt) وتُعتمد على StateFlow بكفاءة عالية لتحديث الحالة UI دون أي تعارض. تُبرز الـ Domain Models (App1289631Model، App1289631Package) تصميماً واضحاً مع تجانس الأنواع، ما يسهل صيانة الكود وتوسيع نطاقه. إضافةً إلى ذلك، يُظهر ملف BespokeVectorIllustration.kt استخداماً متقناً لـ Canvas وVector Graphics، مما يضيف قيمة جمالية وتفاعلية للواجهة دون تحميل زائد على الأداء. أما الخادم (server/server.js) فمُصمم بسيطاً وفعالاً مع هندسة RESTful واضحة، مما يضمن استجابة سريعة للطلبات وتكامل سلس مع تطبيق Android عبر KMP.",
-      "milestone2_recommendation_ar": "لتحقيق مستوى أعلى من الأمان والكفاءة في المرحلة الثانية، يُنصح بتنفيذ نظام مصادقة JWT مع التشفير TLS 1.3، إضافة طبقة caching محلية باستخدام Room أو DataStore لتقليل استهلاك الشبكة، وتفعيل CI/CD مع GitHub Actions لتشغيل اختبارات وحدات (Unit Tests) وUI Tests تلقائياً، مع دمج تحليل الأداء (Android Profiler) لضبط استهلاك الذاكرة والبطارية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289631Repository.kt",
-        "App1289631HomeScreen.kt",
-        "App1289631DetailsScreen.kt",
-        "App1289631CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن مشروع تقرير CFD للعمود البابل كاب يتمتع بنقاط قوة عدة. يتميز الكود بنمط MVVM، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتحديثه. تظهر أيضاً استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز إعادة استخدام الكود وصيانته.\n\nمن الجوانب الإيجابية الأخرى استخدام الـ Canvas Vector Drawings لتقديم الرسومات البيانية والجداول بطريقة جذابة وفعالة. يُظهر ذلك قدرة المطورين على استغلال تقنيات الرسم ا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289631Repository.kt",
-        "App1289631HomeScreen.kt",
-        "App1289631DetailsScreen.kt",
-        "App1289631CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر الكود اعتماداً واضحاً على نمط MVVM مع فصل واضح بين طبقة العرض (App1289631HomeScreen.kt، App1289631DetailsScreen.kt، App1289631CheckoutScreen.kt) وطبقة البيانات (App1289631Repository.kt) التي تتعامل مع الـ Domain Model (App1289631Model). هذا الفصل يسهل اختبار الوحدة ويقلل من التكرار، كما يتيح توسيع التطبيق بسهولة مع إضافة ميزات جديدة دون التأثير على واجهة المستخدم. إضافةً إلى ذلك، يبرز استخدام الرسوم المتجهة المخصصة في BespokeVectorIllustration.kt كتحسين بصري فريد، حيث يُستغل Canvas API لإنتاج رسومات عالية الدقة تتناسب مع مختلف أحجام الشاشات دون فقدان الجودة.\n\nمن الناحية البنية التحتية، يقدّم الخادم البسيط الموجود في server/server.js حلاً منخفض التكلفة مع قابلية التوسع عبر PM2 Cluster، ما يضمن استقرار الخدمة حتى مع زيادة الحمل. يتيح هذا النهج استغلال موارد VPS Starter بتكلفة منخفضة (4–5.5$ شهرياً) مقارنة بالخدمات السحابية الكبرى، مع إمكانية التوسع الأفقي عبر إضافة عقد جديدة بسهولة. كما يبرز الكود استخدام ملفات التكوين المتسقة وتوثيق واضح للواجهات، ما يسهل صيانة الكود وتكامل الخدمات المستقبلية مثل تخزين البيانات في قاعدة بيانات NoSQL أو إضافة طبقة تحليلية متقدمة.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ آلية أمان متقدمة عبر إضافة JWT authentication مع refresh tokens، مع تشفير البيانات الحساسة في قاعدة البيانات باستخدام AES-256. كما يُفضَّل تحسين الأداء عبر تنفيذ caching محلي (Redis) لتخزين نتائج عمليات CFD المتكررة، مع ضبط إعدادات PM2 لتفعيل clustering على 2–4 نوى حسب حجم الطلب. إضافةً إلى ذلك، يُستحسن دمج CI/CD pipeline مع GitHub Actions لتشغيل اختبارات الوحدة والاختبارات التكاملية تلقائياً قبل نشر التحديثات إلى بيئة الإنتاج."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1289631Repository.kt",
-        "App1289631HomeScreen.kt",
-        "App1289631DetailsScreen.kt",
-        "App1289631CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\"score\":4.88,\"technical_review_ar\":\"يظهر مشروع \\\"تقرير CFD للعمود البابل كاب\\\" تطبيقاً متكاملاً يدمج نماذج CFD مع واجهة مستخدم مبنية على نمط الـ MVVM، حيث تُظهر ملفات \\\"App1289631HomeScreen.kt\\\" و\\\"App1289631DetailsScreen.kt\\\" تنظيماً واضحاً بين View وViewModel، مما يسهل اختبار الكود وصيانته. كما يبرز استخدام الكلاس \\\"App1289631Model\\\" كـ Domain Model متكامل، مع فصل واضح للبيانات والوظائف في الكلاس \\\"App1289631Repository.kt\\\"، مما يحقق فصل المسؤوليات ويعزز قابلية التوسع. إضافةً إلى ذلك، يضيف مل",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "إعداد CFD report — مطلوب CFD report لقطعة Bubble Cap Distillation Columns ساقوم بتزويدك بالمقاسات المطلوبة",
+  "domain_data": {
+    "repo_name": "rekab-telematics-car-rental-1289631",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+  }
 }
