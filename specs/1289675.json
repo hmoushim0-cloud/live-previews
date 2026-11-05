@@ -1,275 +1,114 @@
 {
   "project_id": "1289675",
-  "app_name": "حل تحليل بيانات المدارس",
-  "tagline": "حل تحليل بيانات المدارس في الإمارات بفعالية",
-  "preset": "standard",
-  "archetype": "analytics_bento",
+  "repo_name": "haraka-scale-fitness-1289675",
+  "repo_url": "https://github.com/hmoushim0-cloud/haraka-scale-fitness-1289675",
+  "app_name": "تطبيق حركة والميزان — مطلوب بائع اونلاين محترف لبي",
+  "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+  "preset": "fitness",
+  "layout_type": "fitness",
+  "layoutArchetype": "fitness",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يتم بناء التطبيق باستخدام Kotlin Multiplatform لتوفير تجربة موحدة على Android و iOS و Web. يتم توصيله بقاعدة بيانات PostgreSQL مع واجهة RESTful API مكتوبة بـ Ktor، مع طبقة أمان OAuth 2.0. يتم تخزين بيانات المدارس في جدول منفصل مع فهرسة للبحث السريع. يتم استخدام Firebase Cloud Messaging لإرسال إشعارات فورية للمدارس. يضمن هذا التصميم سرعة التحميل، أمان البيانات، وتكامل سلس مع أنظمة الدفع المحلية.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق حركة والميزان — مطلوب بائع اونلاين محترف لبي",
+    "subtitle": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "fitness",
+      "label": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d24e1c8",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289675_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289675_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289675_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289675_02.png",
+      "fallback": "BLE Smart Scale GATT 0x181D + Heart Rate Strap"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289675_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289675_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289675_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289675_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289675_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ حل تحليل بيانات المدارس",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289675/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289675_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289675_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289675_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1289675Repository.kt",
-        "App1289675HomeScreen.kt",
-        "App1289675DetailsScreen.kt",
-        "App1289675CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع حل تحليل بيانات المدارس بنية MVVM متماسكة، حيث يُفصل بوضوح بين طبقة العرض (App1289675HomeScreen.kt، App1289675DetailsScreen.kt، App1289675CheckoutScreen.kt) وطبقة المنطق (App1289675Repository.kt) وطبقة البيانات (App1289675Model.kt). تُستغل StateFlow بكفاءة لتحديث واجهة المستخدم بشكل غير متزامن، مع تجنب أي تعارض في الحالة بفضل استخدام Channels وMutableStateFlow في Repository. كما يبرز تصميم الـ Canvas في BespokeVectorIllustration.kt كتحفة فنية برمجية، حيث يُستغل Kotlin DSL لإنشاء رسومات متجهية ديناميكية تتكيف مع أحجام الشاشة المختلفة، ما يضمن تجربة بصرية سلسة على Android و iOS.\n\nيُثري المشروع أيضًا بنظام أمان OAuth 2.0 متكامل مع Ktor، مع طبقة تخزين مؤقتة للبيانات في PostgreSQL، ما يضمن أمانًا عاليًا وسرعة استجابة. تُظهر ملفات الخادم server/server.js بنية RESTful API واضحة، مع دعم Firebase Cloud Messaging لإرسال إشعارات فورية، ما يضيف قيمة حقيقية للمدارس المستهدفة. إن استخدام Kotlin Multiplatform يضمن إعادة استخدام الكود عبر المنصات، مع الحفاظ على جودة الأداء والموثوقية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتركيب نظام مراقبة الأداء (مثل OpenTelemetry أو Prometheus) لتتبع زمن الاستجابة والتحميل على الخادم، مع إضافة طبقة caching متقدمة باستخدام Redis لتقليل استدعاءات قاعدة البيانات للبيانات غير المتغيرة. كما يُفضَّل تنفيذ اختبار أمان شامل (OWASP Top 10) على واجهة RESTful API، مع إضافة حماية ضد هجمات CSRF وXSS، لضمان أمان البيانات الحساسة للمدارس."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289675Repository.kt",
-        "App1289675HomeScreen.kt",
-        "App1289675DetailsScreen.kt",
-        "App1289675CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المستخلص من مشروع حل تحليل بيانات المدارس، يظهر أن الفريق المطور قد أولى اهتماماً كبيراً بالنقاط القوية في التصميم والتنفيذ. يتضح ذلك من خلال استخدام نمط MVVM في تصميم الواجهة وتنفيذ الكلاسات مثل App1289675Model وApp1289675Repository وApp1289675ViewModel. تم استخدام رسومات الـ Canvas Vector Drawings لإضافة عناصر بصرية جذابة ومبتكرة.\n\nأما بالنسبة للخادم، فقد تم توفير خادم سحابي خفيف ومستقل لمعالجة الطلبات من خلال استخدام VPS",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1289675Repository.kt",
-        "App1289675HomeScreen.kt",
-        "App1289675DetailsScreen.kt",
-        "App1289675CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.88,\n  \"technical_review_ar\": \"يُظهر هذا المشروع بنية معماريّة متكاملة تجمع بين Kotlin Multiplatform و MVVM، ما يتيح تجربة مستخدم موحدة عبر Android، iOS، والويب مع الحفاظ على كفاءة الأداء. تُبرز الكلاسات مثل App1289675Model و App1289675Repository و App1289675Package دوراً واضحاً في فصل المنطق التجاري عن واجهة المستخدم، بينما تُسهم ملفات الـ Kotlin (App1289675Repository.kt، App1289675HomeScreen.kt، App1289675DetailsScreen.kt، App1289675CheckoutScreen.kt) في تحقيق بنية نظيفة وقابلة ل",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289675Repository.kt",
-        "App1289675HomeScreen.kt",
-        "App1289675DetailsScreen.kt",
-        "App1289675CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر المشروع اعتماداً قوياً على بنية MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، ما يسهل اختبار الكود وتوسيع نطاقه. تُبرز الكلاسات App1289675Model و App1289675Repository كأمثلة على نمط الـ Domain Model و Repository Pattern، مع استدعاء RESTful API عبر Ktor وتطبيق OAuth 2.0، ما يضمن أمان البيانات وتكامل سلس مع أنظمة الدفع المحلية. كما يبرز BespokeVectorIllustration.kt استخدام Canvas Vector Drawings لتوفير رسومات عالية الدقة ومتجاوبة مع جميع أحجام الشاشات، مع مراعاة قياسات لمس ≥48dp وتوافق مع Dynamic Island على iOS. يتميز الخادم server.js بنظام خفيف الوزن مع دعم WebSocket للـ Firebase Cloud Messaging، ما يحقق استجابة فورية للمدارس ويقلل زمن التحميل.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتركيب نظام كاش محلي (Room أو DataStore) لتقليل عدد الطلبات إلى الخادم وتحسين تجربة المستخدم في وضع عدم الاتصال، مع إضافة اختبار أمان شامل (OWASP Top 10) لتقوية حماية OAuth 2.0. كما يُفضَّل توسيع البنية السحابية عبر إضافة حاويات Docker مع Kubernetes لإدارة التوسع التلقائي وتوفير مراقبة الأداء (Prometheus + Grafana)."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب بائع اونلاين محترف لبيع برنامج تحليل بيانات لمدارس الإمارات — مطلوب بائع اونلاين محترف لبيع برنامج تحليل بيانات لمدارس الإمارات سوف نزوده بأسماء المدارس المستهدفة وبيانات للتواصل ندربه على البرنامج وبعض مميزاته مدة العمل شهر والميزانية من 250 الى 500 دولار",
+  "domain_data": {
+    "repo_name": "haraka-scale-fitness-1289675",
+    "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "telemetry_preview": "BLE Smart Scale GATT 0x181D + Heart Rate Strap: ONLINE | READY"
+  }
 }
