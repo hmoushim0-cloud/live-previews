@@ -336,27 +336,16 @@
         <span class="font-mono text-[11px] text-slate-500">Zero Emojis • Vector Assets Only</span>
       </div>
 
-      <!-- Screenshots 3-Column Mobile Frame Grid (Default View) -->
-      <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="screenshotsGrid">
+      <!-- Screenshots Mobile Frame Grid (Default View - Dynamically responsive up to N screens) -->
+      <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="screenshotsGrid">
         <!-- Rendered dynamically via renderScreenshots() -->
       </div>
 
       <!-- INTERACTIVE TAP-THROUGH PHONE SIMULATOR (Interactive View) -->
       <div class="w-full hidden flex-col items-center gap-6 py-4" id="interactiveSimulatorContainer">
-        <!-- Step Navigation Tabs / Breadcrumbs -->
-        <div class="flex items-center justify-center gap-2 md:gap-4 max-w-lg w-full">
-          <button onclick="setInteractiveStep(0)" id="simStepBtn0" class="flex-1 py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 bg-teal-500/20 border-teal-500 text-teal-300">
-            <span class="w-5 h-5 rounded-full bg-teal-500 text-slate-950 font-mono text-[10px] flex items-center justify-center font-black">1</span>
-            <span>الرئيسية</span>
-          </button>
-          <button onclick="setInteractiveStep(1)" id="simStepBtn1" class="flex-1 py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 bg-slate-900 border-slate-800 text-slate-400 hover:text-white">
-            <span class="w-5 h-5 rounded-full bg-slate-800 text-slate-300 font-mono text-[10px] flex items-center justify-center font-black">2</span>
-            <span>التفاصيل</span>
-          </button>
-          <button onclick="setInteractiveStep(2)" id="simStepBtn2" class="flex-1 py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 bg-slate-900 border-slate-800 text-slate-400 hover:text-white">
-            <span class="w-5 h-5 rounded-full bg-slate-800 text-slate-300 font-mono text-[10px] flex items-center justify-center font-black">3</span>
-            <span>التتبع والدفع</span>
-          </button>
+        <!-- Dynamic Step Navigation Tabs / Breadcrumbs -->
+        <div class="flex items-center justify-center gap-2 md:gap-3 max-w-3xl w-full flex-wrap" id="simBreadcrumbsContainer">
+          <!-- Populated dynamically based on spec.proof_screenshots -->
         </div>
 
         <!-- Single Centered Phone Frame -->
@@ -904,7 +893,9 @@
     }
 
     function advanceInteractiveScreen() {
-      currentInteractiveStep = (currentInteractiveStep + 1) % 3;
+      const shots = getActiveShotsList(currentSpec);
+      if (!shots || shots.length === 0) return;
+      currentInteractiveStep = (currentInteractiveStep + 1) % shots.length;
       renderInteractiveSimulator(currentSpec);
     }
 
@@ -955,36 +946,46 @@
 
       simImg.src = currentShot.path;
       simTitle.innerText = currentShot.title;
-      simCounter.innerText = `${safeIndex + 1} / 3`;
+      simCounter.innerText = `${safeIndex + 1} / ${shots.length}`;
 
-      // Update Breadcrumbs
-      [0, 1, 2].forEach(idx => {
-        const btn = document.getElementById(`simStepBtn${idx}`);
-        if (btn) {
-          if (idx === safeIndex) {
-            btn.className = "flex-1 py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 bg-teal-500/20 border-teal-500 text-teal-300";
-            btn.querySelector("span").className = "w-5 h-5 rounded-full bg-teal-500 text-slate-950 font-mono text-[10px] flex items-center justify-center font-black";
-          } else {
-            btn.className = "flex-1 py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 bg-slate-900 border-slate-800 text-slate-400 hover:text-white";
-            btn.querySelector("span").className = "w-5 h-5 rounded-full bg-slate-800 text-slate-300 font-mono text-[10px] flex items-center justify-center font-black";
+      // Update Dynamic Breadcrumbs (arbitrary N screens)
+      const breadcrumbsContainer = document.getElementById("simBreadcrumbsContainer");
+      if (breadcrumbsContainer) {
+        breadcrumbsContainer.innerHTML = shots.map((s, idx) => {
+          const isActive = idx === safeIndex;
+          const activeClasses = "bg-teal-500/20 border-teal-500 text-teal-300 shadow-md";
+          const inactiveClasses = "bg-slate-900 border-slate-800 text-slate-400 hover:text-white";
+          const badgeActiveClass = "bg-teal-500 text-slate-950";
+          const badgeInactiveClass = "bg-slate-800 text-slate-300";
+
+          let tabLabel = s.title || `شاشة ${idx + 1}`;
+          if (tabLabel.length > 20) {
+            tabLabel = tabLabel.split(" ").slice(0, 2).join(" ");
           }
-        }
-      });
 
-      // Advance Button Text and Action
-      if (safeIndex === 0) {
+          return `
+            <button onclick="setInteractiveStep(${idx})" id="simStepBtn${idx}" class="flex-1 min-w-[100px] max-w-[160px] py-2 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 ${isActive ? activeClasses : inactiveClasses}">
+              <span class="w-5 h-5 rounded-full font-mono text-[10px] flex items-center justify-center font-black ${isActive ? badgeActiveClass : badgeInactiveClass}">${idx + 1}</span>
+              <span class="truncate">${tabLabel}</span>
+            </button>
+          `;
+        }).join("");
+      }
+
+      // Advance Button Text and Action (dynamic for N screens)
+      if (safeIndex < shots.length - 1) {
+        const nextShot = shots[safeIndex + 1];
+        let nextTitle = nextShot.title || `الشاشة ${safeIndex + 2}`;
+        if (nextTitle.length > 26) {
+          nextTitle = nextTitle.substring(0, 24) + "...";
+        }
         simBtn.innerHTML = `
-          <span>الانتقال لشاشة التفاصيل والتخصيص (2/3)</span>
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-        `;
-      } else if (safeIndex === 1) {
-        simBtn.innerHTML = `
-          <span>الانتقال لشاشة التتبع والدفع المعتمد (3/3)</span>
+          <span>الانتقال إلى: ${nextTitle} (${safeIndex + 2}/${shots.length})</span>
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
         `;
       } else {
         simBtn.innerHTML = `
-          <span>إعادة المحاكاة التفاعلية من الشاشة الأولى</span>
+          <span>إعادة المحاكاة التفاعلية من الشاشة الأولى (1/${shots.length})</span>
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
         `;
       }
