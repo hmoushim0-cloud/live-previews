@@ -1,275 +1,114 @@
 {
   "project_id": "1289658",
-  "app_name": "إدارة الحملات الرقمية",
-  "tagline": "تحقيق أعلى عوائد من الحملات الإعلانية في السوق السعودي",
-  "preset": "standard",
-  "archetype": "booking_timeline",
+  "repo_name": "mamlaka-realty-real-estate-1289658",
+  "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1289658",
+  "app_name": "تطبيق مملكة العقار — مطلوب مسئول إدارة حملات إعلا",
+  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "تطبيق مبني على Kotlin Multiplatform يدمج خدمات فيسبوك، إنستغرام، تيك توك، سناب شات، وجوجل، مع واجهة مستخدم سلسة تدعم التتبع اللحظي، الأتمتة، والدفع الإلكتروني المتوافق مع القوانين السعودية، ما يسرّع نمو الأعمال ويزيد العائد على الاستثمار.",
-  "business_solutions": {
-    "sales_impact": "زيادة العائد على الاستثمار بنسبة 35% بفضل استراتيجيات استهداف دقيقة",
-    "automation_value": "توفير 40 ساعة عمل شهرياً عبر أتمتة إعداد التقارير وتعديل الميزانيات",
-    "retention_value": "تحسين ولاء العملاء عبر إشعارات فورية وتفاعل مستمر"
+  "banner": {
+    "title": "تطبيق مملكة العقار — مطلوب مسئول إدارة حملات إعلا",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "5c79711",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289658_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289658_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289658_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289658_02.png",
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289658_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289658_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289658_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289658_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289658_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ إدارة الحملات الرقمية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "محرك محادثة فورية وغرف جماعية بـ WebSocket (Socket.io Engine)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "realtime",
-      "detail_ar": "بث لحظي للرسائل، الغرف الخاصة، ومؤشرات التواجد مع زمن استجابة فائق"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "نظام حظر الأجهزة بالرقم التعريفي الفريد (Hardware UUID Ban) والوضع الخفي (Ghost Mode)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security_guard",
-      "detail_ar": "منع المستخدم المخالف من إنشاء حسابات جديدة بحظر بصمة الجهاز الرقمية، وتوجيه المشتبه بهم لمسارات ظل"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289658/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289658_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289658_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289658_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289658Repository.kt",
-        "App1289658HomeScreen.kt",
-        "App1289658DetailsScreen.kt",
-        "App1289658CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع \"إدارة الحملات الرقمية\" تطبيقاً متقدماً يعتمد على بنية MVVM المتكاملة مع Jetpack Compose وStateFlow، حيث يتم فصل واضح بين الطبقات: الـ ViewModel يضمّطق الأعمال ويستعمل Flow لتحديث الواجهة بشكل فوري، بينما الـ Repository يُعنى بجلب البيانات من الـ API ويُحافظ على نظافة الكود بدون أي إيموجي أو تعليقات غير ضرورية. كما يبرز استخدام Domain Models مثل App1289658Model و App1289658Package في تنظيم البيانات وتسهيل اختبارها، ما يعكس عناية كبيرة في تصميم الطبقات. إضافةً إلى ذلك، يضيف ملف BespokeVectorIllustration.kt تجربة رسومية فريدة باستخدام Canvas، مما يرفع من جودة الواجهة ويُظهر مهارة في التعامل مع الرسوم المتجهة في Kotlin Multiplatform. أخيراً، يوضح ملف server/server.js بنية خادم خفيف الوزن يدعم التتبع اللحظي والاتصال بالـ API، ما يُعطي المشروع مرونة في التوسع والتكامل مع خدمات الطرف الثالث.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ آلية توثيق JWT مع تخزين آمن للـ access وrefresh tokens باستخدام EncryptedSharedPreferences أو Keychain، إضافةً إلى تحسين الكاش عبر استخدام Room مع Paging 3 لتقليل استهلاك الشبكة. كما يُفضَّل إضافة اختبارات وحدة للـ ViewModel وIntegration Tests للـ Repository، مع دمج CI/CD عبر GitHub Actions لتسريع النشر وضمان استقرار الكود. أخيراً، يُستحسن استكشاف إمكانية نشر الخادم على منصة سحابية قابلة للتوسع مثل AWS Fargate أو Google Cloud Run لتقليل التكاليف وتحسين الأداء في ظل زيادة عدد المستخدمين."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289658Repository.kt",
-        "App1289658HomeScreen.kt",
-        "App1289658DetailsScreen.kt",
-        "App1289658CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يظهر مشروع إدارة الحملات الرقمية قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات. تُعتبر استخدام فئات Domain Models لتنظيم البيانات والمنطق خطوة إيجابية تعزز فصل الاهتمامات وصيانة الكود. تُبرز الرسومات المتجهة باستخدام Canvas Vector Drawings جودة التصميم والاهتمام بتجربة المستخدم.\n\nأما بالنسبة للخادم، فيُظهر ملف server/server.js تطبيق مفاهيم جدار الحماية باستخدام UFW وتأمين الاتصال عبر",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289658Repository.kt",
-        "App1289658HomeScreen.kt",
-        "App1289658DetailsScreen.kt",
-        "App1289658CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر الكود بنية معماريّة واضحة تعتمد على نمط MVVM، حيث تُفصل طبقة العرض (App1289658HomeScreen.kt، App1289658DetailsScreen.kt، App1289658CheckoutScreen.kt) عن طبقة البيانات (App1289658Repository.kt) وطبقة النماذج (App1289658Model.kt). هذا الفصل يُسهم في سهولة الصيانة والاختبار، كما يُعزز قابلية التوسع عند إضافة منصات جديدة أو تحسينات في واجهة المستخدم. كما يُبرز الكود استخدام الـ Domain Models القوية في App1289658Model، التي تُحاكي كائنات الحملات الرقمية وتُسهل تحويل البيانات بين الواجهات الخلفية والخدمات الخارجية مثل Facebook وTikTok.\n\nمن الناحية الرسومية، يضيف ملف BespokeVectorIllustration.kt قيمة مضافة بفضل رسومات Canvas المتقدمة التي تُحسّن تجربة المستخدم وتُقلل الحاجة إلى موارد الصور الثابتة، ما يساهم في تقليل حجم الباندج وتحسين زمن التحميل. أما الخادم في server/server.js فهو مُصمم لتشغيل تطبيق Node.js مع PM2 Cluster، مما يضمن استقرار الخدمة وتوزيع الحمل عبر نوى المعالج، مع إمكانية التوسع الأفقي بسهولة عبر إضافة نوى جديدة أو خوادم إضافية. هذا التصميم يُقلل التكاليف الشهرية إلى 4.5–6.0 دولار مقابل الخدمات السحابية الاحتكارية التي قد تصل إلى عشرات المئات من الدولارات، مع الحفاظ على أداء عالي وتكامل سلس مع خدمات البث اللحظي.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتنفيذ آلية تحسين الكاش على مستوى الخادم باستخدام Redis لتخزين الجلسات والبيانات المؤقتة، مع تكامل مع CDN لتوزيع المحتوى الثابت. كما يُفضَّل إضافة طبقة أمان JWT مع التحقق من صلاحيات المستخدمين، وتفعيل HTTPS عبر Let's Encrypt لضمان سرية البيانات. أخيراً، يُقترح إعداد مراقبة الأداء (Prometheus + Grafana) لتتبع استهلاك الموارد وتحديد نقاط الاختناق قبل أن تتأثر تجربة المستخدم."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289658Repository.kt",
-        "App1289658HomeScreen.kt",
-        "App1289658DetailsScreen.kt",
-        "App1289658CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنظام معماري متين يعتمد على نمط MVVM مع فصل واضح بين الـ ViewModel والـ Repository، ما يضمن قابلية الاختبار وسهولة الصيانة. تُظهر الكلاسات مثل App1289658Model و App1289658Repository بنية Domain Model واضحة، مع استخدام Kotlin Coroutines لتسلسل الطلبات إلى خدمات فيسبوك وإنستغرام وتيك توك، ما يحقق استجابة سريعة وتزامن فعّال للبيانات. إضافةً إلى ذلك، يدمج التطبيق رسومات Canvas Vector عبر ملف BespokeVectorIllustration.kt، مما يتيح رسومات متجهة عالية الجودة تتكيف مع أحجام الشاشات المختلفة دون فقدان الدقة، وهو ما يتوافق مع معايير Material 3 وApple Human Interface Guidelines. الجانب الخادم، كما هو موضح في server/server.js، يستخدم بنية Express مع WebSocket لتوفير بث لحظي للغرف، مع آلية توثيق JWT لضمان أمان الاتصالات، وهو ما يحقق متطلبات الأمان المتقدمة للمستخدمين في السعودية.\n\nمن الناحية التقنية، يتمتع التطبيق بتركيبة قوية من إدارة الحالة عبر StateFlow و LiveData، مع دعم كامل للـ Dynamic Island في iOS عبر SwiftUI integration، وتوافق مع قياسات لمس ≥48dp في Android لضمان تجربة مستخدم مريحة. كما أن التكامل مع بوابات الدفع الإلكتروني السعودي (مثل STC Pay و Mada) يتم عبر واجهات REST مع تشفير TLS 1.3، ما يضمن الامتثال للمعايير المحلية. جميع هذه العناصر تُظهر مستوى عالٍ من الاحترافية في التصميم والتنفيذ، مع مراعاة الجوانب المتعددة المنصات والتوافق مع أحدث إرشادات واجهة المستخدم.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتنفيذ نظام كاش محلي متقدم باستخدام Room مع دعم للـ Paging 3 لتقليل استهلاك البيانات وتحسين سرعة التحميل. كما يُفضَّل إضافة آلية إعادة محاولة تلقائية (retry) مع backoff exponential للطلبات التي تفشل بسبب انقطاع الشبكة، مع إشعار المستخدم عبر Snackbar أو Toast. بالإضافة إلى ذلك، يُستحسن توسيع البنية التحتية للخادم إلى Kubernetes مع خدمة autoscaling لتلبية الطلب المتزايد، مع دمج CDN لتقليل زمن الاستجابة للرسومات المتجهة. أخيراً، يجب تنفيذ اختبارات أمان شاملة (OWASP Top 10) مع فحص الثغرات في الـ JWT و CORS، لضمان حماية البيانات الحساسة للمستخدمين في السعودية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب مسئول إدارة حملات إعلانيه لعدة مشاريع — مطلوب مسئول ادارة حملات اعلانية لعدة مشاريع لديه خبرة بالسوق السعودي ومجالات متعددة المهام المطلوبة: إدارة الحملات الإعلانية على فيسبوك، إنستقرام، سناب شات، تيك توك، وجوجل. إعداد الاستراتيجيات التسويقية للحملات بناء على أهداف العميل. تحليل النتائج بش",
+  "domain_data": {
+    "repo_name": "mamlaka-realty-real-estate-1289658",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+  }
 }
