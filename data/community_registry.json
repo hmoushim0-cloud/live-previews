@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-05T19:10:55.108281+00:00",
+    "updated_at": "2026-11-05T21:11:27.567143+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2163,9 +2163,9 @@
     },
     {
       "project_id": "1289681",
-      "app_name": "محرر الفيديو الذكي",
-      "tagline": "حل متكامل لتحرير الفيديو يرفع مبيعاتك ويقلل وقت الإنتاج",
-      "preset": "standard",
+      "app_name": "تطبيق ملتقى الأعمال — مطلوب محرر فيديو — مطلوب مون",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289681",
       "stamp_id": "SA-KMP-1289681",
       "crypto_hash": "sha256-1289681",
@@ -2811,9 +2811,9 @@
     },
     {
       "project_id": "1289514",
-      "app_name": "تطبيق تصميم شاليهات",
-      "tagline": "حلول تصميم شاليهات فاخرة تزيد من قيمة العقار",
-      "preset": "standard",
+      "app_name": "تطبيق ورشة فوري — تصميم شاليه مكون من وحدتين —",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289514",
       "stamp_id": "SA-KMP-1289514",
       "crypto_hash": "sha256-1289514",
