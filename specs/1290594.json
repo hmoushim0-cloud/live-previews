@@ -1,0 +1,114 @@
+{
+  "project_id": "1290594",
+  "repo_name": "rekab-telematics-car-rental-1290594",
+  "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1290594",
+  "app_name": "تطبيق ركاب الذكي — مبرمج باك اند لتنفيذ مشروع و",
+  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
+  "theme": {
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق ركاب الذكي — مبرمج باك اند لتنفيذ مشروع و",
+    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "ea56693",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290594_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290594_02.png",
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290594_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290594_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290594_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290594_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مبرمج باك اند لتنفيذ مشروع ويب إلكتروني توصيل سيارات للأفراد. فكرة المشروع هي تطبيق توصيل سيارات للافراد بدون محفظه وبدون بوابات دفع بحيث الدفع يكون خارج المنصه وايضا يوجد دفع بالنقاط. حيث ان تصميم المشروع جاهز بواسطة فيجما لنسخة الويب و نسخة الموبايل وسيرسل للجادين وذو الخبره والتقييمات العاليه فقط و حيث ان مبرمج الفرونت اند جاهز للعمل. والذي ستقو",
+  "domain_data": {
+    "repo_name": "rekab-telematics-car-rental-1290594",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+  }
+}

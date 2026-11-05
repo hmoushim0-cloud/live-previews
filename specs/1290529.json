@@ -1,0 +1,114 @@
+{
+  "project_id": "1290529",
+  "repo_name": "mizan-pos-pos-cashier",
+  "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier",
+  "app_name": "تطبيق ميزان نقاط البيع — تطوير تطبيق مكافآت. السلام ع",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
+  },
+  "banner": {
+    "title": "تطبيق ميزان نقاط البيع — تطوير تطبيق مكافآت. السلام ع",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "31771f3",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290529_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290529_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290529_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290529_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290529_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290529_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطوير تطبيق مكافآت. السلام عليكم، المطلوب برمجة وتصميم تطبيق مكافآت وأرباح (أندرويد) مع لوحة تحكم خاصة بالإدارة. المهام الفنية المطلوبة من المبرمج: 1. بناء نظام حسابات للمستخدمين (تسجيل دخول آمن) مع محفظة رقمية لتجميع وإدارة النقاط داخل التطبيق. 2. تصميم واجهة متجر داخلي لعرض المكافآت الرقمية وبطاقات الشحن التي يطلبها المستخدمون بنقاطهم. 3. ربط وتف",
+  "domain_data": {
+    "repo_name": "mizan-pos-pos-cashier",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
+}

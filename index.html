@@ -220,22 +220,13 @@
 
       <!-- Quick Project Selector, 1-Click PDF Proposal & Certificate Trigger Button -->
       <div class="flex flex-wrap items-center gap-2.5 w-full md:w-auto justify-end no-print">
-        <select id="projectSelector" onchange="changeProject(this.value)" class="bg-slate-900 border border-slate-800 text-xs text-slate-200 px-3 py-2 rounded-xl focus:outline-none focus:border-teal-500">
+        <select id="projectSelector" onchange="changeProject(this.value)" class="bg-slate-900 border border-slate-800 text-xs text-slate-200 px-3 py-2 rounded-xl focus:outline-none focus:border-teal-500 max-w-[280px] md:max-w-[340px] truncate">
+          <option value="1291003">#1291003 — تطبيق سكن ثلاثي الأبعاد (REAL_ESTATE)</option>
           <option value="1290100">#1290100 — غسيلك المتنقل وباقات النانو (KMP Ready)</option>
           <option value="1289295">#1289295 — تطبيق توصيل سريع واستشارات (KMP Ready)</option>
           <option value="1289300">#1289300 — دار العطور الفاخرة (KMP Ready)</option>
           <option value="1289302">#1289302 — خبير التنفيذ والإشراف (KMP Ready)</option>
           <option value="1289303">#1289303 — إدارة الوثائق والأرشفة (KMP Ready)</option>
-          <option value="1289301">#1289301 — التدقيق والتسليم التشغيلي (KMP Ready)</option>
-          <option value="1289250">#1289250 — شاورما الرياض ومطاعم السحاب (KMP Ready)</option>
-          <option value="1289298">#1289298 — متجر إلكتروني ذكي (KMP Ready)</option>
-          <option value="1289297">#1289297 — منصة صيانة صناعية (KMP Ready)</option>
-          <option value="1289296">#1289296 — استشارات هندسية ومساحة (KMP Ready)</option>
-          <option value="1265226">#1265226 — تسليح (صيانة المنازل) (KMP Ready)</option>
-          <option value="1266029">#1266029 — دليل الصحراء (ملاحة بدون نت) (KMP Ready)</option>
-          <option value="1266248">#1266248 — صحتي (دليل أطباء وحجوزات) (KMP Ready)</option>
-          <option value="1266318">#1266318 — دكان (كاشير وفوترة زاتكا) (KMP Ready)</option>
-          <option value="1270577">#1270577 — شريك (غرف صوتية تفاعلية) (KMP Ready)</option>
         </select>
 
         <!-- 1-Click PDF Proposal Button -->
@@ -272,7 +263,7 @@
           <svg class="w-3.5 h-3.5 text-teal-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 01-1.581.814L10 14.197l-4.419 2.617A1 1 0 014 16V4z" clip-rule="evenodd"/></svg>
           المشاريع المعتمدة بـ SQL
         </div>
-        <div class="text-base md:text-lg font-black text-teal-300" id="totalVerifiedStat">42 تطبيقاً</div>
+        <div class="text-base md:text-lg font-black text-teal-300" id="totalVerifiedStat">354 تطبيقاً</div>
         <div class="text-[11px] text-slate-500">مسجلة ومفحوصة بسجل SQLite سحابي</div>
       </div>
 
@@ -1405,12 +1396,50 @@
         if (res.ok) {
           communityData = await res.json();
           if (communityData.stats && communityData.stats.TOTAL_VERIFIED_PROJECTS) {
-            document.getElementById("totalVerifiedStat").innerText = `${communityData.stats.TOTAL_VERIFIED_PROJECTS.value} تطبيقاً`;
+            const count = communityData.stats.TOTAL_VERIFIED_PROJECTS.value;
+            const el = document.getElementById("totalVerifiedStat");
+            if (el && count) el.innerText = `${count} تطبيقاً`;
           }
         }
       } catch (e) {
         console.warn("Community registry fetch warning:", e);
       }
+    }
+
+    async function fetchProjectsIndex(activeId) {
+      try {
+        const res = await fetch('data/projects_index.json');
+        if (res.ok) {
+          const list = await res.json();
+          const statEl = document.getElementById("totalVerifiedStat");
+          if (statEl && list.length > 0) {
+            statEl.innerText = `${list.length} تطبيقاً`;
+          }
+
+          const sel = document.getElementById("projectSelector");
+          if (sel && list.length > 0) {
+            let html = "";
+            let foundActive = false;
+            list.forEach(p => {
+              const isSelected = String(p.project_id) === String(activeId);
+              if (isSelected) foundActive = true;
+              const titleTrunc = (p.app_name || '').substring(0, 46);
+              const tag = (p.preset || 'KMP').toUpperCase();
+              html += `<option value="${p.project_id}" ${isSelected ? 'selected' : ''}>#${p.project_id} — ${titleTrunc} (${tag})</option>`;
+            });
+
+            if (!foundActive && activeId) {
+              html = `<option value="${activeId}" selected>#${activeId} — معاينة المشروع الحالي (نشط)</option>` + html;
+            }
+            sel.innerHTML = html;
+            sel.value = activeId;
+          }
+          return list;
+        }
+      } catch (e) {
+        console.warn("Projects index fetch warning:", e);
+      }
+      return [];
     }
 
     function renderShowcase(spec) {
@@ -1495,15 +1524,11 @@
     }
 
     async function loadData() {
-      const projectId = getQueryParam("id") || "1290100";
+      const projectId = getQueryParam("id") || "1291003";
       document.getElementById("projectIdDisplay").innerText = `#${projectId}`;
 
-      const sel = document.getElementById("projectSelector");
-      if (sel) {
-        sel.value = projectId;
-      }
-
       await fetchCommunityRegistry();
+      await fetchProjectsIndex(projectId);
 
       try {
         const res = await fetch(`specs/${projectId}.json`);

@@ -1,0 +1,114 @@
+{
+  "project_id": "1290528",
+  "repo_name": "ruya-academy-smart-education",
+  "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education",
+  "app_name": "تطبيق رؤية للتدريب — خبير لتدقيق تطبيق منصة تعليم",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
+  "theme": {
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق رؤية للتدريب — خبير لتدقيق تطبيق منصة تعليم",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "89bf605",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290528_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290528_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290528_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290528_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290528_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290528_ios_03.png"
+    }
+  ],
+  "detailed_desc": "خبير لتدقيق تطبيق منصة تعليمية وتشخيص مشاكل الصوت والفيديو والاستقرار. السلام عليكم، لدينا تطبيق لمنصة تعليمية يعتمد على Agora لإجراء الحصص المباشرة داخل التطبيق. المشروع مكتمل تقريبا، ونحن حاليا في المرحلة التجريبية قبل الإطلاق. خلال التجربة، لاحظنا مشاكل متكررة في الصوت والصورة، وخصوصا الصوت، وهو أهم عنصر في المنصة لأن جودة الحصص تعتمد عليه بشكل",
+  "domain_data": {
+    "repo_name": "ruya-academy-smart-education",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
+}

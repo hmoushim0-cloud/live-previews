@@ -1,0 +1,24 @@
+{
+  "project_id": "1290327",
+  "title": "تطبيق إتقان للصيانة",
+  "tagline": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "theme": {
+    "primary_color": "#0f766e",
+    "accent_color": "#f59e0b"
+  },
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290327_01.png"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290327_02.png"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290327_03.png"
+    }
+  ]
+}

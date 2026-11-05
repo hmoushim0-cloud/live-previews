@@ -1,0 +1,114 @@
+{
+  "project_id": "1290747",
+  "repo_name": "sajil-zatca-pos-cashier",
+  "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier",
+  "app_name": "تطبيق سجل زاتكا — تطوير متجر إلكتروني ببرمجة خ",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق سجل زاتكا — تطوير متجر إلكتروني ببرمجة خ",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "320cef8",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290747_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290747_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290747_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290747_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290747_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290747_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تطوير متجر إلكتروني ببرمجة خاصة مع تطبيقات Android وiOS ولوحة تحكم موحدة. أبحث عن مطور محترف لتصميم وتطوير متجر إلكتروني ببرمجة خاصة من الصفر، مع تطبيقي Android وiOS ولوحة تحكم موحدة لإدارة الموقع والتطبيقات. المطلوب تطوير مخصص، وليس شراء سكربت متجر جاهز أو استخدام منصات المتاجر الجاهزة. يسمح باستخدام أطر العمل والمكتبات الموثوقة مع توضيح تراخيصها.",
+  "domain_data": {
+    "repo_name": "sajil-zatca-pos-cashier",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
+}

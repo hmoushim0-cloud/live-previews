@@ -1,0 +1,114 @@
+{
+  "project_id": "1290555",
+  "repo_name": "riwaq-desk-coworking",
+  "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking",
+  "app_name": "تطبيق رواق المشترك — تصميم واجهة شاشة تسجيل دخول",
+  "tagline": "منظومة coworking المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
+  },
+  "banner": {
+    "title": "تطبيق رواق المشترك — تصميم واجهة شاشة تسجيل دخول",
+    "subtitle": "منظومة coworking المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "7d5355e",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290555_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290555_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290555_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290555_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290555_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290555_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تصميم واجهة شاشة تسجيل دخول لتطبيق موبايل باستخدام Flutter. أرغب في تصميم وتنفيذ شاشة تسجيل دخول (Login Screen) لتطبيق موبايل باستخدام Flutter، بتصميم عصري وبسيط وسهل الاستخدام. المطلوب: تصميم شاشة تسجيل دخول احترافية. إضافة حقول البريد الإلكتروني وكلمة المرور. إضافة زر تسجيل الدخول. إضافة خيار إظهار وإخفاء كلمة المرور. إضافة رابط استعادة كلمة المر",
+  "domain_data": {
+    "repo_name": "riwaq-desk-coworking",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
+}

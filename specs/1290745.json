@@ -1,0 +1,114 @@
+{
+  "project_id": "1290745",
+  "repo_name": "masar-rtk-navigation-1290745",
+  "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation-1290745",
+  "app_name": "تطبيق مسار الفضائي — مهندس معماري برمجيات / Full-",
+  "tagline": "منظومة navigation المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "navigation",
+  "layout_type": "navigation",
+  "layoutArchetype": "navigation",
+  "theme": {
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
+  },
+  "banner": {
+    "title": "تطبيق مسار الفضائي — مهندس معماري برمجيات / Full-",
+    "subtitle": "منظومة navigation المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "navigation",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "c1cfc5c",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290745_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290745_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290745_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290745_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290745_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290745_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية. مطلوب مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية (Modular Architecture) تفاصيل المشروع: نبحث عن شريك تقني محترف لتنفيذ النسخة الأولى (MVP) لشبكة اجتماعية معرفية متخصصة تدمج بين المعرفة، السنن، والفعل التف",
+  "domain_data": {
+    "repo_name": "masar-rtk-navigation-1290745",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+  }
+}
