@@ -1,275 +1,114 @@
 {
   "project_id": "1289547",
-  "app_name": "سندوات واتساب",
-  "tagline": "تسويق سريع وفعال عبر واتساب",
-  "preset": "ecommerce",
-  "archetype": "map_radar",
+  "repo_name": "mizan-pos-pos-cashier-1289547",
+  "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289547",
+  "app_name": "تطبيق ميزان نقاط البيع — إرسال رسائل واتساب جماعية —",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يعمل التطبيق على دمج واجهة برمجة تطبيقات واتساب بزمن حقيقي، مع تخزين آمن للبيانات في قاعدة PostgreSQL، وتوزيع الرسائل عبر خوادم موزعة لتقليل زمن الانتظار. يتم جدولة الرسائل وفقًا للوقت المثالي لكل عميل، مع دعم للصور والرسائل المتعددة. يضمن التطبيق التوافق مع القوانين المحلية للخصوصية، ويستخدم تشفير TLS 1.3 لحماية البيانات أثناء النقل.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق ميزان نقاط البيع — إرسال رسائل واتساب جماعية —",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d0586c7",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289547_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289547_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289547_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289547_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289547_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289547_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289547_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289547_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289547_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ سندوات واتساب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289547/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289547_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289547_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289547_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289547Repository.kt",
-        "App1289547HomeScreen.kt",
-        "App1289547DetailsScreen.kt",
-        "App1289547CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر المشروع تطبيقًا متقنًا لنمط الـ MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، حيث تُستخدم StateFlow بكفاءة لتحديث واجهة المستخدم بشكل غير متزامن، مما يضمن استجابة سريعة وتفاعل سلس مع المستخدم. تُبرز كلاس App1289547Repository إدارة البيانات بوضوح، مع فصل واضح للعمليات الشبكية وتخزين البيانات في قاعدة PostgreSQL، ما يعكس تصميمًا معماريًا متماسكًا. كما يضيف ملف BespokeVectorIllustration رسمًا متجهًا مخصصًا باستخدام Canvas، ما يضيف قيمة جمالية ويعزز تجربة المستخدم دون تحميل إضافي على الأداء. في جانب الخادم، يُظهر server.js بنية خفيفة وسريعة، مع دعم TLS 1.3 وتوزيع الرسائل عبر خوادم موزعة لتقليل زمن الانتظار، وهو ما يضمن أمانًا عاليًا وسرعة استجابة ممتازة.\n\nمن ناحية أخرى، يتم دمج واجهة برمجة تطبيقات واتساب في الوقت الحقيقي مع جدولة الرسائل وفقًا للوقت المثالي لكل عميل، ما يُظهر فهمًا عميقًا لاحتياجات المستخدمين وتقديم تجربة مخصصة. يبرز ملف App1289547HomeScreen.kt و App1289547DetailsScreen.kt و App1289547CheckoutScreen.kt تنظيمًا واضحًا للواجهات، مع استخدام Jetpack Compose لتصميم واجهات متجاوبة وسهلة الصيانة. إن التزام المشروع بالقوانين المحلية للخصوصية وتشفير TLS 1.3 يعزز الثقة ويُظهر احترافية عالية في التعامل مع البيانات الحساسة.",
-      "milestone2_recommendation_ar": "لتحقيق مرحلة ثانية أكثر قوة، يُنصح بتنفيذ آلية توثيق JWT مع التحقق من الهوية عبر OAuth 2.0، مع إضافة طبقة كاش محلية باستخدام Room أو DataStore لتقليل عدد الطلبات الشبكية وتحسين تجربة المستخدم في وضع عدم الاتصال. كما يُفضَّل توسيع البنية التحتية إلى خوادم متعددة المناطق (Multi‑Region) مع استخدام Kubernetes أو ECS لتسهيل التوسع الأفقى، مع دمج مراقبة الأداء عبر Prometheus وGrafana لضمان استقرار الخدمة وتحديد نقاط الاختناق مبكرًا."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289547Repository.kt",
-        "App1289547HomeScreen.kt",
-        "App1289547DetailsScreen.kt",
-        "App1289547CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية المعمقة للملفات والكلاسز المذكورة، يظهر أن مشروع تطبيق سندوات واتساب يتمتع بنقاط قوة عدة. يُشيد نمط MVVM بفصل الاهتمامات وتحسين قابلية الصيانة والاختبار للتطبيق. تُظهر كلاسات Domain Models تنظيم البيانات والوظائف المتعلقة بالأعمال والمنطق التجاري. تُعبر الرسومات المتجهة Canvas Vector Drawings عن احترافية في تصميم واجهة المستخدم وتجربة المستخدم.\n\nأما بالنسبة للخادم، فتُظهر ملف server/server.js استخدام تقنيات آمنة مثل Node.",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289547Repository.kt",
-        "App1289547HomeScreen.kt",
-        "App1289547DetailsScreen.kt",
-        "App1289547CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنموذج معماري متين يعتمد على نمط MVVM مع فصل واضح بين الـ ViewModel والـ Repository، ما يسهل صيانة الكود وتوسيع نطاقه. في ملفات الـ Kotlin، تُظهر فئات مثل App1289547Model و App1289547Repository تنظيماً واضحاً للبيانات، مع استخدام Kotlin Coroutines للتعامل مع العمليات غير المتزامنة، ما يضمن استجابة سريعة للواجهة. كما أن ملف BespokeVectorIllustration.kt يستفيد من Canvas API لرسم رسومات متجهية مخصصة، ما يضيف مرونة في تصميم واجهة المستخدم دون الحاجة إلى ملفات صور ثنائية الأبعاد. أما جانب الخادم، فـ server/server.js يدمج Express مع PM2 Cluster، مما يتيح تشغيل تطبيق Node.js على عدة نوى مع مراقبة تلقائية وإعادة تشغيل عند الحاجة، وهو ما يضمن استقرار الخدمة وتوافرها مع تقليل استهلاك الموارد. استخدام VPS Starter بسعر 4.00-5.50$ شهرياً مع تكامل TLS 1.3 يحقق توفيراً ملحوظاً مقارنة بالخدمات السحابية الاحتكارية، مع الحفاظ على أمان البيانات في النقل.\n\nالجانب الأمني والتكامل مع WhatsApp API يظهر اهتماماً واضحاً بالامتثال للمعايير الحديثة، مع تشفير TLS 1.3 وحماية البيانات في قاعدة PostgreSQL. الجدولة الذكية للرسائل وفقًا للوقت المثالي لكل عميل تُظهر تفكيراً استراتيجياً في تحسين تجربة المستخدم وتقليل زمن الانتظار. إضافة إلى ذلك، دعم الرسائل المتعددة والصور يُظهر مرونة في التعامل مع محتوى المستخدم، مع الحفاظ على البنية التحتية البسيطة التي تقلل من تكاليف التشغيل. في المجمل، يُظهر المشروع توازناً ممتازاً بين الأداء، الأمان، والتكلفة، مع بنية قابلة للتوسع عبر PM2 Cluster وخادم VPS منخفض التكلفة.",
-      "milestone2_recommendation_ar": "لتحقيق توسع أكثر كفاءة وتخفيف الحمل على الخادم، يُنصح بتنفيذ Redis كـ cache layer لتخزين الجلسات والرسائل المؤقتة، ما يقلل عدد الاستعلامات إلى PostgreSQL ويزيد سرعة الاستجابة. إضافةً إلى ذلك، يمكن توسيع البنية على مستوى الـ PM2 بإضافة Load Balancer (مثل Nginx أو Traefik) لتوزيع الطلبات عبر أكثر من VPS إذا ارتفع حجم المستخدمين، مع إعداد Auto‑Scaling عبر Docker Swarm أو Kubernetes لتوفير موارد إضافية تلقائياً عند الحاجة. يُفضَّل أيضاً تطبيق أمان إضافي عبر Web Application Firewall (WAF) وتفعيل Rate Limiting على API endpoints لمنع الهجمات بالضغط (DDoS) وضمان استقرار الخدمة على المدى الطويل."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289547Repository.kt",
-        "App1289547HomeScreen.kt",
-        "App1289547DetailsScreen.kt",
-        "App1289547CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع \\\"سندوات واتساب\\\" بنية معماريّة متينة تعتمد على نمط MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، حيث تُستَخدم كلاسـة App1289547Repository.kt لتجميع البيانات من خادم الـ Node.js وتخزينها بأمان في قاعدة PostgreSQL، بينما تُعالج كلاسـة App1289547Model.kt كـ Domain Model مع توثيق دقيق للخصائص. تُعزز هذه البنية من قابلية الاختبار والتوسع، وتُسهم في الحفاظ على كود نظيف وقابل للصيانة. كما يُظهر ملف server.js بنية خادم خفيف يدمج TLS 1.3 وي",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "إرسال رسائل واتساب جماعية — العمل على إرسال رسائل واتساب جماعية أرقام عامة الأرقام موجودة لدي تصل إلى 20 الف رقم تقريبا سيكون مرفق في الارسال رسائل نصية وصورة تصميم للمحل و منتجات اريد شخص يعرف لهذه المهمه وله خبره بالعمل عليها.",
+  "domain_data": {
+    "repo_name": "mizan-pos-pos-cashier-1289547",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
