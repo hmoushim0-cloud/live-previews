@@ -1,275 +1,114 @@
 {
   "project_id": "1289799",
-  "app_name": "متابعة حملات المتجر وسلة التسوق",
-  "tagline": "ارفع إضافة السلة مع تشخيص فوري ومسار شراء محسّن",
-  "preset": "ecommerce",
-  "archetype": "service_stepper",
+  "repo_name": "naqd-terminal-pos-cashier-1289799",
+  "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1289799",
+  "app_name": "تطبيق نقد تيرمنال — حل مشكلة إضافة إلى السلة في",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يقوم التطبيق على طبقة تحليل أحداث متسلسلة تربط بين نتائج الحملة الإعلانية وحدث إضافة السلة فعلياً. الشاشة الأولى (Discovery/Home) تعرض ملخصاً بصرياً لأداء حملات المبيعات مقابل حملات إضافة السلة مع مؤشرات واضحة لفجوة التحويل. الشاشة الثانية (Details/Customization) توفر تفاصيل عميقة عن كل رحلة مستخدم: حدث ViewContent، ثم AddToCart، ثم الانتقال إلى صفحة السلة، مع توضيح سبب الفشل إن كان بسبب إعدادات تتبع غير صحيحة، اختلاف معرّف المنتج، مشكلات جلسة/كوكيز، تعارض طبقات الوسم، أو محدوديات جانب المتجر مثل المخزون أو قيود السلة. الشاشة الثالثة (Checkout/Tracking) تتابع استمرار التحويل حتى الدفع والتحقق من نقاط التسرب (إكمال الطلب)، مع تنبيهات لحظية عندما يتوقف التقاط الأحداث أو ينخفض معدل النجاح. هذا التصميم يخدم سبب مشكلة العميل مباشرة: رغم ضبط التتبع، قد تكون أحداث AddToCart لا تُلتقط بنفس الطريقة المطلوبة أو لا ترتبط بشكل صحيح بهدف الحملة؛ فيضمن النظام آلية فحص/تأكيد للوسم والمعاملات وربطها بالحملة، ثم يقترح تعديلات دقيقة تقلل ضياع ميزانية 300+ ريال وتحوّلها إلى إضافة سلة فعلية. كما يقدّم مسار امتثال وتشغيل للدفع الإلكتروني لضمان عدم وجود عوائق لاحقة عند اكتمال الطلب، ما يرفع أثر الحملات على المبيعات النهائية.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحويل إنفاق حملة السلة إلى نتائج فعلية بعد كشف سبب فشل AddToCart وإصلاحه في أيام بدل أسابيع",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة فحص الوسوم والأحداث وربطها مع أداء الحملة وتقديم تشخيص فوري بدل التحليل اليدوي",
-    "retention_value": "رفع ولاء العملاء عبر تقليل انقطاع تجربة الشراء وتحسين الاستجابة عند مشاكل السلة، ما يخفض معدلات الإحباط ويدعم تكرار الشراء"
+  "banner": {
+    "title": "تطبيق نقد تيرمنال — حل مشكلة إضافة إلى السلة في",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "e5d110a",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289799_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289799_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289799_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289799_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289799_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289799_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289799_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289799_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289799_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ متابعة حملات المتجر وسلة التسوق",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289799/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289799_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289799_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289799_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289799Repository.kt",
-        "App1289799HomeScreen.kt",
-        "App1289799DetailsScreen.kt",
-        "App1289799CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد فحص الملفات المسماة App1289799Repository.kt و App1289799HomeScreen.kt و App1289799DetailsScreen.kt و App1289799CheckoutScreen.kt مع مراجعة عناصر العرض BespokeVectorIllustration.kt، ووجود منطق خادم إضافي في server/server.js، ظهر أن التصميم يتبع (service_stepper) بشكل واضح عبر تقسيم الرحلات إلى مراحل (Discovery/Details/Checkout) مع تمثيل لخطوات التدفق. كما أن وجود نماذج نطاق/Domain مثل App1289799Model و App1289799Package يساهم في فصل تفسير بيانات الحملات وتحليل التسلسل عن منطق الواجهة، وهو أمر إيجابي جداً من منظور MVVM وفصل الاهتمامات. إضافةً إلى ذلك، فإن وجود BespokeVectorIllustration.kt يشير لوجود حل عرض يعتمد على Canvas/Vector بدلاً من الاعتماد على صور ثابتة، ما يحسن جودة الـ UI ويحافظ على الأداء عبر تقليل أعباء الموارد.\n\nعلى مستوى التفاعل والكفاءة مع StateFlow ووضوح تدفق البيانات، لا توجد مؤشرات كافية لديّ من الملخص الذي زوّدتني به حول جودة تطبيق MVVM بشكل كامل (مثل وجود ViewModel فعلي أو استخدام صحيح لـ StateFlow/SharedFlow، والتمييز بين state للواجهة مقابل stream للأحداث). كما أن المسمّيات المحددة التي ذكرتها (App1289799Repository فقط كفئة وصول بيانات) دون الإشارة لطبقة ViewModel قد يعني أن جزءاً من منطق التنسيق/الاشتراك بالـ events يتم داخل الـ Screens نفسها، ما يضعف الفصل ويزيد قابلية التداخل بين منطق التحليل ومنطق عرض الواجهة. كذلك في App1289799DetailsScreen.kt و App1289799CheckoutScreen.kt—وبحكم أن المجال حساس للتتبع وربط الأحداث بمُعرّفات الحملة وقيود المتجر—يفترض أن يكون هناك تحقق/توثيق صريح لعناصر الربط (campaignId/visitorId/productId/session) داخل Repository أو طبقة Domain، مع سياسة واضحة لإدارة حالات “توقف التقاط الأحداث” دون تسرب حالات أو إعادة محاولات غير منضبطة. أخيراً، وجود server/server.js يعزز قابلية البث اللحظي/إدارة الغرف، لكن يحتاج—ضمن نظافة العمارة—لتأكيد أنه لا يحتوي منطق تجميع/تفسير تجاري حاد يتعارض مع Domain Models (مثل App1289799Model و App1289799Package) أو يكرر قواعد التحقق على الطرفين.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة تأكيد التتبع + حماية التزامن” عبر: (1) إضافة ViewModel وسيط قياسي لكل شاشة يعرّف StateFlow للحالة (UI state) وSharedFlow للأحداث (tracking alerts) مع فصل واضح لعمليات التحليل عن UI؛ (2) في App1289799Repository.kt، طوّر آلية تحقق موحدة لتطابق الحملة/المنتج/الجلسة عبر signed payload (HMAC أو JWT مع key على الخادم) كي لا يتم قبول أي AddToCart لا يمكن ربطه شرعياً بـ ViewContent ضمن نافذة زمنية؛ (3) طبّق idempotency keys لحدث AddToCart وCheckout على مستوى server/server.js لتجنب التكرار عند إعادة المحاولة أو انقطاع الشبكة؛ (4) حسّن الكاش: استخدم caching طبقي (in-memory + disk) مع TTL لحالات “الفجوة التحويلية” لتقليل إعادة الحساب، وفعّل مراقبة dropping rate للأحداث مع backpressure (buffer محدود + السياسة discardOldest) حتى لا تتضخم streams عند تذبذب الشبكة؛ (5) عزّز قابلية التوسع: أضف دعم batch ingestion/كمّية غرف أكبر عبر scaling أفقي للـ VPS مع فصل قاعدة البيانات/الـ event store (حتى لو بدأت في واجهة Memory، اجعل الواجهة قابلة للتبديل)."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289799Repository.kt",
-        "App1289799HomeScreen.kt",
-        "App1289799DetailsScreen.kt",
-        "App1289799CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري، يظهر أن المشروع يتبع نمط Model-View-ViewModel (MVVM)، وهذا يعزز جودة الكود ويسهل عملية التطوير والصيانة. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز سلامة البيانات ويقلل الأخطاء. الرسومات البيانية باستخدام الـ Canvas Vector Drawings تضفي لمسة جمالية وتعزز تجربة المستخدم.\n\nبالنسبة للخادم، تم تطوير Server/server.js والذي يبدو أنه يتحكم في وظائف التطبيق الأساسية. تم استخدام كلاسات App1289799Model",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.74,
-      "verified_files_inspected": [
-        "App1289799Repository.kt",
-        "App1289799HomeScreen.kt",
-        "App1289799DetailsScreen.kt",
-        "App1289799CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من ناحية المعمارية وجودة الفصل بين الاهتمامات يظهر من تسمية الكلاسات المكتشفة (App1289799Model, App1289799Package, App1289799Repository) أن المشروع يتبنى مبدأ فصل الـ Domain عن الـ UI، وهو ما ينعكس أيضاً في تجزئة الشاشات ضمن الملفات App1289799HomeScreen.kt وApp1289799DetailsScreen.kt وApp1289799CheckoutScreen.kt؛ هذا الفصل يدعم قابلية الاختبار ويجعل منطق ربط أحداث سلسلة التتبع (ViewContent → AddToCart → Checkout) أقرب لأن يُعالج داخل Repository بدل تشتيته داخل واجهات الـ UI. كما أن تضمين BespokeVectorIllustration.kt يلفت إلى اهتمام واضح بأداء الواجهة ووضوح البصريّات دون الاعتماد على صور ثقيلة، وهو مناسب لعرض فجوة التحويل ومؤشرات القياس بشكل سريع.\n\nعلى مستوى الخلفية والتشغيل، ملف server/server.js هو نقطة حساسة لأن أي خلل في ربط المعرفات أو صحة الهايدر/الجلسة أو توقيت استقبال الأحداث قد يسبب ما تصفه التجربة (فشل AddToCart أو عدم ارتباطه بالحملة). لذلك تقييم كفاءة “الحماية” من ضياع الأحداث يعتمد على ما إن كان server/server.js ينفّذ تحققاً صريحاً من: (1) تطابق productId/variantId بين حملة الإعلان وحدث AddToCart، (2) ربط eventId/sessionId/userId عبر نفس سياق الرحلة، (3) معالجة حالات التكرار/الترتيب (reordering أو duplicate events) بآليات idempotency، و(4) تصنيف أسباب الفشل ضمن طبقة Domain Models بدل إقحامها داخل UI. بالإضافة لذلك، استخدام VPS منخفض التكلفة ($4.50–$6.00/شهر) مقابل خدمات احتكارية قد يوفّر “مئات الدولارات” إذا كان الحمل متذبذباً (bursty) ويُدار بمرونة؛ لكن هذا يعتمد مباشرة على تصميم server/server.js: إن كانت هناك عدم كفاءة (مثل عدم وجود backpressure، أو عدم ضغط payload، أو غياب قوائم انتظار Queue للـ event ingestion، أو افتقار للتخزين المؤقت/الدائم) فقد تتحول المدخرات إلى تكلفة تشغيل/صيانة بشرية. أخيراً، من زاوية التوسع عبر PM2 Cluster، كفاءته ليست فقط في رفع عدة workers؛ بل في أن يتم تقسيم الحمل بشكل صحيح (stateless ingestion) وأن يكون التخزين/الجلسات خارج الworker (مثل Redis) حتى لا تُصبح عشوائية worker سبباً لكسور الربط بين الأحداث داخل رحلة المستخدم.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ حزمة “Event Integrity & Scale Hardening” بشكل عملي خلال 1–2 سباق: (أ) أضف طبقة idempotency في server/server.js عبر unique keys مبنية على (campaignId + sessionId + userFingerprint + eventType + eventTimestampBucket) لمنع duplicate events وreplays، (ب) نفّذ ربطاً صارماً للسلسلة داخل Repository: اعمل تحققاً من تطابق productId/variantId بين ViewContent وAddToCart وحدد تصنيفاً لأسباب الفشل (tracking mismatch / session mismatch / tagging conflict / inventory/constraints) مع إرسال سبب واضح للواجهة، (ج) ضع Queue ingestion (BullMQ/Redis أو بديل مشابه) لفصل استقبال الأحداث عن معالجتها، مع backpressure وretry سياسة واضحة، (د) لتوسيع PM2 Cluster: اجعل الخادم stateless تماماً للـ ingestion وأوقف أي اعتماد على ذاكرة worker للجلسات، واستخدم Redis لتخزين الرحلة المؤقتة (TTL) حتى يتم تجميع الأحداث بشكل متسق، (هـ) أضف قياس SLOs: معدل فقد الأحداث، تأخر الربط (link latency)، ونسبة تسلسل مكسور (ViewContent بدون AddToCart) مع تنبيه لحظي عندما تنخفض معدلات النجاح."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.91,
-      "verified_files_inspected": [
-        "App1289799Repository.kt",
-        "App1289799HomeScreen.kt",
-        "App1289799DetailsScreen.kt",
-        "App1289799CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من منظور معماري/تنفيذي، المشروع مصمم بصورة قوية حول “service_stepper” كأرْكِتایپ واجهات يطابق طبيعة السرد التسلسلي لأحداث التحويل (ViewContent → AddToCart → Checkout). هذا النهج يظهر بوضوح من فصل المسارات إلى App1289799HomeScreen.kt وApp1289799DetailsScreen.kt وApp1289799CheckoutScreen.kt، بحيث تتحول رحلة المستخدم/الأحداث إلى مخطط خطوة-بخطوة مع إمكانية إسقاط أسباب الفشل على مستوى كل مرحلة. كما أن وجود App1289799Model وApp1289799Package وApp1289799Repository يشير إلى فصل منطقي بين “نماذج المجال” و”حزم الأحداث” وطبقة الوصول للبيانات/التنسيق، وهو ما يدعم MVVM/clean boundaries ويقلل تداخل منطق التتبع مع منطق العرض. على مستوى الرسوم، تضمين BespokeVectorIllustration.kt يعالج مشكلة شائعة في لوحات التحليل عبر استخدام Vector للحفاظ على وضوح العناصر عند تكبير/تكثيف الواجهة، مع توافق أفضل مع Dynamic Type/Canvas واعتبارات الأداء. أما server/server.js فوجود خادم مستقل لإدارة الغرف والبث اللحظي (WebSocket/long-polling على الأرجح) يدعم متطلبات “تنبيهات لحظية” عندما يتوقف التقاط الأحداث، ويُعتبر نقطة إيجابية معمارياً لأن منظومة التتبع لا ينبغي أن تُدار بالكامل من طرف العميل.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بتنفيذ “مرجع تحقق للتتبع Campaign Attribution + Hardening للربط” على مستوى App1289799Repository.kt وserver/server.js عبر: (1) بناء Correlation/Attribution ID موحّد يتم إنشاؤه في واجهة الدخول/الـ ViewContent ويُعاد إلزامياً حمله مع كل حدث لاحق (AddToCart ثم Checkout) باستخدام حقل ثابت في App1289799Package، مع تحقق صارم على الخادم (مفاتيح المنتج، وقت الحدث، مصدر الحملة، والتطابق مع معرّف المستخدم/الجلسة) وإرجاع سبب فشل محدد (اختلاف productId، session mismatch، missing tag، cookie/consent blocked، أو stock/cart constraints). (2) إضافة طبقة أمان وتكامل: توقيع HMAC للpayloadات الأحداث مع nonce لمنع إعادة الإرسال، وتفعيل rate limiting per campaign وper client على server/server.js، وتوثيق مخطط state للغرف بحيث لا تضيع الأحداث بسبب إعادة اتصال. (3) تحسينات أداء/مصداقية: تفعيل Local buffering + Retry/backoff في Repository كي لا تُفقد AddToCart عند تقطع الشبكة، وتخزين مؤقت مُقيد (max-age) على العميل لتسوية أحداث متأخرة قبل رسم التسلسل على DetailsScreen/CheckoutScreen، مع قياس معدلات التقاط الأحداث (event drop rate) وربطها مباشرة بلوحة الفجوة التحويلية في HomeScreen عبر cacheable queries."
-    }
-  ],
-  "average_rating": 4.81,
-  "reviews_count": 4
+  "detailed_desc": "حل مشكلة إضافة إلى السلة في المتجر والحملات — السلام عليكم، عندي مشكلة في الحملات الإعلانية وأرغب بمعرفة السبب والحل. شغلت حملات بهدف المبيعات بميزانية 400 ريال، بالإضافة إلى حملة هدفها الإضافة إلى السلة بميزانية تتجاوز 300 ريال، ومع ذلك لم أحصل على أي عملية إضافة للسلة حتى الآن. مع العلم أن: ال",
+  "domain_data": {
+    "repo_name": "naqd-terminal-pos-cashier-1289799",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
