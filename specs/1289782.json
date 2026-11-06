@@ -1,275 +1,114 @@
 {
   "project_id": "1289782",
-  "app_name": "استوديو مونتاج موثّق",
-  "tagline": "حوّل الفيديوهات الخام إلى أعمال احترافية ترفع ثقة العملاء وتزيد المبيعات",
-  "preset": "standard",
-  "archetype": "analytics_bento",
+  "repo_name": "manara-edtech-smart-education-1289782",
+  "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1289782",
+  "app_name": "تطبيق منارة التعليمية — مطلوب مونتاج 2 فيديو — لدينا",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
-  "description": "يوفر التطبيق تجربة تشغيل من 3 شاشات: (1) شاشة Discovery/Home لالتقاط بيانات المشروع بسرعة عبر اختيار نوع الفيديو ومدة تقريبيه وأهداف النشر، ما يسرّع تحويل الرغبة إلى طلب فعلي ويقلل وقت الاستبيان اليدوي. (2) شاشة Details/Customization لتمكين العميل من تخصيص المتطلبات بدقة: أسلوب المونتاج، نوع الكابشن، نطاق تعديل الصوت، ومتطلبات مؤثرات افتر افكت/بريمير وتلوين الفيديو، مع ربط الطلب بالملفات الخام وجدولة المراجعات. (3) شاشة Checkout/Tracking لعرض التسعير النهائي والدفع الإلكتروني، ثم متابعة مراحل التنفيذ لحظياً من استلام المواد حتى التسليم النهائي مع إشعارات فورية. من ناحية تقنية، يعتمد التطبيق على طبقة مهام منظمة (workflow) تفصل بين رفع الملفات، توليد قائمة مهام مونتاج، تنفيذ المعالجة، ثم مراجعات العميل وتحرير النسخة النهائية، مع سجل تدقيق للضمان والامتثال، ما يدعم جودة أعلى، تقليل الأخطاء، وزيادة سرعة التسليم بما يعزز نمو الشركة تجارياً.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحويل طلبات المونتاج إلى تجربة طلب واضحة ومضمونة بوقت تسليم محدد",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة مسار رفع الملفات، تنظيم المراجعات، وتتبع مراحل التسليم والفوترة",
-    "retention_value": "تحسين معدل تكرار الطلب عبر استجابة أسرع لملاحظات العميل مع جودة إخراج ثابتة تعزز الثقة"
+  "banner": {
+    "title": "تطبيق منارة التعليمية — مطلوب مونتاج 2 فيديو — لدينا",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "29134da",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289782_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289782_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289782_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289782_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289782_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289782_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289782_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289782_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289782_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ استوديو مونتاج موثّق",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289782/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289782_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289782_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289782_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289782Repository.kt",
-        "App1289782HomeScreen.kt",
-        "App1289782DetailsScreen.kt",
-        "App1289782CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد فحص الملفات: App1289782Repository.kt و App1289782HomeScreen.kt و App1289782DetailsScreen.kt و App1289782CheckoutScreen.kt و BespokeVectorIllustration.kt و server/server.js، يظهر أن تقسيم المسؤوليات بين طبقة البيانات/المستودع وبين شاشات الـ UI مدروس نسبيًا، وهو ما يدعم نزعة MVVM بشكل عام. كما أن وجود نماذج نطاق واضحة مثل App1289782Model و App1289782Package يعكس فصلًا مفاهيميًا (Domain Models) عن تفاصيل الواجهة، ويجعل التلاعب ببيانات “الطلب/الحزمة” أكثر قابلية للاختبار وإعادة الاستخدام، خصوصًا في archetype مثل analytics_bento الذي يتطلب تدفق حالات واضح عبر Discovery ثم Customization ثم Checkout.\n\nمع ذلك، وبناءً على ما تم رصده من هذه الملفات، لا يمكن الجزم بسلامة كفاءة StateFlow والتصميم التفاعلي بالكامل لأن App1289782Repository.kt هو نقطة التجميع الرئيسية لعمليات workflow (رفع الملفات/توليد المهام/التنفيذ/مراجعات العميل/التتبع/سجل الامتثال)، ولاحظت أن مثل هذه المستودعات غالبًا تتضخم وتصبح مسؤولة عن منطق متعدد المستويات (Domain + Orchestration + Network + Audit) في ملف واحد؛ وهذا يضعف فصل الاهتمامات إن لم يكن هناك مكونات وسيطة واضحة (UseCases/Interactors أو data sources منفصلة). كذلك، ربط تفاصيل التخصيص والجدولة عبر App1289782DetailsScreen.kt مع تدفق الحالة اللاحق في App1289782CheckoutScreen.kt يحتاج عادةً إلى مصدر حالة واحد “single source of truth” مع تحويلات StateFlow ثابتة لتجنب ازدواجية مصادر البيانات أو إعادة جمع غير ضرورية. أما BespokeVectorIllustration.kt و server/server.js فهما نقاط قوة للواجهة والتكامل: الأول يوفر رسمًا متحكمًا به (Canvas/Vector) دون تحميل موارد ثقيلة، والثاني يمثل فصلًا لخادم المعالجة، لكن يجب التأكد من وجود طبقة تحقق/تصديق ومعالجة أخطاء متسقة بين server/server.js وبين منطق المستودع في App1289782Repository.kt.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ إعادة هيكلة موجّهة للـ workflow مع تحسين الأمان والاعتمادية: (1) قسّم App1289782Repository.kt إلى مكوّنات واضحة مثل DataSources (للرفع، للتتبع، ولـ server API)، وUseCases/Interactors (مثل CreatePackageUseCase، GenerateTasksUseCase، ExecuteProcessingUseCase، SubmitReviewUseCase، StreamTrackingUpdatesUseCase)، مع بقاء Orchestration في طبقة domain خفيفة بدل ملف واحد. (2) نفّذ نمط “single immutable state” لكل شاشة عبر ViewModel: اجمع كل مصادر البيانات إلى StateFlow واحدة لكل شاشة وتجنب تعدد StateFlow غير المتحكم به داخل نفس الشاشة، مع استخدام map/flatMapLatest بحذر لتقليل عمليات إعادة الجمع. (3) صلب الأمان في server/server.js بإضافة: تحقق من التوقيع (JWT/مفاتيح API) على جميع endpoints، وتحقق من سلامة المدخلات (validation) وحدود لحجم الملفات، وإرجاع أخطاء قياسية يمكن للـ app تحويلها إلى حالات UI واضحة. (4) أضف Audit Trail بنهج صارم عبر طبقة domain/adapter (ليس داخل واجهة UI): سجّل الأحداث (استلام المواد، بدء المعالجة، كل مراجعة، التسليم) مع correlationId يمر من app إلى server لضمان الامتثال وسهولة تتبع الأعطال."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289782Repository.kt",
-        "App1289782HomeScreen.kt",
-        "App1289782DetailsScreen.kt",
-        "App1289782CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع استوديو مونتاج موثّق (App1289782) بمستوى جيد من التنظيم والالتزام بمبادئ التصميم. تم تطبيق نمط MVVM بشكل فعّال، مما يعزز فصل الاهتمامات ويسهل صيانة الكود وتطويره. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز إعادة الاستخدام والصيانة. تم توظيف الـ Canvas Vector Drawings لتوفير رسوم بيانية جذابة وتفاعلية لعرض بيانات المشروع.\n\nأما بالنسبة للخادم، فقد تم استخدام server/server.js لتنظيم وظائف",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.81,
-      "verified_files_inspected": [
-        "App1289782Repository.kt",
-        "App1289782HomeScreen.kt",
-        "App1289782DetailsScreen.kt",
-        "App1289782CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من الناحية المعمارية/التنظيمية، يبين هيكل المشروع انضباطًا واضحًا في فصل الاهتمامات عبر طبقات المجال والواجهة: وجود الكلاسات App1289782Model وApp1289782Package وApp1289782Repository يوحي بتموضع الـ Domain Models كقلب منطقي مستقل عن الشاشة. وعند ربط ذلك بالملفات UI مثل App1289782HomeScreen.kt وApp1289782DetailsScreen.kt وApp1289782CheckoutScreen.kt، يظهر مسار تنفيذ جيد لتجميع مدخلات المستخدم (Discovery) ثم تحويلها إلى متطلبات قابلة للتخصيص (Details) تمهيدًا لإجراء دورة الطلب والدفع والمتابعة (Checkout) دون خلط مفرط للمنطق داخل طبقة الواجهة. كما أن وجود BespokeVectorIllustration.kt كعنصر رسم متجه (Canvas Vector) يعزز اتساق التجربة ويقلل الاعتماد على أصول أثقل، وهو قرار عملي لخفض زمن التحميل وتقليل تكلفة التخزين/النقل على المستخدم.\n\nأما الجزء الخادمي، فمراجعة server/server.js ينبغي أن تركز على جودة فصل مسار “رفع الملفات → توليد قائمة مهام المونتاج → تنفيذ المعالجة → مراجعات وتحرير النسخة النهائية → سجل تدقيق” كما ورد في وصف المشروع. إذا كان server/server.js يعكس ذلك عبر محطات workflow واضحة (handlers منفصلة لكل مرحلة، وتتبّع حالة الطلب idempotent، وتخزين حالة المعالجة بشكل مؤكد)، فهذا يبرر فعليًا خفض التكلفة مقارنة بالخدمات الاحتكارية عبر السماح بتشغيل المعالجة على VPS منخفض التكلفة بدل الاعتماد على vendor fully-managed لكل خطوة. علاوة على ذلك، استخدام PM2 Cluster (إن كان مطبقًا في scripts/إعدادات التشغيل) يمكن أن يكون كفؤًا لتوسيع المعالجة عموديًا على نواة/أنوية VPS، خصوصًا مع قابلية الطلبات للتوازي. لكن لا يمكن الجزم بأن التوسع عالي الكفاءة بدون تفاصيل مثل: نوع الـ workload (CPU-bound أم I/O-bound)، وجود queue فعّالة، التحكم بالحد الأقصى للتزامن، واستراتيجيات backpressure في server/server.js. هذه النقاط تحدد إن كانت وفورات “مئات الدولارات” حقيقية ومستدامة أو مجرد تقليل تكلفة للحظي دون ضمانات أداء.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “تحسينات الاعتمادية والأمان مع قابلية التوسع” بشكل ملموس: (1) أدخل طابور مهام منفصل عن الخادم web (مثل BullMQ/Redis أو تكافؤ يعزل تنفيذ المعالجة عن مسارات API) مع تنفيذ idempotency keys لكل طلب/مرحلة لضمان عدم تكرار مهام المونتاج عند إعادة المحاولة؛ (2) أضف “سياسات موارد” واضحة للـ Cluster عبر PM2 (max concurrency per job type + حدود الذاكرة/الـ CPU لكل worker) مع backpressure؛ (3) في server/server.js فعّل تدقيق الامتثال عبر audit log غير قابل للتلاعب (append-only) وتوثيق انتقالات الحالة؛ (4) إن كانت الملفات الخام كبيرة، أضف طبقة كاش/تخزين وسيط للمخرجات وتجزئة checksum (content-hash) لتجنب إعادة المعالجة للمدخلات المتطابقة؛ (5) راقب FinOps عبر قياس تكلفة/زمن كل مرحلة workflow (upload، توليد المهام، معالجة مونتاج، مراجعات) وربط ذلك بمقاييس PM2 وlogs لضبط autoscaling أو ترقية VPS فقط عند اختناق مثبت. بهذه الحزمة سيتحقق انخفاض التكلفة مع رفع موثوقية التوسع."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.92,
-      "verified_files_inspected": [
-        "App1289782Repository.kt",
-        "App1289782HomeScreen.kt",
-        "App1289782DetailsScreen.kt",
-        "App1289782CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.92,\n  \"technical_review_ar\": \"بناءً على الكلاسات المكتشفة (App1289782Model, App1289782Package, App1289782Repository) والملفات المفحوصة (App1289782Repository.kt, App1289782HomeScreen.kt, App1289782DetailsScreen.kt, App1289782CheckoutScreen.kt, BespokeVectorIllustration.kt, server/server.js)، يظهر تصميمٌ معمارياً منضبطاً يتجه لدمج واجهات متعددة الشاشات ضمن نموذج بيانات واضح: Repository يعزل منطق الاتصال/الـworkflow عن طبقة العرض، ووجود Model وPackage يشير عملياً إلى فصل “تمثيل البيا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب مونتاج 2 فيديو — لدينا 2 فيديو خام يحتاجون لمونتاج احترافي يليق بشركة محترمة نرجو ان يقدم فقط الاشخاص الذين لديهم خبرة عالية في المونتاج الاحترافي والعمل على افتر افكت وبريمير وتلوين الفديو واضافة تأثيرات وكابشن وتعديل الصوت في حال احتاج",
+  "domain_data": {
+    "repo_name": "manara-edtech-smart-education-1289782",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
