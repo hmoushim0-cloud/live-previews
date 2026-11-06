@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-06T02:10:29.323440+00:00",
+    "updated_at": "2026-11-06T03:25:09.725435+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2067,9 +2067,9 @@
     },
     {
       "project_id": "1289700",
-      "app_name": "مسترجع حساب فيسبوك",
-      "tagline": "حل سريع وموثوق لاسترجاع أو إغلاق حسابات فيسبوك",
-      "preset": "standard",
+      "app_name": "تطبيق سند الفني — مطلوب متخصص لاسترجاع حساب في",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289700",
       "stamp_id": "SA-KMP-1289700",
       "crypto_hash": "sha256-1289700",
@@ -2079,9 +2079,9 @@
     },
     {
       "project_id": "1289699",
-      "app_name": "منصة إعلانات ميتا وتيك توك",
-      "tagline": "تحويل إعلاناتك إلى نتائج ملموسة",
-      "preset": "services",
+      "app_name": "تطبيق مقر الذكي — تعليم على التسويق عبر ميتا و",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289699",
       "stamp_id": "SA-KMP-1289699",
       "crypto_hash": "sha256-1289699",
