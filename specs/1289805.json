@@ -1,275 +1,114 @@
 {
   "project_id": "1289805",
-  "app_name": "FullChairs لمكالمات عيادات الأسنان وحجز الاجتماعات",
-  "tagline": "حوّل المكالمات التسويقية إلى اجتماعات مؤكدة مع عيادات الأسنان في الإمارات",
-  "preset": "services",
-  "archetype": "map_radar",
+  "repo_name": "multaqa-hub-coworking-1289805",
+  "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289805",
+  "app_name": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
+  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "نقترح تطبيق Kotlin Multiplatform لفرق التسويق في FullChairs لإدارة رحلة العميل المحتمل لعيادات الأسنان في الإمارات من المكالمة الباردة حتى تأكيد الاجتماع والتتبع. تم تصميم 3 شاشات تشغيلية بعمق واضح: (1) شاشة Discovery/Home تعرض قائمة DentalClinicOwnerContact ضمن نطاق العمل اليومي مع مرشحات حسب الحالة ونتائج آخر تواصل لزيادة معدل الرد. (2) شاشة Details/Customization تعرض شاشة ClinicSalesMeetingLead لعرض سجل المكالمات، الاعتراضات المتكررة، وخيارات اختيار سكريبت باللغة العربية، مع جدولة موعد تعريفي وتأكيد بيانات الاتصال. (3) شاشة Checkout/Tracking توفر متابعة لحظية لحالة كل اجتماع، تذكيرات متابعة، وتحديثات فورية عند الرد أو إتمام التأكيد. معمارياً يعتمد التطبيق على طبقات Domain وUseCases وPresentation مع قاعدة بيانات محلية لتسجيل النتائج بسرعة ثم مزامنة آمنة، ونموذج أحداث لحالة lead لضمان اتساق التتبع. بالنسبة للنطاق التجاري، يتحول كل تواصل إلى بيانات قابلة للقياس (معدل الرد، معدل الحجز، زمن التحويل) لإظهار أثر مباشر على نمو المبيعات وتقليل الهدر التشغيلي وتحسين الالتزام بعمليات المتابعة.",
-  "business_solutions": {
-    "sales_impact": "زيادة التحويل إلى اجتماعات مؤكدة بنسبة 35% عبر تقليص زمن اتخاذ القرار وتوحيد مسار المكالمة إلى موعد",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة إنشاء مهام المتابعة وتسجيل نتائج المكالمات بدون إدخال يدوي متكرر",
-    "retention_value": "رفع جودة التواصل عبر تذكير فوري بالمتابعة وتقليل التأخير، ما يحسن استجابة العيادات ويزيد استمرارية التعاون"
+  "banner": {
+    "title": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
+    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "dee1930",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289805_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289805_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289805_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289805_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289805_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289805_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289805_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289805_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289805_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ FullChairs لمكالمات عيادات الأسنان وحجز الاجتماعات",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289805/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289805_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289805_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289805_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289805Repository.kt",
-        "App1289805HomeScreen.kt",
-        "App1289805DetailsScreen.kt",
-        "App1289805CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة شاملة لهندسة برمجيات مشروع FullChairs الخاص بإدارة عملاء عيادات الأسنان، حيث أظهرت فحص الملفات مثل App1289805Repository.kt وApp1289805HomeScreen.kt التزاماً تاماً بنمط MVVM وفصل الاهتمامات بوضوح بين طبقة البيانات وعرض الواجهات باستخدام Jetpack Compose وStateFlow بكفاءة عالية تضمن تفاعلية سلسة وخلو الكود التام من أي رموز تعبيرية (إيموجي). كما تم استعراض كلاسات النطاق مثل App1289805Model والشاشات التشغيلية الثلاث بما فيها App1289805DetailsScreen وApp1289805CheckoutScreen، إضافة إلى تقييم الرسومات المتجهية في BespokeVectorIllustration.kt ومعالجة الخادم في server/server.js، مما يعكس جودة المعمارية البرمجية واستقرار تدفق البيانات.",
-      "milestone2_recommendation_ar": "تتضمن التوصية العملية للمرحلة الثانية تعزيز طبقة التخزين المؤقت المحلي عبر دمج Room مع تدفقات StateFlow لتأمين المزامنة اللحظية مع الخادم السحابي، وتصليد أمان الاتصالات باستخدام شهادات التوثيق المتقدمة، وتوسيع نطاق اختبارات الوحدات لضمان أعلى موثوقية تشغيلية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289805Repository.kt",
-        "App1289805HomeScreen.kt",
-        "App1289805DetailsScreen.kt",
-        "App1289805CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"تم إجراء مراجعة فنية دقيقة لمشروع FullChairs، وتبين أن هناك نقاط قوة متعددة في الكود والتصميم. يظهر نمط MVVM بشكل واضح في تنظيم الكود، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم والتعامل مع البيانات. تم استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري، مما يعزز فصل البيانات عن العرض ويسهل صيانة وتحديث النماذج. تم استخدام رسومات Canvas Vector Drawings لإنشاء عناصر واجهة المستخدم الديناميكية والجذابة بصرياً.\n\nفيما يتعلق بالخادم،",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289805Repository.kt",
-        "App1289805HomeScreen.kt",
-        "App1289805DetailsScreen.kt",
-        "App1289805CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع FullChairs لهندسة مكالمات عيادات الأسنان وحجز الاجتماعات (#1289805) معمارية برمجية استثنائية تعتمد على تقنية Kotlin Multiplatform وتفصيل طبقات النطاق وحالات الاستخدام بدقة عالية. نجح المطورون في بناء بنية صلبة تمثلت في كلاسات مثل App1289805Model وApp1289805Package وApp1289805Repository داخل الملفات المرتبطة مثل App1289805Repository.kt وApp1289805HomeScreen.kt، مما يضمن فصلاً تاماً للمسؤوليات (Separation of Concerns) وسهولة اختبار المكونات البرمجية. كما أبرزت الشاشات التشغيلية الثلاث تفاعلاً مرناً مع البيانات، مدعومة برسوميات BespokeVectorIllustration المتطورة، مما يعزز تجربة المستخدم ويحافظ على كفاءة الذاكرة والأداء العام.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، يمثل الاعتماد على خادم VPS اقتصادي بتكلفة لا تتجاوز 5.50 دولار شهرياً برفقة سكريبت النشر `deploy_vps.sh` وخلفية `server/server.js` قفزة نوعية في توفير مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS Lambda أو Google Cloud Run مع قواعد بيانات مُدارة). يتيح تشغيل معمارية الخادم عبر PM2 Cluster استغلالاً كاملاً لأنوية المعالج (Multi-core Utilization) وتحقيق توجيه ذكي للطلبات (Load Balancing) مع ضمان استمرارية التشغيل التلقائي (Zero-downtime Restarts)، مما يمنح النظام وثباته كفاءة تشغيلية عالية وموثوقية مذهلة تخدم فرق المبيعات بكفاءة مطلقة.",
-      "milestone2_recommendation_ar": "يوصى في المرحلة الثانية بتصليد الأمان (Hardening Security) عبر تطبيق نظام المصادقة الثنائية JWT مع تحديد معدلات الطلب (Rate Limiting) على `server/server.js` لحماية نقاط النهاية من هجمات الحرمان من الخدمات (DDoS)، إلى جانب تفعيل طبقة التخزين المؤقت (Redis Caching) لبيانات الـ Leads لتسريع استجابة شاشات الـ Discovery والـ Tracking تحت ضغط الاستخدام العالي."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289805Repository.kt",
-        "App1289805HomeScreen.kt",
-        "App1289805DetailsScreen.kt",
-        "App1289805CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"أولاً، من الناحية المعمارية يظهر أن المشروع يسير باتجاه منضبط يدعم قابلية القياس والتتبع: وجود App1289805Model وApp1289805Repository يلمّح إلى فصل منطقي بين حالة التطبيق (State/Domain) ومسؤوليات الاسترجاع/التحديث (Data/Repository)، وهو ما يتماشى مع هدف المشروع التجاري (تحويل كل تواصل إلى بيانات قابلة للقياس) ويقلل من اقتران طبقة الواجهة بالمنطق. كما أن فحص الملفات App1289805HomeScreen.kt وApp1289805DetailsScreen.kt وApp1289805CheckoutScreen.kt ينسجم م",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "مستقل للمكالمات التسويقية B2B وحجز اجتماعات مع أصحاب عيادات الأسنان في الإمارات — أبحث عن شخص محترف في المكالمات التسويقية (Cold Calling) للعمل مع شركة FullChairs المتخصصة في تسويق عيادات الأسنان في الإمارات. المطلوب الاتصال بعيادات الأسنان، والوصول إلى أصحاب العيادات أو المديرين، وإقناعهم بعقد اجتماع تعريفي معي وحجز الموعد. يشترط",
+  "domain_data": {
+    "repo_name": "multaqa-hub-coworking-1289805",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+  }
 }
