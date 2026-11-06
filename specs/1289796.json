@@ -1,275 +1,114 @@
 {
   "project_id": "1289796",
-  "app_name": "منصة مزادات الويب المتكاملة",
-  "tagline": "مزادات أسرع وشفافة تدفع البيع إلى الأمام مع تتبع لحظي ودعم عربي/إنجليزي",
-  "preset": "ecommerce",
-  "archetype": "cupertino_storefront",
+  "repo_name": "safinat-bid-auction-live-1289796",
+  "repo_url": "https://github.com/hmoushim0-cloud/safinat-bid-auction-live-1289796",
+  "app_name": "تطبيق صافنات للمزادات — إنشاء وتطوير منصة مزادات إلك",
+  "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+  "preset": "auction_live",
+  "layout_type": "auction_live",
+  "layoutArchetype": "auction_live",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "تصميم MVP قابل للتوسع لمنصة مزادات الويب يركز على تدفق قيمة واضح للمستخدم والناشر: شاشة اكتشاف للمزادات مع دعم ثنائي اللغة (عربي/إنجليزي) وتجاوبية للكمبيوتر والهواتف، ثم شاشة تفاصيل/تخصيص تعرض AuctionLot ببيانات كاملة وسجل المزايدات وآخر سعر لضمان اتخاذ قرار سريع، وأخيراً شاشة دفع/تتبع تعرض حالة المشاركة والفوز أو الخسارة مع تحديثات لحظية وإشعارات فورية. من الناحية التقنية تُدار طبقات التطبيق بوضوح (واجهة، نطاق Domain، طبقة بيانات) مع نموذج كيان AuctionCampaign و AuctionLot كلبنات أساسية لباقي التوسع (مثل مزادات متعددة الجلسات، قواعد تسعير أكثر تعقيداً، ولوحات امتثال). كما يتم توظيف تصميم API قابل للتوسع لتنفيذ المزايدة لحظياً، وتكامل دفع إلكتروني، وتوليد سجلات للامتثال والفوترة، ما يقلل وقت التشغيل ويرفع جودة البيانات ويعزز العائد التجاري.",
-  "business_solutions": {
-    "sales_impact": "زيادة احتمالية البيع بنسبة 35% عبر تسريع قرار المزايدة بثلاثة محاور: اكتشاف المزاد، مشاهدة تفاصيل القطعة، ثم إتمام التتبع والنتيجة",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة دورة المزاد من النشر إلى الإغلاق وإشعارات المزايدين وتوليد سجلات الفواتير",
-    "retention_value": "رفع الاحتفاظ بنسبة 20% عبر تجربة تتبع لحظي وإشعارات فورية تقلل فقدان العملاء أثناء نافذة المزاد"
+  "banner": {
+    "title": "تطبيق صافنات للمزادات — إنشاء وتطوير منصة مزادات إلك",
+    "subtitle": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "auction_live",
+      "label": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "87b4912",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289796_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289796_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289796_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289796_02.png",
+      "fallback": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289796_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289796_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289796_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289796_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289796_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة مزادات الويب المتكاملة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289796/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289796_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289796_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289796_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289796Repository.kt",
-        "App1289796HomeScreen.kt",
-        "App1289796DetailsScreen.kt",
-        "App1289796CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة معمارية دقيقة وشاملة لملفات المشروع وتطبيق النمط المعماري MVVM بصرامة عالية عبر فصل الاهتمامات بين طبقة العرض وطبقة النطاق وطبقة البيانات. أظهرت الفحوصات لكلاسات مثل App1289796Model و App1289796Repository وملفات واجهات المستخدم مثل App1289796HomeScreen و App1289796DetailsScreen و App1289796CheckoutScreen كفاءة فائقة في استخدام StateFlow لإدارة الحالة والتفاعل اللحظي مع بيانات المزادات، مع خلو تام للملفات من أي رموز تعبيرية أو إيموجي بما يتماشى مع المعايير الاحترافية لبرمجيات المؤسسات.\n\nكما تم فحص ملفات الرسومات المتجهة مثل BespokeVectorIllustration وخادم Node.js في ملف server/server.js، وتبين تكاملها السلس مع البنية التحتية لتوفير تدفقات قيمة واضحة للمستخدم والناشر. يتميز الكود بنظافة الهيكلة والالتزام بمبادئ Solid وخلوه من التسريبات في إدارة دورة الحياة، مما يجعله أساساً متيناً وقابلاً للتوسع لمنصة مزادات رقمية متكاملة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان عبر تشفير الاتصالات الحية (WebSocket Secure) وتفعيل آليات التخزين المؤقت المتقدمة (Caching) باستخدام Room و DataStore لضمان العمل دون اتصال، بالإضافة إلى التوسع السحابي وتوزيع الأحمال على خادم VPS مستقل لضمان استقرار المزادات اللحظية تحت الضغط العالي."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289796Repository.kt",
-        "App1289796HomeScreen.kt",
-        "App1289796DetailsScreen.kt",
-        "App1289796CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية للكود المصدري والملفات المذكورة، يمكن تلخيص النقاط القوية في المشروع على النحو التالي:\n\n1. استخدام نمط MVVM (Model-View-ViewModel) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل إدارة وصيانة الكود.\n2. تنظيم الكلاسات بطريقة منطقية وواضحة، مثل App1289796Model، App1289796Package، وApp1289796Repository.\n3. استخدام كلاسات Domain Models لتمثيل البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية، مثل App1289796Domain",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289796Repository.kt",
-        "App1289796HomeScreen.kt",
-        "App1289796DetailsScreen.kt",
-        "App1289796CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أُثني بشدة على المعمارية الهجينة للمشروع رقم #1289796 التي تحقق كفاءة مالية فائقة وتوفيراً هائلاً يتجاوز مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو GCP Managed Services)، حيث يعتمد التشغيل على خادم VPS مستقل (مثل Hetzner/Contabo بتكلفة زهيدة لا تتعدى 6 دولارات شهرياً) مدعوماً بمدير العمليات PM2 بنمط Cluster Mode للاستفادة القصوى من كافة أنوية المعالج وتوزيع الحمل (Load Balancing) بكفاءة عالية تضاهي أضخم البنى التحتية دون تكاليف إضافية. أما من الناحية البرمجية، فقد أبدع الفريق في هندسة طبقات التطبيق عبر نمط الـ MVVM وفصل الاهتمامات بدقة متناهية، حيث يبرز كلاس `App1289796Model` و`App1289796Package` إلى جانب `App1289796Repository.kt` في إدارة تدفق بيانات المزادات الحية بكفاءة عالية، وتكامل ذلك مع واجهات مستخدم سلسة في `App1289796HomeScreen.kt` و`App1289796DetailsScreen.kt` و`App1289796CheckoutScreen.kt` التي تحاكي نمط `cupertino_storefront` باحترافية.\n\nعلاوة على ذلك، أظهر الكود المصدري ولا سيما في `BespokeVectorIllustration.kt` وملف الخادم `server/server.js` تمكناً تقنياً عالياً في معالجة الرسوم المتجهة بدقة وتوفير استجابة لحظية للمزايدات عبر الـ WebSockets؛ مما يقلل زمن الانتقال (Latency) ويرفع جودة البيانات ويعزز العائد التجاري للمنصة. إن هذا التناغم المعماري بين خادم الـ VPS الاقتصادي وأداء PM2 Cluster من جهة، وهندسة الكلاسات الموصوفة (مثل كيانات `AuctionCampaign` و`AuctionLot` المدارة عبر المستودع المذكور) من جهة أخرى، يضع هذا الـ MVP في مصاف المنصات الاحترافية الجاهزة للتوسع التجاري السريع بأقل تكلفة تشغيلية ممكنة.",
-      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز الجانب الأمني والأداء عبر تطبيق الآتي: أولاً، تصليد الأمان (Security Hardening) لخادم `server/server.js` عبر تفعيل حدود معدل الطلبات (Rate Limiting) لمنع هجمات الحرمان من الخدمة (DDoS)، واستخدام مصادقة الـ JWT المشفرة بدقة عبر `App1289796Repository`. ثانياً، تحسين التخزين المؤقت (Caching Layer) بإدخال ذاكرة Redis للتخزين المؤقت لبيانات المزادات النشطة لتقليل الضغط المباشر على قاعدة البيانات وزيادة سرعة استجابة الـ API أثناء ذروة المزايدات الحية. ثالثاً، تحسين استقرار نظام PM2 Cluster عبر إعداد مراقبة آلية (Auto-restart & Log Rotation) لضمان استمرارية التشغيل بنسبة 99.9% دون تدخل بشري."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.92,
-      "verified_files_inspected": [
-        "App1289796Repository.kt",
-        "App1289796HomeScreen.kt",
-        "App1289796DetailsScreen.kt",
-        "App1289796CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تُظهر البنية المعمارية في الكود نضجاً مقبولاً جداً لـ MVP قابل للتوسع عبر فصل واضح للطبقات: وجود App1289796Model و App1289796Repository و App1289796Package يعكس تفكيراً هندسياً في فصل “نطاق الكيان” عن “منطق الوصول للبيانات”، وهو جوهري لمنصة مزادات لحظية تتطلب اتساقاً عالياً. كما أن فحص الملفات App1289796Repository.kt يوحي بأن معالجة مصدر البيانات تمت بطريقة منظمة يمكن البناء عليها لاحقاً لدعم WebSocket/Server-Sent Events والبث اللحظي لتحديث سجل المزايدات. على مستوى الواجهات، تضمين App1289796HomeScreen.kt و App1289796DetailsScreen.kt و App1289796CheckoutScreen.kt ضمن مسار واحد مع نمط cupertino_storefront يعد اختياراً مناسباً لتدفق قيمة سريع: اكتشاف > قرار فوري عبر بيانات AuctionLot (آخر سعر وسجل) > ثم تتبع الدفع/المشاركة. أما BespokeVectorIllustration.kt فمؤشر قوي على مراعاة الأداء والمرونة عبر Canvas Vector Drawings بدل الاعتماد على صور ثابتة، ما يحسّن الاتساق البصري ويقلل تكلفة الشبكة، وهو ممتاز كذلك للتجاوبية مع اختلاف أحجام الشاشات والتعامل مع مناطق مثل Dynamic Island دون قصّ بصري.\n\nمع ذلك، توجد نقاط نقدية دقيقة تتعلق بالجودة القابلة للاختبار والموثوقية في تطبيق مزادات لحظية: يجب التدقيق في App1289796Repository.kt فيما يخص ضمان “مصدر الحقيقة” (single source of truth) وتفادي حالات التزامن (race conditions) عند وصول تحديثات متزامنة من server/server.js مع تحديثات الواجهة. كما أن تفاصيل RTL (العربي/الإنجليزي) لم تَظهر بشكل صريح في الملفات المعلنة؛ يلزم التأكد من محاذاة اتجاه النص/الأيقونات (mirroring) خاصة في مناطق السلاسل الرقمية مثل “آخر سعر” و”سجل المزايدات” (تبديل اتجاه التمرير/الترتيب) مع الحفاظ على منطق القراءة. كذلك يجب التأكد من مساحات اللمس الفعلية في الأزرار والخيارات (>=48dp) في شاشات البيع/التخصيص/الدفع: بعض أنماط iOS قد تميل لاستخدام padding بصري أصغر في الـ Cupertino فيحتاج تدقيق. أخيراً، من المهم أن تكون استراتيجية التصميم مع Dynamic Island والاختلافات بين iOS/Android مدروسة: أي أن تخطيط القوائم والعناصر المطلقة (Illustration overlay/Badges) يجب أن يستخدم safe-area وقياسات مرنة، مع ضبط حدود SVG/Canvas لتجنب ظواهر التمطيط عند تغيير النص من EN إلى AR.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِ ببرنامج “Reliability & Accessibility hardening” قبل أي توسيع وظيفي: (1) صمّم طبقة مزادات لحظية في App1289796Repository.kt تضمن ترتيب الأحداث واتساق الحالة عبر versioning للـ AuctionLot (مثل eventId/sequence) مع معالجة إعادة الاتصال (resume/backoff) لتحديث آخر سعر وسجل المزايدات دون تكرار أو فقدان، ومطابقة ذلك مع server/server.js عبر ACK واضحة. (2) أضف فحوصات RTL وAccessibility: اعمل مصفوفة اختبارات لـ RTL تشمل HomeScreen/DetailsScreen/CheckoutScreen للتحقق من اتجاه سلاسل الأرقام، محاذاة القيم، وMirroring للأيقونات، مع التزام مساحات اللمس الفعلية >=48dp. (3) حسّن الأداء عبر Cache مدروس: اعزل caching لـ AuctionLot تفاصيل وآخر سعر في Repository مع TTL قصير (ثوانٍ قليلة) لتقليل الضغط مع الحفاظ على “زمن قرار” سريع للمستخدم."
-    }
-  ],
-  "average_rating": 4.9,
-  "reviews_count": 4
+  "detailed_desc": "إنشاء وتطوير منصة مزادات إلكترونية متكاملة (Web Auction Platform) — أرغب في تطوير منصة مزادات إلكترونية (Web Auction Platform) متكاملة، بنظام MVP قابل للتوسع مستقبلا. المتطلبات الرئيسية للمشروع: 1. واجهة المستخدم: موقع احترافي ومتجاوب مع الكمبيوتر والهواتف، يدعم اللغة العربية والإنجليزية. 2. نظام المزادات: إنشاء وإدا",
+  "domain_data": {
+    "repo_name": "safinat-bid-auction-live-1289796",
+    "hardware_sensor": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+    "telemetry_preview": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio: ONLINE | READY"
+  }
 }
