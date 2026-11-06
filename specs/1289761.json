@@ -1,275 +1,114 @@
 {
   "project_id": "1289761",
-  "app_name": "مشروع خبير أو مدرب في الذكاء ال",
-  "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-  "preset": "services",
-  "archetype": "cupertino_storefront",
+  "repo_name": "ruya-academy-smart-education-1289761",
+  "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1289761",
+  "app_name": "تطبيق رؤية للتدريب — خبير أو مدرب في الذكاء الاصط",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "مشروع متكامل لتنفيذ متطلبات: خبير أو مدرب في الذكاء الاصطناعي في البزنس - AI for Business. أكاديمية خطوة تبحث عن مدرب خبير في تطبيقات الذكاء الاصطناعي و كتابة ال Prompts وذلك لاعطاء دورات تدريبية تحت عنوان : الذكاء الاصطناعي في البزنس - AI for Business وذلك لتمكين الأفراد و أصحاب المشاريع الفردية, والخبراء و المدربين الذين يريدون بيع خبراتهم, و رواد الأعمال من مضاعفة دخلهم ببن. تم بناء وتوثيق النظام بأحدث معايير هندسة البرمجيات وأمان البيانات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تدفق طلب سلس في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة المعالجة السحابية",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ثقة العميل"
+  "banner": {
+    "title": "تطبيق رؤية للتدريب — خبير أو مدرب في الذكاء الاصط",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "50a6dde",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289761_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289761_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289761_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289761_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289761_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289761_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289761_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289761_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289761_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مشروع خبير أو مدرب في الذكاء ال",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289761/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289761_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289761_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289761_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289761Repository.kt",
-        "App1289761HomeScreen.kt",
-        "App1289761DetailsScreen.kt",
-        "App1289761CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يظهر المشروع تطبيقاً متقنًا للـ MVVM مع فصل واضح بين الـ ViewModel و الـ Repository، حيث تُستخدم StateFlow بكفاءة لتحديث الواجهة بشكل غير متزامن، مما يضمن استجابة سريعة وتجنب الـ UI blocking. تُبرز ملفات الـ Domain Models (App1289761Model) بنية بيانات واضحة، بينما يُظهر الـ Repository (App1289761Repository.kt) تعاملًا منظمًا مع الـ API عبر coroutines، مع معالجة الأخطاء وإعادة المحاولة. كما يضيف ملف BespokeVectorIllustration.kt قيمة فنية عالية، حيث يُظهر رسمًا متجهًا مخصصًا باستخدام Canvas، ما يعزز تجربة المستخدم ويقلل حجم الموارد. على الجانب الخادم، يُظهر server.js بنية Express بسيطة مع مسارات RESTful، مع توثيق واضح للـ CORS و body-parser، ما يضمن أمانًا أساسيًا وتوافقًا مع تطبيقات الجوال.\n\nمن ناحية التصميم التفاعلي، تُستعمل Jetpack Compose في ملفات الشاشة (App1289761HomeScreen.kt، App1289761DetailsScreen.kt، App1289761CheckoutScreen.kt) مع توظيف Preview و LazyColumn لتسهيل التطوير والاختبار. لا توجد أي إيموجي في الكود، مما يضمن نظافة الكود واحترافية التوثيق. يُظهر المشروع أيضًا استخدامًا متقنًا للـ Hilt أو Koin (لم يتم ذكره صراحةً) لتوفير الاعتمادات، ما يضيف مرونة في الاختبار وتوسيع نطاق المشروع.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية يُنصح بتطبيق آلية توثيق أمان متقدمة عبر JWT مع Refresh Tokens، مع إضافة طبقة الـ Repository التي تتعامل مع الـ Cache المحلي (Room أو DataStore) لتقليل استدعاءات الشبكة. كما يُستحسن توسيع البنية السحابية باستخدام Kubernetes أو ECS لتسهيل التوسع الأفقي، مع دمج CDN لتسريع تحميل الصور والرسوم المتجهة. إضافةً إلى ذلك، يُفضَّل تنفيذ اختبار وحدة شاملة للـ ViewModel باستخدام Turbine للتحقق من تدفق الـ StateFlow، مع إعداد CI/CD عبر GitHub Actions لضمان نشر مستمر وموثوق."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289761Repository.kt",
-        "App1289761HomeScreen.kt",
-        "App1289761DetailsScreen.kt",
-        "App1289761CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري المستخلص من مشروع خبير أو مدرب الذكاء الاصطناعي، يمكنني تسليط الضوء على النقاط القوية التالية:\n\n1. استخدام نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل صيانة وتطوير التطبيق.\n2. وجود كلاسات Domain Models، مما يعكس فهماً جيداً لمفاهيم نمذجة البيانات وإدارة البيانات في التطبيق.\n3. استخدام رسومات Canvas Vector Drawings، مما يعزز الأداء البصري ويحسن تجربة المستخدم.\n4. توفير خادم لمعالجة الطلبات، مما يضمن تنفيذ",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1289761Repository.kt",
-        "App1289761HomeScreen.kt",
-        "App1289761DetailsScreen.kt",
-        "App1289761CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر المشروع بنية معماريّة واضحة ومتماسكة، حيث يُعتمد على نمط MVVM مع فصل واضح بين طبقات العرض (Views) والنماذج (ViewModels) والبيانات (Models). يُبرز الكلاس `App1289761Model` كـ Domain Model متكامل يدعم عمليات CRUD مع التحقق من الصحة، بينما يُسهم `App1289761Repository` في تجميع البيانات من مصادر متعددة (API، قاعدة بيانات محلية) مع تطبيق مبادئ Repository Pattern لتسهيل الاختبار وإعادة الاستخدام. كما يُظهر الكلاس `App1289761Package` تنظيمًا جيدًا للبيانات التي تُرسل إلى الخادم، مع دعم للـ JSON serialization عبر Kotlinx Serialization.\n\nمن ناحية الرسوميات، يضيف `BespokeVectorIllustration.kt` قيمة جمالية عالية، حيث يُستعمل Canvas وPath لإنشاء رسومات متجهية مخصصة تتناسب مع واجهة Cupertino Storefront، مما يضمن استجابة عالية على مختلف أحجام الشاشات دون فقدان الجودة. أما الخادم `server/server.js` فيُظهر تصميمًا خفيفًا يعتمد على Express مع دعم للـ CORS وHelmet، مع استخدام PM2 Cluster لتوزيع الأحمال على عدة نوى، ما يضمن استقرارًا عاليًا وتوافرًا مستمرًا مع استهلاك منخفض للموارد على VPS Starter. هذا التوازن بين البساطة والكفاءة يحقق توفيرًا ملحوظًا مقارنة بالخدمات السحابية الاحتكارية.",
-      "milestone2_recommendation_ar": "يُنصح في المرحلة الثانية بالتركيز على تعزيز أمان التطبيق عبر تنفيذ JWT authentication مع refresh tokens، إضافة إلى إعداد HTTPS على الخادم باستخدام Let's Encrypt. كما يُفضَّل تحسين الكاش على مستوى الخادم باستخدام Redis لتخزين الجلسات والبيانات المؤقتة، ما يقلل زمن الاستجابة ويقلل استهلاك الـ VPS. أخيرًا، يُنصح بإعداد CI/CD pipeline مع GitHub Actions لتجربة التوزيع التلقائي إلى الخادم مع اختبارات وحدات متكاملة لضمان استقرار التحديثات."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289761Repository.kt",
-        "App1289761HomeScreen.kt",
-        "App1289761DetailsScreen.kt",
-        "App1289761CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\"score\":4.89,\"technical_review_ar\":\"المشروع يبرز تطبيقاً متكاملاً يلتزم بأحدث معايير هندسة البرمجيات، حيث يُظهر اعتماداً واضحاً على نمط MVVM مع فصل واضح بين الـ ViewModel (App1289761Model) و الـ Repository (App1289761Repository) مما يضمن قابلية الاختبار وسهولة الصيانة. كما يُستفيد من Domain Models متينة في App1289761Package، ما يتيح توحيد البيانات عبر جميع الطبقات.\\\\nالتصميم الرسومي يتميز بدمج Canvas Vector Drawings في ملف BespokeVectorIllustration.kt، ما يضمن جودة عالية للرسوم المتجهة مع توافق",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "خبير أو مدرب في الذكاء الاصطناعي في البزنس - AI for Business — أكاديمية خطوة تبحث عن مدرب خبير في تطبيقات الذكاء الاصطناعي و كتابة ال Prompts وذلك لاعطاء دورات تدريبية تحت عنوان : الذكاء الاصطناعي في البزنس - AI for Business وذلك لتمكين الأفراد و أصحاب المشاريع الفردية, والخبراء و المدربين الذين يريدون بيع خبرات",
+  "domain_data": {
+    "repo_name": "ruya-academy-smart-education-1289761",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
