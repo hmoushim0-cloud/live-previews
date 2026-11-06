@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-06T00:10:53.138098+00:00",
+    "updated_at": "2026-11-06T01:15:14.885721+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2115,9 +2115,9 @@
     },
     {
       "project_id": "1289695",
-      "app_name": "مِسْتُور كيس",
-      "tagline": "ابتكر كفراتك، اطبعها، استلمها",
-      "preset": "standard",
+      "app_name": "تطبيق إنجاز للخدمات — مطلوب خبير إعلانات Meta وTik",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289695",
       "stamp_id": "SA-KMP-1289695",
       "crypto_hash": "sha256-1289695",
