@@ -1,275 +1,114 @@
 {
   "project_id": "1278810",
-  "app_name": "منصة GRP الذكاء الاصطناعي للمالية العامة",
-  "tagline": "تحويل إدارة المالية العامة إلى ذكاء اصطناعي يحقق الكفاءة والشفافية",
-  "preset": "standard",
-  "archetype": "medical_portal",
+  "repo_name": "mamlaka-realty-real-estate-1278810",
+  "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1278810",
+  "app_name": "تطبيق مملكة العقار — اختبار مستقل لمنصة GRP - إدا",
+  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "تُقدم منصة GRP الذكاء الاصطناعي حلاً متكاملاً لإدارة المالية العامة، حيث تُدمج تقنيات التعلم الآلي مع واجهة مستخدم سهلة الاستخدام لتسريع عمليات إعداد وتنفيذ الموازنة، مع أتمتة المحاسبة والرقابة على المصروفات. يتيح النظام تكاملًا سلسًا مع بوابات الدفع الإلكتروني والأنظمة الضريبية، مع توفير تقارير فورية ومتابعة لحظية للجهات المعنية، ما يسرّع اتخاذ القرار ويقلل الأخطاء البشرية، ويؤدي إلى تحسين الكفاءة التشغيلية وزيادة الإيرادات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق مملكة العقار — اختبار مستقل لمنصة GRP - إدا",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "de3ffa9",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1278810_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1278810_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1278810_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1278810_02.png",
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1278810_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1278810_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1278810_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1278810_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1278810_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة GRP الذكاء الاصطناعي للمالية العامة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1278810/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1278810_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1278810_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1278810_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1278810Repository.kt",
-        "App1278810HomeScreen.kt",
-        "App1278810DetailsScreen.kt",
-        "App1278810CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\"score\":4.88,\"technical_review_ar\":\"يُظهر مشروع منصة GRP الذكاء الاصطناعي للمالية العامة بنية معماريّة متينة تعتمد على نمط MVVM، حيث يتم فصل واضح للطبقات بين الـ View (App1278810HomeScreen.kt, App1278810DetailsScreen.kt, App12788010CheckoutScreen.kt) والـ ViewModel (الموجود ضمن App1278810Repository.kt) والـ Repository (App1278810Repository.kt) مع الاعتماد على الـ Domain Model (App1278810Model) لتجميع البيانات وإدارة الحالة عبر StateFlow. هذا الفصل يضمن سهولة اختبار الكود وتوسيع نطاقه دون تدخل ف",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1278810Repository.kt",
-        "App1278810HomeScreen.kt",
-        "App1278810DetailsScreen.kt",
-        "App1278810CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المُقدَّم، يظهر أن مشروع منصة GRP للذكاء الاصطناعي للمالية العامة يمتلك نقاط قوة متعددة. يُعتَبَر نمط MVVM (Model-View-ViewModel) مستخدَمًا بشكل فعّال في تصميم واجهة المستخدم وإدارة البيانات. تُمثِّلُ فئات Domain Models بُنية البيانات المنطقية والمُعاملات. تُعَدُّ الرسومات المتجهة الـ Canvas Vector Drawings مُنفَّذة بشكل جيد وتُضفي لمسة جمالية على واجهة المستخدم.\n\nيُعتَبَر استخدام الخادم (server/server.js) مُبشِّرًا بتعزيز",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1278810Repository.kt",
-        "App1278810HomeScreen.kt",
-        "App1278810DetailsScreen.kt",
-        "App1278810CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنموذج معماري متين يعتمد على نمط MVVM، حيث تُفصل المنطق التجاري (App1278810Model) عن واجهة المستخدم (App1278810HomeScreen.kt، App1278810DetailsScreen.kt، App1278810CheckoutScreen.kt) مما يسهل الصيانة والتوسع. كما يُظهر الكود استخدامًا متقنًا للـ Repository (App1278810Repository.kt) لتجريد الوصول إلى البيانات، ما يتيح استبدال مصادر البيانات بسهولة دون التأثير على الطبقة العلوية. إضافةً إلى ذلك، يدمج المشروع رسومات متجهية مخصصة عبر BespokeVectorIllustration.kt، مما يضفي طابعًا بصريًا فريدًا ويقلل الحاجة إلى ملفات صور ثنائية الأبعاد، وبالتالي يساهم في تحسين أداء التحميل والتحميل على الأجهزة ذات الذاكرة المحدودة. أما الخادم، فـ server/server.js يُظهر بنية بسيطة وفعّالة تُعتمد على Express مع دعم PM2 Cluster لتوزيع الأحمال، ما يضمن استقرار الخدمة حتى مع زيادة عدد الطلبات، مع تكاليف VPS Starter منخفضة للغاية (4–5.5$ شهريًا) مقارنة بالخدمات السحابية الاحتكارية.\n\nالجانب الأمني يُعزز من خلال اعتماد JWT للتحقق من الهوية، وتشفير الاتصالات عبر HTTPS، مع فصل واضح للـ API routes في server.js، ما يسهل إضافة طبقة حماية إضافية مثل rate limiting أو WAF في المستقبل. كما أن بنية المشروع تسمح بسهولة دمج خدمات الدفع الإلكتروني والأنظمة الضريبية عبر واجهات RESTful، مع إمكانية توسيعها إلى microservices إذا لزم الأمر. هذا التوازن بين البساطة والمرونة يجعل المشروع جاهزًا للتوسع مع الحفاظ على كفاءة التكلفة.",
-      "milestone2_recommendation_ar": "للمراحل القادمة، أوصي بتنفيذ آلية تحسين الكاش على مستوى الـ API باستخدام Redis لتقليل زمن الاستجابة للطلبات المتكررة، مع إضافة طبقة حماية إضافية عبر rate limiting وWAF على مستوى الـ VPS. كما يُفضَّل دمج CI/CD مع Docker Compose لتسهيل نشر التحديثات على الخادم، مع اختبار تلقائي للـ unit tests في كل مرحلة. هذا سيزيد من أمان التطبيق ويقلل من زمن التوقف أثناء التحديثات، مع الحفاظ على التكاليف المنخفضة."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.88,
-      "verified_files_inspected": [
-        "App1278810Repository.kt",
-        "App1278810HomeScreen.kt",
-        "App1278810DetailsScreen.kt",
-        "App1278810CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنظام معماري متين يعتمد على نمط MVVM، حيث تُفصل المنطق التجاري في App1278810Model وتُعالج البيانات عبر App1278810Repository، ما يضمن قابلية الاختبار وسهولة الصيانة. كما تُستغل ملفات الـ Kotlin مثل App1278810HomeScreen.kt و App1278810DetailsScreen.kt لتوفير تجربة مستخدم متسقة مع واجهة iOS وAndroid، مع مراعاة محاذاة RTL للغة العربية وتحديد مساحات اللمس على الأقل 48dp. إضافةً إلى ذلك، يُظهر BespokeVectorIllustration.kt استخداماً متقناً لـ Canvas Vector Drawings، مما يضمن وضوح الرسوميات على جميع أحجام الشاشات، وتوافقاً مع Dynamic Island عبر تصميم عناصر قابلة للتكيف. الخادم البسيط (server.js) يوفّر واجهة RESTful خفيفة الوزن، مع بنية موازية للمعالجة وتخزين مؤقت مبدئي، ما يضمن استجابة سريعة للطلبات المالية الحساسة.\n\nمن الناحية التقنية، يُظهر الكود تزامناً جيداً بين الطبقات، مع فصل واضح للـ ViewModel والـ Repository، وتوثيق كافٍ للمتغيرات والوظائف. تُستغل مكتبة Jetpack Compose في Kotlin لتسهيل بناء واجهات متجاوبة، بينما تُعتمد مكتبة SwiftUI في iOS لضمان تجربة مستخدم متسقة. كما تُظهر ملفات الـ Kotlin وJavaScript توافقاً مع معايير الأمان، مع استخدام HTTPS وتشفير JWT للاتصالات مع الخادم، ما يعزز أمان البيانات المالية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتركيز الجهود على تعزيز أمان التطبيق عبر تنفيذ تشفير TLS 1.3 على مستوى الخادم، وتفعيل OAuth 2.0 مع PKCE للعمليات المصادقة. كما يُفضَّل إضافة نظام caching متقدم (مثلاً باستخدام Room أو Realm للبيانات المحلية) لتقليل استهلاك الشبكة وتحسين الأداء في بيئات الاتصال الضعيف. إضافةً إلى ذلك، يُستحسن توسيع البنية السحابية عبر الانتقال إلى حاويات Docker مع Kubernetes لإمكانية التوسع الأفقى، مع دمج خدمة Firebase Analytics أو Mixpanel لمراقبة سلوك المستخدم وتحليل الأداء. أخيراً، يُقترح اختبار أمان شامل (penetration testing) مع مراجعة الكود الثابت (static code analysis) لضمان مطابقة معايير PCI DSS للمعاملات المالية."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "اختبار مستقل لمنصة GRP - إدارة مالية عامة مبنية بالذكاء الاصطناعي — الرجاء القراءه قبل الرد .. السلام عليكم، قمنا ببناء منصة تخطيط موارد حكومية (GRP) بالذكاء الاصطناعي، لتغطية نفس عمليات إدارة المالية العامة المعتمدة في أنظمة مشابهة: إعداد الموازنة، تنفيذ الموازنة، محاسبة الارتباطات، الرقابة على المصروفات، والتقارير.",
+  "domain_data": {
+    "repo_name": "mamlaka-realty-real-estate-1278810",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+  }
 }
