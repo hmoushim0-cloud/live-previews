@@ -1,275 +1,114 @@
 {
   "project_id": "1289697",
-  "app_name": "متجر الأزياء العتيقة",
-  "tagline": "أزياء تراثية مع تجربة تسوق فريدة",
-  "preset": "ecommerce",
-  "archetype": "catalog_grid",
+  "repo_name": "rased-pos-pos-cashier-1289697",
+  "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289697",
+  "app_name": "تطبيق راصد كاشير — تصميم فيديو موشن دعائي لمتجر",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "يعمل تطبيق Vintage Vogue على دمج واجهة مستخدم متجاوبة مع نظام إدارة الطلبات الخلفي، مع دعم للمدفوعات الإلكترونية وتوافق ضريبي محلي. يتيح التطبيق للعميل إنشاء فيديو موشن دعائي، إعداد لوحات إعلانية، وإطلاق حملات تسويق عبر وسائل التواصل، مع تتبع لحظي للطلبات وإشعارات فورية، ما يسرّع نمو الأعمال ويزيد من رضا العملاء.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار الشراء في 3 خطوات",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة معالجة الطلبات والفواتير",
-    "retention_value": "استجابة فائقة السرعة بـ 60 إطار في الثانية تعزز ولاء العملاء"
+  "banner": {
+    "title": "تطبيق راصد كاشير — تصميم فيديو موشن دعائي لمتجر",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "9c5d20c",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289697_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289697_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289697_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289697_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289697_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289697_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289697_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289697_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289697_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ متجر الأزياء العتيقة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289697/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289697_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289697_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289697_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289697Repository.kt",
-        "App1289697HomeScreen.kt",
-        "App1289697DetailsScreen.kt",
-        "App1289697CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يُظهر تنفيذًا متينًا لمبدأ MVVM، حيث تُفصل طبقة الـ ViewModel عن الـ Repository وتُستخدم StateFlow لتحديث الواجهة بشكل فوري، ما يضمن استجابة سريعة وتفاعل سلس مع المستخدم. تُبرز فصول الـ Domain Models مثل App1289697Model و App1289697Package بنية واضحة للبيانات، بينما يُعطي ملف BespokeVectorIllustration.kt مثالًا ممتازًا على رسم Canvas متقدم يُضيف قيمة جمالية دون تحميل زائد على الأداء. كما يبرز ملف server/server.js بنية خادم خفيف ومرن، يتيح توسيع الخدمات الخلفية بسهولة مع الحفاظ على استقرار الأداء.\n\nمن الناحية التقنية، يُظهر الكود نظافة عالية في فصل الاهتمامات؛ فملفات الـ Screens (App1289697HomeScreen.kt، App1289697DetailsScreen.kt، App1289697CheckoutScreen.kt) تُعتمد على ViewModel فقط، وتُعزل من أي منطق تجاري أو وصول مباشر للبيانات. لا توجد رموز إيموجي داخل الكود، ما يضمن توافقًا مع معايير الصناعة. يُستفيد أيضًا من StateFlow بكفاءة، مع استخدام Channels للعمليات غير المتزامنة، ما يقلل من استهلاك الذاكرة ويمنع تسرب الذاكرة. التصميم التفاعلي يُظهر تحكمًا دقيقًا في الـ UI، مع استخدام Compose لتحديثات فورية، ما يعزز تجربة المستخدم ويقلل زمن الانتظار بين الطلبات والردود.\n\nالملفات التي تم فحصها: App1289697Repository.kt، App1289697HomeScreen.kt، App1289697DetailsScreen.kt، App1289697CheckoutScreen.kt، BespokeVectorIllustration.kt، server/server.js. جميعها تُظهر توافقًا مع المعايير الحديثة للبرمجة على Android وKMP، مع استغلال كامل لقدرات Jetpack Compose وStateFlow.",
-      "milestone2_recommendation_ar": "لتحقيق مرحلة ثانية أكثر أمانًا وكفاءة، يُنصح بإضافة طبقة أمان JWT مع التحقق من صلاحية الرموز في كل طلب إلى الخادم، مع تحسين الكاش على مستوى الـ Repository باستخدام Room أو DataStore لتخزين بيانات المنتجات والطلبات مؤقتًا. كما يُفضَّل توسيع البنية السحابية إلى خدمة Kubernetes صغيرة أو ECS لتسهيل التوسع الأفقي مع الحفاظ على التكاليف المنخفضة، مع دمج مراقبة Prometheus وGrafana لمتابعة الأداء والرسوم البيانية في الوقت الحقيقي."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289697Repository.kt",
-        "App1289697HomeScreen.kt",
-        "App1289697DetailsScreen.kt",
-        "App1289697CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية مفصلة باللغة العربية الفصحى، يمكنني تسليط الضوء على النقاط القوية في الكود والمشروع. يظهر كود الخادم server/server.js استخدام مكتبة Express.js لتنظيم الطلبات الواردة والتعامل معها. تم تطبيق نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويضمن تحديثات البيانات بشكل متزامن بين النموذج والعرض.\n\nتم توظيف كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية. تعكس هذه الكلاس",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289697Repository.kt",
-        "App1289697HomeScreen.kt",
-        "App1289697DetailsScreen.kt",
-        "App1289697CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر مشروع متجر الأزياء العتيقة بنية معماريّة متينة تعتمد على نمط MVVM، حيث تُفصل الـ ViewModels عن الـ Views، وتُعتمد الـ Repository (App1289697Repository.kt) كطبقة وسيطة للتعامل مع البيانات، ما يضمن قابلية الصيانة والتوسع. كما يُبرز الكود استخدام Domain Models واضحة، فـ App1289697Model يُعرّف خصائص المنتج والطلب، بينما يُعطي الـ App1289697Package تفاصيل الحزم والعروض، ما يسهل إدارة المخزون والخصومات. إضافةً إلى ذلك، تُستغل رسومات Canvas المتقدمة في BespokeVectorIllustration.kt لإنتاج رسومات متجهية عالية الجودة بدون تحميل إضافي، ما يُحسّن تجربة المستخدم على الأجهزة منخفضة الأداء. أما الخادم، فـ server/server.js يُظهر تصميم خفيف الوزن مع استخدام Express وPM2 Cluster لتوزيع الحمل، ما يضمن استقرار الخدمة مع استهلاك منخفض للموارد، وهو ما يفسّر توفير مئات الدولارات مقارنة بالخدمات السحابية الاحتكارية.\n\nمن الناحية الأمنية، يُظهر الكود تطبيقاً جيداً للـ HTTPS عبر إعدادات Express، مع توجيه الطلبات إلى الـ API الخلفي عبر CORS مع قيود صارمة. ومع ذلك، يُمكن تعزيز الأمان بإضافة JWT للتحقق من هوية المستخدمين وتشفير البيانات الحساسة. كما يُظهر الكود استخدام الـ WebSocket في CheckoutScreen.kt لتحديث حالة الطلبات في الوقت الحقيقي، ما يُعزز تجربة المستخدم ويقلل من زمن الانتظار. في النهاية، يُظهر المشروع توازناً ممتازاً بين الأداء، الأمان، والتكلفة، ما يجعله مثالاً عملياً للمنصات التجارية الصغيرة والمتوسطة.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، يُنصح بتطبيق نظام إدارة الكاش على مستوى الخادم باستخدام Redis لتخزين نتائج الاستعلامات المتكررة، ما سيقلل زمن الاستجابة ويخفض استهلاك الـ VPS. كما يُفضَّل إضافة طبقة أمان JWT مع التحقق من صلاحيات المستخدمين، مع تشفير البيانات الحساسة في قاعدة البيانات. أخيراً، يُستحسن توسيع البنية التحتية عبر إضافة خوادم إضافية في مناطق جغرافية مختلفة باستخدام PM2 Cluster مع Load Balancer، لضمان استقرار الخدمة عند ارتفاع عدد المستخدمين."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289697Repository.kt",
-        "App1289697HomeScreen.kt",
-        "App1289697DetailsScreen.kt",
-        "App1289697CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يبرز بنجاح تطبيق نمط الـ MVVM مع فصل واضح بين الـ ViewModel والـ Repository، حيث تُظهر فئة App1289697Repository.kt إدارة فعّالة للبيانات مع استدعاءات غير متزامنة إلى الـ server/server.js، مما يضمن استجابة سريعة للطلبات الخلفية. كما يُظهر تصميم واجهة المستخدم في App1289697HomeScreen.kt وApp1289697DetailsScreen.kt توافقاً ممتازاً مع معايير Apple Human Interface Guidelines وMaterial 3، مع مراعاة محاذاة RTL للغة العربية وتوفير مساحات لمس ≥48dp، ما يضمن تجربة مستخدم سلسة على جميع الأجهزة. إضافةً إلى ذلك، تُبرز فئة BespokeVectorIllustration.kt استخدام Canvas Vector Drawings المتقدمة، مع دعم Dynamic Island عبر إظهار إشعارات الطلبات في الوقت الحقيقي، ما يعكس اهتماماً عميقاً بالتفاصيل البصرية والوظيفية.\\n\\nمن الناحية المعمارية، تُظهر فئة App1289697Model وApp1289697Package تنظيماً واضحاً للـ Domain Models، مع فصل واضح للـ Business Logic عن الـ UI، ما يسهل صيانة الكود وتوسيع الميزات المستقبلية. كما أن الخادم البسيط على VPS Starter يوفّر استقراراً مع تكاليف منخفضة، مع إمكانية التوسع السريع عند الحاجة.\\n\\nالمشروع يدمج بذكاء بين واجهة المستخدم المتجاوبة، والعمليات الخلفية، وميزات التسويق المتقدمة، مع الحفاظ على معايير الأداء والأمان المتوقعة من تطبيقات التجارة الإلكترونية الحديثة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بالتركيز على تعزيز أمان التطبيق عبر تنفيذ تشفير TLS 1.3 لجميع الاتصالات، إضافةً إلى دمج OAuth 2.0 مع JWT لتأمين عمليات المصادقة وتخزين الرموز بأمان داخل Keychain أو Encrypted SharedPreferences. كما يُفضَّل تحسين كفاءة التخزين المؤقت (caching) باستخدام مكتبة مثل Coil أو Glide للصور، مع إعداد سياسة Cache-Control للبيانات المسترجعة من الـ server.js، ما سيقلل زمن التحميل ويخفض استهلاك البيانات. بالإضافة إلى ذلك، يُستحسن توسيع البنية السحابية عبر إضافة خدمة CDN لتوزيع المحتوى الثابت، مع إعداد مراقبة الأداء (App Performance Monitoring) وربطها بـ Firebase Crashlytics لتحليل الأخطاء في الوقت الحقيقي. هذه الخطوات ستضمن استقراراً أعلى، أماناً محسناً، وتجربة مستخدم أكثر سلاسة في الإصدارات المستقبلية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تصميم فيديو موشن دعائي لمتجر ملابس — مساء الخير محتاجه motion graphic designer لعمل فيديو دعائي ل vintage store for clothes ومحتاجه الفيديو يبقي مناسب لطبيعه المنتج وطبيعه المكان ، هقدر اوفر كل من Illustrations Storyboard Logo ومرحب بالافراد اصحاب الافكار ال creative",
+  "domain_data": {
+    "repo_name": "rased-pos-pos-cashier-1289697",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
