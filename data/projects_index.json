@@ -1385,17 +1385,17 @@
   },
   {
     "project_id": "1289694",
-    "app_name": "منصة الترويج الرقمي",
-    "tagline": "نمو سريع للمتاجر عبر الشبكات الاجتماعية",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ملتقى الأعمال — الترويج لمنصة إلكترونية جديد",
+    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1289694.json"
   },
   {
     "project_id": "1289690",
-    "app_name": "Fusion 360 تصميم",
-    "tagline": "حل سريع لتصميماتك الثلاثية الأبعاد",
-    "preset": "standard",
+    "app_name": "تطبيق ماهر الميداني — عمل تصميم ثلاثي الأبعاد بسيط",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289690.json"
   },
