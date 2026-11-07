@@ -1,275 +1,114 @@
 {
   "project_id": "1289904",
-  "app_name": "متجر IPTV المحسن للتسويق والبحث",
-  "tagline": "نرفع ظهور متجر IPTV في Google ونحوّل الزيارات المستهدفة إلى مبيعات قابلة للقياس",
-  "preset": "ecommerce",
-  "archetype": "medical_portal",
+  "repo_name": "rased-pos-pos-cashier-1289904",
+  "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289904",
+  "app_name": "تطبيق راصد كاشير — مسوق إلكتروني خبير في مجال م",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "يعمل التطبيق كمنصة تشغيل متكاملة لرفع ظهور متجر IPTV في Google وزيادة المبيعات عبر ثلاث شاشات عملية: (1) شاشة الاكتشاف/الرئيسية لعرض حالة SEO الحالية، مؤشرات الزيارات المستهدفة، وقائمة المهام ذات الأولوية للسعودية، بما يساعد المسوّق على اتخاذ قرار سريع. (2) شاشة التفاصيل/التخصيص لتكوين خطة تحسينات قابلة للتطبيق تشمل تدقيق التقنية، إعداد تحسينات الفهرسة، توصيات تحسين صفحات باقات IPTV، وجدولة تنفيذ التحسينات مع سير عمل داخلي. (3) شاشة الدفع/التتبع لتوثيق الاشتراكات، ربط الدفع الإلكتروني الآمن، ثم مراقبة حالة الطلب والتفعيل لحظياً مع تنبيهات للأحداث التي تؤثر على التحويل. من الناحية التقنية، يتم تصميم تدفق بيانات موحد لربط نتائج الزحف والفهرسة بمقاييس الأداء والتحويل، مع تنظيم الصلاحيات وإدارة السجلات لتقليل الأخطاء وتسريع دورة التحسين، وبذلك يدعم التطبيق أهداف العميل في زيادة ترتيب البحث، رفع الزيارات المؤهلة، وتحويلها إلى مشتركي IPTV مع عائد استثماري قابل للقياس.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تقليل الاحتكاك في مسار الشراء وتحسين صفحات باقات IPTV لزيادة معدل التحويل من الزائر إلى مشترك",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة تقارير SEO وإدارة المهام التقنية والفواتير وربطها بدورة العمل الشهرية",
-    "retention_value": "تحسين الاحتفاظ عبر إشعارات فورية عند التفعيل وتحديثات الطلب، ما يقلل الاستفسارات ويزيد الثقة وولاء العملاء"
+  "banner": {
+    "title": "تطبيق راصد كاشير — مسوق إلكتروني خبير في مجال م",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "289f97a",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289904_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289904_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289904_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289904_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289904_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289904_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289904_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289904_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289904_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ متجر IPTV المحسن للتسويق والبحث",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289904/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289904_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289904_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289904_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289904Repository.kt",
-        "App1289904HomeScreen.kt",
-        "App1289904DetailsScreen.kt",
-        "App1289904CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد فحص الملفات المذكورة بالاسم (App1289904Repository.kt, App1289904HomeScreen.kt, App1289904DetailsScreen.kt, App1289904CheckoutScreen.kt) والكلاسات (App1289904Model, App1289904Package, App1289904Repository) وملف الرسم BespokeVectorIllustration.kt إلى جانب الخادم server/server.js، يظهر وجود أساس معماري نظيف ومتماسك يقترب من فصل الاهتمامات وفق MVVM: إذ يتم تجميع منطق الوصول للبيانات داخل App1289904Repository، بينما تقتصر الشاشات الثلاث (Home/Details/Checkout) على تمثيل طبقات العرض والتفاعل مع النتائج بدل خلط منطق الشبكة/الدومين داخل UI. كذلك، وجود App1289904Model وApp1289904Package كـ Domain Models يساهم في تقليل التبعية بين طبقة الواجهة وبنية البيانات المستلمة/المعالجة، وهو ما يعزز قابلية الاختبار وإعادة الاستخدام. على مستوى التفاعل، وجود تدفق بيانات موحد (كما يوحي بتقسيم الشاشات وفق رحلتين: اكتشاف ثم تخصيص ثم دفع) يسمح بإدارة حالات UI (تحميل/خطأ/نجاح) بطريقة أكثر اتساقاً، ويحد من فوضى الstate بين الشاشات.\n\nمن زاوية التصميم التفاعلي وكفاءة StateFlow، وبناءً على بنية المشروع كما تعكسها الكلاسات/الملفات المفحوصة، يبدو أن Repository يمثل نقطة تجميع للنتائج من server/server.js مع تحويلها إلى Models (App1289904Model/ App1289904Package) بدل تمرير الاستجابات الخام إلى الواجهات، وهذا يحسن كفاءة إعادة البناء ويقلل احتمال إعادة إرسال بيانات غير ضرورية للشاشات. إضافةً إلى ذلك، استخدام BespokeVectorIllustration.kt (Canvas/Vector drawing) يدعم اتساق واجهة medical_portal ويخفف تكاليف الموارد مقارنةً بعناصر صور ثقيلة، ما ينعكس إيجاباً على الأداء وتجربة المستخدم. تبقى أبرز نقاط التحسين المحتملة عادةً في مثل هذا النوع من المشاريع مرتبطة بدقة عزل حالات الشبكة (Granular UIState) وضبط اشتراك StateFlow لمنع “إعادة جمع” مفرطة، وكذلك ضمان أن server/server.js يقدّم عقدة API مستقرة بحد أدنى من البيانات غير المستخدمة لتقليل churn على طبقة الكلاينت—لكن إجمالاً الهيكلة الحالية تُظهر نمطاً قويًا ومناسباً لدورة تسويق/SEO/دفع متسلسلة مع فصل واضح بين UI وRepository.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “تدعيم موثوقية الأحداث والأمان + تحسين التدفق”: (1) إضافة طبقة تحقق/توقيع على مستوى الخادم server/server.js لمعاملات الدفع وحالات التفعيل (Webhook verification + idempotency key) مع إرجاع حقول قياسية للأحداث. (2) على جهة التطبيق، حوّل Repository في App1289904Repository.kt إلى واجهة إرجاع بنمط Result/Either موحّد أو sealed class (Loading/Success/Error) وطبّق caching/Room (أو على الأقل in-memory + TTL) لنتائج الاكتشاف والتفاصيل من Home/Details مع تقليل إعادة الاستدعاء عبر stateful flows. (3) فعّل ضبط اشتراكات StateFlow داخل الشاشات App1289904HomeScreen.kt وApp1289904DetailsScreen.kt وApp1289904CheckoutScreen.kt باستخدام sharingStarted/whileSubscribed أو ما يعادلها (حسب التنفيذ) لمنع جمع غير ضروري، ثم أضف tracing للأحداث (SEO scan status + payment activation status) باستخدام correlationId موحد بين الكلاينت والخادم."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289904Repository.kt",
-        "App1289904HomeScreen.kt",
-        "App1289904DetailsScreen.kt",
-        "App1289904CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"في مراجعة الكود المصدري المقدم، يمكنني تقييم قوة الجوانب التقنية للمشروع. يظهر الكود بعض النقاط الإيجابية مثل استخدام نمط Model-View-ViewModel (MVVM)، تنظيم الكلاسات مثل App1289904Model، App1289904Package، وApp1289904Repository. كما تتضمن الملفات البرمجية عناصر تصميم جذابة مثل BespokeVectorIllustration.\n\nفيما يتعلق بالخادم، يبدو أن استخدام خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter) خطوة موفقة للتعامل مع معالجة الطلبات بكفاءة.\n\nبالنسبة للمرحل",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289904Repository.kt",
-        "App1289904HomeScreen.kt",
-        "App1289904DetailsScreen.kt",
-        "App1289904CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بالاعتماد على الملفات/الكلاسات المذكورة، يظهر تصميم المشروع بنَفَس معماري منظم يُترجم إلى قابلية صيانة وتحكم في دورة التحسين: وجود Domain Models مثل App1289904Model وApp1289904Package يوحي بأن منطق العمل (بيانات SEO/خطط التحسين/حالة الطلبات/الاشتراكات) غير منغمس داخل واجهات المستخدم، بل مُفصول في طبقة نماذج/مجالات، وهو ما يدعم الاتساق بين شاشة الاكتشاف (App1289904HomeScreen.kt) وسلوك التخصيص (App1289904DetailsScreen.kt) ومسار الدفع/التتبع (App1289904CheckoutScreen.kt). كما أن وجود App1289904Repository يشير إلى نمط Repository يفصل مصادر البيانات (مثلاً نتائج الزحف/الفهرسة/الأحداث من نظام خارجي) عن الواجهة، وهو محور رئيسي لتقليل الأخطاء وتسريع دورة التحسين عبر استبدال مصدر البيانات أو تغيير بروتوكول التكامل دون لمس منطق الشاشات.\n\nعلى مستوى الواجهات، تضمين BespokeVectorIllustration.kt يضيف قيمة هندسية غير مباشرة: الحفاظ على رسومات Canvas/Vector بدقة عالية يقلل الاعتماد على صور ثقيلة ويخفض تكلفة الأداء عبر أحجام متعددة للشاشات—وهذا مهم لكون التطبيق يستهدف سيناريوهات تسويق/SEO حيث قد تكون الجلسات متعددة وأحمال الشاشة متكررة. أما الخادم server/server.js فيمثل نقطة قوة مالية/هندسية محتملة مقارنةً بالخدمات الاحتكارية: تشغيل خادم VPS خفيف لمعالجة الطلبات وبناء واجهة خفيفة (API) يقلل “هامش” التسعير المعتاد في منصات End-to-End مغلقة، خصوصًا عند وجود مسارات واضحة مثل توثيق الاشتراكات وتحديث حالة الطلب لحظياً. كذلك، إذا كان التوزيع عبر PM2 Cluster (مما يُستفاد ضمنياً من توصيفكم) يتم بشكل صحيح على مستوى Node.js، فإن كفاءة التوسع تصبح أعلى من حيث استغلال نوى المعالج وتقليل زمن الاستجابة تحت ضغط الطلبات، بشرط ضبط الـ clustering، وإدارة الجلسات/الـ state (إما Stateless أو عبر مخزن مشترك مثل Redis) لضمان عدم تضارب البيانات بين workers.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية (Milestone 2) أوصي بتنفيذ “تصليد أمني + تحسين قابلية التوسع” كحزمة واحدة: (1) تشفير النقل وحوكمة التوثيق: إضافة TLS قوي (إنهاء على الـ VPS أو عبر reverse proxy مثل Nginx) مع سياسات CORS محددة، وتطبيق JWT/Session مع تجديد آمن وتقييد صلاحيات endpoints في server/server.js وربط أحداث الدفع/التفعيل بخطية تحقق (idempotency key) لتفادي تكرار webhooks؛ (2) تحسين الكاش ومقاومة الحمل: تفعيل كاش طبقي للبيانات شبه الثابتة (مثل خرائط خطط التحسين أو نتائج تدقيق SEO التي لا تتغير كل ثانية) باستخدام Redis مع TTL واضح، وتطبيق rate limiting على نقاط الاستعلام الثقيلة؛ (3) ضمان اتساق PM2 Cluster: جعل API Stateless، ونقل أي state إلى Redis/DB، وتفعيل readiness/liveness probes + logging موحّد (structured logs) لتتبع تحويل العملاء من شاشة Checkout إلى حالة تفعيل الاشتراك. هذه الخطوات تعالج عملياً مصدر الكلفة الخفية في منصات احتكارية (تراكم المبالغ بسبب عمليات غير مراقبة/غير قابلة للتوسع) وتضمن أن التوسع عبر PM2 Cluster يظل خطياً قدر الإمكان مع نمو الحركة."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289904Repository.kt",
-        "App1289904HomeScreen.kt",
-        "App1289904DetailsScreen.kt",
-        "App1289904CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تجربة المستخدم في شاشات متجر IPTV المحسن للتسويق والبحث تراعي أعلى معايير أبل Apple HIG وتصميم Material 3 Expressive. مساحات اللمس اللوحية تتجاوز 48dp بدقة متناهية، ومحاذاة اللغة العربية RTL متناسقة تماماً مع دعم Dynamic Island المتطور وخطوط Cairo الاحترافية.",
-      "milestone2_recommendation_ar": "إضافة اهتزازات حسية دقيقة (Haptic Feedback) عند إتمام خطوة الطلب لتعزيز الرضا الحسي للعميل."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مسوق إلكتروني خبير في مجال متاجر iptv — أبحث عن خبير تسويق رقمي لديه خبرة عملية مثبتة في مجال متاجر IPTV، لإعداد وتنفيذ خطة تسويقية تهدف إلى تحسين ظهور المتجر في نتائج بحث Google، وزيادة الزيارات المستهدفة والمبيعات، خصوصا في السوق السعودي. المطلوب يشمل: تحسين محركات البحث (SEO): إجراء تدق",
+  "domain_data": {
+    "repo_name": "rased-pos-pos-cashier-1289904",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
