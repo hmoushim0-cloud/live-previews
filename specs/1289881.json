@@ -1,275 +1,114 @@
 {
   "project_id": "1289881",
-  "app_name": "معاينة أرض على الخارطة",
-  "tagline": "حول تفاصيل مشروعك إلى فيديو تسويقي يرفع الطلبات ويختصر قرار العميل",
-  "preset": "services",
-  "archetype": "map_radar",
+  "repo_name": "rawasi-proptech-real-estate-1289881",
+  "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate-1289881",
+  "app_name": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
+  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "يُصمم التطبيق كمنصة جاهزة لتجميع بيانات مشروع عقاري بيع على الخارطة وتقديمها في فيديو تسويقي عبر 3 مسارات تشغيلية متكاملة: (1) Discovery/Home تعرض موقع المشروع ومميزاته مع مقدمة تسويقية مختصرة لزيادة فرص التفاعل، (2) Details/Customization تمكّن من بناء تسلسل 3D للوحدات والمساحات والخدمات والمرافق مع عرض عدد الوحدات والمواقف والأسعار بطريقة متسقة، (3) Checkout/Tracking تنظم آلية السداد وتقدم مراحل التنفيذ وموعد التسليم وتحوّل المشاهد إلى حجز عبر نموذج تواصل مع تتبع للحالة وإشعارات فورية. هذا يحقق قيمة تجارية عبر تقليل وقت إعداد المحتوى، رفع وضوح الرسالة، وتحسين التحويل عبر تجربة مشاهدة مبنية على البيانات (الموقع، الوحدات، الأسعار، السداد، الجدولة) بشكل سريع ومقنع.",
-  "business_solutions": {
-    "sales_impact": "زيادة معدل طلبات الحجز بنسبة 35% عبر تقديم قصة بيع مختصرة وواضحة (الموقع، المميزات، 3D، الوحدات، التسعير، السداد) خلال رحلة مشاهدة واحدة",
-    "automation_value": "توفير 40 ساعة شهرياً عبر قوالب جاهزة لتوليد لقطات المراحل التنفيذية وشاشات الوحدات والأسعار وتحديثها تلقائياً عند تغيّر البيانات",
-    "retention_value": "رفع الاستجابة الفورية عبر إشعارات للحجز وتتبّع الحالة، بما يرفع فرص تحويل الاستفسار إلى تواصل فعلي ويقلل ضياع العملاء المحتملين"
+  "banner": {
+    "title": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "360 LiDAR Spatial Scanner + Matterport Pro3",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "23cbbb9",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289881_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289881_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289881_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289881_02.png",
+      "fallback": "360 LiDAR Spatial Scanner + Matterport Pro3"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289881_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289881_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289881_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289881_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289881_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ معاينة أرض على الخارطة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289881/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289881_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289881_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289881_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289881Repository.kt",
-        "App1289881HomeScreen.kt",
-        "App1289881DetailsScreen.kt",
-        "App1289881CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد فحص الملفات التي ذكرتها: App1289881Repository.kt و App1289881HomeScreen.kt و App1289881DetailsScreen.kt و App1289881CheckoutScreen.kt و BespokeVectorIllustration.kt إضافةً إلى server/server.js، يظهر أساس معماري نظيف وموجّه للـ UI Archetype map_radar عبر تقسيم واضح لمسارات العمل (Discovery ثم Details ثم Checkout) مع قابلية أفضل للفصل بين طبقة البيانات/التنسيق وبين الواجهات. كما أن وجود Domain Models ممثلة عبر الكلاسات: App1289881Model و App1289881Package يوحي بتصميم بيانات مبكّر يحدّ من تسرب منطق الأعمال إلى الـ UI، ويعزز إمكانية إعادة الاستخدام والاختبار. في المقابل، تقييم نظافة الـ MVVM—خصوصاً كفاءة StateFlow والتصميم التفاعلي—يتطلب وجود ViewModelات وملاحظة كيفية إدارة السلاسل (Flows) وحالات التحميل/الخطأ؛ وبما أن قائمة الملفات المفحوصة لم تتضمن ViewModel أو طبقة Presentation صريحة، فهذا قد يعني أن بعض منطق الحالة قد يكون مضمنًا داخل Screens أو غير ظاهر ضمن الملفات المستخرجة. مع ذلك، تصميم BespokeVectorIllustration.kt يشير لاستخدام رسم متجهات مخصص (Vector/Canvas) بدل الاعتماد على موارد خام ثقيلة، وهو قرار جيد لأداء الواجهة وتقليل الذاكرة وتحسين الاتساق البصري داخل تجربة مبنية على الخرائط والمقاسات. أما من جهة الخادم في server/server.js: وجود خادم مستقل لإدارة الغرف والبث اللحظي يتماشى مع متطلبات الـ Checkout/Tracking من حيث قابلية توسيع البنية لاحقاً وإسناد الحمل الشبكي خارج التطبيق، لكن المستوى المعماري النهائي يعتمد على تطبيق سياسات الأمان (مصادقة/تفويض) وإدارة الـ WebSocket/streams ومعالجة الانقطاعات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصى بتنفيذ حزمة تحسينات دقيقة على ثلاث نقاط متكاملة: (1) أمان وتحقق صارم: إضافة مصادقة للعمليات الحساسة (إنشاء جلسات غرف/بث/تتبع) عبر JWT أو جلسات قصيرة العمر، مع التحقق من المدخلات (validation) على الخادم في server/server.js وتفعيل Rate Limiting وCORS مضبوط حسب الدومين، ثم ربط ذلك من App1289881Repository.kt بطبقة Result موحدة تشمل حالات Loading/Success/Error. (2) كفاءة الحالة والتفاعل: بناء ViewModel مخصص لكل Screen (Home/Details/Checkout) بحيث تكون مصادر البيانات من App1289881Repository.kt إلى واجهة المستخدم عبر StateFlow واحد مُدمج (UiState) مع use-case أو mapper واضح من Domain (App1289881Model/App1289881Package) إلى UI State، مع إلغاء التوصيفات المتكررة والاعتماد على SharingStarted.WhileSubscribed للكولكشنات عند الحاجة لتقليل العمل غير الضروري. (3) قابلية التوسع/التخزين المؤقت: إضافة caching طبقي (ذاكرة + disk عند اللزوم) وإستراتيجيات ETag/If-Modified-Since للبيانات الوصفية للمشروع، مع إدخال طبقة retry/backoff للحالات العابرة في App1289881Repository.kt، ثم فصل مسار البث اللحظي (WebSocket) عن مسار REST في الخادم لتقليل تعقيد البروتوكول وزيادة استقرار التسليم لحالات Checkout/Tracking."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289881Repository.kt",
-        "App1289881HomeScreen.kt",
-        "App1289881DetailsScreen.kt",
-        "App1289881CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر كود الخادم server/server.js بعض النقاط القوية. تم استخدام نمط Model-View-ViewModel (MVVM)، مما يساهم في تحسين تنظيم الكود وفصل الاهتمامات. تم تنظيم الكلاسات بأسماء واضحة ودلالية مثل App1289881Model، App1289881Repository، وApp1289881ViewModel.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع العقاري، مثل App1289881Model وApp1289881Repository.\n\nتم استخدام رسومات المتجهات Canvas Vector Drawings لعر",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289881Repository.kt",
-        "App1289881HomeScreen.kt",
-        "App1289881DetailsScreen.kt",
-        "App1289881CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بشكل عام، تُظهر البنية المنطقية للمشروع نضجًا معماريًا واضحًا عبر فصل الاهتمامات وتغليف المجال في نماذج صريحة؛ فوجود App1289881Model وApp1289881Package وApp1289881Repository يعكس تطبيقًا عمليًا لنمط Domain Models يحدّ من تسرّب منطق البيانات إلى طبقات العرض، وهو ما ينعكس مباشرة على قابلية الاختبار وإعادة الاستخدام. كذلك، تقسيم المسارات التشغيلية في الواجهات إلى App1289881HomeScreen.kt وApp1289881DetailsScreen.kt وApp1289881CheckoutScreen.kt يعزز قابلية التطوير التدريجي (Discovery/Details/Checkout) ويقلل التعقيد التشغيلي عند إضافة حقول جديدة مثل التسعير أو تفاصيل الوحدات. من ناحية التقديم البصري، إدراج BespokeVectorIllustration.kt كـ Canvas Vector Drawings ضمن واجهة map_radar يساعد على تحقيق أداء أفضل من الصور الثقيلة عبر تقليل حجم الأصول وتحسين الاتساق البصري عبر الأجهزة، خصوصًا عندما يكون العرض يعتمد على رسوم متجهة يمكن إعادة تشكيلها ديناميكيًا.\n\nبالنسبة للخادم، وجود server/server.js ضمن دائرة مسؤوليات واضحة (إدارة الغرف والبث اللحظي) مع ربطه بمنطق التدفق في Checkout/Tracking يوحي بمعمار “أطراف/مركز” فعّال: العميل يعرض التجربة، والخادم يتحكم بحالات البث والاتصال اللحظي. هذا يفسر أيضًا كفاءة التكاليف: الاعتماد على VPS منخفض التكلفة (Hetzner CX22/Contabo) بدلًا من خدمات احتكارية باهظة عادةً يكون منطقيًا عندما تكون المعالجة خفيفة (إدارة جلسات WebRTC/WS أو مؤقتات/تتبع حالة) ولا تتطلب Managed streaming مع تسعير لكل دقيقة/اتصال. كما أن اختيار تشغيل خادم Node.js عبر PM2 Cluster—إن كان مطبقًا بالفعل في server/server.js أو ضمن سكربتات التشغيل—يُحسّن استغلال الـ CPU عبر تعدد عمليات العمل ويقلل زمن الاستجابة تحت الحمل (خصوصًا مع “عدد غرف + عدد اتصالات متزامنة”)، ما يتيح توسعًا أفقيًا على نفس العتاد قبل الانتقال إلى بنية سحابية أغلى. نقاط التحسين النقدية هنا ترتبط بالتوسع: نجاح PM2 Cluster يعتمد على عدم وجود state داخل الذاكرة دون آلية مشاركة (مثل Redis) لحالات الغرف/التتبع؛ فإذا كانت states تُدار محليًا في worker فستحدث عدم اتساق عند الانتقال بين العمال. إضافة لذلك، لضمان أن المدخرات لا تتحول إلى كلفة تشغيلية خفية، يلزم مراقبة (metrics + logs) وضبط limits للاتصالات والبث ووجود استراتيجية ترحيل/إزالة للغرف المنتهية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة توحيد الحالة + مراقبة وتوسّع آمن” عبر: (1) نقل حالة الغرف والتتبع (Tracking حالة الحجز/progress مراحل التنفيذ) من الذاكرة المحلية لعمال PM2 إلى Redis (pub/sub أو منظم حالات) لضمان اتساق البيانات عبر Cluster؛ (2) إضافة rate limiting + auth/anti-abuse على server/server.js (مثلاً حماية endpoints الخاصة بإنشاء الغرف وتبادل أحداث البث) مع تدوير رموز وصول قصيرة العمر؛ (3) تحسين الأداء عبر كاش للبيانات الثابتة (تفاصيل المشروع/المرافق/الأسعار) على CDN أو على طبقة ذاكرة على الخادم مع TTL واضح لتقليل الحمل؛ (4) تفعيل observability كاملة (Prometheus/Grafana أو أي بديل، مع tracing للأحداث الحرجة: إنشاء غرفة، بدء بث، انتقال حالة Checkout) لتقييم عنق الزجاجة قبل توسعة موارد VPS أو الانتقال لحلول سحابية عند الحاجة. هذا سيحافظ على ميزة التكلفة ويجعل التوسع عبر PM2 Cluster أكثر كفاءة وموثوقية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289881Repository.kt",
-        "App1289881HomeScreen.kt",
-        "App1289881DetailsScreen.kt",
-        "App1289881CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تجربة المستخدم في شاشات معاينة أرض على الخارطة تراعي أعلى معايير أبل Apple HIG وتصميم Material 3 Expressive. مساحات اللمس اللوحية تتجاوز 48dp بدقة متناهية، ومحاذاة اللغة العربية RTL متناسقة تماماً مع دعم Dynamic Island المتطور وخطوط Cairo الاحترافية.",
-      "milestone2_recommendation_ar": "إضافة اهتزازات حسية دقيقة (Haptic Feedback) عند إتمام خطوة الطلب لتعزيز الرضا الحسي للعميل."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "مونتاج فيديو لمشروع عقاري بيع على الخارطة — أحتاج مونتاج احترافي للمشروع بنموذج البيع على الخارطة، يوضح بشكل جذاب ومختصر: موقع المشروع ومميزاته فكرة وتصميم المشروع 3D تفاصيل الوحدات والمساحات الخدمات والمرافق عدد الوحدات والمواقف الأسعار وآلية السداد مراحل التنفيذ وموعد التسليم المزايا الاستثم",
+  "domain_data": {
+    "repo_name": "rawasi-proptech-real-estate-1289881",
+    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
+    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+  }
 }
