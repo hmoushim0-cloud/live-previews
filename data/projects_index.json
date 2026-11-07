@@ -585,9 +585,9 @@
   },
   {
     "project_id": "1290113",
-    "app_name": "منصة نمو الذكية لإدارة محتوى إنستغرام",
-    "tagline": "مضاعفة التفاعل والمتابعين آليا عبر استراتيجيات المحتوى التوليدي الموجه",
-    "preset": "standard",
+    "app_name": "تطبيق محور الصناعي — مستقل للمساعدة في نمو حساب ا",
+    "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "preset": "industrial_iot",
     "has_proofs": true,
     "spec_path": "specs/1290113.json"
   },
@@ -2777,8 +2777,8 @@
   },
   {
     "project_id": "1287704",
-    "app_name": "منصة تيست باث لإدارة ونشر التطبيقات",
-    "tagline": "أتمتة الفحص الشامل واختبار التطبيقات لضمان قبول متجري جوجل بلاي وآبل ستور",
+    "app_name": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
     "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1287704.json"
