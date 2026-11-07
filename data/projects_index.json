@@ -1121,9 +1121,9 @@
   },
   {
     "project_id": "1289787",
-    "app_name": "منصة تعاون مونتاج Mahbob",
-    "tagline": "شغّل مونتاج قصصي احترافي يزيد مشاهدة قناة Mahbob ويضمن تسليمًا منتظمًا",
-    "preset": "standard",
+    "app_name": "تطبيق علمي التفاعلي — مطلوب مونتير فيديوهات طويلة",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289787.json"
   },
