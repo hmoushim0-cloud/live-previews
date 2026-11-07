@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T11:15:15.769626+00:00",
+    "updated_at": "2026-11-07T12:10:08.481737+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "363",
+      "value": "364",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1291380",
+      "app_name": "تطبيق ورشة فوري — مطور Flutter لتطوير تطبيق تو",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291380",
+      "stamp_id": "SA-KMP-1291380",
+      "crypto_hash": "sha256-1291380",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1291279",
       "app_name": "تطبيق راصد كاشير — تصميم ملف Excel احترافي لإدا",
@@ -1239,9 +1251,9 @@
     },
     {
       "project_id": "1289896",
-      "app_name": "منصة موشن ومحتوى للتسويق الرقمي",
-      "tagline": "من فكرة الحملة إلى محتوى جاهز يرفع المبيعات ويختصر وقت العمل",
-      "preset": "ecommerce",
+      "app_name": "تطبيق مقر الذكي — مطلوب مسوق إلكتروني لديه خبر",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289896",
       "stamp_id": "SA-KMP-1289896",
       "crypto_hash": "sha256-1289896",
