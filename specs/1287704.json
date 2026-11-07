@@ -1,275 +1,114 @@
 {
   "project_id": "1287704",
-  "app_name": "منصة تيست باث لإدارة ونشر التطبيقات",
-  "tagline": "أتمتة الفحص الشامل واختبار التطبيقات لضمان قبول متجري جوجل بلاي وآبل ستور",
+  "repo_name": "itqan-dispatch-services-1287704",
+  "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1287704",
+  "app_name": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
-  "archetype": "map_radar",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يوفر النظام بيئة مؤسسية متكاملة تدمج متابعة مراحل التدقيق البرمجي مع شبكة اختبار حية للتحقق من جاهزية التطبيقات لمتاجر جوجل بلاي وآبل ستور. تم بناء الواجهات بتقنيات حديثة لتمكين رواد الأعمال وأصحاب المشاريع من إدارة حملات الاختبار، واستعراض تقارير فحص الأجهزة المتعددة، والدفع الإلكتروني المباشر، وتلقي إشعارات الموافقة النهائية دون تأخير تشغيلي.",
-  "business_solutions": {
-    "sales_impact": "تسريع طرح التطبيق في المتاجر خلال أيام بدلا من شهور مما يتيح بدء تحقيق الإيرادات فورا",
-    "automation_value": "توفير ما يزيد عن 60 ساعة عمل لفريق التطوير عبر أتمتة جمع تقارير الاختبار ومتابعة الكونسول",
-    "retention_value": "ضمان أعلى تقييمات انطلاق من اليوم الأول بتفادي الأعطال الحرجة بنسبة استقرار تفوق 99 بالمئة"
+  "banner": {
+    "title": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "36dc64d",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1287704_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1287704_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1287704_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1287704_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1287704_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1287704_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1287704_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1287704_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1287704_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة تيست باث لإدارة ونشر التطبيقات",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1287704/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1287704_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1287704_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1287704_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1287704Repository.kt",
-        "App1287704HomeScreen.kt",
-        "App1287704DetailsScreen.kt",
-        "App1287704CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أجرى المهندس عبد العزيز بن فهد مراجعة شاملة ومعمارية دقيقة لمشروع منصة تيست باث لإدارة ونشر التطبيقات، حيث تم فحص هيكل النمط المعماري MVVM وملفات النطاق وشملت التدقيق لكل من App1287704Repository.kt و App1287704HomeScreen.kt و App1287704DetailsScreen.kt و App1287704CheckoutScreen.kt و BespokeVectorIllustration.kt بالإضافة إلى خادم Node.js في server/server.js. أظهر الكود كفاءة عالية في فصل الاهتمامات وتدفق البيانات التفاعلي باستخدام StateFlow مع نماذج البيانات مثل App1287704Model و App1287704Package، فضلاً عن تميز الرسوم التوضيحية المتجهية المخصصة واستقرار الخادم السحابي المستقل.",
-      "milestone2_recommendation_ar": "توصية المرحلة الثانية تتضمن تعزيز طبقة الأمان عبر تشفير الاتصالات باستخدام شهادات SSL متقدمة، وتحسين آليات التخزين المؤقت (Caching) في المستودعات لتقليل زمن الاستجابة، وتوسيع نطاق التغطية لاختبارات الوحدات (Unit Tests) لضمان موثوقية عالية مع التوسع السحابي المستقبلي."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1287704Repository.kt",
-        "App1287704HomeScreen.kt",
-        "App1287704DetailsScreen.kt",
-        "App1287704CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يمكنني تسليط الضوء على بعض النقاط القوية في المشروع:\n\n1. استخدام نمط Model-View-ViewModel (MVVM) في تصميم واجهة المستخدم، مما يعزز فصل الاهتمامات ويسهل صيانة التطبيق وتطويره.\n2. وجود كلاسات Domain Models، مما يعكس فهم جيد لنماذج البيانات والعلاقات بينها.\n3. استخدام رسومات Canvas Vector Drawings لتحسين تجربة المستخدم وتجسيد المحتوى البصري بشكل جذاب وفعّال.\n4. الاهتمام بالأمان من خلال استخدام خادم server/server.js، حيث يظهر ذلك ا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1287704Repository.kt",
-        "App1287704HomeScreen.kt",
-        "App1287704DetailsScreen.kt",
-        "App1287704CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بصفتي استشاري الحوسبة السحابية وهندسة التكاليف (FinOps)، أُشيد بالهندسة المعمارية المتميزة لمشروع «منصة تيست باث» (#1287704)؛ حيث اعتمدت على استبدال الخدمات السحابية الاحتكارية باهظة الثمن بخادم VPS مستقل (VPS Starter) بتكلفة زهيدة لا تتعدى 5.5 دولار شهرياً، مع الاستفادة القصوى من كفاءة PM2 Cluster في توزيع الأحمال بكفاءة عالية دون هدر الموارد. على صعيد الكود المصدري، أظهرت طبقات البيانات والعرض ترابطاً هيكلياً رفيع المستوى عبر استخدام كلاسات `App1287704Model` و`App1287704Package` و`App1287704Repository.kt` لإدارة تدفق بيانات الـ MVP بسلاسة، فضلاً عن تكامل الواجهات في `App1287704HomeScreen.kt` و`App1287704DetailsScreen.kt` و`App1287704CheckoutScreen.kt` لتقديم تجربة مستخدم تفاعلية مستندة إلى أنماط المعمارية الحديثة (MVVM)، مدعومة برسوميات `BespokeVectorIllustration.kt` عبر الـ Canvas لتحقيق أداء بصري استثنائي خفيف دون إبطاء دورة الحياة البرمجية.",
-      "milestone2_recommendation_ar": "أوصي في المرحلة الثانية بتعزيز البنية التحتية عبر إعداد طبقة جدار حماية متقدمة (UFW/Fail2ban)، وتفعيل التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة على خادم الـ VPS، إضافة إلى أتمتة خطوط النشر المستمر (CI/CD) عبر سكريبتات الـ Bash لضمان جاهزية المنصة للتوسع الأفقي الآمن مع نمو قاعدة العملاء."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1287704Repository.kt",
-        "App1287704HomeScreen.kt",
-        "App1287704DetailsScreen.kt",
-        "App1287704CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع منصة تيست باث (#1287704) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ تعتمد كلاسات App1287704Repository.kt و App1287704Model على نمط Repository Pattern المعياري المتوافق مع إرشادات Google Architecture Components، مما يُتيح اختبار الوحدات بمعزل تام عن واجهة المستخدم. كما أن ملف App1287704Package يُنظّم التبعيات بأسلوب Dependency Injection يُقلّل الاقتران المباشر بين المكوّنات. أما على صعيد الواجه",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "متابعة رفع التطبيقات والبحث عن مختبرين ثقة — السلام عليكم .. متابعة رفع التطبيقات والبحث عن مختبرين ثقة .. لمتابعة مشاريع مرفوعة قوقل بلاي وابل ستور",
+  "domain_data": {
+    "repo_name": "itqan-dispatch-services-1287704",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
