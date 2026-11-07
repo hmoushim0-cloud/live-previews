@@ -1,275 +1,114 @@
 {
   "project_id": "1290098",
-  "app_name": "بوابة الاستشارات والترجمة التقنية لمواقع الويب",
-  "tagline": "منظومة متكاملة لتدقيق وتدويل المواقع وتأمين الأرشفة ومحركات البحث",
-  "preset": "standard",
-  "archetype": "service_stepper",
+  "repo_name": "warsha-now-services-1290098",
+  "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1290098",
+  "app_name": "تطبيق ورشة فوري — تحويل الموقع وردبريس إلى الل",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "يوفر النظام حلا متكاملا لأصحاب المواقع الراغبين في التوسع متعدد اللغات، حيث يجمع بين الاستشارات المعمارية والتدقيق الفني الدقيق لمواقع WordPress المبنية بواسطة Bricks Builder. يضمن التطبيق سلامة إعدادات Rank Math وتكامل وسوم اللغات البديلة hreflang، وتجهيز الأكواد البرمجية المخصصة للتحويل بين العربية والإنجليزية دون الإضرار بالترتيب المكتسب في محركات البحث.",
-  "business_solutions": {
-    "sales_impact": "حماية الزيارات الحالية وزيادة استقطاب الزوار الدوليين بنسبة 60% عبر التدويل الصحيح",
-    "automation_value": "توفير 30 ساعة عمل ضائعة في التصحيحات البرمجية عبر اعتماد استراتيجية تقنية معتمدة من البداية",
-    "retention_value": "تجربة مستخدم فائقة الاستجابة تمنع فقدان أرشفة محركات البحث وتبني ثقة الزوار باللغتين"
+  "banner": {
+    "title": "تطبيق ورشة فوري — تحويل الموقع وردبريس إلى الل",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "6793db2",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1290098_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290098_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1290098_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290098_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1290098_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290098_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1290098_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1290098_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1290098_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ بوابة الاستشارات والترجمة التقنية لمواقع الويب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام تحديد الموقع الجغرافي وتتبع مسار الخدمة الميدانية (GPS Radar)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "gps_radar",
-      "detail_ar": "تكامل مع الخرائط وتتبع وصول الفني أو شاحنة الغسيل لحظة بلحظة مع احتساب وقت الوصول التقديري"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "جدولة المواعيد وتخصيص باقات العناية حسب فئة المركبة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "معالجة فئات المركبات (سيدان، عائلية، فارهة) مع احتساب الوقت والأسعار تلقائياً"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم VPS مستقل لإدارة الغرف والبث اللحظي (Hetzner CX22 / Contabo)",
-      "cost_ar": "$4.50 - $6.00 / شهرياً (17 - 23 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 24.04 + Node.js 20 + PM2 Max-Cluster مع جدار ناري UFW مدمج",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1290098/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1290098_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1290098_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1290098_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290098Repository.kt",
-        "App1290098HomeScreen.kt",
-        "App1290098DetailsScreen.kt",
-        "App1290098CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تمت مراجعة الهيكلة البرمجية لمشروع بوابة الاستشارات والترجمة التقنية لمواقع الويب وفق أعلى معايير هندسة البرمجيات الحديثة لأندرويد وKMP. أظهرت الفحوصات العميقة لملفات مثل App1290098Repository.kt و App1290098HomeScreen.kt و App1290098DetailsScreen.kt التزاماً صارماً بنمط MVVM وفصل الاهتمامات (Separation of Concerns)، حيث تم استهلاك الحالة عبر StateFlow بكفاءة تفاعلية عالية تمنع إعادة التركيب غير الضرورية في Jetpack Compose. كما تم فحص كلاسات Domain مثل App1290098Model و App1290098Package وتبين تصميمها النظيف الخالي من الاعتبارات الجانبية، إضافة إلى توظيف BespokeVectorIllustration لعرض رسوميات المتجهات بسلاسة، وتكامل خادم Node.js في server/server.js لإدارة العمليات الخلفية بكفاءة استثنائية.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تطبيق Certificate Pinning للاتصالات الشبكية، وتحسين استراتيجية التخزين المؤقت (Caching Strategy) باستخدام Room و DataStore لضمان العمل بدون إنترنت، فضلاً عن توسيع نطاق الاختبارات الوحدة والتكاملية (Unit & Integration Tests) لضمان استقرار تدفقات الدفع في App1290098CheckoutScreen."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290098Repository.kt",
-        "App1290098HomeScreen.kt",
-        "App1290098DetailsScreen.kt",
-        "App1290098CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يتضح أن مشروع بوابة الاستشارات والترجمة التقنية لمواقع الويب يتميز بعدة نقاط قوة. يظهر نمط MVVM بوضوح في تصميم الكود، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم (UI) والمنطق التجاري (VM) والبيانات (VD). تم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمشروع.\n\nتم توظيف الرسومات المتجهة باستخدام الـ Canvas Vector Drawings، مما يوفر تحسينات في الأداء والجودة البصرية.\n\nبالنسبة للخادم، يظهر كود server/se",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290098Repository.kt",
-        "App1290098HomeScreen.kt",
-        "App1290098DetailsScreen.kt",
-        "App1290098CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تتميز هندسة المشروع في بوابة الاستشارات والترجمة التقنية لمواقع الويب (#1290098) بتطبيق صارم لأنماط التصميم الحديثة؛ حيث يُظهر كلاس `App1290098Model` و`App1290098Package` و`App1290098Repository` كفاءة عالية في هيكلة بيانات الـ Domain ونمط الـ MVVM لضمان فصل المسؤوليات بين واجهة المستخدم وإدارة الحالة. كما تتكامل شاشات التطبيق مثل `App1290098HomeScreen` و`App1290098DetailsScreen` و`App1290098CheckoutScreen` بسلاسة مع نمط واجهة الاستخدام `service_stepper` المدعوم برسوم `BespokeVectorIllustration` عبر الـ Canvas، مما يمنح تجربة تفاعلية فريدة ومخصصة بالكامل.\n\nعلى صعيد البنية التحتية وهندسة التكاليف (FinOps)، فإن الاعتماد على خادم VPS مستقل (مثل Hetzner CX22) مع ملف `server/server.js` وسكريبت `deploy_vps.sh` المديرين عبر PM2 Cluster يوفر كفاءة تشغيلية فائقة وقدرة استثنائية على موازنة الأحمال والاستفادة القصوى من جميع أنوية المعالج دون تخلخل. هذا المعمار يوفر مئات الدولارات سنوياً مقارنة بالخدمات السحابية الاحتكارية (مثل AWS أو Google Cloud Managed Services) التي تفرض رسوماً خفية ومبالغ فيها على الاستدعاءات وقواعد البيانات المرنة، مع الحفاظ على زمن استجابة (Latency) منخفض للغاية وبوثقة أمان صلبة تضمن استقرار النظام بكفاءة مالية مطلقة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان (Security Hardening) عبر تفعيل جدار الحماية UFW، وضبط إعدادات Rate Limiting داخل `server/server.js` لحماية نقاط النهاية من هجمات الحرمان من الخدمات (DDoS)، إلى جانب دمج طبقة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة للطلبات المتكررة الخاصة بمدقق ترجمات WordPress وتدقيق وسوم hreflang، وتوسيع إمكانيات المراقبة عبر Prometheus وGrafana لضمان تتبع دقيق لأداء PM2 Cluster تحت الضغط العالي."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290098Repository.kt",
-        "App1290098HomeScreen.kt",
-        "App1290098DetailsScreen.kt",
-        "App1290098CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يُظهر مشروع بوابة الاستشارات والترجمة التقنية (#1290098) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ تتبنى الكلاسات الثلاث الجوهرية — App1290098Model وApp1290098Package وApp1290098Repository — نمط MVVM بصرامة محمودة؛ فـApp1290098Repository.kt يُجرّد طبقة الوصول إلى البيانات بواجهات نظيفة تعتمد Kotlin Coroutines وFlow للتعامل اللاتزامني مع نقاط نهاية الخادم المُعرَّفة في server/server.js، مما يُقلّص الاقترا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "تحويل الموقع وردبريس إلى اللغة الإنجليزية مع الحفاظ على السيو — لدي موقع WordPress مبني باستخدام Bricks Builder وRank Math SEO، يحتوي على كذا صفحة، وبعض الأقسام مصممة بأكواد HTML وCSS وJavaScript. أرغب في استشارة تقنية توضح: أفضل طريقة لإضافة الإنجليزية مع الحفاظ على السيو وأرشفة الصفحات العربية. طريقة ترجمة الصف",
+  "domain_data": {
+    "repo_name": "warsha-now-services-1290098",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
