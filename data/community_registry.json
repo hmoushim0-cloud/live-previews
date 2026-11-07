@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T12:10:08.481737+00:00",
+    "updated_at": "2026-11-07T13:16:45.099106+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1395,9 +1395,9 @@
     },
     {
       "project_id": "1289872",
-      "app_name": "منصة موثَق التعليمية",
-      "tagline": "حوّل شرح خدماتك إلى فيديو تعليمي يرفع المبيعات عبر تتبع واضح للخطوات",
-      "preset": "standard",
+      "app_name": "تطبيق قلم الأكاديمية — إنتاج فيديو تعريفي وتعليمي ل",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289872",
       "stamp_id": "SA-KMP-1289872",
       "crypto_hash": "sha256-1289872",
@@ -1419,9 +1419,9 @@
     },
     {
       "project_id": "1289860",
-      "app_name": "منصة حجز صالونات التجميل النسائية السعودية",
-      "tagline": "حوّل الاستفسارات إلى حجوزات بسرعة عبر منصة حجز صالونات التجميل النسائية",
-      "preset": "services",
+      "app_name": "تطبيق نرجس سبا — مندوبة تواصل مع صالونات تجمي",
+      "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+      "preset": "beauty_salon",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289860",
       "stamp_id": "SA-KMP-1289860",
       "crypto_hash": "sha256-1289860",

@@ -897,9 +897,9 @@
   },
   {
     "project_id": "1289872",
-    "app_name": "منصة موثَق التعليمية",
-    "tagline": "حوّل شرح خدماتك إلى فيديو تعليمي يرفع المبيعات عبر تتبع واضح للخطوات",
-    "preset": "standard",
+    "app_name": "تطبيق قلم الأكاديمية — إنتاج فيديو تعريفي وتعليمي ل",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289872.json"
   },
@@ -913,9 +913,9 @@
   },
   {
     "project_id": "1289860",
-    "app_name": "منصة حجز صالونات التجميل النسائية السعودية",
-    "tagline": "حوّل الاستفسارات إلى حجوزات بسرعة عبر منصة حجز صالونات التجميل النسائية",
-    "preset": "services",
+    "app_name": "تطبيق نرجس سبا — مندوبة تواصل مع صالونات تجمي",
+    "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+    "preset": "beauty_salon",
     "has_proofs": true,
     "spec_path": "specs/1289860.json"
   },
