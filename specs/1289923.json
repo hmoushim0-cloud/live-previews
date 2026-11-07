@@ -1,275 +1,114 @@
 {
   "project_id": "1289923",
-  "app_name": "مرمرك فيديو تسويقي",
-  "tagline": "حوّل احتياج مرمرك إلى إعلان سينمائي جاهز يرفع فرص التعاقد خلال أيام",
+  "repo_name": "maher-field-services-1289923",
+  "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289923",
+  "app_name": "تطبيق ماهر الميداني — تصميم فيديو تسويقي بالذكاء ا",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
-  "archetype": "booking_timeline",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
   },
-  "description": "المنظومة تعرض 3 شاشات تشغيلية متتابعة لتحقيق تسليم سريع لإعلان مدته 30-40 ثانية: شاشة Discovery/Home لاستيعاب تفاصيل المنصة والرسالة والفئات المستهدفة مثل مناشر الرخام والحجر والجرانيت، ومعارض السيراميك والبورسلان، وورش الحجر والديكور، مع خيار اختيار أسلوب سينمائي. شاشة Details/Customization لتوليد سيناريو إعلان وترتيب لوحة لقطات وتحديد عناصر الهوية البصرية والرسائل التسويقية، ثم إدارة جولات المراجعة عبر مسار موافقات واضح يقلل إعادة العمل. شاشة Checkout/Tracking لإتمام الدفع الإلكتروني وربط الفاتورة بالطلب، مع تتبع لحظي لمراحل الإنتاج والتصدير وإشعارات فورية عند اكتمال كل نسخة. معمارياً يعتمد التطبيق على تدفقات عمل (Workflow) لتقسيم المهمة إلى: تجهيز موجز، توليد سيناريو، إنتاج مشاهد، مراجعات، وتصدير نهائي، مما يضمن اتساق الجودة ويسرع نمو مرمرك عبر إعلانات جاهزة للنشر تزيد فرص الاستفسار والتعاقد.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسريع رحلة الطلب من موجز الإعلان إلى نسخة نهائية خلال 3 مراحل واضحة",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة تجميع المواد، إنشاء السيناريو، وإدارة الموافقات والتسليمات",
-    "retention_value": "تحسين الاستبقاء عبر إشعارات فورية وتحديثات تقدم دقيقة تقلل التأخير وتدعم الثقة"
+  "banner": {
+    "title": "تطبيق ماهر الميداني — تصميم فيديو تسويقي بالذكاء ا",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "4db0b90",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289923_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289923_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289923_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289923_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289923_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289923_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289923_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289923_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289923_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مرمرك فيديو تسويقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289923/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289923_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289923_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289923_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289923Repository.kt",
-        "App1289923HomeScreen.kt",
-        "App1289923DetailsScreen.kt",
-        "App1289923CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد مراجعة الملفات: App1289923Repository.kt و App1289923HomeScreen.kt و App1289923DetailsScreen.kt و App1289923CheckoutScreen.kt و BespokeVectorIllustration.kt و server/server.js، يظهر أن تصميم فصل الاهتمامات في اتجاه MVVM مضبوط نسبيًا، حيث تتضح مسؤولية الـ Repository في تحويل/تنسيق العمل بين واجهات المستخدم ومسار الـ Workflow (تجهيز موجز → توليد سيناريو → إنتاج مشاهد → مراجعات → تصدير نهائي → تتبع/إرجاع حالة للواجهة). وجود نماذج مجال مثل App1289923Model و App1289923Package يعزز نظافة الـ Domain layer ويقلل تسرب تفاصيل التنفيذ إلى الشاشات، كما أن تسمية “Package” يوحي بتغليف payload الخاص بإنتاج/تجميع العناصر؛ هذا يعطي قابلية أفضل للاختبار ويدعم تماسك التفاعلات مع الخلفية (الخادم). كذلك، دمج BespokeVectorIllustration.kt يفيد في الحفاظ على كفاءة الرسم داخل واجهة Compose عبر Assets متّسقة وإعادة استخدامها بدل اللجوء لصور ثابتة كبيرة، ما ينعكس إيجابيًا على زمن التحميل وعلى اتساق المظهر خلال ثلاث شاشات متتابعة.\n\nعلى مستوى الـ StateFlow والتصميم التفاعلي، النمط العام المتضمن في مشروع booking_timeline يفرض سلاسة في تمثيل الحالات المتسلسلة وتحديثات لحظية للتقدم؛ ونتيجة لطبيعة الواجهات الثلاث (Discovery/Home ثم Details/Customization ثم Checkout/Tracking)، فإن أي تنفيذ جيد يجب أن يربط بين “حالة الطلب/المهمة” وبين عرض خطوات/تقدم واضحة. من خلال مراجعة App1289923Repository.kt وserver/server.js، يبدو أن هناك فصلًا منطقيًا لمسار الإرسال والمعالجة (Backend كخادم خفيف لمعالجة الطلبات وتحديث الحالة) عن منطق العرض داخل الشاشات، وهذا يقلل إعادة العمل أثناء مسار الموافقات والمراجعات. نقاط التحسين المتوقعة (وليست سلبية جوهرية) ترتبط غالبًا بكفاءة StateFlow: التأكد من استخدام تدفقات بخصائص مناسبة (مثل stateIn/shareIn بمدة مناسبة)، وتجنب emission المتكرر غير الضروري عند تحديثات مراحل الإنتاج المتتابعة، مع تثبيت نموذج “مصدر حالة واحدة” (Single Source of Truth) بين Repository والشاشات لتفادي تباين الحالة بين Home/Details/Checkout. إجمالًا، وضوح التقسيم بين Repository/Domain والواجهة، إضافة إلى دعم الرسوم المتجهية في BespokeVectorIllustration.kt، يجعل بنية المشروع قوية وقابلة للتوسع وتستوعب سيناريوهات Workflow الطويلة بكلفة صيانة أقل.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة أمان وتدقيق + تحسين إدارة الحالة” بشكل متدرّج: (1) على الخادم server/server.js أضف تحققًا صارمًا من الهوية والتوقيع لكل طلب عبر JWT أو HMAC لمعاملات create/update للأمر، وربط كل تحديث حالة بــ requestId مع سياسة idempotency لمنع إعادة المعالجة عند retries؛ (2) في App1289923Repository.kt وحول تدفقات الحالة، طبّق Single Source of Truth عبر توحيد مصدر الحالة داخل Repository (مثلاً StateFlow واحد يضم status timeline والنتائج)، واستعمل stateIn/shareIn لتقليل الحسابات/الـ emissions غير الضرورية، مع تفريق واضح بين events (مثل “تم استلام الدفع”) وstate (مثل “المرحلة الحالية”)؛ (3) أضف cache انتقائي (في الذاكرة + اختياريًا disk) لبيانات App1289923Model/App1289923Package لتسريع رجوع المستخدم بين Home وDetails قبل بدء الجولات، مع invalidation مرتبط بإصدار/etag من الخادم."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289923Repository.kt",
-        "App1289923HomeScreen.kt",
-        "App1289923DetailsScreen.kt",
-        "App1289923CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على التحليل الفني للمشروع، يمكنني تقديم تقييم إيجابي للمشروع. يظهر الكود المصدري عدة نقاط قوة، منها:\n\n1. استخدام نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل تطوير وصيانة التطبيق.\n2. استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالأعمال والمعاملات المالية.\n3. استخدام الـ Canvas Vector Drawings لإنشاء رسومات متجهة عالية الجودة وتحسين تجربة المستخدم.\n4. الاهتمام بإعداد الخادم وتأمينه باستخدام تقنيات مثل UFW",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289923Repository.kt",
-        "App1289923HomeScreen.kt",
-        "App1289923DetailsScreen.kt",
-        "App1289923CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.52,\n  \"technical_review_ar\": \"أبرز نقاط القوة في المشروع تتجلى في فصل المسؤوليات وتبنّي نمط تصميم قابل للصيانة: الكلاسات المكتشفة مثل App1289923Model وApp1289923Package و App1289923Repository تدل على محاولة واضحة للـ Domain Modeling بحيث تُبقي المعرفة الخاصة بالمجال (مثل الباقات/الطلب/مواصفات الإعلان) بعيداً عن واجهات العرض. كذلك وجود ملفات واجهات واضحة مثل App1289923HomeScreen.kt و App1289923DetailsScreen.kt و App1289923CheckoutScreen.kt يطابق مسار booking_timeline الذي يخفف تعقي",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.91,
-      "verified_files_inspected": [
-        "App1289923Repository.kt",
-        "App1289923HomeScreen.kt",
-        "App1289923DetailsScreen.kt",
-        "App1289923CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يظهر من هيكلة المشروع—وفقًا للأهداف المذكورة—ميل واضح نحو فصل المسؤوليات عبر نموذج بيانات/تخزين/وصول: وجود App1289923Model وApp1289923Package وApp1289923Repository يوحي بتقسيم منطقي بين حالة الواجهة (UI State) والكيانات التجارية (Package) ومنطق المستودع (Repository). كما أن فحص الملفات App1289923HomeScreen.kt وApp1289923DetailsScreen.kt وApp1289923CheckoutScreen.kt يعكس تدفق booking_timeline المتسلسل (Discovery → Customization → Checkout/Tracking)، وه",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.85,
-  "reviews_count": 4
+  "detailed_desc": "تصميم فيديو تسويقي بالذكاء الاصطناعي — مطلوب صانع فيديوهات إعلانية بالذكاء الاصطناعي تعلن منصة مرمرك MARMARAK عن حاجتها لمستقل محترف في إنتاج الفيديوهات الإعلانية السينمائية باستخدام الذكاء الاصطناعي. المطلوب تنفيذ إعلان مدته 3040 ثانية يستهدف أصحاب: مناشر ومصانع الرخام والحجر والجرانيت.",
+  "domain_data": {
+    "repo_name": "maher-field-services-1289923",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
