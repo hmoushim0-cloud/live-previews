@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T13:16:45.099106+00:00",
+    "updated_at": "2026-11-07T14:14:13.773485+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "364",
+      "value": "365",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -81,6 +81,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291271",
       "stamp_id": "SA-KMP-1291271",
       "crypto_hash": "sha256-1291271",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291241",
+      "app_name": "تطبيق بنيان للصكوك — مطور Full Stack ذو خبرة للعم",
+      "tagline": "منظومة real_estate المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "real_estate",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291241",
+      "stamp_id": "SA-KMP-1291241",
+      "crypto_hash": "sha256-1291241",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
@@ -1143,9 +1155,9 @@
     },
     {
       "project_id": "1289917",
-      "app_name": "منصة تقارير إنجازات موستاكل",
-      "tagline": "حوّل إنجازاتك إلى تقارير عصرية تزيد التفاعل وتدعم النمو التجاري",
-      "preset": "standard",
+      "app_name": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
+      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289917",
       "stamp_id": "SA-KMP-1289917",
       "crypto_hash": "sha256-1289917",

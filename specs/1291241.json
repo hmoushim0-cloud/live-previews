@@ -1,0 +1,114 @@
+{
+  "project_id": "1291241",
+  "repo_name": "bunyan-deeds-real-estate-1291241",
+  "repo_url": "https://github.com/hmoushim0-cloud/bunyan-deeds-real-estate-1291241",
+  "app_name": "تطبيق بنيان للصكوك — مطور Full Stack ذو خبرة للعم",
+  "tagline": "منظومة real_estate المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "real_estate",
+  "layout_type": "real_estate",
+  "layoutArchetype": "real_estate",
+  "theme": {
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
+  },
+  "banner": {
+    "title": "تطبيق بنيان للصكوك — مطور Full Stack ذو خبرة للعم",
+    "subtitle": "منظومة real_estate المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "real_estate",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "11176ac",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291241_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291241_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291241_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291241_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291241_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291241_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مطور Full Stack ذو خبرة للعمل على نظام إدارة المخزون الحالي وتنفيذ مجموعة من التحسينات. نبحث عن مطور Full Stack ذو خبرة للعمل على نظام إدارة المخزون الحالي لدينا وتنفيذ مجموعة من التحسينات والتعديلات المطلوبة الموقع الإلكتروني تم تطويره بالفعل ويحتوي على قاعدة برمجية ووظائف قائمة لذلك نبحث عن شخص قادر على فهم البنية الحالية للنظام وإجراء التعديلات",
+  "domain_data": {
+    "repo_name": "bunyan-deeds-real-estate-1291241",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
+}
