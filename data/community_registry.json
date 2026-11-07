@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T10:09:35.838600+00:00",
+    "updated_at": "2026-11-07T11:15:15.769626+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1203,9 +1203,9 @@
     },
     {
       "project_id": "1289904",
-      "app_name": "متجر IPTV المحسن للتسويق والبحث",
-      "tagline": "نرفع ظهور متجر IPTV في Google ونحوّل الزيارات المستهدفة إلى مبيعات قابلة للقياس",
-      "preset": "ecommerce",
+      "app_name": "تطبيق راصد كاشير — مسوق إلكتروني خبير في مجال م",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289904",
       "stamp_id": "SA-KMP-1289904",
       "crypto_hash": "sha256-1289904",
@@ -1251,8 +1251,8 @@
     },
     {
       "project_id": "1289895",
-      "app_name": "مستقل للتعديلات الشهرية على تطبيقات الجوال",
-      "tagline": "تعديلات شهرية مضمونة لتطبيقاتك وواجهة الهبوط مع جودة تشغيل واستمرارية",
+      "app_name": "تطبيق إنجاز للخدمات — مطلوب مبرمج لاستلام والتعديل",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289895",
       "stamp_id": "SA-KMP-1289895",
