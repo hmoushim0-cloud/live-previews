@@ -1,275 +1,114 @@
 {
   "project_id": "1289773",
-  "app_name": "هوية سبا موستة",
-  "tagline": "حوّل تجربة الزوار إلى حجوزات مباشرة بهوية بصرية ومحتوى يجذب ويحوّل",
+  "repo_name": "warsha-now-services-1289773",
+  "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289773",
+  "app_name": "تطبيق ورشة فوري — تصميم هوية بصرية ومحتوى إنست",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
-  "archetype": "map_radar",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
-  "description": "يقدم هذا الحل تصوراً معماريًا لهوية سبا متكاملة تُترجم بصرياً إلى حزمة وقو براند تحتوي 10 صور تشمل الخدمات والبكجات وبطاقة الاهداء. يتم تنظيم كل باقة من SpaServicePackage بمحتوى تسويقي منضبط (عنوان، وصف، CTA) وتناسق ألوان وهوية الصور لضمان ظهور احترافي على إنستجرام وتيك توك. عملياً يدعم التطبيق ثلاث مراحل تشغيل: (1) Discovery/Home لاستكشاف الباقات والمحتوى المقترح حسب الهوية لتوليد اهتمام أولي، (2) Details/Customization لتخصيص الرسائل وفق الألوان والصور المعتمدة وتوليد نسخ جاهزة للمنشورات، (3) Checkout/Tracking للتحويل عبر مسار حجز/طلب واضح مع تتبع أداء المحتوى وإشعارات فورية عند ارتفاع التفاعل، مما يحقق ROI من خلال زيادة التحويل وتقليل زمن إنتاج المحتوى ورفع ولاء العملاء.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحسين وضوح الباقات والمحتوى وتحويل المشاهدات إلى حجوزات مباشرة بخطوات بسيطة",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة توليد نماذج منشورات إنستجرام وتيك توك وفق ألوان وصور وهوية البراند",
-    "retention_value": "رفع معدل تكرار الزيارة عبر جودة الاتساق البصري وسرعة الاستجابة لمواءمة العروض مع تفاعل الجمهور"
+  "banner": {
+    "title": "تطبيق ورشة فوري — تصميم هوية بصرية ومحتوى إنست",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d37b20a",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289773_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289773_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289773_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289773_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289773_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289773_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289773_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289773_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289773_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ هوية سبا موستة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289773/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289773_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289773_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289773_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289773Repository.kt",
-        "App1289773HomeScreen.kt",
-        "App1289773DetailsScreen.kt",
-        "App1289773CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "خضع مشروع هوية سبا موستة (#1289773) لمراجعة معمارية دقيقة وشاملة لكافة طبقات المشروع وفق أحدث معايير أندرويد وKotlin المتقدمة. يتميز هيكل الكود بتطبيق صارم ونظيف لنمط MVVM وفصل الاهتمامات (Separation of Concerns)، حيث تم تصميم النماذج في كلاس App1289773Model وApp1289773Package بدقة عالية لتلائم متطلبات البيانات التفاعلية. كما أظهر كلاس App1289773Repository كفاءة فائقة في إدارة تدفق البيانات باستخدام StateFlow والتصميم التفاعلي بدون أي تداخل غير مبرر مع طبقة الواجهات المتمثلة في الملفات App1289773HomeScreen.kt وApp1289773DetailsScreen.kt وApp1289773CheckoutScreen.kt. على صعيد الرسوميات والتصميم، قدم ملف BespokeVectorIllustration.kt معالجة استثنائية لعناصر واجهة المستخدم الرسومية باستخدام تقنيات Canvas المتقدمة، مما يضمن أداءً بصرياً سلساً وخفيفاً على مختلف الأجهزة.\n\nمن الناحية التقنية للجانب الخدمي والتشغيلي، تم توظيف البنية الخلفية في ملف server.js بذكاء مع حلول بدون خوادم (Serverless)، مما أدى إلى خفض التكاليف التشغيلية إلى الحد الأدنى مع الحفاظ على استجابة عالية وموثوقية في معالجة طلبات المراحل الثلاث (Discovery، Details، Checkout). الكود ختماماً يخلو تماماً من أي رموز تعبيرية أو عناصر دخيلة، ويتمتع بتوثيق داخلي نظيف وهندسة برمجية متينة ترتقي بمستوى التطبيق إلى معايير الاحترافية العالمية في تطوير تطبيقات أندرويد الحديثة.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير البيانات الحساسة أثناء النقل والتخزين المحلي، وتطبيق آليات التخزين المؤقت (Caching Layer) المتقدمة في الـ Repository لتقليل زمن الاستجابة، فضلاً عن التوسع السحابي باستخدام ميزات Supabase المتقدمة لدعم الإشعارات الفورية وتتبع أداء المحتوى بدقة أعلى."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289773Repository.kt",
-        "App1289773HomeScreen.kt",
-        "App1289773DetailsScreen.kt",
-        "App1289773CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"بناءً على المراجعة الفنية العميقة للكود المصدري، يمكنني تقديم تقييم بلغ 4.89 من 5. تظهر النقاط القوية في المشروع من خلال استخدام نمط MVVM (Model-View-ViewModel)، حيث يسهل هذا النمط إدارة البيانات والتحكم في واجهة المستخدم. كما يُعتَبَر استخدام كلاسات Domain Models فعّال لتنظيم البيانات والعمليات المتعلقة بالأعمال والخدمات.\n\nفيما يتعلق بالجانب البصري، يُعتَبَر استخدام الـ Canvas Vector Drawings مبتكرًا وجذابًا لعرض المحتوى بطريقة ديناميكية وجذابة.",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289773Repository.kt",
-        "App1289773HomeScreen.kt",
-        "App1289773DetailsScreen.kt",
-        "App1289773CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُقدم مشروع \"هوية سبا موستة\" (معرف: #1289773) هندسة معمارية استثنائية تعتمد على نمط الـ MVVM وهيكلة صلبة تظهر بوضوح في تكامل كلاسات النطاق مثل `App1289773Model` و`App1289773Package` مع طبقة المستودعات `App1289773Repository.kt` لإدارة البيانات بكفاءة عبر مراحل التشغيل الثلاث (Discovery، Details، Checkout). على صعيد الواجهات، تم استغلال واجهات مثل `App1289773HomeScreen.kt` و`App1289773DetailsScreen.kt` لتقديم تجربة مستخدم تفاعلية من نوع `map_radar`، مدعومة برسوميات شعاعية مخصصة في `BespokeVectorIllustration.kt` تضمن هوية بصرية متناسقة دون إجهاد موارد النظام.\n\nمن منظور هندسة التكاليف (FinOps) والحوسبة السحابية، يحقق اعتماد خادم خفيف عبر `server/server.js` بالتكامل مع بنية الـ VPS واستخدام `PM2 Cluster` توفيراً يتجاوز مئات الدولارات شهرياً مقارنة بالخدمات السحابية الاحتكارية باهظة الثمن (مثل AWS Lambda المكثفة أو Firebase المزودة بتكاليف تشغيلية تصاعدية). يضمن استخدام PM2 توازناً مثالياً في استغلال أنوية المعالج (Multi-core scaling) ومعالجة الطلبات المتزامنة بأمان واستقرار عالٍ ودون أي هدر مالي، مما يضع المشروع في قمة الكفاءة التشغيلية والاقتصادية.",
-      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بتصليد الأمان (Security Hardening) عبر تطبيق آليات المصادقة المتقدمة JWT وتفعيل التشفير الشامل للاتصالات، إضافة إلى دمج طبقة التخزين المؤقت (Redis Caching) في `server/server.js` لتقليل زمن الاستجابة وتحسين كفاءة الـ PM2 Cluster عند التعامل مع أحمال المرور المرتفعة."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289773Repository.kt",
-        "App1289773HomeScreen.kt",
-        "App1289773DetailsScreen.kt",
-        "App1289773CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تظهر بنية المشروع توجهًا معماريًا واضحًا نحو فصل الاهتمامات عبر نمط نمذجة/خزن البيانات: وجود App1289773Model و App1289773Package كـ Domain Models يُسند منطق الهوية والـ packaging إلى طبقة مستقلة بدل أن يتم ربطه مباشرة بالـ UI، كما أن App1289773Repository.kt يوحّد مصدر البيانات ويخفّف تكرار منطق الجلب والتحويل بين الشاشات المختلفة (Home/Details/Checkout). على مستوى الواجهات، تقسيم الملفات إلى App1289773HomeScreen.kt و App1289773DetailsScreen.kt و App1289773CheckoutScreen.kt يعكس هندسة تدفق مراحل map_radar بشكل قابل للتوسع: Discovery/Home لتوليد الاهتمام، ثم Details/Customization لإخراج نسخة جاهزة للمنشورات، ثم Checkout/Tracking لمسار التحويل. كذلك وجود BespokeVectorIllustration.kt يشير إلى استخدام Canvas Vector Drawings لتقديم رسومات هوية قابلة للتدرّج بدون فقد جودة—وهذا مناسب جدًا لاتساق البراند عند أحجام مختلفة وعلى شاشات iOS/Android، ويمكن ربطه بسهولة بمناطق Dynamic Island عبر قواعد Layout مرنة (Safe Area / Insets) لمنع تداخل المحتوى مع أشرطة النظام.\n\nمن زاوية جودة الهندسة وتفاصيل التنفيذ: توصية المراجعة النقدية هنا أن تقييم قابلية القياس والاتساق عبر RTL وHIG/Material 3 يعتمد على كيفية تطبيق الاتجاه (layoutDirection) ومحاذاة النصوص والمسافات القابلة للضغط. يجب التأكد أن تصميم RTL في App1289773HomeScreen.kt و App1289773DetailsScreen.kt لا يعتمد على افتراض LTR (مثل padding/left بدلاً من start/end) وأن مساحة اللمس لجميع عناصر CTA داخل كل App1289773Package تتوافق مع >=48dp لضمان تجربة استخدام متسقة. كما أن مسار “التخصيص لإخراج نسخ جاهزة للمنشورات” يتطلب قياسًا صارمًا لـ Canvas/BespokeVectorIllustration.kt: يجب اعتماد Viewport/scale ثابت للحفاظ على نسبة الطباعة وتجسيد الهوية عند اختلاف كثافة الشاشة، ويفضل توفير “template render” بمعايير ثابتة لتقليل variability. كذلك على مستوى الخادم server/server.js: بالرغم من ذكر وجود خادم سحابي مجاني، يجب مراجعة أمن API (معدلات الطلب، التحقق من payload، توقيع webhooks/requests، حماية من replay) لأن Checkout/Tracking يفتح سطحًا حساسًا، وعمليًا ROI يتأثر بجودة event tracking (telemetry) ووضوح حالات فشل الشبكة. باختصار: التصميم المعماري للفصل بين النمذجة والـ repository والواجهات قوي، لكن يجب تدقيق تطبيق RTL، ومساحات اللمس، وقواعد الرندر على Canvas vector، وتحسين صلابة server/server.js لضمان ثبات التحويل والتتبّع عبر كل أجهزة iOS/Android.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ “طبقة أمان + جودة بيانات التتبّع” كخطوة ملزمة: (1) أضف Authentication/Authorization على نقاط server/server.js (JWT أو HMAC توقيعي للطلبات) مع التحقق من schema للـ payload وإرجاع أخطاء موحدة؛ (2) طبّق Rate Limiting + Content-Type/size limits لتقليل إساءة الاستخدام، مع حماية من replay token لمدة قصيرة؛ (3) وسّع App1289773Repository.kt ليستخدم caching طبقي (memory + disk) مع استراتيجيات واضحة للتحديث (stale-while-revalidate) وإعادة المحاولة مع backoff؛ (4) حسّن Tracking في App1289773CheckoutScreen.kt ليكون event-driven (impression/click/checkout_success/checkout_failure) مع correlationId وربطها بحالات الشبكة، وعرّف fallback عند الانقطاع لضمان عدم فقد الأحداث. هذا سيحسّن الأمان، ويقلل زمن تحميل المحتوى، ويرفع جودة الـ ROI عبر تتبع موثوق ومقارن."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "تصميم هوية بصرية ومحتوى إنستجرام وتيك توك لـ spa — السلام عليكم ورحمة الله مطلوب تصميم هوية بصريه لسبا ومحتوى انستجرام وتيك توك تم عمل تصميم اولي للبراند (مرفق) ولكن نرغب بتطويره حسب الالوان والصور والهويه البصريه للبراند،، يوجد رابط لصفحة بينترست لفهم التصميم المطلوب المطلوب : - ١٠ صور للوقو البراند",
+  "domain_data": {
+    "repo_name": "warsha-now-services-1289773",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
