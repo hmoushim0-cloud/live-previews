@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T00:06:55.586567+00:00",
+    "updated_at": "2026-11-07T01:16:17.696104+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1563,9 +1563,9 @@
     },
     {
       "project_id": "1289813",
-      "app_name": "متجر سلة لإدارة أزرار واتساب وإتمام الطلب",
-      "tagline": "تحكم كامل في أزرار واتساب داخل متجر سلة لتقليل التشويش وزيادة التحويلات",
-      "preset": "ecommerce",
+      "app_name": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289813",
       "stamp_id": "SA-KMP-1289813",
       "crypto_hash": "sha256-1289813",
@@ -1575,9 +1575,9 @@
     },
     {
       "project_id": "1289812",
-      "app_name": "بوابة متجركم الذكية",
-      "tagline": "تسريع نمو مبيعات متجركم عبر تكاملات OAuth وWebhooks",
-      "preset": "ecommerce",
+      "app_name": "تطبيق مقر الذكي — مبرمج ممثل تقني لاجتماع مراج",
+      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289812",
       "stamp_id": "SA-KMP-1289812",
       "crypto_hash": "sha256-1289812",
@@ -1587,9 +1587,9 @@
     },
     {
       "project_id": "1289811",
-      "app_name": "متجر النخبة للمنتجات",
-      "tagline": "متجر احترافي يرفع مبيعاتك ويختصر وقت إدارة الطلبات",
-      "preset": "ecommerce",
+      "app_name": "تطبيق سجل زاتكا — إنشاء متجر إلكتروني — انشاء",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289811",
       "stamp_id": "SA-KMP-1289811",
       "crypto_hash": "sha256-1289811",

@@ -1009,25 +1009,25 @@
   },
   {
     "project_id": "1289813",
-    "app_name": "متجر سلة لإدارة أزرار واتساب وإتمام الطلب",
-    "tagline": "تحكم كامل في أزرار واتساب داخل متجر سلة لتقليل التشويش وزيادة التحويلات",
-    "preset": "ecommerce",
+    "app_name": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289813.json"
   },
   {
     "project_id": "1289812",
-    "app_name": "بوابة متجركم الذكية",
-    "tagline": "تسريع نمو مبيعات متجركم عبر تكاملات OAuth وWebhooks",
-    "preset": "ecommerce",
+    "app_name": "تطبيق مقر الذكي — مبرمج ممثل تقني لاجتماع مراج",
+    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1289812.json"
   },
   {
     "project_id": "1289811",
-    "app_name": "متجر النخبة للمنتجات",
-    "tagline": "متجر احترافي يرفع مبيعاتك ويختصر وقت إدارة الطلبات",
-    "preset": "ecommerce",
+    "app_name": "تطبيق سجل زاتكا — إنشاء متجر إلكتروني — انشاء",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289811.json"
   },
