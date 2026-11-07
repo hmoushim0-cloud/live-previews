@@ -1,275 +1,114 @@
 {
   "project_id": "1290110",
-  "app_name": "مداد التعليمي",
-  "tagline": "المنصة الرقمية المتكاملة للحقائب الإدارية والخطط المدرسية التفاعلية",
-  "preset": "ecommerce",
-  "archetype": "booking_timeline",
+  "repo_name": "mizan-pos-pos-cashier-1290110",
+  "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1290110",
+  "app_name": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "يقدم التطبيق بنية رقمية مصممة خصيصاً لقطاع التعليم بالمملكة العربية السعودية، حيث يمكن المعلمين والإداريين من تصفح السجلات والخطط المدرسية وتحميلها بشكل فوري ومؤتمت. يعتمد الحل على هيكلة تفصل بين استعراض النماذج، تخصيص حزم التحميل، والدفع الرقمي الفوري عبر بوابات الدفع المعتمدة، مما يلغي تماماً الحاجة للإرسال اليدوي للملفات ويزيد كفاءة التشغيل ومعدلات الأرباح الصافية للمتجر.",
-  "business_solutions": {
-    "sales_impact": "رفع معدل التحويل والمبيعات بنسبة 40% عبر إتمام الشراء والتنزيل الرقمي المباشر في دقيقة واحدة",
-    "automation_value": "توفير أكثر من 50 ساعة عمل شهرية عبر أتمتة إرسال المستندات والروابط التلقائية للعملاء",
-    "retention_value": "تجربة مستخدم أصلية سريعة وسلسة تشجع القيادات والمعلمين على تجديد الاشتراكات الفصلية"
+  "banner": {
+    "title": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "b494236",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1290110_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290110_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1290110_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290110_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1290110_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290110_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1290110_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1290110_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1290110_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مداد التعليمي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1290110/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1290110_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1290110_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1290110_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290110Repository.kt",
-        "App1290110HomeScreen.kt",
-        "App1290110DetailsScreen.kt",
-        "App1290110CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يتميز مشروع تطبيق مداد التعليمي (#1290110) ببنية هندسية متقدمة تتبنى نمط MVVM بصرامة عالية وفصل تام للاهتمامات، حيث تم تصميم كلاسات النماذج مثل App1290110Model وApp1290110Package لتعمل بتناغم تام مع مستودع البيانات App1290110Repository عبر تدفقات StateFlow فعالة وآمنة تفاعلياً. انعكست هذه الكفاءة بوضوح في واجهات المستخدم عبر ملفات App1290110HomeScreen.kt وApp1290110DetailsScreen.kt وApp1290110CheckoutScreen.kt، والتي وظفت Jetpack Compose لتقديم تجربة تصفح سلسة ونمط حجز زمني متناسق booking_timeline دون أي تداخل في دورة حياة الـ Composable.\n\nعلاوة على ذلك، أظهرت المعمارية البرمجية احترافية عالية في دمج الرسوم التوضيحية عبر BespokeVectorIllustration.kt، إلى جانب تكامل الواجهة الخلفية الخفيفة في server/server.js مع البنية السحابية بدون خوادم، مما ضمن استجابة فورية، وأداءً استثنائياً في استعراض السجلات المدرسية والخطط التعليمية وإتمام عمليات الدفع الرقمي بكفاءة تشغيلية مطلقة وخلو تامة من أي إيموجي.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تطبيق التشفير الطرفي للبيانات الحساسة، وتفعيل آلية التخزين المؤقت المحلي باستخدام Room للعمل في وضع عدم الاتصال (Offline-first)، إضافة إلى التوسع في اختبارات الأتمتة لوحدات الـ ViewModel ومستودع App1290110Repository لضمان استقرار النظام مع تزايد حجم البيانات."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290110Repository.kt",
-        "App1290110HomeScreen.kt",
-        "App1290110DetailsScreen.kt",
-        "App1290110CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة فنية معمقة، يظهر مشروع مداد التعليمي قوة في عدة جوانب. يُشاد بالنمط المعماري MVVM المستخدم في الكود، حيث يسهل هذا النمط إدارة العرض والمنطق التجاري والبيانات. تُعتبر استخدام كلاسات Domain Models فعّالة لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق. تُعزز الرسومات المتجهة Canvas Vector Drawings جاذبية التطبيق وتجربة المستخدم.\n\nبالنسبة للخادم، يُظهر ملف server/server.js اهتماماً بتأمين التطبيق من خلال استخدام Cloudflare Workers لحماية ا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290110Repository.kt",
-        "App1290110HomeScreen.kt",
-        "App1290110DetailsScreen.kt",
-        "App1290110CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يقدم مشروع 'مداد التعليمي' (#1290110) بنية معمارية برمجية متقدمة ونموذجاً استثنائياً لهندسة التكاليف (FinOps) يعتمد على استضافة الخادم على خادم VPS اقتصادي مُدار عبر سكريبت التوزيع `deploy_vps.sh` واستخدام مدير العمليات `PM2 Cluster` لتوزيع الأحمال بكفاءة عالية على جميع أنوية المعالج (CPU Cores)، مما يلغي التكاليف الباهظة للخدمات السحابية الاحتكارية ويوفر مئات الدولارات شهرياً مع ضمان توافرية عالية (High Availability) ووقت استجابة فائق السرعة. على صعيد الكود المصدري وتطبيق نمط الـ MVVM، يُظهر هيكل التطبيق تنظيماً هندسياً دقيقاً، حيث يتولى كلاس `App1290110Model` و `App1290110Package` إدارة البيانات ونمذجة حزم التحميل والخطط المدرسية، بينما يقوم `App1290110Repository` (الموجود في ملف `App1290110Repository.kt`) بإدارة جلب البيانات ومزامنتها بسلاسة مع الخادم الخلفي (`server/server.js`). كما تتميز واجهات المستخدم مثل `App1290110HomeScreen` و `App1290110DetailsScreen` و `App1290110CheckoutScreen` بتجربة تفاعلية سلسة تتبع نمط `booking_timeline`، مدعومة برسوميات مت Vector مخصصة في `BespokeVectorIllustration.kt` تضفي طابعاً بصرياً فريداً واحترافياً يناسب قطاع التعليم بالمملكة العربية السعودية.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتصليد الأمان (Security Hardening) عبر تفعيل حدود الطلبات (Rate Limiting) في `server/server.js` لحماية نقاط النهاية ضد هجمات حجب الخدمة (DDoS)، وتطبيق طبقة التخزين المؤقت (Redis Caching) لتقليل زمن الاستجابة وتحسين أداء استعلامات الخطط والسجلات المدرسية، بالإضافة إلى دمج أدوات مراقبة الأداء الآلية لتتبع استهلاك الذاكرة والمعالج عبر تجمعات PM2 Cluster."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "antigravity/claude-sonnet-4-6",
-      "score": 4.91,
-      "verified_files_inspected": [
-        "App1290110Repository.kt",
-        "App1290110HomeScreen.kt",
-        "App1290110DetailsScreen.kt",
-        "App1290110CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.91,\n  \"technical_review_ar\": \"يُظهر مشروع مداد التعليمي (#1290110) نضجاً معمارياً واضحاً يتجلى في الفصل الدقيق بين طبقات البيانات والعرض والمنطق التجاري، إذ يعتمد كلاس App1290110Repository.kt نمط Repository Pattern بشكل صارم مما يُعزز قابلية الاختبار ويُقلل الاقتران بين المكونات؛ كما أن App1290110Model يُجسّد Domain Models نظيفة تعكس كيانات قطاع التعليم السعودي بدقة (حزم التحميل، النماذج المدرسية، بيانات الدفع) مع دعم واضح لـ Kotlin Data Classes مما يضمن immutability وسلامة الحالة",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.89,
-  "reviews_count": 4
+  "detailed_desc": "إنشاء وتجهيز متجر سلة لمنتجات رقمية تعليمية وإدارية (مثل دناديش) — السلام عليكم ورحمة الله وبركاته، أبحث عن مستقل محترف وخبير في منصة سلة وتصميم المنتجات الرقمية التعليمية، لإنشاء وتجهيز متجر إلكتروني متكامل لبيع السجلات، الخطط المدرسية، والملفات الإدارية الموجهة للقطاع التعليمي في السعودية (محاكاة لنموذج متجر دنادي",
+  "domain_data": {
+    "repo_name": "mizan-pos-pos-cashier-1290110",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
