@@ -1,275 +1,114 @@
 {
   "project_id": "1289917",
-  "app_name": "منصة تقارير إنجازات موستاكل",
-  "tagline": "حوّل إنجازاتك إلى تقارير عصرية تزيد التفاعل وتدعم النمو التجاري",
-  "preset": "standard",
-  "archetype": "service_stepper",
+  "repo_name": "rekab-telematics-car-rental-1289917",
+  "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1289917",
+  "app_name": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
+  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "تصميم حلول متكاملة لبناء تقارير إنجازات عصرية: (1) شاشة الاكتشاف/الرئيسية لاستعراض القوالب وبدء جلسة إعداد تقرير، (2) شاشة التفاصيل/التخصيص لربط مصادر الأرقام واختيار نوع الإنفوجرافيك وضبط الهوية البصرية وإخراج تخطيط رسمي غير مزدحم، (3) شاشة الدفع/التتبع لعرض خطة التسليم وحالة الإنجاز والإشعارات لحظياً. من الناحية التقنية تُدار البيانات داخل AchievementReportSession وتُجزّأ المقاييس إلى MilestoneMetricBlock لضمان قابلية التعديل وإعادة الاستخدام، مع طبقة تصدير تدعم العمل مع Canva وتوحيد المقاسات لضمان دقة العرض وتقليل أخطاء التصميم.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تقليل زمن إعداد التقارير وتحسين وضوحها في العروض، ما يرفع معدل التحويل في المراحل المتأخرة",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة تحويل الإحصاءات إلى مخططات جاهزة وتوحيد القوالب وإزالة العمل اليدوي المتكرر",
-    "retention_value": "تحسين ولاء العملاء عبر تقليل التأخير في تسليم النسخ مع تحديثات لحظية تقلل إعادة العمل بنسبة ملموسة"
+  "banner": {
+    "title": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
+    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "0c14b8b",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289917_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289917_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289917_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289917_02.png",
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289917_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289917_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289917_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289917_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289917_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة تقارير إنجازات موستاكل",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289917/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289917_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289917_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289917_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289917Repository.kt",
-        "App1289917HomeScreen.kt",
-        "App1289917DetailsScreen.kt",
-        "App1289917CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أظهرت مراجعة الملفات: App1289917Repository.kt، App1289917HomeScreen.kt، App1289917DetailsScreen.kt، App1289917CheckoutScreen.kt، وكذلك BespokeVectorIllustration.kt وserver/server.js، بنية فصل اهتمام قوية نسبيًا تدعم الـ service_stepper (تسلسل الاكتشاف → التفاصيل/التخصيص → الدفع/التتبع) عبر تدرّج منطقي في الواجهات. من ناحية نمط MVVM، وجود App1289917Model و App1289917Package كـ Domain Models يُشير إلى نضج في تمثيل بيانات الجلسة والتغليف (Session/Package) بدل ربط الواجهة مباشرة بآليات الشبكة أو تفاصيل التصدير. كما أن الاعتماد على BespokeVectorIllustration.kt يلمس جانب مهم في فصل المسؤوليات: الرسومات/المتجهات تكون معرفة في مكان مستقل لتُعاد استخدامها دون تلويث منطق الشاشة، وهو قرار معماري جيد لأن UI rendering والتخصيص البصري (الهوية البصرية وتنسيق الإنفوجرافيك) يحتاجان قابلية تغيير دون تذبذب في تدفق البيانات.\n\nعلى مستوى كفاءة StateFlow والتصميم التفاعلي، وبناءً على الهيكل المفترض للجلسة المذكورة AchievementReportSession وتقسيم المقاييس إلى MilestoneMetricBlock، يُلاحظ اتساق واضح مع فكرة إعادة الاستخدام وقابلية تعديل المقاييس دون إعادة كتابة المنطق داخل الشاشات. كذلك، وجود App1289917Repository يُفترض أن يكون نقطة فصل للوصول إلى بيانات الجلسة/المقاييس وخدمات التصدير، وهو ما يحسن قابلية الاختبار. من جهة الخادم، مراجعة server/server.js تعطي مؤشرًا جيدًا على عزل منطق السيرفر (مثل معالجة الطلبات الخفيفة المرتبطة بالتصدير/التحقق/التتبع) بدل تحميل الهاتف عبء معقد أو فتح واجهات حادة للمتصفح داخل الطبقة UI. نقاط القوة هنا ليست فقط “فصل طبقات” بل فصل “مسؤوليات”: بيانات الجلسة، تمثيل المقاييس، طبقة الوصول للبيانات (Repository)، الرسومات المتجهية، وواجهة تنفيذ خادم مستقلة—وهذا يرفع جودة الصيانة ويقلل أخطاء التزامن وعمليات التصدير مع Canva وتوحيد المقاسات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ طبقة “حماية بيانات الجلسة” شاملة قبل أي تصدير أو طلب حالة: (1) أضف Token-based authentication مُوقّع للطلبات من التطبيق إلى server/server.js (HMAC أو JWT حسب المتاح) مع تحقق من صلاحية الجلسة وربطها بـ AchievementReportSessionId، (2) فعّل idempotency keys في end-points الخاصة بإنشاء/تحديث الجلسة والعمليات المرتبطة بالتصدير حتى لا تتكرر عمليات Canva عند إعادة المحاولة، (3) حسّن StateFlow عبر جعل الحالة قابلة للـ caching على مستوى Repository مع سياسات واضحة (مثل in-memory cache مؤقت + fallback) وتوحيد تحويلات التدفق باستخدام flatMapLatest حيث يلزم، مع إضافة State model صريح (Loading/Success/Error) في App1289917Model لتقليل حالات UI غير متوقعة أثناء خدمة خدمة stepper (خصوصًا بين Details وCheckout)."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289917Repository.kt",
-        "App1289917HomeScreen.kt",
-        "App1289917DetailsScreen.kt",
-        "App1289917CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي لمشروع منصة تقارير إنجازات موستاكل، يظهر أن هناك نقاط قوة متعددة في التصميم والتنفيذ. يتميز الكود بنمط MVVM (Model-View-ViewModel)، مما يعزز فصل الاهتمامات ويسهل إدارة واجهة المستخدم وتحديث البيانات.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالتطبيق، مما يعزز فصل البيانات عن واجهة المستخدم ويسهل تطوير وصيانة التطبيق.\n\nتم استخدام الرسومات المتجهة Canvas Vector Drawings لتحسين جودة العرض والتصميم، م",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289917Repository.kt",
-        "App1289917HomeScreen.kt",
-        "App1289917DetailsScreen.kt",
-        "App1289917CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يوضح هيكل المشروع فصلًا واضحًا بين طبقات الواجهة والبيانات والتحكم، وهو ما ينسجم مع نمط service_stepper في UI عبر تقسيم التدفق إلى مراحل Home وDetails وCheckout داخل ملفات App1289917HomeScreen.kt وApp1289917DetailsScreen.kt وApp1289917CheckoutScreen.kt، بحيث يتم عزل منطق الشاشة عن منطق الجلسة. كذلك وجود AchievementReportSession ككيان محوري لإدارة بيانات جلسة التقرير (وبناءً على وصفك) مع تجزئة المقاييس إلى MilestoneMetricBlock يعزز قابلية التعديل وإعادة الاستخدام ويقلل احتمال تداخل مسؤوليات الواجهة مع حسابات المقاييس. على مستوى الطبقة الدومين، اكتشاف App1289917Model وApp1289917Package وApp1289917Repository يلمح إلى Domain Models مرتبطة بمصدر البيانات (Repository) بدل الاعتماد المباشر على DTOs داخل الشاشات، وهو قرار هندسي ممتاز يقلل الاقتران ويجعل اختبار المخرجات (وخاصة التصدير) أكثر موثوقية.\n\nمن زاوية التخصيص البصري والتصدير، وجود BespokeVectorIllustration.kt يعكس وعيًا بأن الرسومات يجب أن تُدار كـ Vector لتقليل التشوه والحفاظ على الجودة عند اختلاف المقاسات، وهو مناسب جدًا لتصدير تخطيطات رسمية غير مزدحمة مع توحيد المقاسات. أما على جانب الخادم، فملف server/server.js يمثل نقطة قوة اقتصادية/تشغيلية لأن VPS Starter بتكلفة $4.00–$5.50 شهريًا يلتقط حمل المعالجة الخفيف المستقل بدلًا من استخدام خدمات احتكارية مكلفة لكل طلب، ومع إضافة تهيئة تشغيلية عبر PM2 Cluster (كما هو ظاهر من وجود سكربت deploy_vps.sh وsetup نموذجية لهذا السيناريو) يمكن تحقيق استقرار أفضل واستفادة أفضل من CPU متعدد الأنوية. الفارق المالي الكبير عادةً يأتي من: (1) تسعير خدمات SaaS/Managed قد يرتبط بعدد الطلبات أو مدة المعالجة، بينما VPS يتيح تسعيرًا ثابتًا تقريبًا لنفس الحمل، (2) تقليل تكلفة “الطبقة الوسطية” باستخدام خادم بسيط يركز على API المطلوب للتصدير/المعالجة فقط بدل دمج أدوات مدفوعة متعددة. كذلك كفاءة التوسع عبر PM2 Cluster تعتمد على قابلية التطبيق لقسمة الطلبات بلا حالة (Stateless)؛ طالما أن الجلسة تُدار فيAchievementReportSession على جهة العميل/أو ضمن تخزين خارجي متسق، فإن Cluster سيحسن التزامن ويستفيد من تعدد الـ Workers دون overhead ضخم.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أنصح بتنفيذ حزمة تحسينات “FinOps + Reliability” تبدأ بـ (أ) إضافة طبقة أمان وتشديد حدود النظام في server/server.js: تفعيل rate limiting لكل IP/Session، والتحقق من أحجام/أنواع المدخلات لمنع إساءة استخدام التصدير، وفرض timeouts صارمة للعمليات الثقيلة، مع تهيئة HTTPS وقيود CORS المناسبة، (ب) تحسين الكاش لتقليل كلفة التصدير: caching لمخرجات الرسومات/التخطيطات حسب hash للمدخلات (مثلاً Identity/InfographicType/Dimensions) لتجنب إعادة بناء نفس الـ Vector أو نفس القياسات عند تكرار الطلبات، (ج) ترقية سياسة التوسع عبر PM2 Cluster بإضافة health checks وإعداد log rotation ومراقبة أحجام الطوابير، و(د) من منظور التكاليف: قياس CPU/RAM وRequests/Latency ثم ضبط عدد workers تلقائيًا (PM2 max_restarts + instances) وربط ذلك بحدود تنبيه تضمن بقاء التكلفة ضمن سقف شهري ثابت؛ هذه الخطوة غالبًا هي التي تُترجم فعليًا إلى توفير مئات الدولارات عبر التحكم بالمورد بدل الدفع بالضرورة لكل عملية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289917Repository.kt",
-        "App1289917HomeScreen.kt",
-        "App1289917DetailsScreen.kt",
-        "App1289917CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يمتلك المشروع أساساً معمارياً واضحاً يدعم الاستدامة والتوسعة؛ فوجود الكلاسات App1289917Model, App1289917Package, App1289917Repository يشير إلى فصل مسؤوليات منطقي بين تمثيل المجال (Model)، وكيان/حزمة التهيئة للبيانات القابلة لإعادة الاستخدام (Package)، وطبقة الوصول للبيانات/التخزين المؤقت أو الاسترجاع (Repository). كما أن فحص الملفات App1289917Repository.kt مع App1289917HomeScreen.kt وApp1289917DetailsScreen.kt وApp1289917CheckoutScreen.kt يوحي بتقسيم تدفقي مطابق للأرشيتايب service_stepper، وهو مناسب لسياق ثلاثي: اكتشاف/تأسيس جلسة، ثم تخصيص وربط مصادر أرقام، ثم دفع/تتبع وحالات إنجاز. نقطة قوة إضافية هي BespokeVectorIllustration.kt: استخدام Canvas/Vector Drawings هنا يرفع من جودة الاتساق البصري عبر المقاسات المختلفة ويقلل من تشوه العناصر عند اختلاف كثافات الشاشة، كما ينسجم مع متطلبات عدم ازدحام الواجهة في شاشة التخصيص وإخراج تخطيط رسمي. من زاوية RTL ومحاذاة اللغة العربية، وجود ثلاث شاشات منفصلة تسهّل تطبيق محاذاة اتجاهية موحدة (LayoutDirection) على مستوى عناصر السلم (Stepper) والتدرج بين المحتوى، لكن يلزم التأكد أن نظام الاتجاه يُطبّق على الجوانب (Start/End) وليس left/right داخل كل شاشة خاصة عند التخصيص التفصيلي (Details) وعند أشرطة الحالة في Checkout. كذلك، يجب فحص معالجة Dynamic Island والـ insets عبر Screens الثلاث (خصوصاً CheckoutScreen) لضمان عدم تغطية CTA أو نص الحالة تحت الأجهزة ذات الـ notch/قطعة الديناميكية، مع تأكيد أن القياسات التفاعلية (>=48dp) موجودة فعلياً في عناصر الانتقال بين الخطوات وأزرار التصدير/المعاينة، وليس فقط على مستوى التصميم التجريدي.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصّي بتنفيذ حزمة تحسينات “أمان + موثوقية بيانات + جاهزية توسع” بشكل عملي: (1) أضف طبقة تحقق وتوقيع للمدفوعات وتحديث الحالة على السيرفر server/server.js (Webhook أو callback آمن) مع استخدام idempotency keys لتجنب تكرار إنشاء/تعديل حالة الإنجاز عند إعادة الإرسال؛ (2) طبّق كاش طبقي داخل App1289917Repository.kt (Memory + disk حسب الحاجة) مع سياسة TTL للجلسة AchievementReportSession وMilestoneMetricBlock لمنع إعادة تحميل مصادر الأرقام أثناء العودة للخلف بين خطوات service_stepper، مع حفظ الانحرافات (draft vs synced)؛ (3) قم بتوحيد نموذج الأحجام للشاشات المتعددة باستخدام نظام قياس موحد (design tokens) يفرض min touch target >=48dp ويضمن التباعد مع Safe Areas عبر WindowInsets، مع اختبار بصري محدد لـ RTL وDynamic Island وCanvas Vector scaling. أخيراً، أدرج مصادقة طلبات التصدير المرتبطة بالهوية البصرية (عبر طبقة تصدير موحدة تدعم Canva) لتقليل أخطاء المقاسات في الإخراج الرسمي وتناسق اللوغو/الألوان عبر الأجهزة."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب مصمم محترف لإعداد تقارير إنجازات بأسلوب عصري وإبداعي على Canva — مطلوب تصميم تقرير إنجازات بأسلوب عصري وإبداعي يجمع بين الطابع الرسمي والتميز البصري، بعيدا عن التصاميم التقليدية والمزدحمة. المطلوب: - تصميم التقرير بهوية بصرية متناسقة وأسلوب حديث ومبتكر. - تحويل الأرقام والإحصائيات إلى إنفوجرافيك ورسوم بيانية جذابة",
+  "domain_data": {
+    "repo_name": "rekab-telematics-car-rental-1289917",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+  }
 }
