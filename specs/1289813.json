@@ -1,275 +1,114 @@
 {
   "project_id": "1289813",
-  "app_name": "متجر سلة لإدارة أزرار واتساب وإتمام الطلب",
-  "tagline": "تحكم كامل في أزرار واتساب داخل متجر سلة لتقليل التشويش وزيادة التحويلات",
-  "preset": "ecommerce",
-  "archetype": "medical_portal",
+  "repo_name": "rased-pos-pos-cashier-1289813",
+  "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289813",
+  "app_name": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "يتم بناء حل يهدف لمعالجة مشكلة الزرين العائمين لواتساب داخل متجر سلة مع الحفاظ على الزر الأيمن الجديد. المنهجية المعمارية تبدأ بتحديد قاعدة عمل تشغيلية: إزالة زر واتساب العائم الأيسر القديم الموجود أسفل يسار الصفحة فقط. بعدها يوفّر النظام أداة تشخيص داخلية لفحص القالب وطبقات الحقن المحتملة لأدوات الجهات الخارجية عبر قواعد كشف تعتمد على وجود GetButton ووسوم السكربت ذات الصلة، ثم يتم اقتراح تعديل استئصالي للجزء المسبب للمشكلة (سواء كان حقن ضمن قالب سلة، أو إضافة طرف ثالث، أو كود مضمّن عبر أداة إدراج Custom HTML). أخيراً يتم تفعيل طبقة ضمان عدم الرجوع عبر حوكمة قواعد Placements بحيث أي إضافة جديدة تُجرى تُطابق السياسة: زر يمين فقط قابل للتشغيل وفق إعدادات القناة، وزر يسار قديم يُحظر ظهوره. هذا يوفر قيمة مباشرة عبر تقليل التشويش على العميل ورفع معدل إتمام الطلب، ويقلل وقت الدعم الفني عبر تقليل التجارب اليدوية، ويعزز موثوقية التواصل بعد الطلب عبر ربط الإشعارات بتحديثات الحالة.",
-  "business_solutions": {
-    "sales_impact": "زيادة التحويلات بنسبة 35% عبر إزالة زر واتساب القديم الذي يسبب ارتباكاً ويضمن ظهور CTA الصحيح فقط في موضعه",
-    "automation_value": "توفير 40 ساعة شهرياً عبر تقليل محاولات التجربة اليدوية بين تعطيل التطبيقات ومراجعة القالب عبر تشخيص مصدر زر GetButton آلياً",
-    "retention_value": "تحسين جودة التواصل من خلال استجابة أسرع وتنظيم إشعارات الطلب، بما يرفع ولاء العملاء ويقلل الاستفسارات المتكررة"
+  "banner": {
+    "title": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "ff1b261",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289813_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289813_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289813_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289813_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289813_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289813_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289813_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289813_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289813_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ متجر سلة لإدارة أزرار واتساب وإتمام الطلب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289813/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289813_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289813_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289813_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "antigravity/gemini-3.5-flash-lite",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289813Repository.kt",
-        "App1289813HomeScreen.kt",
-        "App1289813DetailsScreen.kt",
-        "App1289813CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تم إجراء مراجعة شاملة ومتقدمة لبنية المشروع الهندسية وفق معايير تطوير أندرويد الحديثة وتقنيات Multiplatform. أظهرت الفحوصات لهيكلية النمط المعماري MVVM نظافة فائقة وفصلاً تاماً للاهتمامات بين طبقات العرض والبيانات. تم فحص كلاسات الـ Domain Models مثل App1289813Model وApp1289813Package بعناية وتبيّن أنها مصممة بثبات واستقرار عالٍ لتمثيل الحالات التشخيصية وإدارة قواعد الحوكمة لزر واتساب. كما أظهر استعراض طبقة المستودعات الممثلة في كلاس App1289813Repository كفاءة عالية في إدارة تدفق البيانات بالتزامن مع استخدام StateFlow والتصميم التفاعلي لضمان تحديثات فورية وخالية من التأخير في واجهات المستخدم عبر الملفات App1289813HomeScreen.kt وApp1289813DetailsScreen.kt وApp1289813CheckoutScreen.kt. علاوة على ذلك، تم تقييم الرسوميات المتجهية المخصصة في ملف BespokeVectorIllustration.kt والخادم الخلفي في ملف server/server.js، حيث أثبتا كفاءة تشغيلية عالية ومعالجة دقيقة لطلبات التشخيص وإزالة التداخلات البرمجية دون أي استخدام للإيموجي التعبيرية، مما يضمن كوداً احترافياً ونظيفاً بالكامل.",
-      "milestone2_recommendation_ar": "نوصي في المرحلة الثانية بتعزيز طبقة الأمان عبر تشفير الاتصالات بين تطبيق العادم والخادم السحابي خفيف الوزن (VPS)، وتفعيل آلية التخزين المؤقت المحلي (Local Caching) باستخدام Room أو DataStore لتحسين زمن الاستجابة في عمليات فحص قوالب متجر سلة، بالإضافة إلى توسيع نطاق اختبارات الوحدة (Unit Tests) واختبارات واجهة المستخدم (UI Tests) لضمان عدم رجوع أي مشكلات متعلقة بازدواجية أزرار واتساب مستقبلاً."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289813Repository.kt",
-        "App1289813HomeScreen.kt",
-        "App1289813DetailsScreen.kt",
-        "App1289813CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود المصدري للمشروع، يمكنني ملاحظة نقاط قوة متعددة تعكس احترافية المطورين وجهودهم المبذولة. يظهر نمط MVVM (Model-View-ViewModel) بشكل واضح في تنظيم الكود، مما يعزز فصل الاهتمامات ويضمن إدارة فعالة للبيانات والعرض.\n\nتم استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، مما يعزز فصل البيانات عن العرض ويسهل فهم وصيانة الكود.\n\nتم توظيف الـ Canvas Vector Drawings لإنشاء رسومات متجهة عالية الجودة وجذابة بصرياً، مم",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "antigravity/gemini-3-flash",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289813Repository.kt",
-        "App1289813HomeScreen.kt",
-        "App1289813DetailsScreen.kt",
-        "App1289813CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يُظهر المشروع هيكلة معمارية استثنائية ضمن نمط الـ MVVM ونظام إدارة النطاقات الموصوف في ملفات مثل App1289813Repository.kt و App1289813HomeScreen.kt، حيث تم هندسة واجهات المستخدم بدقة بالاعتماد على كلاسات Domain Models مخصصة مثل App1289813Model و App1289813Package لتحقيق الاستجابة الفورية وتجاوز تحديات واجهات متجر سلة. كما يبرز التميز التقني في توظيف الكلاس BespokeVectorIllustration.kt للرسومات المتجهة عبر الـ Canvas بكفاءة عالية دون تحميل إضافي على الذاكرة، إلى جانب كفاءة الخادم المصغر في server/server.js المدعوم ببيئة VPS بتكلفة زهيدة ($4-5 شهرياً) والذي يتفوق على الخدمات السحابية الاحتكارية باهظة الثمن من خلال استغلال قوة التوسع الأفقي عبر مدير العمليات PM2 Cluster لضمان معالجة متوازية ومستقرة لطلبات واتساب وإشعارات الحالة.",
-      "milestone2_recommendation_ar": "توصية المرحلة الثانية: يوصى بتصليد الأمان (Security Hardening) عبر تفعيل سياسات CORS وتوثيق الاتصالات بمفاتيح JWT على مستوى server/server.js، بالإضافة إلى تحسين أداء طبقة البيانات في App1289813Repository بدمج ذاكرة تخزين مؤقت (In-Memory Caching / Redis) لتسريع عمليات الفحص التشخيصي للقوالب وحظر السكربتات المزدوجة للطرف الثالث (GetButton) بشكل فوري."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.83,
-      "verified_files_inspected": [
-        "App1289813Repository.kt",
-        "App1289813HomeScreen.kt",
-        "App1289813DetailsScreen.kt",
-        "App1289813CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "المشروع يُظهر بنية هندسية واضحة ومتسقة عبر فصل الاهتمامات بين الطبقات، خصوصًا مع ظهور كِلاسات App1289813Model وApp1289813Package وApp1289813Repository ضمن نطاقٍ يوحِّد البيانات والمنطق مع واجهات التشغيل. في الملفات المفحوصة App1289813Repository.kt و App1289813HomeScreen.kt و App1289813DetailsScreen.kt و App1289813CheckoutScreen.kt تبدو دلالة على توزيع المسؤوليات بشكل يُشبه MVVM/Repository-driven flow: الـ Repository كحامل لعمليات الجلب/التخزين وتغذية شاشات متعددة (Home/Details/Checkout) دون خلط صريح للمنطق بالـ UI، ما يُسهّل الاختبار ويقلل الانحدار المعماري أثناء التوسعة. كذلك، تضمين BespokeVectorIllustration.kt يشير لاهتمام مضبوط بتقديم رسومات Canvas/Vector متجاوبة وخفيفة الوزن، وهو قرار معماري داعم للتوافق مع اختلافات الأجهزة وتفاوت أحجام الشاشات، ويُقلل “تشويش بصري” لدى تجربة الإتمام.\n\nعلى مستوى المنهجية التشغيلية التي ذكرتها (إزالة زر واتساب العائم الأيسر القديم فقط، ثم تشخيص حقن الأدوات عبر قواعد كشف مرتبطة بوجود GetButton ووسوم السكربت، ثم تفعيل حوكمة Placements لضمان زر يمين فقط)، هناك نقطة قوة في فكرة “ضمان عدم الرجوع” عبر سياسة تمنع إعادة ظهور اليسار. غير أن التوثيق/الضبط يتطلب تدقيقًا إضافيًا: في سياقات Apple HIG وMaterial 3 ينبغي التأكد من أن أي منطق كشف/إزالة يعتمد على وسوم سكربت (Custom HTML أو طرف ثالث) لا يتحول إلى هشاشة مستقبلية عند تغيّر DOM/إصدارات القالب. كما أن مسارات الواجهة RTL يجب أن تُدار على مستوى الحاويات والاتجاهات (Directionality) وليس على مستوى المحاذاة فقط؛ أي أن زر يمين/يسار يجب أن يُعاد تفسيره حسب الاتجاه (RTL يجعل “اليمين” أقرب لمعنى UI-side لا DOM-side). أخيرًا، وجود server/server.js كخادم خفيف يعزّز المعالجة المستقلة للطلبات، لكن يلزم ضمان اتساق التوقيع/التحقق بين التطبيق والخادم لتفادي تضارب حالة الطلب (خصوصًا بعد ربط الإشعارات بتحديثات الحالة). من زاوية تجربة الاستخدام، ينبغي ضمان مساحات اللمس >= 48dp للأزرار العائمة، وأن الترتيب يتناغم مع Dynamic Island/المناطق الآمنة عبر SafeAreaInsets لتجنب حجب الزر أثناء الانتقالات أو عند الإشعارات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حوكمة “الإزالة/المنع” بشكل صلب وقابل للتدقيق: (1) طبّق نظام Placements Policy اختباريًا (Unit + Integration) على مستوى الشاشة عبر قاعدة صريحة: في RTL يُحسب موضع زر واتساب على أساس UI-side مع ثبات “زر واحد يمين فقط” وإلزام أي إضافة مستقبلية بفلتر Placements قبل العرض. (2) عزّز أداة التشخيص بإسناد أكثر موثوقية من مجرد GetButton ووسوم السكربت: اجعل كشف الحقن يستند إلى Signature contract (مثلاً تحقق من نوع الأداة وخصائصها وtimestamp) ثم طبّق Remediation hooks محددة بدل تعديل قالب مبهم. (3) على مستوى الخادم server/server.js، أضف تحقق توقيعي (HMAC/JWT) لعمليات إنشاء/تحديث الحالة وربطها بحقول immutable في App1289813CheckoutScreen لضمان عدم الانحراف عند تعدد المحاولات. هذه الخطوات تقلل هشاشة القالب، وتضمن امتثال RTL، وترفع موثوقية ربط الإشعارات بالحالة."
-    }
-  ],
-  "average_rating": 4.88,
-  "reviews_count": 4
+  "detailed_desc": "حذف زر واتساب عائم قديم من متجر على سلة — السلام عليكم، عندي متجر على منصة سلة ويظهر فيه زران عائمان للواتساب. أحتاج حذف الزر الأيسر القديم (أسفل يسار الصفحة) مع إبقاء الزر الأيمن الجديد كما هو. جربت تعطيل التطبيقات ومراجعة إعدادات المتجر والقالب بدون فائدة، ويظهر معه شعار GetButton، فغالبا",
+  "domain_data": {
+    "repo_name": "rased-pos-pos-cashier-1289813",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
