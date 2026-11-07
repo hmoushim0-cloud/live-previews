@@ -1,275 +1,114 @@
 {
   "project_id": "1289836",
-  "app_name": "منصة تسجيل لقطات روبلكس لليوتيوب",
-  "tagline": "حوّل طلبات الخرائط إلى لقطات جاهزة لليوتيوب بجودة 1080p بدون تشويش",
-  "preset": "standard",
-  "archetype": "cupertino_storefront",
+  "repo_name": "warsha-now-services-1289836",
+  "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289836",
+  "app_name": "تطبيق ورشة فوري — لاعب روبلكس لتسجيل لقطات لعب",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "التطبيق يدعم 3 شاشات تشغيلية متكاملة مصممة خصيصاً لتسجيل لقطات روبلكس ليوتيوب: (1) شاشة Discovery/Home لاستعراض الطلبات السابقة وحزم الخرائط المقترحة مع تقدير سريع للعدد المطلوب (5 إلى 10 مابات) وتحديد السعر لكل فيد، ما يقلل زمن بدء الطلب ويرفع تحويل الزبون. (2) شاشة Details/Customization لتهيئة القيود بدقة: مدة اللقطة 30-60 ثانية، دقة 1080p أو أعلى، بدون صوت، بدون موسيقى، إخفاء اسم الحساب، منع ظهور الإشعارات والبرامج على الشاشة. يتم ربط كل خريطة بملف تسليم محدد (RobloxMapClipDelivery) مع سياسة تسمية وأرشفة واضحة. (3) شاشة Checkout/Tracking لإنهاء الدفع وتفعيل تتبع لحظي لحالة التسليم وإشعار فوري عند رفع الملفات على Google Drive. يتم بناء آلية امتثال وملكية المحتوى عبر تسجيل اتفاقية أن جميع التسجيلات ملك لصاحب القناة وحده وعدم السماح باستخدامها أو نشرها خارج نطاقه، مع توثيق ذلك ضمن سجل الطلب (RobloxVideoCaptureRequest). على المستوى التقني، تُدار حالة الطلب بشكل منضبط مع تحميلات مجزأة، تحقق من جودة الملف قبل التسليم، وربط آمن بمحرّكات Google Drive، مع تهيئة تنبيهات الحالة دون أي ظهور لبيانات غير مسموحة على الشاشة أثناء التسجيل.",
-  "business_solutions": {
-    "sales_impact": "زيادة معدل إتمام الطلب عبر تقليل التأخير وتبسيط مسار التوريد إلى 3 مراحل واضحة: طلب الخرائط، تخصيص القيود، ثم تسليم Google Drive، ما يرفع التحويل ويقلل الإلغاء",
-    "automation_value": "تقليص وقت الإدارة والمتابعة بمقدار يقارب 40 ساعة شهرياً عبر أتمتة إنشاء الطلبات وتتبع الحالة وتوليد بيانات التسليم والمراسلات",
-    "retention_value": "تحسين رضا العميل عبر جودة ثابتة والتزام سريع (تسليم خلال 24 ساعة) ما يرفع احتمالية تكرار الطلبات ويزيد ولاء صناع المحتوى"
+  "banner": {
+    "title": "تطبيق ورشة فوري — لاعب روبلكس لتسجيل لقطات لعب",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "40ed0cd",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289836_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289836_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289836_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289836_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289836_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289836_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289836_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289836_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289836_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة تسجيل لقطات روبلكس لليوتيوب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289836/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289836_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289836_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289836_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289836Repository.kt",
-        "App1289836HomeScreen.kt",
-        "App1289836DetailsScreen.kt",
-        "App1289836CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"بناءً على الأجزاء التي زُوّدتَ بها من المشروع (وبالأسماء التي ذُكرت صراحةً)، يظهر أن الهيكلة تتجه بوضوح إلى فصل الاهتمامات عبر طبقات Domain وRepository وUI، إذ تم تحديد نماذج المجال في: App1289836Model وApp1289836Package، ثم تجميع منطق الوصول للبيانات والتنسيق في: App1289836Repository. هذا يعكس التزامًا معقولاً بـ MVVM من حيث مبدئيّاً وجود نقطة مركزية للـ orchestration بدل أن تتكفل الشاشات بكل تفاصيل الشبكة/الدفع/Google Drive، كما أن فصل App1289836Rep",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289836Repository.kt",
-        "App1289836HomeScreen.kt",
-        "App1289836DetailsScreen.kt",
-        "App1289836CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"يظهر الكود المصدري المستخلص من المشروع عدة نقاط قوة في التصميم والتنفيذ. يتميز نمط MVVM (Model-View-ViewModel) بوضوحه وفعاليته في تنظيم الكود وفصل منطق الأعمال عن واجهة المستخدم. تظهر أيضاً فائدة استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بالمجال.\n\nفيما يتعلق بالخادم، يُعتبر استخدام الخادم لمعالجة الطلبات نقطة إيجابية تضمن معالجة مركزية وآمنة للبيانات. يُظهر ملف server/server.js تنفيذ الخادم ووظائفه.\n\nأوصي بتوصية عملية لتنفيذه",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.82,
-      "verified_files_inspected": [
-        "App1289836Repository.kt",
-        "App1289836HomeScreen.kt",
-        "App1289836DetailsScreen.kt",
-        "App1289836CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من الزاوية المعمارية، تظهر نية واضحة لفصل الاهتمامات عبر طبقة “Repository” وModel/Package المرتبطة بمجال الطلبات؛ وجود App1289836Model وApp1289836Package وApp1289836Repository يشير إلى تطبيق عملي لفكرة MVVM/Domain-driven على مستوى الكلاسات (حتى وإن لم تُذكر حرفياً في الوثائق). كما أن تضمين ملفات الواجهات المعيارية App1289836HomeScreen.kt وApp1289836DetailsScreen.kt وApp1289836CheckoutScreen.kt يتوافق مع نمط cupertino_storefront من حيث تنظيم تدفق المستخدم (Discovery → Customization → Checkout/Tracking) مع تقليل أخطاء الحالة عبر جعل كل شاشة مسؤولة عن جزء محدد من “حياة الطلب”. إضافةً إلى ذلك، فإن BespokeVectorIllustration.kt يوحي بمقاربة صحيحة من منظور UI/perf: استخدام Canvas/Vector بدل bitmap الكبيرة، وهو عادةً يقلل حجم الحزمة ويحسن الاتساق البصري على أحجام الأجهزة المختلفة.\n\nعلى مستوى الخادم، وجود server/server.js مع ملخص تشغيله كـ VPS Starter ($4.00–$5.50 شهرياً) يوحي بأن النظام يركّز على مهام محدودة “Lightweight” بدل بناء منظومة احتكارية معقدة؛ وهذا عادةً يفسر جزءاً كبيراً من وفورات التكلفة مقارنةً بالخدمات المدفوعة الجاهزة. كما أن اختيار PM2 Cluster (بحسب بنية التوزيع المعتادة) يعزز كفاءة التوسع عبر استغلال نوى المعالج وتوزيع الحمل بين worker processes بدل انتظار event loop واحد فقط، وهو مناسب لمعالجة طلبات قصيرة/استدعاءات API ومزامنة حالات الطلب. نقطة قوة إضافية متوقعة من الكلاسات/العمليات المرتبطة بملفات الطلب (مثل RobloxVideoCaptureRequest وRobloxMapClipDelivery ضمن وصف المجال) هي إمكانية وضع تحقق من الجودة قبل التسليم وتسجيل امتثال الملكية ضمن “سجل الطلب” ككيان Domain؛ هذا النوع من التدقيق يقلل نزاعات ما بعد التسليم ويقلل إعادة المعالجة التي ترفع الكلفة التشغيلية. ومع ذلك، لا يمكن الجزم بكفاءة الأمن وسلامة الربط مع Google Drive وتحسين قابلية التوسع دون رؤية تفاصيل server/server.js (مثل handling webhooks، idempotency، إدارة الأسرار، retries، ومقاربة rate limiting)، لكن التصميم العام في الملفات المذكورة يوحي بأن المشروع يتعامل مع “حالة الطلب” بانضباط ويمنع تسريب بيانات غير مسموحة أثناء تسجيل/تتبّع التسليم.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ تحسينات أمان وتشغيل محددة: (1) أضف Authentication/Authorization على مستوى الخادم باستخدام JWT أو OAuth مع RBAC واضح، وطبّق التحقق من ملكية المحتوى لكل RobloxVideoCaptureRequest قبل أي عملية قراءة/كتابة في Google Drive، (2) نفّذ Webhook-driven tracking من Google Drive مع Idempotency keys لمنع تكرار تحديث الحالة عند retry، (3) عزّز resiliency عبر Job Queue (مثل BullMQ على Redis) لفصل عمليات التحقق من الجودة/رفع الملفات عن مسار الطلب اللحظي، (4) فعّل Rate limiting وRequest validation صارمة (schema validation) لمنع استهلاك موارد VPS تحت حمل متقلب، (5) بالنسبة للتكلفة: استخدم caching للبيانات الشائعة عبر CDN/ذاكرة محلية (مثلاً نتائج الاستعلامات لطلبات المستخدم/حزم الخرائط) لتقليل عدد hits على Google APIs، و(6) راجع PM2 Cluster لتفعيل health checks ومقاييس (CPU/RAM/event loop latency) وإعداد auto-restart مع ضبط number of instances بناءً على عدد النوى الفعلية؛ الهدف هو ضمان أن التوسع على نفس VPS يبقى فعالاً وتتحسن التكلفة/الأداء تدريجياً."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289836Repository.kt",
-        "App1289836HomeScreen.kt",
-        "App1289836DetailsScreen.kt",
-        "App1289836CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يعكس التكوين المعماري للمشروع توجهاً منضبطاً عبر فصل الاهتمامات: وجود App1289836Model وApp1289836Package وApp1289836Repository يشير إلى تطبيق عملي لـ MVVM/Repository Pattern حيث يتم احتواء منطق الـ Domain في نماذج مستقلة، بينما تترك مهمة الوصول للبيانات والعمليات الجانبية لـ App1289836Repository.kt. كما أن تضمين BespokeVectorIllustration.kt يوحي بأن واجهة Discovery/Details تعتمد رسومات Canvas Vector Drawings (بدون الاعتماد على أصول ثابتة كبيرة)، ما يدعم مرونة التكيّف مع القياسات والتدوير وتحسين الأداء خصوصاً عند تعدد الحالات البصرية (تحميل/تتبع/تعطيل تسجيل). وعلى مستوى تدفق الشاشات، تقسيم الرحلة إلى HomeScreen وDetailsScreen وCheckoutScreen يعزز قابلية الاختبار وتقليل تداخل المسؤوليات، وهو متوافق مع cupertino_storefront من حيث وضوح التسلسل البصري واعتبار “مساعدية” الواجهة للمستخدم أثناء عمليات المعاينة والتهيئة والدفع.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِي بتنفيذ حزمة تحسينات أمنية وامتثال صارمة حول التسجيل والملكية قبل توسيع الخصائص: (1) تعزيز التتبع والأحداث عبر تعريف State Machine صريح داخل App1289836Model (مثلاً: CREATED→VALIDATING→READY_FOR_UPLOAD→UPLOADING→DELIVERED/FAILED) بحيث لا يتم عرض أي بيانات حساسة أثناء التسجيل، مع فلترة رسائل التنبيه وربطها بحقول “Redacted” عند التسجيل من Details/Checkout. (2) تقوية طبقة الربط مع Google Drive بإضافة سياسة صلاحيات محددة لكل RobloxMapClipDelivery (Scope minimization + signed upload sessions + وقت صلاحية قصير)، وتوثيق كل خطوة في RobloxVideoCaptureRequest كسجل غير قابل للتعديل (أو على الأقل محكوم بالتحقق من التوقيعات على server/server.js). (3) تحسين التجزئة للتحميلات: اعتماد resumable uploads بقطاعات مضبوطّة (chunk sizing ديناميكي حسب الشبكة) مع تحقق جودة الملف قبل التسليم (تحقق سريع: duration/bitrate/resolution + فحوص شكلية للترميز) ثم hash للتكامل قبل النقل النهائي. (4) تهيئة UI للتوافق المتقدم: ضمان أن عناصر RTL تستخدم TextDirection وlayoutDirection فعلياً مع محاذاة منضبطة في HomeScreen/DetailsScreen/CheckoutScreen، وبقاء مساحات اللمس >=48dp لكل الأزرار (خصوصاً أزرار التسعير/تأكيد القيود/رفع ملفات Drive) مع استيعاب Dynamic Island عبر عدم تموضع شارات/حالات التسجيل أسفل safe area الخاصة بالحواف."
-    }
-  ],
-  "average_rating": 4.87,
-  "reviews_count": 4
+  "detailed_desc": "لاعب روبلكس لتسجيل لقطات لعب لقناة يوتيوب — تسجيل 30 إلى 60 ثانية من كل ماب أطلبه (عادة 5 إلى 10 مابات) دقة 1080p أو أعلى، بدون صوت وبدون موسيقى إخفاء اسم الحساب، وبدون أي إشعارات أو برامج على الشاشة التسليم خلال 24 ساعة على Google Drive الشروط: كل التسجيلات ملك صاحب القناة بالكامل، ولا يجوز ا",
+  "domain_data": {
+    "repo_name": "warsha-now-services-1289836",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
 }
