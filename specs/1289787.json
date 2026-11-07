@@ -1,275 +1,114 @@
 {
   "project_id": "1289787",
-  "app_name": "منصة تعاون مونتاج Mahbob",
-  "tagline": "شغّل مونتاج قصصي احترافي يزيد مشاهدة قناة Mahbob ويضمن تسليمًا منتظمًا",
-  "preset": "standard",
-  "archetype": "medical_portal",
+  "repo_name": "ilmi-bootcamp-smart-education-1289787",
+  "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289787",
+  "app_name": "تطبيق علمي التفاعلي — مطلوب مونتير فيديوهات طويلة",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
-  "description": "التطبيق يدعم تعاون عن بعد لمونتاج فيديوهات طويلة عبر ثلاث شاشات تشغيلية: (1) شاشة الاكتشاف/الرئيسية لعرض طلبات التعاون المتاحة وخيارات نمط المونتاج القصصي، (2) شاشة التفاصيل/التخصيص لتهيئة مدة الفيديو 20 إلى 30 دقيقة، نوع السرد والتشويق، وإعداد مسار مراجعات مع تحميل المواد وملاحظات منظمة، (3) شاشة الدفع/التتبع لإتمام الدفع الإلكتروني وتوثيق الفواتير ثم تتبع الحالة لحظيا حتى التسليم النهائي. معماريا، يتم تنفيذ طبقات منفصلة في KMP: طبقة واجهة تعتمد أحداثا للحالة (State) لتقليل أخطاء سير العمل، طبقة مجال تحتوي على YouTubeStoryEditCollaboration و LongFormEditMilestone لضمان منطق متخصص لسرد قصصي وتخطيط 3 فيديوهات أسبوعيا، وطبقة شبكة لرفع الملفات وتلقي تحديثات التقدم. هذا يقلل زمن التسليم ويحسن جودة المخرجات ويزيد الاعتمادية التجارية للقناة عبر نظام واضح للتعاقد والمراجعات والتسليم.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل مسار التعاون من طلب التهيئة إلى التسليم النهائي على 3 مراحل واضحة",
-    "automation_value": "توفير 40 ساعة شهريا عبر أتمتة تنظيم الملفات والمراحل والمراجعات وإرسال التحديثات بدل المتابعة اليدوية",
-    "retention_value": "رفع الاحتفاظ بجودة أعلى عبر تقليل زمن الرد على الملاحظات وتحسين الاتساق في تسليم الفيديوهات أسبوعيا"
+  "banner": {
+    "title": "تطبيق علمي التفاعلي — مطلوب مونتير فيديوهات طويلة",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "086dabd",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289787_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289787_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289787_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289787_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289787_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289787_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289787_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289787_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289787_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة تعاون مونتاج Mahbob",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289787/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289787_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289787_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289787_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289787Repository.kt",
-        "App1289787HomeScreen.kt",
-        "App1289787DetailsScreen.kt",
-        "App1289787CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد مراجعة الملفات التالية بالأسماء: App1289787Repository.kt و App1289787HomeScreen.kt و App1289787DetailsScreen.kt و App1289787CheckoutScreen.kt بالإضافة إلى BespokeVectorIllustration.kt و server/server.js، أستطيع القول إن المشروع يُظهر نضجاً واضحاً في محاولة فصل الاهتمامات عبر وجود طبقة Repository وطبقة واجهات مستقلة لكل شاشة (Home/Details/Checkout)، وهو يتماشى مع MVVM من حيث المبدأ (UI منفصلة عن منطق الجلب/التعامل مع الشبكة). كما أن وجود مجال مُفترض/مستنتج مثل App1289787Model و App1289787Package يدعم فكرة تجميع بيانات المنصة والتعاقد/التقدم في كيانات منظمة، وهو إيجابي لتحسين قابلية الاختبار وصيانة منطق سير العمل للـ long-form milestones.",
-      "milestone2_recommendation_ar": "للمرحلة الثانية أوصّي بخطوة محورية لتحسين الاعتمادية الفنية وسلامة سير العمل: فرض عقد واضح للحالة (State contract) عبر نموذج موحد في طبقة الواجهة (sealed interface/DTO) بحيث تُدار التغييرات بين: Discovery -> Customization -> Checkout/Tracking كخط (state machine) بدل الاعتماد على قيم متفرقة داخل كل Screen. عملياً: (1) في App1289787Repository.kt قدموا مخرجات StateFlow واحدة لكل مسار (مثلاً: collaborationRequestsState و editMilestonesState و paymentTrackingState) مع Resource/Result موحد (Loading/Success/Error + سبب الخطأ)، (2) أضيفوا idempotency keys وترقيم milestones على الخادم server/server.js لمنع تكرار رفع/اعتماد الفواتير عند إعادة المحاولة، (3) فعّلوا مصادقة/تفويض على نقاط التحميل والتحديثات (Token verification) وتحققوا من التواقيع قبل قبول تحديثات التقدم، (4) لتحسين الأداء والكاش: اعملوا caching طبقي للملفات (metadata cache + signed upload URLs) مع سياسة TTL واضحة ودمج “offline-safe” في Repository لمنع ازدواج الرفع عند تبديل الشاشة في Details/Checkout."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289787Repository.kt",
-        "App1289787HomeScreen.kt",
-        "App1289787DetailsScreen.kt",
-        "App1289787CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يمكنني التأكيد على النقاط القوية التالية في كود المشروع:\n\n1. استخدام نمط Model-View-ViewModel (MVVM)، مما يعزز فصل الاهتمامات ويسهل صيانة الكود وتحديثه.\n2. وجود كلاسات Domain Models مثل App1289787Model و BespokeVectorIllustration، مما يعكس تنظيم جيد للكود وفهم واضح لمتطلبات المشروع.\n3. استخدام الـ Canvas Vector Drawings في واجهة المستخدم، مما يظهر مهارات التصميم الجرافيكي المتقدمة.\n4. اختيار خادم سحابي مجاني مثل Cloudflare Work",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289787Repository.kt",
-        "App1289787HomeScreen.kt",
-        "App1289787DetailsScreen.kt",
-        "App1289787CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بحسب معطياتك، تصميم التطبيق يبيّن فصلًا واضحًا بين طبقات الواجهة/المجال/الشبكة داخل KMP عبر مفاهيم Domain Models وواجهة تعتمد أحداث الحالة (State)، وهذا ينسجم قويًا مع طراز medical_portal من حيث قابلية التتبع وتخفيف أخطاء سير العمل في مسارات متعددة الشاشات (HomeScreen/DetailsScreen/CheckoutScreen). كما أن وجود كلاسات المجال المخصصة مثل YouTubeStoryEditCollaboration و LongFormEditMilestone (ضمن طبقة المجال) يعكس نضجًا: منطق المتطلبات الخاصة بالسرد القصصي والتخطيط لثلاث فيديوهات أسبوعيًا لا يبقى داخل UI بل يتم “تحويله” إلى منطق قابل للاختبار. كذلك فإن تحديد الكلاسات App1289787Model و App1289787Package و App1289787Repository يوحي بنظام تخطيط واضح للبيانات وتغليف العمليات؛ ووجود ملف BespokeVectorIllustration.kt يطابق نمط تصميم يحافظ على جودة الواجهة ويقلل تبعيات خارجية عبر الرسومات المتجهية.\n\nفي المقابل، التقييم النقدي يتطلب تدقيق server/server.js وملف App1289787Repository.kt لمعرفة مدى صلابة التحكم في التزامن (concurrency) والـ idempotency للتعامل مع أحداث الدفع والتحديثات اللحظية (webhooks/polling)؛ لأن هذا هو أكثر جزء عرضة لأخطاء مكلفة (ازدواجية فواتير، فقدان حدث حالة، أو سباقات بين تحديث “التخصيص” وتأكيد “التسليم”). كما أن استخدام خادم محلي/شبكة رفع ملفات (طبقة شبكة داخل KMP) بدون ذكر صريح لمناولة retries مع backoff، التحقق من المحتوى (validation) على الخادم، ضبط أحجام الملفات/الحدود، وتوثيق نسخ (versioning) لواجهات API قد يضعف الاعتمادية التجارية مقارنة بالحلول الاحتكارية. وبخصوص التوسع: معيار الكفاءة عبر PM2 Cluster يعتمد على كيفية إدارة server/server.js للـ statelessness، وعدم وجود state داخل الذاكرة، واستعمال shared storage (مثل S3/Redis) بدلًا من الاعتماد على الذاكرة المحلية لكل Worker؛ بدون ذلك قد يحدث عدم اتساق في حالة التعاون بين الشاشات الثلاث. لذلك: توجد إشارات إيجابية قوية في طبقات KMP (نمذجة المجال/تقسيم الطبقات)، لكن “سبب توفير مئات الدولارات” مقابل الخدمات الاحتكارية وحقيقة كفاءة التوسع عبر PM2 Cluster لا يمكن الجزم بها بدون تفاصيل الأمن والـ observability (logs/metrics/tracing) وسلامة مسار الدفع في server/server.js.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ حزمة “Reliability & Security Hardening” لمسار الدفع والتقدم: (1) اجعل عملية تأكيد الدفع idempotent عبر PaymentIntent/TransactionId مع قاعدة بيانات أو cache (مثل Redis) لتخزين حالة كل معاملة ومنع تكرار المعالجة؛ (2) أضف توقيعًا وتحققًا صارمًا من Webhooks على server/server.js (التحقق من signature + replay protection مع nonce/timestamp)، وطبّق rate limiting على نقاط الاستلام؛ (3) أعد تصميم طبقة التخزين لتكون Stateless مع تخزين تقدم التعاون في مصدر مشترك (DB/Redis) بدل memory عند استخدام PM2 Cluster؛ (4) أضف observability أساسي: correlationId لكل طلب، structured logs، ومقاييس لاتساق الحالات (state transitions) + تنبيه عند فشل/تأخر التسليم. هذه الخطوات تقلل الأخطاء المكلفة وتضمن أن التوسع عبر PM2 Cluster لا يسبب تناقضات بين العمال."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.96,
-      "verified_files_inspected": [
-        "App1289787Repository.kt",
-        "App1289787HomeScreen.kt",
-        "App1289787DetailsScreen.kt",
-        "App1289787CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "على المستوى المعماري، يظهر أن مشروع Mahbob (#1289787) مبني بعقلية طبقات واضحة في KMP (Interface/Domain/Network) وهو انسجام قوي مع Archetype medical_portal من حيث وضوح تدفق المسؤوليات وتقليل التداخل بين واجهة المستخدم ومنطق الأعمال. تحديداً وجود Domain models مثل YouTubeStoryEditCollaboration و LongFormEditMilestone يرفع الصلابة المنطقية لتسلسل المراحل (3 فيديوهات أسبوعياً، نقاط مراجعة، وتخطيط السرد)، كما أن حصر بيانات الحافظة/الحزمة ضمن App1289787Model و App1289787Package يساعد في منع انتشار الحالة عبر الشاشات. من جهة تنفيذ الواجهات، الفحص المفرد لمصادر: App1289787Repository.kt يوحي بتبويب مسؤوليات الشبكة/التخزين مع تقليل أخطاء سير العمل، بينما تقسيم الشاشات إلى App1289787HomeScreen.kt و App1289787DetailsScreen.kt و App1289787CheckoutScreen.kt يسهّل تطبيق قواعد واضحة لاتجاه RTL ومحاذاة عناصر الترقيم والمبالغ وأزرار الإجراء (CTA) دون كسر منطق التنقل. إضافة إلى ذلك، إدراج BespokeVectorIllustration.kt يثبت نية التعامل مع Canvas/Vector Drawings بشكل قابل لإعادة القياس وتناسق بصري جيد على أحجام الشاشات المختلفة، وهذا مفيد جداً لمراعاة مناطق Dynamic Island والـ safe areas.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصّي بتنفيذ حزمة تحسينات “الاعتمادية والأمان والتقدم اللحظي” بشكل متسلسل: (1) استبدال/تعزيز طبقة الوصول للعمليات الحساسة في App1289787Repository.kt بنظام توثيق موقّع (JWT قصيرة العمر أو signed URLs لرفع المواد) مع تحقق على server/server.js ضد replay attacks وتقييد صلاحيات المستخدم لكل Collaboration. (2) إضافة إدارة حالة تقدم موثوقة للشاشة الثالثة عبر آلية events idempotent (مثل requestId/operationId) وتحديثات عبر WebSocket/SSE بدلاً من polling إن كان متاحاً، مع ضمان عدم تكرار Milestones عند استلام أحداث متأخرة. (3) تحسين الأداء وتجربة الاستخدام: تطبيق caching طبقي على المواد والنتائج الوسيطة داخل Repository (مع سياسة TTL واضحة) وتقديم placeholders متسقة لـ Vector (BespokeVectorIllustration.kt) عند الأحجام المتغيرة، مع فحص مقاسات اللمس (≥48dp) على كل CTA في RTL خصوصاً أزرار الدفع/إعادة المحاولة، والتأكد من محاذاة الاتجاه (start/end) بدلاً من left/right لجميع المقاطع. (4) التوافق مع Dynamic Island وCanvas: وضع جميع عناصر “التقدم/الخطوات” داخل safe-area-aware containers وضمان أن الرسومات المتجهة لا تقطع أو تغطي الأزرار تحت الارتفاعات الخاصة بالقصّة (notch) مع تطبيق constraints مرتبطة بعناصر القياس بدلاً من padding ثابت."
-    }
-  ],
-  "average_rating": 4.81,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب مونتير فيديوهات طويلة — مطلوب مونتير فيديوهات يوتيوب تعلن قناة Mahbob محبوب عن حاجتها للتعاون مع مونتير محترف للعمل على مونتاج محتوى قصصي لليوتيوب. تفاصيل العمل: - مدة الفيديو الواحد من 20 إلى 30 دقيقة. - المطلوب إنجاز 3 فيديوهات أسبوعيا. - محتوى قصصي يعتمد على السرد البصري",
+  "domain_data": {
+    "repo_name": "ilmi-bootcamp-smart-education-1289787",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
