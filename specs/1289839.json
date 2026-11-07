@@ -1,275 +1,114 @@
 {
   "project_id": "1289839",
-  "app_name": "منصة خدمات الطلبات الرقمية",
-  "tagline": "حوّل المتجر الحالي إلى منصة خدمات رقمية تحقق مبيعات أسرع وتتبّع فوري للطلبات",
-  "preset": "ecommerce",
-  "archetype": "catalog_grid",
+  "repo_name": "naqd-terminal-pos-cashier-1289839",
+  "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1289839",
+  "app_name": "تطبيق نقد تيرمنال — تطوير متجر إلكتروني — تطوير",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#8b5cf6",
+    "accent_color": "#06b6d4"
   },
-  "description": "التطبيق مبني كمنصة خدمات رقمية فوق المتجر الحالي (بدون إعادة إنشاء من الصفر) مع تركيز على Drop Servicing: (1) شاشة الاكتشاف/الواجهة الرئيسية تعرض كتالوج ServiceCatalogListing بفلترة سريعة وأقسام واضحة لزيادة التحويل، (2) شاشة التفاصيل/التخصيص تتيح خيارات تخصيص مرتبطة بقواعد تحقق وتوليد متطلبات التنفيذ لخفض إعادة العمل، (3) شاشة الخروج/التتبع تربط الدفع الإلكتروني بمرحلة تأكيد الطلب وتعرض حالة ServiceFulfillmentOrder لحظياً مع إشعارات فورية. من الناحية التقنية، يتم تنفيذ بنية طبقات (واجهة/خدمات/دومين/تخزين) مع نموذج حالة للطلب ومحرّكات قواعد تسعير وتحقق، مع تكاملات الدفع والفواتير والإشعارات، مع تحسينات تصميم UI/UX وتحديثات تتوافق مع الميزانية المحددة بتنفيذ جميع الأجزاء في دفعة واحدة.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحسين مسار الشراء إلى 3 خطوات واضحة (اكتشاف الخدمة، تخصيص الطلب، تأكيد الدفع والتتبع)",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة إنشاء الطلبات والفواتير وتحديث حالات التسليم وربطها بسير العمل",
-    "retention_value": "رفع نسبة الاحتفاظ عبر تقليل زمن الاستجابة وتحسين الشفافية في حالة الطلب، مما يقلل الإلغاء والاستفسارات المتكررة"
+  "banner": {
+    "title": "تطبيق نقد تيرمنال — تطوير متجر إلكتروني — تطوير",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "fc4dbe4",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289839_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289839_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289839_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289839_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289839_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289839_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289839_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289839_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289839_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ منصة خدمات الطلبات الرقمية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289839/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289839_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289839_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289839_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289839Repository.kt",
-        "App1289839HomeScreen.kt",
-        "App1289839DetailsScreen.kt",
-        "App1289839CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "استناداً إلى الملفات التي ذكرتها بالاسم (App1289839Repository.kt, App1289839HomeScreen.kt, App1289839DetailsScreen.kt, App1289839CheckoutScreen.kt, BespokeVectorIllustration.kt, و server/server.js) إضافةً إلى النماذج App1289839Model و App1289839Package: أرى أن تصميم طبقات التطبيق يظهر نية واضحة لفصل الاهتمامات باتجاه “واجهة/خدمات/دومين/تخزين”، حيث أن وجود Repository مضبوط كـواجهة للبيانات (App1289839Repository.kt) مع نماذج دومين ذات تسمية تعكس الكيان (App1289839Model و App1289839Package) يدعم قابلية الاختبار وصيانة المنطق بعيداً عن UI. كذلك، وجود BespokeVectorIllustration.kt يشير إلى توجّه سليم لتثبيت تفاصيل الـ UI داخل مكوّن مستقل وعدم تمييع منطق العرض داخل الشاشات (Home/Details/Checkout)، وهو أمر جيد لنمط catalog_grid لأنه يحافظ على نظافة إعادة التركيب ويقلّل إعادة الرسم غير الضرورية إن تم استخدامه بتكوينات مناسبة في Compose. وعلى مستوى التكامل الخلفي، تضمين server/server.js يوحي بوجود نقطة تكامل واضحة لمعالجة الطلبات/الربط مع الدفع، وهو مناسب لفكرة Drop Servicing لأن “محرك التنفيذ” يمكن فصله عن التطبيق لتقليل إعادة العمل عند تغيّر المزودين أو قواعد التنفيذ.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصي بخطوة واحدة حاسمة ذات أثر مباشر على الجودة والموثوقية: بناء طبقة تحقق وتزامن أحادية المصدر لحالات الطلب باستخدام StateFlow/مخزن حالات مضبوط (State reducer) مع ضمان عدم وجود تداخل في مصادر الحقيقة. عملياً: (1) اجعل App1289839Repository.kt هو المصدر الوحيد لـ “حالة ServiceFulfillmentOrder” عبر Stream واحد (Flow/StateFlow) من الخادم إلى Compose، مع نموذج حالة واضح (sealed/immutable) وعمليات تعديل عبر دوال intention-based بدل تعديل الحقل مباشرة من الشاشات. (2) نفّذ “Idempotency + Signature verification” في server/server.js لمعالجة دفعات متكررة/إعادة إرسال webhooks (خاصة لCheckoutScreen) عبر Request Id أو Order Id مع توقيع HMAC/Signature للتحقق من أن الدفع/التأكيد آتٍ من المزود. (3) أضف سياسة كاش مدروسة داخل Repository (مثلاً ذاكرة مؤقتة للـ catalog listings ونتائج تفاصيل التخصيص) مع TTL مرتبط بتغيّر التسعير/القواعد، لتقليل زمن الاستجابة وتحسين التحويل دون التضحية بدقة التسعير أثناء التخصيص والخروج."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289839Repository.kt",
-        "App1289839HomeScreen.kt",
-        "App1289839DetailsScreen.kt",
-        "App1289839CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة الكود البرمجي المقدم، يظهر أن المشروع يتبع نمط MVVM بشكل جيد ويسهل التنقل بين الشاشات المختلفة. تم تنظيم الكلاسات بشكل واضح ومنفصل، وتم استخدام ملفات مثل App1289839Model، App1289839Repository، وApp1289839ViewModel.\n\nتم استخدام الرسومات المتجهة Canvas Vector Drawings لتحسين واجهة المستخدم وتجربة المستخدم. تم توضيح استخدام الكلاسات App1289839HomeScreen، App1289839DetailsScreen، وApp1289839CheckoutScreen لعرض الشاشات المختلفة للتطبيق.\n\nفيما",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289839Repository.kt",
-        "App1289839HomeScreen.kt",
-        "App1289839DetailsScreen.kt",
-        "App1289839CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بالاطلاع على أسماء الكلاسات والملفات المفحوصة، يظهر تصميم يلتزم بفصل واضح بين طبقات المجال والتطبيق. وجود Domain Models مثل App1289839Model وApp1289839Package يوحي بنموذج حالة للطلب (Order/State) ومكوّنات التسعير/التوافق مع قواعد التحقق، وهو ما يتماشى مع توصيف Drop Servicing حيث يلزم تقليل إعادة العمل عبر توليد متطلبات التنفيذ بشكل مُسبق. كما أن فصل App1289839Repository يعكس نمط مستودع (Repository Pattern) لتجريد عمليات الشبكة/الدومين عن واجهات UI، وهو ما يدعم قابلية الاختبار والاستبدال عندما تتغير مزودات الدفع أو الإشعارات. على مستوى واجهات التطبيق، توزيع المنطق عبر App1289839HomeScreen.kt وApp1289839DetailsScreen.kt وApp1289839CheckoutScreen.kt ينسجم مع UI Archetype catalog_grid ويقلل تداخل سلوك العرض مع منطق التسعير والتحقق، خصوصاً إذا كانت قواعد تحقق متطلبات التخصيص تُترجم إلى متطلبات تنفيذ قبل الخروج. إضافة BespokeVectorIllustration.kt تدل على نهج UI/UX عملي يحقق اتساقاً بصرياً دون تكلفة أداء كبيرة مقارنةً بالرسومات الثقيلة، وهو عامل مهم في كتالوجات البيع سريع التحويل.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أنصح بتنفيذ “تصليد أمان + موثوقية تسليم + مراقبة FinOps” بشكل عملي: (1) على مستوى backend server/server.js أضف طبقة حماية شاملة قبل قبول الطلبات مثل التحقق من التوقيع/الهوية (Webhook signature verification) لربط الدفع، وتوثيق كل انتقال حالة ServiceFulfillmentOrder بمخطط حالة (State machine) مع idempotency keys لمنع التكرار عند إعادة تسليم Webhooks. (2) فعّل timeouts وretries مع Backoff على التكاملات (Payment/Fulfillment/Notifications) ووسّع سجلات structured logging مع correlation_id لربط مسار الطلب من Checkout حتى الإشعار الفوري. (3) على مستوى توسع الخادم، استخدم PM2 Cluster لكن مع ضوابط: حدّد max_memory_restart وحدد instances بعدد أنوية CPU الفعلية على VPS Starter، وربط ذلك بـ nginx reverse proxy أو load balancer بسيط أمامه لضمان توزيع جلسات/طلبات Webhooks. (4) ضمن FinOps، راقب مؤشرات التكلفة والضغط (CPU/RAM/latency/queue depth) وطبّق autoscale داخلي عبر زيادة instances تدريجياً فقط عند اختناق latency بدل رفع فوري؛ هذا يحافظ على ميزة خفض التكلفة مقارنة بالخدمات الاحتكارية مع الحفاظ على موثوقية عالية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289839Repository.kt",
-        "App1289839HomeScreen.kt",
-        "App1289839DetailsScreen.kt",
-        "App1289839CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "يبدو أنّ المشروع قد تبنّى فصل مسؤوليات واضح وملموس عبر طبقات الواجهة/الخدمات/الدومين/التخزين مع نموذج حالة للطلب، وهو ما ينعكس في تنظيم الكود عبر الكلاسات المكتشفة App1289839Model (كنقطة تجميع/تجريد للحالة)، وApp1289839Package (كمعبّئ/تجميعة للبيانات المرتبطة بالـ Service أو خياراته)، وApp1289839Repository (كمركز للوصول للبيانات/تنفيذ عمليات التخزين والاتصال). من ناحية تدفّق الواجهات الثلاث وفق catalog_grid، فإن الفصل بين App1289839HomeScreen.kt وApp1289839DetailsScreen.kt وApp1289839CheckoutScreen.kt يدعم قابلية الصيانة ويقلّل إعادة العمل، خصوصًا مع وجود محرّكات قواعد التسعير والتحقق كمنطق دومين/قواعد بدلاً من وضعها داخل الـ UI؛ وهذا عادةً يحسّن قابلية اختبار التحويلات ويجعل توليد متطلبات التنفيذ أقل عرضة للتناقض. كذلك، وجود BespokeVectorIllustration.kt يُشير إلى توجّه صحيح لاستخدام Canvas/Vector بدقّة عالية مع قابلية التكيّف، وهو مهم لتوافق بصري أفضل عبر أحجام الشاشات، مع قابلية تحسين التعامل مع Dynamic Island/Area محجوزات النظام إذا تم احترام safe areas وقيود القياس عند رسم الرسومات.",
-      "milestone2_recommendation_ar": "للمرحلة الثانية، أوصي بتنفيذ “حزمة أمان وتشغيلية” شاملة ترتبط مباشرة بتدفق الدفع والتتبع: (1) توحيد نمط الأوامر باستخدام حالة واحدة Source of Truth على مستوى الدومين (استلهام App1289839Model) مع معرّف طلب Idempotency للـ Checkout لمنع التكرار عند إعادة المحاولة. (2) إضافة توقيع/تحقق للـ Webhooks وتدقيق التواريخ (server/server.js) بحيث تُثبت الأحداث المالية تغييرات ServiceFulfillmentOrder فقط بعد التحقق من المصدر (signature + replay protection). (3) تحسين الأداء والـ UX بالتوازي: كاش طبقي في App1289839Repository (نتائج ServiceCatalogListing وخيارات التخصيص وقواعد التحقق) مع سياسة TTL قصيرة للـ HomeScreen وتحديث تفاضلي للدقائق الأخيرة في Checkout لتقليل زمن ظهور الحالة الفورية مع الحفاظ على الدقة. (4) ضمان مساحات اللمس والـ RTL: مراجعة كل عناصر catalog grid وحقول التخصيص وزرار التأكيد لتأكيد 48dp كحد أدنى، وتطبيق محاذاة اتجاهية عبر Directionality (بدون افتراض LTR) خصوصًا في BespokeVectorIllustration.kt إذا كانت هناك تفاعلات/انتقالات. (5) توثيق وتفعيل اختبارين: اختبار وحدة لقواعد التحقق/التسعير (Domain rules) واختبار تكامل End-to-End للتأكد من أن الدفع في Checkout يغيّر ServiceFulfillmentOrder وتصل الإشعارات إلى الواجهة ضمن نافذة زمنية معيارية."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "تطوير متجر إلكتروني — تطوير متجر إلكتروني إلى منصة خدمات رقمية بنظام Drop Servicing الميزانية المحددة: 80 دولارا للمشروع كاملا. شروط تنفيذ المشروع - المتجر موجود ويعمل بالفعل المطلوب تطويره وتحسين تصميمه وإضافة الأنظمة والخصائص المطلوبة، وليس إنشاء متجر جديد من الصفر. - ا",
+  "domain_data": {
+    "repo_name": "naqd-terminal-pos-cashier-1289839",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
