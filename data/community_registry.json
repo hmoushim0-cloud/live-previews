@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T03:20:15.452715+00:00",
+    "updated_at": "2026-11-07T04:16:29.203634+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1503,9 +1503,9 @@
     },
     {
       "project_id": "1289822",
-      "app_name": "استوديو إعلان عقاري سعودي",
-      "tagline": "حوّل محتوى إعلانك العقاري الجاهز إلى مقطع حماسي بلهجة سعودية خلال دقائق",
-      "preset": "standard",
+      "app_name": "تطبيق سكن ثلاثي الأبعاد — محرر فيديو / مونتير لإعلان ت",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289822",
       "stamp_id": "SA-KMP-1289822",
       "crypto_hash": "sha256-1289822",
@@ -1515,9 +1515,9 @@
     },
     {
       "project_id": "1289821",
-      "app_name": "استوديو الفخامة ثلاثي الأبعاد",
-      "tagline": "حوّل موديل شقتك إلى رندرات واقعية جاهزة للبيع والتعاقد بسرعة",
-      "preset": "standard",
+      "app_name": "تطبيق رواسي للأملاك — مصمم داخلي محترف لإعادة تصمي",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289821",
       "stamp_id": "SA-KMP-1289821",
       "crypto_hash": "sha256-1289821",
@@ -1719,9 +1719,9 @@
     },
     {
       "project_id": "1289789",
-      "app_name": "منصة إطلاق سيرفر متين 2 الآمن",
-      "tagline": "إطلاق أسرع لسيرفر متين 2 مع فحص أمان شامل ودعم فني مستمر قبل الافتتاح وبعده",
-      "preset": "standard",
+      "app_name": "تطبيق ورشة فوري — مبرمج خبير لسيرفر متين 2 (Me",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289789",
       "stamp_id": "SA-KMP-1289789",
       "crypto_hash": "sha256-1289789",
