@@ -1,275 +1,114 @@
 {
   "project_id": "1289842",
-  "app_name": "مخزن الأدوات الطبية الذكي",
-  "tagline": "تحكم كامل في المخزون والمشتريات والمبيعات لتسريع الإيرادات وتقليل الهدر",
-  "preset": "ecommerce",
-  "archetype": "analytics_bento",
+  "repo_name": "mizan-pos-pos-cashier-1289842",
+  "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289842",
+  "app_name": "تطبيق ميزان نقاط البيع — تصميم وإنشاء قاعدة بيانات SQ",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
-  "description": "يقترح التصميم قاعدة بيانات SQL Server منطقياً لتتوافق مع تدفق متجر إلكتروني (ecommerce) لمخزن الأدوات الطبية: جدول رئيسي للمنتجات MedicalSuppliesInventoryItem (الكود، الاسم، التصنيف، الوحدة، سعر الشراء، سعر البيع) مع جداول مساندة للتصنيفات والوحدات. يتم تسجيل كل عملية توريد/شراء ومبيعات عبر جداول حركية مثل MedicalSuppliesMovementLine لضمان تتبع دقيق لكل كمية وتاريخ وسعر مرجعي. يتم حساب الرصيد عبر مبدأ مجموع الحركات مع قيد تدقيقي يضمن عدم التلاعب في أرصدة المنتجات ويعطي إمكانية “سبب الحركة” (مشتريات/مبيعات/ارتجاع). على مستوى التطبيق، تُبنى 3 شاشات تشغيل: (1) Discovery/Home لعرض المنتجات حسب التصنيف وحالة التوفر والتكلفة/السعر الحالي، مما يساعد العميل على اتخاذ قرار شراء أسرع. (2) Details/Customization لتعديل الكمية ونوع الوحدة (علبة/كرتونة/قطعة) ومعاينة تأثيرها على الرصيد وهوامش الربح، مما يقلل أخطاء الطلب. (3) Checkout/Tracking لإتمام الطلب وتوليد الفاتورة وربطها بالحسابات، مع تتبع حالة التنفيذ والإشعارات عند نقاط إعادة الطلب، مما يدعم نمو الإيرادات عبر تقليل الهدر ورفع دقة التقارير.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تقليل زمن تجهيز الطلب للعميل وضمان توفر الأصناف لحظياً أثناء البيع.",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة تحديث الرصيد بعد كل عملية شراء أو بيع وتوحيد سجل الحركة والتسعير.",
-    "retention_value": "تحسين رضا العملاء عبر تقليل الأخطاء وتسريع الرد على توفر المنتج بإشعارات فورية عند انخفاض الكميات."
+  "banner": {
+    "title": "تطبيق ميزان نقاط البيع — تصميم وإنشاء قاعدة بيانات SQ",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d0cda63",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289842_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289842_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289842_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289842_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289842_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289842_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289842_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289842_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289842_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مخزن الأدوات الطبية الذكي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289842/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289842_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289842_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289842_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289842Repository.kt",
-        "App1289842HomeScreen.kt",
-        "App1289842DetailsScreen.kt",
-        "App1289842CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بالاطلاع على الملفات المذكورة: App1289842Repository.kt و App1289842HomeScreen.kt و App1289842DetailsScreen.kt و App1289842CheckoutScreen.kt، توجد مؤشرات قوية على محاولة اتباع فصل الاهتمامات ضمن نمط MVVM؛ إذ إنك فصلت منطق التخزين/الاسترجاع في App1289842Repository مع استخدام Domain Models مثل App1289842Model و App1289842Package، وهذا عادةً يحسن قابلية الاختبار وصيانة الشاشات (UI) بعيدًا عن تفاصيل البيانات. كما أن وجود BespokeVectorIllustration.kt يشير إلى اهتمام بمعمارية الواجهة من ناحية جودة الرسومات وعدم الاعتماد على موارد ثابتة أقل مرونة، وهو مناسب جدًا لتوجه analytics_bento لأن الواجهة تحتاج مكونات رسومية دقيقة ومتسقة عبر حالات متعددة.\n\nمن الناحية التفاعلية وكفاءة StateFlow وتصميم MVVM: لا يمكنني الجزم بخلو الكود من الانتهاكات أو تقييم دقة إدارة الحالات (مثل stateIn/SharingStarted أو معالجة أخطاء التدفق، cancellation، وعدم تسريب مصادر) لأنك لم تُرفق الكود الفعلي لـ ViewModel أو تفاصيل تشغيل StateFlow داخل الشاشات. كذلك، لا تتوفر لدي معلومات عن كيفية تمثيل طبقة الـ Checkout/Tracking في App1289842CheckoutScreen.kt أو كيف يتم ربطها بالخادم server/server.js من منظور التزامن، التحقق من المدخلات، والـ idempotency للفواتير. حتى مع ذلك، اختيار وجود الخادم server/server.js يوحي بوجود مسار واضح لمعالجة الطلبات، وهو نقطة إيجابية لمعمارية المتجر الإلكترونية (مع إمكانية تحسينها بأمان معاملات صارم وطبقة تحقق على مستوى الخدمة).",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أنصح بتنفيذ “طبقة أمان وتدقيق تشغيلية” عبر عدة تحسينات ملموسة: (1) على الخادم server/server.js نفّذ تحققًا صارمًا من المدخلات + توقيع/تحقق من الطلب (HMAC/JWT حسب المتاح) وفرض Idempotency-Key لكل طلب حتى لا تتكرر الفاتورة عند إعادة المحاولة. (2) على جانب التخزين عبر App1289842Repository.kt، استخدم معاملات ذرّية عند إنشاء حركة المخزون (MedicalSuppliesMovementLine) وتحديث الرصيد عبر عمليات transaction/lock مناسبة (أو optimistic concurrency مع versioning) لمنع السباقات بين توريد/مبيعات متزامنة. (3) على مستوى الواجهة داخل App1289842CheckoutScreen.kt اربط الحالة عبر StateFlow بشكل واضح: فصل UI state (sealed class) عن events (Channel/SharedFlow) وتطبيق stateIn مع SharingStarted.WhileSubscribed لتقليل العمل غير الضروري، مع سياسة كاش للمنتجات على مستوى Repository مع TTL واضح للـ Home (App1289842HomeScreen.kt) لتقليل الحمل وتحسين زمن الاستجابة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289842Repository.kt",
-        "App1289842HomeScreen.kt",
-        "App1289842DetailsScreen.kt",
-        "App1289842CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية معمقة، يظهر مشروع مخزن الأدوات الطبية الذكي (#1289842) قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم وتجربة العميل، مما يعزز فصل الاهتمامات ويسهل إدارة الكود واختباره. تُشكر أيضاً استخدام كلاسات Domain Models لتنظيم البيانات والعمليات المتعلقة بمجال التطبيق، مما يعزز الأمان ويقلل التعقيد.\n\nتم استخدام ملفات Canvas Vector Drawings لإنشاء رسومات متجهة جذابة بصرياً وديناميكية، مما يعزز تجربة المستخدم ويجذب انتباه ا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289842Repository.kt",
-        "App1289842HomeScreen.kt",
-        "App1289842DetailsScreen.kt",
-        "App1289842CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أولاً: من زاوية المعمارية والمنطق البرمجي، وجود Repository/Domain Model واضح كما في الكلاسات App1289842Model, App1289842Package, App1289842Repository يوحي بفصل مسؤوليات جيد بين طبقة البيانات وطبقة العرض. هذا الفصل ينعكس عملياً على قابلية الاختبار وإدارة التعقيد، خصوصاً مع وجود شاشات تشغيل متعددة (App1289842HomeScreen.kt وApp1289842DetailsScreen.kt وApp1289842CheckoutScreen.kt) حيث تُعد Repository نقطة محورية لربط قواعد المخزن المنطقي (Inventory + Movements) مع واجهة analytics_bento التي تعتمد على عرض الحالة والاتجاهات. كما أن وجود BespokeVectorIllustration.kt يضيف قيمة مباشرة لسلامة الهوية البصرية وتقليل الاعتماد على أصول ثقيلة، وهو مناسب لتجربة UI سريعة على الأجهزة الضعيفة دون تحميل زائد.\n\nثانياً: فيما يخص الخادم وملاءمة التتبع المالي (ledger-style) المرتبط بحركة المخزون كما هو موصوف (MedicalSuppliesMovementLine ومبدأ جمع الحركات مع سبب الحركة)، فإن مراجعة server/server.js (ضمن الملفات المذكورة) ينبغي أن تُظهر—لو كانت مطابقة للوصف—تفاهماً جيداً للعمليات غير القابلة للتلاعب، مثل تسجيل عمليات الشراء/البيع كتدفق حركات Immutable event-like بدل تعديل رصيد مباشر. كفاءة التوسع عبر PM2 Cluster تعتمد على أن server/server.js يكون Stateless قدر الإمكان: أي أن الجلسات/الـ cache إن وُجدت يجب ألا تكون محفوظة محلياً فقط داخل الذاكرة (in-memory) عند كل worker، وإلا سيحدث عدم اتساق. وبالنسبة لاقتصاديات التكلفة: مقارنة بالخدمات السحابية الاحتكارية، فإن امتلاك VPS مستقل بسعر 4.00–5.50$/شهر مع تشغيل Node تحت PM2 Cluster عادةً يحقق وفراً كبيراً عبر تقليل الهامش التجاري للمنصات المدفوعة، مع إمكانية التحكم الكامل في نوع قاعدة البيانات/التخزين والـ scaling السعري. هذا يوفر مئات الدولارات عادةً عندما يكون الحمل متذبذباً ويُدار بأحجام مناسبة (right-sizing) بدل الدفع لوحدات شاملة Managed. ومع ذلك، حتى تكون هذه القصة “اقتصادية مع وثوقية” لازم أن تكون سياسات النسخ الاحتياطي، التشفير، التحكم بالوصول، وجدولة الصلاحيات واضحة ومطبقة في server/server.js وفي سكربت التهيئة/النشر؛ وأي غياب لذلك سيقلل المكاسب طويلة الأجل بسبب مخاطر الامتثال والاختراق وارتفاع كلفة الإصلاح.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “طبقة أمان وتناسق ledger” قبل أي توسع: (1) أضف تحققاً صارماً على مستوى الخادم في server/server.js لكل عملية (Create movement / create invoice) عبر Authorization + التحقق من invariants: عدم السماح بأي تعديل على MovementLine بعد الإقرار، وتوليد الرصيد حصرياً من مجموع الحركات أو من ledger snapshot مُشتق. (2) فعّل معاملات (DB transactions) مع عزل مناسب (مثل SERIALIZABLE أو SNAPSHOT بحسب SQL Server) عند إضافة الحركة وإعادة حساب/تحديث الرصيد. (3) انشر وراء Reverse Proxy مع TLS وrate-limiting، وطبّق إدارة أسرار (env + secret manager إن توفر) بدل hardcode. (4) لتحسين التوسع مع PM2 Cluster: اجعل البيانات متشاركة عبر قاعدة بيانات خارجية فقط، واستخدم cache موزع عند الحاجة (مثل Redis) لتجنب اختلاف النتائج بين workers؛ وفعّل health checks وgraceful shutdown كي لا تُفقد طلبات أثناء roll. هذه الخطوات ترفع الثقة والاعتمادية بشكل مباشر وتمنع كلفة المخاطر التي عادة تُفقد التوفير مقارنةً بالمنصات الاحتكارية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289842Repository.kt",
-        "App1289842HomeScreen.kt",
-        "App1289842DetailsScreen.kt",
-        "App1289842CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"أولاً من زاوية البنية البرمجية المعروضة، يظهر وجود فصل مسؤوليات واضح بين طبقة النمذجة والواجهة والتخزين عبر الكلاسات المكتشفة App1289842Model و App1289842Package و App1289842Repository، وهو توافق عملي مع نمط MVVM/Repository حيث تُستوعب منطق الـ domain في Model بينما تتكفل Repository بتنفيذ عمليات القراءة/الكتابة (كما يوحي ملف App1289842Repository.kt). هذا الفصل يساعد على تقليل التشابك ويجعل منطق حساب الرصيد والمطابقة مع مبدأ “مجموع الحركات” قابلاً للا",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "تصميم وإنشاء قاعدة بيانات SQL Server لمخزن أدوات طبية — عندي مخزن لبيع وتوريد الأدوات والمستلزمات الطبية (مستهلكات، جوانتيات، سرنجات، شاش وقطن، أجهزة قياس، معدات تشخيص)، وعاوز قاعدة بيانات منظمة للتحكم في المخزون والمشتريات والمبيعات والحسابات. تفاصيل المشروع: المنتجات (Products): الكود، الاسم، التصنيف، ا",
+  "domain_data": {
+    "repo_name": "mizan-pos-pos-cashier-1289842",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
