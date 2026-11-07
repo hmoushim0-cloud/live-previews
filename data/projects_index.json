@@ -697,25 +697,25 @@
   },
   {
     "project_id": "1289926",
-    "app_name": "مخطط الاستوديو ثلاثي الأبعاد",
-    "tagline": "حوّل المخطط إلى نموذج سكيتش اب احترافي خلال دقائق لزيادة الإقبال والمبيعات",
-    "preset": "standard",
+    "app_name": "تطبيق نجد للأسطول — إعداد ملف اسكتش اب لمحل تجار",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289926.json"
   },
   {
     "project_id": "1289923",
-    "app_name": "مرمرك فيديو تسويقي",
-    "tagline": "حوّل احتياج مرمرك إلى إعلان سينمائي جاهز يرفع فرص التعاقد خلال أيام",
+    "app_name": "تطبيق ماهر الميداني — تصميم فيديو تسويقي بالذكاء ا",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
     "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289923.json"
   },
   {
     "project_id": "1289920",
-    "app_name": "باسـيون ستوديو لإدارة الاشتراكات والمتابعة التسويقية",
-    "tagline": "حوّل بيانات المشتركات إلى تجديدات أعلى وتفاعل أسرع وإعادة منقطعات بمنهجية واضحة",
-    "preset": "standard",
+    "app_name": "تطبيق بنيان للصكوك — مطلوب مختص CRM وRetention Ma",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289920.json"
   },
@@ -745,9 +745,9 @@
   },
   {
     "project_id": "1289916",
-    "app_name": "مُجمّع مقدمي خدمات قطر",
-    "tagline": "حوّل البحث إلى قاعدة بيانات دقيقة تدعم نمو شركات خدمات المنازل",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ماهر الميداني — سحب وتجميع البيانات (Data Co",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289916.json"
   },
@@ -2745,9 +2745,9 @@
   },
   {
     "project_id": "1287937",
-    "app_name": "مستاكل هوية السوشيال",
-    "tagline": "حوّل هوية علامتك إلى نظام بصري متسق يرفع التحويلات ويختصر وقت التصميم",
-    "preset": "standard",
+    "app_name": "تطبيق حيز للمكاتب — مطلوب متخصص Branding لتصميم",
+    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1287937.json"
   },
