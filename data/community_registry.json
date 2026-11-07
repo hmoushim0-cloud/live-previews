@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T07:09:40.967049+00:00",
+    "updated_at": "2026-11-07T09:11:24.286803+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1335,9 +1335,9 @@
     },
     {
       "project_id": "1289881",
-      "app_name": "معاينة أرض على الخارطة",
-      "tagline": "حول تفاصيل مشروعك إلى فيديو تسويقي يرفع الطلبات ويختصر قرار العميل",
-      "preset": "services",
+      "app_name": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289881",
       "stamp_id": "SA-KMP-1289881",
       "crypto_hash": "sha256-1289881",
@@ -1431,9 +1431,9 @@
     },
     {
       "project_id": "1289842",
-      "app_name": "مخزن الأدوات الطبية الذكي",
-      "tagline": "تحكم كامل في المخزون والمشتريات والمبيعات لتسريع الإيرادات وتقليل الهدر",
-      "preset": "ecommerce",
+      "app_name": "تطبيق ميزان نقاط البيع — تصميم وإنشاء قاعدة بيانات SQ",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289842",
       "stamp_id": "SA-KMP-1289842",
       "crypto_hash": "sha256-1289842",
@@ -1443,9 +1443,9 @@
     },
     {
       "project_id": "1289839",
-      "app_name": "منصة خدمات الطلبات الرقمية",
-      "tagline": "حوّل المتجر الحالي إلى منصة خدمات رقمية تحقق مبيعات أسرع وتتبّع فوري للطلبات",
-      "preset": "ecommerce",
+      "app_name": "تطبيق نقد تيرمنال — تطوير متجر إلكتروني — تطوير",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289839",
       "stamp_id": "SA-KMP-1289839",
       "crypto_hash": "sha256-1289839",

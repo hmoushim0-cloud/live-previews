@@ -857,9 +857,9 @@
   },
   {
     "project_id": "1289881",
-    "app_name": "معاينة أرض على الخارطة",
-    "tagline": "حول تفاصيل مشروعك إلى فيديو تسويقي يرفع الطلبات ويختصر قرار العميل",
-    "preset": "services",
+    "app_name": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289881.json"
   },
@@ -921,17 +921,17 @@
   },
   {
     "project_id": "1289842",
-    "app_name": "مخزن الأدوات الطبية الذكي",
-    "tagline": "تحكم كامل في المخزون والمشتريات والمبيعات لتسريع الإيرادات وتقليل الهدر",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ميزان نقاط البيع — تصميم وإنشاء قاعدة بيانات SQ",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289842.json"
   },
   {
     "project_id": "1289839",
-    "app_name": "منصة خدمات الطلبات الرقمية",
-    "tagline": "حوّل المتجر الحالي إلى منصة خدمات رقمية تحقق مبيعات أسرع وتتبّع فوري للطلبات",
-    "preset": "ecommerce",
+    "app_name": "تطبيق نقد تيرمنال — تطوير متجر إلكتروني — تطوير",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289839.json"
   },
