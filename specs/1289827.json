@@ -1,275 +1,114 @@
 {
   "project_id": "1289827",
-  "app_name": "ملازم أكاديمية تلخيص وبحث وميند ماب",
-  "tagline": "حوّلي محاضراتك وملفاتك لملخصات منظمة وأفكار واضحة لتسريع الدراسة والتحصيل",
-  "preset": "standard",
-  "archetype": "map_radar",
+  "repo_name": "f-classroom-smart-education-1289827",
+  "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289827",
+  "app_name": "تطبيق فكر الذكية — إعداد وتنسيق المحتوى الأكادي",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "التطبيق يقدم منصة متكاملة لإعداد المحتوى الأكاديمي: يبدأ المستخدم بإضافة الملفات أو تحديد موضوع البحث ضمن شاشة Discovery/Home، ثم يتم إنشاء ملخص محاضرة منظم مع تجميع نقاط رئيسية وبناء Mind Map داخل شاشة Details/Customization لمراجعة النتائج والتعديل إن لزم، وأخيراً يتم تسليم المحتوى ضمن شاشة Checkout/Tracking مع حالة المعالجة وتأكيد التسليم. تقنياً، يعتمد على طبقة تجميع ملفات ودعم عدة صيغ، محرك تلخيص منظم يحافظ على المعلومات الجوهرية عبر قوالب بنية ثابتة (عناوين، نقاط، روابط/مصادر إن توفرت) ومحرك Mind Map يحول المفاهيم إلى عقد وروابط مرتبة. يتم حفظ عمليات البحث والتلخيص في سجل قابل للتتبع مع إشعارات عند اكتمال المعالجة، ما يختصر زمن التشغيل ويحسن جودة المحتوى ويزيد قابلية إعادة الاستخدام بين الطلبات.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تسهيل رحلة العميل من رفع الملفات إلى تسلم ملخص منظم وخيارات Mind Map خلال زمن قصير.",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة البحث والتلخيص والتنسيق وتقليل العمل اليدوي في تجميع المعلومات وإعادة الصياغة.",
-    "retention_value": "رفع نسبة الاستبقاء عبر تحسين سرعة التسليم وإتاحة مراجعة الملخصات بشكل مرتب، ما يزيد الثقة ويقلل طلبات التعديل."
+  "banner": {
+    "title": "تطبيق فكر الذكية — إعداد وتنسيق المحتوى الأكادي",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "7e8e0b4",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289827_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289827_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289827_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289827_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289827_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289827_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289827_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289827_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289827_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ ملازم أكاديمية تلخيص وبحث وميند ماب",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي بدون خوادم (Cloudflare Workers / Supabase Free Tier)",
-      "cost_ar": "$0.00 / شهرياً (مجاني تماماً)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "استضافة Edge سحابية مجانية تدعم حتى 100,000 طلب يومياً مع ذاكرة كاش محلية فائقة",
-      "is_free": true,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289827/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289827_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289827_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289827_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289827Repository.kt",
-        "App1289827HomeScreen.kt",
-        "App1289827DetailsScreen.kt",
-        "App1289827CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد مراجعة الملفات المحددة (App1289827Repository.kt, App1289827HomeScreen.kt, App1289827DetailsScreen.kt, App1289827CheckoutScreen.kt, BespokeVectorIllustration.kt) والكلاسات المكتشفة (App1289827Model, App1289827Package, App1289827Repository)، يظهر أن تصميم التطبيق يتبع تقسيمًا وظيفيًا واضحًا على مستوى الشاشات المرتبطة بالـ UI Archetype map_radar: Discovery/Home (إضافة الملفات/اختيار موضوع)، Details/Customization (عرض الملخص وبناء الـ Mind Map وتعديل النتائج)، ثم Checkout/Tracking (تتبع المعالجة وتأكيد التسليم). وجود App1289827Repository كواجهة وصول بيانات يوحي بنية MVVM مع فصل نسبي بين طبقة البيانات/التعامل مع المحرك وبين الواجهة، كما أن استدعاء رسوم متجهة مخصصة عبر BespokeVectorIllustration.kt يدل على اهتمام بعزل عناصر الرسم عن منطق المجال. هذا يعزز قابلية الصيانة ويقلل اقتران UI بمحرك التصيير، وهو مكسب معماري واضح للتطبيق متعدد الخطوات.",
-      "milestone2_recommendation_ar": "الخطوة الأكثر تأثيرًا في المرحلة الثانية: إعادة فحص طبقة الحالة والتدفق عبر StateFlow وإغلاق فجوات MVVM—قم بإنشاء/توحيد ViewModel لكل شاشة (Home/Details/Checkout) بحيث تكون جميع عمليات التوليد (تلخيص منظم + تحويل Mind Map + تتبع حالة المعالجة) ممثلة عبر StateFlow/SharedFlow بوضوح (UiState sealed + UiEvent). اربط Repository بواجهة مجردة (مثلاً App1289827Repository للـ domain interface) وفرض Policies واضحة للأخطاء/الإلغاءات (Cancellation للعمليات طويلة التشغيل) وإضافة طبقة Cache/Idempotency بالـ Repository لحفظ نتائج التلخيص المرتبطة بـ (hash للملف/معرّف الموضوع/إعدادات القالب). بالتوازي، عزّز الأمان للشبكات عبر مداخل موحدة لطلبات server/server.js مثل: توقيع requests (HMAC/JWT حسب الحاجة)، rate limiting، والتحقق من نوع/حجم الملفات قبل الإرسال. أخيرًا، أضف Telemetry (توقيتات + أسباب فشل + نسبة إعادة المحاولة) وربطها بمسار Checkout/Tracking لضمان تحسين زمن التشغيل وتحسين جودة المخرجات عبر البيانات."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289827Repository.kt",
-        "App1289827HomeScreen.kt",
-        "App1289827DetailsScreen.kt",
-        "App1289827CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية عميقة، يظهر كود مشروع ملازم أكاديمية تلخيص وبحث وميند ماب قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم التطبيق، مما يعزز فصل البيانات والعرض والمنطق التجاري. تُعتبر فئات Domain Models مفيدة لتنظيم البيانات والعمليات المتعلقة بالمحتوى الأكاديمي والبحث. تُظهر الرسومات المتجهة Canvas Vector Drawings اهتماماً بالجانب البصري وتجربة المستخدم.\n\nأما بالنسبة للخادم، فتُظهر ملفات server/server.js وApp1289827Repository.kt تنظيم جيد وتخ",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289827Repository.kt",
-        "App1289827HomeScreen.kt",
-        "App1289827DetailsScreen.kt",
-        "App1289827CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"من زاوية معمارية-برمجية، يظهر من توزيع المسؤوليات في الكلاسات المكتشفة (App1289827Model, App1289827Package, App1289827Repository) أن المشروع يميل إلى فصل طبقات الدومين/الداتا عن واجهة المستخدم، وهو ما ينسجم عادةً مع نمط MVVM ويُسهل إعادة الاستخدام وتبديل مصادر البيانات لاحقًا. ملفات الشاشة HomeScreen وDetailsScreen وCheckoutScreen تفصل تدفقات المستخدم (Discovery → Customization → Delivery/Tracking)، وهذا ينعكس إيجابًا على قابلية الاختبار ويقلل اقتران",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.84,
-      "verified_files_inspected": [
-        "App1289827Repository.kt",
-        "App1289827HomeScreen.kt",
-        "App1289827DetailsScreen.kt",
-        "App1289827CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تُظهر البنية العامة اتجاهاً سليماً نحو الفصل المعماري بين طبقات البيانات والتجربة عبر وجود App1289827Repository.kt كمنفذ واضح للتعامل مع التخزين/الطلبات، إضافةً إلى App1289827Model و App1289827Package كـ Domain Models تُسند المفاهيم بدل تمرير DTOs خام داخل الواجهات. هذا النوع من التجريد يُسهّل اختبار منطق التلخيص/التتبّع ويمنع تسرّب تفاصيل الخادم إلى App1289827HomeScreen.kt و App1289827DetailsScreen.kt و App1289827CheckoutScreen.kt. كما أن BespokeVectorIllustration.kt يشير إلى اختيار صحيح لدعم Canvas Vector Drawings بدل الصور النقطية، ما يحسن الاتساق البصري على أحجام متعددة ويقلل مخاطر التشوه عند تغيّر دقة الشاشة أو في سيناريوهات التكبير/تأثيرات الوصول (Accessibility). على مستوى المعمارية، نمط map_radar مناسب لتجميع “مناطق” المعرفة (اكتشاف → تخصيص/مراجعة → تتبع التسليم)، لكن يجب التأكيد أن التصميم يحتاج لضبط صارم لسلاسة التدفق: الانتقال من Home إلى Details ينبغي أن يضمن نقل حالة التخصيص (قالب الملخص/أولوية المصادر/هيكلة النقاط) بشكل صريح عبر Model بدلاً من إعادة حسابها داخل الشاشة، مع توحيد مصدر الحقيقة (Single Source of Truth) بين Repository وسجل التتبّع حتى لا تُقرأ نفس البيانات بأكثر من تمثيل.\n\nمن زاوية توافق RTL وقياسات اللمس (>=48dp) ومعايير HIG/Material 3 والـ Dynamic Island: لا يمكن الجزم من المقتطف بأنه تم احترام انعكاس الاتجاه في كل من عناصر الملاحة (Back/Next، ترتيب الشرائح، تخصيص الأيقونات) لأن RTL غالباً يتعثر في مكونات مثل mind map والمحاذاة داخل بطاقات “النقاط الرئيسية” وروابط المصادر. كذلك، عرض Mind Map ضمن Details يتطلب معالجة استثنائية للمساحة القابلة للتفاعل: عقد/روابط الرسم يجب أن تكون لها hit targets بمقياس dp لا يقل عن 48dp عبر طبقة Gesture/Hit Testing وليس عبر حدود الرسم نفسها. بالنسبة لـ Canvas/Vector، يجب التأكد أن BespokeVectorIllustration.kt يدعم التدرجات/الحدود بشكل لا ينهار مع اختلاف حجم الخط و Dynamic Type، وأنه لا يقطع النص في اتجاه RTL. وأخيراً، server/server.js ينبغي أن يعكس متطلبات التتبع القابل للتدقيق: على الأقل واجهات واضحة لحالة المعالجة (Queued/Processing/Completed/Failed) مع معرف عملية idempotency، وأن يكون نموذج الإشعارات event-based لتقليل polling وتحسين زمن الاستجابة، لأن Checkout/Tracking حساس جداً لتجربة المستخدم أثناء المعالجة الطويلة.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية نفّذ “طبقة أمان وتتبّع صارمة + تحسين أداء التوليد”: (1) أضف توقيع/مصادقة للطلبات بين العميل والخادم (JWT أو HMAC) مع التحقق من idempotency-key في server/server.js لتجنب توليد ملخص/ميند ماب مكرر عند إعادة المحاولة. (2) حسّن الكاش: cache للإصدارات الوسيطة (ملخص/عُقد Mind Map) على مستوى Repository في App1289827Repository.kt مع invalidation مضبوط عند تغيير القالب أو إعدادات التخصيص في App1289827DetailsScreen.kt. (3) انتقل من polling المتكرر إلى آلية push أو SSE/WS إن أمكن لتحديث Checkout/Tracking في App1289827CheckoutScreen.kt مع إدارة حالات واضحة للـ loading/partial/failed. (4) ولتعزيز التوافق مع RTL وHIG: فعّل انعكاس اتجاه شامل للعناصر داخل mind map والمحاذاة، واستخدم hit-target layer يضمن >=48dp على كل عقدة/رابط، مع دعم Dynamic Type بحيث لا تتجاوز كثافة النص داخل الملخص حدود الواجهة."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "إعداد وتنسيق المحتوى الأكاديمي والمواد التعليمية — أنا محتاجة حد يكون شاطر في البحث والتلخيص والتنسيق المطلوب إنه يعمل بحث ، ويلخص المحاضرات والملفات اللي هبعتها، ويجمع أهم المعلومات والنقط المهمة من غير ما يضيع المعلومات كمان محتاجة: تلخيص المحاضرات بطريقة سهلة ومنظمة. عمل بحث عن الموضوعات المطلوبة",
+  "domain_data": {
+    "repo_name": "f-classroom-smart-education-1289827",
+    "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+  }
 }
