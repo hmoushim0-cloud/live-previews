@@ -1,0 +1,114 @@
+{
+  "project_id": "1291470",
+  "repo_name": "sanad-tech-services-1291470",
+  "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1291470",
+  "app_name": "تطبيق سند الفني — مبرمج لتعديل لعبة أندرويد Un",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
+  "theme": {
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
+  },
+  "banner": {
+    "title": "تطبيق سند الفني — مبرمج لتعديل لعبة أندرويد Un",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "9c78ad1",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291470_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291470_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291470_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291470_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291470_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291470_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مبرمج لتعديل لعبة أندرويد Unity (عمل ريسكين) وربط إعلانات AdMob. السلام عليكم، أبحث عن مبرمج محترف وموثوق للعمل على مشروع لعبة أندرويد. المطلوب هو: 1. عمل ريسكين (Reskin) احترافي وكامل للعبة (Save The Dog) لضمان قبولها في جوجل بلاي وتفادي مشاكل المحتوى المكرر (تغيير الألوان، الخلفيات، وشخصية الكلب والنحل). علما أن الكود المصدري (Source Code) سأقوم",
+  "domain_data": {
+    "repo_name": "sanad-tech-services-1291470",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
+}

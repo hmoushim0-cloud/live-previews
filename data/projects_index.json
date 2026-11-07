@@ -1,5 +1,13 @@
 [
   {
+    "project_id": "1291470",
+    "app_name": "تطبيق سند الفني — مبرمج لتعديل لعبة أندرويد Un",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
+    "has_proofs": true,
+    "spec_path": "specs/1291470.json"
+  },
+  {
     "project_id": "1291448",
     "app_name": "تطبيق ماهر الميداني — Tijartt  | صيام نظام إدارة ا",
     "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
@@ -593,25 +601,25 @@
   },
   {
     "project_id": "1290106",
-    "app_name": "مرجع الرياضيات الذكي",
-    "tagline": "بنك الأسئلة المرجعية والحلول النموذجية المعتمدة لمنهج الرياضيات السعودي",
-    "preset": "standard",
+    "app_name": "تطبيق منارة التعليمية — كتابة 150 سؤالًا مرجعيًا بحل",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1290106.json"
   },
   {
     "project_id": "1290105",
-    "app_name": "ميدسبا كير",
-    "tagline": "منصة الحجوزات الطبية والتجميلية الموجهة لمضاعفة معدلات التحويل التجاري",
-    "preset": "services",
+    "app_name": "تطبيق بنيان للصكوك — مصمم Senior UI/UX متخصص في ت",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1290105.json"
   },
   {
     "project_id": "1290104",
-    "app_name": "مرجع المنافسات والمشتريات الحكومية",
-    "tagline": "منظومة استشارية رقمية شاملة لأحكام ولوائح نظام المنافسات والمشتريات الحكومية السعودي",
-    "preset": "standard",
+    "app_name": "تطبيق عدل للمحاماة — كتابة 150 سؤالًا مرجعيًا بأج",
+    "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+    "preset": "legal_consulting",
     "has_proofs": true,
     "spec_path": "specs/1290104.json"
   },
@@ -633,17 +641,17 @@
   },
   {
     "project_id": "1290099",
-    "app_name": "منصة العلامات الثلاث لخدمات التكييف والتبريد",
-    "tagline": "حلول التبريد والتكييف المعتمدة للمنشآت والمنازل بأعلى كفاءة تشغيلية",
-    "preset": "standard",
+    "app_name": "تطبيق ماهر الميداني — عمل إعلان على جوجل لمشروع ال",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1290099.json"
   },
   {
     "project_id": "1290098",
-    "app_name": "بوابة الاستشارات والترجمة التقنية لمواقع الويب",
-    "tagline": "منظومة متكاملة لتدقيق وتدويل المواقع وتأمين الأرشفة ومحركات البحث",
-    "preset": "standard",
+    "app_name": "تطبيق ورشة فوري — تحويل الموقع وردبريس إلى الل",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1290098.json"
   },
