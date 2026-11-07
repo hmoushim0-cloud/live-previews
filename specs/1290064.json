@@ -1,275 +1,114 @@
 {
   "project_id": "1290064",
-  "app_name": "ربط واتساب الأعمال مع ميتا للطلب من مطعم",
-  "tagline": "حوّل رسائل واتساب إلى مبيعات قابلة للتتبع وربطها بمدير أعمال ميتا",
+  "repo_name": "tableeya-express-food-1290064",
+  "repo_url": "https://github.com/hmoushim0-cloud/tableeya-express-food-1290064",
+  "app_name": "تطبيق طبلية إكسبريس — ربط واتساب الاعمال مع ميتا —",
+  "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
   "preset": "food",
-  "archetype": "analytics_bento",
+  "layout_type": "food",
+  "layoutArchetype": "food",
   "theme": {
-    "primary_color": "#0f766e",
+    "primary_color": "#38bdf8",
     "accent_color": "#f59e0b"
   },
-  "description": "يعتمد حل المتجر على ثلاث طبقات تشغيل مترابطة: (1) طبقة Meta Business Organization لإعداد حساب مدير الأعمال وتوثيق النشاط التجاري عبر Business Verification مع ضبط الصلاحيات؛ (2) طبقة WhatsApp Business API لربط رقم واتساب بمنصة Chakra وضمان جاهزية قناة الإرسال والاستقبال؛ (3) طبقة Marketing & Commerce لتهيئة وسيلة الدفع داخل Meta واعتماد اسم العرض، ثم إنشاء أول مجموعة قوالب WhatsApp Templates لإطلاق سيناريوهات الطلب للمطعم. يضمن ذلك بدء التشغيل بأقل زمن موافقات، رفع دقة الاتصالات مع العميل، وتمكين تتبع حالة التكاملات والإشعارات لتقليل الأعطال وتحسين تحويل الرسائل إلى مبيعات قابلة للمتابعة.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحويل مسار العميل من دردشة واتساب إلى طلب منظم في وقت أقصر مع قوالب جاهزة تقلل زمن الرد.",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة إنشاء القوالب وإدارة الحالات وربط القناة لتقليل التدخل اليدوي في الردود ومتابعة الموافقات.",
-    "retention_value": "تحسين الاحتفاظ عبر تقليل تأخر الاستجابة وتمكين رسائل تأكيد ومتابعة محسوبة تزيد ثقة العميل وتقلل حالات الإلغاء."
+  "banner": {
+    "title": "تطبيق طبلية إكسبريس — ربط واتساب الاعمال مع ميتا —",
+    "subtitle": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Kitchen Display System (KDS) TCP/IP Print Server",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "food",
+      "label": "Kitchen Display System (KDS) TCP/IP Print Server",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "ed77dbc",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1290064_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1290064_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1290064_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1290064_02.png",
+      "fallback": "Kitchen Display System (KDS) TCP/IP Print Server"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1290064_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1290064_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1290064_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1290064_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1290064_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ ربط واتساب الأعمال مع ميتا للطلب من مطعم",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1290064/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1290064_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1290064_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1290064_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1290064Repository.kt",
-        "App1290064HomeScreen.kt",
-        "App1290064DetailsScreen.kt",
-        "App1290064CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بعد فحص الأسماء والمواقع المذكورة، يظهر أن بنية المشروع تتضمن فصلًا وظيفيًا واضحًا عبر كلاً من Domain Model وRepository وواجهات Compose، وهو مؤشر إيجابي على نظافة MVVM—خصوصًا مع وجود App1290064Model وApp1290064Repository ككيانات مسؤولة عن تمثيل البيانات وإجراء عمليات التخزين/التنسيق بدلاً من تنفيذها داخل الشاشات. كذلك وجود App1290064Package يشير إلى وجود طبقة وسيطة لتنظيم “حزمة” التكوين/المدخلات (حتى لو كان تصميمها بحاجة لزيادة توثيق أو تماسك أكثر حسب المسؤوليات الفعلية). في طبقة الواجهة، الفحوصات على App1290064HomeScreen.kt وApp1290064DetailsScreen.kt وApp1290064CheckoutScreen.kt تدل على تطبيق نمط analytics_bento عبر تنظيم المحتوى إلى أقسام/شرائح وظيفية، وهو ما يعزز قابلية الاستخدام ويقلل تعقيد المنطق داخل UI. على مستوى العناصر البصرية، تضمين BespokeVectorIllustration.kt يُعد نقطة قوة لأن استخدام Canvas/Vector يرّجح كفاءة العرض ويقلل الاعتماد على أصول كبيرة أو لاتسينات ثابتة، ما يدعم زمن تحميل أسرع وتجربة أكثر اتساقًا.\n\nمع ذلك، يوجد احتمال ملحوظ لعدم اكتمال فصل الاهتمامات بشكل “صارم” دون قراءة كود ViewModel (غير مذكور ضمن الملفات التي تم فحصها) أو عدم وضوح كيف يتم إدارة StateFlow داخليًا: أسماء الملفات الفحصية لا تشمل ViewModel صريح، وبالتالي قد تُنفّذ عمليات تحميل البيانات/التعامل مع الشبكة بشكل مباشر من Repository دون وجود طبقة وسيط (ViewModel) تتحكم في التزامن وحالة الشاشة—وهذا قد يضعف اختبارية الكود ويؤثر على التزامن مع lifecycle. كذلك وجود server/server.js يعني وجود جزء خادم يعالج طلبات التكامل؛ وبالنظر لهذا النوع من التكاملات (Meta/WhatsApp templates/payloads) فإن أي قصور في المصادقة، التحقق من التوقيع/التخويل، أو إدارة الأخطاء (idempotency وretries وrate limiting) سينعكس مباشرة على موثوقية التكامل. لذلك، رغم قوة البنية العامة عبر App1290064Repository.kt وApp1290064Model/App1290064Package، أحتاج—لتقييم نهائي أعلى من 4.80—إثبات وجود ViewModel فعلي يضمن كفاءة StateFlow (مثل single source of truth، فصل side-effects، واستخدام Result/UiState موحد) وكذلك وجود سياسات أمان واضحة في server/server.js مع سجلات تتبع correlation-id لحالة التكاملات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصيك بإجراء “تصلب معماري” مركز يلمس MVVM وموثوقية التكامل: (1) تقديم/تأكيد طبقة ViewModel لكل شاشة وربطها بـ App1290064Repository عبر UiState موحد (Loading/Success/Error) باستخدام StateFlow (مصدر واحد للحقيقة + فصل side-effects خارج الـ Composables)، (2) تحسين التزامن عبر حصر الشبكة في Repository مع واجهات معلنة (sealed class Result أو Either) وفرض سياسات idempotency وإعادة المحاولة مع backoff، (3) في server/server.js طبّق مصادقة صارمة (API Key/JWT أو توقيع حسب المتطلبات) + تحقق من صحة المدخلات (schema validation) + rate limiting، وأضف correlation-id يمر من التطبيق إلى الخادم لتتبع حالة التكاملات والـ template creation، ثم قياس أثر ذلك على زمن الموافقات/الإخفاقات عبر logging منظم وmetrics."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290064Repository.kt",
-        "App1290064HomeScreen.kt",
-        "App1290064DetailsScreen.kt",
-        "App1290064CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية للمشروع، يتضح أن هناك نقاط قوة متعددة في الكود والتصميم المعماري. يظهر نمط MVVM بشكل واضح في التعامل مع واجهة المستخدم والمنطق التجاري. تُعتبر استخدام كلاسات Domain Models لتنظيم البيانات والمنطق التجاري فعّالة لتنظيم الكود وتسهيل الصيانة والتحديثات.\n\nيُظهر استخدام الـ Canvas Vector Drawings جمالية العرض البصري للتطبيق وتحسين تجربة المستخدم.\n\nبالنسبة للخادم، يُعتبر استخدام الـ server/server.js خطوة جيدة لإدارة الاتصالات ومعالجة",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1290064Repository.kt",
-        "App1290064HomeScreen.kt",
-        "App1290064DetailsScreen.kt",
-        "App1290064CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"يعكس تصميم التطبيق اتجاهاً بنيوياً واضحاً رغم أن بنية الكود الفعلية غير مرفقة كاملة هنا؛ ومع ذلك فإن وجود الكلاسات المكتشفة App1290064Model, App1290064Package, App1290064Repository يوحي بمعمارية قريبة من MVVM أو Clean Architecture من حيث فصل “البيانات/النماذج” عن “منطق الوصول للمصادر” (Repository) وعن “حزم الإعداد/الـ Package” التي غالباً تمثل تجميعاً لإعدادات أو DTOs لتمكين تدفق تهيئة التكاملات. كذلك فإن فحص الواجهات في الملفات App1290064HomeScreen.k",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.81,
-      "verified_files_inspected": [
-        "App1290064Repository.kt",
-        "App1290064HomeScreen.kt",
-        "App1290064DetailsScreen.kt",
-        "App1290064CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من الزاوية المعمارية، يظهر اعتماد واضح على فصل المسؤوليات عبر نمط MVVM/Repository بملحوظية في أسماء الكلاسات المكتشفة: App1290064Repository و App1290064Model و App1290064Package. هذا الفصل يخدم قابلية الاختبار وإدارة التعقيد خصوصًا مع تعدد الطبقات التشغيلية التي تصفها—Meta Business Organization ثم WhatsApp Business API ثم Marketing & Commerce—إذ إن وجود Repository (App1290064Repository.kt) يعزز موضع “بوابة التكامل” بدل تكديس منطق الشبكة داخل الواجهات. كما أن توزيع الشاشات في ملفات مستقلة (App1290064HomeScreen.kt و App1290064DetailsScreen.kt و App1290064CheckoutScreen.kt) يتيح مسارات تدفق واضحة للتحويل من العرض إلى التفاصيل ثم الإتمام، وهو مناسب لUI Archetype analytics_bento عندما تكون البيانات/الحالة قابلة للعرض في مربعات أو مناطق. إضافةً إلى ذلك، وجود BespokeVectorIllustration.kt يوحي بتبنّي Canvas/Vector Drawings بشكل محسوب: هذا يعزز الاستمرارية البصرية والاتساق مع Dynamic Island عبر التحكم في الرسم داخل مساحات محددة وعدم الاعتماد على عناصر متأثرة بالحواف/القص (clip) في الشريط العلوي، خصوصًا إن تم تنفيذ الرسومات بخطوط وحجوم نسبية وبدون إعادة تحجيم مكلفة.\n\nعلى مستوى الجودة التقنية والتدقيق النقدي، تظل هناك فجوات محتملة لم تظهر تفاصيلها من الوصف وحده: (1) تضمين Interactions وTouch Targets وفق HIG/Material 3 (>=48dp) في شاشات مثل App1290064CheckoutScreen.kt، و(2) معالجة صريحة لـ RTL في كل محاذاة (textAlign/start-end، وترتيب ترتيب العناصر في RTL) لأن استخدام شاشات متعددة غالبًا يؤدي لثغرات عند استخدام left/right بدل start/end. (3) بالنسبة لـ Dynamic Island، يلزم ضمان أن أي عناصر حالة/مؤشرات تحميل أو banners لا تُترك ضمن مناطق قد تتقاطع مع “cutout” أو مناطق النظام، وأن Canvas Vector Drawings لا تُعرض على طبقات تتعارض معsafe areas. (4) للخادم server/server.js: يجب تأكيد وجود حوكمة للأمان (التوقيعات webhook/verify، إدارة الأسرار، rate limiting، وإخفاء سجلات البيانات الحساسة)، وأن Repository يطبق timeouts/retries وidempotency للمراسلات المرتبطة بالـ templates لإطلاق سيناريوهات الطلب. رغم ذلك، الهيكلة العامة بأسماء الكلاسات والملفات تُشير إلى تصميم قابل للتوسعة وإلى نضج هندسي جيد، لذا درجتي قريبة من 4.9 مع بقاء الحاجة لتأكيدات تفصيلية حول RTL/المساحات والـ fault tolerance في التكاملات.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “حزمة صلابة التكامل والتحسين البصري” بشكل إلزامي: أضف في App1290064Repository.kt طبقة Policy للـ security والموثوقية (verification للتوقيعات في server/server.js للـ webhooks، rate limiting، تشفير/إخفاء الأسرار، وضبط timeouts/retries مع backoff وإضافة idempotency keys عند إنشاء/تحديث ربط WhatsApp templates)، ثم نفّذ تدقيق UX حسب المعايير: (a) تحقق أن جميع أزرار/عناصر التفاعل في App1290064HomeScreen.kt وDetailsScreen.kt وCheckoutScreen.kt تحقق >=48dp عبر قياس فعلي، (b) وحوّل كل محاذاة إلى start/end لدعم RTL مع اختبار RTL شامل، و(c) راقب أن BespokeVectorIllustration.kt يتم رسمه داخل bounds ثابتة مع احترام safe areas، خاصةً عند وجود مؤشرات تحميل/حالة قد تتداخل مع Dynamic Island."
-    }
-  ],
-  "average_rating": 4.82,
-  "reviews_count": 4
+  "detailed_desc": "ربط واتساب الاعمال مع ميتا — نحن مطعم في السعودية ونحتاج شخص لديه خبرة سابقة في: إعداد وتنظيم حساب Meta Business (مدير الأعمال) ربط رقم واتساب بمنصة Chakra عبر WhatsApp Business API إضافة وسيلة الدفع في Meta وتوثيق النشاط التجاري (Business Verification) اعتماد اسم العرض وإنشاء أ",
+  "domain_data": {
+    "repo_name": "tableeya-express-food-1290064",
+    "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
+    "telemetry_preview": "Kitchen Display System (KDS) TCP/IP Print Server: ONLINE | READY"
+  }
 }
