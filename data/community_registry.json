@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T14:14:13.773485+00:00",
+    "updated_at": "2026-11-07T15:09:45.488988+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1251,9 +1251,9 @@
     },
     {
       "project_id": "1289898",
-      "app_name": "منصة المحلات وإدارة الطلبات",
-      "tagline": "حول إدارة محلاتك إلى نمو قابل للقياس مع طلبات أسرع ودفع آمن",
-      "preset": "ecommerce",
+      "app_name": "تطبيق إنجاز للخدمات — تصميم وبرمجة الموقع الإلكترو",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289898",
       "stamp_id": "SA-KMP-1289898",
       "crypto_hash": "sha256-1289898",
@@ -1443,9 +1443,9 @@
     },
     {
       "project_id": "1289853",
-      "app_name": "مركز حملة تسويق إلكتروني",
-      "tagline": "حوّل الزوار إلى عملاء عبر حملات مدفوعة ومحتوى مُحسن وتتبّع لحظي",
-      "preset": "ecommerce",
+      "app_name": "تطبيق نجد للأسطول — مطلوب مختص تسويق رقمي للتروي",
+      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289853",
       "stamp_id": "SA-KMP-1289853",
       "crypto_hash": "sha256-1289853",
