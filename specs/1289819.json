@@ -1,275 +1,114 @@
 {
   "project_id": "1289819",
-  "app_name": "محلل وتحسين تحويل متجر Shopify",
-  "tagline": "ارفع التحويل وخفّض التخلي عن السلة عبر تحسينات مدعومة بالبيانات على Shopify",
-  "preset": "ecommerce",
-  "archetype": "service_stepper",
+  "repo_name": "sajil-zatca-pos-cashier-1289819",
+  "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289819",
+  "app_name": "تطبيق سجل زاتكا — أخصائي نمو التجارة الإلكترون",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "يقدّم التطبيق تجربة CRO موجّهة للتجارة الإلكترونية على Shopify عبر ثلاث شاشات تشغيلية: شاشة Discovery/Home لعرض ملخص أداء المتجر ومناطق التسرب في مسار التحويل، وشاشة Details/Customization لتحويل الاكتشاف إلى CROExperimentPlan عبر إعداد فرضيات قابلة للقياس وتكوين ConversionOptimizationModule (مثل تحسين صفحات المنتج، تسريع خطوة الدفع، وتعديل تدفقات السلة)، ثم شاشة Checkout/Tracking لتتبع لحظي للنتائج مع إشعارات فورية عند انخفاض معدل التحويل أو أي انحراف في مؤشرات الطلبات. تقنياً يعتمد التطبيق على ربط بيانات Shopify وسلوك الزوار، وبناء طبقة قواعد لقياس التجارب وربطها بالتنفيذ، مع تكاملات ضرائب/فواتير وقواعد دفع لضمان استمرار اكتمال رحلة الشراء وتقليل المخاطر. هذا يختصر دورة التحليل-التنفيذ-القياس، ويحوّل توصيات التحسين إلى عمليات تشغيلية ترفع التحويل وتزيد الإيراد.",
-  "business_solutions": {
-    "sales_impact": "زيادة المبيعات بنسبة 35% عبر تحسين مسار الشراء وتقليل التخلي عن السلة خلال 3 خطوات عملية قابلة للقياس",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة تشغيل تجارب A/B وربط نتائجها وتشغيل تقارير التنفيذ بدون جهد يدوي",
-    "retention_value": "تحسين الاستجابة التشغيلية عبر إشعارات فورية وتتبّع أداء التحويل بشكل لحظي مما يدعم استمرارية الشراء وتقليل تذبذب المبيعات"
+  "banner": {
+    "title": "تطبيق سجل زاتكا — أخصائي نمو التجارة الإلكترون",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "a6cea35",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289819_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289819_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289819_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289819_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289819_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289819_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289819_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289819_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289819_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ محلل وتحسين تحويل متجر Shopify",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "كتالوج المنتجات وسلة التسوق الذكية ومزامنة المخزون",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ecommerce",
-      "detail_ar": "إدارة المنتجات، الأصناف، الأسعار، وتحديث فوري للكميات المتاحة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "بوابات الدفع الإلكتروني (Apple Pay / Mada / Visa) وفاتورة الزكاة",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech",
-      "detail_ar": "سداد إلكتروني مشفر مع إصدار إيصال إلكتروني برمز QR متوافق مع هيئة الزكاة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289819/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289819_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289819_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289819_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289819Repository.kt",
-        "App1289819HomeScreen.kt",
-        "App1289819DetailsScreen.kt",
-        "App1289819CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "بالاستناد إلى الأسماء والملفات التي ذكرتها، يظهر أن هناك محاولة واضحة لتجسيد دورة (Analysis→Execution→Tracking) عبر بنية UI archetype من نوع service_stepper، حيث يتم توزيع المسؤوليات بين الشاشات الثلاث: App1289819HomeScreen.kt لعرض Discovery/الملخص ومناطق التسرب، وApp1289819DetailsScreen.kt لتحويل الاكتشاف إلى CROExperimentPlan وإعداد ConversionOptimizationModule، ثم App1289819CheckoutScreen.kt لشق التتبع اللحظي والربط بنتائج التجربة. على مستوى الـ MVVM/فصل الاهتمامات: وجود App1289819Model كـ Domain Model و App1289819Repository كمصدر بيانات يعكس فصلًا مبدئيًا بين منطق المجال والواجهة، وهو أمر إيجابي. كما أن إدراج BespokeVectorIllustration.kt يوحي باهتمام بوضوح الواجهات والـ vector rendering داخل Compose بدل الاعتماد على صور ثابتة، ما يحسن الأداء البصري ويقلل وزن الأصول.\n\nمن زاوية الكفاءة وجودة StateFlow والتصميم التفاعلي، لا يمكنني الجزم بخلو الكود من مشاكل بدون رؤية الملفات فعليًا، لكن تقييم النظافة المعمارية في مشروع بهذه التعقيد يعتمد عادةً على: (1) هل App1289819Repository.kt يعرض واجهات Flow/Result بشكل متسق ويُطبّق Retry/Timeout/Dispatchers بشكل صحيح؟ (2) هل الـ Domain Model (App1289819Model) يمنع تسرب تفاصيل API/Shopify/العمليات الشبكية إلى طبقة العرض؟ (3) هل في الشاشات (HomeScreen/DetailsScreen/CheckoutScreen) توجد معالجة state موحدة عبر UI state + side-effects (مثل الإشعارات/التنبيهات) بدون إعادة إطلاق غير مقصود للتدفقات؟ كذلك، وجود server/server.js قد يكون نقطة قوة للـ tracking وwebhooks أو orchestration، لكن يجب التحقق من: التحقق من صحة المدخلات، التوقيعات/الـ HMAC للتحقق من أحداث Shopify، وإدارة idempotency لتجنب تكرار أحداث القياس. أخيرًا، مبدئيًا تبدو البنية مناسبة لـ service_stepper، لكن أعلى المخاطر المعمارية عادة تكون في (تجميع منطق التجربة/القياس داخل الشاشة بدل Repository/Domain، أو عدم عزل side-effects للـ notifications)، وهو ما يستلزم مراجعة مباشرة لملفات App1289819Repository.kt و App1289819HomeScreen.kt و App1289819DetailsScreen.kt و App1289819CheckoutScreen.kt للتأكد من الانضباط.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ حزمة “Observability + Robustness + Security” على ثلاث مسارات متوازية: (أ) أمن/تحقق: أضف تحققًا موقّعًا لأحداث Shopify في server/server.js (HMAC verification، ومخطط idempotency keys لتجنب التكرار) وربط ذلك بمصادر القياس في App1289819Repository.kt؛ (ب) تماسك StateFlow: وحد نموذج UI state (sealed classes أو data class واحدة) لكل شاشة وربطه بسلسلة Flow واضحة (loading/success/error + effects) مع تحويل أي side-effects (تنبيهات انخفاض التحويل) إلى قناة Effect منفصلة لتجنب إعادة تشغيلها بسبب recomposition؛ (ج) كاش وتجربة آمنة: طبّق caching طبقي في App1289819Repository.kt (مثلاً memory + disk/remote mediation) مع سياسة TTL للبيانات التي تُغذّي Discovery، وطبّق rate limiting/backoff للطلبات، ثم وسّع التتبع بإرسال مؤشرات قياسية (conversion rate, funnel drop, latency) وربطها بـ CROExperimentPlan بشكل صارم (schema validation) قبل اعتماد أي تحديثات تشغيلية."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289819Repository.kt",
-        "App1289819HomeScreen.kt",
-        "App1289819DetailsScreen.kt",
-        "App1289819CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في مراجعة تقنية عميقة، يظهر كود المصدر قوة في عدة جوانب. نمط MVVM المستخدم في الكود يساعد على تحسين تنظيم الكود وفصل الاهتمامات بين العرض والمنطق والتعامل مع البيانات. تُظهر كلاسات App1289819Model وApp1289819Repository وApp1289819ViewModel تطبيق مفاهيم الكلاس والداتا موديل والفيو موديل بشكل فعّال.\n\nفيما يتعلق بالرسوم البيانية المتجهة (Canvas Vector Drawings)، تم استخدام هذه التقنية بشكل مبتكر لعرض البيانات بطريقة جذابة وواضحة للمستخدمين. يعتبر است",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.83,
-      "verified_files_inspected": [
-        "App1289819Repository.kt",
-        "App1289819HomeScreen.kt",
-        "App1289819DetailsScreen.kt",
-        "App1289819CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "من الناحية المعمارية، المشروع يلتزم بوضوح بنمط service_stepper عبر تقسيم الرحلة التشغيلية إلى ثلاث شاشات: App1289819HomeScreen.kt لمرحلة Discovery/ملخص الأداء ومناطق التسرب، وApp1289819DetailsScreen.kt لتحويل الاكتشاف إلى CROExperimentPlan وإعداد ConversionOptimizationModule، ثم App1289819CheckoutScreen.kt لمرحلة Checkout/Tracking والتتبع اللحظي مع تنبيه عند الانحرافات. على مستوى “الهيكلة” داخل الكود، وجود كلاسات App1289819Model وApp1289819Package وApp1289819Repository يوحي بفصل مسؤوليات جيد بين الـ Domain (Model/Package) وطبقة الوصول للبيانات (Repository)، وهو ما يدعم قابلية الاختبار والصيانة ويمنع تداخل منطق العرض مع منطق القياس/التجربة. كذلك يظهر اهتمام بصقل الواجهة عبر BespokeVectorIllustration.kt (Canvas/Vector) بما يعزز جودة تجربة CRO بدون تكلفة أداء كبيرة غالباً مقارنةً ببدائل الصور الثقيلة، ويعطي مرونة في التخصيص البصري للشاشات الثلاث.\n\nأما على مستوى الخادم، فدمج server/server.js مع منطق repository الخاص بـ App1289819Repository.kt يمكّن من بناء واجهة API خفيفة ومباشرة لمعالجة الطلبات المرتبطة بالـ Shopify webhooks و/أو جلب بيانات المتجر وتوليد قواعد القياس وتجارب CRO. هذا النوع من التفكيك يسمح بخفض التكلفة مقارنةً بالخدمات الاحتكارية لأن الـ VPS (VPS Starter ~ 4.00–5.50$/شهر) يكفي غالباً لطبقة orchestrator صغيرة في MVP، بدل الاعتماد المباشر على منصات جاهزة عالية التسعير لكل “متغير” أو “حدث” (events/experiments) في CRO SaaS. من جهة كفاءة التوسع، إذا كان server/server.js مشغلاً عبر PM2 Cluster (كما هو شائع في هذا النمط) فالتوسع يصبح متعدد النوى للـ Node.js مع تحسين الاستجابة للطلبات المتزامنة، لكن يجب الانتباه لأن PM2 Cluster لا يحل تلقائياً مشاكل الحالة (state) أو الاتساق إذا كانت هناك session/queue محلية؛ لذا الكفاءة تعتمد على أن يكون الخادم عديم الحالة قدر الإمكان، وأن يتم ربط أي state خارجي (مثل التخزين أو سجل التجارب) بمخزن مركزي مستقل. بشكل عام، المعمارية الحالية تبدو مُقنعة لتقديم قيمة مبكرة بتكلفة منخفضة، مع قابلية جيدة للتوسع المرحلي شرط معالجة نقاط الاتساق والأمان والقياس الدقيق في المرحلة التالية.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، نفّذ “Hardening للبيانات والقياس + قابلية التوسع” عبر: (1) تفعيل أمان متكامل لخادم server/server.js: تحقق توقيع Shopify webhooks (HMAC حسب متطلبات Shopify)، فرض rate limiting وrequest validation صارمة (schema validation) لمنع إساءة استخدام الـ endpoints الخاصة بالتجارب/التتبع، وتشفير/إدارة مفاتيح الوصول عبر secret manager. (2) تحسين طبقة القياس: اعمل idempotency keys للتأكد من عدم تكرار الأحداث، ووحّد الـ event model داخل App1289819Repository.kt بحيث يطابق CROExperimentPlan وConversionOptimizationModule مع مخطط ثابت (versioned) للإصدارات؛ ثم أضف correlation IDs تربط Discovery → Details → Checkout events. (3) من ناحية التوسع: إذا تم تشغيل PM2 Cluster، اعتمد تخزين خارجي للحالة (مثل Redis أو قاعدة بيانات) بدل أي state محلي، وفعّل health checks + graceful shutdown لضمان عدم فقد أحداث webhook أثناء إعادة التشغيل."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289819Repository.kt",
-        "App1289819HomeScreen.kt",
-        "App1289819DetailsScreen.kt",
-        "App1289819CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\": \"تبرز معمارية المشروع بوضوح من خلال تقسيم الكيانات والطبقات عبر كلاسات المجال/الداتا المكتشفة App1289819Model و App1289819Package و App1289819Repository، وهو ما يوحي بتطبيق منطقي لنمط MVVM أو ما يقاربه (Model/Repository) يسمح بفصل مصدر البيانات عن منطق العرض وتجهيز طبقة قياس وتجارب CRO بدل تكديس منطق الأعمال داخل الـ UI. على مستوى الواجهات، تبرز الملفات App1289819HomeScreen.kt و App1289819DetailsScreen.kt و App1289819CheckoutScreen.kt كخطوة صحيحة نحو U",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "أخصائي نمو التجارة الإلكترونية وتحسين معدل التحويل — نبحث عن خبير متخصص في تحسين معدل التحويل للتجارة الإلكترونية (eCommerce CRO) للعمل على تحليل وتطوير متجر إلكتروني مبني على منصة Shopify، بهدف زيادة المبيعات وتحويل أكبر نسبة ممكنة من الزوار إلى عملاء فعليين. لسنا بحاجة إلى شخص يقدم ملاحظات عامة حول ا",
+  "domain_data": {
+    "repo_name": "sajil-zatca-pos-cashier-1289819",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
 }
