@@ -873,9 +873,9 @@
   },
   {
     "project_id": "1289879",
-    "app_name": "مراجعة القدرات العامة اللفظي",
-    "tagline": "مراجعة دقيقة لأسئلة اللفظي تضمن نشرًا واضحًا وتسرّع اعتماد المحتوى.",
-    "preset": "services",
+    "app_name": "تطبيق قلم الأكاديمية — مراجعة أسئلة القدرات العامة",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289879.json"
   },
@@ -993,9 +993,9 @@
   },
   {
     "project_id": "1289816",
-    "app_name": "بثنا الخليج",
-    "tagline": "منصة خليجية للبث المباشر تربط المتاجر والمزادات بجمهور حي في الوقت الحقيقي",
-    "preset": "services",
+    "app_name": "تطبيق سمو للمزايدة — تسويق لتطبيق خليجي للبث المب",
+    "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+    "preset": "auction_live",
     "has_proofs": true,
     "spec_path": "specs/1289816.json"
   },

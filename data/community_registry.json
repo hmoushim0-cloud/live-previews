@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-07T09:11:24.286803+00:00",
+    "updated_at": "2026-11-07T10:09:35.838600+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1359,9 +1359,9 @@
     },
     {
       "project_id": "1289879",
-      "app_name": "مراجعة القدرات العامة اللفظي",
-      "tagline": "مراجعة دقيقة لأسئلة اللفظي تضمن نشرًا واضحًا وتسرّع اعتماد المحتوى.",
-      "preset": "services",
+      "app_name": "تطبيق قلم الأكاديمية — مراجعة أسئلة القدرات العامة",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289879",
       "stamp_id": "SA-KMP-1289879",
       "crypto_hash": "sha256-1289879",
@@ -1539,9 +1539,9 @@
     },
     {
       "project_id": "1289816",
-      "app_name": "بثنا الخليج",
-      "tagline": "منصة خليجية للبث المباشر تربط المتاجر والمزادات بجمهور حي في الوقت الحقيقي",
-      "preset": "services",
+      "app_name": "تطبيق سمو للمزايدة — تسويق لتطبيق خليجي للبث المب",
+      "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+      "preset": "auction_live",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289816",
       "stamp_id": "SA-KMP-1289816",
       "crypto_hash": "sha256-1289816",
