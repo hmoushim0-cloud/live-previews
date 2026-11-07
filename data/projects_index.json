@@ -1,5 +1,37 @@
 [
   {
+    "project_id": "1291279",
+    "app_name": "تطبيق راصد كاشير — تصميم ملف Excel احترافي لإدا",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
+    "has_proofs": true,
+    "spec_path": "specs/1291279.json"
+  },
+  {
+    "project_id": "1291271",
+    "app_name": "تطبيق ميزان نقاط البيع — مطلوب خبير أنظمة محاسبية وتج",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
+    "has_proofs": true,
+    "spec_path": "specs/1291271.json"
+  },
+  {
+    "project_id": "1291191",
+    "app_name": "تطبيق إتقان للصيانة — مطلوب مستخدم تجريبي لتجربة ت",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
+    "has_proofs": true,
+    "spec_path": "specs/1291191.json"
+  },
+  {
+    "project_id": "1291127",
+    "app_name": "تطبيق إنجاز للخدمات — إنشاء وتعديل تطبيق Glide لإد",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
+    "has_proofs": true,
+    "spec_path": "specs/1291127.json"
+  },
+  {
     "project_id": "1291053",
     "app_name": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
     "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
@@ -62,6 +94,14 @@
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1290966.json"
+  },
+  {
+    "project_id": "1290949",
+    "app_name": "تطبيق ميزان نقاط البيع — تصميم وبرمجة الموقع الإلكترو",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "pos_cashier",
+    "has_proofs": true,
+    "spec_path": "specs/1290949.json"
   },
   {
     "project_id": "1290941",
@@ -993,25 +1033,25 @@
   },
   {
     "project_id": "1289809",
-    "app_name": "منصة سويد تهيئة وتعديل الشاحنات الفاخرة",
-    "tagline": "تجربة حجز وتخصيص فاخرة لشاحناتك التجارية خلال دقائق مع متابعة لحظية للطلب",
-    "preset": "standard",
+    "app_name": "تطبيق قيادة الرقمي — مصمم UI/UX محترف جدًا لتصميم",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289809.json"
   },
   {
     "project_id": "1289805",
-    "app_name": "FullChairs لمكالمات عيادات الأسنان وحجز الاجتماعات",
-    "tagline": "حوّل المكالمات التسويقية إلى اجتماعات مؤكدة مع عيادات الأسنان في الإمارات",
-    "preset": "services",
+    "app_name": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
+    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1289805.json"
   },
   {
     "project_id": "1289804",
-    "app_name": "سويدفانز لتجهيز وتعديل المركبات التجارية",
-    "tagline": "تصميم وتجهيز شاحنات وفانات تجارية بثقة وجودة سويدية وخدمة طلب سريعة",
-    "preset": "standard",
+    "app_name": "تطبيق إيوان العقارية — مطور Frontend لتنفيذ الموقع",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289804.json"
   },
@@ -1033,41 +1073,41 @@
   },
   {
     "project_id": "1289800",
-    "app_name": "مدا ر محافظ العملات الرقمية غير الاحتجازية",
-    "tagline": "امتلك مفاتيحك وحدك واشترِ وبيع العملات الأصلية مباشرة من متصفح Chrome",
-    "preset": "ecommerce",
+    "app_name": "تطبيق راصد كاشير — إعداد محتوى تسويقي لمحفظة مد",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289800.json"
   },
   {
     "project_id": "1289799",
-    "app_name": "متابعة حملات المتجر وسلة التسوق",
-    "tagline": "ارفع إضافة السلة مع تشخيص فوري ومسار شراء محسّن",
-    "preset": "ecommerce",
+    "app_name": "تطبيق نقد تيرمنال — حل مشكلة إضافة إلى السلة في",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289799.json"
   },
   {
     "project_id": "1289796",
-    "app_name": "منصة مزادات الويب المتكاملة",
-    "tagline": "مزادات أسرع وشفافة تدفع البيع إلى الأمام مع تتبع لحظي ودعم عربي/إنجليزي",
-    "preset": "ecommerce",
+    "app_name": "تطبيق صافنات للمزادات — إنشاء وتطوير منصة مزادات إلك",
+    "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+    "preset": "auction_live",
     "has_proofs": true,
     "spec_path": "specs/1289796.json"
   },
   {
     "project_id": "1289794",
-    "app_name": "مَشاهد السيرة ستوديو",
-    "tagline": "حوّل قصة السيرة إلى باقات مونتاج احترافية ثابتة بجودة عالية لكل مشاهدتها",
-    "preset": "standard",
+    "app_name": "تطبيق فكر الذكية — مونتاج قصص دينية — قصة النبي",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289794.json"
   },
   {
     "project_id": "1289791",
-    "app_name": "منظّم ربط البكسلات والتحليلات الإعلانية",
-    "tagline": "نحوّل أخطاء التتبع إلى نمو قابل للقياس وربط إعلاني موثوق",
-    "preset": "ecommerce",
+    "app_name": "تطبيق مسارك للتأجير — مراجعة وإصلاح البكسلات وإعدا",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289791.json"
   },
@@ -1089,17 +1129,17 @@
   },
   {
     "project_id": "1289782",
-    "app_name": "استوديو مونتاج موثّق",
-    "tagline": "حوّل الفيديوهات الخام إلى أعمال احترافية ترفع ثقة العملاء وتزيد المبيعات",
-    "preset": "standard",
+    "app_name": "تطبيق منارة التعليمية — مطلوب مونتاج 2 فيديو — لدينا",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289782.json"
   },
   {
     "project_id": "1289781",
-    "app_name": "منصة تحليل الاستبيانات الإحصائي",
-    "tagline": "حوّل بيانات استبياناتك إلى نتائج موثوقة تدعم قرارات إدارية سريعة",
-    "preset": "standard",
+    "app_name": "تطبيق إتقان للصيانة — عمل تحليل احصائي وتعليق على",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289781.json"
   },
@@ -1113,17 +1153,17 @@
   },
   {
     "project_id": "1289771",
-    "app_name": "منصة دعوات إلكترونية",
-    "tagline": "تسعير ذكي، نجاح مضمون",
-    "preset": "ecommerce",
+    "app_name": "تطبيق نقد تيرمنال — تسعير منتجات منصة دعوات الكت",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289771.json"
   },
   {
     "project_id": "1289770",
-    "app_name": "قوالب تقارير عربية",
-    "tagline": "حل متكامل لتصميم وتنسيق تقاريرك العربية",
-    "preset": "standard",
+    "app_name": "تطبيق قيادة الرقمي — تصميم وتنسيق قالب Word احترا",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289770.json"
   },
@@ -1145,9 +1185,9 @@
   },
   {
     "project_id": "1289766",
-    "app_name": "مستحضرات الجمال الذكية",
-    "tagline": "تحويل استفسارات العملاء إلى مبيعات فورية",
-    "preset": "ecommerce",
+    "app_name": "تطبيق كادي للتجميل — مطلوب أخصائية خدمة عملاء وإد",
+    "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+    "preset": "beauty_salon",
     "has_proofs": true,
     "spec_path": "specs/1289766.json"
   },
@@ -1161,25 +1201,25 @@
   },
   {
     "project_id": "1289764",
-    "app_name": "منصة تعريف المصنع العالمي",
-    "tagline": "عرض عالمي احترافي يرفع الثقة ويزيد طلبات الشركات",
-    "preset": "ecommerce",
+    "app_name": "تطبيق محور الصناعي — مصمم ومطور مواقع محترف ومستق",
+    "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "preset": "industrial_iot",
     "has_proofs": true,
     "spec_path": "specs/1289764.json"
   },
   {
     "project_id": "1289762",
-    "app_name": "مشروع مدرب أو خبير في الذكاء ال",
-    "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-    "preset": "services",
+    "app_name": "تطبيق رؤية للتدريب — مدرب أو خبير في الذكاء الاصط",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289762.json"
   },
   {
     "project_id": "1289761",
-    "app_name": "مشروع خبير أو مدرب في الذكاء ال",
-    "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-    "preset": "services",
+    "app_name": "تطبيق رؤية للتدريب — خبير أو مدرب في الذكاء الاصط",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289761.json"
   },
@@ -1193,57 +1233,57 @@
   },
   {
     "project_id": "1289750",
-    "app_name": "متجر الروابط الذهبية",
-    "tagline": "منصة متخصصة لبناء السمعة الرقمية وزيادة المبيعات عبر روابط خلفية موثوقة",
-    "preset": "ecommerce",
+    "app_name": "تطبيق سجل زاتكا — خبير سيو متخصص في بناء روابط",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289750.json"
   },
   {
     "project_id": "1289745",
-    "app_name": "إدارة الوكالة التسويقية",
-    "tagline": "منصة متكاملة لإدارة فرق العمل وتسليم الحملات التسويقية بكفاءة عالية",
-    "preset": "standard",
+    "app_name": "تطبيق إيوان العقارية — مطلوب مدير تسويق محترف لإدار",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289745.json"
   },
   {
     "project_id": "1289744",
-    "app_name": "شحن برو",
-    "tagline": "إدارة الشحن الثقيل والخدمات اللوجستية بذكاء وسرعة فائقة",
-    "preset": "services",
+    "app_name": "تطبيق مسارك للتأجير — تصميم بروفايل — : عنوان المش",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289744.json"
   },
   {
     "project_id": "1289743",
-    "app_name": "مشروع خبير انتاج وتعديل الفيديو",
-    "tagline": "نظام رقمي سحابي متكامل فائق الأداء والأمان",
-    "preset": "standard",
+    "app_name": "تطبيق فكر الذكية — خبير انتاج وتعديل الفيديوهات",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289743.json"
   },
   {
     "project_id": "1289741",
-    "app_name": "هيل الهند الفاخر",
-    "tagline": "نكهة الأصالة.. بلمسة تسويقية ترفع قيمة منتجك في السوق",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ميزان نقاط البيع — مصمم محترف لديه خبرة في تصمي",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289741.json"
   },
   {
     "project_id": "1289736",
-    "app_name": "إيمجلاند",
-    "tagline": "منصة متخصصة لربط صناع المحتوى بمديري التصوير المحترفين لتوجيه الزوايا وصناعة السيناريو",
-    "preset": "standard",
+    "app_name": "تطبيق مسار الفضائي — توجيه تصوير فيديو للمحتوى —",
+    "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
+    "preset": "navigation",
     "has_proofs": true,
     "spec_path": "specs/1289736.json"
   },
   {
     "project_id": "1289729",
-    "app_name": "مُقيّم القدرات",
-    "tagline": "منصة متخصصة لتدقيق أسئلة القدرات والتحصيلي لضمان دقة المحتوى العلمي",
-    "preset": "services",
+    "app_name": "تطبيق منارة التعليمية — مراجعة علمية وتربوية لأسئلة",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289729.json"
   },
@@ -1257,25 +1297,25 @@
   },
   {
     "project_id": "1289723",
-    "app_name": "منصة سلة وزد الاحترافية",
-    "tagline": "تحويل علامتك التجارية إلى متاجر رقمية عالية الأداء مع تخصيص عميق وأتمتة شاملة",
-    "preset": "ecommerce",
+    "app_name": "تطبيق راصد كاشير — مطوّر متاجر سلة وزد لمدة شهر",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289723.json"
   },
   {
     "project_id": "1289722",
-    "app_name": "مستقل تصميم كتب تعليمية",
-    "tagline": "حل شامل لتصميم كتب تعليمية جذابة تزيد المبيعات",
-    "preset": "standard",
+    "app_name": "تطبيق قلم الأكاديمية — مطلوب مصمم جرافيك محترف للعم",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289722.json"
   },
   {
     "project_id": "1289721",
-    "app_name": "منصة سلة وزد المتكاملة",
-    "tagline": "حلول تصميم متاجر احترافية تزيد مبيعاتك وتؤهل علامتك التجارية للنجاح",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ميزان نقاط البيع — مطلوب مصمم واجهات متاجر (UI/",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289721.json"
   },
@@ -1289,49 +1329,49 @@
   },
   {
     "project_id": "1289719",
-    "app_name": "إعادة تصميم البنية التحتية للمتاجر",
-    "tagline": "تحسين البنية التحتية لتقليل التكاليف وزيادة الكفاءة",
-    "preset": "standard",
+    "app_name": "تطبيق لياقة بالس — إعادة تصميم أساسات وميدات مش",
+    "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "preset": "fitness",
     "has_proofs": true,
     "spec_path": "specs/1289719.json"
   },
   {
     "project_id": "1289718",
-    "app_name": "مدربي",
-    "tagline": "منصة تدريب احترافية لكتابة المحتوى - تعلم، طبق، وابدأ بالتحقق من المهارات",
-    "preset": "standard",
+    "app_name": "تطبيق علمي التفاعلي — مدربة كتابة محتوى — ارغب مدر",
+    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289718.json"
   },
   {
     "project_id": "1289716",
-    "app_name": "دليل الإجراءات الحكومية",
-    "tagline": "حل رقمي يسرّع إنتاج وتحديث الأدلة الإجرائية الحكومية",
-    "preset": "standard",
+    "app_name": "تطبيق نجد للأسطول — مراجعة وتطوير دليل إجرائي لم",
+    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289716.json"
   },
   {
     "project_id": "1289712",
-    "app_name": "خزنة الأعمال الآمنة",
-    "tagline": "حماية بياناتك بأمان مع التزام كامل",
-    "preset": "standard",
+    "app_name": "تطبيق إتقان للصيانة — مطلوب مبرمج C# لعمل برنامج خ",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289712.json"
   },
   {
     "project_id": "1289711",
-    "app_name": "متجر الأزياء",
-    "tagline": "أزياء فاخرة بأسعار معقولة",
-    "preset": "ecommerce",
+    "app_name": "تطبيق ميزان نقاط البيع — عمل فيديو إعلاني موشن جرافيك",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289711.json"
   },
   {
     "project_id": "1289708",
-    "app_name": "حجز غسيل السيارات الذكي",
-    "tagline": "تجربة غسيل سيارات سريعة ومريحة تزيد من رضا العملاء",
-    "preset": "standard",
+    "app_name": "تطبيق ماهر الميداني — تعديلات بسيطة على تصميم ملف",
+    "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1289708.json"
   },
@@ -1361,9 +1401,9 @@
   },
   {
     "project_id": "1289697",
-    "app_name": "متجر الأزياء العتيقة",
-    "tagline": "أزياء تراثية مع تجربة تسوق فريدة",
-    "preset": "ecommerce",
+    "app_name": "تطبيق راصد كاشير — تصميم فيديو موشن دعائي لمتجر",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289697.json"
   },
@@ -2729,9 +2769,9 @@
   },
   {
     "project_id": "1278810",
-    "app_name": "منصة GRP الذكاء الاصطناعي للمالية العامة",
-    "tagline": "تحويل إدارة المالية العامة إلى ذكاء اصطناعي يحقق الكفاءة والشفافية",
-    "preset": "standard",
+    "app_name": "تطبيق مملكة العقار — اختبار مستقل لمنصة GRP - إدا",
+    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1278810.json"
   },
@@ -2761,9 +2801,9 @@
   },
   {
     "project_id": "1275562",
-    "app_name": "أكاديمية بلندر الاحترافية",
-    "tagline": "من متوسط إلى احتراف Blender 4.4 بخطة متابعة واستشارات مهنية لمدة 6 أشهر",
-    "preset": "services",
+    "app_name": "تطبيق رقابة الصناعية — مدرس بلندر متمكن يبقى معي لم",
+    "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "preset": "industrial_iot",
     "has_proofs": true,
     "spec_path": "specs/1275562.json"
   },
