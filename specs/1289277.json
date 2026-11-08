@@ -2,7 +2,7 @@
   "project_id": "1289277",
   "repo_name": "qalam-campus-smart-education-1289277",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289277",
-  "app_name": "تطبيق قلم الأكاديمية — مونتاج مقطع شورت تعليمي — أب",
+  "app_name": "qalam-campus-smart-education-1289277",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مونتاج مقطع شورت تعليمي — أب",
+    "title": "qalam-campus-smart-education-1289277",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "93e57d7",
+  "commit_hash": "5340003",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
