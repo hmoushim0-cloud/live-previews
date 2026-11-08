@@ -2,7 +2,7 @@
   "project_id": "1289332",
   "repo_name": "riwaq-desk-coworking-1289332",
   "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking-1289332",
-  "app_name": "تطبيق رواق المشترك — تطوير إجراء استقبال وإدارة ا",
+  "app_name": "riwaq-desk-coworking-1289332",
   "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
   "preset": "coworking",
   "layout_type": "coworking",
@@ -12,7 +12,7 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق رواق المشترك — تطوير إجراء استقبال وإدارة ا",
+    "title": "riwaq-desk-coworking-1289332",
     "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "73af68a",
+  "commit_hash": "de1ba50",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
