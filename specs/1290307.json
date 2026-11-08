@@ -2,8 +2,8 @@
   "project_id": "1290307",
   "repo_name": "itqan-dispatch-services-1290307",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1290307",
-  "app_name": "تطبيق إتقان للصيانة — مطور React Native محترف لتحس",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تاج الذكر — خدمات ذكية مدعومة بنظام NFC و GPS",
+  "tagline": "خدمات أذكار المؤمنين مع تتبع GPS فوري ودفع NFC آمن عبر منصة مدى",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — مطور React Native محترف لتحس",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تاج الذكر — خدمات ذكية مدعومة بنظام NFC و GPS",
+    "subtitle": "خدمات أذكار المؤمنين مع تتبع GPS فوري ودفع NFC آمن عبر منصة مدى"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "خدمات NFC",
+    "تتبع GPS",
+    "باقات أذكار",
+    "دعم فني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "باقة المؤمن الشاملة",
+      "desc": "تضمين أذكار يومية مع تتبع GPS للمواقع المقدسة ودفع NFC عبر مدى",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع مباشر للحجاج",
+      "desc": "نظام GPS متكامل مع تنبيهات أذكار جماعية عبر NFC",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تفعيل NFC أساسي",
+      "desc": "ربط أجهزة مدى لدفع الزكاة مع أذكار الصباح والمساء",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "60fa8c4",
+  "commit_hash": "f6c9bc7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290307_ios_03.png"
     }
   ],
-  "detailed_desc": "مطور React Native محترف لتحسين وتطوير تطبيق جاهز \"أذكار المؤمن\". نبحث عن مطور تطبيقات محترف لديه خبرة قوية في React Native وAndroid، للعمل على تطوير وتحسين تطبيق قائم وهو أذكار المؤمن، وإجراء مراجعة شاملة للتطبيق من حيث التصميم وتجربة المستخدم والأداء والاستقرار والتقنيات المستخدمة. التقنيات المستخدمة في المشروع التطبيق مبني باستخدام التقنيات التال",
+  "detailed_desc": "مطور React Native محترف لتحسين وتطوير تطبيق جاهز \"أذكار المؤمن\" — نبحث عن مطور تطبيقات محترف لديه خبرة قوية في React Native وAndroid، للعمل على تطوير وتحسين تطبيق قائم وهو أذكار المؤمن، وإجراء مراجعة شاملة للتطبيق من حيث التصميم وتجربة المستخدم والأداء والاستقرار والتقنيات المستخدمة. التقنيات المستخدمة في المشروع ا",
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1290307",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada NFC: EMV L2 0x00A4 000000 | GPS: 21.4222°N 39.8262°E - Speed: 5.2 km/h"
   }
 }
