@@ -2,7 +2,7 @@
   "project_id": "1289280",
   "repo_name": "multaqa-hub-coworking-1289280",
   "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289280",
-  "app_name": "تطبيق ملتقى الأعمال — مدير حسابات تواصل اجتماعي لج",
+  "app_name": "multaqa-hub-coworking-1289280",
   "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
   "preset": "coworking",
   "layout_type": "coworking",
@@ -12,7 +12,7 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق ملتقى الأعمال — مدير حسابات تواصل اجتماعي لج",
+    "title": "multaqa-hub-coworking-1289280",
     "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "12dca5a",
+  "commit_hash": "08c88ad",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
