@@ -2,7 +2,7 @@
   "project_id": "1289339",
   "repo_name": "qiyada-key-car-rental-1289339",
   "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1289339",
-  "app_name": "تطبيق قيادة الرقمي — تصميم تغليف كامل لمركبة العم",
+  "app_name": "qiyada-key-car-rental-1289339",
   "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
   "preset": "car_rental",
   "layout_type": "car_rental",
@@ -12,7 +12,7 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق قيادة الرقمي — تصميم تغليف كامل لمركبة العم",
+    "title": "qiyada-key-car-rental-1289339",
     "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3553316",
+  "commit_hash": "5cd3183",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
