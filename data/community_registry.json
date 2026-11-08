@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T13:21:30.345039+00:00",
+    "updated_at": "2026-11-08T14:15:03.959788+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1167,7 +1167,7 @@
     },
     {
       "project_id": "1290076",
-      "app_name": "تطبيق قوت الطازج — تصميم داخلي لبيت — أرغب في ت",
+      "app_name": "قوت لحفظ النعمة وإدارة المطابخ السحابية",
       "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
       "preset": "food",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290076",

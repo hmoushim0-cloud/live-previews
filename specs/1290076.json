@@ -2,7 +2,7 @@
   "project_id": "1290076",
   "repo_name": "qoot-surplus-food-1290076",
   "repo_url": "https://github.com/hmoushim0-cloud/qoot-surplus-food-1290076",
-  "app_name": "تطبيق قوت الطازج — تصميم داخلي لبيت — أرغب في ت",
+  "app_name": "قوت لحفظ النعمة وإدارة المطابخ السحابية",
   "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
   "preset": "food",
   "layout_type": "food",
@@ -12,7 +12,7 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق قوت الطازج — تصميم داخلي لبيت — أرغب في ت",
+    "title": "قوت لحفظ النعمة وإدارة المطابخ السحابية",
     "subtitle": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a3bc2c9",
+  "commit_hash": "a0049c3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,7 +105,7 @@
       "path": "shots/1290076_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم داخلي لبيت — أرغب في تصميم داخلي مميز ومدروس للصالة والمجلس وغرفة الطعام، يشمل تصميم الجدران واختيار وتنسيق الأثاث فقط. البيت جاهز بالكامل، ولا أحتاج إلى تصميم أو تعديل في الأرضيات أو الأسقف أو أعمال التشطيب، وإنما أحتاج إلى أفكار إبداعية لتصميم الجدران وتوزيع ال",
+  "detailed_desc": "منظومة قوت لإدارة المطابخ السحابية وحفظ فائض الأطعمة وتوزيع الوجبات الطازجة، وتخفيض الهدر الغذائي عبر الربط المباشر مع طابعات وشاشات تجهيز المطابخ KDS TCP/IP Print Server ومراقبة سلسلة التبريد وسلال الإنقاذ.",
   "domain_data": {
     "repo_name": "qoot-surplus-food-1290076",
     "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
