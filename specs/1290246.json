@@ -2,18 +2,18 @@
   "project_id": "1290246",
   "repo_name": "masar-rtk-navigation-1290246",
   "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation-1290246",
-  "app_name": "تطبيق مسار الفضائي — مبرمج iOS خبير لحل مشكلة الا",
-  "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
-  "preset": "navigation",
-  "layout_type": "navigation",
-  "layoutArchetype": "navigation",
+  "app_name": "masar-rtk-navigation-1290246",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#8b5cf6",
-    "accent_color": "#06b6d4"
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق مسار الفضائي — مبرمج iOS خبير لحل مشكلة الا",
-    "subtitle": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope"
+    "title": "masar-rtk-navigation-1290246",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع GPS RTK High-Precision Receiver + Gyroscope",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "navigation",
-      "label": "GPS RTK High-Precision Receiver + Gyroscope",
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "07e1f23",
+  "commit_hash": "6f125bd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1290246_02.png",
-      "fallback": "GPS RTK High-Precision Receiver + Gyroscope"
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -91,10 +91,24 @@
       "fallback": "Real-time Telemetry OK"
     }
   ],
-  "detailed_desc": "مبرمج iOS خبير لحل مشكلة الاشتراكات والشراء داخل التطبيق. أبحث عن مبرمج iOS محترف لديه خبرة فعلية في StoreKit 2 وأنظمة الاشتراكات والشراء داخل التطبيقات، للعمل على تطبيق جاهز وحل المشكلات التالية: - إصلاح تفعيل وتجديد وإلغاء الاشتراكات. - التأكد من استعادة المشتريات بشكل صحيح. - حماية الاشتراكات من التحايل، مثل تغيير تاريخ أو توقيت الجهاز. - التحقق",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290246_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290246_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290246_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مبرمج iOS خبير لحل مشكلة الاشتراكات والشراء داخل التطبيق — أبحث عن مبرمج iOS محترف لديه خبرة فعلية في StoreKit 2 وأنظمة الاشتراكات والشراء داخل التطبيقات، للعمل على تطبيق جاهز وحل المشكلات التالية: - إصلاح تفعيل وتجديد وإلغاء الاشتراكات. - التأكد من استعادة المشتريات بشكل صحيح. - حماية الاشتراكات من التحايل،",
   "domain_data": {
     "repo_name": "masar-rtk-navigation-1290246",
-    "hardware_sensor": "GPS RTK High-Precision Receiver + Gyroscope",
-    "telemetry_preview": "GPS RTK High-Precision Receiver + Gyroscope: ONLINE | READY"
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
