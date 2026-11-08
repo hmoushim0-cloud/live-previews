@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T10:22:46.032982+00:00",
+    "updated_at": "2026-11-08T11:17:14.857635+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "377",
+      "value": "378",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1291605",
+      "app_name": "تطبيق إنجاز للخدمات — برمجة MVP لتطبيق وساطة بين أ",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291605",
+      "stamp_id": "SA-KMP-1291605",
+      "crypto_hash": "sha256-1291605",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1291596",
       "app_name": "تطبيق ورشة فوري — مطلوب تحسين توافق تصميم موقع",
@@ -3795,7 +3807,7 @@
     },
     {
       "project_id": "1289334",
-      "app_name": "تطبيق فكر الذكية — تصميم صوت معلم رجل بالغ للتر",
+      "app_name": "f-classroom-smart-education-1289334",
       "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289334",
