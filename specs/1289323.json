@@ -2,8 +2,8 @@
   "project_id": "1289323",
   "repo_name": "ghars-lora-agritech-1289323",
   "repo_url": "https://github.com/hmoushim0-cloud/ghars-lora-agritech-1289323",
-  "app_name": "تطبيق غرس الذكي — إعداد مخططات تنفيذية للتشجير",
-  "tagline": "منظومة agritech المتكاملة مع ربط LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
+  "app_name": "نباتات — نظام ذكي لإدارة التشجير والري عبر أجهزة LoRaWAN",
+  "tagline": "إدارة ذكية للموارد المائية مع أجهزة استشعار التربة LoRaWAN المتقدمة",
   "preset": "agritech",
   "layout_type": "agritech",
   "layoutArchetype": "agritech",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق غرس الذكي — إعداد مخططات تنفيذية للتشجير",
-    "subtitle": "منظومة agritech المتكاملة مع ربط LoRaWAN Soil Moisture Node + Solenoid Valve Relays"
+    "title": "نباتات — نظام ذكي لإدارة التشجير والري عبر أجهزة LoRaWAN",
+    "subtitle": "إدارة ذكية للموارد المائية مع أجهزة استشعار التربة LoRaWAN المتقدمة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم شبكات الري",
+    "اختيار الأشجار والنباتات",
+    "أنظمة الإنارة الذكية",
+    "تحليل التربة والمياه"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
-      "price": "180 ر.س",
+      "title": "تصميم شبكة ري متكاملة",
+      "desc": "تصميم نظام ري متكامل مع خرائط توزيع الرشاشات والتنقيط باستخدام خوارزميات توفير المياه",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "توريد وتركيب صمامات Solenoid",
+      "desc": "صمامات كهرومغناطيسية ذكية مع التحكم عن بعد عبر LoRaWAN لضبط تدفق المياه",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليل رطوبة التربة عبر LoRaWAN",
+      "desc": "أجهزة استشعار رطوبة التربة تعمل بتقنية LoRaWAN مع تقارير فورية عبر التطبيق",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5d979bb",
+  "commit_hash": "bfd9a29",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ghars-lora-agritech-1289323",
     "hardware_sensor": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays",
-    "telemetry_preview": "LoRaWAN Soil Moisture Node + Solenoid Valve Relays: ONLINE | READY"
+    "telemetry_preview": "LoRaWAN: Soil Moisture 28% | Valve Position: OPEN | Battery: 3.2V"
   }
 }
