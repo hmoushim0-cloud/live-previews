@@ -2,7 +2,7 @@
   "project_id": "1275806",
   "repo_name": "qalam-campus-smart-education-1275806",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1275806",
-  "app_name": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+  "app_name": "qalam-campus-smart-education-1275806",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+    "title": "qalam-campus-smart-education-1275806",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "f7bd959",
+  "commit_hash": "9db33fa",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
