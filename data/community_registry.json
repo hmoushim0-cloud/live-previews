@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T12:11:34.672697+00:00",
+    "updated_at": "2026-11-08T13:21:30.345039+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -3951,7 +3951,7 @@
     },
     {
       "project_id": "1289305",
-      "app_name": "تطبيق سجل زاتكا — تصميم أغلفة الكتب الأدبية وا",
+      "app_name": "sajil-zatca-pos-cashier-1289305",
       "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289305",
@@ -4083,7 +4083,7 @@
     },
     {
       "project_id": "1289290",
-      "app_name": "تطبيق ميزان نقاط البيع — مطلوب مصمم هوية بصرية محترف",
+      "app_name": "mizan-pos-pos-cashier-1289290",
       "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289290",
@@ -4119,7 +4119,7 @@
     },
     {
       "project_id": "1289281",
-      "app_name": "تطبيق حكيم للمؤشرات — اختبار شامل لنظام إدارة المش",
+      "app_name": "hakeem-vitals-telehealth-1289281",
       "tagline": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
       "preset": "telehealth",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289281",
@@ -4131,7 +4131,7 @@
     },
     {
       "project_id": "1289280",
-      "app_name": "تطبيق ملتقى الأعمال — مدير حسابات تواصل اجتماعي لج",
+      "app_name": "multaqa-hub-coworking-1289280",
       "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289280",
