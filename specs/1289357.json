@@ -2,8 +2,8 @@
   "project_id": "1289357",
   "repo_name": "naqd-terminal-pos-cashier-1289357",
   "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1289357",
-  "app_name": "تطبيق نقد تيرمنال — إضافة ورفع 200 منتج طاولات ع",
-  "tagline": "تجربة تسوق جمالية مع ligaGPT وطباعة وتتبع سلاسل الإمداد",
+  "app_name": "طاولات ذكية — نظام إدارة متجر الأثاث الذكي مع الذكاء الاصطناعي",
+  "tagline": "دمج الذكاء الاصطناعي مع أنظمة نقاط البيع لرفع كفاءة فهرسة الأثاث وطباعة الفواتير الحرارية",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق نقد تيرمنال — إضافة ورفع 200 منتج طاولات ع",
-    "subtitle": "تجربة تسوق جمالية مع ligaGPT وطباعة وتتبع سلاسل الإمداد"
+    "title": "طاولات ذكية — نظام إدارة متجر الأثاث الذكي مع الذكاء الاصطناعي",
+    "subtitle": "دمج الذكاء الاصطناعي مع أنظمة نقاط البيع لرفع كفاءة فهرسة الأثاث وطباعة الفواتير الحرارية"
   },
   "categories": [
-    "الطاولات الدافئة",
-    "طاولات المكاتب",
-    "طاولات الطعام",
-    "طاولات البوفيه"
+    "طاولات طعام",
+    "طاولات قهوة",
+    "طاولات دراسة",
+    "طاولات خارجية"
   ],
   "items": [
     {
-      "title": "طاولة مكتب فخمة خشبية",
-      "desc": "طاولة مكتب خشبية عالية الجودة مع ركن لجهاز الكمبيوتر.",
-      "price": "1500 ر.س",
-      "icon": "laptop",
-      "badge": "مفضل"
+      "title": "إضافة منتج ذكي",
+      "desc": "إدخال منتجات الأثاث عبر مسح الباركود مع توليد أوصاف تلقائية باستخدام الذكاء الاصطناعي",
+      "price": "75 ر.س",
+      "icon": "barcode",
+      "badge": "AI"
     },
     {
-      "title": "طاولة طعام خشبية طويلة",
-      "desc": "طاولة طعام خشبية طويلة مع 6 مقاعد مريحة.",
-      "price": "2800 ر.س",
-      "icon": "spoon",
-      "badge": "لحوم"
+      "title": "طباعة فاتورة حرارية",
+      "desc": "إصدار فواتير فورية عبر طابعة ESC/POS مع تفاصيل المنتج الكاملة",
+      "price": "45 ر.س",
+      "icon": "printer",
+      "badge": "فوري"
     },
     {
-      "title": "طاولة بوفيه خشبية مع عجلات",
-      "desc": "طاولة بوفيه خشبية مع عجلات سهلة الحركة وإطار مزين.",
-      "price": "950 ر.س",
-      "icon": "trolley",
-      "badge": "قابل للتحويل"
+      "title": "تحليل مخزون الأثاث",
+      "desc": "تقرير تلقائي عن المنتجات الأكثر مبيعاً مع توصيات تسعير",
+      "price": "199 ر.س",
+      "icon": "trending-up",
+      "badge": "تحليلي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "17837b4",
+  "commit_hash": "a6b1cca",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "naqd-terminal-pos-cashier-1289357",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESCOPOS: 12pt Font, 25mm/s Speed | Barcode Scanner: UPC-A 123456789012"
+    "telemetry_preview": "ESC/POS: 150mm Paper | Barcode Scan: 200-456-789 | Print Head Temp: 42°C"
   }
 }
