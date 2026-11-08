@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T01:16:21.475673+00:00",
+    "updated_at": "2026-11-08T02:09:10.231848+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -651,9 +651,9 @@
     },
     {
       "project_id": "1290147",
-      "app_name": "بوابة ربط المنصات التعليمية المعتمدة",
-      "tagline": "التكامل الحكومي الرقمي الشامل لتوثيق الشهادات وساعات التدريب المعتمدة",
-      "preset": "standard",
+      "app_name": "تطبيق قلم الأكاديمية — ربط منصة LMS مع جهة حكومية —",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290147",
       "stamp_id": "SA-KMP-1290147",
       "crypto_hash": "sha256-1290147",
@@ -819,8 +819,8 @@
     },
     {
       "project_id": "1290129",
-      "app_name": "منصة تدقيق واختبار تجربة المستخدم",
-      "tagline": "تشخيص رحلة العميل واكتشاف نقاط الاحتكاك لرفع معدلات التحويل للزوار الجدد",
+      "app_name": "تطبيق ورشة فوري — اختبار تجربة المستخدم لتطبيق",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290129",
       "stamp_id": "SA-KMP-1290129",
