@@ -2521,7 +2521,7 @@
   },
   {
     "project_id": "1289332",
-    "app_name": "تطبيق رواق المشترك — تطوير إجراء استقبال وإدارة ا",
+    "app_name": "riwaq-desk-coworking-1289332",
     "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
     "preset": "coworking",
     "has_proofs": true,
@@ -2529,7 +2529,7 @@
   },
   {
     "project_id": "1289325",
-    "app_name": "تطبيق علمي التفاعلي — مطلوب معلم متخصص في الأحياء",
+    "app_name": "ilmi-bootcamp-smart-education-1289325",
     "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
     "preset": "smart_education",
     "has_proofs": true,
@@ -2913,7 +2913,7 @@
   },
   {
     "project_id": "1275806",
-    "app_name": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+    "app_name": "qalam-campus-smart-education-1275806",
     "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
     "preset": "smart_education",
     "has_proofs": true,

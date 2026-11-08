@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T11:17:14.857635+00:00",
+    "updated_at": "2026-11-08T12:11:34.672697+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -3831,7 +3831,7 @@
     },
     {
       "project_id": "1289332",
-      "app_name": "تطبيق رواق المشترك — تطوير إجراء استقبال وإدارة ا",
+      "app_name": "riwaq-desk-coworking-1289332",
       "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289332",
@@ -3843,7 +3843,7 @@
     },
     {
       "project_id": "1289325",
-      "app_name": "تطبيق علمي التفاعلي — مطلوب معلم متخصص في الأحياء",
+      "app_name": "ilmi-bootcamp-smart-education-1289325",
       "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289325",
@@ -4419,7 +4419,7 @@
     },
     {
       "project_id": "1275806",
-      "app_name": "تطبيق قلم الأكاديمية — تطوير موقع مدونة لغوية — مطل",
+      "app_name": "qalam-campus-smart-education-1275806",
       "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1275806",
