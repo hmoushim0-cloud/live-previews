@@ -2,7 +2,7 @@
   "project_id": "1289253",
   "repo_name": "warsha-now-services",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services",
-  "app_name": "تطبيق ورشة فوري — الصيانة الميدانية",
+  "app_name": "warsha-now-services",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — الصيانة الميدانية",
+    "title": "warsha-now-services",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d1804ba",
+  "commit_hash": "33e2039",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -91,7 +91,21 @@
       "fallback": "Real-time Telemetry OK"
     }
   ],
-  "detailed_desc": "تطبيق ورشة فوري — الصيانة الميدانية وتتبع الفنيين لحظياً",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1289253_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1289253_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1289253_ios_03.png"
+    }
+  ],
+  "detailed_desc": "اسم مبتكر — مطلوب شخص يقوم باعطائي عدة اسماء مبتكرة مثل lamar , ekaf الخ يتاكد اتاحتها .com و لا يوجد اي شركة في العالم بهذا الاسم نبي اسم يكون كشركة قابضة تنطق انجليزي وعربي عدم استخدام وسائل الذكاء الاصطناعي في التخمين يتاكد من توفرها في النطاقات السعودية والع",
   "domain_data": {
     "repo_name": "warsha-now-services",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
