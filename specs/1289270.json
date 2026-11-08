@@ -2,7 +2,7 @@
   "project_id": "1289270",
   "repo_name": "sanad-tech-services-1289270",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289270",
-  "app_name": "تطبيق سند الفني — مساعدة تقنية وإرشادات لإتمام",
+  "app_name": "sanad-tech-services-1289270",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق سند الفني — مساعدة تقنية وإرشادات لإتمام",
+    "title": "sanad-tech-services-1289270",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "57fd179",
+  "commit_hash": "05a0688",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
