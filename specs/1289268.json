@@ -2,7 +2,7 @@
   "project_id": "1289268",
   "repo_name": "fada-cowork-coworking-1289268",
   "repo_url": "https://github.com/hmoushim0-cloud/fada-cowork-coworking-1289268",
-  "app_name": "تطبيق فضاء كوويرك — مطلوب سكرتير لتنظيم اجتماعات",
+  "app_name": "fada-cowork-coworking-1289268",
   "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
   "preset": "coworking",
   "layout_type": "coworking",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق فضاء كوويرك — مطلوب سكرتير لتنظيم اجتماعات",
+    "title": "fada-cowork-coworking-1289268",
     "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ab6260f",
+  "commit_hash": "b2a2c90",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
