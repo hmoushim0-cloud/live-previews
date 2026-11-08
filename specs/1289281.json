@@ -2,7 +2,7 @@
   "project_id": "1289281",
   "repo_name": "hakeem-vitals-telehealth-1289281",
   "repo_url": "https://github.com/hmoushim0-cloud/hakeem-vitals-telehealth-1289281",
-  "app_name": "تطبيق حكيم للمؤشرات — اختبار شامل لنظام إدارة المش",
+  "app_name": "hakeem-vitals-telehealth-1289281",
   "tagline": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
   "preset": "telehealth",
   "layout_type": "telehealth",
@@ -12,7 +12,7 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق حكيم للمؤشرات — اختبار شامل لنظام إدارة المش",
+    "title": "hakeem-vitals-telehealth-1289281",
     "subtitle": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b8d52b9",
+  "commit_hash": "be5a609",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
