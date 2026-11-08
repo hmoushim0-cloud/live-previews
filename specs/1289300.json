@@ -2,8 +2,8 @@
   "project_id": "1289300",
   "repo_name": "qalam-campus-smart-education-1289300",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289300",
-  "app_name": "تطبيق قلم الأكاديمية — مراجعة خبير لمهام إدارة التن",
-  "tagline": "تكنولوجيا ذكية تربطك بموقع المشاريع",
+  "app_name": "qalam-campus-smart-education-1289300",
+  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مراجعة خبير لمهام إدارة التن",
-    "subtitle": "تكنولوجيا ذكية تربطك بموقع المشاريع"
+    "title": "qalam-campus-smart-education-1289300",
+    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
-    "إدارة تنفيذ المشاريع",
-    "تحقيق الجودة",
-    "تسليم المشاريع",
-    "توقعات وتخطيط"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "مراجعة فنية",
-      "desc": "استokat במשימות تنفيذ التقارير والوثائق",
-      "price": "150 ر.س",
-      "icon": "file",
-      "badge": "مستلزم"
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "تغييرات موقع",
-      "desc": "تتبع وتحليل التغيرات في موقع المشروع",
-      "price": "280 ر.س",
-      "icon": "location",
-      "badge": "مهم"
-    },
-    {
-      "title": "اعتماد المواد",
-      "desc": "تحليل وتوثيق المواد المستخدمة في المشروع",
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
       "price": "95 ر.س",
-      "icon": "cube",
-      "badge": "مستلزم"
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "1f52b32",
+  "commit_hash": "0104215",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1289300",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Sensor Digitizer 4096: 73.5% pressure | BLE Beacon: -75 dBm"
+    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
   }
 }
