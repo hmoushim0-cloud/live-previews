@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T02:09:10.231848+00:00",
+    "updated_at": "2026-11-08T03:14:19.645094+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -627,9 +627,9 @@
     },
     {
       "project_id": "1290149",
-      "app_name": "تراث وإعمار",
-      "tagline": "أصالة البناء وعراقة التاريخ بحلول هندسية معتمدة",
-      "preset": "standard",
+      "app_name": "تطبيق إنجاز للخدمات — تصميم شعار لشركة مقاولات — م",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290149",
       "stamp_id": "SA-KMP-1290149",
       "crypto_hash": "sha256-1290149",
@@ -663,9 +663,9 @@
     },
     {
       "project_id": "1290146",
-      "app_name": "مؤشرات تك",
-      "tagline": "منصة رقمية لتوثيق واختبار وتوريد المعادلات الرياضية الفنية لتكرشارت",
-      "preset": "ecommerce",
+      "app_name": "تطبيق رواسي للأملاك — بناء معادلات رياضية قابلة لل",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290146",
       "stamp_id": "SA-KMP-1290146",
       "crypto_hash": "sha256-1290146",
