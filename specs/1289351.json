@@ -2,8 +2,8 @@
   "project_id": "1289351",
   "repo_name": "warsha-now-services-1289351",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289351",
-  "app_name": "تطبيق ورشة فوري — تصميم  فيديو موشن لشركة شحن",
-  "tagline": "نقل سريع، تتبع دقيق، ودمج مع جهاز Mada NFC GPS",
+  "app_name": "warsha-now-services-1289351",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — تصميم  فيديو موشن لشركة شحن",
-    "subtitle": "نقل سريع، تتبع دقيق، ودمج مع جهاز Mada NFC GPS"
+    "title": "warsha-now-services-1289351",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
-    "شحن عادي",
-    "شحن سريع",
-    "شحن ثقيل",
-    "شحن مخصص"
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
   ],
   "items": [
     {
-      "title": "شحن داخل المدينة",
-      "desc": "نقل سريع عبر الطرق الداخلية مع تتبع فوري للعنصر باستخدام جهاز الNFC و GPS",
-      "price": "150 ر.س",
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "شحن سريع إلى تبوك",
-      "desc": "تنقل سريع بين جدة أو الرياض وتبوك مع تتبع الوقت الفعلي عبر جهاز الNFC GPS",
-      "price": "280 ر.س",
-      "icon": "activity",
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
       "badge": "فوري"
     },
     {
-      "title": "شحن مخصص للقطع الغيار",
-      "desc": "توصيل قطع غيار غير متوفرة في المنطقة مع شاشة مراقبة حالة الشحن عبر الNFC GPS",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "جديد"
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ecaf9c2",
+  "commit_hash": "c97d1d5",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services-1289351",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "NFC 0xE2: 30.5cm | GPS 35.6892°N 51.3910°E | Speed 60 km/h"
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
 }
