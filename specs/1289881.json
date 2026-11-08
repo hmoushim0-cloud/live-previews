@@ -2,8 +2,8 @@
   "project_id": "1289881",
   "repo_name": "rawasi-proptech-real-estate-1289881",
   "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate-1289881",
-  "app_name": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "رواسي العقارية — المنصة الذكية للوساطة والمسح المكاني",
+  "tagline": "منظومة PropTech المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,51 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "رواسي العقارية — المنصة الذكية للوساطة والمسح المكاني",
+    "subtitle": "منظومة PropTech المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "فلل فاخرة",
+    "أبراج سكنية",
+    "أراضي استثمارية",
+    "مساحات مكتبية",
+    "جولات 3D حية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "قصر حطين المودرن — مسح ليزري 3D كامل",
+      "desc": "فيلا فاخرة بمساحة 680 م² مع مسبح خاص وحديقة علوية موثقة بمسح LiDAR",
+      "price": "5500.0 ر.س",
+      "icon": "home",
+      "badge": "مسح معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "بنتهاوس برج كافد المالي — إطلالة بانورامية 360",
+      "desc": "شقة سكنية علوية فاخرة بمساحة 410 م² في مركز الملك عبدالله المالي",
+      "price": "4200.0 ر.س",
+      "icon": "layers",
+      "badge": "حصرى"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "أرض استثمارية تجارية على طريق الملك سلمان",
+      "desc": "مساحة 2500 م² برخصة بناء تجاري مكاتب ومعارض مرفوعة مساحيا",
+      "price": "3500.0 ر.س",
+      "icon": "map",
+      "badge": "فرصة ذهبية"
+    },
+    {
+      "title": "طابق مكاتب ذكية في بوابة الأعمال (Business Gate)",
+      "desc": "مساحة إدارية مفتوحة 850 م² مجهزة بشبكات ألياف وجولة Matterport Pro3",
+      "price": "4800.0 ر.س",
+      "icon": "briefcase",
+      "badge": "جاهز للتسليم"
+    },
+    {
+      "title": "جولة مسح مكاني خاصة مع مهندس مساحة معتمد",
+      "desc": "خدمة رفع مساحي 3D بعتاد Matterport Pro3 مع توليد نموذج Dollhouse",
+      "price": "2800.0 ر.س",
+      "icon": "camera",
+      "badge": "خدمة ميدانية"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
+      "label": "الماسح ثلاثي الأبعاد",
       "icon": "activity"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الحجوزات",
+      "icon": "credit-card"
     }
   ],
   "sensors": [
@@ -73,7 +83,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "23cbbb9",
+  "commit_hash": "f72630a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -101,14 +111,8 @@
       "path": "shots/1289881_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "title": "واجهة iOS للمسح المكاني ثلاثي الأبعاد",
       "path": "shots/1289881_ios_03.png"
     }
-  ],
-  "detailed_desc": "مونتاج فيديو لمشروع عقاري بيع على الخارطة — أحتاج مونتاج احترافي للمشروع بنموذج البيع على الخارطة، يوضح بشكل جذاب ومختصر: موقع المشروع ومميزاته فكرة وتصميم المشروع 3D تفاصيل الوحدات والمساحات الخدمات والمرافق عدد الوحدات والمواقف الأسعار وآلية السداد مراحل التنفيذ وموعد التسليم المزايا الاستثم",
-  "domain_data": {
-    "repo_name": "rawasi-proptech-real-estate-1289881",
-    "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
-  }
+  ]
 }

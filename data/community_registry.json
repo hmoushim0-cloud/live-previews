@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T17:14:45.582052+00:00",
+    "updated_at": "2026-11-08T19:11:57.000591+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1515,8 +1515,8 @@
     },
     {
       "project_id": "1289881",
-      "app_name": "تطبيق رواسي للأملاك — مونتاج فيديو لمشروع عقاري بي",
-      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "app_name": "رواسي العقارية — المنصة الذكية للوساطة والمسح المكاني",
+      "tagline": "منظومة PropTech المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
       "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289881",
       "stamp_id": "SA-KMP-1289881",
@@ -3867,7 +3867,7 @@
     },
     {
       "project_id": "1289321",
-      "app_name": "تطبيق سجل زاتكا — مطوّر Full-stack  لإكمال تكا",
+      "app_name": "sajil-zatca-pos-cashier-1289321",
       "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289321",
@@ -3963,8 +3963,8 @@
     },
     {
       "project_id": "1289303",
-      "app_name": "تطبيق ماهر الميداني — مراجعة خبير لمهام إدارة الوث",
-      "tagline": "إدارة ذكية للوثائق مع تكامل كامل مع تقنيات الاتصال اللاسلكي والتحديد الجغرافي",
+      "app_name": "maher-field-services-1289303",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289303",
       "stamp_id": "SA-KMP-1289303",
@@ -4059,7 +4059,7 @@
     },
     {
       "project_id": "1289295",
-      "app_name": "تطبيق فكر الذكية — مراجعة خبير لمهام تخطيط المش",
+      "app_name": "f-classroom-smart-education-1289295",
       "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289295",
@@ -4359,7 +4359,7 @@
     },
     {
       "project_id": "1282531",
-      "app_name": "تطبيق أساطير للسيارات — إعداد وتهيئة خادم. السلام عل",
+      "app_name": "asatir-fleet-car-rental-1282531",
       "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1282531",
