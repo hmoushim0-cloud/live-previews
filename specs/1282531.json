@@ -2,7 +2,7 @@
   "project_id": "1282531",
   "repo_name": "asatir-fleet-car-rental-1282531",
   "repo_url": "https://github.com/hmoushim0-cloud/asatir-fleet-car-rental-1282531",
-  "app_name": "تطبيق أساطير للسيارات — إعداد وتهيئة خادم. السلام عل",
+  "app_name": "asatir-fleet-car-rental-1282531",
   "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
   "preset": "car_rental",
   "layout_type": "car_rental",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق أساطير للسيارات — إعداد وتهيئة خادم. السلام عل",
+    "title": "asatir-fleet-car-rental-1282531",
     "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e9000dd",
+  "commit_hash": "a4967b0",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,7 +105,7 @@
       "path": "shots/1282531_ios_03.png"
     }
   ],
-  "detailed_desc": "إعداد وتهيئة خادم. السلام عليكم، لدي تطبيق ويب تجاري مكتمل التطوير ومبني باستخدام بيئة Node.js. التطبيق يقوم بمعالجة وتوليد ملفات PDF ويخدم حاليا حوالي 20 مستخدما كبداية. أحتاج إلى مهندس سيرفرات (DevOps / SysAdmin) محترف للقيام بالمهام التالية لمرة واحدة وبمبلغ مقطوع: 1. إعداد وتهيئة سيرفر Linux VPS (المستضاف داخل مركز بيانات في السعودية لضمان توطي",
+  "detailed_desc": "إعداد وتهيئة خادم — السلام عليكم، لدي تطبيق ويب تجاري مكتمل التطوير ومبني باستخدام بيئة Node.js. التطبيق يقوم بمعالجة وتوليد ملفات PDF ويخدم حاليا حوالي 20 مستخدما كبداية. أحتاج إلى مهندس سيرفرات (DevOps / SysAdmin) محترف للقيام بالمهام التالية لمرة واحدة وبمبلغ مقطوع:",
   "domain_data": {
     "repo_name": "asatir-fleet-car-rental-1282531",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
