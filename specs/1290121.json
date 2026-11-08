@@ -2,7 +2,7 @@
   "project_id": "1290121",
   "repo_name": "ruya-academy-smart-education-1290121",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1290121",
-  "app_name": "تطبيق رؤية للتدريب — MST22-D-001 · كتابة 150 سؤال",
+  "app_name": "أكاديمية رؤية للتعليم الذكي والتدريب اللغوي",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — MST22-D-001 · كتابة 150 سؤال",
+    "title": "أكاديمية رؤية للتعليم الذكي والتدريب اللغوي",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "580b4a5",
+  "commit_hash": "a5b74c8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,7 +105,7 @@
       "path": "shots/1290121_ios_03.png"
     }
   ],
-  "detailed_desc": "MST22-D-001 · كتابة 150 سؤالًا مرجعيًا بأجوبتها في مصطلحات النحو العربي — نحتاج متخصصا في النحو العربي (معلما أو باحثا). العمل: 150 سؤالا مما يسأله المتعلم فعلا عن معنى مصطلح نحوي أو حده أو الفرق بين مصطلحين. ولكل سؤال جواب مرجعي: - الحد، ومثاله، ومصدره من كتب النحو المعتمدة، مع الكتاب والصفحة والطبعة. - أو لا يجاب من المص",
+  "detailed_desc": "منصة أكاديمية رؤية للتعليم التفاعلي وتدريب مصطلحات النحو العربي المعتمدة مع ربط القلم الرقمي Smart Stylus Digitizer 4096 مستوى ضغط وحساس حضور القاعات الذكية BLE Classroom Attendance Beacon.",
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1290121",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
