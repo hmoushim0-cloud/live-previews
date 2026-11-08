@@ -1,8 +1,8 @@
 {
   "project_id": "1290151",
-  "repo_name": "madar-nav-navigation",
-  "repo_url": "https://github.com/hmoushim0-cloud/madar-nav-navigation",
-  "app_name": "madar-nav-navigation",
+  "repo_name": "remal-gpx-navigation",
+  "repo_url": "https://github.com/hmoushim0-cloud/remal-gpx-navigation",
+  "app_name": "remal-gpx-navigation",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "madar-nav-navigation",
+    "title": "remal-gpx-navigation",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6892075",
+  "commit_hash": "73a1f58",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -107,7 +107,7 @@
   ],
   "detailed_desc": "تحليل وتصميم وتطوير نظام ERP متكامل من الصفر — مطلوب مطور برمجيات متخصص في أنظمة ERP للعمل عن بعد نبحث عن مطور برمجيات محترف (ERP Developer)، للعمل معنا على تحليل وتصميم وتطوير نظام ERP متكامل من الصفر. طبيعة المشروع إنشاء منظومة تخطيط موارد المؤسسات (ERP System) متكاملة، تعمل من خلال: تطبيق سطح",
   "domain_data": {
-    "repo_name": "madar-nav-navigation",
+    "repo_name": "remal-gpx-navigation",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
     "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
