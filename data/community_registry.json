@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T15:11:13.366435+00:00",
+    "updated_at": "2026-11-08T17:14:45.582052+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -87,7 +87,7 @@
     },
     {
       "project_id": "1291553",
-      "app_name": "تطبيق سند الفني — تصميم صفحة ويب إبداعية لمنصة",
+      "app_name": "تطبيق سند الفني — منظومة الخدمات الميدانية والصيانة الذكية",
       "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291553",
@@ -3711,7 +3711,7 @@
     },
     {
       "project_id": "1289352",
-      "app_name": "تطبيق ماهر الميداني — مطلوب رسام Manga تحويل قصة إ",
+      "app_name": "maher-field-services-1289352",
       "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289352",
@@ -3723,8 +3723,8 @@
     },
     {
       "project_id": "1289351",
-      "app_name": "تطبيق ورشة فوري — تصميم  فيديو موشن لشركة شحن",
-      "tagline": "نقل سريع، تتبع دقيق، ودمج مع جهاز Mada NFC GPS",
+      "app_name": "warsha-now-services-1289351",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289351",
       "stamp_id": "SA-KMP-1289351",
@@ -3999,8 +3999,8 @@
     },
     {
       "project_id": "1289300",
-      "app_name": "تطبيق قلم الأكاديمية — مراجعة خبير لمهام إدارة التن",
-      "tagline": "تكنولوجيا ذكية تربطك بموقع المشاريع",
+      "app_name": "qalam-campus-smart-education-1289300",
+      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289300",
       "stamp_id": "SA-KMP-1289300",
@@ -4179,7 +4179,7 @@
     },
     {
       "project_id": "1289268",
-      "app_name": "تطبيق فضاء كوويرك — مطلوب سكرتير لتنظيم اجتماعات",
+      "app_name": "fada-cowork-coworking-1289268",
       "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289268",
