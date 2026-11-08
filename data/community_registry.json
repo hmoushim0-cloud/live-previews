@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T09:12:45.443449+00:00",
+    "updated_at": "2026-11-08T10:22:46.032982+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "376",
+      "value": "377",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1291596",
+      "app_name": "تطبيق ورشة فوري — مطلوب تحسين توافق تصميم موقع",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291596",
+      "stamp_id": "SA-KMP-1291596",
+      "crypto_hash": "sha256-1291596",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1291562",
       "app_name": "تطبيق ماهر الميداني — برمجة تطبيق دليل سياحي. مشرو",
@@ -3747,7 +3759,7 @@
     },
     {
       "project_id": "1289339",
-      "app_name": "تطبيق قيادة الرقمي — تصميم تغليف كامل لمركبة العم",
+      "app_name": "qiyada-key-car-rental-1289339",
       "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289339",
