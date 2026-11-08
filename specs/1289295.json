@@ -2,7 +2,7 @@
   "project_id": "1289295",
   "repo_name": "f-classroom-smart-education-1289295",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289295",
-  "app_name": "تطبيق فكر الذكية — مراجعة خبير لمهام تخطيط المش",
+  "app_name": "f-classroom-smart-education-1289295",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — مراجعة خبير لمهام تخطيط المش",
+    "title": "f-classroom-smart-education-1289295",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "f2a5c84",
+  "commit_hash": "e1ade7b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
