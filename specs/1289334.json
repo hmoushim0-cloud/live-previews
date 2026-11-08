@@ -2,7 +2,7 @@
   "project_id": "1289334",
   "repo_name": "f-classroom-smart-education-1289334",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289334",
-  "app_name": "تطبيق فكر الذكية — تصميم صوت معلم رجل بالغ للتر",
+  "app_name": "f-classroom-smart-education-1289334",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — تصميم صوت معلم رجل بالغ للتر",
+    "title": "f-classroom-smart-education-1289334",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ca85f61",
+  "commit_hash": "ca8b6a1",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
