@@ -2,8 +2,8 @@
   "project_id": "1289296",
   "repo_name": "turbine-industrial-iot-1289296",
   "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289296",
-  "app_name": "تطبيق مجس التوربينات — مطلوب  خبير SEO لموقع مصنع T",
-  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "app_name": "تطبيق رنين — مراقبة الاهتزازات الصوتية للمعدات الصناعية",
+  "tagline": "مراقبة فورية للاهتزازات والضوضاء الصناعية عبر أجهزة استشعار Modbus RS485",
   "preset": "industrial_iot",
   "layout_type": "industrial_iot",
   "layoutArchetype": "industrial_iot",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق مجس التوربينات — مطلوب  خبير SEO لموقع مصنع T",
-    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
+    "title": "تطبيق رنين — مراقبة الاهتزازات الصوتية للمعدات الصناعية",
+    "subtitle": "مراقبة فورية للاهتزازات والضوضاء الصناعية عبر أجهزة استشعار Modbus RS485"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل الاهتزاز",
+    "تقييم الضوضاء",
+    "صيانة تنبؤية",
+    "تقارير الامتثال"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-      "price": "180 ر.س",
+      "title": "تحليل طيف الاهتزاز",
+      "desc": "تحليل ثلاثي المحاور باستخدام خوارزميات FFT لتحديد أعطال المحامل",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تقرير مطابقة الضوضاء",
+      "desc": "قياس مستوى الديسيبل الصناعي مع مقارنته بمعايير OSHA",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "إعداد عتبات التنبيه",
+      "desc": "تخصيص حدود الاهتزاز/الضوضاء لتنبيهات الصيانة التنبؤية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "0b621b3",
+  "commit_hash": "8e60a20",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "turbine-industrial-iot-1289296",
     "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+    "telemetry_preview": "Modbus RS485: 3-Axis RMS 2.1g | Acoustic dB 85.4 | Temp 42°C"
   }
 }
