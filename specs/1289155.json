@@ -2,8 +2,8 @@
   "project_id": "1289155",
   "repo_name": "ilmi-bootcamp-smart-education-1289155",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289155",
-  "app_name": "تطبيق علمي التفاعلي — معلمة فقط لتدريس طالب في صف",
-  "tagline": "تطبيق denomina للتدريس الممتاز معyin مع الاستفادة من تقنية Beacon BLE",
+  "app_name": "قلم العلوم الذكي — تعليم تفاعلي لكتاب أول متوسط",
+  "tagline": "تدريس تفاعلي مع قلم ذكي ومتابعة عبر منارات BLE لتعزيز الفهم العلمي",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,34 +12,35 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — معلمة فقط لتدريس طالب في صف",
-    "subtitle": "تطبيق denomina للتدريس الممتاز معyin مع الاستفادة من تقنية Beacon BLE"
+    "title": "قلم العلوم الذكي — تعليم تفاعلي لكتاب أول متوسط",
+    "subtitle": "تدريس تفاعلي مع قلم ذكي ومتابعة عبر منارات BLE لتعزيز الفهم العلمي"
   },
   "categories": [
-    "علوم",
-    "مراجعة",
-    "امتحانات"
+    "مراجعة شهرية",
+    "امتحانات تجريبية",
+    "دروس تفاعلية",
+    "تقارير أداء"
   ],
   "items": [
     {
-      "title": "دورة دراسية أسبوعية للعلوم",
-      "desc": "دروس المكملات وبرامج المراجعة مع المدرس",
+      "title": "حزمة المراجعة الشهرية",
+      "desc": "12 ساعة تدريبية مع تصحيح فوري عبر القلم الذكي وتحليل الأخطاء",
       "price": "150 ر.س",
-      "icon": "book",
-      "badge": "دورة"
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "مستوى 12 ساعة شهريا للعلوم",
-      "desc": "مراجعة وتدريس يومي للمKORONA مع المدرس",
+      "title": "امتحانات محاكاة تفاعلية",
+      "desc": "اختبارات زمنية مع تصحيح آلي عبر BLE وتغذية راجعة فورية",
       "price": "280 ر.س",
-      "icon": "clock",
-      "badge": "شهري"
+      "icon": "activity",
+      "badge": "فوري"
     },
     {
-      "title": "دورة امتحان مستوى 12Atlantique",
-      "desc": "دروس المكملات والتمارين مع المدرس",
+      "title": "دروس القلم النشط",
+      "desc": "تمارين تفاعلية مع استشعار ضغط القلم 4096-مستوى وتحليل الخط",
       "price": "95 ر.س",
-      "icon": "trophy",
+      "icon": "zap",
       "badge": "جديد"
     }
   ],
@@ -72,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6d39095",
+  "commit_hash": "15e74bf",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -108,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289155",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Sample hardware telemetry string (e.g. 'BLE Beacon: -65 dBm | Stylus Digitizer: 4096 levels')"
+    "telemetry_preview": "BLE Beacon: 3m Proximity | Stylus Pressure: 2048/4096 | Tilt: 52°"
   }
 }
