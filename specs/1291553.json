@@ -1,0 +1,114 @@
+{
+  "project_id": "1291553",
+  "repo_name": "sanad-tech-services-1291553",
+  "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1291553",
+  "app_name": "تطبيق سند الفني — تصميم صفحة ويب إبداعية لمنصة",
+  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
+  "theme": {
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
+  },
+  "banner": {
+    "title": "تطبيق سند الفني — تصميم صفحة ويب إبداعية لمنصة",
+    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "007226b",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291553_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291553_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291553_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291553_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291553_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291553_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تصميم صفحة ويب إبداعية لمنصة ثقافية. أبحث عن مصمم ومطور ويب محترف لتصميم صفحة إلكترونية إبداعية (Landing Page) خاصة بمنصة ثقافية. المطلوب تصميم عصري ومبتكر وغير تقليدي، يكون امتدادا للهوية البصرية للمنصة، مع الاهتمام بالتفاصيل البصرية والخطوط والألوان والصور والحركات التفاعلية. الهدف من الصفحة هو التعريف بالمنصة وتعزيز حضورها الرقمي، وليس البيع أو",
+  "domain_data": {
+    "repo_name": "sanad-tech-services-1291553",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+  }
+}

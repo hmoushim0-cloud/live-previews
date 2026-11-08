@@ -1,0 +1,114 @@
+{
+  "project_id": "1291535",
+  "repo_name": "naqd-terminal-pos-cashier",
+  "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier",
+  "app_name": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
+  },
+  "banner": {
+    "title": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "1db8255",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291535_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291535_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291535_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291535_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291535_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291535_ios_03.png"
+    }
+  ],
+  "detailed_desc": "إنشاء تطبيق ويب بأكواد جاهزة. السلام عليكم ورحمة الله مطلوب مبرمج Next.js 14 Supabase لتركيب منصة جاهزة 100% - 20 ملف 3 صور تصميم - المطلوب تركيب وربط فقط ليس برمجة من الصفر. فكرة المشروع لبية عزان: منصة تربط جميع متاجر مدينة عزان شبوة اليمن بمناديب توصيل والعملاء مع خدمتين مميزتين: اكتب طلبك هنا (نص حر) واطلب من شي ان واي متجر عالمي (رابط او صورة)",
+  "domain_data": {
+    "repo_name": "naqd-terminal-pos-cashier",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
+}

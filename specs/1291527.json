@@ -1,0 +1,114 @@
+{
+  "project_id": "1291527",
+  "repo_name": "pass-event-ticketing",
+  "repo_url": "https://github.com/hmoushim0-cloud/pass-event-ticketing",
+  "app_name": "تطبيق موسم الفعاليات — مطلوب تصميم وتطوير تطبيق سفر",
+  "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+  "preset": "event_ticketing",
+  "layout_type": "event_ticketing",
+  "layoutArchetype": "event_ticketing",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "تطبيق موسم الفعاليات — مطلوب تصميم وتطوير تطبيق سفر",
+    "subtitle": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "event_ticketing",
+      "label": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "eec072e",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291527_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291527_02.png",
+      "fallback": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291527_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291527_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291527_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291527_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App). مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App) أبحث عن تطوير تطبيق سفر وسياحة متكامل، بمستوى التطبيقات العالمية، يجمع جميع احتياجات المسافر في تطبيق واحد. أولا: خدمات الطيران البحث عن رحلات الطيران عالميا. مقارنة أسعار شركات الطيران. حجز التذاكر وإصدارها. اختيار المقاعد والأمتعة. إدارة",
+  "domain_data": {
+    "repo_name": "pass-event-ticketing",
+    "hardware_sensor": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+    "telemetry_preview": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer: ONLINE | READY"
+  }
+}

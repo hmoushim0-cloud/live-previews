@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-08T05:12:13.487382+00:00",
+    "updated_at": "2026-11-08T07:13:31.238811+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "370",
+      "value": "375",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,54 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1291553",
+      "app_name": "تطبيق سند الفني — تصميم صفحة ويب إبداعية لمنصة",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291553",
+      "stamp_id": "SA-KMP-1291553",
+      "crypto_hash": "sha256-1291553",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291535",
+      "app_name": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291535",
+      "stamp_id": "SA-KMP-1291535",
+      "crypto_hash": "sha256-1291535",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291533",
+      "app_name": "تطبيق سند الفني — مطلوب تقني شامل لإدارة وتشغي",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291533",
+      "stamp_id": "SA-KMP-1291533",
+      "crypto_hash": "sha256-1291533",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291527",
+      "app_name": "تطبيق موسم الفعاليات — مطلوب تصميم وتطوير تطبيق سفر",
+      "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+      "preset": "event_ticketing",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291527",
+      "stamp_id": "SA-KMP-1291527",
+      "crypto_hash": "sha256-1291527",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1291470",
       "app_name": "تطبيق سند الفني — مبرمج لتعديل لعبة أندرويد Un",
@@ -93,6 +141,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291380",
       "stamp_id": "SA-KMP-1291380",
       "crypto_hash": "sha256-1291380",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1291321",
+      "app_name": "تطبيق سكن ثلاثي الأبعاد — برمجة تطبيق عرض المنازل للبي",
+      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "preset": "real_estate",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1291321",
+      "stamp_id": "SA-KMP-1291321",
+      "crypto_hash": "sha256-1291321",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
@@ -1119,7 +1179,7 @@
     },
     {
       "project_id": "1290041",
-      "app_name": "remal-gpx-navigation-1290041",
+      "app_name": "kashta-radar-navigation-1290041",
       "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290041",
@@ -4107,7 +4167,7 @@
     },
     {
       "project_id": "1289266",
-      "app_name": "تطبيق إتقان للصيانة — تطبيق ذكي متكامل لمنظومة الأ",
+      "app_name": "itqan-dispatch-services-1289266",
       "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289266",
@@ -4155,7 +4215,7 @@
     },
     {
       "project_id": "1289253",
-      "app_name": "تطبيق ورشة فوري — الصيانة الميدانية",
+      "app_name": "warsha-now-services",
       "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289253",
