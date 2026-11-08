@@ -1,8 +1,8 @@
 {
   "project_id": "1290041",
-  "repo_name": "remal-gpx-navigation-1290041",
-  "repo_url": "https://github.com/hmoushim0-cloud/remal-gpx-navigation-1290041",
-  "app_name": "remal-gpx-navigation-1290041",
+  "repo_name": "kashta-radar-navigation-1290041",
+  "repo_url": "https://github.com/hmoushim0-cloud/kashta-radar-navigation-1290041",
+  "app_name": "kashta-radar-navigation-1290041",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "remal-gpx-navigation-1290041",
+    "title": "kashta-radar-navigation-1290041",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5c4cd3f",
+  "commit_hash": "725b7dd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -107,7 +107,7 @@
   ],
   "detailed_desc": "مطلوب مبرمج مستقل لإنشاء تطبيق اندرويد مثل تطبيق تيوبماين علي جوجل بلاي — مطلوب مبرمج مستقل لإنشاء تطبيق اندرويد مثل تطبيق تيوبماين التطبيق عبارة عن تبادل اشتركات يوتيوب و مشاهدة الفيديوهات و الاعجابات من قبل المستخدمين للحصول على نقاط ويمكن من خلال النقاط انشاء حملة والترويج لفنانه ويمكن شراء نقاط و دعوة اصدقاء للحصول على",
   "domain_data": {
-    "repo_name": "remal-gpx-navigation-1290041",
+    "repo_name": "kashta-radar-navigation-1290041",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
     "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
   }
