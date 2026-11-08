@@ -2,18 +2,18 @@
   "project_id": "1290293",
   "repo_name": "kashta-radar-navigation-1290293",
   "repo_url": "https://github.com/hmoushim0-cloud/kashta-radar-navigation-1290293",
-  "app_name": "تطبيق كشتة رادار — مشرف تقني لإدارة وتنسيق تطبي",
-  "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
-  "preset": "navigation",
-  "layout_type": "navigation",
-  "layoutArchetype": "navigation",
+  "app_name": "kashta-radar-navigation-1290293",
+  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "preset": "legal_consulting",
+  "layout_type": "legal_consulting",
+  "layoutArchetype": "legal_consulting",
   "theme": {
     "primary_color": "#10b981",
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق كشتة رادار — مشرف تقني لإدارة وتنسيق تطبي",
-    "subtitle": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope"
+    "title": "kashta-radar-navigation-1290293",
+    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
   },
   "categories": [
     "الخدمات الرئيسية",
@@ -24,7 +24,7 @@
   "items": [
     {
       "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع GPS RTK High-Precision Receiver + Gyroscope",
+      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
       "price": "180 ر.س",
       "icon": "shield",
       "badge": "معتمد"
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "navigation",
-      "label": "GPS RTK High-Precision Receiver + Gyroscope",
+      "type": "legal_consulting",
+      "label": "FIPS 140-2 Cryptographic HSM Security Token",
       "status": "active"
     }
   ],
-  "commit_hash": "1633e5b",
+  "commit_hash": "a306c23",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1290293_02.png",
-      "fallback": "GPS RTK High-Precision Receiver + Gyroscope"
+      "fallback": "FIPS 140-2 Cryptographic HSM Security Token"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -91,10 +91,24 @@
       "fallback": "Real-time Telemetry OK"
     }
   ],
-  "detailed_desc": "مشرف تقني لإدارة وتنسيق تطبيقات ومنصات(تطبيق توصيل ومتاجر - عقد شهري مستمر). وصف المشروع: نبحث عن مشرف تقني ذو خلفية برمجية قوية ونشاط مستمر، للعمل معنا بنظام التعاقد الشهري المستمر. يتولى المستقل دور المشرف العام والمتابع لكافة التحديثات والمهام التي تطلب منه لتطبيق خاص بالتوصيل والمتاجر، بالإضافة إلى بقية تطبيقاتنا ومنصاتنا الأخرى، والتنسيق المبا",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1290293_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1290293_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1290293_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مشرف تقني لإدارة وتنسيق تطبيقات ومنصات(تطبيق توصيل ومتاجر - عقد شهري مستمر) — وصف المشروع: نبحث عن مشرف تقني ذو خلفية برمجية قوية ونشاط مستمر، للعمل معنا بنظام التعاقد الشهري المستمر. يتولى المستقل دور المشرف العام والمتابع لكافة التحديثات والمهام التي تطلب منه لتطبيق خاص بالتوصيل والمتاجر، بالإضافة إلى بقية تطبيقاتنا ومنصاتنا",
   "domain_data": {
     "repo_name": "kashta-radar-navigation-1290293",
-    "hardware_sensor": "GPS RTK High-Precision Receiver + Gyroscope",
-    "telemetry_preview": "GPS RTK High-Precision Receiver + Gyroscope: ONLINE | READY"
+    "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
+    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
   }
 }
