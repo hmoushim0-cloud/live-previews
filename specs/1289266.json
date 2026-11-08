@@ -2,7 +2,7 @@
   "project_id": "1289266",
   "repo_name": "itqan-dispatch-services-1289266",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289266",
-  "app_name": "تطبيق إتقان للصيانة — تطبيق ذكي متكامل لمنظومة الأ",
+  "app_name": "itqan-dispatch-services-1289266",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — تطبيق ذكي متكامل لمنظومة الأ",
+    "title": "itqan-dispatch-services-1289266",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b023627",
+  "commit_hash": "29c5433",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,7 +105,7 @@
       "path": "shots/1289266_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق ذكي متكامل لمنظومة الأعمال",
+  "detailed_desc": "إدارة ومتابعة الحملات الإعلانية براتب شهري — مطلوب أخصائي تسويق رقمي لإدارة ومتابعة الحملات الإعلانية عن بعد (براتب/مقابل شهري ثابت) وصف المشروع: السلام عليكم ورحمة الله وبركاته، أبحث عن أخصائي/أخصائية تسويق رقمي وإدارة حملات إعلانية (Media Buyer) محترف وذو خبرة، للعمل معنا عن بعد براتب/مقابل ش",
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289266",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
