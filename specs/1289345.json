@@ -2,7 +2,7 @@
   "project_id": "1289345",
   "repo_name": "sakan-lidar-real-estate-1289345",
   "repo_url": "https://github.com/hmoushim0-cloud/sakan-lidar-real-estate-1289345",
-  "app_name": "تطبيق سكن ثلاثي الأبعاد — تصميم مخطط معماري لوحدات سكن",
+  "app_name": "sakan-lidar-real-estate-1289345",
   "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
   "preset": "real_estate",
   "layout_type": "real_estate",
@@ -12,7 +12,7 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق سكن ثلاثي الأبعاد — تصميم مخطط معماري لوحدات سكن",
+    "title": "sakan-lidar-real-estate-1289345",
     "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c01d71d",
+  "commit_hash": "6613bbe",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
