@@ -2,7 +2,7 @@
   "project_id": "1289325",
   "repo_name": "ilmi-bootcamp-smart-education-1289325",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289325",
-  "app_name": "تطبيق علمي التفاعلي — مطلوب معلم متخصص في الأحياء",
+  "app_name": "ilmi-bootcamp-smart-education-1289325",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — مطلوب معلم متخصص في الأحياء",
+    "title": "ilmi-bootcamp-smart-education-1289325",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6118588",
+  "commit_hash": "c1da1bd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
