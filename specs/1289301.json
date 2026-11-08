@@ -2,7 +2,7 @@
   "project_id": "1289301",
   "repo_name": "manara-edtech-smart-education-1289301",
   "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1289301",
-  "app_name": "تطبيق منارة التعليمية — مراجعة خبير لمهام الجودة وال",
+  "app_name": "manara-edtech-smart-education-1289301",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق منارة التعليمية — مراجعة خبير لمهام الجودة وال",
+    "title": "manara-edtech-smart-education-1289301",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b8b45dd",
+  "commit_hash": "05f32db",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
