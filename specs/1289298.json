@@ -2,7 +2,7 @@
   "project_id": "1289298",
   "repo_name": "qalam-campus-smart-education-1289298",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289298",
-  "app_name": "تطبيق قلم الأكاديمية — مراجعة خبير لمهام إدارة العق",
+  "app_name": "qalam-campus-smart-education-1289298",
   "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
   "preset": "smart_education",
   "layout_type": "smart_education",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مراجعة خبير لمهام إدارة العق",
+    "title": "qalam-campus-smart-education-1289298",
     "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b7271e4",
+  "commit_hash": "00511ad",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
