@@ -2,7 +2,7 @@
   "project_id": "1289352",
   "repo_name": "maher-field-services-1289352",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289352",
-  "app_name": "تطبيق ماهر الميداني — مطلوب رسام Manga تحويل قصة إ",
+  "app_name": "maher-field-services-1289352",
   "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
   "preset": "services",
   "layout_type": "services",
@@ -12,7 +12,7 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — مطلوب رسام Manga تحويل قصة إ",
+    "title": "maher-field-services-1289352",
     "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b70d0d2",
+  "commit_hash": "7841ba5",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
