@@ -2,46 +2,46 @@
   "project_id": "1290555",
   "repo_name": "riwaq-desk-coworking",
   "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking",
-  "app_name": "تطبيق رواق المشترك — تصميم واجهة شاشة تسجيل دخول",
-  "tagline": "منظومة coworking المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "coworking",
-  "layout_type": "coworking",
-  "layoutArchetype": "coworking",
+  "app_name": "مدى الخدمات الذكية — نظام إدارة وتتبع الخدمات الميدانية",
+  "tagline": "ربط مدفوعات مدى بلا حدود مع تتبع GPS فوري للخدمات",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق رواق المشترك — تصميم واجهة شاشة تسجيل دخول",
-    "subtitle": "منظومة coworking المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "مدى الخدمات الذكية — نظام إدارة وتتبع الخدمات الميدانية",
+    "subtitle": "ربط مدفوعات مدى بلا حدود مع تتبع GPS فوري للخدمات"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "صيانة منزلية",
+    "توصيل فوري",
+    "خدمات طبية",
+    "صيانة صناعية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "باقة صيانة شهرية",
+      "desc": "صيانة وقائية دورية مع تقارير NFC مشفرة",
+      "price": "450 ر.س",
+      "icon": "tool",
+      "badge": "مميز"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "توصيل طبي عاجل",
+      "desc": "نقل عينات مع تتبع GPS في الوقت الفعلي",
+      "price": "180 ر.س",
+      "icon": "truck",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "تفتيش مرافق ذكي",
+      "desc": "مسح NFC للأصول مع تحليل اهتزازات المحركات",
+      "price": "320 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "coworking",
+      "type": "services",
       "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "7d5355e",
+  "commit_hash": "02bedc4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290555_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم واجهة شاشة تسجيل دخول لتطبيق موبايل باستخدام Flutter. أرغب في تصميم وتنفيذ شاشة تسجيل دخول (Login Screen) لتطبيق موبايل باستخدام Flutter، بتصميم عصري وبسيط وسهل الاستخدام. المطلوب: تصميم شاشة تسجيل دخول احترافية. إضافة حقول البريد الإلكتروني وكلمة المرور. إضافة زر تسجيل الدخول. إضافة خيار إظهار وإخفاء كلمة المرور. إضافة رابط استعادة كلمة المر",
+  "detailed_desc": "تصميم واجهة شاشة تسجيل دخول لتطبيق موبايل باستخدام Flutter — أرغب في تصميم وتنفيذ شاشة تسجيل دخول (Login Screen) لتطبيق موبايل باستخدام Flutter، بتصميم عصري وبسيط وسهل الاستخدام. المطلوب: تصميم شاشة تسجيل دخول احترافية. إضافة حقول البريد الإلكتروني وكلمة المرور. إضافة زر تسجيل الدخول. إضافة خيار إظهار وإخفاء ك",
   "domain_data": {
     "repo_name": "riwaq-desk-coworking",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2: TXN 12345 | GPS: 24.7136°N, 46.6753°E | Accel: 0.8g RMS"
   }
 }
