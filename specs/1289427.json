@@ -2,8 +2,8 @@
   "project_id": "1289427",
   "repo_name": "multaqa-hub-coworking-1289427",
   "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289427",
-  "app_name": "تطبيق ملتقى الأعمال — مساعد/ة افتراضية لمتابعة يوم",
-  "tagline": "افعل المزيد مع شريك معتمد للاتفاقية، متصل بجهازك عبر الت тэ أي",
+  "app_name": "مساعد سقار الذكي — تنظيم المهام التقنية عن بعد",
+  "tagline": "تنظيم ذكي مع وصول آمن عبر RFID وTOTP",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,43 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق ملتقى الأعمال — مساعد/ة افتراضية لمتابعة يوم",
-    "subtitle": "افعل المزيد مع شريك معتمد للاتفاقية، متصل بجهازك عبر الت тэ أي"
+    "title": "مساعد سقار الذكي — تنظيم المهام التقنية عن بعد",
+    "subtitle": "تنظيم ذكي مع وصول آمن عبر RFID وTOTP"
   },
   "categories": [
-    "تخطيط",
-    "تتبع",
-    "اتصال",
-    "تطوير"
+    "إدارة المشاريع",
+    "تتبع المهام",
+    "الوصول الآمن",
+    "التقارير الذكية"
   ],
   "items": [
     {
-      "title": "تخطيط يومي",
-      "desc": "إدارة وتنظيم مهامك اليومية الحديثةenciones لإكمال المهام",
-      "price": "200 ر.س",
-      "icon": "calendar",
-      "badge": "مصمم"
+      "title": "أولوية المهام بالذكاء الاصطناعي",
+      "desc": "تحليل تلقائي لأولويات المهام عبر تكامل أنظمة AI مع أدواتك الحالية",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "تتبع المشاريع",
-      "desc": "تتبع تقدم جميع مشاريعك في مكان واحد Without Emojis",
-      "price": "350 ر.س",
-      "icon": "briefcase",
-      "badge": "مباشر"
+      "title": "إعداد بوابات RFID",
+      "desc": "ربط نظام التحكم بالدخول 13.56MHz مع إدارة المشاريع",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
     },
     {
-      "title": "اتصال معtegration",
-      "desc": "وصول مباشر إلى فريقك وأجهزةك عبر الت `- أي",
-      "price": "180 ر.س",
-      "icon": "link",
-      "badge": "مدمج"
-    },
-    {
-      "title": "تطوير المهارات",
-      "desc": "توثيق وتتبع تطورات مهاراتك وتطويرها على مدار الوقت",
-      "price": "250 ر.س",
-      "icon": "lightbulb",
-      "badge": "مقبول"
+      "title": "دمج TOTP مزدوج",
+      "desc": "مصادقة ثنائية متزامنة مع تطبيقات المصادقة HF/NFC",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -80,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "55da736",
+  "commit_hash": "77d40c8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -116,6 +109,6 @@
   "domain_data": {
     "repo_name": "multaqa-hub-coworking-1289427",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "TOTP Pass: 345678 | RFID Turnstile Access: Approved"
+    "telemetry_preview": "RFID: UID 5A3B8C2D | TOTP: 789456 (30s) | Door Status: Open"
   }
 }
