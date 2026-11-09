@@ -2,8 +2,8 @@
   "project_id": "1289415",
   "repo_name": "itqan-dispatch-services-1289415",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289415",
-  "app_name": "تطبيق إتقان للصيانة — مطلوب خبير إعلانات أمازون وت",
-  "tagline": "خبراء إعلانات أمازونkoj — تحسين حملات قائمة PPC — تفعيل حساب أمازون السعودية في فئة الديكور المنزلي",
+  "app_name": "بصمة إعلان — تحسين حملات أمازون الذكي",
+  "tagline": "تحسين إعلاناتك عبر NFC و GPS لتتبع الأداء في الوقت الفعلي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — مطلوب خبير إعلانات أمازون وت",
-    "subtitle": "خبراء إعلانات أمازونkoj — تحسين حملات قائمة PPC — تفعيل حساب أمازون السعودية في فئة الديكور المنزلي"
+    "title": "بصمة إعلان — تحسين حملات أمازون الذكي",
+    "subtitle": "تحسين إعلاناتك عبر NFC و GPS لتتبع الأداء في الوقت الفعلي"
   },
   "categories": [
-    "حملة إعلانية 1",
-    "حملة إعلانية 2",
-    "حملة إعلان 3",
-    "حملة إعلان 4"
+    "تحسين الحملات",
+    "تحليل الأداء",
+    "إدارة الميزانية",
+    "تتبع GPS"
   ],
   "items": [
     {
-      "title": "تعديل حملة 1",
-      "desc": "تحسين أداء حملة إعلانية PPC على أمازون السعودية في فئة الديكور المنزلي",
-      "price": "1200 ر.س",
-      "icon": "android",
-      "badge": "معدّل"
+      "title": "تدقيق حملات أمازون",
+      "desc": "تحليل شامل لهيكل الحملة والكلمات المفتاحية مع توصيات فورية",
+      "price": "450 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "تعديل حملة 2",
-      "desc": "تحسين أداء حملة PPC أخرى على أمازون السعودية في فئة الديكور المنزلي",
-      "price": "1500 ر.س",
-      "icon": "build",
-      "badge": "مجهّز"
+      "title": "تحسين ROAS عاجل",
+      "desc": "إعادة هيكلة عاجلة للحملات المنهارة مع ضمان استعادة 8X ROAS",
+      "price": "780 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
     },
     {
-      "title": "استراتيجية حملات PPC",
-      "desc": "تطوير استراتيجية PPC لزيادة العائد على استثمارات إعلانية أمازون السعودية",
-      "price": "3000 ر.س",
-      "icon": "launch",
-      "badge": "مستقبلي"
+      "title": "تتبع GPS للتحويلات",
+      "desc": "ربط بيانات الموقع الجغرافي مع أداء الإعلانات عبر NFC المدمج",
+      "price": "220 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5dc0969",
+  "commit_hash": "196e438",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289415",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Sample hardware telemetry string (e.g. 'NFC: Card ID 1234567890123456 | GPS: 24.7136° N, 46.6753° E')"
+    "telemetry_preview": "NFC: EMV L2 Auth | GPS: 24.7136° N, 46.6753° E | ROAS: 14.2X"
   }
 }
