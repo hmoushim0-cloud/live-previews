@@ -2,8 +2,8 @@
   "project_id": "1289425",
   "repo_name": "ilmi-bootcamp-smart-education-1289425",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289425",
-  "app_name": "تطبيق علمي التفاعلي — تصميم فيديوهات ذكاء اصطناعي",
-  "tagline": "إبداع بدون حدود معadier من الرفاهية التقنية",
+  "app_name": "تطبيق قلم الذكاء — تصميم فيديوهات تعليمية تفاعلية",
+  "tagline": "إنشاء محتوى تعليمي تفاعلي باستخدام قلم ذكي وتقنية البلوتوث المنخفضة الطاقة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — تصميم فيديوهات ذكاء اصطناعي",
-    "subtitle": "إبداع بدون حدود معadier من الرفاهية التقنية"
+    "title": "تطبيق قلم الذكاء — تصميم فيديوهات تعليمية تفاعلية",
+    "subtitle": "إنشاء محتوى تعليمي تفاعلي باستخدام قلم ذكي وتقنية البلوتوث المنخفضة الطاقة"
   },
   "categories": [
-    "فيديوات تعليمية",
-    "ت цереبرالية",
-    "تطوير الشخصية",
-    "تقييم واكتشاف"
+    "تصميم شخصيات",
+    "تحريك مشاهد",
+    "تأثيرات بصرية",
+    "توليف صوتي"
   ],
   "items": [
     {
-      "title": "تطوير شخصية جديدة",
-      "desc": "انشاء شخصية من الصفر باستخدام الذكاء الاصطناعي",
-      "price": "150 ر.س",
-      "icon": "add-user",
+      "title": "حزمة تصميم الشخصيات",
+      "desc": "نمذجة ثلاثية الأبعاد للشخصيات التعليمية مع تعابير وجه قابلة للتخصيص",
+      "price": "350 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "تحريك المشاهد التفاعلية",
+      "desc": "تحويل النصوص إلى رسوم متحركة باستخدام ذكاء اصطناعي مع تتبع القلم الذكي",
+      "price": "650 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
+    },
+    {
+      "title": "تأثيرات بصرية متقدمة",
+      "desc": "إضافات واقع معزز تعليمية متوافقة مع أجهزة الإسقاط الضوئي",
+      "price": "220 ر.س",
+      "icon": "zap",
       "badge": "جديد"
-    },
-    {
-      "title": "تعديل شخصية سابقة",
-      "desc": "تعديل شخصية مطورة مسبقا باستخدام الذكاء الاصطناعي",
-      "price": "280 ر.س",
-      "icon": "edit",
-      "badge": "مكتسب"
-    },
-    {
-      "title": "تقييم شخصية",
-      "desc": "تقييم شخصية خاصة بك على أساس بعض المؤشرات مثل الشخصية واكتشاف المهارات",
-      "price": "95 ر.س",
-      "icon": "chart-pie",
-      "badge": ""
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "df50ab6",
+  "commit_hash": "d647e5c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289425",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Stylus pressure: 72%, BLE Beacon signal strength: -76 dBm"
+    "telemetry_preview": "BLE GATT 0x1810: 4096 ضغط | نطاق 10م | زاوية 122°"
   }
 }
