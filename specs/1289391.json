@@ -2,8 +2,8 @@
   "project_id": "1289391",
   "repo_name": "tableeya-express-food-1289391",
   "repo_url": "https://github.com/hmoushim0-cloud/tableeya-express-food-1289391",
-  "app_name": "تطبيق طبلية إكسبريس — مطلوب تصميم ثري دي مودرن ناع",
-  "tagline": "تطبيق شامل للتصميم ثلاثي الأبعاد للوجبات والمباني",
+  "app_name": "مواسم كيتشن — نظام عرض الطلبات الذكي",
+  "tagline": "ربط فوري مع أجهزة المطبخ لتنظيم الطلبات وطباعتها تلقائياً",
   "preset": "food",
   "layout_type": "food",
   "layoutArchetype": "food",
@@ -12,35 +12,35 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق طبلية إكسبريس — مطلوب تصميم ثري دي مودرن ناع",
-    "subtitle": "تطبيق شامل للتصميم ثلاثي الأبعاد للوجبات والمباني"
+    "title": "مواسم كيتشن — نظام عرض الطلبات الذكي",
+    "subtitle": "ربط فوري مع أجهزة المطبخ لتنظيم الطلبات وطباعتها تلقائياً"
   },
   "categories": [
-    "وجبات الإفطار",
-    "وجبات الغداء",
-    "وجبات العشاء",
-    "وجبات خفيفة"
+    "طلبات الطعام",
+    "مشروبات",
+    "حجوزات",
+    "عروض خاصة"
   ],
   "items": [
     {
-      "title": "أومليت من البيض الطازج",
-      "desc": "أومليت لذيذة من البيض الطازج مع الليمون والجلد الأخضر",
-      "price": "25 ر.س",
-      "icon": "egg",
-      "badge": "شهي"
+      "title": "إدارة الطلبات الفورية",
+      "desc": "تتبع الطلبات الواردة مع أولوية تلقائية عبر شاشة المطبخ الذكية",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "برجر بيف من/Android",
-      "desc": "برجر بيف مشوي مع العجين والصلصة والبيتزا",
-      "price": "40 ر.س",
-      "icon": "hamburger",
-      "badge": "اشتهر"
+      "title": "طباعة تلقائية للطلبات",
+      "desc": "إرسال الطلبات مباشرة إلى طابعة المطبخ عبر TCP/IP بدون تدخل يدوي",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
     },
     {
-      "title": "صلصة الطماطم مع الفلفل الحار",
-      "desc": "صلصة طماطم لذيذة مع الفلفل الحار والجلد الأخضر",
-      "price": "15 ر.س",
-      "icon": "tomato",
+      "title": "تحليل المبيعات المباشر",
+      "desc": "لوحة تحكم حية لتحليل المبيعات حسب الأصناف والوقت",
+      "price": "95 ر.س",
+      "icon": "zap",
       "badge": "جديد"
     }
   ],
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3f28fdc",
+  "commit_hash": "ceec42a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "tableeya-express-food-1289391",
     "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
-    "telemetry_preview": "KDS: TCP/IP Print Server Online, Ink Level: 72%, Paper: Normal"
+    "telemetry_preview": "KDS TCP/IP: Printer Online | Active Orders: 12 | Print Queue: 0/5"
   }
 }
