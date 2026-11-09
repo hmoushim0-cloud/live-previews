@@ -2,8 +2,8 @@
   "project_id": "1289435",
   "repo_name": "iwan-estates-real-estate-1289435",
   "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1289435",
-  "app_name": "تطبيق إيوان العقارية — مستشار بناء أعمال لتنظيم وتأ",
-  "tagline": "شعار التقني احترافي يبرز القيمة المضافة والربط مع العتاد",
+  "app_name": "وسيط فال — مسح ثلاثي الأبعاد وتقييم عقاري مرخص",
+  "tagline": "مسح ثلاثي الأبعاد فوري باستخدام LiDAR و Matterport Pro3 — معتمد من الهيئة العامة للعقار",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,33 +12,33 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إيوان العقارية — مستشار بناء أعمال لتنظيم وتأ",
-    "subtitle": "شعار التقني احترافي يبرز القيمة المضافة والربط مع العتاد"
+    "title": "وسيط فال — مسح ثلاثي الأبعاد وتقييم عقاري مرخص",
+    "subtitle": "مسح ثلاثي الأبعاد فوري باستخدام LiDAR و Matterport Pro3 — معتمد من الهيئة العامة للعقار"
   },
   "categories": [
-    "تصنيف 1",
-    "تصنيف 2",
-    "تصنيف 3",
-    "تصنيف 4"
+    "تقييم عقاري",
+    "مسح ثلاثي الأبعاد",
+    "وساطة مرخصة",
+    "تقارير معتمدة"
   ],
   "items": [
     {
-      "title": "اسم الخدمة أو المنتج 1",
-      "desc": "وصف فني دقيق بدون إيموجي",
+      "title": "تقييم عقاري معتمد",
+      "desc": "تقييم احترافي باستخدام LiDAR مع ختم رخصة فال",
       "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "اسم الخدمة أو المنتج 2",
-      "desc": "وصف فني دقيق بدون إيموجي",
+      "title": "مسح ثلاثي الأبعاد فوري",
+      "desc": "مسح كامل للعقار بدقة 4K عبر Matterport Pro3",
       "price": "280 ر.س",
       "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "اسم الخدمة أو المنتج 3",
-      "desc": "وصف فني دقيق بدون إيموجي",
+      "title": "تقرير رقمي تفاعلي",
+      "desc": "نموذج ثلاثي الأبعاد قابل للتنقل مع تحليل مساحي",
       "price": "95 ر.س",
       "icon": "zap",
       "badge": "جديد"
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "bc1dec5",
+  "commit_hash": "f4c9cca",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "iwan-estates-real-estate-1289435",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "Sample hardware telemetry string (e.g. 'GATT 0x1810: 118/76 mmHg | 72 BPM')"
+    "telemetry_preview": "LiDAR: 98% Coverage | Matterport: 4K@30fps | Depth: 12m"
   }
 }
