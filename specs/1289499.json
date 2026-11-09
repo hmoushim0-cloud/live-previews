@@ -2,8 +2,8 @@
   "project_id": "1289499",
   "repo_name": "manara-edtech-smart-education-1289499",
   "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1289499",
-  "app_name": "تطبيق منارة التعليمية — إنتاج فيديو تعليمي باللغة ال",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "قلم دروس — منصة تعليمية تفاعلية",
+  "tagline": "تعلم بذكاء مع قلمك الرقمي — تفاعل فوري عبر تقنية BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق منارة التعليمية — إنتاج فيديو تعليمي باللغة ال",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "قلم دروس — منصة تعليمية تفاعلية",
+    "subtitle": "تعلم بذكاء مع قلمك الرقمي — تفاعل فوري عبر تقنية BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "اللغة العربية",
+    "الرياضيات",
+    "العلوم",
+    "أنشطة تفاعلية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "حزمة دروس تفاعلية",
+      "desc": "دروس نموذجية مع تمارين تفاعلية باستخدام القلم الذكي 4096 مستوى ضغط",
+      "price": "150 ر.س",
+      "icon": "book",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب خط اليد",
+      "desc": "تحليل فوري لخط اليد عبر BLE مع تمارين تحسين مخصصة",
+      "price": "280 ر.س",
+      "icon": "edit",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "ألعاب تعليمية",
+      "desc": "أنشطة تفاعلية مع إشعارات موقعية عبر منارات BLE",
+      "price": "95 ر.س",
+      "icon": "play",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "897edca",
+  "commit_hash": "819fd96",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "manara-edtech-smart-education-1289499",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE GATT: Pressure 2048/4096 | Proximity: 0.5m"
   }
 }
