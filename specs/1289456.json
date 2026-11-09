@@ -2,8 +2,8 @@
   "project_id": "1289456",
   "repo_name": "rawasi-proptech-real-estate-1289456",
   "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate-1289456",
-  "app_name": "تطبيق رواسي للأملاك — مسئول توظيف لتوفير 10 موظفين",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "سقار للتوظيف العقاري — نظام ذكي لتوظيف خبراء العقارات مع مسح ثلاثي الأبعاد",
+  "tagline": "توظيف مدعوم بتقنية LiDAR لاختيار أفضل الكفاءات العقارية",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رواسي للأملاك — مسئول توظيف لتوفير 10 موظفين",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "سقار للتوظيف العقاري — نظام ذكي لتوظيف خبراء العقارات مع مسح ثلاثي الأبعاد",
+    "subtitle": "توظيف مدعوم بتقنية LiDAR لاختيار أفضل الكفاءات العقارية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "توظيف فوري",
+    "فرز المرشحين",
+    "مسح ثلاثي الأبعاد",
+    "نقل الكفالة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
+      "title": "توظيف فوري",
+      "desc": "توظيف 10 موظفين عقاريين مع نقل الكفالة خلال 72 ساعة عبر تحليل بيانات LiDAR",
+      "price": "1500 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "فرز المرشحين",
+      "desc": "فرز ذكي باستخدام خوارزميات LiDAR لتحليل مهارات التفاوض العقاري",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مسح ثلاثي الأبعاد",
+      "desc": "تحقق من خبرة المرشحين عبر نمذجة مكاتب افتراضية بتقنية Matterport",
+      "price": "950 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "9b80ea0",
+  "commit_hash": "be4f9ca",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rawasi-proptech-real-estate-1289456",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR 360°: 15m range | Matterport Pro3: 98% accuracy"
   }
 }
