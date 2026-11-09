@@ -2,8 +2,8 @@
   "project_id": "1289385",
   "repo_name": "itqan-dispatch-services-1289385",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289385",
-  "app_name": "تطبيق إتقان للصيانة — تعديل وتنسيق بحث علمي باللغة",
-  "tagline": "التحليل والتصميم والتطوير المبتكر من بحوث الشرق",
+  "app_name": "تطبيق تحكيم — تعديل وتنسيق الأبحاث العلمية مع تتبع NFC",
+  "tagline": "تعديل فوري للأبحاث مع تتبع آمن عبر NFC و GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,35 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — تعديل وتنسيق بحث علمي باللغة",
-    "subtitle": "التحليل والتصميم والتطوير المبتكر من بحوث الشرق"
+    "title": "تطبيق تحكيم — تعديل وتنسيق الأبحاث العلمية مع تتبع NFC",
+    "subtitle": "تعديل فوري للأبحاث مع تتبع آمن عبر NFC و GPS"
   },
   "categories": [
-    "التصحيح اللغوي",
-    "التغليف］",
-    "الطباعة"
+    "تعديل لغوي",
+    "تنسيق مراجع",
+    "تدقيق إملائي",
+    "تنسيق رسومات"
   ],
   "items": [
     {
-      "title": "تحرير بحث علمي",
-      "desc": "تعديل النص باللغة العربية",
+      "title": "حزمة تعديل شاملة",
+      "desc": "تعديل كامل النص مع تنسيق المراجع عبر NFC آمن",
       "price": "150 ر.س",
-      "icon": "pencil",
-      "badge": "تجديدي"
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "تصميم غلاف بحث علمي",
-      "desc": "إعداد غلاف بحث علمي متوافق مع القالب",
+      "title": "تنسيق فوري",
+      "desc": "تنسيق عاجل مع تتبع GPS للوثائق",
       "price": "280 ر.س",
-      "icon": "folder",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "إعدادنسخ مطبوعة",
-      "desc": "تخطيط صفحات بحث علمي",
+      "title": "تدقيق جديد",
+      "desc": "تدقيق إملائي مع تقرير NFC مشفر",
       "price": "95 ر.س",
-      "icon": "print",
-      "badge": "ممتاز"
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -72,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b806d44",
+  "commit_hash": "497e7d4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -108,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289385",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "GPS: 24.7136° N, 46.6739° E | NFC: Contactless EMV L2 Active"
+    "telemetry_preview": "NFC EMV L2: 0x00A4 000000 | GPS: 24.7136°N 46.6753°E"
   }
 }
