@@ -2,8 +2,8 @@
   "project_id": "1289421",
   "repo_name": "hayyiz-space-coworking-1289421",
   "repo_url": "https://github.com/hmoushim0-cloud/hayyiz-space-coworking-1289421",
-  "app_name": "تطبيق حيز للمكاتب — إدارة حسابات البراند الخاص ب",
-  "tagline": "حلول آمنة وت લيينه للبراندينغ والاتصال مع أجهزة Չ힐دة",
+  "app_name": "مركز براند — إدارة حسابات العلامات التجارية الذكية",
+  "tagline": "إدارة حسابات العلامات التجارية بتقنية RFID وتصوير المنتجات الفوري",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,35 +12,35 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق حيز للمكاتب — إدارة حسابات البراند الخاص ب",
-    "subtitle": "حلول آمنة وت લيينه للبراندينغ والاتصال مع أجهزة Չ힐دة"
+    "title": "مركز براند — إدارة حسابات العلامات التجارية الذكية",
+    "subtitle": "إدارة حسابات العلامات التجارية بتقنية RFID وتصوير المنتجات الفوري"
   },
   "categories": [
-    "التصوير",
-    "إعادة النشر",
-    "التنسيق",
-    "الرصد"
+    "تصوير منتجات",
+    "إدارة حسابات",
+    "تصميم محتوى",
+    "تحليل أداء"
   ],
   "items": [
     {
-      "title": "تصوير منتوج",
-      "desc": "تصوير منتوجات براندك عالية الجودة",
-      "price": "280 ر.س",
+      "title": "باقة إدارة شاملة",
+      "desc": "تصوير منتجات احترافي + إدارة يومية للحسابات + تحليل أسبوعي",
+      "price": "1500 ر.س",
       "icon": "camera",
-      "badge": "مفضل"
+      "badge": "شامل"
     },
     {
-      "title": "إعادة النشر",
-      "desc": "إعادة نشر محتويات براندك على جميع المنصات",
-      "price": "150 ر.س",
-      "icon": "share",
-      "badge": "سريع"
+      "title": "خدمة ردود فورية",
+      "desc": "نظام TOTP للوصول الآمن + ردود تلقائية ذكية على العملاء",
+      "price": "280 ر.س",
+      "icon": "message-circle",
+      "badge": "فوري"
     },
     {
-      "title": "التنسيق",
-      "desc": "تنسيق محتويات براندكتاليفًا وجميلًا",
-      "price": "95 ر.س",
-      "icon": "format",
+      "title": "تحليل منافسين",
+      "desc": "تقرير شهري عن أداء المنافسين مع توصيات استراتيجية",
+      "price": "950 ر.س",
+      "icon": "bar-chart",
       "badge": "جديد"
     }
   ],
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c14b9ac",
+  "commit_hash": "a71555e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "hayyiz-space-coworking-1289421",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "Sample hardware telemetry string (e.g. 'RFID: 1234567890 | TOTP: 123456')"
+    "telemetry_preview": "RFID 13.56 MHz: UID 0x24AD | TOTP: 30s Window Verified"
   }
 }
