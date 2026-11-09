@@ -2,8 +2,8 @@
   "project_id": "1290422",
   "repo_name": "sanad-tech-services-1290422",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1290422",
-  "app_name": "تطبيق سند الفني — التعديل على تطبيق مسجل صوت ع",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تسجيل آمن — مسجل صوتي ذكي مع رفع تلقائي",
+  "tagline": "تسجيل عالي الدقة مع رفع فوري إلى اندرايف وتكامل NFC/GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق سند الفني — التعديل على تطبيق مسجل صوت ع",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تسجيل آمن — مسجل صوتي ذكي مع رفع تلقائي",
+    "subtitle": "تسجيل عالي الدقة مع رفع فوري إلى اندرايف وتكامل NFC/GPS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تسجيل صوت",
+    "رفع تلقائي",
+    "أمان بيانات",
+    "تكامل أجهزة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "حزمة تسجيل أساسية",
+      "desc": "تسجيل صوتي بدون مؤشرات مرئية مع تشفير AES-256",
+      "price": "120 ر.س",
+      "icon": "mic",
+      "badge": "أساسي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "رفع اندرايف فوري",
+      "desc": "مزامنة تلقائية مع Google Drive عبر API v3",
+      "price": "180 ر.س",
+      "icon": "cloud-upload",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "title": "تكامل NFC/GPS",
+      "desc": "ربط بيانات الموقع مع معاملات Mada EMV L2",
       "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "navigation",
+      "badge": "متقدم"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "be2a2e3",
+  "commit_hash": "57f4f8d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290422_ios_03.png"
     }
   ],
-  "detailed_desc": "التعديل على تطبيق مسجل صوت على الاندرويد. اريد عمل تعديلات على تطبيق مسجل صوت قمت بأنشاءه من خلال كلود ومعى السورس المتطلبات 1- اريد الغاء العلامة الخضراء التى تظهر عند بدأ التسجيل بالمايك فى اعلى الهاتف 2 - رفع الملفات التى تم تسجيلها الى حسابى فى اندرايف المسجل فى الابكليشن او لو فيه طريقه اخرى افضل عن طريق سيرفر خارجى 3- يقوم ب بالتحويل الى التس",
+  "detailed_desc": "التعديل على تطبيق مسجل صوت على الاندرويد — اريد عمل تعديلات على تطبيق مسجل صوت قمت بأنشاءه من خلال كلود ومعى السورس المتطلبات 1- اريد الغاء العلامة الخضراء التى تظهر عند بدأ التسجيل بالمايك فى اعلى الهاتف 2 - رفع الملفات التى تم تسجيلها الى حسابى فى اندرايف المسجل فى الابكليشن او لو فيه طريقه",
   "domain_data": {
     "repo_name": "sanad-tech-services-1290422",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "GPS: 24.7136°N, 46.6753°E | NFC: EMV L2 Transaction ID: 0xABC123 | Mic: 48kHz/16-bit"
   }
 }
