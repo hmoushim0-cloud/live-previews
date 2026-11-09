@@ -2,8 +2,8 @@
   "project_id": "1290361",
   "repo_name": "manara-edtech-smart-education",
   "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education",
-  "app_name": "تطبيق منارة التعليمية — مطوّر Full-Stack. نحن منصة ت",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "قلم الذكي — منصة تعليم تفاعلي بأدوات ذكية",
+  "tagline": "تعلم تفاعلي فوري مع قلم ذكي ودقة 4096 مستوى عبر بلوتوث منخفض الطاقة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق منارة التعليمية — مطوّر Full-Stack. نحن منصة ت",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "قلم الذكي — منصة تعليم تفاعلي بأدوات ذكية",
+    "subtitle": "تعلم تفاعلي فوري مع قلم ذكي ودقة 4096 مستوى عبر بلوتوث منخفض الطاقة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "خطط دراسية",
+    "أنشطة تفاعلية",
+    "تقييمات",
+    "أدوات أولياء الأمور"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "حزمة دروس متميزة مع قلم ذكي",
+      "desc": "منهج تفاعلي كامل مع قلم رقمي بدقة 4096 مستوى ضغط",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع تقدم فوري",
+      "desc": "تحليلات في الوقت الحقيقي عبر منارات BLE لمراقبة المشاركة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة تقييم أساسية",
+      "desc": "اختبارات تشخيصية مع تحليل خط اليد عبر مستشعرات القلم",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2acd818",
+  "commit_hash": "0ff3db3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290361_ios_03.png"
     }
   ],
-  "detailed_desc": "مطوّر Full-Stack. نحن منصة تعليم أونلاين ناشئة تخدم أولياء الأمور في الإمارات، وتطبيقنا يعمل حاليا على منصة Base44 ومنشور على App Store. نبحث عن مطور يكون المسؤول التقني للشركة بدوام جزئي. تفاصيل المشروع: لدي تطبيق تعليمي يعمل حاليا على منصة Base44 ومنشور على App Store، وأحتاج مستقلا لتنفيذ المهام التالية ، مع إمكانية تجديد التعاون شهريا للدعم المس",
+  "detailed_desc": "مطوّر Full-Stack — نحن منصة تعليم أونلاين ناشئة تخدم أولياء الأمور في الإمارات، وتطبيقنا يعمل حاليا على منصة Base44 ومنشور على App Store. نبحث عن مطور يكون المسؤول التقني للشركة بدوام جزئي. تفاصيل المشروع: لدي تطبيق تعليمي يعمل حاليا على منصة Base44 ومنشور على App Stor",
   "domain_data": {
     "repo_name": "manara-edtech-smart-education",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE 0x1812: 4096-Level Pressure: 2200 | Proximity: 0.8m"
   }
 }
