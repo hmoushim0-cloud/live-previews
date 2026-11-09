@@ -2,8 +2,8 @@
   "project_id": "1289420",
   "repo_name": "injaz-care-services-1289420",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289420",
-  "app_name": "تطبيق إنجاز للخدمات — مطلوب صانع أو صانعة محتوى لل",
-  "tagline": "احترافي • سعودي • مباشر",
+  "app_name": "شبكة صقر للإعلانات — منصة ربط المؤثرين السعوديين بالعلامات التجارية",
+  "tagline": "ربط المؤثرين بالعلامات التجارية عبر مدى NFC وإرسال GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,35 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — مطلوب صانع أو صانعة محتوى لل",
-    "subtitle": "احترافي • سعودي • مباشر"
+    "title": "شبكة صقر للإعلانات — منصة ربط المؤثرين السعوديين بالعلامات التجارية",
+    "subtitle": "ربط المؤثرين بالعلامات التجارية عبر مدى NFC وإرسال GPS"
   },
   "categories": [
-    "مباشرة",
-    "سعودية",
-    "احترافية"
+    "إنتاج إعلانات",
+    "تسويق مؤثرين",
+    "تصوير احترافي",
+    "حملات وسائل تواصل"
   ],
   "items": [
     {
-      "title": "إعلان مباشر",
-      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان",
-      "price": "250 ر.س",
-      "icon": "video-camera",
-      "badge": "مباشرة"
+      "title": "إعلان فيديو باللهجة السعودية",
+      "desc": "تقديم إعلاني أمام الكاميرا مع إتقان اللهجة السعودية لمدة 30-60 ثانية بدقة 4K",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
     },
     {
-      "title": "إعلان سعودي",
-      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان باللهجة السعودية",
-      "price": "300 ر.س",
-      "icon": "globe",
-      "badge": "سعودي"
+      "title": "حملة إعلانية فورية",
+      "desc": "تصوير وتسليم إعلان خلال 24 ساعة مع تحديد الموقع عبر GPS",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
     },
     {
-      "title": "إعلان احترافي",
-      "desc": "إعداد وإعداد وإختبار وإطلاق الإعلان مع جودة عالية",
-      "price": "200 ر.س",
-      "icon": "star",
-      "badge": "احترافي"
+      "title": "تصوير احترافي جديد",
+      "desc": "جلسة تصوير إعلاني مع إضاءة احترافية ومونتاج أساسي",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -72,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b1db9ed",
+  "commit_hash": "2cc1b52",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -108,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289420",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "NFC: Mada Card Detected | GPS: 24.7136° N, 46.6753° E"
+    "telemetry_preview": "NFC EMV L2: معاملة معتمدة | GPS: 24.7136°N, 46.6753°E"
   }
 }
