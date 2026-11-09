@@ -2,8 +2,8 @@
   "project_id": "1290579",
   "repo_name": "injaz-care-services-1290579",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1290579",
-  "app_name": "تطبيق إنجاز للخدمات — تطبيق توصيل طلبات. تطبيق توص",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق وصول — توصيل طلبات محدد المناطق بدعم مدى",
+  "tagline": "توصيل فوري ضمن منطقتك مع دفع آمن عبر تقنية مدى اللاسلكية",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — تطبيق توصيل طلبات. تطبيق توص",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق وصول — توصيل طلبات محدد المناطق بدعم مدى",
+    "subtitle": "توصيل فوري ضمن منطقتك مع دفع آمن عبر تقنية مدى اللاسلكية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مطاعم محلية",
+    "بقالات حيّة",
+    "صيدليات معتمدة",
+    "متاجر متخصصة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "توصيل عاجل",
+      "desc": "توصيل خلال 30 دقيقة عبر دراجات كهربائية مزودة بنظام تتبع GPS",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "توصيل مجدول",
+      "desc": "حجز مسبق لمواعيد محددة مع تأكيد عبر NFC عند الاستلام",
+      "price": "280 ر.س",
+      "icon": "calendar",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "توصيل جماعي",
+      "desc": "خدمة توصيل مشتركة لعدة طلبات في نفس المنطقة لخفض التكلفة",
+      "price": "95 ر.س",
+      "icon": "users",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a001e2c",
+  "commit_hash": "6f5e1d0",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290579_ios_03.png"
     }
   ],
-  "detailed_desc": "تطبيق توصيل طلبات. تطبيق توصيل نفس توصيل طلبات وكيتا ولمنطقه محدده فقط احتاجه يخدم مناطق محدده فقط ويقبل الدفع ع اي منصه",
+  "detailed_desc": "تطبيق توصيل طلبات — تطبيق توصيل نفس توصيل طلبات وكيتا ولمنطقه محدده فقط احتاجه يخدم مناطق محدده فقط ويقبل الدفع ع اي منصه",
   "domain_data": {
     "repo_name": "injaz-care-services-1290579",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada NFC: EMV L2 Auth | GPS: Zone B-7, 12.8m Accuracy | Dispatch ETA: 00:22"
   }
 }
