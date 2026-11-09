@@ -2,8 +2,8 @@
   "project_id": "1289393",
   "repo_name": "ilmi-bootcamp-smart-education-1289393",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289393",
-  "app_name": "تطبيق علمي التفاعلي — مراجعة خطوات الصحة المهنية و",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق سقا — مراجعة إجراءات السلامة في مواقع التشييد",
+  "tagline": "مراجعة إجراءات السلامة في الوقت الفعلي عبر قلم ذكي مع تتبع BLE للمناطق الخطرة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — مراجعة خطوات الصحة المهنية و",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق سقا — مراجعة إجراءات السلامة في مواقع التشييد",
+    "subtitle": "مراجعة إجراءات السلامة في الوقت الفعلي عبر قلم ذكي مع تتبع BLE للمناطق الخطرة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة المخاطر",
+    "تدريب OSHA",
+    "معدات الوقاية الشخصية",
+    "مراجعة الإجراءات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "مراجعة دليل السلامة الكامل",
+      "desc": "تحليل 233 بنداً من إجراءات NEBOSH/IOSH مع تقرير تفاعلي عبر القلم الذكي",
+      "price": "450 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب تفاعلي عبر الواقع المعزز",
+      "desc": "محاكاة حوادث التشييد مع تتبع BLE للحركة في المناطق الخطرة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "فحص معدات الوقاية",
+      "desc": "مسح NFC لمعدات PPE مع تنبيهات صيانة عبر القلم الذكي",
+      "price": "120 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "061fcb7",
+  "commit_hash": "d69390f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289393",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Zone C-7 (High Risk) | Stylus Pressure: 3212/4096 (Digital Signature Verified)"
   }
 }
