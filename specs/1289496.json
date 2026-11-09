@@ -2,8 +2,8 @@
   "project_id": "1289496",
   "repo_name": "hayyiz-space-coworking-1289496",
   "repo_url": "https://github.com/hmoushim0-cloud/hayyiz-space-coworking-1289496",
-  "app_name": "hayyiz-space-coworking-1289496",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "رفيد مساعد — مساعد شخصي ذكي لإدارة المهام والوصول الآمن",
+  "tagline": "إدارة المهام عن بعد مع الوصول الآمن عبر RFID وتصديق TOTP",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "hayyiz-space-coworking-1289496",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "رفيد مساعد — مساعد شخصي ذكي لإدارة المهام والوصول الآمن",
+    "subtitle": "إدارة المهام عن بعد مع الوصول الآمن عبر RFID وتصديق TOTP"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المهام الإدارية",
+    "إدارة الوصول",
+    "تنظيم البيانات",
+    "التقارير اليومية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "خدمة إدارة المهام",
+      "desc": "تنظيم الأولويات اليومية مع تتبع الحالة في الوقت الفعلي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "وصول RFID فوري",
+      "desc": "دمج بوابة الدخول 13.56 MHz مع مصادقة TOTP متعددة العوامل",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تصديق TOTP",
+      "desc": "توليد رموز مرور مؤقتة متوافقة مع RFC 6238",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "82235fc",
+  "commit_hash": "c1f43ff",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "hayyiz-space-coworking-1289496",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID: 13.56 MHz | TOTP: 6-digit code verified"
   }
 }
