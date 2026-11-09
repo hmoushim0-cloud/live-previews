@@ -2,8 +2,8 @@
   "project_id": "1270508",
   "repo_name": "asatir-fleet-car-rental",
   "repo_url": "https://github.com/hmoushim0-cloud/asatir-fleet-car-rental",
-  "app_name": "تطبيق أساطير للسيارات — مختص aws. 1. نوع العمل إعداد",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "سحابة الطريق — منصة حجوزات السيارات الذكية مع تكامل AWS",
+  "tagline": "بنية سحابية متكاملة مع أجهزة OBD-II و مفاتيح BLE الرقمية",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق أساطير للسيارات — مختص aws. 1. نوع العمل إعداد",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "سحابة الطريق — منصة حجوزات السيارات الذكية مع تكامل AWS",
+    "subtitle": "بنية سحابية متكاملة مع أجهزة OBD-II و مفاتيح BLE الرقمية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حجوزات فورية",
+    "تأجير طويل الأمد",
+    "خدمات ذكية",
+    "عروض مميزة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
+      "title": "حجز فوري مع مراقبة مباشرة",
+      "desc": "حجز سيارة مع مراقبة تيليمترية مباشرة من OBD-II عبر واجهة Vapor API",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "مفتاح رقمي BLE",
+      "desc": "فتح وإغلاق السيارة عبر مفاتيح BLE مع تكامل Amadeus للملاحة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تأمين ذكي مدعوم بالذكاء الاصطناعي",
+      "desc": "تقييم مخاطر القيادة في الوقت الفعلي عبر بيئة AI منفصلة على Vapor",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "f9dd6c4",
+  "commit_hash": "9ba0384",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -91,10 +91,24 @@
       "fallback": "Real-time Telemetry OK"
     }
   ],
-  "detailed_desc": "مختص aws. 1. نوع العمل إعداد ونشر بنية سحابية متكاملة على AWS لمنصة حجوزات سفر. إنشاء وضبط 4 بيئات منفصلة على Laravel Vapor لـ: التطبيق الرئيسي، أماديوس، الدفع، والذكاء الاصطناعي. ربط الدومين والـ SSL، إعداد النشر التلقائي CI/CD، النسخ الاحتياطي، والمراقبة. 2. التقنية المستخدمة AWS: Lambda, API Gateway, RDS Aurora Serverless v2, S3, CloudFront, SQS",
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1270508_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1270508_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1270508_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مختص aws — 1. نوع العمل إعداد ونشر بنية سحابية متكاملة على AWS لمنصة حجوزات سفر. إنشاء وضبط 4 بيئات منفصلة على Laravel Vapor لـ: التطبيق الرئيسي، أماديوس، الدفع، والذكاء الاصطناعي. ربط الدومين والـ SSL، إعداد النشر التلقائي CI/CD، النسخ الاحتياطي، والمراقبة. 2.",
   "domain_data": {
     "repo_name": "asatir-fleet-car-rental",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "CAN-Bus: 0x7E8 1200 RPM | BLE Key Fob: Signal Strength -85 dBm"
   }
 }
