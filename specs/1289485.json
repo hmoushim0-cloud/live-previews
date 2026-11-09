@@ -2,8 +2,8 @@
   "project_id": "1289485",
   "repo_name": "mizan-counsel-legal-consulting-1289485",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-counsel-legal-consulting-1289485",
-  "app_name": "تطبيق ميزان للعقود — محاسب لمتابعة عمل المؤسسة —",
-  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "app_name": "تحكيم — دفتر حسابات آمن للمؤسسات",
+  "tagline": "حماية فائقة مع رمز أمان FIPS 140-2 — متابعة مالية فورية لمؤسساتك",
   "preset": "legal_consulting",
   "layout_type": "legal_consulting",
   "layoutArchetype": "legal_consulting",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ميزان للعقود — محاسب لمتابعة عمل المؤسسة —",
-    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
+    "title": "تحكيم — دفتر حسابات آمن للمؤسسات",
+    "subtitle": "حماية فائقة مع رمز أمان FIPS 140-2 — متابعة مالية فورية لمؤسساتك"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المحاسبة المالية",
+    "الامتثال القانوني",
+    "تقارير المؤسسات",
+    "أمان البيانات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
-      "price": "180 ر.س",
+      "title": "مراجعة مالية معتمدة",
+      "desc": "تحليل مالي مشفر عبر HSM مع تقرير امتثال قانوني",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليل امتثال فوري",
+      "desc": "فحص فوري للالتزامات الضريبية عبر واجهة FIPS آمنة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير تشفير جديد",
+      "desc": "إنشاء مفاتيح تشفير جديدة للمؤسسة مع شهادة رقمية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5d31b0d",
+  "commit_hash": "bbdb658",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-counsel-legal-consulting-1289485",
     "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
-    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
+    "telemetry_preview": "HSM: AES-256 Encryption Active | 4096-bit Key Secure | 0x000A: 128ms Response"
   }
 }
