@@ -2,8 +2,8 @@
   "project_id": "1290528",
   "repo_name": "ruya-academy-smart-education",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education",
-  "app_name": "تطبيق رؤية للتدريب — خبير لتدقيق تطبيق منصة تعليم",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "خبير التدقيق — منصة ذكية لتشخيص مشاكل الصوت والفيديو في الحصص المباشرة",
+  "tagline": "تشخيص فوري لمشاكل الصوت والفيديو مع تكامل قلم ذكي لتعزيز التفاعل التعليمي",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — خبير لتدقيق تطبيق منصة تعليم",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "خبير التدقيق — منصة ذكية لتشخيص مشاكل الصوت والفيديو في الحصص المباشرة",
+    "subtitle": "تشخيص فوري لمشاكل الصوت والفيديو مع تكامل قلم ذكي لتعزيز التفاعل التعليمي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تدقيق الصوت",
+    "تحليل الفيديو",
+    "استقرار الاتصال",
+    "تقييم الأجهزة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "حزمة تدقيق شاملة",
+      "desc": "تحليل متعمق لجودة الصوت/الفيديو مع تقارير فورية عبر منصة Agora",
+      "price": "350 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "مراقبة مباشرة",
+      "desc": "تتبع في الوقت الفعلي لمؤشرات Jitter/Latency مع تنبيهات استباقية",
+      "price": "180 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تكامل القلم الذكي",
+      "desc": "ربط بيانات القلم 4096-Level مع تحليلات التفاعل الصوتي عبر BLE",
+      "price": "120 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "89bf605",
+  "commit_hash": "4a02f1d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290528_ios_03.png"
     }
   ],
-  "detailed_desc": "خبير لتدقيق تطبيق منصة تعليمية وتشخيص مشاكل الصوت والفيديو والاستقرار. السلام عليكم، لدينا تطبيق لمنصة تعليمية يعتمد على Agora لإجراء الحصص المباشرة داخل التطبيق. المشروع مكتمل تقريبا، ونحن حاليا في المرحلة التجريبية قبل الإطلاق. خلال التجربة، لاحظنا مشاكل متكررة في الصوت والصورة، وخصوصا الصوت، وهو أهم عنصر في المنصة لأن جودة الحصص تعتمد عليه بشكل",
+  "detailed_desc": "خبير لتدقيق تطبيق منصة تعليمية وتشخيص مشاكل الصوت والفيديو والاستقرار — السلام عليكم، لدينا تطبيق لمنصة تعليمية يعتمد على Agora لإجراء الحصص المباشرة داخل التطبيق. المشروع مكتمل تقريبا، ونحن حاليا في المرحلة التجريبية قبل الإطلاق. خلال التجربة، لاحظنا مشاكل متكررة في الصوت والصورة، وخصوصا الصوت، وهو أهم عنصر في المنصة لأ",
   "domain_data": {
     "repo_name": "ruya-academy-smart-education",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: RSSI -85dBm | Stylus Pressure: 2048/4096 | Mic Input: 72dB SPL"
   }
 }
