@@ -2,8 +2,8 @@
   "project_id": "1289500",
   "repo_name": "sanad-tech-services-1289500",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289500",
-  "app_name": "تطبيق سند الفني — إنتاج فيديو تعريفي لشخصية «س",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "منصة سيف للسلامة التشغيلية — إدارة وتدريب السلامة الجوية مع مدى",
+  "tagline": "حلول سلامة الطيران الذكية مع مدى و GPS — تدريب فوري، مدفوعات آمنة، تتبع مباشر",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق سند الفني — إنتاج فيديو تعريفي لشخصية «س",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة سيف للسلامة التشغيلية — إدارة وتدريب السلامة الجوية مع مدى",
+    "subtitle": "حلول سلامة الطيران الذكية مع مدى و GPS — تدريب فوري، مدفوعات آمنة، تتبع مباشر"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تدريب السلامة",
+    "إدارة العمليات",
+    "مدفوعات مدى",
+    "تتبع GPS"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "دورة السلامة الأساسية",
+      "desc": "تدريب تفاعلي على بروتوكولات السلامة التشغيلية مع شهادة معتمدة من الهيئة العامة للطيران المدني",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب محاكاة الطيران",
+      "desc": "جلسات محاكاة واقعية لسيناريوهات الطوارئ مع تحليل فوري عبر GPS",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير تتبع الرحلة",
+      "desc": "تحليل بيانات GPS مع معاملات مدى الآمنة لمراجعة مسارات الطيران",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "9a366fe",
+  "commit_hash": "352efae",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sanad-tech-services-1289500",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada NFC: EMV L2 TXN 0x00A1 | GPS: 24.7136°N 46.6753°E | ALT: 32,000 FT | SPD: 480 KTS"
   }
 }
