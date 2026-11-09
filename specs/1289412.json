@@ -2,8 +2,8 @@
   "project_id": "1289412",
   "repo_name": "injaz-care-services-1289412",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289412",
-  "app_name": "تطبيق إنجاز للخدمات — تحويل تصميم فيجما الى موقع و",
-  "tagline": "تحويل تصميمات فيجما إلى مواقع ووردبريس بجودة احترافية، مع Российانية وتجاوب مع جميع الأجهزة",
+  "app_name": "مدى للخدمات الذكية — حلول الدفع والتوصيل الفوري عبر NFC و GPS",
+  "tagline": "منصة متكاملة للمدفوعات اللاتلامسية وإدارة الأسطول بتقنية التتبع المباشر",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,35 +12,35 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — تحويل تصميم فيجما الى موقع و",
-    "subtitle": "تحويل تصميمات فيجما إلى مواقع ووردبريس بجودة احترافية، مع Российانية وتجاوب مع جميع الأجهزة"
+    "title": "مدى للخدمات الذكية — حلول الدفع والتوصيل الفوري عبر NFC و GPS",
+    "subtitle": "منصة متكاملة للمدفوعات اللاتلامسية وإدارة الأسطول بتقنية التتبع المباشر"
   },
   "categories": [
-    "تحويل страниات",
-    "تحويل أقسام",
-    "حالات أنموذجية",
-    "تنسيق محتوى"
+    "المدفوعات اللاتلامسية",
+    "إدارة الأسطول",
+    "تحليلات التوصيل",
+    "دعم التجار"
   ],
   "items": [
     {
-      "title": "تحويل صفحة البداية",
-      "desc": "تحويل تصميم صفحة البداية في فيجما إلى صفحة ووردبريس مواكبة لأحدث المواصفات",
-      "price": "300 ر.س",
-      "icon": "home",
-      "badge": "ساسي"
+      "title": "تفعيل نقطة بيع NFC",
+      "desc": "دمج طرفية Mada EMV L2 مع نظام الفوترة الذكي ودعم Apple Pay/Google Pay",
+      "price": "450 ر.س",
+      "icon": "credit-card",
+      "badge": "معتمد"
     },
     {
-      "title": "تحويل صفحة المنتج",
-      "desc": "تحويل تصميم صفحة المنتج في فيجما إلى صفحة ووردبريس مواكبة لأحدث المواصفات",
-      "price": "250 ر.س",
-      "icon": "shopping-cart",
-      "badge": "ممتاز"
+      "title": "تتبع المركبات بالزمن الفعلي",
+      "desc": "نظام GPS متعدد الطبقات مع تنبيهات جغرافية سياجية وتحليل كفاءة المسار",
+      "price": "320 ر.س",
+      "icon": "map-pin",
+      "badge": "فوري"
     },
     {
-      "title": "تحويل صفحة الاتصال",
-      "desc": "تحويل تصميم صفحة الاتصال في فيجما إلى صفحة ووردبريس مواكبة لأحدث المواصفات",
-      "price": "200 ر.س",
-      "icon": "mail",
+      "title": "لوحة تحكم التاجر",
+      "desc": "تحليلات معاملات NFC وتوقعات الطلب مع تكامل نظام ERP",
+      "price": "650 ر.س",
+      "icon": "bar-chart",
       "badge": "مميز"
     }
   ],
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2f5e7d3",
+  "commit_hash": "dcfe694",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289412",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada NFC: Contactless EMV L2 activated | GPS: Dispatch coordinates (x=31.2514, y=49.8497)"
+    "telemetry_preview": "NFC: EMV L2 Auth | GPS: 24.7136°N, 46.6753°E | Speed: 32 km/h | Transaction ID: MAD-20250614-0472"
   }
 }
