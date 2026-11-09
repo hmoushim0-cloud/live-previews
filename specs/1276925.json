@@ -2,8 +2,8 @@
   "project_id": "1276925",
   "repo_name": "maher-field-services-1276925",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1276925",
-  "app_name": "تطبيق ماهر الميداني — محاسب لإدخال بيانات مبيعات-",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "محاسب ذكي — تسجيل مبيعات ومصروفات فوري",
+  "tagline": "تسجيل فوري عبر NFC مادّة وGPS — بدون قيود يومية",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — محاسب لإدخال بيانات مبيعات-",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "محاسب ذكي — تسجيل مبيعات ومصروفات فوري",
+    "subtitle": "تسجيل فوري عبر NFC مادّة وGPS — بدون قيود يومية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مبيعات نقدية",
+    "مبيعات NFC",
+    "مصروفات تشغيلية",
+    "مصروفات إدارية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تسجيل مبيعات فوري",
+      "desc": "تسجيل معاملات NFC عبر أجهزة مادّة مع تحديد الموقع الجغرافي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تقرير مصروفات شهري",
+      "desc": "توليد تقارير مصروفات تلقائية مع تصنيف GPS",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تدقيق بيانات أساسي",
+      "desc": "تحقق من صحة المعاملات المسجلة عبر NFC/GPS",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a51dde8",
+  "commit_hash": "04ea73b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maher-field-services-1276925",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: 12345678 | GPS: 24.7136° N, 46.6753° E"
   }
 }
