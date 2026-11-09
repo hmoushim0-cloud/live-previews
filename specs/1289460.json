@@ -2,8 +2,8 @@
   "project_id": "1289460",
   "repo_name": "hayyiz-space-coworking-1289460",
   "repo_url": "https://github.com/hmoushim0-cloud/hayyiz-space-coworking-1289460",
-  "app_name": "تطبيق حيز للمكاتب — مساعد افتراضي للسوشيال ميديا",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "رافد للمهام الذكية — مساعد افتراضي لإدارة السوشيال ميديا والوصول الآمن",
+  "tagline": "إدارة المهام اليومية بسلاسة مع الوصول الآمن عبر RFID و TOTP",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق حيز للمكاتب — مساعد افتراضي للسوشيال ميديا",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "رافد للمهام الذكية — مساعد افتراضي لإدارة السوشيال ميديا والوصول الآمن",
+    "subtitle": "إدارة المهام اليومية بسلاسة مع الوصول الآمن عبر RFID و TOTP"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة السوشيال ميديا",
+    "الوصول الآمن",
+    "تنظيم المهام",
+    "تقارير الأداء"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "إدارة حسابات السوشيال ميديا",
+      "desc": "إدارة محتوى يومية لـ10 عملاء مع تحليل الأداء عبر لوحة تحكم موحدة",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تفعيل الوصول عبر RFID",
+      "desc": "دمج بطاقات الوصول 13.56MHz مع نظام TOTP للمصادقة الثنائية",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تدريب على TOTP",
+      "desc": "تدريب فريق العمل على استخدام رموز المرور لمرة واحدة عبر تطبيق الهاتف",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "980bfe0",
+  "commit_hash": "2000666",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "hayyiz-space-coworking-1289460",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID: UID 0x23ABC | TOTP Sync: 234567 (30s)"
   }
 }
