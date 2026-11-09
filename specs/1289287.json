@@ -2,8 +2,8 @@
   "project_id": "1289287",
   "repo_name": "chambers-legal-consulting-1289287",
   "repo_url": "https://github.com/hmoushim0-cloud/chambers-legal-consulting-1289287",
-  "app_name": "تطبيق عدل للمحاماة — متابعة المحاسبة على برنامج ا",
-  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "app_name": "تطبيق ألف ياء للمحاسبة القانونية — إدارة مالية آمنة بمفتاح تشفير مادي",
+  "tagline": "إدارة مالية مشفرة بمفتاح HSM معتمد وفقًا لمعيار FIPS 140-2",
   "preset": "legal_consulting",
   "layout_type": "legal_consulting",
   "layoutArchetype": "legal_consulting",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق عدل للمحاماة — متابعة المحاسبة على برنامج ا",
-    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
+    "title": "تطبيق ألف ياء للمحاسبة القانونية — إدارة مالية آمنة بمفتاح تشفير مادي",
+    "subtitle": "إدارة مالية مشفرة بمفتاح HSM معتمد وفقًا لمعيار FIPS 140-2"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المراجعة القانونية",
+    "إعداد التقارير المالية",
+    "الامتثال الضريبي",
+    "استشارات التوسع المؤسسي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
-      "price": "180 ر.س",
+      "title": "مراجعة قانونية شاملة",
+      "desc": "تحليل الالتزامات التعاقدية مع تقرير مخاطر مشفر عبر HSM",
+      "price": "450 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تقرير مالي فوري",
+      "desc": "توليد بيانات مالية حية مع توقيع رقمي من مفتاح FIPS 140-2",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "استشارة امتثال ضريبي",
+      "desc": "تحليل فجوات الزكاة والضريبة مع توصيات مشفرة",
+      "price": "195 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "80e85e2",
+  "commit_hash": "576eb66",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "chambers-legal-consulting-1289287",
     "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
-    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
+    "telemetry_preview": "HSM: FIPS 140-2 Level 3 | Transactions: 42/1000 | Encryption: AES-256 Active"
   }
 }
