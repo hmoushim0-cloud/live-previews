@@ -2,8 +2,8 @@
   "project_id": "1289451",
   "repo_name": "rased-pos-pos-cashier-1289451",
   "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289451",
-  "app_name": "تطبيق راصد كاشير — باحث متخصص في دراسة الجدوى ا",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "نظام سُندس للدراسات الصناعية — نظام نقاط البيع الذكي",
+  "tagline": "ربط ذكي مع طابعات ESC/POS وماسحات الباركود لتحليل الجدوى الفورية",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق راصد كاشير — باحث متخصص في دراسة الجدوى ا",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "نظام سُندس للدراسات الصناعية — نظام نقاط البيع الذكي",
+    "subtitle": "ربط ذكي مع طابعات ESC/POS وماسحات الباركود لتحليل الجدوى الفورية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل السوق",
+    "الجدوى التقنية",
+    "التكامل الصناعي",
+    "التقارير المالية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "دراسة جدوى أولية",
+      "desc": "تحليل مبدئي للسوق الصناعي مع نمذجة مالية باستخدام الذكاء الاصطناعي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليل سوق فوري",
+      "desc": "مسح مباشر لبيانات السوق عبر ماسح الباركود مع تقارير حرارية",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير تحول رقمي",
+      "desc": "تقييم جاهزية التحول الرقمي مع توصيات للتكامل مع أنظمة ERP",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a9b5b77",
+  "commit_hash": "015ba1a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rased-pos-pos-cashier-1289451",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 200mm/s | Barcode: 978-3-16-148410-0 | Temp: 32°C"
   }
 }
