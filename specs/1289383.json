@@ -2,8 +2,8 @@
   "project_id": "1289383",
   "repo_name": "mamlaka-realty-real-estate-1289383",
   "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1289383",
-  "app_name": "تطبيق مملكة العقار — تصميم مخطط هندسي لبناء مبنى",
-  "tagline": "تحليل المساحة بليدار 360° واجهة ثلاثية الأبعاد متقدمة مع متطلبات البلدية",
+  "app_name": "سقار لمسح وتصميم مواقف السيارات — مسح ثلاثي الأبعاد وتصميم هندسي ذكي",
+  "tagline": "مسح ثلاثي الأبعاد فوري باستخدام LiDAR وMatterport Pro3 لتصميم مواقف السيارات الذكية",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,35 +12,35 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق مملكة العقار — تصميم مخطط هندسي لبناء مبنى",
-    "subtitle": "تحليل المساحة بليدار 360° واجهة ثلاثية الأبعاد متقدمة مع متطلبات البلدية"
+    "title": "سقار لمسح وتصميم مواقف السيارات — مسح ثلاثي الأبعاد وتصميم هندسي ذكي",
+    "subtitle": "مسح ثلاثي الأبعاد فوري باستخدام LiDAR وMatterport Pro3 لتصميم مواقف السيارات الذكية"
   },
   "categories": [
-    "تصميم المباني",
-    "مواقف سيارات",
-    "تحليل المساحة",
-    "التنسيق البلدي"
+    "تصميم رامبات",
+    "مساحات وقوف السيارات",
+    "أنظمة التهوية",
+    "إدارة البيسمنت"
   ],
   "items": [
     {
-      "title": "تحليل المساحة بليدار 360°",
-      "desc": "فحص مفصل للمساحة باستخدام بليدار 360° مع مصادقة بيانات من البلدية",
+      "title": "تصميم رامبات ذكية",
+      "desc": "تصميم رامبات متوافقة مع اشتراطات الأمان السعودية باستخدام بيانات LiDAR",
       "price": "150 ر.س",
-      "icon": "bar-chart-2",
+      "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "تصميم المستوى الأرضي",
-      "desc": "تصميم مفصل للمستوى الأرضي مع مراعاة rampات الوصول والاتجاهات",
+      "title": "تحليل مساحات وقوف السيارات",
+      "desc": "تحليل سعة المواقف ثلاثية الأبعاد مع محاكاة تدفق المركبات",
       "price": "280 ر.س",
-      "icon": "home",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "تصميم مستويات البيسمنت",
-      "desc": "تصميم ثلاثي الأبعاد لمستويات البيسمنت مع تحليل التحمل الهيكلي",
+      "title": "تقييم أنظمة التهوية",
+      "desc": "نمذجة ديناميكية للتهوية في البيسمنت باستخدام بيانات Matterport",
       "price": "95 ر.س",
-      "icon": "layers",
+      "icon": "zap",
       "badge": "جديد"
     }
   ],
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2b8d582",
+  "commit_hash": "24e92b5",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mamlaka-realty-real-estate-1289383",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "LiDAR 0x2A4D: 25.4m range | 360° coverage | 12.5Hz refresh"
+    "telemetry_preview": "LiDAR: 1200 pts/m² | Matterport: 98% Accuracy | Temp: 28°C"
   }
 }
