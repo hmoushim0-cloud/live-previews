@@ -2,8 +2,8 @@
   "project_id": "1289480",
   "repo_name": "sajil-zatca-pos-cashier-1289480",
   "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289480",
-  "app_name": "تطبيق سجل زاتكا — مطلوب مصمم دمج رقمي (Photo M",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "حلاويات الذكية — نظام نقاط البيع الذكي لمتاجر الحلويات",
+  "tagline": "طباعة فواتير حرارية فورية مع ماسح ضوئي للباركود — تصميم بوسترات مدمجة",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق سجل زاتكا — مطلوب مصمم دمج رقمي (Photo M",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "حلاويات الذكية — نظام نقاط البيع الذكي لمتاجر الحلويات",
+    "subtitle": "طباعة فواتير حرارية فورية مع ماسح ضوئي للباركود — تصميم بوسترات مدمجة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "كيك فاخر",
+    "شوكولاتة فاخرة",
+    "عروض خاصة",
+    "بوسترات مخصصة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "حزمة بوستر + فاتورة",
+      "desc": "تصميم بوستر إبداعي مع دمج بيانات المنتج وطباعة فاتورة حرارية مخصصة",
+      "price": "220 ر.س",
+      "icon": "layers",
+      "badge": "مدمج"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "مسح باركود المخزون",
+      "desc": "مزامنة مخزون المنتجات عبر ماسح الباركود مع تحديثات الوقت الفعلي",
+      "price": "180 ر.س",
+      "icon": "barcode",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مجموعة بوسترات شهرية",
+      "desc": "40 تصميم بوستر متجاوب مع منصات التواصل الاجتماعي + قوالب قابلة للتخصيص",
+      "price": "980 ر.س",
+      "icon": "calendar",
+      "badge": "جملة"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d74f667",
+  "commit_hash": "ab9a495",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sajil-zatca-pos-cashier-1289480",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 150mm Receipt Printed | Barcode: 7894561230 Scanned"
   }
 }
