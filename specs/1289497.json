@@ -2,8 +2,8 @@
   "project_id": "1289497",
   "repo_name": "itqan-dispatch-services-1289497",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289497",
-  "app_name": "تطبيق إتقان للصيانة — مطلوب مبرمج محترف لربط منصة",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "ربط قيود — منصة تكامل مدفوعات مادًا والموقع",
+  "tagline": "أتمتة فواتير قيود مع مدفوعات NFC فورية وتتبع GPS للخدمات",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — مطلوب مبرمج محترف لربط منصة",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "ربط قيود — منصة تكامل مدفوعات مادًا والموقع",
+    "subtitle": "أتمتة فواتير قيود مع مدفوعات NFC فورية وتتبع GPS للخدمات"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "محاسبة آلية",
+    "مدفوعات NFC",
+    "تتبع مركبات",
+    "إدارة فواتير"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تكامل API قيود",
+      "desc": "ربط المنصة بنظام قيود لأتمتة إنشاء الفواتير والمطابقة المحاسبية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تفعيل مدفوعات مادًا",
+      "desc": "تهيئة طرفيات NFC لمدفوعات EMV L2 فورية مع مطابقة تلقائية",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تتبع GPS للخدمات",
+      "desc": "ربط بيانات الموقع بالمعاملات المحاسبية عبر واجهة برمجة التطبيقات",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "61ddbee",
+  "commit_hash": "89966c8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289497",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: 1234-5678-9012 | GPS: 24.7136° N, 46.6753° E | Speed: 32 km/h"
   }
 }
