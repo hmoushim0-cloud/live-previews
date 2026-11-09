@@ -2,8 +2,8 @@
   "project_id": "1289358",
   "repo_name": "nashat-biometric-fitness-1289358",
   "repo_url": "https://github.com/hmoushim0-cloud/nashat-biometric-fitness-1289358",
-  "app_name": "تطبيق نشاط الحيوي — تصميم شخصيات ثلاثية الابعاد",
-  "tagline": "تطبيق مخصص لإpondenية الشخصية السعودية إلى الواقع، متوافق مع المعدات quelcon",
+  "app_name": "تطبيق قياس — تتبع اللياقة مع شخصية ثلاثية الأبعاد",
+  "tagline": "تتبع وزنك ومعدل ضربات القلب مع شخصية افتراضية واقعية تتطور معك عبر مقاييس حيوية دقيقة",
   "preset": "fitness",
   "layout_type": "fitness",
   "layoutArchetype": "fitness",
@@ -12,34 +12,35 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق نشاط الحيوي — تصميم شخصيات ثلاثية الابعاد",
-    "subtitle": "تطبيق مخصص لإpondenية الشخصية السعودية إلى الواقع، متوافق مع المعدات quelcon"
+    "title": "تطبيق قياس — تتبع اللياقة مع شخصية ثلاثية الأبعاد",
+    "subtitle": "تتبع وزنك ومعدل ضربات القلب مع شخصية افتراضية واقعية تتطور معك عبر مقاييس حيوية دقيقة"
   },
   "categories": [
-    "تحسينات شخصية",
-    "تنسيق ثوب",
-    "ربط المعدات"
+    "تحليل تركيب الجسم",
+    "تدريبات مخصصة",
+    "تطوير الشخصية الافتراضية",
+    "تحديات لياقة"
   ],
   "items": [
     {
-      "title": "تحسين تناسق الجسم",
-      "desc": "تحسينات بالية الجسم لإضافة واقعية إلى الشخصية",
-      "price": "150 ر.س",
-      "icon": "body",
-      "badge": "مباشرة"
+      "title": "مسح جسم ثلاثي الأبعاد",
+      "desc": "تحليل دقيق لتركيب الجسم عبر ميزان BLE الذكي مع نمذجة ديناميكية للثوب السعودي",
+      "price": "180 ر.س",
+      "icon": "ruler",
+      "badge": "دقيق"
     },
     {
-      "title": "ضبط الثوب وإنسجام الأكتاف",
-      "desc": "ضبط الثوب ويب الألعاب للسماح بتم ulaş الأكتاف یا ال یاقة",
-      "price": "280 ر.س",
-      "icon": "t-shirt",
-      "badge": "مفصلة"
+      "title": "تخصيص شخصية واقعية",
+      "desc": "تعديل ملامح الوجه والجسم مع محاكاة فيزيائية للثوب باستخدام بيانات GATT 0x181D",
+      "price": "290 ر.س",
+      "icon": "user",
+      "badge": "متميز"
     },
     {
-      "title": "ربط المعدات BLE",
-      "desc": "ربط المعدات BLE such as Smart Scale GATT 0x181D + Heart Rate Strap",
-      "price": "95 ر.س",
-      "icon": "link",
+      "title": "تحدي نبضات القلب",
+      "desc": "تمارين تفاعلية مع شخصية ثلاثية الأبعاد متزامنة مع حزام معدل ضربات القلب",
+      "price": "115 ر.س",
+      "icon": "heart",
       "badge": "جديد"
     }
   ],
@@ -72,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "761c737",
+  "commit_hash": "80bfe06",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -108,6 +109,6 @@
   "domain_data": {
     "repo_name": "nashat-biometric-fitness-1289358",
     "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
-    "telemetry_preview": "Sample hardware telemetry string (e.g. 'BLE GATT 0x181D: 78.5KG | BLE HR: 72 BPM')"
+    "telemetry_preview": "GATT 0x181D: 75.3 kg | 142 BPM | 22.4% BF"
   }
 }
