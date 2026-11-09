@@ -2,8 +2,8 @@
   "project_id": "1289458",
   "repo_name": "iwan-estates-real-estate-1289458",
   "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1289458",
-  "app_name": "تطبيق إيوان العقارية — تصميم واجهات فيلا — ارغب في",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "وجهات الذكية — تصميم واجهات الفلل ثلاثية الأبعاد",
+  "tagline": "مسح ثلاثي الأبعاد بواجهتين ذكيتين — حجر أو دهان مع كرانيش فورية عبر LiDAR وMatterport",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق إيوان العقارية — تصميم واجهات فيلا — ارغب في",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "وجهات الذكية — تصميم واجهات الفلل ثلاثية الأبعاد",
+    "subtitle": "مسح ثلاثي الأبعاد بواجهتين ذكيتين — حجر أو دهان مع كرانيش فورية عبر LiDAR وMatterport"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "واجهات حجر",
+    "واجهات دهان",
+    "كرانيش",
+    "أسوار خارجية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "مسح LiDAR ثلاثي الأبعاد",
+      "desc": "مسح كامل للواجهة والسور باستخدام LiDAR مع تقرير دقة 2سم",
+      "price": "150 ر.س",
+      "icon": "radar",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تصميم واجهتين مقارنة",
+      "desc": "تصور تفاعلي لواجهة حجر مقابل دهان مع كرانيش محسوبة هندسيا",
+      "price": "280 ر.س",
+      "icon": "layers",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مكتبة كرانيش ذكية",
+      "desc": "120+ نموذج كرانيش قابل للتخصيص مع محاكاة إضاءة طبيعية",
+      "price": "95 ر.س",
+      "icon": "crown",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "bea66db",
+  "commit_hash": "f9d26f6",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "iwan-estates-real-estate-1289458",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 12m x 8m Facade | Matterport: 98% Scan Density | RGB: #f59e0b"
   }
 }
