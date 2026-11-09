@@ -2,8 +2,8 @@
   "project_id": "1289263",
   "repo_name": "turbine-industrial-iot-1289263",
   "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289263",
-  "app_name": "تطبيق مجس التوربينات — برمجه ESP32 ليعمل كجهاز Blue",
-  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "app_name": "سقار للاتصالات الصناعية — نظام بلوتوث يدوي مع معالجة الاهتزازات الصوتية",
+  "tagline": "ربط فوري بين أجهزة HFP وخوادم VoIP مع تحليل اهتزازي عبر Modbus RS-485",
   "preset": "industrial_iot",
   "layout_type": "industrial_iot",
   "layoutArchetype": "industrial_iot",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق مجس التوربينات — برمجه ESP32 ليعمل كجهاز Blue",
-    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
+    "title": "سقار للاتصالات الصناعية — نظام بلوتوث يدوي مع معالجة الاهتزازات الصوتية",
+    "subtitle": "ربط فوري بين أجهزة HFP وخوادم VoIP مع تحليل اهتزازي عبر Modbus RS-485"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "أنظمة HFP صناعية",
+    "تحليل الاهتزازات",
+    "اتصالات VoIP آمنة",
+    "تكامل Modbus RS-485"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "برمجة ESP32 HFP",
+      "desc": "تهيئة واجهة HCI للبلوتوث مع تشفير صوتي عالي الكمون",
+      "price": "450 ر.س",
+      "icon": "bluetooth",
+      "badge": "متوافق مع iOS/Android"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليل طيفي للاهتزازات",
+      "desc": "معالجة إشارات ثلاثية المحاور مع كشف أعطال الماكينات",
+      "price": "780 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بوابة VoIP صناعية",
+      "desc": "نقل صوتي عبر WiFi مع تعويض فقدان الحزم",
+      "price": "320 ر.س",
+      "icon": "cloud",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "277bd1c",
+  "commit_hash": "c1cfb4b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "turbine-industrial-iot-1289263",
     "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+    "telemetry_preview": "VIB 3-Axis: X=0.8g Y=0.5g Z=1.2g | Acoustic RS-485: 68dB @ 400Hz | HFP Latency: 42ms"
   }
 }
