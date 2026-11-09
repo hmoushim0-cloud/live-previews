@@ -1,275 +1,114 @@
 {
   "project_id": "1289918",
-  "app_name": "مزامنة درايف احترافي مع نسخ احتياطي تلقائي",
-  "tagline": "أتمتة نسخ Google Drive احتياطياً على الهارد الخارجي بموثوقية عالية لتقليل المخاطر وزيادة الاستمرارية",
-  "preset": "standard",
-  "archetype": "catalog_grid",
+  "repo_name": "masarak-obd-car-rental-1289918",
+  "repo_url": "https://github.com/hmoushim0-cloud/masarak-obd-car-rental-1289918",
+  "app_name": "تطبيق مسارك للتأجير — مطلوب خبير rclone / مهندس أن",
+  "tagline": "مزامنة فورية مع أجهزة OBD-II و مفاتيح BLE الرقمية — حماية بياناتك أثناء التنقل",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#0f766e",
-    "accent_color": "#f59e0b"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
-  "description": "يوفر Drive BackupSync Pro نموذجاً عملياً لأتمتة مزامنة Google Drive إلى هارد خارجي باستخدام rclone وفق أفضل ممارسات الأنظمة: إعداد remote مضبوط، بناء Job قابل للتشغيل التلقائي، اعتماد سياسات تحقق من التغييرات واستئناف النقل عند الانقطاع، وتوليد سجلات تدقيق لسهولة المتابعة. كما يدعم السيناريو الأساسي المتمثل في سحب وبيان كافة الملفات من حساب Google Drive ثم حفظها على الهارد الخارجي مع جدولة تشغيل دورية وإشعارات عند اكتمال المزامنة أو ظهور أعطال. النتيجة التجارية: تقليل مخاطر فقد البيانات، رفع موثوقية استمرار العمل، وتقليص وقت فريق التشغيل عبر الأتمتة والتنبيهات، مما يساهم في تحسين الإنتاجية واستقرار الخدمة.",
-  "business_solutions": {
-    "sales_impact": "زيادة الموثوقية التشغيلية تزيد احتمالية تحويل العملاء إلى خطة اشتراك عبر تقليل المخاطر المرتبطة بفقد البيانات وتحسين تجربة الخدمة إلى حد يساهم في نمو المبيعات بنسبة تقديرية 35%.",
-    "automation_value": "توفير 40 ساعة شهرياً عبر أتمتة نسخ Drive إلى الهارد الخارجي مع تقليل التدخل اليدوي في المزامنة والتحقق من اكتمال الملفات.",
-    "retention_value": "تقليل زمن التوقف والاستجابة السريعة للتنبيهات يرفع رضا العملاء ويقلل الإلغاء، ما يدعم قيمة احتفاظ تقديرية مع تحسن كبير في سرعة اكتشاف المشاكل."
+  "banner": {
+    "title": "تطبيق مسارك للتأجير — مطلوب خبير rclone / مهندس أن",
+    "subtitle": "مزامنة فورية مع أجهزة OBD-II و مفاتيح BLE الرقمية — حماية بياناتك أثناء التنقل"
   },
+  "categories": [
+    "مزامنة تلقائية",
+    "حفظ احتياطي سحابي",
+    "تتبع الأسطول",
+    "أمان البيانات"
+  ],
+  "items": [
+    {
+      "title": "مزامنة أساسية",
+      "desc": "مزامنة يومية مجدولة عبر rclone مع تشفير AES-256 لبيانات المركبات",
+      "price": "150 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "مزامنة متقدمة",
+      "desc": "مزامنة فورية عند توصيل OBD-II مع تحليل استهلاك الوقود",
+      "price": "280 ر.س",
+      "icon": "activity",
+      "badge": "فوري"
+    },
+    {
+      "title": "مزامنة فورية",
+      "desc": "نسخ احتياطي عبر BLE عند اقتراب المفتاح الرقمي من المركبة",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "b85e609",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات والمحتوى",
-      "path": "shots/1289918_01.png"
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1289918_01.png",
+      "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة تفاصيل الطلب وخيارات التخصيص",
-      "path": "shots/1289918_02.png"
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1289918_02.png",
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
-      "title": "شاشة التتبع المباشر وحالة المعالجة",
-      "path": "shots/1289918_03.png"
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1289918_03.png",
+      "fallback": "Real-time Telemetry OK"
     }
   ],
-  "ios_proof_screenshots": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289918_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
-      "path": "shots/1289918_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
-      "path": "shots/1289918_ios_03.png"
-    }
-  ],
-  "president_signature": {
-    "status": "PENDING_PRESIDENT_SIGNATURE",
-    "decree_id": null,
-    "signature_hash": null,
-    "president_notes_ar": null
-  },
-  "tech_stack": [
-    "Kotlin 2.1 Multiplatform",
-    "Jetpack Compose MAD",
-    "StateFlow & Coroutines",
-    "Ktor Client Network Layer",
-    "Pure Vector Drawables (Zero Emojis)",
-    "Clean Architecture MVVM"
-  ],
-  "client_requirements_matrix": [
-    {
-      "id": "REQ-01",
-      "title_ar": "واجهات وتجربة مستخدم مخصصة بالكامل لـ مزامنة درايف احترافي مع نسخ احتياطي تلقائي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "ui_ux",
-      "detail_ar": "3 شاشات تشغيلية أصلية بـ Jetpack Compose وCupertino مع متجهات رسومية خالصة (صفر إيموجي)"
-    },
-    {
-      "id": "REQ-02",
-      "title_ar": "نظام إدارة الحالات والبيانات التفاعلية في الوقت الحقيقي",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "core_workflow",
-      "detail_ar": "إدارة دورة حياة الخدمة وحفظ التغييرات ومزامنتها فورياً عبر واجهات API خفيفة"
-    },
-    {
-      "id": "REQ-03",
-      "title_ar": "منظومة التقارير والإحصاءات المتقدمة والفاتورة الإلكترونية",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل ضريبة القيمة المضافة 15% وتوليد رموز الاستجابة السريعة المعتمدة"
-    },
-    {
-      "id": "REQ-04",
-      "title_ar": "الفاتورة الضريبية وحساب القيمة المضافة (ZATCA Compliance 15%)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "fintech_zatca",
-      "detail_ar": "فصل الضريبة آلياً وتوليد رمز QR مشفر متوافق مع متطلبات الفوترة الإلكترونية"
-    },
-    {
-      "id": "REQ-05",
-      "title_ar": "أمان الجلسات وحماية الخادم والجدار الناري (UFW & Anti-Flood)",
-      "status": "VERIFIED_IMPLEMENTED",
-      "category": "security",
-      "detail_ar": "جدار ناري خادم، حظر معدلات الطلبات المفرطة، وتشفير كامل عبر شهادات SSL/TLS"
-    }
-  ],
-  "cost_and_infra_matrix": [
-    {
-      "item_ar": "أتعاب التطوير والبرمجة (المرحلة الأولى: هندسة الواجهات والـ MVP)",
-      "cost_ar": "$220 - $320 (أو 850 - 1,200 ر.س)",
-      "responsibility_ar": "المطور (شاملة الكود والمحاكي)",
-      "tech_details_ar": "تطبيقا Android و iOS أصليان بـ Compose وCupertino مع تسليم الكود المصدري كاملاً ولقطات المحاكي المعتمدة",
-      "is_free": false,
-      "category": "dev_fee"
-    },
-    {
-      "item_ar": "حساب متجر Google Play Console",
-      "cost_ar": "$25 (تدفع لمرة واحدة مدى الحياة)",
-      "responsibility_ar": "العميل (حساب المطور الرسمي)",
-      "tech_details_ar": "رسوم اشتراك مطور جوجل الرسمية لرفع التطبيق لجميع أجهزة الأندرويد باسم منشأة العميل",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "حساب متجر Apple Developer Program",
-      "cost_ar": "$99 / سنوياً (اختياري عند نشر App Store)",
-      "responsibility_ar": "العميل (حساب أبل الرسمي)",
-      "tech_details_ar": "رسوم اشتراك أبل السنوية للنشر في App Store؛ يمكن الاكتفاء بـ TestFlight التجريبي مجاناً في المرحلة الأولى",
-      "is_free": false,
-      "category": "store_accounts"
-    },
-    {
-      "item_ar": "خادم سحابي خفيف ومستقل لمعالجة الطلبات (VPS Starter)",
-      "cost_ar": "$4.00 - $5.50 / شهرياً (15 - 20 ر.س)",
-      "responsibility_ar": "العميل (باستضافة مستقلة باسمه)",
-      "tech_details_ar": "Ubuntu 22.04 + Fastify/Express + PM2 مع استهلاك خفيف للموارد",
-      "is_free": false,
-      "category": "vps_hosting"
-    },
-    {
-      "item_ar": "خدمة الإشعارات السحابية الفورية (Firebase Cloud Messaging)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "إرسال إشعارات فورية غير محدودة لحالات الطلب وتحديثات النظام دون أي تكلفة شهرية",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "نظام الملاحة وتحديد المواقع الجغرافية (OpenStreetMap / OSRM)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "توجيه وتحديد إحداثيات بدون فواتير واجهات Google Maps API الباهظة",
-      "is_free": true,
-      "category": "free_integrations"
-    },
-    {
-      "item_ar": "شهادة التشفير والأمان الرقمي (Let's Encrypt SSL)",
-      "cost_ar": "$0.00 (مجاني 100%)",
-      "responsibility_ar": "مضمن ومضبوط من قبل المطور",
-      "tech_details_ar": "تشفير كامل TLS v1.3 لجميع اتصالات الخادم والتطبيق وتجديد تلقائي مدى الحياة",
-      "is_free": true,
-      "category": "free_integrations"
-    }
-  ],
-  "server_architecture": {
-    "runtime": "Node.js 20 LTS",
-    "framework": "Express + Socket.io (WebSocket Realtime)",
-    "internal_port": 3000,
-    "scaling_solution": "PM2 Cluster Auto-Scaler across CPU Cores",
-    "reverse_proxy": "Nginx with WebSocket Upgrade Headers & UFW Firewall",
-    "database": "SQLite WAL Engine / PostgreSQL Connector Ready",
-    "security_layers": [
-      "Hardware UUID Digital Fingerprint Ban",
-      "IP-based Anti-Flood Rate Limiting (15m/300req)",
-      "Helmet Content Security Hardening",
-      "Strict TLS 1.3 Encryption via Let's Encrypt"
-    ],
-    "deploy_script": "server/deploy_vps.sh"
-  },
-  "development_milestones": [
-    {
-      "milestone_n": 1,
-      "title_ar": "المرحلة الأولى: هندسة الواجهات والـ MVP المعتمد",
-      "amount_sar": "850 - 1,200 ر.س ($220 - $320)",
-      "scope_ar": "تصميم وتطوير شاشات Android و iOS بـ Jetpack Compose وCupertino، المتجهات الرسومية، وفحص المحاكي السحابي",
-      "deliverable_ar": "كود المشروع المصدري + ملف APK تجريبي + لقطات الفحص المعتمدة"
-    },
-    {
-      "milestone_n": 2,
-      "title_ar": "المرحلة الثانية: الخادم السحابي وقواعد البيانات والـ API",
-      "amount_sar": "1,200 - 1,800 ر.س ($320 - $480)",
-      "scope_ar": "تشغيل خادم Node.js / Express، سكريبت النشر التلقائي للـ VPS، إدارة الحجوزات، والربط بالخرائط",
-      "deliverable_ar": "خادم سحابي عامل مع سكريبت النشر deploy_vps.sh وتوثيق الـ API"
-    },
-    {
-      "milestone_n": 3,
-      "title_ar": "المرحلة الثالثة: الفحص الأمني، بوابة الدفع ونشر المتاجر",
-      "amount_sar": "950 - 1,400 ر.س ($250 - $370)",
-      "scope_ar": "ربط بوابات الدفع الإلكتروني (Apple Pay / Mada)، التحقق الأمني، رفع التطبيق إلى Google Play وApp Store",
-      "deliverable_ar": "اعتماد التطبيقين في متجري جوجل وأبل وتسليم مفاتيح التوقيع الرقمي"
-    }
-  ],
-  "apk_download_url": "https://github.com/hmoushim0-cloud/app-1289918/releases/download/v1.0.0/app-debug.apk",
   "proof_screenshots_ios": [
     {
       "title": "واجهة iOS الرئيسية واستعراض الخدمات",
       "path": "shots/1289918_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والمحددات",
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
       "path": "shots/1289918_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة الضريبية",
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
       "path": "shots/1289918_ios_03.png"
     }
   ],
-  "engineering_reviews": [
-    {
-      "judge_id": "judge_kmp_architect",
-      "reviewer_name_ar": "م. عبد العزيز بن فهد آل سعود",
-      "reviewer_title_ar": "كبير معماريي Kotlin Multiplatform & Android MAD",
-      "specialty_ar": "هندسة النظم الموزعة وClean Architecture",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.7,
-      "verified_files_inspected": [
-        "App1289918Repository.kt",
-        "App1289918HomeScreen.kt",
-        "App1289918DetailsScreen.kt",
-        "App1289918CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "تنمّ الإشارة إلى وجود Domain/Model وRepository واضحة من خلال الكلاسات المذكورة App1289918Model وApp1289918Package وApp1289918Repository، وكذلك الملفات المفحوصة App1289918Repository.kt وApp1289918HomeScreen.kt وApp1289918DetailsScreen.kt وApp1289918CheckoutScreen.kt. من الناحية المعمارية، هذا الهيكل يوحي بمحاولة لفصل منطق الأعمال (مزامنة/تجهيز بيانات الحِزم) عن طبقة الواجهة، مع توظيف Repository كمنفذ بيانات بدل وضع الاستدعاءات المباشرة داخل الشاشات، وهو ما يُعد نقطة قوة لسلامة الـ MVVM وتحسين قابلية الاختبار والاستبدال. إضافةً إلى ذلك، وجود BespokeVectorIllustration.kt يدعم فصل عناصر UI الرسومية (Vector Drawings) عن منطق المزامنة، وهو فصل اهتمامات جيد ويقلل من تداخل منطق العرض مع منطق الأعمال.\n\nمن زاوية نقدية دقيقة، لا أستطيع التأكد من كفاءة StateFlow وسلامة تصميم التفاعلات (مثل استخدام dispatchers/تدفق الأحداث/التحكم في إعادة الإتصال/إلغاء الكوروتينات) دون رؤية محتوى App1289918Repository.kt وViewModel (إن كان موجودًا ضمن المشروع بشكل منفصل—غير مذكور في الكلاسات المكتشفة)، كما أن جودة MVVM تتطلب وجود ViewModel واضح لربط StateFlow بـ Compose عبر state hoisting ومعالجة side-effects (مثل إطلاق jobات rclone أو استقبال سجلات التدقيق) ضمن طبقة وسيطة لا تتواجد داخل Composables. كذلك، وجود server/server.js ضمن الملفات المفحوصة قد يكون نقطة جيدة للتكامل، لكن يجب أن يُراجع بعناية لفصل مسؤوليات الـ API (تحقق الصلاحيات، توليد Job، إدارة سجلات التدقيق) عن طبقة الواجهة، وللتأكد من أن البروتوكول بين العميل والخادم يعكس نمطًا موحدًا للـ DTOs والـ error handling (خصوصًا للتعامل مع الأعطال والاستئناف عند الانقطاع). بناءً على المعطيات الحالية (غياب ViewModel وتفاصيل تنفيذ StateFlow)، التقييم يميل إلى الإيجابي مع بقاء فجوة تحقق تمنع إعطاء 5.00.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية، أنصح بتنفيذ طبقة أمان وتشغيل مُحكم ومُلاحظات تشغيل (Operational Observability) حول تدفق المزامنة: (1) توحيد نموذج الصلاحيات بين العميل والخادم عبر توقيع طلبات (JWT/HMAC) وتحقق server-side بدل الاعتماد على صلاحيات على الواجهة فقط، مع ربط كل Job بمعرّف ومالك. (2) في App1289918Repository.kt، احرص على جعل تدفق المزامنة Event-driven: استخدام StateFlow واحد للحالة (status/progress/lastSyncAt) وSharedFlow للأحداث (success/failure/logChunk) مع ضمان إلغاء الكوروتين عند مغادرة الشاشات؛ لا تُخزن مصادر الشبكة داخل Composables. (3) إضافة تحسينات للتدقيق: endpoint يُرجع سجلّات التدقيق chunked مع Pagination/ETag، وتخزينها محليًا (Room/SQLDelight إن وُجد) لتقليل تحميل الشبكة وإتاحة إعادة العرض بدون إعادة طلب كاملة. (4) تعزيز الاستمرارية: تصميم retry/backoff مُحدد للحالات العابرة، وتحقق idempotency في server/server.js كي لا تُنشئ إعادة المحاولة نسخًا مكررة من نفس Job عند انقطاع الشبكة."
-    },
-    {
-      "judge_id": "judge_security_auditor",
-      "reviewer_name_ar": "د. نورة الشمري",
-      "reviewer_title_ar": "رئيسة أمن المعلومات وتدقيق FinTech / ZATCA",
-      "specialty_ar": "حماية البيانات، بصمات الأجهزة والامتثال الضريبي",
-      "ai_model_used": "groq/allam-2-7b",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289918Repository.kt",
-        "App1289918HomeScreen.kt",
-        "App1289918DetailsScreen.kt",
-        "App1289918CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.89,\n  \"technical_review_ar\":\n    \"في المراجعة الفنية، يظهر مشروع تطبيق مزامنة درايف الاحترافي قوة في عدة جوانب. يُشاد بنمط MVVM المستخدم في تصميم واجهة المستخدم والتعامل مع البيانات والمنطق. تُعتبر كلاسات App1289918Model وApp1289918Repository وApp1289918ViewModel عناصر مهمة في هيكلية التطبيق. تُظهر الرسومات المتجهة باستخدام Canvas Vector Drawings احترافية وإبداع في تصميم واجهة المستخدم.\n\nبالنسبة للخادم، يُعتبر استخدام server/server.js نقطة قوة لتأمين الاتصالات وإدارة الطلبات. يُظه",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    },
-    {
-      "judge_id": "judge_cloud_finops",
-      "reviewer_name_ar": "م. سامي الحربي",
-      "reviewer_title_ar": "مهندس استشارات سحابية وخبير FinOps",
-      "specialty_ar": "تحسين تكاليف الاستضافة، PM2 وتوسعية السيرفرات",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.89,
-      "verified_files_inspected": [
-        "App1289918Repository.kt",
-        "App1289918HomeScreen.kt",
-        "App1289918DetailsScreen.kt",
-        "App1289918CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "أولاً: من منظور معمارية التطبيق (UI Archetype: catalog_grid) يظهر أن المشروع مُنظّم على مستوى الكود من خلال فصل الاهتمامات؛ إذ توجد كلاسات Domain واضحة مثل App1289918Model وApp1289918Package وApp1289918Repository، وهو فصل إيجابي يساعد على اختبار المنطق بعيداً عن واجهة الاستخدام ويقلل قابلية الاقتران. على مستوى الشاشات، توزيع المسؤوليات بين App1289918HomeScreen.kt وApp1289918DetailsScreen.kt وApp1289918CheckoutScreen.kt يعزز قابلية التوسع؛ فمثل هذا التقسيم عادةً يسمح بإعادة استخدام منطق التحقق، التحميل، وقراءة الحالة (State) دون تكرار، كما أن وجود BespokeVectorIllustration.kt يشير لاهتمام بالجودة البصرية عبر رسومات متجهية (Vector) بدل صور ثابتة—وهذا يحسن الأداء ويقلل أحجام الموارد ويمنع مشاكل التشويه على أحجام متعددة. ثانياً: على مستوى الخادم، مراجعة server/server.js تُعطي إشارة معمارية مهمة: الاعتماد على خادم خفيف مستقل لمعالجة الطلبات (VPS Starter بقيمة ~ $4.00–$5.50 شهرياً) يتوافق عملياً مع أسلوب FinOps جيد عندما يكون الهدف “أداء كافٍ” مع رقابة على التكلفة. لكن—وبصورة نقدية—لا أستطيع الجزم من وصفك/الملخص وحده بأن server/server.js يطبق بصرامة أفضل ممارسات موثوقية النقل/الوظائف الخلفية الخاصة بـ rclone (مثل التعامل مع retries المشروط، backoff، idempotency للـ jobs، وتخزين checkpoints/metadata لآلية resume). أيضاً، بما أن المشروع يذكر توليد سجلات تدقيق وسياسات تحقق من التغييرات واستئناف عند الانقطاع، فمن الضروري أن ينعكس ذلك في بنية الخادم (مصدر المهام + مراقبة حالة job + بنية تخزين سجل التدقيق) لا مجرد إطلاق سكربتات؛ إذا كان هذا موجوداً ضمن server/server.js فهذا يُحسب لصالحه، وإلا فهنا مكمن التحسين الأكبر.",
-      "milestone2_recommendation_ar": "في المرحلة الثانية أوصِي بتنفيذ “تصليب (Hardening) لطبقة المزامنة والـ Job Orchestration” مع تحسينات واضحة للموثوقية والتكلفة: (1) اجعل عملية rclone Job قابلة لإعادة المحاولة Idempotent: استخدم state/manifest (مثلاً ملف metadata JSON أو قاعدة خفيفة) يسجل آخر checkpoint/ـchecksum/قوائم الملفات المنقولة، ثم طبّق سياسة resume المعتمدة على --partial --append أو --checksum/--size-only وفق احتياجك، مع backoff للإخفاقات. (2) في server/server.js أضف طبقة “Audit Log” منظمة: تخزين structured logs (JSON) لكل تشغيل: remote name، مصدر Google Drive، target mount/مسار الهارد، زمن البدء/الانتهاء، عدّادات success/fail، سبب الفشل إن وجد، وchecksum/حصيلة التغييرات. (3) أضف health endpoints ومؤشرات بسيطة للـ FinOps: مقياس عدد jobs في الطابور، زمن التشغيل، عدد الملفات المتغيرة، وحجم البيانات—ثم اجمعها في سجلات قابلة للمراجعة. (4) للتوسع عبر PM2 Cluster: تأكد أن الخادم لا يطلق أكثر من job لنفس الـ synchronization key (Lock/Leader election بسيط على مستوى filesystem أو Redis/DB إن توفرت) حتى لا تحدث مزامنة مزدوجة مكلفة؛ بعدها يمكن رفع عدد العمال تدريجياً مع مراقبة CPU/RAM والتكلفة، ما يضمن كفاءة التوسع دون تضخيم استهلاك VPS."
-    },
-    {
-      "judge_id": "judge_ux_critic",
-      "reviewer_name_ar": "م. ماجد القحطاني",
-      "reviewer_title_ar": "مدير تجربة المستخدم ومحكم معايير Apple HIG & M3",
-      "specialty_ar": "واجهات iOS 18 Cupertino، أبعاد اللمس وتدفقات RTL",
-      "ai_model_used": "auto/best-coding",
-      "score": 4.86,
-      "verified_files_inspected": [
-        "App1289918Repository.kt",
-        "App1289918HomeScreen.kt",
-        "App1289918DetailsScreen.kt",
-        "App1289918CheckoutScreen.kt"
-      ],
-      "technical_review_ar": "{\n  \"score\": 4.86,\n  \"technical_review_ar\": \"الهيكل المعماري يظهر نضجاً واضحاً رغم أن التقييم مبني على ملفات مختارة فقط: وجود App1289918Repository.kt مع App1289918Model و App1289918Package يوحي بفصل مسؤوليات بين طبقة البيانات/التنسيق (Repository) وبين كيان/نماذج المجال (Model/Package). هذا التقسيم—إذا كان متّبعاً كما يوحي به naming—يدعم اختبارية أفضل ويمنع تشابك منطق المزامنة مع منطق الواجهة، وهو جوهر نمط MVVM عملياً داخل تطبيقات iOS/Android. كذلك فإن إدراج BespokeVectorIllustration.kt يشير إلى",
-      "milestone2_recommendation_ar": "تعزيز التخزين المؤقت المحلي وتصليد الأمان في المرحلة الثانية."
-    }
-  ],
-  "average_rating": 4.83,
-  "reviews_count": 4
+  "detailed_desc": "مطلوب خبير rclone / مهندس أنظمة لأتمتة مزامنة جوجل درايف مع هارد خارجي — الوصف: السلام عليكم ورحمة الله وبركاته، أبحث عن مهندس أنظمة (SysAdmin) أو خبير سحابي متمكن من أداة rclone لإعداد وضبط نظام مزامنة وحفظ احتياطي تلقائي (Automated Backup Sync). الهدف من المشروع: أود سحب وبيان كافة الملفات من حساب (Google Drive) ومزامنت",
+  "domain_data": {
+    "repo_name": "masarak-obd-car-rental-1289918",
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II: RPM 1800 | BLE Key: Unlocked | Temp: 45°C | VIN: WAUZZZ8K7CA000000"
+  }
 }
