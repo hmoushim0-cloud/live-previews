@@ -2,8 +2,8 @@
   "project_id": "1289429",
   "repo_name": "mamlaka-realty-real-estate-1289429",
   "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1289429",
-  "app_name": "تطبيق مملكة العقار — مهندس معماري لتصميم فيلا سكن",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "بيت الحرم — تصميم فلل مكة الذكية بتقنية LiDAR",
+  "tagline": "مسح مكاني دقيق بواجهات تفاعلية ثلاثية الأبعاد عبر ماسحات LiDAR مدمجة",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق مملكة العقار — مهندس معماري لتصميم فيلا سكن",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "بيت الحرم — تصميم فلل مكة الذكية بتقنية LiDAR",
+    "subtitle": "مسح مكاني دقيق بواجهات تفاعلية ثلاثية الأبعاد عبر ماسحات LiDAR مدمجة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم معماري",
+    "توزيع المساحات",
+    "واجهات خارجية",
+    "تصورات ثلاثية الأبعاد"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
+      "title": "تصميم متكامل مع مسح LiDAR",
+      "desc": "تصميم معماري كامل مع مسح مكاني دقيق باستخدام LiDAR و Matterport Pro3",
+      "price": "4500 ر.س",
+      "icon": "cube",
       "badge": "شامل"
+    },
+    {
+      "title": "توزيع مساحات ذكي",
+      "desc": "تحليل وظيفي وتوزيع غرف عملي مع محاكاة تدفق حركة سكانية",
+      "price": "1800 ر.س",
+      "icon": "grid",
+      "badge": "عملي"
+    },
+    {
+      "title": "واجهات عصرية",
+      "desc": "تصميم واجهات خارجية مقاومة للمناخ المكي مع نمذجة إضاءة طبيعية",
+      "price": "2200 ر.س",
+      "icon": "layers",
+      "badge": "حديث"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "f8c9b09",
+  "commit_hash": "d1a1601",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mamlaka-realty-real-estate-1289429",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 2.3M pts/sec | Matterport: 99.8% Spatial Accuracy | 4K RGB Fusion"
   }
 }
