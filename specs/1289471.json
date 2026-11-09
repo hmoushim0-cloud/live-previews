@@ -2,8 +2,8 @@
   "project_id": "1289471",
   "repo_name": "iwan-estates-real-estate-1289471",
   "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1289471",
-  "app_name": "تطبيق إيوان العقارية — معالجة تصميم رامبات مواقف سي",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "سقارة للرامبات الذكية — محاكاة ثلاثية الأبعاد لحركة المركبات في القبوين",
+  "tagline": "مسح ليزري دقيق بتقنية LiDAR 360 مع Matterport Pro3 لتحليل رامبات المواقف",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق إيوان العقارية — معالجة تصميم رامبات مواقف سي",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "سقارة للرامبات الذكية — محاكاة ثلاثية الأبعاد لحركة المركبات في القبوين",
+    "subtitle": "مسح ليزري دقيق بتقنية LiDAR 360 مع Matterport Pro3 لتحليل رامبات المواقف"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل زوايا الالتفاف",
+    "محاكاة ميول الرامبات",
+    "توزيع المناسيب",
+    "تقارير الامتثال"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "نمذجة 3D مع تحليل ديناميكي",
+      "desc": "إنشاء نموذج ثلاثي الأبعاد تفاعلي مع محاكاة حركة مركبات واقعية باستخدام بيانات LiDAR المسحية",
+      "price": "150 ر.س",
+      "icon": "cube",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليل انحدار الرامبات",
+      "desc": "دراسة ميول الرامبات باستخدام خوارزميات Matterport Pro3 مع تقارير نسبة الانحدار الآمنة",
+      "price": "280 ر.س",
+      "icon": "trending-up",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير توزيع المناسيب",
+      "desc": "تحليل توزيع الارتفاعات بين B1 وB2 مع توصيات هندسية مدعومة ببيانات الاستشعار المكاني",
+      "price": "95 ر.س",
+      "icon": "layers",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5470bd7",
+  "commit_hash": "55f13ca",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "iwan-estates-real-estate-1289471",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR 360: 1200pts/m² | Matterport Pro3: 98% RGB Accuracy | Slope Angle: 14.2°"
   }
 }
