@@ -2,8 +2,8 @@
   "project_id": "1289578",
   "repo_name": "qalam-campus-smart-education-1289578",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289578",
-  "app_name": "تطبيق قلم الأكاديمية — مطلوب خبير إعلانات يوتيوب (G",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "خبير إعلانات يوتيوب — دورة احترافية لزيادة العملاء",
+  "tagline": "تعلم وإعلانات ذكية مع قلم رقمي متطور وإشارات بلوتوث",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مطلوب خبير إعلانات يوتيوب (G",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "خبير إعلانات يوتيوب — دورة احترافية لزيادة العملاء",
+    "subtitle": "تعلم وإعلانات ذكية مع قلم رقمي متطور وإشارات بلوتوث"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة إعلانات يوتيوب",
+    "اختبارات تمهيدية",
+    "دورات تعليمية",
+    "استشارات مبيعات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "باقة الاختبار التمهيدي",
+      "desc": "تحليل أداء قنوات يوتيوب مع تقرير مخصص عبر القلم الذكي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "دورة إتقان الإعلانات",
+      "desc": "دروس تفاعلية مع تمارين عملية باستخدام تقنية BLE للمتابعة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "استشارة بيعية احترافية",
+      "desc": "جلسة مباشرة مع تحليل ضغط القلم لتحسين مهارات الإقناع",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e1fddc3",
+  "commit_hash": "dde89f8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1289578",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Stylus Pressure 4096-Level | Proximity: 2m"
   }
 }
