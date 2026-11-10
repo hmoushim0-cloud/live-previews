@@ -2,8 +2,8 @@
   "project_id": "1289598",
   "repo_name": "sanad-tech-services-1289598",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289598",
-  "app_name": "تطبيق سند الفني — تصميم وتنسيق كتاب أدعية وزيا",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق تلاوة للزيارات والأدعية — تفسيرات تفاعلية مع تحديد المواقع",
+  "tagline": "توثيق الزيارات الدينية عبر NFC وتتبع المواقع بالGPS مع تفسير فوري للكلمات",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق سند الفني — تصميم وتنسيق كتاب أدعية وزيا",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق تلاوة للزيارات والأدعية — تفسيرات تفاعلية مع تحديد المواقع",
+    "subtitle": "توثيق الزيارات الدينية عبر NFC وتتبع المواقع بالGPS مع تفسير فوري للكلمات"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "زيارات دينية",
+    "أدعية يومية",
+    "تفسير كلمات",
+    "خدمات طباعة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "توثيق زيارة عبر NFC",
+      "desc": "توثيق زيارات الأماكن المقدسة باستخدام بطاقة Mada NFC مع ختم رقمي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع أدعية حسب الموقع",
+      "desc": "تنبيهات أدعية مخصصة بناءً على موقع GPS الحالي مع اتجاه القبلة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "طباعة كتاب أدعية مخصص",
+      "desc": "تصميم كتاب أدعية شخصي مع تفسيرات وطباعته عبر NFC",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "759fd98",
+  "commit_hash": "65a8086",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sanad-tech-services-1289598",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: AUTH_SUCCESS | GPS: 24.7136°N 46.6753°E - Kaaba Orientation: 237°"
   }
 }
