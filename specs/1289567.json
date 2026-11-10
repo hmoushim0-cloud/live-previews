@@ -2,8 +2,8 @@
   "project_id": "1289567",
   "repo_name": "fawri-pay-pos-cashier-1289567",
   "repo_url": "https://github.com/hmoushim0-cloud/fawri-pay-pos-cashier-1289567",
-  "app_name": "تطبيق فوري باي — إنشاء وتجهيز متجر إلكتروني م",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "متجر سالح الذكي للتجزئة — نظام نقاط بيع متكامل مع طابعة حرارية",
+  "tagline": "نظام نقاط بيع ذكي مع طباعة فواتير فورية ومسح باركود متكامل",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق فوري باي — إنشاء وتجهيز متجر إلكتروني م",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "متجر سالح الذكي للتجزئة — نظام نقاط بيع متكامل مع طابعة حرارية",
+    "subtitle": "نظام نقاط بيع ذكي مع طباعة فواتير فورية ومسح باركود متكامل"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة المخزون",
+    "تقارير المبيعات",
+    "إعدادات الطابعة",
+    "حسابات العملاء"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "إعداد متجر سالح الأساسي",
+      "desc": "ضبط إعدادات المتجر الأولية وربط بوابات الدفع",
+      "price": "550 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تكامل الطابعة الحرارية",
+      "desc": "تهيئة طابعة ESC/POS مع قوالب فواتير مخصصة",
+      "price": "380 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تدريب الموظفين على النظام",
+      "desc": "جلسة تفاعلية لإدارة المخزون ومسح الباركود",
+      "price": "220 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "52388d9",
+  "commit_hash": "bade91d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "fawri-pay-pos-cashier-1289567",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 32°C | Paper OK | Scans: 142"
   }
 }
