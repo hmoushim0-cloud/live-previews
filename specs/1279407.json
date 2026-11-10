@@ -2,8 +2,8 @@
   "project_id": "1279407",
   "repo_name": "haraka-scale-fitness-1279407",
   "repo_url": "https://github.com/hmoushim0-cloud/haraka-scale-fitness-1279407",
-  "app_name": "تطبيق حركة والميزان — مطلوب Sales لبيع خدمات الاعل",
-  "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+  "app_name": "صحتي إعلانات — منصة إعلانية ذكية لمراكز اللياقة",
+  "tagline": "ربط بيانات اللياقة الحية مع حملات إعلانية ذكية عبر أجهزة BLE المتقدمة",
   "preset": "fitness",
   "layout_type": "fitness",
   "layoutArchetype": "fitness",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق حركة والميزان — مطلوب Sales لبيع خدمات الاعل",
-    "subtitle": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap"
+    "title": "صحتي إعلانات — منصة إعلانية ذكية لمراكز اللياقة",
+    "subtitle": "ربط بيانات اللياقة الحية مع حملات إعلانية ذكية عبر أجهزة BLE المتقدمة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حملات تواصل اجتماعي",
+    "إعلانات فيديو",
+    "رعاية فعاليات",
+    "تحليل بيانات عملاء"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع BLE Smart Scale GATT 0x181D + Heart Rate Strap",
-      "price": "180 ر.س",
+      "title": "حملة لياقة متكاملة",
+      "desc": "حزمة إعلانية شاملة مع تحليل بيانات وزن ومعدل ضربات القلب من أجهزة BLE",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "إعلانات فيديو تفاعلية",
+      "desc": "إنتاج وتوزيع إعلانات فيديو مخصصة مع استهداف عملاء بناءً على بيانات اللياقة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليل سلوك العملاء",
+      "desc": "تقارير شهرية عن أنماط المستخدمين باستخدام بيانات الميزان الذكي و حزام القلب",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c5b1d05",
+  "commit_hash": "f1030bf",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "haraka-scale-fitness-1279407",
     "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
-    "telemetry_preview": "BLE Smart Scale GATT 0x181D + Heart Rate Strap: ONLINE | READY"
+    "telemetry_preview": "GATT 0x181D: 72 kg | 88 BPM"
   }
 }
