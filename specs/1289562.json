@@ -2,8 +2,8 @@
   "project_id": "1289562",
   "repo_name": "mizan-pos-pos-cashier-1289562",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289562",
-  "app_name": "تطبيق ميزان نقاط البيع — تعديل على متجر إلكتروني — ال",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "أموال — نظام نقاط البيع الذكي",
+  "tagline": "طباعة فواتير حرارية فورية مع ماسح باركود متكامل",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — تعديل على متجر إلكتروني — ال",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "أموال — نظام نقاط البيع الذكي",
+    "subtitle": "طباعة فواتير حرارية فورية مع ماسح باركود متكامل"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة المخزون",
+    "المبيعات",
+    "الفواتير",
+    "التقارير"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "إعداد الطابعة الحرارية",
+      "desc": "تهيئة طابعة ESC/POS مع قوالب فواتير مخصصة وتكامل حالة الورق",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "دمج ماسح الباركود",
+      "desc": "ربط ماسح ضوئي لاسلكي مع قاعدة بيانات المنتجات وتحديث الأسعار تلقائياً",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تدريب الموظفين",
+      "desc": "جلسة عملية لمدة ساعتين لإتقان نظام نقطة البيع والمعدات الطرفية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3ec24f7",
+  "commit_hash": "7daf70b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1289562",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: Temp 42°C | Paper 85% | Scans: 124"
   }
 }
