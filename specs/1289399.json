@@ -2,8 +2,8 @@
   "project_id": "1289399",
   "repo_name": "sanad-tech-services-1289399",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289399",
-  "app_name": "تطبيق سند الفني — تعديل وإكمال تطبيق سياحي مست",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق سفراء — دليل سياحي مدعوم بنظام مدى",
+  "tagline": "استكشف بذكاء وادفع بلمسة مع تقنية مدى و GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق سند الفني — تعديل وإكمال تطبيق سياحي مست",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق سفراء — دليل سياحي مدعوم بنظام مدى",
+    "subtitle": "استكشف بذكاء وادفع بلمسة مع تقنية مدى و GPS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "جولات تراثية",
+    "إقامة فاخرة",
+    "مواصلات ذكية",
+    "فعاليات تفاعلية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "جولة ليموزين تراثية",
+      "desc": "جولة خاصة مع دفع آمن عبر NFC مدى تشمل 3 معالم",
+      "price": "450 ر.س",
+      "icon": "crown",
+      "badge": "مميز"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "حجز فوري لتجربة طهي",
+      "desc": "ورشة طبخ مباشر مع تتبع GPS للموقع",
+      "price": "280 ر.س",
+      "icon": "chef",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بطاقة سياحية ذكية",
+      "desc": "دخول بدون تلامس لـ10 مواقع عبر تقنية EMV",
+      "price": "199 ر.س",
+      "icon": "smartcard",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "57a17c9",
+  "commit_hash": "0e5a1cd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sanad-tech-services-1289399",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC: EMV L2 Transaction | GPS: 24.7136° N, 46.6753° E"
   }
 }
