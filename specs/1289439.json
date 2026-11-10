@@ -2,8 +2,8 @@
   "project_id": "1289439",
   "repo_name": "qoot-surplus-food-1289439",
   "repo_url": "https://github.com/hmoushim0-cloud/qoot-surplus-food-1289439",
-  "app_name": "تطبيق قوت الطازج — تصميم فيديو تسويقي لمجمع معا",
-  "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
+  "app_name": "مجمع نكهات الباحة — وجهة المطاعم الحصرية",
+  "tagline": "نظام طلبات ذكي مع شاشات مطبخ متكاملة",
   "preset": "food",
   "layout_type": "food",
   "layoutArchetype": "food",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق قوت الطازج — تصميم فيديو تسويقي لمجمع معا",
-    "subtitle": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server"
+    "title": "مجمع نكهات الباحة — وجهة المطاعم الحصرية",
+    "subtitle": "نظام طلبات ذكي مع شاشات مطبخ متكاملة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مطاعم",
+    "خدمات توصيل",
+    "حجوزات",
+    "عروض خاصة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Kitchen Display System (KDS) TCP/IP Print Server",
-      "price": "180 ر.س",
+      "title": "حجز طاولة VIP",
+      "desc": "حجز فوري في منطقة المطاعم مع شاشة تفاعلية للطلب",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تخصيص قائمة طعام",
+      "desc": "تعديل الأطباق عبر KDS مع أولوية التحضير",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "باقة افتتاح براند",
+      "desc": "حزمة شاملة لعرض العلامات التجارية الجديدة مع تحليلات المبيعات",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e76498a",
+  "commit_hash": "a698421",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qoot-surplus-food-1289439",
     "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
-    "telemetry_preview": "Kitchen Display System (KDS) TCP/IP Print Server: ONLINE | READY"
+    "telemetry_preview": "KDS TCP/IP: Order #45 | Prep Time: 120s | Printer Status: OK"
   }
 }
