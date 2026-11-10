@@ -2,8 +2,8 @@
   "project_id": "1290859",
   "repo_name": "qalam-campus-smart-education-1290859",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1290859",
-  "app_name": "تطبيق قلم الأكاديمية — مختص في الأمن السيبراني للمس",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق درع المعرفة — تقييم المخاطر السيبرانية التفاعلي",
+  "tagline": "تقييم المخاطر السيبرانية بلمسة ذكية عبر قلم رقمي متطور وربط منارات BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مختص في الأمن السيبراني للمس",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق درع المعرفة — تقييم المخاطر السيبرانية التفاعلي",
+    "subtitle": "تقييم المخاطر السيبرانية بلمسة ذكية عبر قلم رقمي متطور وربط منارات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تقييم المخاطر",
+    "تحليل التهديدات",
+    "تدريب عملي",
+    "تقارير أكاديمية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "تحليل مخاطر شامل",
+      "desc": "تطبيق منهجية NIST RMF مع محاكاة تفاعلية عبر القلم الذكي لتحديد الأصول والتهديدات",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب تفاعلي بالقلم الذكي",
+      "desc": "سيناريوهات اختراق واقعية مع تحليل فوري عبر منارات BLE لقياس الاستجابة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير أكاديمي معتمد",
+      "desc": "توليد تقارير ماجستير متوافقة مع ISO 27005 باستخدام بيانات القلم الرقمي",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e9a777c",
+  "commit_hash": "b3208b8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290859_ios_03.png"
     }
   ],
-  "detailed_desc": "مختص في الأمن السيبراني للمساعدة والإرشاد في مشروع أكاديمي (Security Risk Assessment). مرحبا، أبحث عن مختص في مجال Cybersecurity / Information Security Risk Management لديه خبرة في تحليل وتقييم المخاطر الأمنية (Security Risk Assessment)، للمساعدة في مشروع أكاديمي لمرحلة الماجستير. المشروع يتطلب تطبيق منهجية تقييم المخاطر الأمنية على جهة حقيقية أو ا",
+  "detailed_desc": "مختص في الأمن السيبراني للمساعدة والإرشاد في مشروع أكاديمي (Security Risk Assessment) — مرحبا، أبحث عن مختص في مجال Cybersecurity / Information Security Risk Management لديه خبرة في تحليل وتقييم المخاطر الأمنية (Security Risk Assessment)، للمساعدة في مشروع أكاديمي لمرحلة الماجستير. المشروع يتطلب تطبيق منهجية تقييم المخاطر الأمنية على جه",
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1290859",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: 3m Proximity | Stylus: 2048 Pressure Level | Session: 47m"
   }
 }
