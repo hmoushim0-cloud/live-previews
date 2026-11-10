@@ -2,8 +2,8 @@
   "project_id": "1289547",
   "repo_name": "mizan-pos-pos-cashier-1289547",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289547",
-  "app_name": "تطبيق ميزان نقاط البيع — إرسال رسائل واتساب جماعية —",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "وصل واتساب الأعمال — إرسال جماعي مع تكامل نقاط البيع",
+  "tagline": "أتمتة رسائل واتساب جماعية مع طباعة فواتير فورية عبر ESC/POS",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — إرسال رسائل واتساب جماعية —",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "وصل واتساب الأعمال — إرسال جماعي مع تكامل نقاط البيع",
+    "subtitle": "أتمتة رسائل واتساب جماعية مع طباعة فواتير فورية عبر ESC/POS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حملات ترويجية",
+    "إدارة العملاء",
+    "تقارير المبيعات",
+    "إعدادات الطابعة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "إرسال أساسي",
+      "desc": "20,000 رسالة نصية مع تحليل الأرقام المكررة",
+      "price": "450 ر.س",
+      "icon": "message-circle",
+      "badge": "أساسي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "حزمة مميزة",
+      "desc": "رسائل مع صور المنتجات + روابط تفاعلية",
+      "price": "980 ر.س",
+      "icon": "image",
+      "badge": "مميز"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تكامل الطابعة",
+      "desc": "ربط ESC/POS لطباعة إيصالات الاستلام",
+      "price": "320 ر.س",
+      "icon": "printer",
+      "badge": "عتاد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d0586c7",
+  "commit_hash": "b82be48",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1289547",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 25mm/s | 203dpi | Barcode: QR Scan @ 300ms"
   }
 }
