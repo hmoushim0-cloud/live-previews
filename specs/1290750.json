@@ -2,8 +2,8 @@
   "project_id": "1290750",
   "repo_name": "zad-kitchen-food",
   "repo_url": "https://github.com/hmoushim0-cloud/zad-kitchen-food",
-  "app_name": "تطبيق زاد السحابي — مطور Unity محترف لتطوير لعبة",
-  "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
+  "app_name": "مواسم المطبخ الذكي — محاكاة إدارة المطاعم مع تكامل KDS",
+  "tagline": "نظام محاكاة متكامل مع شاشات المطبخ الذكية عبر TCP/IP",
   "preset": "food",
   "layout_type": "food",
   "layoutArchetype": "food",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق زاد السحابي — مطور Unity محترف لتطوير لعبة",
-    "subtitle": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server"
+    "title": "مواسم المطبخ الذكي — محاكاة إدارة المطاعم مع تكامل KDS",
+    "subtitle": "نظام محاكاة متكامل مع شاشات المطبخ الذكية عبر TCP/IP"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة المخزون",
+    "تحضير الطعام",
+    "خدمة العملاء",
+    "تحليل الإنتاجية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Kitchen Display System (KDS) TCP/IP Print Server",
-      "price": "180 ر.س",
+      "title": "حزمة توسيع المخزون",
+      "desc": "إضافة 50 فتحة تخزين جديدة و3 محطات تبريد ذكية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "ترقية محطة التحضير السريع",
+      "desc": "خفض وقت التحضير بنسبة 40% مع مؤقتات RTL متوافقة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليلات الإنتاجية المتقدمة",
+      "desc": "لوحة تحكم حية مع تنبيهات KDS مدمجة",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "976607f",
+  "commit_hash": "7add36b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290750_ios_03.png"
     }
   ],
-  "detailed_desc": "مطور Unity محترف لتطوير لعبة محاكاة وإدارة 2D (أوفلاين) ونشرها على المتاجر. المتطلبات الأساسية للعبة (Scope): اللغات: دعم اللغتين العربية والإنجليزية بالكامل في واجهات اللعبة (Localization) مع ضبط اتجاه النصوص (RTL للعربية). آليات اللعب: بناء نظام إدارة متكامل يتضمن مراحل ومحطات متعددة (المطعم الرئيسي، عوالم إنتاجية جانبية، نظام ترقية السرعة والعما",
+  "detailed_desc": "مطور Unity محترف لتطوير لعبة محاكاة وإدارة 2D (أوفلاين) ونشرها على المتاجر — المتطلبات الأساسية للعبة (Scope): اللغات: دعم اللغتين العربية والإنجليزية بالكامل في واجهات اللعبة (Localization) مع ضبط اتجاه النصوص (RTL للعربية). آليات اللعب: بناء نظام إدارة متكامل يتضمن مراحل ومحطات متعددة (المطعم الرئيسي، عوالم إنتاجية جانبية،",
   "domain_data": {
     "repo_name": "zad-kitchen-food",
     "hardware_sensor": "Kitchen Display System (KDS) TCP/IP Print Server",
-    "telemetry_preview": "Kitchen Display System (KDS) TCP/IP Print Server: ONLINE | READY"
+    "telemetry_preview": "KDS TCP/IP: Order #45 | Status: Prepping (3/5) | Print Queue: 0"
   }
 }
