@@ -2,8 +2,8 @@
   "project_id": "1289541",
   "repo_name": "injaz-care-services-1289541",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289541",
-  "app_name": "تطبيق إنجاز للخدمات — صيانة وتشغيل PMO Portal — صي",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "صقر الصيانة — بوابة إدارة خدمات الصيانة الذكية",
+  "tagline": "إدارة عمليات الصيانة في الوقت الفعلي مع مدفوعات NFC الآمنة وتتبع GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — صيانة وتشغيل PMO Portal — صي",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "صقر الصيانة — بوابة إدارة خدمات الصيانة الذكية",
+    "subtitle": "إدارة عمليات الصيانة في الوقت الفعلي مع مدفوعات NFC الآمنة وتتبع GPS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "صيانة طارئة",
+    "صيانة دورية",
+    "صيانة وقائية",
+    "استشارات PMO"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "إصلاح طارئ (صغير)",
+      "desc": "تدخل فوري للأعطال الحرجة مع تحويل حجم الطلب إلى ساعات عمل محسوبة",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "صيانة دورية (متوسط)",
+      "desc": "فحص مجدول لأنظمة البنية التحتية مع تقارير GPS تلقائية",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "صيانة وقائية (كبير)",
+      "desc": "تحليل تنبؤي باستخدام بيانات التيليمتري من أجهزة الاستشعار المدمجة",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "56c5cc9",
+  "commit_hash": "367d8d4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289541",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC: EMV L2 Auth | GPS: 24.7136°N, 46.6753°E | Speed: 22 km/h"
   }
 }
