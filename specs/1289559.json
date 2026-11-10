@@ -2,8 +2,8 @@
   "project_id": "1289559",
   "repo_name": "mizan-pos-pos-cashier-1289559",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289559",
-  "app_name": "تطبيق ميزان نقاط البيع — استكمال تطوير متجر إلكتروني",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "سقار للخدمات الرقمية — منصة نقاط البيع الذكية",
+  "tagline": "منصة ذكية متكاملة مع طابعات إيصالات حرارية وماسحات ضوئية لتجربة بيع سلسة",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — استكمال تطوير متجر إلكتروني",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "سقار للخدمات الرقمية — منصة نقاط البيع الذكية",
+    "subtitle": "منصة ذكية متكاملة مع طابعات إيصالات حرارية وماسحات ضوئية لتجربة بيع سلسة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "خدمات حكومية",
+    "اتصالات",
+    "ترفيه",
+    "تعليم"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "تجديد جواز السفر",
+      "desc": "إصدار فوري لطلب تجديد جواز السفر مع ربط مباشر ببوابة أبشر",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "باقة بيانات 50 جيجابايت",
+      "desc": "تفعيل فوري لباقة بيانات الجيل الخامس مع رمز QR للتفعيل الذاتي",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "اشتراك منصة تعليمية",
+      "desc": "وصول لمدة شهر إلى منصة دروس تفاعلية مع تقارير أداء",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "4d59154",
+  "commit_hash": "1e2702a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1289559",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: PRINT RECEIPT #1234 | SCAN: 1234567890123"
   }
 }
