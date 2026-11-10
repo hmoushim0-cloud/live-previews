@@ -2,8 +2,8 @@
   "project_id": "1289530",
   "repo_name": "pets-pet-care-1289530",
   "repo_url": "https://github.com/hmoushim0-cloud/pets-pet-care-1289530",
-  "app_name": "تطبيق واحة الأليف — تطوير تطبيق جوال متكامل لإدا",
-  "tagline": "منظومة pet_care المتكاملة مع ربط ISO 11784/11785 134.2 kHz RFID Microchip Reader",
+  "app_name": "تطبيق رحلة الإيمان — إدارة شاملة لحملات الحج والعمرة",
+  "tagline": "تتبع آمن للحجاج عبر تقنية RFID المتقدمة مع إدارة متكاملة للرحلة",
   "preset": "pet_care",
   "layout_type": "pet_care",
   "layoutArchetype": "pet_care",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق واحة الأليف — تطوير تطبيق جوال متكامل لإدا",
-    "subtitle": "منظومة pet_care المتكاملة مع ربط ISO 11784/11785 134.2 kHz RFID Microchip Reader"
+    "title": "تطبيق رحلة الإيمان — إدارة شاملة لحملات الحج والعمرة",
+    "subtitle": "تتبع آمن للحجاج عبر تقنية RFID المتقدمة مع إدارة متكاملة للرحلة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تسجيل الحجاج",
+    "إدارة الرحلة",
+    "السلامة الصحية",
+    "الدعم اللوجستي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ISO 11784/11785 134.2 kHz RFID Microchip Reader",
-      "price": "180 ر.س",
+      "title": "تفعيل شريحة RFID",
+      "desc": "ربط شريحة ISO 11784/11785 بمعرف الحاج عبر قارئ مخصص",
+      "price": "120 ر.س",
+      "icon": "cpu",
+      "badge": "أساسي"
+    },
+    {
+      "title": "تتبع الموقع الآني",
+      "desc": "مراقبة مسار الحاج في المشاعر المقدسة عبر إشارات RFID",
+      "price": "250 ر.س",
+      "icon": "map-pin",
+      "badge": "مباشر"
+    },
+    {
+      "title": "تحقق التطعيمات",
+      "desc": "مطابقة بيانات التحصين مع متطلبات وزارة الحج عبر ماسح QR",
+      "price": "85 ر.س",
       "icon": "shield",
       "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b612f6a",
+  "commit_hash": "c824ec9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "pets-pet-care-1289530",
     "hardware_sensor": "ISO 11784/11785 134.2 kHz RFID Microchip Reader",
-    "telemetry_preview": "ISO 11784/11785 134.2 kHz RFID Microchip Reader: ONLINE | READY"
+    "telemetry_preview": "RFID 134.2 kHz: FD AE 34 1C | Pilgrim ID: QTR-7894 | Timestamp: 2023-12-05 14:30:22"
   }
 }
