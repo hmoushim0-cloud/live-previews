@@ -2,8 +2,8 @@
   "project_id": "1289432",
   "repo_name": "qalam-campus-smart-education-1289432",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289432",
-  "app_name": "تطبيق قلم الأكاديمية — تحليل أداء الطلاب وتحديد الف",
-  "tagline": "ت](./ colors=#f59e0b) ت](./ analysis, support decision-makers & educators",
+  "app_name": "تطبيق قلم الأكاديمية — تحليل الفجوات التعليمية",
+  "tagline": "تحليل فوري لنتائج الاختبارات عبر قلم ذكي — ردم الفجوات التعليمية بدقة 4096 مستوى",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — تحليل أداء الطلاب وتحديد الف",
-    "subtitle": "ت](./ colors=#f59e0b) ت](./ analysis, support decision-makers & educators"
+    "title": "تطبيق قلم الأكاديمية — تحليل الفجوات التعليمية",
+    "subtitle": "تحليل فوري لنتائج الاختبارات عبر قلم ذكي — ردم الفجوات التعليمية بدقة 4096 مستوى"
   },
   "categories": [
-    "النتائج الدراسية",
-    "المناهج",
-    "المواسم الدراسية",
-    "المناطق الجغرافية"
+    "تحليل النتائج",
+    "نقاط الضعف",
+    "تقييم المناهج",
+    "دعم المهارات"
   ],
   "items": [
     {
-      "title": "تقييم الطلاب based on mid-term and final exam results",
-      "desc": "Analyzes student performance based on mid-term and final exam results to identify learning gaps",
-      "price": "750 ر.س",
-      "icon": "bar_chart",
-      "badge": "مفصل"
+      "title": "تقرير تحليلي شامل",
+      "desc": "تحليل متعمق لنتائج الاختبارات النصفية والنهائية مع خرائط حرارية لمناطق الضعف",
+      "price": "350 ر.س",
+      "icon": "bar-chart-2",
+      "badge": "معتمد"
     },
     {
-      "title": "تقييم فعالية المناهج",
-      "desc": "Evaluates the effectiveness of the curriculum based on student performance",
+      "title": "ورشة تحسين المناهج",
+      "desc": "توصيات مخصصة لتعديل المناهج بناءً على بيانات الأداء الجماعي",
       "price": "1200 ر.س",
-      "icon": "book",
-      "badge": "عالي"
+      "icon": "book-open",
+      "badge": "فوري"
     },
     {
-      "title": "تقييم المواد أو المهارات التي تحتاج إلى دعم إضافي",
-      "desc": "Identifies subjects or skills that require additional support based on student performance",
-      "price": "950 ر.س",
-      "icon": "lightbulb",
-      "badge": "مبتكر"
+      "title": "حزمة دعم المهارات",
+      "desc": "تمارين تفاعلية عبر القلم الذكي لسد الفجوات في المواد العلمية",
+      "price": "220 ر.س",
+      "icon": "trello",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5398a4f",
+  "commit_hash": "5362d2e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1289432",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "BLE Beacon: RSSI -78 dBm | Smart Stylus Digitizer: Pressure 1247 Pa, Tilt 34°/17°"
+    "telemetry_preview": "BLE Beacon: 3m | Stylus Pressure: 2048/4096 | Tilt: 17°"
   }
 }
