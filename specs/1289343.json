@@ -2,8 +2,8 @@
   "project_id": "1289343",
   "repo_name": "sakan-lidar-real-estate-1289343",
   "repo_url": "https://github.com/hmoushim0-cloud/sakan-lidar-real-estate-1289343",
-  "app_name": "تطبيق سكن ثلاثي الأبعاد — عمل heat map لمخطط كاميرات —",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "مخطط عدسة — نظام خرائط حرارية لتصميم المراقبة العقارية",
+  "tagline": "تحليل تغطية الكاميرات ثلاثية الأبعاد لتصميم المساحات الذكية باستخدام LiDAR",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق سكن ثلاثي الأبعاد — عمل heat map لمخطط كاميرات —",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "مخطط عدسة — نظام خرائط حرارية لتصميم المراقبة العقارية",
+    "subtitle": "تحليل تغطية الكاميرات ثلاثية الأبعاد لتصميم المساحات الذكية باستخدام LiDAR"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم المساحات",
+    "تحليل التغطية",
+    "إدارة الكاميرات",
+    "تقارير الحرارة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
+      "title": "مسح حراري ثلاثي الأبعاد",
+      "desc": "توليد خرائط حرارية من بيانات LiDAR وMatterport Pro3 مع تحديد مناطق التغطية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "دمج نقاط الواي فاي",
+      "desc": "ربط نقاط الوصول اللاسلكية مع مواقع الكاميرات لتحليل التداخل",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحسين مواقع الكاميرات",
+      "desc": "خوارزمية ذكية لإعادة توزيع 11 كاميرا بناءً على الخريطة الحرارية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d67e959",
+  "commit_hash": "6c60b95",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sakan-lidar-real-estate-1289343",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 360° spatial scan | Matterport: 98% capture density | WiFi Nodes: 11 active"
   }
 }
