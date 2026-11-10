@@ -2,8 +2,8 @@
   "project_id": "1289512",
   "repo_name": "multaqa-hub-coworking-1289512",
   "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289512",
-  "app_name": "تطبيق ملتقى الأعمال — مطلوب 3 مساعدين لإدخال البيا",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "مورووجا — إدارة مساحات العمل المشتركة",
+  "tagline": "وصول آمن بتقنية RFID وتوثيق TOTP لتعزيز إنتاجية فرق العمل",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ملتقى الأعمال — مطلوب 3 مساعدين لإدخال البيا",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "مورووجا — إدارة مساحات العمل المشتركة",
+    "subtitle": "وصول آمن بتقنية RFID وتوثيق TOTP لتعزيز إنتاجية فرق العمل"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مساحات عمل",
+    "خدمات مكتبية",
+    "عضويات",
+    "حجوزات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "دخول RFID",
+      "desc": "تفعيل بوابات الدخول عبر بطاقات RFID 13.56 MHz مع تتبع الوقت الفعلي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تمريرة TOTP يومية",
+      "desc": "توليد رموز دخول مؤقتة مشفرة لمرة واحدة عبر تطبيق المصادقة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة بيانات فريق",
+      "desc": "لوحة تحكم لمراقبة نشاط الفريق عبر تلفيات RFID وتسجيل الدخول",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "1da6033",
+  "commit_hash": "151c57f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "multaqa-hub-coworking-1289512",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56 MHz: UID 0x24DE | TOTP Auth: 2FA-7294-OK | Door Status: OPEN 0.8s"
   }
 }
