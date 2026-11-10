@@ -2,8 +2,8 @@
   "project_id": "1289591",
   "repo_name": "injaz-care-services-1289591",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289591",
-  "app_name": "تطبيق إنجاز للخدمات — إعادة تصميم شعار — شعار شبه",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق مدار الدفع — خدمات ذكية مع NFC وGPS",
+  "tagline": "خدمات ذكية مدعومة بتقنية NFC وGPS لتجربة دفع وتوصيل سلسة",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — إعادة تصميم شعار — شعار شبه",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مدار الدفع — خدمات ذكية مع NFC وGPS",
+    "subtitle": "خدمات ذكية مدعومة بتقنية NFC وGPS لتجربة دفع وتوصيل سلسة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الدفع الإلكتروني",
+    "تتبع المركبات",
+    "إدارة الطلبات",
+    "دعم العملاء"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تفعيل نقطة دفع NFC",
+      "desc": "تهيئة قارئ Mada EMV L2 مع شهادة امتثال PCI-DSS",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "اشتراك تتبع GPS شهري",
+      "desc": "مراقبة مباشرة للمركبات مع تحليل مسارات عبر خوارزميات التوجيه",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تعديل وتصدير الشعارات",
+      "desc": "إعادة رسم المتجهات بدقة 4000ppi مع ملفات المصدر القابلة للتعديل",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "cae950d",
+  "commit_hash": "2003b96",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289591",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "GPS: 24.7136°N, 46.6753°E | NFC: MADA-EMV-L2-TXN-001 | Dispatch: Active"
   }
 }
