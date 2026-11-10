@@ -2,8 +2,8 @@
   "project_id": "1290886",
   "repo_name": "rawasi-proptech-real-estate",
   "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate",
-  "app_name": "تطبيق رواسي للأملاك — تطوير منصة عقارية ودليل خدما",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "عقار سكن — منصة عقارية مع مسح ثلاثي الأبعاد فوري",
+  "tagline": "مسح مكاني فوري بتقنية LiDAR — دليل خدمات عقارية ذكي",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رواسي للأملاك — تطوير منصة عقارية ودليل خدما",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "عقار سكن — منصة عقارية مع مسح ثلاثي الأبعاد فوري",
+    "subtitle": "مسح مكاني فوري بتقنية LiDAR — دليل خدمات عقارية ذكي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "عقارات سكنية",
+    "عقارات تجارية",
+    "خدمات صيانة",
+    "تصميم داخلي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "مسح ثلاثي الأبعاد فوري",
+      "desc": "مسح مكاني باستخدام LiDAR وMatterport Pro3 مع نمذجة سحابية خلال 60 دقيقة",
+      "price": "350 ر.س",
+      "icon": "scanner",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير تقييم عقاري معتمد",
+      "desc": "تقييم احترافي مع تحليل بيانات السوق عبر خوارزميات ذكية",
+      "price": "480 ر.س",
+      "icon": "file-text",
+      "badge": "معتمد"
+    },
+    {
+      "title": "تصميم داخلي افتراضي",
+      "desc": "محاكاة ثلاثية الأبعاد للتأثيث باستخدام بيانات المسح المكاني",
+      "price": "650 ر.س",
+      "icon": "layout",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "9ad4f7b",
+  "commit_hash": "0e72e02",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290886_ios_03.png"
     }
   ],
-  "detailed_desc": "تطوير منصة عقارية ودليل خدمات MVP (Next.js & Node.js). نبحث عن مطور متكامل (Full-Stack Developer) لتطوير النسخة الأولية (MVP) لمنصة عقارية ودليل خدمات متكامل (شبيهة بمنصات العقار مع دليل خدمات مهنية). الميزات الأساسية المطلوب برمجتها: نظام العقارات: عرض العقارات (بيع/إيجار)، فلاتر بحث متقدمة (السعر، الموقع، المساحة، الغرف)، وتكامل مع خرائط جوجل. دل",
+  "detailed_desc": "تطوير منصة عقارية ودليل خدمات MVP (Next.js & Node.js) — نبحث عن مطور متكامل (Full-Stack Developer) لتطوير النسخة الأولية (MVP) لمنصة عقارية ودليل خدمات متكامل (شبيهة بمنصات العقار مع دليل خدمات مهنية). الميزات الأساسية المطلوب برمجتها: نظام العقارات: عرض العقارات (بيع/إيجار)، فلاتر بحث متقدمة (السعر، المو",
   "domain_data": {
     "repo_name": "rawasi-proptech-real-estate",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 1200 pts/sec | Matterport: 98% Spatial Accuracy | RGB: 14MP"
   }
 }
