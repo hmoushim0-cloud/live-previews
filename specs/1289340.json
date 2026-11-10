@@ -2,8 +2,8 @@
   "project_id": "1289340",
   "repo_name": "riwaq-desk-coworking-1289340",
   "repo_url": "https://github.com/hmoushim0-cloud/riwaq-desk-coworking-1289340",
-  "app_name": "تطبيق رواق المشترك — إنشاء نظام إدارة مكتبة لتنظي",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "مكتبة مدى — نظام إدارة المكتبات الذكي مع RFID",
+  "tagline": "نظام إدارة مكتبات ذكي مع بوابات RFID وتصاريح TOTP للوصول الفوري إلى مساحات العمل المشتركة",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق رواق المشترك — إنشاء نظام إدارة مكتبة لتنظي",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "مكتبة مدى — نظام إدارة المكتبات الذكي مع RFID",
+    "subtitle": "نظام إدارة مكتبات ذكي مع بوابات RFID وتصاريح TOTP للوصول الفوري إلى مساحات العمل المشتركة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الكتب",
+    "الأعضاء",
+    "الإعارات",
+    "التقارير"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "تفعيل بوابة RFID",
+      "desc": "تكوين بوابات الوصول بتردد 13.56 ميجاهرتز مع تكامل نظام إدارة المكتبات",
+      "price": "450 ر.س",
+      "icon": "radar",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تصاريح TOTP ديناميكية",
+      "desc": "توليد رموز مرور مؤقتة للوصول إلى مناطق المكتبة المحمية",
+      "price": "120 ر.س",
+      "icon": "key",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة عضوية شهرية",
+      "desc": "وصول غير محدود إلى الكتب ومساحات العمل المشتركة مع تتبع الإعارات",
+      "price": "299 ر.س",
+      "icon": "book-open",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2b3ffb0",
+  "commit_hash": "67b84e8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "riwaq-desk-coworking-1289340",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz: UID 0x2A | TOTP Auth: 2023-10-05T14:30:00Z"
   }
 }
