@@ -2,46 +2,46 @@
   "project_id": "1290871",
   "repo_name": "mizan-pos-pos-cashier-1290871",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1290871",
-  "app_name": "تطبيق ميزان نقاط البيع — تخصيص تطبيق والمساعدة فى نشر",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-  "preset": "pos_cashier",
-  "layout_type": "pos_cashier",
-  "layoutArchetype": "pos_cashier",
+  "app_name": "سفار تأجير السيارات — نظام إدارة المركبات الذكي",
+  "tagline": "إدارة أسطول ذكية مع تشخيص OBD-II فوري ومفتاح رقمي عبر BLE",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — تخصيص تطبيق والمساعدة فى نشر",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "سفار تأجير السيارات — نظام إدارة المركبات الذكي",
+    "subtitle": "إدارة أسطول ذكية مع تشخيص OBD-II فوري ومفتاح رقمي عبر BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة الأسطول",
+    "تأجير يومي",
+    "صيانة وقائية",
+    "مفاتيح رقمية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "تقرير صحة المركبة",
+      "desc": "تحليل فوري لبيانات CAN-Bus مع تنبيهات استهلاك الوقود وانبعاثات العادم",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "فتح باب السيارة عن بعد",
+      "desc": "وصول بدون مفتاح عبر BLE مع التحقق من بصمة السائق",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة تأجير يومي",
+      "desc": "باقة تشمل تأمين شامل ورصد موقع GPS في الوقت الفعلي",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "pos_cashier",
-      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "status": "active"
     }
   ],
-  "commit_hash": "76a2e98",
+  "commit_hash": "012e18e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1290871_02.png",
-      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1290871_ios_03.png"
     }
   ],
-  "detailed_desc": "تخصيص تطبيق والمساعدة فى نشره. وصف المشروع: تخصيص تطبيق White Label والمساعدة في نشره نظرة عامة على المشروع أمتلك تطبيقا (أو منصة) بنظام White Label وأحتاج إلى مستقل محترف لمساعدتي في إكمال تخصيص العلامة التجارية (Branding) والاستعدادات التقنية اللازمة قبل النشر، بالإضافة إلى المساعدة في رفع التطبيق ونشره على متجر Apple App Store و Google Play Stor",
+  "detailed_desc": "تخصيص تطبيق والمساعدة فى نشره — وصف المشروع: تخصيص تطبيق White Label والمساعدة في نشره نظرة عامة على المشروع أمتلك تطبيقا (أو منصة) بنظام White Label وأحتاج إلى مستقل محترف لمساعدتي في إكمال تخصيص العلامة التجارية (Branding) والاستعدادات التقنية اللازمة قبل النشر، بالإضافة إلى المس",
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1290871",
-    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II PID 0100: RPM 1800 | BLE Key Fob: Signal Strength -85 dBm"
   }
 }
