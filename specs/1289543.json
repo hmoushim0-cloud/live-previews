@@ -2,8 +2,8 @@
   "project_id": "1289543",
   "repo_name": "sanad-tech-services-1289543",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1289543",
-  "app_name": "تطبيق سند الفني — تحويل كتاب التأسيس المعاصر ١",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق تأسيس — خدمات رقمية معتمدة عبر NFC",
+  "tagline": "إدارة خدمات التأسيس الذكية مع دفع NFC الآمن وتتبع GPS المباشر",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق سند الفني — تحويل كتاب التأسيس المعاصر ١",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق تأسيس — خدمات رقمية معتمدة عبر NFC",
+    "subtitle": "إدارة خدمات التأسيس الذكية مع دفع NFC الآمن وتتبع GPS المباشر"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "استشارات تأسيسية",
+    "تحرير تقني",
+    "تدريب معتمد",
+    "توثيق رقمي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "حزمة استشارية شاملة",
+      "desc": "تحليل وتصميم حلول تأسيسية مع تقارير رقمية عبر NFC",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحرير فني متخصص",
+      "desc": "معالجة محتوى تقني مع توثيق GPS لضمان الأصالة",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "توثيق رقمي آمن",
+      "desc": "تحويل المحتوى الورقي إلى صيغ رقمية مشفرة عبر NFC",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d42d635",
+  "commit_hash": "7e181b9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sanad-tech-services-1289543",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "MADA NFC: TXN 0x01 | GPS: 24.7136° N, 46.6753° E"
   }
 }
