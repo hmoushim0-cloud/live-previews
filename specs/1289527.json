@@ -2,8 +2,8 @@
   "project_id": "1289527",
   "repo_name": "maher-field-services-1289527",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289527",
-  "app_name": "تطبيق ماهر الميداني — تغيير تصميم موقع ليتناسب مع",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق مدى للخدمات الذكية — حلول دفع وتوصيل فورية",
+  "tagline": "ربط ذكي بين تقنية NFC و GPS لخدمات دفع فورية وتوصيل دقيق",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — تغيير تصميم موقع ليتناسب مع",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مدى للخدمات الذكية — حلول دفع وتوصيل فورية",
+    "subtitle": "ربط ذكي بين تقنية NFC و GPS لخدمات دفع فورية وتوصيل دقيق"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الدفع الإلكتروني",
+    "التوصيل السريع",
+    "خدمات NFC",
+    "الدعم الفني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تفعيل NFC مدى",
+      "desc": "تهيئة قارئ NFC لعمليات الدفع بدون تماس مع شهادة EMV L2",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "اشتراك شهري للتوصيل",
+      "desc": "تتبع GPS في الوقت الفعلي لأسطول التوصيل مع تحليل المسارات",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "دعم فني عن بعد",
+      "desc": "تشخيص مشاكل الأجهزة عبر نظام التذاكر الذكي",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "77a574f",
+  "commit_hash": "8011278",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maher-field-services-1289527",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: 0x00A4 0000000000 | GPS: 24.7136°N 46.6753°E"
   }
 }
