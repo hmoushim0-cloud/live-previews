@@ -2,8 +2,8 @@
   "project_id": "1290500",
   "repo_name": "bunyan-deeds-real-estate",
   "repo_url": "https://github.com/hmoushim0-cloud/bunyan-deeds-real-estate",
-  "app_name": "تطبيق بنيان للصكوك — مصمم ومطور محترف لبناء Landi",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "سقارة ثلاثية الأبعاد — جولات عقارية افتراضية بتقنية LiDAR",
+  "tagline": "مسح مكاني سينمائي بتقنية LiDAR 360° مع Matterport Pro3 — تحويل العقارات إلى تجارب غامرة",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق بنيان للصكوك — مصمم ومطور محترف لبناء Landi",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "سقارة ثلاثية الأبعاد — جولات عقارية افتراضية بتقنية LiDAR",
+    "subtitle": "مسح مكاني سينمائي بتقنية LiDAR 360° مع Matterport Pro3 — تحويل العقارات إلى تجارب غامرة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "جولات افتراضية",
+    "مسح ثلاثي الأبعاد",
+    "تصوير عقاري",
+    "تحليل مساحي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مسح LiDAR كامل",
+      "desc": "مسح مكاني دقيق بتقنية LiDAR 360° مع خرائط نقطية ملونة ودقة 2سم",
+      "price": "450 ر.س",
+      "icon": "radar",
+      "badge": "دقة عالية"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "جولة Matterport غامرة",
+      "desc": "جولة افتراضية تفاعلية مع نقاط ساخنة قابلة للنقر وتكامل الواقع المعزز",
+      "price": "780 ر.س",
+      "icon": "globe",
+      "badge": "سينمائي"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليل مساحي ذكي",
+      "desc": "تقرير مساحة تلقائي مع قياسات غرف وتصورات طابقية قابلة للتصدير",
+      "price": "220 ر.س",
+      "icon": "ruler",
+      "badge": "تقرير فوري"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5c22a77",
+  "commit_hash": "61e4ad8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290500_ios_03.png"
     }
   ],
-  "detailed_desc": "مصمم ومطور محترف لبناء Landing Page سينمائية وموقع تعريفي على Systeme.io. أبحث عن مصمم UI/UX ومطور مواقع محترف لديه خبرة مثبتة في Figma وSysteme.io لتصميم وتنفيذ Landing Page احترافية عالية الجودة، بالإضافة إلى موقع تعريفي متعدد الصفحات لمشروع بسيط جدا. الأولوية الأولى والأهم هي Landing Page، لأننا سنستخدمها لاستقبال الزوار القادمين من الإعلانات ال",
+  "detailed_desc": "مصمم ومطور محترف لبناء Landing Page سينمائية وموقع تعريفي على Systeme.io — أبحث عن مصمم UI/UX ومطور مواقع محترف لديه خبرة مثبتة في Figma وSysteme.io لتصميم وتنفيذ Landing Page احترافية عالية الجودة، بالإضافة إلى موقع تعريفي متعدد الصفحات لمشروع بسيط جدا. الأولوية الأولى والأهم هي Landing Page، لأننا سنستخدمها لاستقبال الزوا",
   "domain_data": {
     "repo_name": "bunyan-deeds-real-estate",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 1200 pts/m² @ 5m | Matterport: 4K RGB + IR Depth Map | Accuracy: ±1.5cm"
   }
 }
