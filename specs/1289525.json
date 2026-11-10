@@ -2,8 +2,8 @@
   "project_id": "1289525",
   "repo_name": "injaz-care-services-1289525",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289525",
-  "app_name": "تطبيق إنجاز للخدمات — مطلوب مختص إعلانات ممولة محت",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "سقار للإعلانات الممولة — إدارة الحملات الإعلانية باحترافية",
+  "tagline": "استهداف دقيق عبر NFC والموقع الجغرافي لتحقيق أعلى عائد استثماري",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — مطلوب مختص إعلانات ممولة محت",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "سقار للإعلانات الممولة — إدارة الحملات الإعلانية باحترافية",
+    "subtitle": "استهداف دقيق عبر NFC والموقع الجغرافي لتحقيق أعلى عائد استثماري"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة الحملات",
+    "استهداف الجمهور",
+    "تحليل النتائج",
+    "تدريب إعلاني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "إدارة حملة تيك توك",
+      "desc": "إنشاء وإدارة حملات تيك توك مع تحسين مستمر وتحليل أداء يومي",
+      "price": "1500 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "استهداف جمهور انستقرام",
+      "desc": "استهداف دقيق عبر بيانات الموقع الجغرافي وNFC لجمهور انستقرام",
+      "price": "2200 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليل أداء الحملات",
+      "desc": "تقارير فورية مع توصيات تحسين باستخدام بيانات GPS وMada NFC",
+      "price": "995 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "14cebe6",
+  "commit_hash": "dd7e0d9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289525",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC Transaction: MADAEV-L2 | GPS: 24.7136° N, 46.6753° E"
   }
 }
