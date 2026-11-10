@@ -2,8 +2,8 @@
   "project_id": "1290939",
   "repo_name": "fawri-pay-pos-cashier",
   "repo_url": "https://github.com/hmoushim0-cloud/fawri-pay-pos-cashier",
-  "app_name": "تطبيق فوري باي — مطور Shopify محترف لتصميم وت",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "تطبيق تَيَّار — نظام نقاط البيع الذكي لمتاجر الأزياء",
+  "tagline": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتجربة بيع فورية",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق فوري باي — مطور Shopify محترف لتصميم وت",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "تطبيق تَيَّار — نظام نقاط البيع الذكي لمتاجر الأزياء",
+    "subtitle": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتجربة بيع فورية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "ملابس نسائية",
+    "ملابس رجالية",
+    "إكسسوارات",
+    "عروض خاصة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "إعداد متجر Shopify متعدد اللغات",
+      "desc": "تخصيص واجهة متجاوبة مع دعم العربية كلغة افتراضية وتكامل بوابات الدفع المحلية",
+      "price": "1500 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب طاقم المبيعات على النظام",
+      "desc": "جلسة عملية لمدة ساعتين لتشغيل الطابعة الحرارية وماسح الباركود مع إدارة المخزون",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة تحليلات المبيعات المتقدمة",
+      "desc": "لوحة تحكم حية مع تقارير مبيعات يومية متكاملة مع أجهزة نقاط البيع",
+      "price": "950 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e26627a",
+  "commit_hash": "3929a66",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290939_ios_03.png"
     }
   ],
-  "detailed_desc": "مطور Shopify محترف لتصميم وتجهيز متجر أزياء إلكتروني متكامل. المهام المطلوبة: تصميم وتنسيق واجهة المتجر بشكل احترافي ومتوافق مع الجوال والكمبيوتر. إعداد القالب وتخصيص الصفحات الرئيسية وصفحات المنتجات. تنظيم الأقسام والتصنيفات والقوائم الفرعية. إعداد المتجر باللغتين العربية والإنجليزية، مع جعل العربية اللغة الأساسية. ضبط إعدادات المتجر الأساسية بشكل",
+  "detailed_desc": "مطور Shopify محترف لتصميم وتجهيز متجر أزياء إلكتروني متكامل — المهام المطلوبة: تصميم وتنسيق واجهة المتجر بشكل احترافي ومتوافق مع الجوال والكمبيوتر. إعداد القالب وتخصيص الصفحات الرئيسية وصفحات المنتجات. تنظيم الأقسام والتصنيفات والقوائم الفرعية. إعداد المتجر باللغتين العربية والإنجليزية، مع جعل العربية اللغة الأ",
   "domain_data": {
     "repo_name": "fawri-pay-pos-cashier",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 200mm/s | Barcode: 390 scans/hr | Thermal Head: 25°C"
   }
 }
