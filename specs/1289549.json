@@ -2,8 +2,8 @@
   "project_id": "1289549",
   "repo_name": "wathiq-najiz-legal-consulting-1289549",
   "repo_url": "https://github.com/hmoushim0-cloud/wathiq-najiz-legal-consulting-1289549",
-  "app_name": "تطبيق وثيق القانونية — البحث عن وظائف وتوفير عقود ع",
-  "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+  "app_name": "تطبيق توثيق النجيز — عقود عمل موثقة للفيزا",
+  "tagline": "عقود عمل موثقة مع حماية HSM مشفرة — بحث آمن وموثوق",
   "preset": "legal_consulting",
   "layout_type": "legal_consulting",
   "layoutArchetype": "legal_consulting",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق وثيق القانونية — البحث عن وظائف وتوفير عقود ع",
-    "subtitle": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token"
+    "title": "تطبيق توثيق النجيز — عقود عمل موثقة للفيزا",
+    "subtitle": "عقود عمل موثقة مع حماية HSM مشفرة — بحث آمن وموثوق"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "عقود عمل",
+    "خدمات فيزا",
+    "توثيق قانوني",
+    "استشارات توظيف"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع FIPS 140-2 Cryptographic HSM Security Token",
-      "price": "180 ر.س",
+      "title": "عقد عمل موثق بريميوم",
+      "desc": "عقد عمل معتمد من جهات قانونية مع ختم HSM رقمي غير قابل للتزوير",
+      "price": "450 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "خدمة فيزا عاجلة",
+      "desc": "توفير عقد عمل خلال 72 ساعة مع أولوية التحقق عبر HSM",
+      "price": "750 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة توثيق أساسية",
+      "desc": "توثيق عقد عمل موجود مع تقرير سلامة HSM مشفر",
+      "price": "220 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d474ab2",
+  "commit_hash": "6caf95f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "wathiq-najiz-legal-consulting-1289549",
     "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
-    "telemetry_preview": "FIPS 140-2 Cryptographic HSM Security Token: ONLINE | READY"
+    "telemetry_preview": "HSM: AES-256 Encryption Active | FIPS 140-2 Compliance | Key Health: 100%"
   }
 }
