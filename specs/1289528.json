@@ -2,8 +2,8 @@
   "project_id": "1289528",
   "repo_name": "itqan-dispatch-services-1289528",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289528",
-  "app_name": "تطبيق إتقان للصيانة — استفسار لمهندسي البرمجيات وا",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق حارس الصحة الذكي — رفيق المراهقين الموثوق",
+  "tagline": "ذكاء اصطناعي مدعوم بـ RAG مع حماية NFC و GPS فورية",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — استفسار لمهندسي البرمجيات وا",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق حارس الصحة الذكي — رفيق المراهقين الموثوق",
+    "subtitle": "ذكاء اصطناعي مدعوم بـ RAG مع حماية NFC و GPS فورية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "استشارات طبية ذكية",
+    "تتبع الصحة النفسي",
+    "تثقيف وقائي",
+    "طوارئ آمنة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "استشارة RAG فائقة",
+      "desc": "تحليل أعراض مدعوم بقاعدة بيانات طبية محكمة مع مشغل أمان فوري",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع موقع طبي",
+      "desc": "إرسال GPS مشفر لجهات الاتصال الموثوقة عبر NFC عيادة مادا",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة دعم المراهقين",
+      "desc": "أدوات نفسية تفاعلية مع تحديثات RAG أسبوعية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "4640dfd",
+  "commit_hash": "928c522",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289528",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada NFC: EMV L2 Auth | GPS: 24.713°N 46.675°E | Safety Trigger: 87% Confidence"
   }
 }
