@@ -2,8 +2,8 @@
   "project_id": "1289289",
   "repo_name": "fawri-pay-pos-cashier-1289289",
   "repo_url": "https://github.com/hmoushim0-cloud/fawri-pay-pos-cashier-1289289",
-  "app_name": "تطبيق فوري باي — مصمم و مسؤول سوشيال ميديا —",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "تطبيق تسويق المحترف — إدارة المبيعات و السوشيال ميديا",
+  "tagline": "نظام متكامل لإدارة المبيعات و السوشيال ميديا مع طباعة فواتير فورية و مسح الباركود",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق فوري باي — مصمم و مسؤول سوشيال ميديا —",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "تطبيق تسويق المحترف — إدارة المبيعات و السوشيال ميديا",
+    "subtitle": "نظام متكامل لإدارة المبيعات و السوشيال ميديا مع طباعة فواتير فورية و مسح الباركود"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم سوشيال ميديا",
+    "إدارة الحسابات",
+    "تصميم منتجات",
+    "تقارير شهرية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "باقة تصميم النخبة",
+      "desc": "25 تصميم احترافي شهرياً مع تحليل أداء الحملات",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "حزمة تصميم المنتجات",
+      "desc": "تصميم عبوات مع دمج الباركود الحراري",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تخصيص نقطة البيع",
+      "desc": "تخصيص واجهة POS مع إشعارات السوشيال ميديا",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "eaac879",
+  "commit_hash": "28e5ab7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "fawri-pay-pos-cashier-1289289",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 200mm Receipt Printed | Barcode: 1234567890 Scanned"
   }
 }
