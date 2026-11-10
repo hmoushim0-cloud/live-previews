@@ -2,8 +2,8 @@
   "project_id": "1289526",
   "repo_name": "maher-field-services-1289526",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289526",
-  "app_name": "تطبيق ماهر الميداني — تطوير منصة SaaS جزائرية لإدا",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "منصة مدار التجاري — إدارة متكاملة للتجارة الإلكترونية والتوصيل في الجزائر",
+  "tagline": "إدارة ذكية للطلبات والمدفوعات عبر NFC وGPS — حلول تجارة إلكترونية مصممة للتجار الجزائريين",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — تطوير منصة SaaS جزائرية لإدا",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة مدار التجاري — إدارة متكاملة للتجارة الإلكترونية والتوصيل في الجزائر",
+    "subtitle": "إدارة ذكية للطلبات والمدفوعات عبر NFC وGPS — حلول تجارة إلكترونية مصممة للتجار الجزائريين"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة الطلبات",
+    "بوابة الدفع الإلكتروني",
+    "تتبع التوصيل",
+    "تحليلات المبيعات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "حزمة البداية السريعة",
+      "desc": "إعداد متجر إلكتروني متكامل مع تدريب على إدارة الطلبات عبر منصات التواصل الاجتماعي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "بوابة دفع NFC متكاملة",
+      "desc": "دمج مدفوعات مادّة Contactless EMV L2 مع نظام إدارة المخزون في الوقت الفعلي",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليلات المبيعات المتقدمة",
+      "desc": "لوحة تحكم ذكية مع خرائط حرارية لمناطق الطلب وتوقعات المخزون باستخدام GPS Dispatch",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "4399e2e",
+  "commit_hash": "1dd04d4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maher-field-services-1289526",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: معاملة معتمدة | GPS: 36.77°N, 3.06°E - سرعة: 22 كم/س"
   }
 }
