@@ -2,7 +2,7 @@
   "project_id": "1290594",
   "repo_name": "rekab-telematics-car-rental-1290594",
   "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1290594",
-  "app_name": "تطبيق ركاب الذكي — مبرمج باك اند لتنفيذ مشروع و",
+  "app_name": "rekab-telematics-car-rental-1290594",
   "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
   "preset": "car_rental",
   "layout_type": "car_rental",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ركاب الذكي — مبرمج باك اند لتنفيذ مشروع و",
+    "title": "rekab-telematics-car-rental-1290594",
     "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ea56693",
+  "commit_hash": "3325d2b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,7 +105,7 @@
       "path": "shots/1290594_ios_03.png"
     }
   ],
-  "detailed_desc": "مبرمج باك اند لتنفيذ مشروع ويب إلكتروني توصيل سيارات للأفراد. فكرة المشروع هي تطبيق توصيل سيارات للافراد بدون محفظه وبدون بوابات دفع بحيث الدفع يكون خارج المنصه وايضا يوجد دفع بالنقاط. حيث ان تصميم المشروع جاهز بواسطة فيجما لنسخة الويب و نسخة الموبايل وسيرسل للجادين وذو الخبره والتقييمات العاليه فقط و حيث ان مبرمج الفرونت اند جاهز للعمل. والذي ستقو",
+  "detailed_desc": "مبرمج باك اند لتنفيذ مشروع ويب إلكتروني توصيل سيارات للأفراد — فكرة المشروع هي تطبيق توصيل سيارات للافراد بدون محفظه وبدون بوابات دفع بحيث الدفع يكون خارج المنصه وايضا يوجد دفع بالنقاط. حيث ان تصميم المشروع جاهز بواسطة فيجما لنسخة الويب و نسخة الموبايل وسيرسل للجادين وذو الخبره والتقييمات العاليه فقط و حيث ان مب",
   "domain_data": {
     "repo_name": "rekab-telematics-car-rental-1290594",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
