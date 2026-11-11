@@ -2,46 +2,61 @@
   "project_id": "1290763",
   "repo_name": "sanad-tech-services-1290763",
   "repo_url": "https://github.com/hmoushim0-cloud/sanad-tech-services-1290763",
-  "app_name": "تطبيق سفراء الذكاء — منصة سياحية ذكية مع مدفوعات NFC",
-  "tagline": "مدفوعات فورية بمادا NFC وتتبع GPS لتجربة سياحية ذكية",
+  "app_name": "تطبيق سند الفني — إدارة الخدمات الميدانية والصيانة الذكية",
+  "tagline": "إدارة أوامر العمل الميدانية مع تحصيل فوري عبر Mada Contactless EMV L2 NFC وتوجيه ذكي عبر GPS",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#0284c7",
+    "accent_color": "#0369a1"
   },
   "banner": {
-    "title": "تطبيق سفراء الذكاء — منصة سياحية ذكية مع مدفوعات NFC",
-    "subtitle": "مدفوعات فورية بمادا NFC وتتبع GPS لتجربة سياحية ذكية"
+    "title": "تطبيق سند الفني — إدارة الخدمات الميدانية والصيانة الذكية",
+    "subtitle": "إدارة أوامر العمل الميدانية مع تحصيل فوري عبر Mada Contactless EMV L2 NFC وتوجيه ذكي عبر GPS"
   },
   "categories": [
-    "جولات تراثية",
-    "مغامرات صحراوية",
-    "حجوزات فندقية",
-    "مواصلات خاصة"
+    "صيانة كهربائية",
+    "سباكة وتمديدات",
+    "تكييف وتبريد",
+    "شبكات وكاميرات",
+    "فحص شامل"
   ],
   "items": [
     {
-      "title": "جولة تراثية مع مرشد AI",
-      "desc": "جولة تفاعلية باستخدام الذكاء الاصطناعي مع مدفوعات NFC فورية عبر مادا",
-      "price": "220 ر.س",
-      "icon": "landmark",
-      "badge": "ذكي"
+      "title": "صيانة طارئة للوحة التوزيع الكهربائية",
+      "desc": "فحص الأحمال وقياس الجهد وتبديل القواطع التالفة مع تحصيل فوري عبر بطاقات مدى",
+      "price": "180.0 ر.س",
+      "icon": "zap",
+      "badge": "طوارئ"
     },
     {
-      "title": "سفاري صحراوي مع تتبع GPS",
-      "desc": "مغامرة صحراوية مع نظام ملاحة GPS مدمج ودفع بدون اتصال",
-      "price": "380 ر.س",
-      "icon": "compass",
-      "badge": "فوري"
+      "title": "صيانة دورية وتعبئة غاز التكييف",
+      "desc": "فحص دورة التبريد وضغط الفريون وتنظيف الفلاتر مع اعتماد تقرير الفحص الميداني",
+      "price": "250.0 ر.س",
+      "icon": "tool",
+      "badge": "مجدول"
     },
     {
-      "title": "حجز فندقي فوري",
-      "desc": "تأكيد حجز فندقي خلال 60 ثانية عبر واجهة No-code",
-      "price": "110 ر.س",
-      "icon": "key",
-      "badge": "جديد"
+      "title": "كشف وإصلاح تسريبات المياه الرقمي",
+      "desc": "استخدام أجهزة الفحص الصوتي والأشعة لتحديد موقع التسريب دون تكسير",
+      "price": "320.0 ر.س",
+      "icon": "droplet",
+      "badge": "معتمد"
+    },
+    {
+      "title": "تمديد وتركيب شبكات المراقبة IP",
+      "desc": "تركيب وبرمجة كاميرات المراقبة وربط مسجل NVR بشبكة المالك مباشرة",
+      "price": "450.0 ر.س",
+      "icon": "video",
+      "badge": "أمن وسلامة"
+    },
+    {
+      "title": "تحصيل ميداني فوري عبر مدى Contactless",
+      "desc": "دفع آمن وسريع عبر رقاقة NFC لبطاقات مدى وأبل باي مع طباعة الإيصال الرقمي",
+      "price": "95.0 ر.س",
+      "icon": "credit-card",
+      "badge": "عتاد متصل"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
+      "label": "العتاد الميداني",
       "icon": "activity"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الفاتورة",
+      "icon": "file-text"
     }
   ],
   "sensors": [
@@ -73,42 +83,36 @@
       "status": "active"
     }
   ],
-  "commit_hash": "844d8dc",
+  "commit_hash": "6f543c4",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة تطبيق سند الفني الرئيسية",
       "path": "shots/1290763_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "شاشة العتاد الميداني وحساسات NFC وGPS",
       "path": "shots/1290763_02.png",
       "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "شاشة الفاتورة والدفع الرقمي عبر مدى",
       "path": "shots/1290763_03.png",
       "fallback": "Real-time Telemetry OK"
     }
   ],
   "proof_screenshots_ios": [
     {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "title": "واجهة iOS الرئيسية لإدارة الخدمات",
       "path": "shots/1290763_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "title": "واجهة iOS لعتاد التحصيل والتوجيه",
       "path": "shots/1290763_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "title": "واجهة iOS لفاتورة الدفع عبر مدى وأبل باي",
       "path": "shots/1290763_ios_03.png"
     }
-  ],
-  "detailed_desc": "مطور AI وNo-code لتحسين موقع وتطبيق سياحي — نبحث عن مطور لديه خبرة في استخدام أدوات الذكاء الاصطناعي وNo-code لتطوير وتحسين منصة سياحية قائمة. المهام: - مراجعة الموقع والتطبيق الحالي. - تحسين واجهة المستخدم وتجربة الحجز. - ربط نماذج طلب الرحلات بقاعدة البيانات. - إصلاح الأخطاء وتحسين الوظائف ا",
-  "domain_data": {
-    "repo_name": "sanad-tech-services-1290763",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "NFC Tap: Mada EMV L2 | GPS: 24.7136°N 46.6753°E"
-  }
+  ]
 }
