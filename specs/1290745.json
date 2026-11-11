@@ -2,46 +2,46 @@
   "project_id": "1290745",
   "repo_name": "masar-rtk-navigation-1290745",
   "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation-1290745",
-  "app_name": "تطبيق مسار الفضائي — مهندس معماري برمجيات / Full-",
-  "tagline": "منظومة navigation المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
-  "preset": "navigation",
-  "layout_type": "navigation",
-  "layoutArchetype": "navigation",
+  "app_name": "موثوق للعمل المشترك — شبكة معرفية للوصول الذكي",
+  "tagline": "وصول فوري آمن عبر RFID وتصديق TOTP لبيئة عمل تعاونية ذكية",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
   "theme": {
     "primary_color": "#f43f5e",
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق مسار الفضائي — مهندس معماري برمجيات / Full-",
-    "subtitle": "منظومة navigation المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "موثوق للعمل المشترك — شبكة معرفية للوصول الذكي",
+    "subtitle": "وصول فوري آمن عبر RFID وتصديق TOTP لبيئة عمل تعاونية ذكية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحكم بالوصول",
+    "مراكز معرفية",
+    "أدوات تعاونية",
+    "فعاليات مجتمعية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "إعداد بوابة RFID",
+      "desc": "دمج نظام بوابات 13.56MHz مع مصادقة TOTP متعددة العوامل",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تكامل TOTP",
+      "desc": "مولد رموز وقتية مشفر لطبقات أمان إضافية",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تطوير وحدات معرفية",
+      "desc": "إنشاء وحدات قابلة للتوصيل لشبكة المعرفة التعاونية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "navigation",
+      "type": "coworking",
       "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
       "status": "active"
     }
   ],
-  "commit_hash": "c1cfc5c",
+  "commit_hash": "c88aed7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290745_ios_03.png"
     }
   ],
-  "detailed_desc": "مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية. مطلوب مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية (Modular Architecture) تفاصيل المشروع: نبحث عن شريك تقني محترف لتنفيذ النسخة الأولى (MVP) لشبكة اجتماعية معرفية متخصصة تدمج بين المعرفة، السنن، والفعل التف",
+  "detailed_desc": "مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية — مطلوب مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية (Modular Architecture) تفاصيل المشروع: نبحث عن شريك تقني محترف لتنفيذ النسخة الأولى (MVP) لشبكة اجتماعية معرفية متخصصة تدمج بين المعرفة، السنن، والفعل",
   "domain_data": {
     "repo_name": "masar-rtk-navigation-1290745",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz: UID 0x2A | TOTP Auth: 28s | Door Status: Open"
   }
 }
