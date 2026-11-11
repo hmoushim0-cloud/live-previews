@@ -2,8 +2,8 @@
   "project_id": "1289678",
   "repo_name": "ruya-academy-smart-education-1289678",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1289678",
-  "app_name": "تطبيق رؤية للتدريب — مطلوب مساعد أكاديمي لكورس او",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "قلم الأكاديمية — مساعد المحاضرات الذكي",
+  "tagline": "تدوين تفاعلي مع قلم ذكي وتلخيص ثنائي اللغة عبر مستشعرات BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — مطلوب مساعد أكاديمي لكورس او",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "قلم الأكاديمية — مساعد المحاضرات الذكي",
+    "subtitle": "تدوين تفاعلي مع قلم ذكي وتلخيص ثنائي اللغة عبر مستشعرات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حضور محاضرات",
+    "تدوين ملاحظات",
+    "تلخيص محتوى",
+    "ترجمة فورية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "title": "باقة الأساسي",
+      "desc": "حضور المحاضرات + تدوين ملاحظات رقمية بالقلم الذكي",
       "price": "180 ر.س",
-      "icon": "shield",
+      "icon": "book-open",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "باقة المميز",
+      "desc": "تلخيص ثنائي اللغة مع تنظيم عبر مستشعرات القرب",
+      "price": "320 ر.س",
+      "icon": "layers",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "باقة السريع",
+      "desc": "تلخيص فوري خلال 24 ساعة مع تحليل المحتوى",
+      "price": "110 ر.س",
+      "icon": "clock",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "85cbe84",
+  "commit_hash": "93811dd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1289678",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Stylus Pressure 2048/4096 | Proximity: 0.5m"
   }
 }
