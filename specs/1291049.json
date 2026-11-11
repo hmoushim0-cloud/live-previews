@@ -2,8 +2,8 @@
   "project_id": "1291049",
   "repo_name": "iwan-estates-real-estate-1291049",
   "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1291049",
-  "app_name": "تطبيق إيوان العقارية — بناء تطبيق وموقع خبير ذكي بن",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "منصة نبأت للمسح النباتي الذكي — إدارة أصول المسطحات الخضراء",
+  "tagline": "مسح ثلاثي الأبعاد بأشعة ليزار مع تشخيص ذكي لأصول العقارات النباتية",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق إيوان العقارية — بناء تطبيق وموقع خبير ذكي بن",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "منصة نبأت للمسح النباتي الذكي — إدارة أصول المسطحات الخضراء",
+    "subtitle": "مسح ثلاثي الأبعاد بأشعة ليزار مع تشخيص ذكي لأصول العقارات النباتية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة الحدائق",
+    "تشخيص الأمراض",
+    "تحليل النمو",
+    "تقارير الاستدامة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
+      "title": "مسح ليزار ثلاثي الأبعاد",
+      "desc": "مسح مكاني كامل باستخدام LiDAR 360 لتحليل التوزيع النباتي في العقارات",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تشخيص أمراض نباتية بالذكاء الاصطناعي",
+      "desc": "تحليل فوري للأوراق والثمار عبر Matterport Pro3 مع تقرير علاجي",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تحليل نمو مستدام",
+      "desc": "تتبع رقمي لدورة حياة النباتات مع تنبيهات ري وتسميد",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a6d2d79",
+  "commit_hash": "1ec9dd4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1291049_ios_03.png"
     }
   ],
-  "detailed_desc": "بناء تطبيق وموقع خبير ذكي بنظام التتبع الرقمي (Plant Passport & AI Diagnosis). وثيقة المواصفات والمتطلبات التقنية والعقدية للمنصة الرقمية (Scope of Work Terms) 1. الفكرة الجوهرية وهيكلية النظام (Multi-tenant Architecture) بناء منصة سحابية مركزية تعمل بنظام (Multi-tenancy) لتوفير لوحة تحكم رئيسية للإدارة، تتفرع منها حسابات فرعية مستقلة للعملاء (التج",
+  "detailed_desc": "بناء تطبيق وموقع خبير ذكي بنظام التتبع الرقمي (Plant Passport & AI Diagnosis) — وثيقة المواصفات والمتطلبات التقنية والعقدية للمنصة الرقمية (Scope of Work Terms) 1. الفكرة الجوهرية وهيكلية النظام (Multi-tenant Architecture) بناء منصة سحابية مركزية تعمل بنظام (Multi-tenancy) لتوفير لوحة تحكم رئيسية للإدارة، تتفرع منها حسابات فرعية",
   "domain_data": {
     "repo_name": "iwan-estates-real-estate-1291049",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LiDAR: 12m³/s | Matterport: 98% RGB Accuracy | Temp: 24°C"
   }
 }
