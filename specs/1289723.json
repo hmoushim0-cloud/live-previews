@@ -2,8 +2,8 @@
   "project_id": "1289723",
   "repo_name": "rased-pos-pos-cashier-1289723",
   "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289723",
-  "app_name": "تطبيق راصد كاشير — مطوّر متاجر سلة وزد لمدة شهر",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "تطبيق الا للمتاجر الذكية — تخصيص متكامل لمتاجر سلة وزد",
+  "tagline": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتجربة بيع فورية",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق راصد كاشير — مطوّر متاجر سلة وزد لمدة شهر",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "تطبيق الا للمتاجر الذكية — تخصيص متكامل لمتاجر سلة وزد",
+    "subtitle": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتجربة بيع فورية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تخصيص الثيمات",
+    "رفع المنتجات",
+    "ربط البكسلات",
+    "تكامل العتاد"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "تخصيص ثيم احترافي",
+      "desc": "تعديل عميق للثيمات المدفوعة باستخدام CSS و JavaScript مع تحسين سرعة التحميل",
+      "price": "1200 ر.س",
+      "icon": "brush",
+      "badge": "متميز"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
+      "title": "رفع 200 منتج",
+      "desc": "إدخال المنتجات مع تحسين SEO وتنظيم التصنيفات الفرعية",
+      "price": "850 ر.س",
+      "icon": "package",
       "badge": "شامل"
+    },
+    {
+      "title": "ربط بكسلات التواصل",
+      "desc": "تكامل بكسلات Meta و Snapchat و TikTok مع تتبع الأحداث",
+      "price": "450 ر.س",
+      "icon": "share-2",
+      "badge": "ذكي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "1b0b39c",
+  "commit_hash": "1e49edc",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rased-pos-pos-cashier-1289723",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 200mm paper | Barcode Scan: 123456789012 | Temp: 32°C"
   }
 }
