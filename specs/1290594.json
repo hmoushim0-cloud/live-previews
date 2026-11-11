@@ -2,46 +2,61 @@
   "project_id": "1290594",
   "repo_name": "rekab-telematics-car-rental-1290594",
   "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1290594",
-  "app_name": "rekab-telematics-car-rental-1290594",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "منظومة ركاب تليماتكس — تأجير المركبات والمفتاح الرقمي الذكي",
+  "tagline": "منظومة تشغيل وتأجير المركبات الذكية مع ربط CAN-Bus OBD-II وحماية المفتاح الرقمي المشفر CCC 3.0",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
   "theme": {
-    "primary_color": "#8b5cf6",
-    "accent_color": "#06b6d4"
+    "primary_color": "#0EA5E9",
+    "accent_color": "#F59E0B"
   },
   "banner": {
-    "title": "rekab-telematics-car-rental-1290594",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "منظومة ركاب تليماتكس — تأجير المركبات والمفتاح الرقمي الذكي",
+    "subtitle": "مراقبة فورية لبيانات المحرك والسرعة عبر CAN-Bus وإدارة المفاتيح الرقمية المشفرة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الكل",
+    "تأجير يومي",
+    "تأجير شهري",
+    "المفتاح الرقمي",
+    "تشخيص الأعطال"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
+      "title": "باقة تأجير سيدان اقتصادية مع مفتاح رقمي BLE",
+      "desc": "تأجير يومي يشمل 250 كم مسموح مع فتح الأبواب والتشغيل الذكي من الهاتف",
+      "price": "180.0 ر.س",
+      "icon": "car",
+      "badge": "تأجير يومي"
+    },
+    {
+      "title": "باقة تأجير عائلية فاخرة مع تتبع تليماتكس كامل",
+      "desc": "مركبة دفع رباعي مع مراقبة حية لدرجة حرارة المحرك والسرعة واستهلاك الوقود",
+      "price": "450.0 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "دفع رباعي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "مفتاح الوصول الرقمي المشفر (CCC 3.0 Digital Key)",
+      "desc": "توثيق مشفر عبر BLE وHMAC-SHA256 مع حماية ضد التلاعب وصلاحيات مرنة",
+      "price": "60.0 ر.س",
+      "icon": "key",
+      "badge": "أمان رقمي"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "باقة فحص وتشخيص الأعطال وقراءة أكواد OBD-II DTC",
+      "desc": "قراءة دقيقة لرموز SAE J2012 ومؤشرات سلامة المحرك ونظام ناقل الحركة",
+      "price": "120.0 ر.س",
+      "icon": "cpu",
+      "badge": "فحص تليماتكس"
+    },
+    {
+      "title": "نظام الحماية والتعطيل الفوري للمركبة ضد السرقة",
+      "desc": "إمكانية إيقاف تشغيل المحرك عن بعد وتفعيل القفل الأمني عند انتهاء العقد",
+      "price": "95.0 ر.س",
+      "icon": "lock",
+      "badge": "أمان أسطول"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
+      "label": "التليماتكس",
       "icon": "activity"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "العقد والدفع",
+      "icon": "credit-card"
     }
   ],
   "sensors": [
@@ -73,42 +83,24 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3325d2b",
+  "commit_hash": "4f0b630",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة منظومة ركاب لتأجير المركبات الرئيسية",
       "path": "shots/1290594_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "مراقبة قراءات CAN-Bus وحساسات المفتاح الرقمي BLE",
       "path": "shots/1290594_02.png",
       "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "إتمام العقد وحساب الكيلومترات الزائدة والضريبة",
       "path": "shots/1290594_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "Fleet Mileage & VAT Checkout"
     }
   ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1290594_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1290594_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1290594_ios_03.png"
-    }
-  ],
-  "detailed_desc": "مبرمج باك اند لتنفيذ مشروع ويب إلكتروني توصيل سيارات للأفراد — فكرة المشروع هي تطبيق توصيل سيارات للافراد بدون محفظه وبدون بوابات دفع بحيث الدفع يكون خارج المنصه وايضا يوجد دفع بالنقاط. حيث ان تصميم المشروع جاهز بواسطة فيجما لنسخة الويب و نسخة الموبايل وسيرسل للجادين وذو الخبره والتقييمات العاليه فقط و حيث ان مب",
-  "domain_data": {
-    "repo_name": "rekab-telematics-car-rental-1290594",
-    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
-  }
+  "build_status": "success",
+  "last_updated": "2026-11-11T20:50:00Z"
 }
