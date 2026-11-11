@@ -1,0 +1,106 @@
+{
+  "project_id": "1292112",
+  "repo_name": "kashta-radar-navigation-1292112",
+  "repo_url": "https://github.com/hmoushim0-cloud/kashta-radar-navigation-1292112",
+  "app_name": "منظومة كشتة رادار — الملاحة البرية ومستشعر انقلاب المركبات",
+  "tagline": "نظام ملاحة صحراوي متقدم بحساب مسارات القبلة وتقدير الحساب الميت ومستشعر الميلان ومخاطر الكثبان الرملية",
+  "preset": "navigation",
+  "layout_type": "navigation",
+  "layoutArchetype": "navigation",
+  "theme": {
+    "primary_color": "#F43F5E",
+    "accent_color": "#FB923C"
+  },
+  "banner": {
+    "title": "منظومة كشتة رادار — الملاحة البرية ومستشعر انقلاب المركبات",
+    "subtitle": "نظام ملاحة صحراوي متقدم بحساب مسارات القبلة وتقدير الحساب الميت ومستشعر الميلان ومخاطر الكثبان"
+  },
+  "categories": [
+    "الكل",
+    "رادار الكثبان",
+    "ملاحة برية",
+    "أمان وميلان",
+    "إغاثة وطوارئ"
+  ],
+  "items": [
+    {
+      "title": "رادار دوبلر النبضي لكشف تضاريس الكثبان الوعرة",
+      "desc": "مسح راداري مستمر حتى مدى 1200 متر لتحديد منحدرات الرمال والمنخفضات العميقة",
+      "price": "3,400.0 ر.س",
+      "icon": "radio",
+      "badge": "رادار دوبلر"
+    },
+    {
+      "title": "نظام الملاحة الصحراوية بحساب الاتجاه وسمت القبلة",
+      "desc": "توجيه جيوديسي عالي الدقة بمعادلة Haversine وتحديد سمت القبلة بدقة 0.1 درجة",
+      "price": "1,850.0 ر.س",
+      "icon": "compass",
+      "badge": "ملاحة جيوديسية"
+    },
+    {
+      "title": "مستشعر قياس زوايا الميلان (Pitch/Roll) والحماية من الانقلاب",
+      "desc": "مراقبة ميلان المركبة حتى 35 درجة مع تنبيهات صوتية ومرئية استباقية لمنع الانقلاب",
+      "price": "1,250.0 ر.س",
+      "icon": "shield",
+      "badge": "حماية المركبة"
+    },
+    {
+      "title": "حاسبة الحساب الميت (Dead Reckoning) للمناطق المعزولة",
+      "desc": "استقراء المسار والإحداثيات تلقائيا عند انقطاع إشارات الأقمار الصناعية GNSS",
+      "price": "950.0 ر.س",
+      "icon": "map-pin",
+      "badge": "استقراء ملاحي"
+    },
+    {
+      "title": "منظومة نداء الاستغاثة الفضائية وتحديد إحداثيات الطوارئ",
+      "desc": "إرسال نداءات SOS المشفرة عبر شبكة الأقمار الصناعية مع تقرير الموقف والميلان",
+      "price": "2,200.0 ر.س",
+      "icon": "alert-triangle",
+      "badge": "إغاثة فضائية"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "telemetry",
+      "label": "الرادار والميلان",
+      "icon": "activity"
+    },
+    {
+      "id": "checkout",
+      "label": "المسارات",
+      "icon": "map"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "navigation",
+      "label": "Off-Road Doppler Radar + RTK GNSS Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "ec7a552",
+  "proof_screenshots": [
+    {
+      "title": "واجهة منظومة كشتة رادار الملاحية الرئيسية",
+      "path": "shots/1292112_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "مراقبة مستشعر الرادار وزوايا الميلان الصحراوي",
+      "path": "shots/1292112_02.png",
+      "fallback": "Off-Road Doppler Radar + RTK GNSS Beacon"
+    },
+    {
+      "title": "سجل المسارات البرية ونداءات الاستغاثة الفضائية",
+      "path": "shots/1292112_03.png",
+      "fallback": "Off-Grid SOS Satellite Telemetry"
+    }
+  ],
+  "build_status": "success",
+  "last_updated": "2026-11-11T18:52:00Z"
+}
