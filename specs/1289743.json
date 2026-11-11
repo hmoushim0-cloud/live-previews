@@ -2,8 +2,8 @@
   "project_id": "1289743",
   "repo_name": "f-classroom-smart-education-1289743",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289743",
-  "app_name": "تطبيق فكر الذكية — خبير انتاج وتعديل الفيديوهات",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "أكاديمية سقر — إنتاج وتعديل الفيديو بالذكاء الاصطناعي",
+  "tagline": "دروس تفاعلية بالقلم الذكي مع تتبع دقيق عبر منارات BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — خبير انتاج وتعديل الفيديوهات",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "أكاديمية سقر — إنتاج وتعديل الفيديو بالذكاء الاصطناعي",
+    "subtitle": "دروس تفاعلية بالقلم الذكي مع تتبع دقيق عبر منارات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إنتاج الفيديو",
+    "تعديل الذكاء الاصطناعي",
+    "تقنيات القلم الذكي",
+    "مشاريع عملية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "دورة احترافية شاملة",
+      "desc": "من المونتاج الأساسي إلى توليد المشاهد بالذكاء الاصطناعي مع تمارين بالقلم الذكي",
+      "price": "450 ر.س",
+      "icon": "film",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "حزمة مؤثرات AI",
+      "desc": "50 تأثير ذكاء اصطناعي جاهز مع معاينة حية عبر منارة BLE",
+      "price": "180 ر.س",
+      "icon": "cpu",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "استشارات مباشرة",
+      "desc": "جلسة 45 دقيقة مع خبير باستخدام لوحة القلم الذكي التفاعلية",
+      "price": "320 ر.س",
+      "icon": "message-circle",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "8d4d0bb",
+  "commit_hash": "6842d04",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "f-classroom-smart-education-1289743",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: قلم ذكي متصل | ضغط: 2048/4096 | بطارية: 85% | نطاق: 12m"
   }
 }
