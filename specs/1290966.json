@@ -2,46 +2,46 @@
   "project_id": "1290966",
   "repo_name": "sakan-lidar-real-estate-1290966",
   "repo_url": "https://github.com/hmoushim0-cloud/sakan-lidar-real-estate-1290966",
-  "app_name": "تطبيق سكن ثلاثي الأبعاد — مطور مواقع وتطبيقات متكامل (",
-  "tagline": "منظومة real_estate المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "real_estate",
-  "layout_type": "real_estate",
-  "layoutArchetype": "real_estate",
+  "app_name": "منصة مدار الذكية — خدمات تقنية مدعومة بالذكاء الاصطناعي والأجهزة الذكية",
+  "tagline": "تمكين الخدمات الرقمية عبر تقنيات الذكاء الاصطناعي وNFC المتقدمة",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق سكن ثلاثي الأبعاد — مطور مواقع وتطبيقات متكامل (",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة مدار الذكية — خدمات تقنية مدعومة بالذكاء الاصطناعي والأجهزة الذكية",
+    "subtitle": "تمكين الخدمات الرقمية عبر تقنيات الذكاء الاصطناعي وNFC المتقدمة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مدفوعات NFC",
+    "تتبع GPS",
+    "تحليلات الذكاء الاصطناعي",
+    "دعم فني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "دمج بوابة دفع NFC",
+      "desc": "دمج نظام Mada EMV L2 مع واجهات برمجة تطبيقات التجارة الإلكترونية باستخدام تشفير AES-256",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليلات الموقع في الوقت الفعلي",
+      "desc": "لوحة معلومات مدعومة بالذكاء الاصطناعي لتحليل مسارات GPS مع تنبؤات حركة المرور",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تطوير بوت الدردشة الذكي",
+      "desc": "مساعد افتراضي مدعوم من Claude API لمعالجة استفسارات العملاء الفنية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "real_estate",
+      "type": "services",
       "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "e8d7805",
+  "commit_hash": "c5d9746",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290966_ios_03.png"
     }
   ],
-  "detailed_desc": "مطور مواقع وتطبيقات متكامل (Full Stack Developer). نبحث عن مطور Full Stack لديه خبرة في تطوير تطبيقات الويب الحديثة والقابلة للتوسع، للعمل على تنفيذ وتطوير مشاريع تقنية باستخدام أحدث التقنيات. نفضل المطورين الذين لديهم خبرة في استخدام أدوات الذكاء الاصطناعي لتطوير البرمجيات، مثل OpenAI Codex وClaude Code، بهدف تسريع التطوير وتحسين جودة الكود. المها",
+  "detailed_desc": "مطور مواقع وتطبيقات متكامل (Full Stack Developer) — نبحث عن مطور Full Stack لديه خبرة في تطوير تطبيقات الويب الحديثة والقابلة للتوسع، للعمل على تنفيذ وتطوير مشاريع تقنية باستخدام أحدث التقنيات. نفضل المطورين الذين لديهم خبرة في استخدام أدوات الذكاء الاصطناعي لتطوير البرمجيات، مثل OpenAI Codex وClaude",
   "domain_data": {
     "repo_name": "sakan-lidar-real-estate-1290966",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC: EMV L2 Auth | GPS: 24.7136° N, 46.6753° E | Speed: 32 km/h"
   }
 }
