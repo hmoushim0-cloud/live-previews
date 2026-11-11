@@ -3,19 +3,20 @@
   "repo_name": "itqan-dispatch-services-1289528",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289528",
   "app_name": "تطبيق حارس الصحة الذكي — رفيق المراهقين الموثوق",
-  "tagline": "ذكاء اصطناعي مدعوم بـ RAG مع حماية NFC و GPS فورية",
+  "tagline": "ذكاء اصطناعي مدعوم بـ RAG مع حماية NFC و GPS فورية عبر شبكة مدى ونظام التوجيه الإسعافي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#2563eb",
-    "accent_color": "#1e40af"
+    "primary_color": "#2563EB",
+    "accent_color": "#1E40AF"
   },
   "banner": {
-    "title": "تطبيق حارس الصحة الذكي — رفيق المراهقين الموثوق",
-    "subtitle": "ذكاء اصطناعي مدعوم بـ RAG مع حماية NFC و GPS فورية"
+    "title": "حارس الصحة الذكي — منظومة الرعاية الفورية",
+    "subtitle": "توجيه ذكي مدعوم بـ RAG ودفع إلكتروني آمن عبر Mada Contactless L2"
   },
   "categories": [
+    "الكل",
     "استشارات طبية ذكية",
     "تتبع الصحة النفسي",
     "تثقيف وقائي",
@@ -23,25 +24,32 @@
   ],
   "items": [
     {
-      "title": "استشارة RAG فائقة",
-      "desc": "تحليل أعراض مدعوم بقاعدة بيانات طبية محكمة مع مشغل أمان فوري",
-      "price": "150 ر.س",
-      "icon": "shield",
+      "title": "استشارة RAG فائقة للرعاية الصحية",
+      "desc": "تحليل أعراض سريري مدعوم بقاعدة بيانات طبية محكمة مع مشغل أمان فوري وتوجيه مباشر",
+      "price": "150.0 ر.س",
+      "icon": "activity",
       "badge": "معتمد"
     },
     {
-      "title": "تتبع موقع طبي",
-      "desc": "إرسال GPS مشفر لجهات الاتصال الموثوقة عبر NFC عيادة مادا",
-      "price": "280 ر.س",
-      "icon": "activity",
+      "title": "تتبع موقع طبي واستغاثة SOS فورية",
+      "desc": "إرسال GPS مشفر لجهات الاتصال الموثوقة مع ربط مباشر بنظام الإسعاف والهلال الأحمر",
+      "price": "280.0 ر.س",
+      "icon": "map-pin",
       "badge": "فوري"
     },
     {
-      "title": "حزمة دعم المراهقين",
-      "desc": "أدوات نفسية تفاعلية مع تحديثات RAG أسبوعية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "حزمة دعم المراهقين والصحة السلوكية",
+      "desc": "أدوات تقييم نفسي وتثقيف سلوكي تفاعلية مع تحديثات RAG دورية وخصوصية تامة",
+      "price": "95.0 ر.س",
+      "icon": "heart",
       "badge": "جديد"
+    },
+    {
+      "title": "جهاز استشعار واستجابة ميداني Mada NFC + GPS Dispatch",
+      "desc": "جهاز محمول مدمج يدعم بروتوكول Mada Contactless L2 وتحديد الموقع عبر الأقمار الاصطناعية",
+      "price": "420.0 ر.س",
+      "icon": "shield",
+      "badge": "عتاد معتمد"
     }
   ],
   "nav_tabs": [
@@ -51,19 +59,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
-      "icon": "activity"
+      "label": "العتاد الميداني",
+      "icon": "radio"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الفاتورة والدفع",
+      "icon": "credit-card"
     }
   ],
   "sensors": [
@@ -73,42 +76,22 @@
       "status": "active"
     }
   ],
-  "commit_hash": "928c522",
+  "commit_hash": "7319c8e",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة حارس الصحة الذكي وخدمات الرعاية والتوجيه",
       "path": "shots/1289528_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "شاشة العتاد الميداني وقراءات Mada L2 و GPS اللحظية",
       "path": "shots/1289528_02.png",
       "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "شاشة سلة الخدمات واحتساب الضريبة 15% والدفع الرقمي",
       "path": "shots/1289528_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "Mada / Apple Pay Certified"
     }
-  ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289528_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1289528_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1289528_ios_03.png"
-    }
-  ],
-  "detailed_desc": "استفسار لمهندسي البرمجيات والذكاء الاصطناعي: تقدير تكلفة وبنية تطبيق طبي ذكي (RAG MVP) — السلام عليكم جميعا، أعمل حاليا ضمن فريق على دراسة جدوى وتقييم تكلفة لتطبيق ذكاء اصطناعي موجه للمراهقين. يعتمد التطبيق فكريا على نظام RAG (Retrieval-Augmented Generation) للربط بقواعد بيانات طبية موثوقة ومحكمة، مع وجود مشغل أمان (Safety Trigger) لإعاد",
-  "domain_data": {
-    "repo_name": "itqan-dispatch-services-1289528",
-    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada NFC: EMV L2 Auth | GPS: 24.713°N 46.675°E | Safety Trigger: 87% Confidence"
-  }
+  ]
 }
