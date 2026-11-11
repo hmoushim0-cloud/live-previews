@@ -3,45 +3,60 @@
   "repo_name": "masar-rtk-navigation-1290745",
   "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation-1290745",
   "app_name": "موثوق للعمل المشترك — شبكة معرفية للوصول الذكي",
-  "tagline": "وصول فوري آمن عبر RFID وتصديق TOTP لبيئة عمل تعاونية ذكية",
+  "tagline": "وصول فوري آمن عبر RFID وتصديق TOTP لبيئة عمل تعاونية ذكية مع حماية Anti-Passback",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#8B5CF6",
+    "accent_color": "#06B6D4"
   },
   "banner": {
     "title": "موثوق للعمل المشترك — شبكة معرفية للوصول الذكي",
     "subtitle": "وصول فوري آمن عبر RFID وتصديق TOTP لبيئة عمل تعاونية ذكية"
   },
   "categories": [
-    "تحكم بالوصول",
-    "مراكز معرفية",
-    "أدوات تعاونية",
-    "فعاليات مجتمعية"
+    "الكل",
+    "مساحات العمل",
+    "المكاتب الخاصة",
+    "قاعات الاجتماعات",
+    "بطاقات العضوية"
   ],
   "items": [
     {
-      "title": "إعداد بوابة RFID",
-      "desc": "دمج نظام بوابات 13.56MHz مع مصادقة TOTP متعددة العوامل",
-      "price": "150 ر.س",
+      "title": "اشتراك يومي — مساحات العمل المشتركة (Hot Desk)",
+      "desc": "وصول مرن لكافة المرافق المشتركة مع إنترنت عالي السرعة وحد أقصى 150 ر.س لليوم",
+      "price": "25.0 ر.س / ساعة",
+      "icon": "coffee",
+      "badge": "مرن"
+    },
+    {
+      "title": "حجز كابينة العمل الفردية العازلة للصوت (Phone Booth)",
+      "desc": "مساحة هادئة ومجهزة للمكالمات والاجتماعات الافتراضية بخصوصية تامة",
+      "price": "45.0 ر.س / ساعة",
+      "icon": "phone",
+      "badge": "خصوصية"
+    },
+    {
+      "title": "حجز قاعة اجتماعات تنفيذية متكاملة (Conference Suite)",
+      "desc": "شاشات عرض ذكية وأجهزة مؤتمرات مرئية مع ضيافة مخصصة تتسع لـ 12 شخصاً",
+      "price": "120.0 ر.س / ساعة",
+      "icon": "users",
+      "badge": "قاعات"
+    },
+    {
+      "title": "بطاقة دخول ذكية 13.56 MHz RFID Turnstile Smart Card",
+      "desc": "بطاقة مشفرة بتقنية ISO 14443-A مع حماية متقدمة ضد التمرير المزدوج (Anti-Passback)",
+      "price": "50.0 ر.س",
+      "icon": "credit-card",
+      "badge": "عتاد RFID"
+    },
+    {
+      "title": "ترقية تصديق الدخول الرقمي المشفر (RFC 6238 TOTP Pass)",
+      "desc": "تفعيل المرور التلقائي عبر البوابات الإلكترونية باستخدام رمز رقمي متغير كل 30 ثانية",
+      "price": "35.0 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "تكامل TOTP",
-      "desc": "مولد رموز وقتية مشفر لطبقات أمان إضافية",
-      "price": "280 ر.س",
-      "icon": "activity",
-      "badge": "فوري"
-    },
-    {
-      "title": "تطوير وحدات معرفية",
-      "desc": "إنشاء وحدات قابلة للتوصيل لشبكة المعرفة التعاونية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "جديد"
+      "badge": "أمان رقمي"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
-      "icon": "activity"
+      "label": "بوابة الدخول",
+      "icon": "lock"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الاشتراكات",
+      "icon": "shopping-cart"
     }
   ],
   "sensors": [
@@ -73,42 +83,24 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c88aed7",
+  "commit_hash": "fcf9849",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة منصة موثوق لمساحات العمل المشتركة الرئيسية",
       "path": "shots/1290745_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "مراقبة بوابة الدخول الذكية وبطاقات RFID وحساسات TOTP",
       "path": "shots/1290745_02.png",
       "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "إتمام حجز المساحات وحساب الساعات والضريبة 15%",
       "path": "shots/1290745_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "Flexible Coworking Billing & VAT"
     }
   ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1290745_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1290745_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1290745_ios_03.png"
-    }
-  ],
-  "detailed_desc": "مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية — مطلوب مهندس معماري برمجيات / Full-Stack Architect لتطوير نواة شبكة اجتماعية معرفية ذات بنية معيارية (Modular Architecture) تفاصيل المشروع: نبحث عن شريك تقني محترف لتنفيذ النسخة الأولى (MVP) لشبكة اجتماعية معرفية متخصصة تدمج بين المعرفة، السنن، والفعل",
-  "domain_data": {
-    "repo_name": "masar-rtk-navigation-1290745",
-    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "RFID 13.56MHz: UID 0x2A | TOTP Auth: 28s | Door Status: Open"
-  }
+  "build_status": "success",
+  "last_updated": "2026-11-12T00:49:00Z"
 }
