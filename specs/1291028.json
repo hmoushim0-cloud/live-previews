@@ -2,46 +2,46 @@
   "project_id": "1291028",
   "repo_name": "qiyada-key-car-rental",
   "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental",
-  "app_name": "تطبيق قيادة الرقمي — تطوير منصة MOX MEDIA – تطبيق",
-  "tagline": "منظومة car_rental المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "car_rental",
-  "layout_type": "car_rental",
-  "layoutArchetype": "car_rental",
+  "app_name": "موكس ميديا — منصة الإبداع السعودي لخدمات التصميم والإنتاج",
+  "tagline": "ربط فوري آمن عبر NFC و GPS — تصميمك يبدأ هنا",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#06b6d4"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق قيادة الرقمي — تطوير منصة MOX MEDIA – تطبيق",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "موكس ميديا — منصة الإبداع السعودي لخدمات التصميم والإنتاج",
+    "subtitle": "ربط فوري آمن عبر NFC و GPS — تصميمك يبدأ هنا"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم جرافيكي",
+    "إنتاج فيديو",
+    "هوية بصرية",
+    "تصميم واجهات المستخدم"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تصميم شعار احترافي",
+      "desc": "تطوير هوية بصرية متكاملة مع دليل استخدام العلامة التجارية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "إنتاج فيديو ترويجي",
+      "desc": "إنتاج 60 ثانية مع مؤثرات بصرية وسيناريو احترافي",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تصميم واجهة تطبيق",
+      "desc": "نماذج تفاعلية UI/UX مع اختبار تجربة المستخدم",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "car_rental",
+      "type": "services",
       "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "15e3d1e",
+  "commit_hash": "add1845",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1291028_ios_03.png"
     }
   ],
-  "detailed_desc": "تطوير منصة MOX MEDIA – تطبيق iOS + موقع إلكتروني + لوحة تحكم الإدارة. تطوير منصة MOX MEDIA تطبيق iOS موقع إلكتروني لوحة تحكم الإدارة نبذة عن المشروع نرغب في تطوير منصة MOX MEDIA موكس ميديا، وهي منصة إبداعية سعودية متخصصة في خدمات التصميم والإنتاج، تربط العملاء بالمصممين المستقلين المعتمدين، وتتولى إدارة الطلبات وإسناد المشاريع ومتابعة التنفيذ والجو",
+  "detailed_desc": "تطوير منصة MOX MEDIA – تطبيق iOS + موقع إلكتروني + لوحة تحكم الإدارة — تطوير منصة MOX MEDIA تطبيق iOS موقع إلكتروني لوحة تحكم الإدارة نبذة عن المشروع نرغب في تطوير منصة MOX MEDIA موكس ميديا، وهي منصة إبداعية سعودية متخصصة في خدمات التصميم والإنتاج، تربط العملاء بالمصممين المستقلين المعتمدين، وتتولى إدارة الطلبات وإسناد",
   "domain_data": {
     "repo_name": "qiyada-key-car-rental",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: معاملة معتمدة | GPS: 24.7136°N 46.6753°E — مصمم متاح ضمن النطاق"
   }
 }
