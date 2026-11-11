@@ -2,8 +2,8 @@
   "project_id": "1290914",
   "repo_name": "arena-event-ticketing",
   "repo_url": "https://github.com/hmoushim0-cloud/arena-event-ticketing",
-  "app_name": "تطبيق منصة أرينا — تصميم وتطوير استبيان تفاعلي",
-  "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+  "app_name": "رياح لقياس رضا الحجاج والمعتمرين — استبيان تفاعلي متعدد اللغات",
+  "tagline": "تقنية ذكية لقياس الرضا الفوري عبر أجهزة التابلت وأساور RFID",
   "preset": "event_ticketing",
   "layout_type": "event_ticketing",
   "layoutArchetype": "event_ticketing",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق منصة أرينا — تصميم وتطوير استبيان تفاعلي",
-    "subtitle": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer"
+    "title": "رياح لقياس رضا الحجاج والمعتمرين — استبيان تفاعلي متعدد اللغات",
+    "subtitle": "تقنية ذكية لقياس الرضا الفوري عبر أجهزة التابلت وأساور RFID"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إسكان وتسكين",
+    "مواصلات ونقل",
+    "خدمات صحية",
+    "إرشاد ديني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
-      "price": "180 ر.س",
+      "title": "تقييم السكن",
+      "desc": "تحليل جودة مرافق الإسكان وخدمات الضيافة عبر معايير محددة",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تقييم النقل",
+      "desc": "قياس كفاءة مسارات النقل وربطها بزمن الوصول للمناسك",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقييم الخدمات الصحية",
+      "desc": "تقييم سرعة الاستجابة الطبية وتوفر المرافق الصحية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c19247e",
+  "commit_hash": "f5805ad",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290914_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم وتطوير استبيان تفاعلي احترافي للعرض على أجهزة التابلت والجوال. عنوان المشروع: تصميم وتطوير استبيان تفاعلي بأربع لغات للتابلت والجوال أبحث عن مستقل محترف لتصميم وتطوير استبيان تفاعلي لقياس رضا الحجاج والمعتمرين عن الخدمات وأثرها على جودة حياتهم، لاستخدامه على أجهزة التابلت داخل جناح في معرض، مع إمكانية المشاركة عبر الجوال. المطلوب تنفيذه: تصمي",
+  "detailed_desc": "تصميم وتطوير استبيان تفاعلي احترافي للعرض على أجهزة التابلت والجوال — عنوان المشروع: تصميم وتطوير استبيان تفاعلي بأربع لغات للتابلت والجوال أبحث عن مستقل محترف لتصميم وتطوير استبيان تفاعلي لقياس رضا الحجاج والمعتمرين عن الخدمات وأثرها على جودة حياتهم، لاستخدامه على أجهزة التابلت داخل جناح في معرض، مع إمكانية المشاركة ع",
   "domain_data": {
     "repo_name": "arena-event-ticketing",
     "hardware_sensor": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
-    "telemetry_preview": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer: ONLINE | READY"
+    "telemetry_preview": "UHF RFID: Wristband ID 0xAB12 | QR Scan: Ticket#1290914-A"
   }
 }
