@@ -2,8 +2,8 @@
   "project_id": "1289635",
   "repo_name": "itqan-dispatch-services-1289635",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289635",
-  "app_name": "تطبيق إتقان للصيانة — كتابة نصوص إعلانية لحمله الو",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "أسناني الذكية — حجز ودفع عيادات الأسنان عبر NFC",
+  "tagline": "حجز فوري ودفع آمن عبر تقنية NFC — وصول سريع لعيادات الأسنان المتنقلة",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — كتابة نصوص إعلانية لحمله الو",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "أسناني الذكية — حجز ودفع عيادات الأسنان عبر NFC",
+    "subtitle": "حجز فوري ودفع آمن عبر تقنية NFC — وصول سريع لعيادات الأسنان المتنقلة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تنظيف الأسنان",
+    "تقويم الأسنان",
+    "حشوات وعلاجات",
+    "تبييض الأسنان"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "تبييض الأسنان بالليزر",
+      "desc": "جلسة 30 دقيقة باستخدام تقنية الليزر الآمنة مع ضمان لمدة 6 أشهر",
+      "price": "850 ر.س",
+      "icon": "sun",
+      "badge": "الأكثر طلباً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "فحص شامل مع الأشعة",
+      "desc": "فحص سريري كامل مع أشعة بانوراما رقمية وتحليل نسيج اللثة",
+      "price": "250 ر.س",
+      "icon": "scan",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حشوة ضوئية تجميلية",
+      "desc": "حشوات مركبة نانومترية مطابقة للون السن مع تقنية التصلب الضوئي",
+      "price": "420 ر.س",
+      "icon": "droplet",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "7945f40",
+  "commit_hash": "4180b23",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289635",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada TX: 0x2563eb-DENTAL | GPS: 24.7136°N 46.6753°E | NFC Tap: L2 EMV Certified"
   }
 }
