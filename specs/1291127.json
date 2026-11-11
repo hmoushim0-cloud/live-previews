@@ -2,8 +2,8 @@
   "project_id": "1291127",
   "repo_name": "injaz-care-services-1291127",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1291127",
-  "app_name": "تطبيق إنجاز للخدمات — إنشاء وتعديل تطبيق Glide لإد",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق مدى لإدارة الخطوط العائلية — إدارة اشتراكات الاتصالات الذكية",
+  "tagline": "إدارة ذكية لاشتراكات العائلة مع تقنية مدى اللاسلكية ومتابعة الموقع الآنية",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — إنشاء وتعديل تطبيق Glide لإد",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مدى لإدارة الخطوط العائلية — إدارة اشتراكات الاتصالات الذكية",
+    "subtitle": "إدارة ذكية لاشتراكات العائلة مع تقنية مدى اللاسلكية ومتابعة الموقع الآنية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "باقات أساسية",
+    "إضافات",
+    "تتبع الموقع",
+    "دعم فني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "باقة مدى العائلية",
+      "desc": "اشتراك شهري مع إعداد NFC آمن عبر بطاقات مدى الذكية وتخصيص حدود الاستخدام",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "باقة التتبع المتقدم",
+      "desc": "تتبع GPS فوري مع تنبيهات جغرافية وتاريخ مسارات لمدة 90 يومًا",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "إضافة مستخدم جديد",
+      "desc": "تفعيل خط فرعي إضافي مع مزامنة البصمة الرقمية عبر NFC",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "911ec28",
+  "commit_hash": "7297a0c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1291127_ios_03.png"
     }
   ],
-  "detailed_desc": "إنشاء وتعديل تطبيق Glide لإدارة خطوط الاتصالات واشتراكات العملاء. السلام عليكم، لدي تطبيق حالي على منصة Glide Apps مخصص لإدارة باقات خطوط اتصالات عائلية، وأحتاج لمطور محترف لضبط هيكل البيانات والشاشات بالشكل التالي: 1. ضبط باقات الخطوط الرئيسية (Parent Lines): - تسجيل الخط الرئيسي واختيار باقته من خيارين محددين فقط: (Emerald 3450 أو Emerald 1725).",
+  "detailed_desc": "إنشاء وتعديل تطبيق Glide لإدارة خطوط الاتصالات واشتراكات العملاء — السلام عليكم، لدي تطبيق حالي على منصة Glide Apps مخصص لإدارة باقات خطوط اتصالات عائلية، وأحتاج لمطور محترف لضبط هيكل البيانات والشاشات بالشكل التالي: 1. ضبط باقات الخطوط الرئيسية (Parent Lines): - تسجيل الخط الرئيسي واختيار باقته من خيارين محددين فقط",
   "domain_data": {
     "repo_name": "injaz-care-services-1291127",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC: EMV L2 Auth 0x00A4 | GPS: 24.71°N 46.68°E | Speed: 22 km/h"
   }
 }
