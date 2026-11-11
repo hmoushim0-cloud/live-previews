@@ -3,45 +3,60 @@
   "repo_name": "turbine-industrial-iot-1289587",
   "repo_url": "https://github.com/hmoushim0-cloud/turbine-industrial-iot-1289587",
   "app_name": "تطبيق سقار لتحليل اهتزازات خطوط إنتاج البيجامات — نظام مراقبة جودة صناعي",
-  "tagline": "مراقبة فورية لاهتزازات الماكينات عبر أجهزة استشعار ثلاثية المحاور ومسبار صوتي صناعي",
+  "tagline": "مراقبة فورية لاهتزازات الماكينات عبر أجهزة استشعار ثلاثية المحاور ومسبار صوتي صناعي Modbus RS485",
   "preset": "industrial_iot",
   "layout_type": "industrial_iot",
   "layoutArchetype": "industrial_iot",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#10B981",
+    "accent_color": "#F59E0B"
   },
   "banner": {
     "title": "تطبيق سقار لتحليل اهتزازات خطوط إنتاج البيجامات — نظام مراقبة جودة صناعي",
-    "subtitle": "مراقبة فورية لاهتزازات الماكينات عبر أجهزة استشعار ثلاثية المحاور ومسبار صوتي صناعي"
+    "subtitle": "مراقبة فورية لاهتزازات الماكينات وتحليل ISO 10816 ومسبار صوتي صناعي"
   },
   "categories": [
-    "جودة النسيج",
-    "تحليل الاهتزازات",
-    "مراقبة الصوتيات",
-    "تقارير الإنتاج"
+    "الكل",
+    "اهتزاز ثلاثي المحاور",
+    "مسبار صوتي Modbus",
+    "جودة الغرز والنسيج",
+    "سلامة بيئة العمل"
   ],
   "items": [
     {
-      "title": "تحليل اهتزازات الماكينات",
-      "desc": "تقييم ثلاثي المحاور لاهتزازات آلات الخياطة مع تقرير مطابقة ISO",
-      "price": "150 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "تشخيص ضوضائي صناعي",
-      "desc": "مسح ترددي عبر مسبار Modbus RS485 لتحديد أعطال المحركات",
-      "price": "280 ر.س",
+      "title": "حساس اهتزاز ثلاثي المحاور (3-Axis Accelerometer) عالي الدقة",
+      "desc": "قياس تسارع الاهتزاز ثلاثي الأبعاد حتى 16g لتقييم استقرار ماكينات النسيج والحياكة",
+      "price": "1,450.0 ر.س",
       "icon": "activity",
-      "badge": "فوري"
+      "badge": "اهتزاز ثلاثي"
     },
     {
-      "title": "اختبار إجهاد النسيج",
-      "desc": "محاكاة اهتزازية لاختبار متانة الخياطة تحت ظروف تشغيل قاسية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "جديد"
+      "title": "مسبار صوتي صناعي لمراقبة الاحتكاك الفوق صوتي (Modbus RS485)",
+      "desc": "مراقبة ترددات فوق صوتية حتى 50 كيلوهرتز لرصد احتكاك التروس والمحامل قبل التلف",
+      "price": "2,200.0 ر.س",
+      "icon": "radio",
+      "badge": "مسبار صوتي"
+    },
+    {
+      "title": "نظام تقييم شدة الاهتزاز الميكانيكي بمعيار ISO 10816-3",
+      "desc": "تصنيف سرعة الاهتزاز الفعالة عبر المناطق A-D وإصدار أوامر الإيقاف الوقائي الفوري",
+      "price": "850.0 ر.س",
+      "icon": "shield",
+      "badge": "معيار ISO"
+    },
+    {
+      "title": "حاسبة التنبؤ بعيوب حياكة الأقمشة وانحراف الإبر",
+      "desc": "نمذجة اهتزاز رأس ماكينة الخياطة لمنع تخطي الغرز وتقليل نسبة الهدر الصناعي",
+      "price": "600.0 ر.س",
+      "icon": "cpu",
+      "badge": "جودة الإنتاج"
+    },
+    {
+      "title": "وحدة مراقبة الضوضاء المهنية وحماية العاملين (Saudi MHRSD)",
+      "desc": "مراقبة فورية لحدود 85 ديسيبل ومطابقة اشتراطات وزارة الموارد البشرية لبيئة العمل",
+      "price": "950.0 ر.س",
+      "icon": "alert-triangle",
+      "badge": "سلامة مهنية"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
+      "label": "العتاد الصناعي",
       "icon": "activity"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الخدمات",
+      "icon": "shopping-cart"
     }
   ],
   "sensors": [
@@ -73,42 +83,24 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3be1486",
+  "commit_hash": "c92c43f",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة سقار لمراقبة جودة خطوط الإنتاج الصناعية",
       "path": "shots/1289587_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "مراقبة مستشعر الاهتزاز ثلاثي المحاور ومسبار Modbus الصوتي",
       "path": "shots/1289587_02.png",
       "fallback": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "حساب تكاليف صيانة خط الإنتاج وفواتير المعايرة الصناعية",
       "path": "shots/1289587_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "ISO 10816 Calibration & Services"
     }
   ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289587_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1289587_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1289587_ios_03.png"
-    }
-  ],
-  "detailed_desc": "تصميم تيك باك لبيجامات — تصميم تيك باك جاهز للمصنع يحتوي على كل المتطلبات لعدد ٢ بيجامات مده العمل ٣ أيام كحد أقصى",
-  "domain_data": {
-    "repo_name": "turbine-industrial-iot-1289587",
-    "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-    "telemetry_preview": "3-Axis Accel: X=0.8g Y=0.2g Z=0.5g | Acoustic: 68dB @ 4kHz | Modbus RS485: OK"
-  }
+  "build_status": "success",
+  "last_updated": "2026-11-11T22:50:00Z"
 }
