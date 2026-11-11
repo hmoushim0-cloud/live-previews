@@ -2,8 +2,8 @@
   "project_id": "1289718",
   "repo_name": "ilmi-bootcamp-smart-education-1289718",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289718",
-  "app_name": "تطبيق علمي التفاعلي — مدربة كتابة محتوى — ارغب مدر",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "مداد الذكي — منصة تدريب الكتابة التفاعلية مع قلم رقمي",
+  "tagline": "تدريب كتابة تفاعلي مع قلم ذكي 4096 مستوى ضغط — إرشادات فورية عبر منارات BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — مدربة كتابة محتوى — ارغب مدر",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "مداد الذكي — منصة تدريب الكتابة التفاعلية مع قلم رقمي",
+    "subtitle": "تدريب كتابة تفاعلي مع قلم ذكي 4096 مستوى ضغط — إرشادات فورية عبر منارات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "أساسيات الكتابة",
+    "تقنيات السرد",
+    "تحرير المحتوى",
+    "استراتيجيات النشر"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "حزمة أساسيات الكتابة",
+      "desc": "تدريب تفاعلي مع معايرة القلم الذكي - 8 جلسات",
+      "price": "150 ر.س",
+      "icon": "edit",
+      "badge": "أساسي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "title": "ورشة تقنيات السرد",
+      "desc": "تدريب متقدم مع توجيه منارة BLE - 12 جلسة",
+      "price": "280 ر.س",
+      "icon": "book-open",
+      "badge": "متقدم"
+    },
+    {
+      "title": "استراتيجيات النشر الرقمي",
+      "desc": "تحليل وتطبيق مع تقارير ضغط القلم",
       "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "send",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "bc1f244",
+  "commit_hash": "44a1e5e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289718",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon UUID: 2563eb-midad | Stylus Pressure: 2048 | Proximity: 0.5m"
   }
 }
