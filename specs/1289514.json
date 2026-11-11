@@ -2,8 +2,8 @@
   "project_id": "1289514",
   "repo_name": "warsha-now-services-1289514",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289514",
-  "app_name": "تطبيق ورشة فوري — تصميم شاليه مكون من وحدتين —",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "شلاح — تصميم شاليهات ذكية مع خصوصية متكاملة",
+  "tagline": "مدفوعات آمنة عبر NFC و تتبع مناسيب GPS لتنفيذ التصاميم بدقة",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — تصميم شاليه مكون من وحدتين —",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "شلاح — تصميم شاليهات ذكية مع خصوصية متكاملة",
+    "subtitle": "مدفوعات آمنة عبر NFC و تتبع مناسيب GPS لتنفيذ التصاميم بدقة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تصميم خارجي",
+    "تقطيع داخلي",
+    "تنسيق حدائق",
+    "أنظمة خصوصية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
+      "title": "حزمة دوبلكس 180م²",
+      "desc": "تصميم معماري ثلاثي الأبعاد مع مناسيب اوتوكاد ودراسة خصوصية",
+      "price": "4500 ر.س",
+      "icon": "layers",
       "badge": "شامل"
+    },
+    {
+      "title": "نظام تظليل ذكي",
+      "desc": "حلول ميكانيكية مع تحكم GPS لضمان خصوصية المسبح",
+      "price": "2800 ر.س",
+      "icon": "eye-off",
+      "badge": "تقني"
+    },
+    {
+      "title": "مسح طبوغرافي",
+      "desc": "تحليل مناسيب الأرض عبر GPS دقة 3مم مع تقرير اوتوكاد",
+      "price": "980 ر.س",
+      "icon": "crosshair",
+      "badge": "أساسي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6ad91ce",
+  "commit_hash": "d6149a1",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services-1289514",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "GPS: 24.7136°N 46.6753°E ±3mm | NFC: EMV L2 Transaction ID: 0x1A2B3C4D"
   }
 }
