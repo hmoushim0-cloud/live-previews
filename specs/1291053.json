@@ -2,46 +2,46 @@
   "project_id": "1291053",
   "repo_name": "fada-cowork-coworking",
   "repo_url": "https://github.com/hmoushim0-cloud/fada-cowork-coworking",
-  "app_name": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
-  "preset": "coworking",
-  "layout_type": "coworking",
-  "layoutArchetype": "coworking",
+  "app_name": "ساقر للشبكات — محاكاة ذكية لأساطيل المركبات مع Telematics",
+  "tagline": "ربط حيوي بين محاكاة Cisco الشبكية وبيانات OBD-II الفورية عبر مفاتيح BLE الرقمية",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
   "theme": {
     "primary_color": "#f59e0b",
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق فضاء كوويرك — تصميم ومحاكاة شبكة حاسوبية ل",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "ساقر للشبكات — محاكاة ذكية لأساطيل المركبات مع Telematics",
+    "subtitle": "ربط حيوي بين محاكاة Cisco الشبكية وبيانات OBD-II الفورية عبر مفاتيح BLE الرقمية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "محاكاة الشبكة",
+    "إدارة الأسطول",
+    "مفاتيح رقمية",
+    "تحليلات Telematics"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
+      "title": "حزمة محاكاة الشبكة الأساسية",
+      "desc": "تصميم وتنفيذ شبكة افتراضية متعددة الأقسام مع توجيه VLAN وتأمين VPN باستخدام Cisco Packet Tracer",
+      "price": "450 ر.س",
+      "icon": "globe",
       "badge": "شامل"
+    },
+    {
+      "title": "تكامل Telematics المباشر",
+      "desc": "ربط بيانات OBD-II الحية مع محاكاة الشبكة لتحليل استهلاك الوقود وأنماط القيادة عبر CAN-Bus",
+      "price": "750 ر.س",
+      "icon": "activity",
+      "badge": "متقدم"
+    },
+    {
+      "title": "مفاتيح BLE الذكية",
+      "desc": "نظام دخول بدون مفتاح مع مصادقة مشفرة عبر البلوتوث منخفض الطاقة متكامل مع محاكاة الشبكة",
+      "price": "320 ر.س",
+      "icon": "key",
+      "badge": "آمن"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "coworking",
-      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "type": "car_rental",
+      "label": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
       "status": "active"
     }
   ],
-  "commit_hash": "958b374",
+  "commit_hash": "cde8d96",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1291053_02.png",
-      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+      "fallback": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1291053_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم ومحاكاة شبكة حاسوبية لمؤسسة صغيرة باستخدام Cisco Packet Tracer. مرحبا، أبحث عن مهندس/ة شبكات لديه خبرة في استخدام Cisco Packet Tracer لتصميم وتنفيذ ومحاكاة شبكة حاسوبية متوسطة الحجم، مع تطبيق مجموعة من تقنيات الشبكات وإعدادات أجهزة Cisco. فكرة المشروع: إنشاء شبكة افتراضية لمؤسسة متعددة الأقسام، تتضمن شبكة مركزية وفرعا صغيرا، مع تنظيم الأجهزة",
+  "detailed_desc": "تصميم ومحاكاة شبكة حاسوبية لمؤسسة صغيرة باستخدام Cisco Packet Tracer — مرحبا، أبحث عن مهندس/ة شبكات لديه خبرة في استخدام Cisco Packet Tracer لتصميم وتنفيذ ومحاكاة شبكة حاسوبية متوسطة الحجم، مع تطبيق مجموعة من تقنيات الشبكات وإعدادات أجهزة Cisco. فكرة المشروع: إنشاء شبكة افتراضية لمؤسسة متعددة الأقسام، تتضمن شبكة مركزية",
   "domain_data": {
     "repo_name": "fada-cowork-coworking",
-    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "telemetry_preview": "OBD-II PID 010F: 2200 RPM | BLE RSSI: -65dBm | CAN-Bus 0x18FE: 42°C Engine Temp"
   }
 }
