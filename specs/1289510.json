@@ -2,8 +2,8 @@
   "project_id": "1289510",
   "repo_name": "hakeem-vitals-telehealth-1289510",
   "repo_url": "https://github.com/hmoushim0-cloud/hakeem-vitals-telehealth-1289510",
-  "app_name": "تطبيق حكيم للمؤشرات — خدمة العملاء و إدارة مشروع ط",
-  "tagline": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
+  "app_name": "عيادة الدكتور عبدالحميد حمد — الاستشارات والدورات الطبية الذكية",
+  "tagline": "رعاية صحية ذكية مع مراقبة حيوية فورية عبر أجهزة BLE المدمجة",
   "preset": "telehealth",
   "layout_type": "telehealth",
   "layoutArchetype": "telehealth",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق حكيم للمؤشرات — خدمة العملاء و إدارة مشروع ط",
-    "subtitle": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810"
+    "title": "عيادة الدكتور عبدالحميد حمد — الاستشارات والدورات الطبية الذكية",
+    "subtitle": "رعاية صحية ذكية مع مراقبة حيوية فورية عبر أجهزة BLE المدمجة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "استشارات تخصصية",
+    "دورات طبية مسجلة",
+    "مراقبة العلامات الحيوية",
+    "باقات علاجية متكاملة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
+      "title": "باقة الاستشارة الشاملة مع تقرير حيوي",
+      "desc": "استشارة 45 دقيقة مع تحليل فوري لقراءات ضغط الدم والأكسجة عبر جهاز BLE المرفق",
+      "price": "350 ر.س",
+      "icon": "heartPulse",
       "badge": "شامل"
+    },
+    {
+      "title": "دورة إدارة الضغط النفسي",
+      "desc": "كورس مسجل 8 ساعات مع تمارين تفاعلية ومتابعة أسبوعية عبر التطبيق",
+      "price": "499 ر.س",
+      "icon": "brain",
+      "badge": "الأكثر طلباً"
+    },
+    {
+      "title": "اشتراك شهري لمراقبة الضغط",
+      "desc": "متابعة يومية عبر جهاز BLE مع تنبيهات طبية تلقائية وتحليل اتجاهات",
+      "price": "199 ر.س",
+      "icon": "activity",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "768cd79",
+  "commit_hash": "3413c23",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "hakeem-vitals-telehealth-1289510",
     "hardware_sensor": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
-    "telemetry_preview": "BLE Blood Pressure & Pulse Oximeter GATT 0x1810: ONLINE | READY"
+    "telemetry_preview": "GATT 0x1810: 118/76 mmHg | 92% SpO2 | 78 BPM"
   }
 }
