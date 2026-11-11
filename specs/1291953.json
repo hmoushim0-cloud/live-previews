@@ -1,0 +1,118 @@
+{
+  "project_id": "1291953",
+  "repo_name": "manara-edtech-smart-education-1291953",
+  "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1291953",
+  "app_name": "تطبيق منارة التعليمية — منصة التعلم التفاعلي والقلم الرقمي",
+  "tagline": "بيئة تعليمية ذكية تدعم القلم الرقمي Smart Stylus Digitizer 4096 مستوى ضغط مع استشعار BLE",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق منارة التعليمية — منصة التعلم التفاعلي والقلم الرقمي",
+    "subtitle": "بيئة تعليمية ذكية تدعم القلم الرقمي Smart Stylus Digitizer 4096 مستوى ضغط مع استشعار BLE"
+  },
+  "categories": [
+    "الرياضيات والعلوم",
+    "الخط العربي والفنون",
+    "الفيزياء والهندسة",
+    "البرمجة والحوسبة",
+    "تقييم أكاديمي"
+  ],
+  "items": [
+    {
+      "title": "مساق فنون الخط العربي بالقلم الرقمي",
+      "desc": "تدريب تفاعلي على قواعد خط النسخ والرقعة مع استشعار انسيابي للضغط 4096 مستوى",
+      "price": "180.0 ر.س",
+      "icon": "edit-3",
+      "badge": "فنون وتراث"
+    },
+    {
+      "title": "محاكاة مسائل الفيزياء والميكانيكا",
+      "desc": "رسم المخططات البيانية الحرة وحساب المتجهات والسرعات بدقة القلم الرقمي الفائقة",
+      "price": "220.0 ر.س",
+      "icon": "activity",
+      "badge": "تفاعلي"
+    },
+    {
+      "title": "حل المعادلات الرياضية والجبر المتقدم",
+      "desc": "تحليل المسار الخطي للمعادلات الرياضية وتقييم خطوات الحل الفوري للطلاب",
+      "price": "160.0 ر.س",
+      "icon": "divide-circle",
+      "badge": "رياضيات"
+    },
+    {
+      "title": "أساسيات الحوسبة السحابية وهندسة النظم",
+      "desc": "مخططات المعمارية السحابية وتصميم قواعد البيانات مع توثيق حي للإنجاز",
+      "price": "290.0 ر.س",
+      "icon": "cloud",
+      "badge": "تقني معتمد"
+    },
+    {
+      "title": "قلم رقمي تفاعلي مع مستشعر ضغط BLE",
+      "desc": "عتاد تعليمي متقدم مع عزل تلقائي لراحة اليد وأزرار وظيفية لتبديل الممحاة والتحديد",
+      "price": "350.0 ر.س",
+      "icon": "feather",
+      "badge": "عتاد متصل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "feather"
+    },
+    {
+      "id": "checkout",
+      "label": "المساقات",
+      "icon": "book-open"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "smart_education",
+      "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "479fc77",
+  "proof_screenshots": [
+    {
+      "title": "واجهة تطبيق منارة التعليمية الرئيسية",
+      "path": "shots/1291953_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة استشعار القلم الرقمي ومستويات الضغط",
+      "path": "shots/1291953_02.png",
+      "fallback": "Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    },
+    {
+      "title": "شاشة المساقات والتقييم الأكاديمي الرقمي",
+      "path": "shots/1291953_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية للتعلم التفاعلي",
+      "path": "shots/1291953_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لعتاد القلم الرقمي والضغط",
+      "path": "shots/1291953_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للتقييم الأكاديمي والشهادات",
+      "path": "shots/1291953_ios_03.png"
+    }
+  ]
+}
