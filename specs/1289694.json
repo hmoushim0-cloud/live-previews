@@ -2,7 +2,7 @@
   "project_id": "1289694",
   "repo_name": "multaqa-hub-coworking-1289694",
   "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289694",
-  "app_name": "تطبيق ملتقى الأعمال — الترويج لمنصة إلكترونية جديد",
+  "app_name": "multaqa-hub-coworking-1289694",
   "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
   "preset": "coworking",
   "layout_type": "coworking",
@@ -12,7 +12,7 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ملتقى الأعمال — الترويج لمنصة إلكترونية جديد",
+    "title": "multaqa-hub-coworking-1289694",
     "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
   },
   "categories": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6eb66ce",
+  "commit_hash": "92af05e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
