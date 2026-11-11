@@ -3,45 +3,60 @@
   "repo_name": "sajil-zatca-pos-cashier-1289571",
   "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289571",
   "app_name": "سقر للربط الذكي — مزامنة فورية بين شوبيفاي وإعلانات فيسبوك",
-  "tagline": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتعزيز مبيعاتك عبر الإنترنت",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#06b6d4"
+    "primary_color": "#16a34a",
+    "accent_color": "#15803d"
   },
   "banner": {
     "title": "سقر للربط الذكي — مزامنة فورية بين شوبيفاي وإعلانات فيسبوك",
-    "subtitle": "ربط سلس مع طابعات ESC/POS وماسحات الباركود لتعزيز مبيعاتك عبر الإنترنت"
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
   },
   "categories": [
     "إعداد البيكسل",
     "مزامنة الكتالوج",
     "تقارير المبيعات",
-    "دعم الطابعات"
+    "طابعات حرارية",
+    "فواتير زاتكا"
   ],
   "items": [
     {
       "title": "إعداد بيكسل فيسبوك جديد",
       "desc": "إلغاء البيكسل القديم وربط بيكسل محدث مع كتالوج المنتجات عبر واجهة برمجة تطبيقات شوبيفاي",
-      "price": "150 ر.س",
-      "icon": "shield",
+      "price": "150.0 ر.س",
+      "icon": "zap",
       "badge": "معتمد"
     },
     {
       "title": "مزامنة كتالوج المنتجات",
       "desc": "تحديث تلقائي للأسعار والمخزون بين متجر شوبيفاي وحساب إعلانات فيسبوك",
-      "price": "280 ر.س",
-      "icon": "activity",
+      "price": "280.0 ر.س",
+      "icon": "refresh-cw",
       "badge": "فوري"
     },
     {
-      "title": "تكامل طابعة الفواتير",
+      "title": "تكامل طابعة الفواتير ESC/POS",
       "desc": "طباعة فواتير المبيعات عبر الإنترنت مباشرة على طابعات ESC/POS الحرارية مع باركود",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "price": "95.0 ر.س",
+      "icon": "printer",
       "badge": "جديد"
+    },
+    {
+      "title": "وحدة الفوترة الإلكترونية زاتكا المرحلة الثانية",
+      "desc": "تشفير رقمي كامل وختم ضريبي TLV QR مع ربط سحابي فوري بهيئة الزكاة والضريبة والجمارك",
+      "price": "350.0 ر.س",
+      "icon": "file-text",
+      "badge": "امتثال كامل"
+    },
+    {
+      "title": "ماسح باركود لاسلكي 2D مع درج النقود",
+      "desc": "ربط سريع عبر Bluetooth وUSB مع فتح تلقائي لدرج النقدية عند إصدار الفاتورة",
+      "price": "220.0 ر.س",
+      "icon": "scan",
+      "badge": "عتاد متصل"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
-      "icon": "activity"
+      "label": "العتاد الميداني",
+      "icon": "printer"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الفواتير",
+      "icon": "shopping-bag"
     }
   ],
   "sensors": [
@@ -73,7 +83,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "7754150",
+  "commit_hash": "22b8a66",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -81,14 +91,14 @@
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "شاشة العتاد والربط بالطابعة والماسح",
       "path": "shots/1289571_02.png",
       "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "شاشة إتمام الفاتورة واحتساب الضريبة",
       "path": "shots/1289571_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "ZATCA Phase 2 Verified"
     }
   ],
   "proof_screenshots_ios": [
@@ -97,18 +107,12 @@
       "path": "shots/1289571_ios_01.png"
     },
     {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "title": "واجهة iOS للعتاد والطباعة الحرارية",
       "path": "shots/1289571_ios_02.png"
     },
     {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "title": "واجهة iOS لإصدار فواتير زاتكا",
       "path": "shots/1289571_ios_03.png"
     }
-  ],
-  "detailed_desc": "مطلوب ربط بيكسل وكتالوج متجر شوبيفاي — مطلوب الغاء البيكسل القديم وربط بيكسل جديد بين متجر شوبيفاي وكتالوج المنتجات الموجودة فى المتجر مع حسابى الاعلانى في مدير الاعلانات في الفيس بوك",
-  "domain_data": {
-    "repo_name": "sajil-zatca-pos-cashier-1289571",
-    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS: 200mm/s | Barcode: 39/EAN-13 Scan | Paper: 15% Remaining"
-  }
+  ]
 }
