@@ -2,46 +2,61 @@
   "project_id": "1289549",
   "repo_name": "wathiq-najiz-legal-consulting-1289549",
   "repo_url": "https://github.com/hmoushim0-cloud/wathiq-najiz-legal-consulting-1289549",
-  "app_name": "تطبيق توثيق النجيز — عقود عمل موثقة للفيزا",
-  "tagline": "عقود عمل موثقة مع حماية HSM مشفرة — بحث آمن وموثوق",
+  "app_name": "منصة توثيق وناجز للاستشارات القانونية — العقود والوكالات",
+  "tagline": "توثيق قانوني معتمد بالربط مع وزارة العدل وبوابة ناجز وحماية HSM المشفرة (FIPS 140-2)",
   "preset": "legal_consulting",
   "layout_type": "legal_consulting",
   "layoutArchetype": "legal_consulting",
   "theme": {
-    "primary_color": "#38bdf8",
-    "accent_color": "#f59e0b"
+    "primary_color": "#38BDF8",
+    "accent_color": "#F59E0B"
   },
   "banner": {
-    "title": "تطبيق توثيق النجيز — عقود عمل موثقة للفيزا",
-    "subtitle": "عقود عمل موثقة مع حماية HSM مشفرة — بحث آمن وموثوق"
+    "title": "منصة توثيق وناجز للاستشارات القانونية — العقود والوكالات",
+    "subtitle": "توثيق قانوني معتمد بالربط مع وزارة العدل وبوابة ناجز وحماية HSM المشفرة"
   },
   "categories": [
-    "عقود عمل",
-    "خدمات فيزا",
-    "توثيق قانوني",
-    "استشارات توظيف"
+    "الكل",
+    "توثيق الوكالات",
+    "عقود الشركات",
+    "التحكيم التجاري",
+    "اللوائح والمذكرات"
   ],
   "items": [
     {
-      "title": "عقد عمل موثق بريميوم",
-      "desc": "عقد عمل معتمد من جهات قانونية مع ختم HSM رقمي غير قابل للتزوير",
-      "price": "450 ر.س",
+      "title": "توثيق وكالة شرعية إلكترونية عبر ناجز",
+      "desc": "إصدار وتوثيق فوري للوكالات الشرعية الفردية والتجارية مع ربط مباشر ببوابة ناجز",
+      "price": "250.0 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "معتمد عدليا"
     },
     {
-      "title": "خدمة فيزا عاجلة",
-      "desc": "توفير عقد عمل خلال 72 ساعة مع أولوية التحقق عبر HSM",
-      "price": "750 ر.س",
-      "icon": "activity",
-      "badge": "فوري"
+      "title": "صياغة وتوثيق عقد تأسيس شركة ذات مسؤولية محدودة",
+      "desc": "صياغة قانونية متكاملة وفق نظام الشركات السعودي الجديد مع ختم HSM المشفر",
+      "price": "1,500.0 ر.س",
+      "icon": "file-text",
+      "badge": "عقود شركات"
     },
     {
-      "title": "حزمة توثيق أساسية",
-      "desc": "توثيق عقد عمل موجود مع تقرير سلامة HSM مشفر",
-      "price": "220 ر.س",
-      "icon": "zap",
-      "badge": "جديد"
+      "title": "استشارة قانونية في التحكيم والنزاعات التجارية",
+      "desc": "دراسة ملف النزاع وإعداد مذكرة الدفاع والوساطة طبقا للائحة المركز السعودي للتحكيم",
+      "price": "850.0 ر.س",
+      "icon": "award",
+      "badge": "تحكيم تجاري"
+    },
+    {
+      "title": "باقة الاحتفاظ والاستشارات السنوية للشركات",
+      "desc": "متابعة شهرية مستمرة مع 15 ساعة استشارية وتدقيق دوري للاتفاقيات والعقود",
+      "price": "5,000.0 ر.س",
+      "icon": "briefcase",
+      "badge": "باقة سنوية"
+    },
+    {
+      "title": "وحدة التشفير المادية FIPS 140-2 HSM Security Token",
+      "desc": "عتاد تشفير وتوقيع رقمي للأختام الإلكترونية وتوثيق المذكرات العدلية",
+      "price": "1,200.0 ر.س",
+      "icon": "key",
+      "badge": "عتاد مشفر"
     }
   ],
   "nav_tabs": [
@@ -51,19 +66,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
-      "icon": "activity"
+      "label": "عتاد HSM",
+      "icon": "shield"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "العقود",
+      "icon": "file-text"
     }
   ],
   "sensors": [
@@ -73,42 +83,27 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6caf95f",
+  "commit_hash": "15be517",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة منصة توثيق وناجز القانونية الرئيسية",
       "path": "shots/1289549_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "مراقبة وحدة التشفير الطرفية وأختام HSM الرقمية",
       "path": "shots/1289549_02.png",
       "fallback": "FIPS 140-2 Cryptographic HSM Security Token"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "توثيق العقود وسداد رسوم الاستشارات العدلية",
       "path": "shots/1289549_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "Najiz Legal Contract Notarization & Payment"
     }
   ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289549_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1289549_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1289549_ios_03.png"
-    }
-  ],
-  "detailed_desc": "البحث عن وظائف وتوفير عقود عمل موثقة — سلام عليكم ابحث عن مقدم خدمة البحث عن عروض توظيف لتوفير عقد عمل موثق للحصول على فيزا عمل يكون محترف وخبير في مجاله الرجاء التقدم من المحترفين فقط التفاصيل عند التواصل اذكر سعر خدمتك و ماهي المدة اللتي يمكنك فيها جلب القبول و توفير عقد العمل",
-  "domain_data": {
-    "repo_name": "wathiq-najiz-legal-consulting-1289549",
-    "hardware_sensor": "FIPS 140-2 Cryptographic HSM Security Token",
-    "telemetry_preview": "HSM: AES-256 Encryption Active | FIPS 140-2 Compliance | Key Health: 100%"
+  "test_results": {
+    "passed": 10,
+    "failed": 0,
+    "suite": "sa.factory.wathiqnajizlegalco.WathiqNajizRegressionTest"
   }
 }
