@@ -1,0 +1,109 @@
+{
+  "project_id": "1291983",
+  "repo_name": "qiyada-key-car-rental-1291983",
+  "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1291983",
+  "app_name": "منصة قيادة لتأجير السيارات — المفتاح الرقمي وتتبع الأسطول",
+  "tagline": "منظومة تأجير ذكية بدون مفتاح عبر بروتوكول CCC BLE/NFC مع ربط منصة وصل وهيئة النقل (TGA Wasl)",
+  "preset": "car_rental",
+  "layout_type": "car_rental",
+  "layoutArchetype": "car_rental",
+  "theme": {
+    "primary_color": "#F59E0B",
+    "accent_color": "#06B6D4"
+  },
+  "banner": {
+    "title": "منصة قيادة لتأجير السيارات — المفتاح الرقمي وتتبع الأسطول",
+    "subtitle": "تأجير ذكي بدون مفتاح عبر بروتوكول CCC BLE/NFC مع ربط منصة وصل (TGA Wasl)"
+  },
+  "categories": [
+    "الكل",
+    "سيارات اقتصادية",
+    "سيدان تنفيذية",
+    "دفع رباعي SUV",
+    "سيارات فاخرة"
+  ],
+  "items": [
+    {
+      "title": "تويوتا كامري 2026 — فئة GLE",
+      "desc": "مفتاح ذكي رقمي عبر الجوال، عداد مفتوح 250 كم/يوم، تغطية تأمينية شاملة CDW",
+      "price": "210.0 ر.س",
+      "icon": "truck",
+      "badge": "الأكثر طلبا"
+    },
+    {
+      "title": "هيونداي إلنترا 2026 — فئة سمارت",
+      "desc": "اقتصادية في استهلاك الوقود، فتح فوري للأبواب عبر NFC، ربط مباشر مع منصة وصل",
+      "price": "165.0 ر.س",
+      "icon": "navigation",
+      "badge": "اقتصادي"
+    },
+    {
+      "title": "بي إم دبليو الفئة الخامسة 520i — 2026",
+      "desc": "سيدان تنفيذية فاخرة، نظام ملاحة متقدم، مفتاح رقمي مشفر CCC مع تشغيل بصمة",
+      "price": "550.0 ر.س",
+      "icon": "award",
+      "badge": "تنفيذي VIP"
+    },
+    {
+      "title": "لاندكروزر VXR 2026 — دفع رباعي",
+      "desc": "قدرات دفع رباعي متطورة، مجهزة لتتبع الرحلات البرية ومراقبة السرعة والأودوميتر",
+      "price": "750.0 ر.س",
+      "icon": "compass",
+      "badge": "دفع رباعي"
+    },
+    {
+      "title": "مرسيدس بنز E-Class 2026",
+      "desc": "أعلى معايير الرفاهية والأمان، تسليم واستلام ذكي بدون زيارة الفرع 24/7",
+      "price": "620.0 ر.س",
+      "icon": "star",
+      "badge": "فاخر"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "telemetry",
+      "label": "التتبع والعتاد",
+      "icon": "activity"
+    },
+    {
+      "id": "checkout",
+      "label": "العقود",
+      "icon": "file-text"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "car_rental",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "34c9b56",
+  "proof_screenshots": [
+    {
+      "title": "واجهة منصة قيادة لتأجير السيارات الرئيسية",
+      "path": "shots/1291983_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "مراقبة أجهزة التتبع وبث وصل AVL والمفتاح الذكي",
+      "path": "shots/1291983_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "توثيق عقد التأجير والدفع الرقمي Mada",
+      "path": "shots/1291983_03.png",
+      "fallback": "Car Rental Electronic Contract & Billing"
+    }
+  ],
+  "test_results": {
+    "passed": 10,
+    "failed": 0,
+    "suite": "sa.factory.qiyadakeycarrental.QiyadaKeyCarRegressionTest"
+  }
+}
