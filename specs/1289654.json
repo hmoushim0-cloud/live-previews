@@ -2,8 +2,8 @@
   "project_id": "1289654",
   "repo_name": "injaz-care-services-1289654",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1289654",
-  "app_name": "تطبيق إنجاز للخدمات — مستقل للعمل بخدمة العملاء —",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "خدمة مدار — دعم العملاء الذكي مع NFC و GPS",
+  "tagline": "ربط فوري عبر NFC و GPS لتتبع الاستفسارات في الوقت الفعلي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — مستقل للعمل بخدمة العملاء —",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "خدمة مدار — دعم العملاء الذكي مع NFC و GPS",
+    "subtitle": "ربط فوري عبر NFC و GPS لتتبع الاستفسارات في الوقت الفعلي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "دعم فني",
+    "استفسارات الموظفين",
+    "تتبع GPS",
+    "دفع NFC"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "استجابة فورية",
+      "desc": "معالجة الاستفسارات خلال 15 دقيقة عبر اتصال NFC آمن مع التحقق من الموقع عبر GPS",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع الموقع",
+      "desc": "إدارة المهام الميدانية مع تحديثات GPS في الوقت الفعلي وتسجيل مسار الموظف",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "دفع آمن",
+      "desc": "معاملات Mada NFC متوافقة مع EMV L2 مع تأكيد GPS للموقع",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6b94e32",
+  "commit_hash": "6a48470",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1289654",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: 0x12345 | GPS: 23.1234°N, 58.5678°E | Speed: 15 km/h"
   }
 }
