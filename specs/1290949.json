@@ -2,46 +2,46 @@
   "project_id": "1290949",
   "repo_name": "mizan-pos-pos-cashier-1290949",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1290949",
-  "app_name": "تطبيق ميزان نقاط البيع — تصميم وبرمجة الموقع الإلكترو",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
-  "preset": "pos_cashier",
-  "layout_type": "pos_cashier",
-  "layoutArchetype": "pos_cashier",
+  "app_name": "منصة مدى للخدمات الذكية — خدمات فورية مع دفع بلا لمس",
+  "tagline": "دفع فوري عبر NFC مدى ومتابعة الموقع في الوقت الفعلي عبر GPS متقدم",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
     "primary_color": "#f59e0b",
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — تصميم وبرمجة الموقع الإلكترو",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة مدى للخدمات الذكية — خدمات فورية مع دفع بلا لمس",
+    "subtitle": "دفع فوري عبر NFC مدى ومتابعة الموقع في الوقت الفعلي عبر GPS متقدم"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "خدمات توصيل ذكية",
+    "صيانة منزلية فورية",
+    "استشارات ميدانية",
+    "تنظيف احترافي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "title": "توصيل وثائق عاجل",
+      "desc": "تتبع مباشر عبر GPS مع تسليم مؤمن عبر NFC",
       "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "icon": "navigation",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "صيانة تكييف معتمد",
+      "desc": "فحص عبر NFC لقطع الغيار الأصلية وتقرير GPS للزيارة",
+      "price": "320 ر.س",
+      "icon": "tool",
+      "badge": "معتمد"
+    },
+    {
+      "title": "تنظيف ما بعد البناء",
+      "desc": "فريق مزود باجهزة GPS مع دفع آمن عبر Mada NFC",
+      "price": "950 ر.س",
+      "icon": "shield",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "pos_cashier",
+      "type": "services",
       "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "e927897",
+  "commit_hash": "0d8224c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290949_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم وبرمجة الموقع الإلكتروني وتطبيقات الهواتف الذكية لمنصة تجارية. أرغب في التعاقد مع مبرمج لتنفيذ مشروع منصة ، ويشمل تصميم وبرمجة الموقع الإلكتروني وتطبيقات الهواتف الذكية (Android وiOS)، مع رفع التطبيقات على Google Play وApp Store. أولا: لوحة تحكم الإدارة (Super Admin) إضافة المحلات والمكاتب الجديدة. تعديل بيانات المحلات. إيقاف أو تفعيل المحلات",
+  "detailed_desc": "تصميم وبرمجة الموقع الإلكتروني وتطبيقات الهواتف الذكية لمنصة تجارية — أرغب في التعاقد مع مبرمج لتنفيذ مشروع منصة ، ويشمل تصميم وبرمجة الموقع الإلكتروني وتطبيقات الهواتف الذكية (Android وiOS)، مع رفع التطبيقات على Google Play وApp Store. أولا: لوحة تحكم الإدارة (Super Admin) إضافة المحلات والمكاتب الجديدة. تعديل بيانات",
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1290949",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: معاملة معتمدة | GPS: 24.7136°N, 46.6753°E - سرعة: 22 كم/س"
   }
 }
