@@ -2,46 +2,46 @@
   "project_id": "1290941",
   "repo_name": "sakan-lidar-real-estate",
   "repo_url": "https://github.com/hmoushim0-cloud/sakan-lidar-real-estate",
-  "app_name": "تطبيق سكن ثلاثي الأبعاد — انشاء موقع ويب وتطبيق لادارة",
-  "tagline": "منظومة real_estate المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
-  "preset": "real_estate",
-  "layout_type": "real_estate",
-  "layoutArchetype": "real_estate",
+  "app_name": "شبوق — منصة وساطة الشحن الذكية مع توقيع رقمي",
+  "tagline": "إدارة بوليصات الشحن بالتوقيع اليدوي الدقيق وتتبع الشاحنات عبر منارات BLE",
+  "preset": "smart_education",
+  "layout_type": "smart_education",
+  "layoutArchetype": "smart_education",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#06b6d4"
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق سكن ثلاثي الأبعاد — انشاء موقع ويب وتطبيق لادارة",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "شبوق — منصة وساطة الشحن الذكية مع توقيع رقمي",
+    "subtitle": "إدارة بوليصات الشحن بالتوقيع اليدوي الدقيق وتتبع الشاحنات عبر منارات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "بوليصات شحن",
+    "إدارة مناديب",
+    "تتبع شاحنات",
+    "تقارير مالية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "إصدار بوليصة فورية",
+      "desc": "إنشاء بوليصة شحن مع توقيع العميل عبر القلم الذكي 4096 مستوى ضغط",
+      "price": "150 ر.س",
+      "icon": "truck",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع شحنة مباشرة",
+      "desc": "مراقبة موقع الشاحنة عبر منارات BLE مع تنبيهات القرب",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير ضريبي شهري",
+      "desc": "توليد تقارير مالية مع تحليل هوامش الربح عبر واجهة منفصلة",
+      "price": "95 ر.س",
+      "icon": "bar-chart",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "real_estate",
+      "type": "smart_education",
       "label": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
       "status": "active"
     }
   ],
-  "commit_hash": "f8b0af9",
+  "commit_hash": "ea3432f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1290941_ios_03.png"
     }
   ],
-  "detailed_desc": "انشاء موقع ويب وتطبيق لادارة العمليات واصدار بوليصات شحن وطباعة تقارير ، النشاط وساطة شحن. شرح مختصر للمشروع نشاط الشركة وساطة شحن نتفق مع العميل نقل البضائع بمبلغ معين ونقوم بتوفير شاحنات من موردين خارجيين بسعر اقل ونحتاج تصميم موقع خاص بوساطة شحن يتكون من يوزرات ادمن ويوزرات للمناديب والسائقين ويكون له تطبيق على الجوال ، طريقة العمل يقوم المندوب",
+  "detailed_desc": "انشاء موقع ويب وتطبيق لادارة العمليات واصدار بوليصات شحن وطباعة تقارير ، النشاط وساطة شحن — شرح مختصر للمشروع نشاط الشركة وساطة شحن نتفق مع العميل نقل البضائع بمبلغ معين ونقوم بتوفير شاحنات من موردين خارجيين بسعر اقل ونحتاج تصميم موقع خاص بوساطة شحن يتكون من يوزرات ادمن ويوزرات للمناديب والسائقين ويكون له تطبيق على الجوال ، طريقة العمل يقوم",
   "domain_data": {
     "repo_name": "sakan-lidar-real-estate",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: 12m Proximity | Stylus: 2048 Pressure | Signature Verification: 98.7% Accuracy"
   }
 }
