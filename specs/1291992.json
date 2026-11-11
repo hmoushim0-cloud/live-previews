@@ -1,0 +1,109 @@
+{
+  "project_id": "1291992",
+  "repo_name": "rased-pos-pos-cashier-1291992",
+  "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1291992",
+  "app_name": "منظومة راصد كاشير — نقاط البيع والطباعة الحرارية ESC/POS",
+  "tagline": "منظومة نقاط بيع سحابية متكاملة تدعم الطباعة الحرارية ESC/POS والفوترة الإلكترونية ZATCA المرحلة الثانية",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#10B981",
+    "accent_color": "#34D399"
+  },
+  "banner": {
+    "title": "منظومة راصد كاشير — نقاط البيع والطباعة الحرارية ESC/POS",
+    "subtitle": "إدارة الكاشير الذكي والطباعة الحرارية ESC/POS مع الفوترة الإلكترونية المعتمدة"
+  },
+  "categories": [
+    "الكل",
+    "نقاط البيع",
+    "أجهزة الكاشير",
+    "الطابعات الحرارية",
+    "الفوترة الإلكترونية"
+  ],
+  "items": [
+    {
+      "title": "طابعة إيصالات حرارية 80 مم ESC/POS",
+      "desc": "طابعة حرارية فائقة السرعة مع قاطع آلي مدمج ومنفذ تسلسلي/USB/Ethernet",
+      "price": "450.0 ر.س",
+      "icon": "printer",
+      "badge": "عتاد معتمد"
+    },
+    {
+      "title": "قارئ باركود ثنائي الأبعاد 2D QR Scanner",
+      "desc": "مسح ضوئي ليزري متعدد الاتجاهات لقراءة رموز QR وفواتير ZATCA بدقة فائقة",
+      "price": "220.0 ر.س",
+      "icon": "maximize",
+      "badge": "استجابة سريعة"
+    },
+    {
+      "title": "باقة الربط والفوترة الإلكترونية ZATCA Phase 2",
+      "desc": "تكامل سحابي كامل مع هيئة الزكاة والضريبة والجمارك وتوليد رموز TLV المشفرة",
+      "price": "350.0 ر.س",
+      "icon": "file-text",
+      "badge": "معتمد ضريبيا"
+    },
+    {
+      "title": "درج نقود إلكتروني ثقيل 5 خانات",
+      "desc": "فتح آلي عبر نبضة ESC/POS من الطابعة، فولاذ مقاوم للصدمات مع قفل أمان ثلاثي",
+      "price": "180.0 ر.س",
+      "icon": "dollar-sign",
+      "badge": "أمان عالي"
+    },
+    {
+      "title": "شاشة عميل تفاعلية Customer Pole Display",
+      "desc": "عرض إجمالي الفاتورة وعناصر السلة للعميل لحظيا عبر واجهة USB/VFD",
+      "price": "190.0 ر.س",
+      "icon": "monitor",
+      "badge": "تفاعلي"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "telemetry",
+      "label": "الطابعة",
+      "icon": "printer"
+    },
+    {
+      "id": "checkout",
+      "label": "الفاتورة",
+      "icon": "shopping-cart"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "bcf8954",
+  "proof_screenshots": [
+    {
+      "title": "واجهة منظومة راصد كاشير الرئيسية",
+      "path": "shots/1291992_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "مراقبة حالة الطابعة الحرارية وعتاد الكاشير",
+      "path": "shots/1291992_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer"
+    },
+    {
+      "title": "إصدار الفاتورة الضريبية ZATCA وسداد مدى",
+      "path": "shots/1291992_03.png",
+      "fallback": "ZATCA Phase 2 Fatoora"
+    }
+  ],
+  "test_results": {
+    "passed": 10,
+    "failed": 0,
+    "suite": "sa.factory.rasedposposcashier.RasedPosPosRegressionTest"
+  }
+}
