@@ -2,8 +2,8 @@
   "project_id": "1289771",
   "repo_name": "naqd-terminal-pos-cashier-1289771",
   "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1289771",
-  "app_name": "تطبيق نقد تيرمنال — تسعير منتجات منصة دعوات الكت",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "منصة تسعير دعوات ذكية — تحليل ربحية باقات الدعوات الإلكترونية",
+  "tagline": "نظام تسعير ديناميكي مع طباعة فواتير فورية عبر طابعات ESC/POS",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق نقد تيرمنال — تسعير منتجات منصة دعوات الكت",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "منصة تسعير دعوات ذكية — تحليل ربحية باقات الدعوات الإلكترونية",
+    "subtitle": "نظام تسعير ديناميكي مع طباعة فواتير فورية عبر طابعات ESC/POS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل ربحية",
+    "تسعير باقات",
+    "طباعة فواتير",
+    "إدارة دعوات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "تدقيق ربحية الباقة",
+      "desc": "تحليل نقطة التعادل وتكلفة الوحدة لباقات الدعوات باستخدام خوارزميات التكلفة الحدية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "إعداد تسعير ديناميكي",
+      "desc": "ربط التسعير بمتغيرات الطلب الفوري عبر واجهة POS مع تحديثات في الوقت الحقيقي",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تصميم قالب فاتورة",
+      "desc": "تخصيص فواتير حرارية متوافقة مع ESC/POS مع دمج شفرات الاستجابة السريعة",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e91ddfd",
+  "commit_hash": "7f3581e",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "naqd-terminal-pos-cashier-1289771",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS: 200mm/s | Barcode Scan: 300 scans/hr"
   }
 }
