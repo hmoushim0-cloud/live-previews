@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-12T15:11:38.397682+00:00",
+    "updated_at": "2026-11-12T15:12:12.189593+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "417",
+      "value": "418",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -81,6 +81,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1294124",
       "stamp_id": "SA-KMP-1294124",
       "crypto_hash": "sha256-1294124",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1294092",
+      "app_name": "تطبيق راصد كاشير — مبرمج يمثلنا تقنياً في اجتما",
+      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "preset": "pos_cashier",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294092",
+      "stamp_id": "SA-KMP-1294092",
+      "crypto_hash": "sha256-1294092",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
