@@ -2,8 +2,8 @@
   "project_id": "1289782",
   "repo_name": "manara-edtech-smart-education-1289782",
   "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1289782",
-  "app_name": "تطبيق منارة التعليمية — مطلوب مونتاج 2 فيديو — لدينا",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق قلم الذكي — منصة تعليمية تفاعلية مع قلم رقمي",
+  "tagline": "تعلم بذكاء مع قلم رقمي دقيق 4096 مستوى حساسية",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق منارة التعليمية — مطلوب مونتاج 2 فيديو — لدينا",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق قلم الذكي — منصة تعليمية تفاعلية مع قلم رقمي",
+    "subtitle": "تعلم بذكاء مع قلم رقمي دقيق 4096 مستوى حساسية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "رياضيات تفاعلية",
+    "علوم معززة بالواقع",
+    "لغات حية",
+    "مهارات فنية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "حزمة دروس رياضيات",
+      "desc": "منهج تفاعلي مع تصحيح فوري عبر القلم الرقمي وتحليل أداء",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تجارب علوم افتراضية",
+      "desc": "مختبر افتراضي مع محاكاة ثلاثية الأبعاد عبر مستشعرات القلم",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "دورات لغات سريعة",
+      "desc": "تمارين نطق تفاعلية مع تصحيح عبر BLE Beacon",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "29134da",
+  "commit_hash": "c6b3ea5",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "manara-edtech-smart-education-1289782",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Stylus Pressure 2048/4096 | Proximity 1.2m"
   }
 }
