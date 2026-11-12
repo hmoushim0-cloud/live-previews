@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-12T15:12:21.620768+00:00",
+    "updated_at": "2026-11-12T15:12:24.621126+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "421",
+      "value": "422",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -117,6 +117,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1294002",
       "stamp_id": "SA-KMP-1294002",
       "crypto_hash": "sha256-1294002",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1294001",
+      "app_name": "تطبيق إتقان للصيانة — تنفيذ شاشتي Forgot Password",
+      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "preset": "services",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294001",
+      "stamp_id": "SA-KMP-1294001",
+      "crypto_hash": "sha256-1294001",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
