@@ -2,8 +2,8 @@
   "project_id": "1289762",
   "repo_name": "ruya-academy-smart-education-1289762",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1289762",
-  "app_name": "تطبيق رؤية للتدريب — مدرب أو خبير في الذكاء الاصط",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "أكاديمية سقر للذكاء الاصطناعي — دورات تدريبية لزيادة الإنتاجية",
+  "tagline": "دورات تفاعلية مع قلم ذكي وتحليل الأداء عبر البلوتوث",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — مدرب أو خبير في الذكاء الاصط",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "أكاديمية سقر للذكاء الاصطناعي — دورات تدريبية لزيادة الإنتاجية",
+    "subtitle": "دورات تفاعلية مع قلم ذكي وتحليل الأداء عبر البلوتوث"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "دورات الذكاء الاصطناعي",
+    "كتابة البرومبتس",
+    "إنتاجية الطلاب",
+    "تطبيقات عملية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "دورة أساسيات الذكاء الاصطناعي",
+      "desc": "تدريب عملي على نماذج اللغة مع تمارين تفاعلية باستخدام القلم الذكي",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "ورشة كتابة البرومبتس المتقدمة",
+      "desc": "تقنيات هندسة البرومبتس مع تحليل فوري عبر منصة BLE",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "أدوات الإنتاجية اليومية",
+      "desc": "دمج الذكاء الاصطناعي في سير العمل باستخدام أجهزة الاستشعار البيومترية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "fdd92c8",
+  "commit_hash": "6edce5f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1289762",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Stylus Pressure 2048/4096 | Proximity: 0.5m | Battery: 85%"
   }
 }
