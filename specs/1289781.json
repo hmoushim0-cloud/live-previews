@@ -2,8 +2,8 @@
   "project_id": "1289781",
   "repo_name": "itqan-dispatch-services-1289781",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289781",
-  "app_name": "تطبيق إتقان للصيانة — عمل تحليل احصائي وتعليق على",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تحليلات مدار — تحليل إحصائي فوري مع تتبع GPS",
+  "tagline": "تحليل بيانات بحثية مع معالجة مدفوعات فورية عبر NFC وتتبع الموقع",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — عمل تحليل احصائي وتعليق على",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تحليلات مدار — تحليل إحصائي فوري مع تتبع GPS",
+    "subtitle": "تحليل بيانات بحثية مع معالجة مدفوعات فورية عبر NFC وتتبع الموقع"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل إحصائي",
+    "قياس الصدق والثبات",
+    "تتبع GPS",
+    "مدفوعات NFC"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "تحليل ثلاثي الفرضيات",
+      "desc": "تحليل إحصائي متكامل لثلاثة فروض بحثية مع قياس الصدق والثبات",
+      "price": "850 ر.س",
+      "icon": "bar-chart-2",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تتبع ميداني مباشر",
+      "desc": "دمج بيانات GPS في الوقت الفعلي مع نتائج التحليل الإحصائي",
+      "price": "420 ر.س",
+      "icon": "map-pin",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "معالجة مدفوعات NFC",
+      "desc": "قبول مدفوعات معايير Mada EMV L2 عبر قارئ NFC مدمج",
+      "price": "280 ر.س",
+      "icon": "credit-card",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e8e1b28",
+  "commit_hash": "f18f389",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289781",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC EMV L2: TX 48KB | GPS: 24.71°N 46.67°E | Speed: 22 km/h"
   }
 }
