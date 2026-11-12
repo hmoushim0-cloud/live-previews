@@ -1,0 +1,114 @@
+{
+  "project_id": "1291959",
+  "repo_name": "naqd-terminal-pos-cashier-1291959",
+  "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier-1291959",
+  "app_name": "تطبيق نقد تيرمنال — مطلوب 12 مختبرًا حقيقيًا لتط",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "تطبيق نقد تيرمنال — مطلوب 12 مختبرًا حقيقيًا لتط",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "92ac1da",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1291959_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1291959_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1291959_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1291959_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1291959_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1291959_ios_03.png"
+    }
+  ],
+  "detailed_desc": "مطلوب 12 مختبرًا حقيقيًا لتطبيق أندرويد لاستيفاء شروط جوجل بلاي (14 يومًا). السلام عليكم، أبحث عن مستقل محترف يوفر لي 12 مختبرا حقيقيا (بأجهزة أندرويد حقيقية وحسابات جي ميل نشطة) لتطبيق الخاص بي على متجر جوجل بلاي، وذلك لاستيفاء شروط الاختبار المغلق (Closed Testing) الجديد. الشروط لقبول العمل وضمان الحقوق (برجاء القراءة بعناية قبل التقديم): 1. أجهز",
+  "domain_data": {
+    "repo_name": "naqd-terminal-pos-cashier-1291959",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
+}

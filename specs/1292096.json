@@ -1,0 +1,114 @@
+{
+  "project_id": "1292096",
+  "repo_name": "rased-pos-pos-cashier-1292096",
+  "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1292096",
+  "app_name": "تطبيق راصد كاشير — إنشاء موقع ERP & CRM. نطاق م",
+  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#38bdf8",
+    "accent_color": "#f59e0b"
+  },
+  "banner": {
+    "title": "تطبيق راصد كاشير — إنشاء موقع ERP & CRM. نطاق م",
+    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "8f16223",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1292096_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1292096_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1292096_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1292096_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1292096_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1292096_ios_03.png"
+    }
+  ],
+  "detailed_desc": "إنشاء موقع ERP & CRM. نطاق مجمع لمشروع Tire Guard الموقع الإلكتروني: إنشاء الموقع باستخدام Odoo Website Builder باللغتين العربية والإنجليزية، مع دعم اتجاه الكتابة المناسب لكل لغة. تطبيق الهوية البصرية التي سيتم مشاركتها على جميع صفحات الموقع. تضمين صفحات التعريف بالشركة ومنتجاتها وخدماتها، وبيانات الفروع ووسائل التواصل، مع إبراز حجز المواعيد بوصفه",
+  "domain_data": {
+    "repo_name": "rased-pos-pos-cashier-1292096",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+  }
+}

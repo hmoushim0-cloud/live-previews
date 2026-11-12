@@ -1,0 +1,114 @@
+{
+  "project_id": "1292397",
+  "repo_name": "haraka-scale-fitness",
+  "repo_url": "https://github.com/hmoushim0-cloud/haraka-scale-fitness",
+  "app_name": "تطبيق حركة والميزان — إنشاء تطبيق ينظّم مهام المست",
+  "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+  "preset": "fitness",
+  "layout_type": "fitness",
+  "layoutArchetype": "fitness",
+  "theme": {
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
+  },
+  "banner": {
+    "title": "تطبيق حركة والميزان — إنشاء تطبيق ينظّم مهام المست",
+    "subtitle": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap"
+  },
+  "categories": [
+    "الخدمات الرئيسية",
+    "المراقبة الحية",
+    "التقارير الضريبية",
+    "الإعدادات"
+  ],
+  "items": [
+    {
+      "title": "الباقة التنفيذية المعتمدة",
+      "desc": "تكامل مباشر مع BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "معتمد"
+    },
+    {
+      "title": "خدمة المعالجة الفورية",
+      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "فوري"
+    },
+    {
+      "title": "باقة الصيانة والدعم السحابي",
+      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "price": "250 ر.س",
+      "icon": "activity",
+      "badge": "شامل"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "fitness",
+      "label": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "405ebbb",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1292397_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1292397_02.png",
+      "fallback": "BLE Smart Scale GATT 0x181D + Heart Rate Strap"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1292397_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1292397_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1292397_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1292397_ios_03.png"
+    }
+  ],
+  "detailed_desc": "إنشاء تطبيق ينظّم مهام المستخدم اليومية. تطبيق أندرويد فقط (بدون آيفون)، وينشر في Google Play. تطبيق ينظم مهام المستخدم اليومية، وعند حلول وقت كل مهمة يرسل إشعارا ويقفل الهاتف كله، فلا يستطيع المستخدم فتح أي تطبيق آخر حتى تنتهي المهمة. المهام: - يضيف المستخدم مهامه بأسمائها وأوقاتها ومدتها: العمل، التمارين، الأكل، الصلاة، وأي مهمة أخرى. - لكل مهمة",
+  "domain_data": {
+    "repo_name": "haraka-scale-fitness",
+    "hardware_sensor": "BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+    "telemetry_preview": "BLE Smart Scale GATT 0x181D + Heart Rate Strap: ONLINE | READY"
+  }
+}
