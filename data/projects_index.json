@@ -56,6 +56,14 @@
     "spec_path": "specs/1294001.json"
   },
   {
+    "project_id": "1293982",
+    "app_name": "تطبيق شفاء الرقمية — بناء بوت واتساب شامل. بناء ب",
+    "tagline": "منظومة telehealth المتكاملة مع ربط BLE Blood Pressure & Pulse Oximeter GATT 0x1810",
+    "preset": "telehealth",
+    "has_proofs": true,
+    "spec_path": "specs/1293982.json"
+  },
+  {
     "project_id": "1292969",
     "app_name": "تطبيق مملكة العقار — إعداد واجهة وتجربة المستخدم",
     "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
