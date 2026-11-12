@@ -2,8 +2,8 @@
   "project_id": "1275562",
   "repo_name": "iiot-industrial-iot-1275562",
   "repo_url": "https://github.com/hmoushim0-cloud/iiot-industrial-iot-1275562",
-  "app_name": "تطبيق رقابة الصناعية — مدرس بلندر متمكن يبقى معي لم",
-  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "app_name": "تحليل الاهتزازات الصناعية — نظام مراقبة الذبذبات المتكامل",
+  "tagline": "مراقبة فورية للاهتزازات والأصوات الصناعية عبر أجهزة استشعار متطورة",
   "preset": "industrial_iot",
   "layout_type": "industrial_iot",
   "layoutArchetype": "industrial_iot",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رقابة الصناعية — مدرس بلندر متمكن يبقى معي لم",
-    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
+    "title": "تحليل الاهتزازات الصناعية — نظام مراقبة الذبذبات المتكامل",
+    "subtitle": "مراقبة فورية للاهتزازات والأصوات الصناعية عبر أجهزة استشعار متطورة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل الاهتزازات",
+    "مراقبة الصوت",
+    "تقارير الصيانة",
+    "إدارة الأصول"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-      "price": "180 ر.س",
+      "title": "تحليل طيفي ثلاثي المحاور",
+      "desc": "تحليل ترددي متعمق لبيانات الاهتزاز عبر مستشعرات تسارع صناعية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "رصد ضوضائي صناعي",
+      "desc": "كشف فوري للانحرافات الصوتية عبر مسبار Modbus RS485",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "توقعات الصيانة التنبؤية",
+      "desc": "خوارزميات ذكاء اصطناعي لتحديد أعطال المعدات قبل حدوثها",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "bae4778",
+  "commit_hash": "da86bb3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "iiot-industrial-iot-1275562",
     "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+    "telemetry_preview": "Modbus RS485: 3-Axis Accel (X: 0.8g, Y: 0.5g, Z: 0.7g) | Acoustic dB: 65.2 | Temp: 42°C"
   }
 }
