@@ -40,6 +40,14 @@
     "spec_path": "specs/1294011.json"
   },
   {
+    "project_id": "1294002",
+    "app_name": "تطبيق ميزان نقاط البيع — تصميم واجهة Landing Page احت",
+    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "preset": "pos_cashier",
+    "has_proofs": true,
+    "spec_path": "specs/1294002.json"
+  },
+  {
     "project_id": "1292969",
     "app_name": "تطبيق مملكة العقار — إعداد واجهة وتجربة المستخدم",
     "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
