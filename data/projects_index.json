@@ -8,6 +8,14 @@
     "spec_path": "specs/1292579.json"
   },
   {
+    "project_id": "1292548",
+    "app_name": "تطبيق منصة أرينا — مطلوب مصمم توازن واقتصاد ألع",
+    "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+    "preset": "event_ticketing",
+    "has_proofs": true,
+    "spec_path": "specs/1292548.json"
+  },
+  {
     "project_id": "1292503",
     "app_name": "تطبيق نقد تيرمنال — تحويل تطبيق من التجربة للبرو",
     "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",

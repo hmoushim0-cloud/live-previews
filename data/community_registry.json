@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-12T04:12:04.638428+00:00",
+    "updated_at": "2026-11-12T04:14:11.633742+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "412",
+      "value": "413",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -57,6 +57,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1292579",
       "stamp_id": "SA-KMP-1292579",
       "crypto_hash": "sha256-1292579",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1292548",
+      "app_name": "تطبيق منصة أرينا — مطلوب مصمم توازن واقتصاد ألع",
+      "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+      "preset": "event_ticketing",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1292548",
+      "stamp_id": "SA-KMP-1292548",
+      "crypto_hash": "sha256-1292548",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"
