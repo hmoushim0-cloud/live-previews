@@ -3,45 +3,53 @@
   "repo_name": "sajil-zatca-pos-cashier-1289750",
   "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289750",
   "app_name": "سقار بوينت — بناء روابط ذكي لنقاط البيع",
-  "tagline": "نظام نقاط بيع متكامل مع بناء روابط خلفية آمنة — متوافق مع طابعات ESC/POS",
+  "tagline": "نظام نقاط بيع متكامل ومتوافق مع هيئة الزكاة والضريبة والجمارك المرحلة الثانية وطابعات الفواتير الحرارية ESC/POS",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
   "theme": {
-    "primary_color": "#8b5cf6",
-    "accent_color": "#06b6d4"
+    "primary_color": "#8B5CF6",
+    "accent_color": "#06B6D4"
   },
   "banner": {
-    "title": "سقار بوينت — بناء روابط ذكي لنقاط البيع",
-    "subtitle": "نظام نقاط بيع متكامل مع بناء روابط خلفية آمنة — متوافق مع طابعات ESC/POS"
+    "title": "سقار بوينت — الفوترة الإلكترونية ونقاط البيع",
+    "subtitle": "إصدار فواتير ضريبية مبسطة معتمدة من زاتكا وطباعة حرارية فورية عبر بروتوكول ESC/POS"
   },
   "categories": [
+    "الكل",
     "تحسين محركات البحث",
     "بناء الروابط الخلفية",
     "إدارة نقاط البيع",
-    "تقارير الأداء"
+    "ملحقات نقاط البيع"
   ],
   "items": [
     {
-      "title": "حزمة روابط خلفية يدوية",
-      "desc": "بناء 50 رابط خلفي يدوي عالي السلطة من نطاقات DA 70+ مع محتوى مخصص",
-      "price": "150 ر.س",
-      "icon": "shield",
+      "title": "حزمة روابط خلفية يدوية وتوثيق الفواتير",
+      "desc": "بناء 50 رابط خلفي عالي السلطة مع فاتورة ضريبية مبسطة مشفرة متوافقة مع زاتكا",
+      "price": "150.0 ر.س",
+      "icon": "link",
       "badge": "معتمد"
     },
     {
-      "title": "تحليل منافسين فوري",
-      "desc": "تدقيق فني لبروفايل الباكلنكس المنافس مع توصيات استراتيجية فورية",
-      "price": "280 ر.س",
+      "title": "تحليل منافسين فوري وربط كاشير",
+      "desc": "تدقيق فني متكامل لبروفايل الباكلنكس مع طباعة تقرير فوري عبر طابعة الإيصالات الحرارية",
+      "price": "280.0 ر.س",
       "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "تدريب موظفي SEO",
-      "desc": "دورة مكثفة عن بناء الروابط الآمنة مع شهادة معتمدة لفرق التجارة الإلكترونية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تدريب موظفي SEO وإدارة الكاشير",
+      "desc": "دورة مكثفة مع شهادة معتمدة لفرق التجارة الإلكترونية ونقاط البيع",
+      "price": "95.0 ر.س",
+      "icon": "award",
       "badge": "جديد"
+    },
+    {
+      "title": "طابعة إيصالات حرارية ESC/POS وقارئ باركود",
+      "desc": "عتاد كاشير مدمج يدعم الطباعة النقطية السريعة 200 مم/ث وقراءة باركود 1D/2D",
+      "price": "490.0 ر.س",
+      "icon": "printer",
+      "badge": "عتاد معتمد"
     }
   ],
   "nav_tabs": [
@@ -51,19 +59,14 @@
       "icon": "home"
     },
     {
-      "id": "catalog",
-      "label": "الخدمات",
-      "icon": "layers"
-    },
-    {
       "id": "telemetry",
-      "label": "العتاد الحي",
-      "icon": "activity"
+      "label": "طابعة الكاشير",
+      "icon": "printer"
     },
     {
-      "id": "account",
-      "label": "حسابي",
-      "icon": "user"
+      "id": "checkout",
+      "label": "الفاتورة الضريبية",
+      "icon": "file-text"
     }
   ],
   "sensors": [
@@ -73,42 +76,22 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2eed14d",
+  "commit_hash": "442868e",
   "proof_screenshots": [
     {
-      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "title": "واجهة سقار بوينت الرئيسية لنقاط البيع وإصدار الفواتير",
       "path": "shots/1289750_01.png",
       "fallback": "Android 14 Compose Native"
     },
     {
-      "title": "شاشة التفاصيل والربط بالعتاد",
+      "title": "شاشة طابعة الإيصالات الحرارية وقراءات ESC/POS والباركود",
       "path": "shots/1289750_02.png",
       "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
     },
     {
-      "title": "شاشة إتمام العملية والتتبع",
+      "title": "شاشة الفاتورة والضريبة 15% وتوليد رمز الاستجابة السريعة زاتكا",
       "path": "shots/1289750_03.png",
-      "fallback": "Real-time Telemetry OK"
+      "fallback": "ZATCA Phase 2 Certified"
     }
-  ],
-  "proof_screenshots_ios": [
-    {
-      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
-      "path": "shots/1289750_ios_01.png"
-    },
-    {
-      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
-      "path": "shots/1289750_ios_02.png"
-    },
-    {
-      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
-      "path": "shots/1289750_ios_03.png"
-    }
-  ],
-  "detailed_desc": "خبير سيو متخصص في بناء روابط خلفية يدوية عالية الجودة (Manual Backlinks) — السلام عليكم ورحمة الله وبركاته، نبحث عن مستقل خبير ومحترف في بناء الروابط الخلفية (Link Building Specialist) للتعاقد معه على بناء بروفايل باكلينكس قوي وآمن لمتجرنا الإلكتروني باللغة الإنجليزية والموجه للسوق الأمريكي (USA). شروط ومعايير العمل (غير قا",
-  "domain_data": {
-    "repo_name": "sajil-zatca-pos-cashier-1289750",
-    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS: 200mm/s | Barcode: 978-3-16-148410-0"
-  }
+  ]
 }
