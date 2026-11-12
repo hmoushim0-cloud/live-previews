@@ -2,8 +2,8 @@
   "project_id": "1289761",
   "repo_name": "ruya-academy-smart-education-1289761",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1289761",
-  "app_name": "تطبيق رؤية للتدريب — خبير أو مدرب في الذكاء الاصط",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "أكاديمية برومبت الذكاء الاصطناعي — دورات تفاعلية لكتابة البرومبتات",
+  "tagline": "تعلم كتابة البرومبتات بتقنية القلم الذكي والبلوتوث — دورات معتمدة لتمكين الأعمال",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — خبير أو مدرب في الذكاء الاصط",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "أكاديمية برومبت الذكاء الاصطناعي — دورات تفاعلية لكتابة البرومبتات",
+    "subtitle": "تعلم كتابة البرومبتات بتقنية القلم الذكي والبلوتوث — دورات معتمدة لتمكين الأعمال"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "دورات أساسية",
+    "تقنيات متقدمة",
+    "دراسات حالة",
+    "اعتماد مدرب"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "دورة أساسيات البرومبت",
+      "desc": "تعلم مبادئ كتابة البرومبتات الفعالة باستخدام القلم الذكي مع تمارين تفاعلية",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تقنيات البرومبت المتقدمة",
+      "desc": "استراتيجيات توليد النصوص للتحليل التنبؤي مع نماذج BLE Beacon للتفاعل المباشر",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة دراسات الحالة",
+      "desc": "تحليل 12 حالة أعمال حقيقية مع قوالب برومبت جاهزة للتطبيق الفوري",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "50a6dde",
+  "commit_hash": "00d896d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1289761",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon: Proximity 2m | Stylus Pressure: 2048/4096"
   }
 }
