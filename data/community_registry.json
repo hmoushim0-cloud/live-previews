@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T19:29:50.073650+00:00",
+    "updated_at": "2026-11-19T19:46:08.945008+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2283,8 +2283,8 @@
     },
     {
       "project_id": "1289809",
-      "app_name": "تطبيق قيادة الرقمي — مصمم UI/UX محترف جدًا لتصميم",
-      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "app_name": "منصة الصفوة الشمالية لشاحنات النقل — التحكم والتشخيص المتقدم",
+      "tagline": "تكامل هندسي رفيع المستوى للتحكم الفوري بناقل البيانات والمركبات التجريبية الفاخرة",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289809",
       "stamp_id": "SA-KMP-1289809",

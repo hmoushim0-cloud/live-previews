@@ -1489,8 +1489,8 @@
   },
   {
     "project_id": "1289809",
-    "app_name": "تطبيق قيادة الرقمي — مصمم UI/UX محترف جدًا لتصميم",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "منصة الصفوة الشمالية لشاحنات النقل — التحكم والتشخيص المتقدم",
+    "tagline": "تكامل هندسي رفيع المستوى للتحكم الفوري بناقل البيانات والمركبات التجريبية الفاخرة",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289809.json"

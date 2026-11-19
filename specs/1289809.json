@@ -2,8 +2,8 @@
   "project_id": "1289809",
   "repo_name": "qiyada-key-car-rental-1289809",
   "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1289809",
-  "app_name": "تطبيق قيادة الرقمي — مصمم UI/UX محترف جدًا لتصميم",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "منصة الصفوة الشمالية لشاحنات النقل — التحكم والتشخيص المتقدم",
+  "tagline": "تكامل هندسي رفيع المستوى للتحكم الفوري بناقل البيانات والمركبات التجريبية الفاخرة",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق قيادة الرقمي — مصمم UI/UX محترف جدًا لتصميم",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "منصة الصفوة الشمالية لشاحنات النقل — التحكم والتشخيص المتقدم",
+    "subtitle": "تكامل هندسي رفيع المستوى للتحكم الفوري بناقل البيانات والمركبات التجريبية الفاخرة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تشخيص ناقل الكان",
+    "المفاتيح الرقمية الذكية",
+    "معايرة المحركات الفاخرة",
+    "إدارة الأحمال الديناميكية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "وحدة مراقبة عزم الدوران عبر ناقل الكان",
+      "desc": "قراءة حية لبيانات محركات الشاحنات الثقيلة مع رصد دقيق لضغط التوربو واستهلاك الوقود اللحظي",
+      "price": "1450 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "مباشر"
+    },
+    {
+      "title": "مفتاح البلوتوث الرقمي المشفر للمركبات",
+      "desc": "مصادقة ثنائية بالبلوتوث منخفض الطاقة لتشغيل وإيقاف تشغيل الأسطول دون مفاتيح تقليدية",
+      "price": "890 ر.س",
+      "icon": "shield",
+      "badge": "آمن"
+    },
+    {
+      "title": "معالج التشخيص الذكي لأخطاء المحرك",
+      "desc": "مسح وتفسير رموز أعطال OBD-II المتقدمة مع تقارير أداء فورية وربط سحابي مشفر",
+      "price": "2100 ر.س",
+      "icon": "zap",
+      "badge": "معتمد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "265b1a8",
+  "commit_hash": "f59ecdd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qiyada-key-car-rental-1289809",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN 500kbps: RPM 2150 | Boost 2.4bar | BLE Key: Authenticated (RSSI -42dBm)"
   }
 }
