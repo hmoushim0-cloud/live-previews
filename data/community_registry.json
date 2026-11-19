@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-12T15:12:29.241750+00:00",
+    "updated_at": "2026-11-19T16:24:16.655470+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2379,8 +2379,8 @@
     },
     {
       "project_id": "1289794",
-      "app_name": "تطبيق فكر الذكية — مونتاج قصص دينية — قصة النبي",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "توثيق السيرة النبوية — استوديو مونتاج روحي وتفاعلي",
+      "tagline": "دمج ذكي بين قلم اللمس الدقيق 4096 ومستشعرات البلوتوث لخلق تجارب سردية غامرة تقف صامدتها أمام الفحص الأمني",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289794",
       "stamp_id": "SA-KMP-1289794",

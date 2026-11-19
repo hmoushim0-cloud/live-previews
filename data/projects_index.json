@@ -1553,8 +1553,8 @@
   },
   {
     "project_id": "1289794",
-    "app_name": "تطبيق فكر الذكية — مونتاج قصص دينية — قصة النبي",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "توثيق السيرة النبوية — استوديو مونتاج روحي وتفاعلي",
+    "tagline": "دمج ذكي بين قلم اللمس الدقيق 4096 ومستشعرات البلوتوث لخلق تجارب سردية غامرة تقف صامدتها أمام الفحص الأمني",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289794.json"

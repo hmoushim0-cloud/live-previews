@@ -2,8 +2,8 @@
   "project_id": "1289794",
   "repo_name": "f-classroom-smart-education-1289794",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289794",
-  "app_name": "تطبيق فكر الذكية — مونتاج قصص دينية — قصة النبي",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "توثيق السيرة النبوية — استوديو مونتاج روحي وتفاعلي",
+  "tagline": "دمج ذكي بين قلم اللمس الدقيق 4096 ومستشعرات البلوتوث لخلق تجارب سردية غامرة تقف صامدتها أمام الفحص الأمني",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — مونتاج قصص دينية — قصة النبي",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "توثيق السيرة النبوية — استوديو مونتاج روحي وتفاعلي",
+    "subtitle": "دمج ذكي بين قلم اللمس الدقيق 4096 ومستشعرات البلوتوث لخلق تجارب سردية غامرة تقف صامدتها أمام الفحص الأمني"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الولادة والنشأة",
+    "البعثة والدعوة",
+    "الهجرة والبناء",
+    "الشهادة والميراث"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مونتاج مسار الرحلة الكاملة",
+      "desc": "إخراج سينمائي متسلسل يربط 15 جزءاً عبر خيوط زمنية دقيقة مع معالجة صوتية محيطية تعزّز الانغماس في السرد",
+      "price": "2500 ر.س",
+      "icon": "landmark",
+      "badge": "مميز"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "تعديلات مشهدية بالريشة الرقمية",
+      "desc": "استخدام قلم اللمس عالي الدقة لوضع طبقات توضيحية ديناميكية تفاعلية فوق الفيديو تفسر الأحداث بدقة بيكسلية",
+      "price": "450 ر.س",
+      "icon": "pen-tool",
+      "badge": "تفاعلي"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مزامنة بيانات الموقع الروحي",
+      "desc": "ربط المشاهد ببيانات Beacons لربط السرد بمواقع تاريخية محددة عبر تقنية البلوتوث منخفضة الطاقة لتحسين التوقيت",
+      "price": "320 ر.س",
+      "icon": "radio-tower",
+      "badge": "دقيق"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "8d6e19f",
+  "commit_hash": "8c59e4a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "f-classroom-smart-education-1289794",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon UUID: 49EF3C9: RSSI -52dBm | Pen Stroke Pressure: 842g/4096 | Latency: 14ms"
   }
 }
