@@ -2,8 +2,8 @@
   "project_id": "1291279",
   "repo_name": "rased-pos-pos-cashier-1291279",
   "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1291279",
-  "app_name": "تطبيق راصد كاشير — تصميم ملف Excel احترافي لإدا",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "سوق الجوال للأنظمة الذكية — محطة نقاط البيع وإدارة فواتير الهواتف",
+  "tagline": "نظام مبيعات متكامل مربوط بطابعة الإيصالات الحرارية وقارئ الباركود لإدارة الهواتف والإكسسوارات",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق راصد كاشير — تصميم ملف Excel احترافي لإدا",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "سوق الجوال للأنظمة الذكية — محطة نقاط البيع وإدارة فواتير الهواتف",
+    "subtitle": "نظام مبيعات متكامل مربوط بطابعة الإيصالات الحرارية وقارئ الباركود لإدارة الهواتف والإكسسوارات"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الهواتف الذكية",
+    "إكسسوارات أصلية",
+    "قطع الغيار والصيانة",
+    "خدمات التفعيل والاشتراكات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "آيفون 15 برو ماكس 256 جيجابايت",
+      "desc": "هاتف ذكي بشاشة أوليد فائقة الدقة ومعالج متطور مع ضمان معتمد",
+      "price": "4699 ر.س",
+      "icon": "smartphone",
+      "badge": "الأكثر طلبا"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
+      "title": "سماعات لاسلكية برو الجيل الثاني",
+      "desc": "سماعات متطورة بخاصية إلغاء الضوضاء النشطة وصوت مكاني عالي الدقة",
+      "price": "999 ر.س",
+      "icon": "headphones",
+      "badge": "عرض خاص"
+    },
+    {
+      "title": "شاحن جداري فائق السرعة 65 واط",
+      "desc": "شاحن بمنفذ تايب سي يدعم تقنية الشحن السريع لجميع الهواتف المحمولة",
+      "price": "149 ر.س",
       "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "badge": "متوفر"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "78f482d",
+  "commit_hash": "7993d7c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1291279_ios_03.png"
     }
   ],
-  "detailed_desc": "تصميم ملف Excel احترافي لإدارة فواتير المبيعات لمحل موبايلات. أحتاج إلى مستقل محترف في Microsoft Excel لتصميم نموذج فاتورة مبيعات احترافي وسهل الاستخدام لمحل متخصص في بيع الهواتف المحمولة والإكسسوارات. المطلوب في الفاتورة: تصميم فاتورة احترافية باللغة العربية باسم المحل وشعاره. إضافة رقم الفاتورة وتاريخ البيع. إضافة بيانات العميل (الاسم ورقم الهاتف",
+  "detailed_desc": "تصميم ملف Excel احترافي لإدارة فواتير المبيعات لمحل موبايلات — أحتاج إلى مستقل محترف في Microsoft Excel لتصميم نموذج فاتورة مبيعات احترافي وسهل الاستخدام لمحل متخصص في بيع الهواتف المحمولة والإكسسوارات. المطلوب في الفاتورة: تصميم فاتورة احترافية باللغة العربية باسم المحل وشعاره. إضافة رقم الفاتورة وتاريخ البيع.",
   "domain_data": {
     "repo_name": "rased-pos-pos-cashier-1291279",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS Thermal Printer Status: READY (Paper 80mm) | Barcode Scanner: BLE HID Connected (IMEI/SN: 35892104982)"
   }
 }
