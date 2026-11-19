@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T18:34:58.512430+00:00",
+    "updated_at": "2026-11-19T19:29:50.073650+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2307,8 +2307,8 @@
     },
     {
       "project_id": "1289804",
-      "app_name": "تطبيق إيوان العقارية — مطور Frontend لتنفيذ الموقع",
-      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "app_name": "نَخْوَة — ترقيم وتوثيق المِنَاصِب الهندسية للشاحنات والمركبات التجارية",
+      "tagline": "إعادة هندسة رقمية لدواخل الشاحنة عبر مسح lidar عالي الدقة ودمج ثلاثي الأبعاد للمعادن",
       "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289804",
       "stamp_id": "SA-KMP-1289804",

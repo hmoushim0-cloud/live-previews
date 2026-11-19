@@ -1505,8 +1505,8 @@
   },
   {
     "project_id": "1289804",
-    "app_name": "تطبيق إيوان العقارية — مطور Frontend لتنفيذ الموقع",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "نَخْوَة — ترقيم وتوثيق المِنَاصِب الهندسية للشاحنات والمركبات التجارية",
+    "tagline": "إعادة هندسة رقمية لدواخل الشاحنة عبر مسح lidar عالي الدقة ودمج ثلاثي الأبعاد للمعادن",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289804.json"

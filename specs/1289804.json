@@ -2,8 +2,8 @@
   "project_id": "1289804",
   "repo_name": "iwan-estates-real-estate-1289804",
   "repo_url": "https://github.com/hmoushim0-cloud/iwan-estates-real-estate-1289804",
-  "app_name": "تطبيق إيوان العقارية — مطور Frontend لتنفيذ الموقع",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "نَخْوَة — ترقيم وتوثيق المِنَاصِب الهندسية للشاحنات والمركبات التجارية",
+  "tagline": "إعادة هندسة رقمية لدواخل الشاحنة عبر مسح lidar عالي الدقة ودمج ثلاثي الأبعاد للمعادن",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إيوان العقارية — مطور Frontend لتنفيذ الموقع",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "نَخْوَة — ترقيم وتوثيق المِنَاصِب الهندسية للشاحنات والمركبات التجارية",
+    "subtitle": "إعادة هندسة رقمية لدواخل الشاحنة عبر مسح lidar عالي الدقة ودمج ثلاثي الأبعاد للمعادن"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "هندسة التسليم الداخلي",
+    "مطابقة الهيكل الفولاذي للحمولة",
+    "خرائط أبعاد التبريد والتحكم المناخي",
+    "توثيق مساحي للتعديل المخصص"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مسح ثلاثي الأبعاد لدائر الشحن بأبعاد مليمترية فائقة",
+      "desc": "تنفيذ مسح شامل بمكان المسح الليداري 360 درجة لرصد كثافة نقاط تصل إلى 250,000 لكل متر مربع بهدف بناء نموذج هندسي دقيق لتوزيع الوزن المستقبلي للأحمال.",
+      "price": "450 ر.س",
+      "icon": "volume-2",
+      "badge": "حرفي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "تحليل الانحناء الهيكلي لشبكة الكباري الفولاذية",
+      "desc": "استخدام مستشعرات Matterport Pro3 القاتمة لترصد زوايا الحواف على أجزاء الحوامل والمَجدول المثبتة داخل الكابينة لضمان التوافق الميكانيكي مع عمليات التثبيت التعرّضية.",
+      "price": "290 ر.س",
+      "icon": "settings-2",
+      "badge": "منوط"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "خطة توزيع الحرارة الداخلية وتصميم مسار البُنَيه الضوئية",
+      "desc": "دمج خلايا القياس الحراري مع طبقة المسح الليداري لتهيئة مدارات الإضاءة والتحويط لتركيب علب الألواح الحرارية والمكيفات دون تعطيل الدورات الهوائية أو مسات الكابينة.",
+      "price": "340 ر.س",
+      "icon": "trending-up",
+      "badge": "حديث"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3f76a9b",
+  "commit_hash": "8b7dfc0",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "iwan-estates-real-estate-1289804",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LIDAR 360 DEg: 96m range | Matterport POI: 42 node | RMS Error: 1.2mm"
   }
 }
