@@ -1441,8 +1441,8 @@
   },
   {
     "project_id": "1289819",
-    "app_name": "تطبيق سجل زاتكا — أخصائي نمو التجارة الإلكترون",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "قِمَم لنقاط البيع السريع — نظام كاشير متطور مع طباعة حرارية وقارئ باركود",
+    "tagline": "ربط مباشر بين مبيعات المتجر الرقمي والتشغيل الميداني عبر طابعة حرارية وقارئ باركود عالي الأداء",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289819.json"

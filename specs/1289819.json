@@ -2,8 +2,8 @@
   "project_id": "1289819",
   "repo_name": "sajil-zatca-pos-cashier-1289819",
   "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289819",
-  "app_name": "تطبيق سجل زاتكا — أخصائي نمو التجارة الإلكترون",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "قِمَم لنقاط البيع السريع — نظام كاشير متطور مع طباعة حرارية وقارئ باركود",
+  "tagline": "ربط مباشر بين مبيعات المتجر الرقمي والتشغيل الميداني عبر طابعة حرارية وقارئ باركود عالي الأداء",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق سجل زاتكا — أخصائي نمو التجارة الإلكترون",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "قِمَم لنقاط البيع السريع — نظام كاشير متطور مع طباعة حرارية وقارئ باركود",
+    "subtitle": "ربط مباشر بين مبيعات المتجر الرقمي والتشغيل الميداني عبر طابعة حرارية وقارئ باركود عالي الأداء"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "محطات الدفع السريع",
+    "إدارة المخزون الميداني",
+    "أوامر الطباعة الحرارية",
+    "تحليلات التحويل اللحظي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "وحدة طباعة الإيصالات الحرارية ESC/POS",
+      "desc": "إصدار فوري لفواتير البيع المباشر عبر منفذ البلوتوث والمنفذ التسلسلي بدقة عالية",
+      "price": "320 ر.س",
+      "icon": "printer",
+      "badge": "جاهز للربط"
+    },
+    {
+      "title": "ماسح الباركود الليزري عالي السرعة",
+      "desc": "قراءة فائقة الدقة لرموز الاستجابة السريعة والباركود التقليدي لمنتجات التجارة الإلكترونية",
+      "price": "450 ر.س",
+      "icon": "maximize",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "محطة تسوية السلة الشرائية الذكية",
+      "desc": "تكامل لحظي مع منصة شوبيفاي لتحويل الزوار إلى عملاء عبر مسار دفع مخصص",
+      "price": "650 ر.س",
+      "icon": "cpu",
+      "badge": "نشط"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a6cea35",
+  "commit_hash": "3b7b8c9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sajil-zatca-pos-cashier-1289819",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS 80mm: Thermal Head Temp 34.2C | Cutter Status: READY | Barcode Scanner: Laser Diode Active (580nm)"
   }
 }
