@@ -2,8 +2,8 @@
   "project_id": "1289773",
   "repo_name": "warsha-now-services-1289773",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289773",
-  "app_name": "تطبيق ورشة فوري — تصميم هوية بصرية ومحتوى إنست",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "جوهرة الواحة الملكية للسبا المتنقل — نظام التوجيه بالخرائط والدفع اللمسي",
+  "tagline": "خدمات الاستجمام الفاخرة عبر الأسطول المتنقل مع الدفع الفوري عبر أجهزة مدى وبصمة الموقع",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — تصميم هوية بصرية ومحتوى إنست",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "جوهرة الواحة الملكية للسبا المتنقل — نظام التوجيه بالخرائط والدفع اللمسي",
+    "subtitle": "خدمات الاستجمام الفاخرة عبر الأسطول المتنقل مع الدفع الفوري عبر أجهزة مدى وبصمة الموقع"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "العلاجات الملكية الاستشفائية",
+    "جلسات التدليك العلاجي المتقدم",
+    "بروتوكولات العناية بالبشرة النانوية",
+    "باقات الاسترخاء لكبار الشخصيات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "جلسة الأحجار الساخنة الملكية",
+      "desc": "جلسة استرخاء استشفائية باستخدام الأحجار البركانية المعقمة مع زيوت العود الملكية الطبيعية",
+      "price": "450 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "حصري"
+    },
+    {
+      "title": "مساج التخلص من الإرهاق العضلي العميق",
+      "desc": "تدليك علاجي متقدم يستهدف نقاط الضغط العصبي والعضلي بواسطة أخصائيين معتمدين",
+      "price": "380 ر.س",
+      "icon": "shield",
+      "badge": "الأكثر طلباً"
+    },
+    {
+      "title": "بروتوكول النضارة الملكي للبشرة",
+      "desc": "تنظيف عميق للبشرة باستخدام تقنيات الأكسجين النانوي ومستخلصات الورد الطائفي",
+      "price": "520 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "d37b20a",
+  "commit_hash": "7d343ab",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services-1289773",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2 NFC Reader: SECURE_CONNECTED | GPS Dispatch: 24.7136 N, 46.6753 E (Riyadh Zone A) | Signal: -65 dBm"
   }
 }
