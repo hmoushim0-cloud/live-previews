@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T17:09:13.213070+00:00",
+    "updated_at": "2026-11-19T18:02:44.160001+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2295,8 +2295,8 @@
     },
     {
       "project_id": "1289805",
-      "app_name": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
-      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "app_name": "منصة فولشيرز الإمارات — جدولة اجتماعات عيادات الأسنان وإدارة الوصول الميداني",
+      "tagline": "الربط الذكي بين عمليات الاتصال التسويقي B2B ونقاط التحكم بالدخول عبر تقنية RFID تردد 13.56 ميغاهرتز ومصادقة TOTP",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289805",
       "stamp_id": "SA-KMP-1289805",

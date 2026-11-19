@@ -2,8 +2,8 @@
   "project_id": "1289805",
   "repo_name": "multaqa-hub-coworking-1289805",
   "repo_url": "https://github.com/hmoushim0-cloud/multaqa-hub-coworking-1289805",
-  "app_name": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "منصة فولشيرز الإمارات — جدولة اجتماعات عيادات الأسنان وإدارة الوصول الميداني",
+  "tagline": "الربط الذكي بين عمليات الاتصال التسويقي B2B ونقاط التحكم بالدخول عبر تقنية RFID تردد 13.56 ميغاهرتز ومصادقة TOTP",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق ملتقى الأعمال — مستقل للمكالمات التسويقية B2",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "منصة فولشيرز الإمارات — جدولة اجتماعات عيادات الأسنان وإدارة الوصول الميداني",
+    "subtitle": "الربط الذكي بين عمليات الاتصال التسويقي B2B ونقاط التحكم بالدخول عبر تقنية RFID تردد 13.56 ميغاهرتز ومصادقة TOTP"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة حملات الاتصال البارد",
+    "حجز مواعيد عيادات الأسنان",
+    "مزامنة بوابات الوصول الميداني",
+    "التحقق الأمني عبر TOTP"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "تنسيق موعد تعريفي مع إدارة عيادات دبي الطبية",
+      "desc": "حجز مباشر للشركاء مع التحقق من صلاحيات الأجهزة عبر قارئ RFID تردد 13.56 ميغاهرتز",
+      "price": "450 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "مؤكد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "جولة افتراضية لنظام إدارة العيادات الذكي",
+      "desc": "عرض حي ومزامنة فورية للبيانات التسويقية لشركة FullChairs عبر شبكة آمنة",
+      "price": "720 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "حصري"
+    },
+    {
+      "title": "إدارة مصادقة الدخول الميداني للفرق التجارية",
+      "desc": "توليد كلمات مرور مؤقتة TOTP وتفعيل بوابات الدخول الذكية للتحكم بالوصول الميداني",
+      "price": "290 ر.س",
+      "icon": "zap",
+      "badge": "نشط"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "dee1930",
+  "commit_hash": "4ade514",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "multaqa-hub-coworking-1289805",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz UID: A4-8F-9B-21 | TOTP Key: 849201 | Turnstile Status: UNLOCKED"
   }
 }
