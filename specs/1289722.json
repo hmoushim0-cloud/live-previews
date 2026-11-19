@@ -2,8 +2,8 @@
   "project_id": "1289722",
   "repo_name": "qalam-campus-smart-education-1289722",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289722",
-  "app_name": "تطبيق قلم الأكاديمية — مطلوب مصمم جرافيك محترف للعم",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "منصة صفوة القلم الرقمي — تصميم الكتب التعليمية وتطوير المحتوى البصري للأطفال",
+  "tagline": "بيئة هندسية متكاملة لتصميم وتنسيق كتب الأطفال التفاعلية مع مزامنة القلم الذكي بدقة 4096 مستوى ضغط",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — مطلوب مصمم جرافيك محترف للعم",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "منصة صفوة القلم الرقمي — تصميم الكتب التعليمية وتطوير المحتوى البصري للأطفال",
+    "subtitle": "بيئة هندسية متكاملة لتصميم وتنسيق كتب الأطفال التفاعلية مع مزامنة القلم الذكي بدقة 4096 مستوى ضغط"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تخطيط المحتوى البصري",
+    "معايرة القلم الذكي",
+    "مكتبة الرسوم المتجهة",
+    "تحليل الضغط الحركي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "تصميم اللوحات التفاعلية ثلاثية الأبعاد",
+      "desc": "تنسيق الصفحات الداخلية لكتب الأطفال التفاعلية مع دعم طبقات الرسوم المتجهة ومعايير الطباعة الآمنة",
+      "price": "450 ر.س",
+      "icon": "pen-tool",
+      "badge": "احترافي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "مزامنة معايرة الضغط 4096 مستوى",
+      "desc": "معايرة استجابة القلم الذكي للخطوط الدقيقة والرسوم الحرة عبر حزمة البلوتوث منخفض الطاقة للوحة الرسم",
+      "price": "220 ر.س",
+      "icon": "cpu",
+      "badge": "نشط"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تصدير المنارة الرقمية للمناهج",
+      "desc": "ربط محتوى الكتاب المطبوع بالمنارات الذكية لتفعيل المحتوى الصوتي والمرئي الفوري عند مرور الجهاز",
+      "price": "340 ر.س",
+      "icon": "radio",
+      "badge": "حصري"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a5edcf8",
+  "commit_hash": "36a90c2",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1289722",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "Stylus 4096-Lvl | Pressure: 3842 N | Tilt: 14.2 deg | BLE Beacon RSSI: -54 dBm | Battery: 94%"
   }
 }

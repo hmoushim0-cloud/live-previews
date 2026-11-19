@@ -1761,8 +1761,8 @@
   },
   {
     "project_id": "1289722",
-    "app_name": "تطبيق قلم الأكاديمية — مطلوب مصمم جرافيك محترف للعم",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "منصة صفوة القلم الرقمي — تصميم الكتب التعليمية وتطوير المحتوى البصري للأطفال",
+    "tagline": "بيئة هندسية متكاملة لتصميم وتنسيق كتب الأطفال التفاعلية مع مزامنة القلم الذكي بدقة 4096 مستوى ضغط",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289722.json"

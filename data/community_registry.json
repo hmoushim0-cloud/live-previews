@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T23:16:57.882404+00:00",
+    "updated_at": "2026-11-19T23:30:56.178358+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2691,8 +2691,8 @@
     },
     {
       "project_id": "1289722",
-      "app_name": "تطبيق قلم الأكاديمية — مطلوب مصمم جرافيك محترف للعم",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "منصة صفوة القلم الرقمي — تصميم الكتب التعليمية وتطوير المحتوى البصري للأطفال",
+      "tagline": "بيئة هندسية متكاملة لتصميم وتنسيق كتب الأطفال التفاعلية مع مزامنة القلم الذكي بدقة 4096 مستوى ضغط",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289722",
       "stamp_id": "SA-KMP-1289722",
