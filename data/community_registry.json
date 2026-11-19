@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T20:16:19.926835+00:00",
+    "updated_at": "2026-11-19T20:50:41.367898+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2247,8 +2247,8 @@
     },
     {
       "project_id": "1289813",
-      "app_name": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
-      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "app_name": "نظام نجد لنقاط البيع الذكية — إدارة المتاجر وإيصالات الطابعة الحرارية",
+      "tagline": "منظومة سحابية متكاملة لربط المتاجر الإلكترونية والواقعية بأجهزة الطباعة الحرارية وقارئات الباركود",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289813",
       "stamp_id": "SA-KMP-1289813",

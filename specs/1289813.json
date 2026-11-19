@@ -2,8 +2,8 @@
   "project_id": "1289813",
   "repo_name": "rased-pos-pos-cashier-1289813",
   "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289813",
-  "app_name": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "نظام نجد لنقاط البيع الذكية — إدارة المتاجر وإيصالات الطابعة الحرارية",
+  "tagline": "منظومة سحابية متكاملة لربط المتاجر الإلكترونية والواقعية بأجهزة الطباعة الحرارية وقارئات الباركود",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق راصد كاشير — حذف زر واتساب عائم قديم من م",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "نظام نجد لنقاط البيع الذكية — إدارة المتاجر وإيصالات الطابعة الحرارية",
+    "subtitle": "منظومة سحابية متكاملة لربط المتاجر الإلكترونية والواقعية بأجهزة الطباعة الحرارية وقارئات الباركود"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "إدارة المبيعات والمنتجات",
+    "تكامل الطابعات الحرارية",
+    "أجهزة مسح الباركود",
+    "تقارير الوردية النقدية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "إيصال مبيعات حراري",
+      "desc": "طباعة فورية عبر منفذ ESC/POS مع شعار المتجر والباركود الضريبي",
+      "price": "45 ر.س",
+      "icon": "printer",
+      "badge": "نشط"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "جلسة مسح الباركود السريع",
+      "desc": "قراءة متطورة لرموز UPC وEAN عبر الماسح الضوئي المرتبط بالمنفذ التسلسلي",
+      "price": "120 ر.س",
+      "icon": "scan",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "إغلاق وردية الخزينة",
+      "desc": "مطابقة النقدية الفعلية مع تقارير المبيعات اليومية وتصدير البيانات",
+      "price": "75 ر.س",
+      "icon": "file-text",
+      "badge": "معتمد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ff1b261",
+  "commit_hash": "ccc9c5d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rased-pos-pos-cashier-1289813",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS Thermal Header: Online | Cutter: Ready | Scanner Barcode Buffer: 98.4% Empty | Roll Paper: 78%"
   }
 }
