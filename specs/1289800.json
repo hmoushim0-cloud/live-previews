@@ -2,8 +2,8 @@
   "project_id": "1289800",
   "repo_name": "rased-pos-pos-cashier-1289800",
   "repo_url": "https://github.com/hmoushim0-cloud/rased-pos-pos-cashier-1289800",
-  "app_name": "تطبيق راصد كاشير — إعداد محتوى تسويقي لمحفظة مد",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "محفظة مدار لنقاط البيع اللامركزية — إصدار الإيصالات الحرارية ومسح الرمز الشريطي",
+  "tagline": "معالجة مدفوعات الأصول الرقمية غير الاحتجازية مع طباعة الإيصالات الحرارية الآمنة والموثقة",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق راصد كاشير — إعداد محتوى تسويقي لمحفظة مد",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "محفظة مدار لنقاط البيع اللامركزية — إصدار الإيصالات الحرارية ومسح الرمز الشريطي",
+    "subtitle": "معالجة مدفوعات الأصول الرقمية غير الاحتجازية مع طباعة الإيصالات الحرارية الآمنة والموثقة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "قنوات الدفع اللامركزي",
+    "إدارة المفاتيح الخاصة",
+    "سجلات الإيصالات الحرارية",
+    "مصادقة المسح الضوئي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "قسيمة استرداد البيتكوين الفورية",
+      "desc": "إصدار وتأكيد معاملات الطبقة الثانية مع إيصال حراري مباشر عبر منفذ ESC/POS وتوقيع مشفر محلياً",
+      "price": "1,450 ر.س",
+      "icon": "printer",
+      "badge": "آمن مفرغ"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "مسح وبحث محفظة الدوجكوين",
+      "desc": "قراءة الباركود للعنوان العام والتحقق الفوري من التوقيع الرقمي غير الاحتجازي عبر الكاميرا والماسح الضوئي",
+      "price": "320 ر.س",
+      "icon": "maximize",
+      "badge": "تحقق فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تسوية حسابات المتاجر اليومية",
+      "desc": "تقرير مالي مفرغ ومشفّر محلياً دون حفظ أي بيانات مفاتيح أو عبارات استرداد على الخوادم السحابية",
+      "price": "890 ر.س",
+      "icon": "file-text",
+      "badge": "بدون حفظ"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "1c26884",
+  "commit_hash": "419744d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rased-pos-pos-cashier-1289800",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS USB 0x0483: Thermal Printer Ready (203 DPI) | Barcode Scanner: EAN-13 Verified | Secure Non-Custodial Key Vault Active"
   }
 }
