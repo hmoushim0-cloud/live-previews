@@ -1537,8 +1537,8 @@
   },
   {
     "project_id": "1289799",
-    "app_name": "تطبيق نقد تيرمنال — حل مشكلة إضافة إلى السلة في",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "قمر للمحاسبة — منظومة البيع والتحليلات التجارية",
+    "tagline": "ربط مباشر بين مسارات المبيعات وفرق التسويق عبر طبقة تحليل أمانات السلة الحرارية",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289799.json"
