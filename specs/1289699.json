@@ -2,8 +2,8 @@
   "project_id": "1289699",
   "repo_name": "maqar-access-coworking-1289699",
   "repo_url": "https://github.com/hmoushim0-cloud/maqar-access-coworking-1289699",
-  "app_name": "تطبيق مقر الذكي — تعليم على التسويق عبر ميتا و",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "منصة مساحات النمو الرقمي — الإدارة المتكاملة للحملات والولوج الذكي",
+  "tagline": "مزامنة أجهزة الدخول الذكي بتردد 13.56 ميغاهرتز مع مختبرات تحسين الأداء التسويقي الآمن",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق مقر الذكي — تعليم على التسويق عبر ميتا و",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "منصة مساحات النمو الرقمي — الإدارة المتكاملة للحملات والولوج الذكي",
+    "subtitle": "مزامنة أجهزة الدخول الذكي بتردد 13.56 ميغاهرتز مع مختبرات تحسين الأداء التسويقي الآمن"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مختبرات تحسين إعلانات ميتا وتيك توك",
+    "بوابات الدخول تردد 13.56 ميغاهرتز",
+    "إدارة الاعتماد الثنائي المؤقت TOTP",
+    "تحليلات عائد الإنفاق الإعلاني ROAS"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "جلسة توجيه استراتيجي لإعلانات سناب وتيك توك",
+      "desc": "تحليل تفصيلي لبيانات النقرات والتكلفة الفعلية لكل ظهور مع ورشة عمل حية لتحميل المحتوى المرئي المحسن",
+      "price": "450 ر.س",
+      "icon": "terminal",
+      "badge": "متقدم"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "برمجة شريحة الدخول الذكي 13.56 ميغاهرتز",
+      "desc": "تفعيل بصمة بوابة الوصول الميداني وربطها بسجلات حضور مساحات العمل المشتركة عبر بروتوكول ISO/IEC 14443",
+      "price": "120 ر.س",
+      "icon": "cpu",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "توليد مفتاح الاعتماد الثنائي TOTP المحصن",
+      "desc": "إنشاء رموز التحقق الزمنية لمرة واحدة لحماية جلسات إدارة الحملات الإعلانية الحساسة ومنع الاختراق",
+      "price": "80 ر.س",
+      "icon": "lock",
+      "badge": "آمن"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "68a8848",
+  "commit_hash": "391ec5f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maqar-access-coworking-1289699",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz UID: A4F982B1 | TOTP Status: Synced (Code: 849201) | Turnstile: UNLOCKED"
   }
 }
