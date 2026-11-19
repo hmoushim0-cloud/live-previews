@@ -1545,8 +1545,8 @@
   },
   {
     "project_id": "1289796",
-    "app_name": "تطبيق صافنات للمزادات — إنشاء وتطوير منصة مزادات إلك",
-    "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+    "app_name": "منصة نخبة نجد للمزادات الحية — مزادات الأصول الفاخرة والمقتنيات النادرة",
+    "tagline": "مزادات علنية فورية مرتبطة بعصا المزايدة اللاسلكية وبث صوتي فائق السرعة عبر بروتوكول الويب",
     "preset": "auction_live",
     "has_proofs": true,
     "spec_path": "specs/1289796.json"
