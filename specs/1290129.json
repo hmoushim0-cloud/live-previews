@@ -2,8 +2,8 @@
   "project_id": "1290129",
   "repo_name": "warsha-now-services-1290129",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1290129",
-  "app_name": "تطبيق ورشة فوري — اختبار تجربة المستخدم لتطبيق",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق مسار مدا — تحليل وتطوير رحلة التحويل الرقمي",
+  "tagline": "تشريح دقيق لرحلة العميل ونقاط الاحتكاك مع التكامل الفوري لأجهزة مدى ونظام التتبع الجغرافي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — اختبار تجربة المستخدم لتطبيق",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق مسار مدا — تحليل وتطوير رحلة التحويل الرقمي",
+    "subtitle": "تشريح دقيق لرحلة العميل ونقاط الاحتكاك مع التكامل الفوري لأجهزة مدى ونظام التتبع الجغرافي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تشخيص نقاط الاحتكاك",
+    "تحليل معدلات التحويل",
+    "اختبارات مدى اللاتلامسية",
+    "إرساليات التتبع الجغرافي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "تشريح نقاط الاحتكاك في تدفق التسجيل",
+      "desc": "رصد عوائق إدخال بيانات الزوار الجدد وقياس زمن الاستجابة عبر وحدة التتبع الجغرافي الميداني",
+      "price": "1,250 ر.س",
+      "icon": "compass",
+      "badge": "تشخيص فوري"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "اختبار تفاعل الدفع عبر محطة مدى اللاتلامسية",
+      "desc": "محاكاة معاملات Mada Contactless EMV L2 NFC للتحقق من سلاسة التدفق المالي وتقليص معدل التخلي",
+      "price": "2,400 ر.س",
+      "icon": "cpu",
+      "badge": "معتمد أمنياً"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "تحليل مسار تحويل الزائر إلى عميل محتمل",
+      "desc": "خوارزمية تحليل سلوكي متقدمة لتقييم تفاعل المستخدم الجديد وتقديم توصيات هندسية لرفع العائد",
+      "price": "3,100 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "توصيات متقدمة"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "1589ee3",
+  "commit_hash": "cbc6537",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services-1290129",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada NFC L2: AUTH_SUCCESS (0x9000) | GPS Dispatch: 24.7136 N, 46.6753 E | Latency: 42ms"
   }
 }
