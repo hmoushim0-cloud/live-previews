@@ -1177,8 +1177,8 @@
   },
   {
     "project_id": "1289920",
-    "app_name": "تطبيق بنيان للصكوك — مطلوب مختص CRM وRetention Ma",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "تطبيق مساحات الشغف الرياضية — نظام تفكيك وتحليل المساحات ثلاثية الأبعاد واستبقاء المشتركات",
+    "tagline": "نظام استبقاء المشتركات وإدارة المساحات الحية عبر مسح LiDAR ثلاثي الأبعاد وتقنيات Matterport Pro3",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289920.json"

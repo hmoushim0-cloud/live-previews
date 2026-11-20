@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T13:46:44.824994+00:00",
+    "updated_at": "2026-11-20T14:25:52.988560+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1815,8 +1815,8 @@
     },
     {
       "project_id": "1289920",
-      "app_name": "تطبيق بنيان للصكوك — مطلوب مختص CRM وRetention Ma",
-      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "app_name": "تطبيق مساحات الشغف الرياضية — نظام تفكيك وتحليل المساحات ثلاثية الأبعاد واستبقاء المشتركات",
+      "tagline": "نظام استبقاء المشتركات وإدارة المساحات الحية عبر مسح LiDAR ثلاثي الأبعاد وتقنيات Matterport Pro3",
       "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289920",
       "stamp_id": "SA-KMP-1289920",
