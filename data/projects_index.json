@@ -857,8 +857,8 @@
   },
   {
     "project_id": "1290147",
-    "app_name": "تطبيق قلم الأكاديمية — ربط منصة LMS مع جهة حكومية —",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "تطبيق رواق السيادي للتعليم الإلكتروني — ربط منصات التعلم بالاعتماد الحكومي",
+    "tagline": "تكامل رقمي آمن يربط منصات التعليم بالجهات الحكومية مع دعم القلم الذكي وإشارات البلوتوث المعتمدة",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1290147.json"

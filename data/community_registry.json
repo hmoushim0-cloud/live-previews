@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T22:31:46.308218+00:00",
+    "updated_at": "2026-11-20T22:54:31.227144+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1335,8 +1335,8 @@
     },
     {
       "project_id": "1290147",
-      "app_name": "تطبيق قلم الأكاديمية — ربط منصة LMS مع جهة حكومية —",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "تطبيق رواق السيادي للتعليم الإلكتروني — ربط منصات التعلم بالاعتماد الحكومي",
+      "tagline": "تكامل رقمي آمن يربط منصات التعليم بالجهات الحكومية مع دعم القلم الذكي وإشارات البلوتوث المعتمدة",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290147",
       "stamp_id": "SA-KMP-1290147",

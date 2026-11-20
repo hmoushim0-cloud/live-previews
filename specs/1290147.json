@@ -2,8 +2,8 @@
   "project_id": "1290147",
   "repo_name": "qalam-campus-smart-education-1290147",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1290147",
-  "app_name": "تطبيق قلم الأكاديمية — ربط منصة LMS مع جهة حكومية —",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق رواق السيادي للتعليم الإلكتروني — ربط منصات التعلم بالاعتماد الحكومي",
+  "tagline": "تكامل رقمي آمن يربط منصات التعليم بالجهات الحكومية مع دعم القلم الذكي وإشارات البلوتوث المعتمدة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — ربط منصة LMS مع جهة حكومية —",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق رواق السيادي للتعليم الإلكتروني — ربط منصات التعلم بالاعتماد الحكومي",
+    "subtitle": "تكامل رقمي آمن يربط منصات التعليم بالجهات الحكومية مع دعم القلم الذكي وإشارات البلوتوث المعتمدة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الاعتماد الأكاديمي والسيادي",
+    "مزامنة القلم الذكي 4096",
+    "بصمات التوثيق البلوتوث",
+    "تقارير التدقيق الحكومي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "مصادقة الاعتماد السيادي للشهادات",
+      "desc": "ربط فوري ومباشر مع البوابات الحكومية للتحقق من السجلات الأكاديمية واعتمادها بنظام التشفير السيادي",
+      "price": "450 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "معتمد سيادياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "معايرة ضغط القلم الذكي 4096",
+      "desc": "تحليل دقيق لتوقيعات واختبارات الطلاب عبر محول القلم الرقمي بدرجات حساسية عالية وحماية تشفير متقدمة",
+      "price": "120 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "دقة فائقة"
+    },
+    {
+      "title": "مزامنة حضور منارات البلوتوث الحرم",
+      "desc": "تتبع حضوري آمن عبر بوابات BLE Beacon المعتمدة لتوثيق الساعات التدريبية المرتبطة بالجهات الرسمية",
+      "price": "85 ر.س",
+      "icon": "zap",
+      "badge": "مزامنة فورية"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b2e53cc",
+  "commit_hash": "a12b171",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1290147",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon ID: 0x4F89 | Stylus Pressure: 4096 Level | Tilt: 45deg | Gov Gateway Sync: SECURE_CONNECTED"
   }
 }
