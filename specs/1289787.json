@@ -2,8 +2,8 @@
   "project_id": "1289787",
   "repo_name": "ilmi-bootcamp-smart-education-1289787",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289787",
-  "app_name": "تطبيق علمي التفاعلي — مطلوب مونتير فيديوهات طويلة",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "استوديو محبوب للسرد البصري — منصة مونتاج القصص الوثائقية",
+  "tagline": "إدارة الإنتاج البصري والمونتاج المتقدم عبر القلم الذكي وعقد التتبع اللاسلكية",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق علمي التفاعلي — مطلوب مونتير فيديوهات طويلة",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "استوديو محبوب للسرد البصري — منصة مونتاج القصص الوثائقية",
+    "subtitle": "إدارة الإنتاج البصري والمونتاج المتقدم عبر القلم الذكي وعقد التتبع اللاسلكية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المشاهد السينمائية",
+    "القصص الوثائقية",
+    "المؤثرات البصرية",
+    "مزامنة الصوت الذكية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "تحرير المشاهد الدرامية الطويلة",
+      "desc": "مونتاج متقدم للفيديوهات بطول 30 دقيقة مع مزامنة الإيقاع البصري عبر القلم الذكي بدقة 4096 مستوى",
+      "price": "450 ر.س",
+      "icon": "film",
+      "badge": "احترافي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "معايرة السرد البصري اللاسلكي",
+      "desc": "ربط إشارات القلم الرقمي لتحديد الإطارات الحرجة وتطبيق القطع التلقائي بالاعتماد على منارة البلوتوث",
+      "price": "320 ر.س",
+      "icon": "cpu",
+      "badge": "عبر البلوتوث"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "هندسة الإيقاع القصصي الأسبوعي",
+      "desc": "إدارة جدولة وتركيب 3 حلقات يوتيوب أسبوعيا بجودة سينمائية فائقة ومراجعة بصرية متسلسلة",
+      "price": "1200 ر.س",
+      "icon": "layers",
+      "badge": "باقة حصرية"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "086dabd",
+  "commit_hash": "3d60029",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289787",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Stylus 0x4096: Pressure Level 3840 | Tilt 45deg | Beacon RSSI -62dBm"
   }
 }
