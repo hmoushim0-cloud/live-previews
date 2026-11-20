@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T00:56:21.849188+00:00",
+    "updated_at": "2026-11-20T01:07:40.813011+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2727,8 +2727,8 @@
     },
     {
       "project_id": "1289719",
-      "app_name": "تطبيق لياقة بالس — إعادة تصميم أساسات وميدات مش",
-      "tagline": "منظومة fitness المتكاملة مع ربط BLE Smart Scale GATT 0x181D + Heart Rate Strap",
+      "app_name": "تطبيق قوام النخبة للقياسات الحيوية — منصة تقييم الأحمال وتحليل البدن المتقدمة",
+      "tagline": "تكامل متطور مع أجهزة قياس الكتلة الحيوية عبر البلوتوث ونبض القلب لتحليل الأداء البدني والتحمل",
       "preset": "fitness",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289719",
       "stamp_id": "SA-KMP-1289719",
