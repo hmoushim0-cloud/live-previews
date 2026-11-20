@@ -2,8 +2,8 @@
   "project_id": "1289821",
   "repo_name": "rawasi-proptech-real-estate-1289821",
   "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate-1289821",
-  "app_name": "تطبيق رواسي للأملاك — مصمم داخلي محترف لإعادة تصمي",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "تطبيق درعية للعمارة الداخلية الفاخرة — مسح هندسي ورندرة واقعية",
+  "tagline": "نظام هندسي متكامل يربط مسح لاسيدار الثلاثي الأبعاد مع محركات التصميم لتوليد فراغات فندقية فاخرة",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق رواسي للأملاك — مصمم داخلي محترف لإعادة تصمي",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "تطبيق درعية للعمارة الداخلية الفاخرة — مسح هندسي ورندرة واقعية",
+    "subtitle": "نظام هندسي متكامل يربط مسح لاسيدار الثلاثي الأبعاد مع محركات التصميم لتوليد فراغات فندقية فاخرة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المسح المكاني بالليزر",
+    "النمذجة المعمارية ثلاثية الأبعاد",
+    "إضاءة في-راي والرندرة الواقعية",
+    "التشطيبات الفندقية الفاخرة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "مسح السحابة النقطية بالليزر ثلاثي الأبعاد",
+      "desc": "التقاط دقيق للأبعاد الهندسية عبر جهاز 360 LiDAR Spatial Scanner لتوليد شبكة مضلعات بدقة ملليمترية",
+      "price": "4,500 ر.س",
+      "icon": "layers",
+      "badge": "دقة 99.8%"
+    },
+    {
+      "title": "مزامنة جولات ماتربرت الفضائية",
+      "desc": "استيراد بيانات Matterport Pro3 لإنشاء جولات افتراضية تفاعلية للمساحات السكنية بأسلوب 5 نجوم",
+      "price": "3,200 ر.س",
+      "icon": "compass",
+      "badge": "تزامن فوري"
+    },
+    {
+      "title": "محاكاة إضاءة في-راي والمواد الواقعية",
+      "desc": "تطبيق خامات الذهب والرخام الإيطالي مع حسابات تشتت الضوء الواقعي عبر محرك سكتش أب",
+      "price": "6,800 ر.س",
+      "icon": "cpu",
       "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "90fe8d8",
+  "commit_hash": "6626e90",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rawasi-proptech-real-estate-1289821",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "LIDAR 360-SCAN: 24.8M Points/sec | Matterport Pro3 XYZ: 120.4m Range | Lux Level: 540 lx"
   }
 }
