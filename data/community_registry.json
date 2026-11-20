@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T06:48:04.196950+00:00",
+    "updated_at": "2026-11-20T07:00:29.879027+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "424",
+      "value": "425",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1294231",
+      "app_name": "روابي رُواسي للأعمال — منصة إدارة مساحات العمل المشتركة وولوج البوابات الذكية",
+      "tagline": "التحكم الآمن في الدخول عبر تقنية التردد الراديوي 13.56 ميغاهرتز وكلمات المرور المؤقتة ذات الوقت المحدود",
+      "preset": "coworking",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294231",
+      "stamp_id": "SA-KMP-1294231",
+      "crypto_hash": "sha256-1294231",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1294136",
       "app_name": "تطبيق ماهر الميداني — صقل وتقييم لعبة جوال شبه جاه",

@@ -1,0 +1,114 @@
+{
+  "project_id": "1294231",
+  "repo_name": "rawasi-cowork-rfid-pass-1294231",
+  "repo_url": "https://github.com/hmoushim0-cloud/rawasi-cowork-rfid-pass-1294231",
+  "app_name": "روابي رُواسي للأعمال — منصة إدارة مساحات العمل المشتركة وولوج البوابات الذكية",
+  "tagline": "التحكم الآمن في الدخول عبر تقنية التردد الراديوي 13.56 ميغاهرتز وكلمات المرور المؤقتة ذات الوقت المحدود",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "روابي رُواسي للأعمال — منصة إدارة مساحات العمل المشتركة وولوج البوابات الذكية",
+    "subtitle": "التحكم الآمن في الدخول عبر تقنية التردد الراديوي 13.56 ميغاهرتز وكلمات المرور المؤقتة ذات الوقت المحدود"
+  },
+  "categories": [
+    "بوابات الدخول الذكية",
+    "إدارة قاعات الاجتماعات",
+    "جلسات العمل المشتركة",
+    "سجلات التوثيق السيبراني"
+  ],
+  "items": [
+    {
+      "title": "بوابة الدخول الرئيسية رقم 04 - نظام 13.56 ميغاهرتز",
+      "desc": "مصادقة فورية عبر بطاقات الولوج الذكية وتقنية التردد الراديوي مع تسجيل زمني مشفر",
+      "price": "450 ر.س",
+      "icon": "cpu",
+      "badge": "متصل"
+    },
+    {
+      "title": "مولد شفرات الولوج المؤقتة TOTP",
+      "desc": "إصدار رموز المصادقة ذات الصلاحية الزمنية القصيرة للزوار والشركاء المعتمدين",
+      "price": "180 ر.س",
+      "icon": "lock",
+      "badge": "آمن"
+    },
+    {
+      "title": "حجز استوديو الابتكار والاجتماعات السيادية",
+      "desc": "تخصيص المساحات المكتبية الذكية مع تفعيل الحساسات الحيوية وبوابات الدورية",
+      "price": "750 ر.س",
+      "icon": "server",
+      "badge": "محجوز"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "a89cbf6",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294231_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294231_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294231_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294231_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294231_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294231_ios_03.png"
+    }
+  ],
+  "detailed_desc": "نشر تطبيق على نظام الاندرويد. السلام عليكم لدي تطبيق منشور على ابل ستور واحتاج شخص لديه الخبر في نشر التطبيق على نظام الاندرويد وحسابه قديم لنشر التطبيقات .. وايضا انهاء اجراءات المختبرين لنشر التطبيق عالحساب الشخصي فيما بعد",
+  "domain_data": {
+    "repo_name": "rawasi-cowork-rfid-pass-1294231",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "RFID 13.56MHz UID: A4F89C21 | TOTP Status: SYNCED (Offset +0.2s) | Turnstile Servo: LOCKED"
+  }
+}
