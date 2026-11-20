@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T19:19:35.676915+00:00",
+    "updated_at": "2026-11-20T19:32:33.833261+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "428",
+      "value": "429",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1294348",
+      "app_name": "ليالي نجد الذكية — مساحة العمل النسائية وخدمات الضيافة الرقمية",
+      "tagline": "إدارة متكاملة لمساحات العمل المشتركة مع المصادقة عبر تردد 13.56 ميغاهيرتز ورموز المرور المؤقتة",
+      "preset": "coworking",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294348",
+      "stamp_id": "SA-KMP-1294348",
+      "crypto_hash": "sha256-1294348",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1294337",
       "app_name": "سَدير — تطبيق النقل الفاخر بتحديد المواقع عالي الدقة",

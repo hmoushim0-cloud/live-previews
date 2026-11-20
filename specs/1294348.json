@@ -1,0 +1,114 @@
+{
+  "project_id": "1294348",
+  "repo_name": "layali-najd-coworking-rfid-pass-1294348",
+  "repo_url": "https://github.com/hmoushim0-cloud/layali-najd-coworking-rfid-pass-1294348",
+  "app_name": "ليالي نجد الذكية — مساحة العمل النسائية وخدمات الضيافة الرقمية",
+  "tagline": "إدارة متكاملة لمساحات العمل المشتركة مع المصادقة عبر تردد 13.56 ميغاهيرتز ورموز المرور المؤقتة",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "ليالي نجد الذكية — مساحة العمل النسائية وخدمات الضيافة الرقمية",
+    "subtitle": "إدارة متكاملة لمساحات العمل المشتركة مع المصادقة عبر تردد 13.56 ميغاهيرتز ورموز المرور المؤقتة"
+  },
+  "categories": [
+    "مكاتب العمل الفردية",
+    "باقات الضيافة الفاخرة",
+    "بوابات الدخول الرقمية",
+    "حجوزات الاجتماعات الخاصة"
+  ],
+  "items": [
+    {
+      "title": "مكتب تنفيذي خاص مع مفتاح RFID",
+      "desc": "جلسة عمل هادئة مجهزة بشاشات عرض وربط فوري ببوابة الدخول الذكية 13.56 ميغاهيرتز",
+      "price": "180 ر.س",
+      "icon": "shield",
+      "badge": "محمي"
+    },
+    {
+      "title": "باقة الضيافة الملكية المتكاملة",
+      "desc": "مشروبات ساخنة وباردة فاخرة مع معجنات طازجة ومصممة خصيصا للفعاليات النسائية",
+      "price": "75 ر.س",
+      "icon": "activity",
+      "badge": "الأكثر طلباً"
+    },
+    {
+      "title": "جلسة عزل صوتي للاجتماعات",
+      "desc": "غرفة اجتماعات مجهزة بنظام مصادقة ثنائي عبر رمز TOTP ودعم الاتصال فائق السرعة",
+      "price": "350 ر.س",
+      "icon": "zap",
+      "badge": "حصري"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "31b1764",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294348_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294348_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294348_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294348_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294348_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294348_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تصميم وتنفيذ منيو إلكتروني صفحة واحدة لكافيه - Landing page & Digital Menu. مطلوب مصمم UI/UX لتصميم وتنفيذ صفحة منيو إلكتروني بسيطة وسريعة لكافيه مخصص للبنات فقط ، بحيث تفتح الزبونة الصفحة مباشرة من الموبايل (عبر QR Code أو linktree على السوشيال ميديا) بدون تحميل أي تطبيق. المطلوب تصميمه وتنفيذه: تصميم أنثوي ناعم ومخصص للكافيه بألوان الوردي والفوشي",
+  "domain_data": {
+    "repo_name": "layali-najd-coworking-rfid-pass-1294348",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "RFID 13.56MHz UID: A4F89C21 | Turnstile State: UNLOCKED | TOTP Auth: VALID (Exp: 42s)"
+  }
+}
