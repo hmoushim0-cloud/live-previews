@@ -2,8 +2,8 @@
   "project_id": "1289822",
   "repo_name": "sakan-lidar-real-estate-1289822",
   "repo_url": "https://github.com/hmoushim0-cloud/sakan-lidar-real-estate-1289822",
-  "app_name": "تطبيق سكن ثلاثي الأبعاد — محرر فيديو / مونتير لإعلان ت",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "تطبيق درعية 360 المتقدم لإنتاج الإعلانات العقارية — مزامنة ماسح LiDAR مع المونتاج الحماسي",
+  "tagline": "هندسة المحتوى البصري العقاري المدمج مع بيانات المسح المكاني ثلاثي الأبعاد لجولات تفاعلية فائقة السرعة",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق سكن ثلاثي الأبعاد — محرر فيديو / مونتير لإعلان ت",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "تطبيق درعية 360 المتقدم لإنتاج الإعلانات العقارية — مزامنة ماسح LiDAR مع المونتاج الحماسي",
+    "subtitle": "هندسة المحتوى البصري العقاري المدمج مع بيانات المسح المكاني ثلاثي الأبعاد لجولات تفاعلية فائقة السرعة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مسح ماتربورت ثلاثي الأبعاد",
+    "هندسة الصوت واللهجة السعودية",
+    "الرسوم الحركية والعروض البصرية",
+    "مزامنة قياسات المخططات الهندسية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "معالجة سحاب نقاط ماتربورت Pro3",
+      "desc": "تصدير الملفات الخام وتحويلها إلى مشاهد سينمائية ثلاثية الأبعاد بوضوح 8K مع تكامل تدرج الألوان",
+      "price": "1,250 ر.س",
+      "icon": "layers",
+      "badge": "تخصصي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "هندسة الصوت والتعليق الصوتي الحماسي",
+      "desc": "توليد تعليق صوتي رجولي بلهجة سعودية احترافية مع هندسة مؤثرات صوتية عقارية متطورة",
+      "price": "650 ر.س",
+      "icon": "mic",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "كتابة النصوص المتحركة والتوقيت الحركي",
+      "desc": "إبراز تفاصيل العقار وكتابة النصوص الترويجية على الفيديو بتأثيرات بصرية جذابة ومتزامنة",
+      "price": "450 ر.س",
+      "icon": "film",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "a8445e7",
+  "commit_hash": "f41da3c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sakan-lidar-real-estate-1289822",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "Matterport Pro3 LiDAR: 360x300 deg | Point Density: 100k pts/m2 | IMU Drift: 0.01 deg/m | Spatial Mesh Sync: 99.8%"
   }
 }
