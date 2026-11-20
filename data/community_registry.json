@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T05:33:07.134991+00:00",
+    "updated_at": "2026-11-20T06:29:09.512283+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1887,8 +1887,8 @@
     },
     {
       "project_id": "1289904",
-      "app_name": "تطبيق راصد كاشير — مسوق إلكتروني خبير في مجال م",
-      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "app_name": "بوابة نجد لنقاط بيع اشتراكات IPTV — محطة الإدارة والطباعة الحرارية",
+      "tagline": "نظام مبيعات متكامل لخدمات البث الرقمي مع ربط مباشر بطابعات الإيصالات الحرارية وقارئ الباركود",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289904",
       "stamp_id": "SA-KMP-1289904",
