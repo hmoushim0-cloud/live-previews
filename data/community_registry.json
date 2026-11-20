@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T06:29:09.512283+00:00",
+    "updated_at": "2026-11-20T06:48:04.196950+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1935,8 +1935,8 @@
     },
     {
       "project_id": "1289895",
-      "app_name": "تطبيق إنجاز للخدمات — مطلوب مبرمج لاستلام والتعديل",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "منصة وجيز لخدمات الدفع الميداني وتتبع الأسطول — نظام متكامل للعمليات والتحصيل الذكي",
+      "tagline": "ربط فوري بين أجهزة مدى اللاملامسية ونظام التوجيه الجغرافي لإدارة العمليات الميدانية باحترافية عالية",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289895",
       "stamp_id": "SA-KMP-1289895",
