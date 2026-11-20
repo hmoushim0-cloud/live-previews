@@ -2929,8 +2929,8 @@
   },
   {
     "project_id": "1289321",
-    "app_name": "sajil-zatca-pos-cashier-1289321",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "تطبيق نمار الموحد — نقاط البيع والتحليلات السحابية للمتاجر",
+    "tagline": "منصة ميدانية متكاملة تربط مبيعات المتجر الإلكتروني بنقاط البيع الفعلي مع طباعة حرارية فورية ومسح ضوئي عالي الأداء",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289321.json"

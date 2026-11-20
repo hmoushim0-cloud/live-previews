@@ -1,9 +1,9 @@
 {
   "project_id": "1289321",
-  "repo_name": "sajil-zatca-pos-cashier-1289321",
-  "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289321",
-  "app_name": "sajil-zatca-pos-cashier-1289321",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "repo_name": "namar-omni-pos-sync-1289321",
+  "repo_url": "https://github.com/hmoushim0-cloud/namar-omni-pos-sync-1289321",
+  "app_name": "تطبيق نمار الموحد — نقاط البيع والتحليلات السحابية للمتاجر",
+  "tagline": "منصة ميدانية متكاملة تربط مبيعات المتجر الإلكتروني بنقاط البيع الفعلي مع طباعة حرارية فورية ومسح ضوئي عالي الأداء",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "sajil-zatca-pos-cashier-1289321",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "تطبيق نمار الموحد — نقاط البيع والتحليلات السحابية للمتاجر",
+    "subtitle": "منصة ميدانية متكاملة تربط مبيعات المتجر الإلكتروني بنقاط البيع الفعلي مع طباعة حرارية فورية ومسح ضوئي عالي الأداء"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المبيعات ونقاط البيع الميدانية",
+    "مزامنة المخزون السحابي لحظياً",
+    "الربط مع الطابعات الحرارية والماسحات",
+    "تحليلات الأداء المالي والإعلاني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "جلسة مبيعات نقاط البيع السريعة",
+      "desc": "إتمام عمليات البيع النقدي والالكتروني مع إصدار إيصال حراري فوري عبر طابعة ESC/POS ومزامنة مباشرة مع قواعد بيانات Supabase",
+      "price": "145 ر.س",
+      "icon": "printer",
+      "badge": "معتمد ميدانياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "محرك فحص الباركود والمنتجات المخزنية",
+      "desc": "مسح سريع لرموز الأشرطة EAN و QR عبر الماسح الضوئي المرتبط لجلب بيانات المنتج وتحديث الكميات في لوحة التحكم",
+      "price": "85 ر.س",
+      "icon": "scan",
+      "badge": "استجابة فائقة"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تصدير التقارير الضريبية والتحليلية",
+      "desc": "تجميع مبيعات المتجر الإلكتروني ونقاط البيع في تقارير موحدة معتمدة لهيئة الزكاة والضريبة والجمارك",
+      "price": "210 ر.س",
+      "icon": "bar-chart-2",
+      "badge": "متوافق مع ZATCA"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "450a5cf",
+  "commit_hash": "f01b87d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1289321_ios_03.png"
     }
   ],
-  "detailed_desc": "مطوّر Full-stack  لإكمال تكاملات واعتماد تطبيقات منصة (Next.js + Supabase) — لدينا منصة سعودية شغالة فعليا تعطي أصحاب المتاجر الإلكترونية لوحة واحدة لتحليلات المتجر والإعلانات والسوشيال ميديا. أغلب التكاملات جاهزة وعدد منها معتمد بالفعل، ونحتاج مطور خبير يكمل المهام المتبقية، ويستخرج آخر الموافقات، ويثبت كل تكامل ببيانات حقيق",
+  "detailed_desc": "مطوّر Full-stack  لإكمال تكاملات واعتماد تطبيقات منصة (Next.js + Supabase). لدينا منصة سعودية شغالة فعليا تعطي أصحاب المتاجر الإلكترونية لوحة واحدة لتحليلات المتجر والإعلانات والسوشيال ميديا. أغلب التكاملات جاهزة وعدد منها معتمد بالفعل، ونحتاج مطور خبير يكمل المهام المتبقية، ويستخرج آخر الموافقات، ويثبت كل تكامل ببيانات حقيقية، ويستمر معنا فترة طوي",
   "domain_data": {
-    "repo_name": "sajil-zatca-pos-cashier-1289321",
+    "repo_name": "namar-omni-pos-sync-1289321",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS 80mm Thermal: Head Temp 32C | Cutter: Ready | Barcode Scanner: USB HID Mode Active | Last Scanned UPC: 628100928371"
   }
 }
