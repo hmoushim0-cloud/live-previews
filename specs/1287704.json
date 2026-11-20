@@ -2,8 +2,8 @@
   "project_id": "1287704",
   "repo_name": "itqan-dispatch-services-1287704",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1287704",
-  "app_name": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق وَصْل لإدارة ونشر المتاجر الرقمية — منظومة اعتماد وتتبع مختبري التطبيقات الميدانيين",
+  "tagline": "بوابة سيادية متكاملة لمراقبة نشر التطبيقات على المتاجر الرقمية والتحقق الميداني عبر بصمة Mada NFC والاسناد الجغرافي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق وَصْل لإدارة ونشر المتاجر الرقمية — منظومة اعتماد وتتبع مختبري التطبيقات الميدانيين",
+    "subtitle": "بوابة سيادية متكاملة لمراقبة نشر التطبيقات على المتاجر الرقمية والتحقق الميداني عبر بصمة Mada NFC والاسناد الجغرافي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "فحص التوافقية الرقمية للمتاجر",
+    "إدارة شبكة مختبري الجودة المعتمدين",
+    "التحقق الأمني عبر عتاد Mada L2",
+    "التوجيه الجغرافي لعمليات النشر"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تدقيق إصدار متجر جوجل بلاي",
+      "desc": "فحص آلي شامل لحالة النشر والتوافق مع السياسات مع ربط توقيع المتاجر بالبصمة الرقمية",
+      "price": "450 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "معتمد سيادياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "جلسة اختبار مختبري مرخصة",
+      "desc": "تفعيل مجموعة مختبرين ثقة مسجلين ميدانياً مع المصادقة عبر قارئ بطاقات Mada اللمسي",
+      "price": "890 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "استجابة فورية"
+    },
+    {
+      "title": "مزامنة الإسناد الجغرافي GPS Dispatch",
+      "desc": "تتبع مسار توزيع مهام الفحص ومراقبة الأجهزة الطرفية عبر إحداثيات رصد عالية الدقة",
+      "price": "320 ر.س",
+      "icon": "zap",
+      "badge": "محدث حصرياً"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "36dc64d",
+  "commit_hash": "06354c1",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1287704",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada L2 EMV NFC Secure Channel: CONNECTED | GPS Dispatch Fix: 24.7136N, 46.6753E | Accuracy: 1.2m"
   }
 }

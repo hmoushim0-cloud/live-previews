@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T20:07:40.913206+00:00",
+    "updated_at": "2026-11-20T20:47:25.246443+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -4899,8 +4899,8 @@
     },
     {
       "project_id": "1287704",
-      "app_name": "تطبيق إتقان للصيانة — متابعة رفع التطبيقات والبحث",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "تطبيق وَصْل لإدارة ونشر المتاجر الرقمية — منظومة اعتماد وتتبع مختبري التطبيقات الميدانيين",
+      "tagline": "بوابة سيادية متكاملة لمراقبة نشر التطبيقات على المتاجر الرقمية والتحقق الميداني عبر بصمة Mada NFC والاسناد الجغرافي",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1287704",
       "stamp_id": "SA-KMP-1287704",
