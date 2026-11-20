@@ -2,8 +2,8 @@
   "project_id": "1290099",
   "repo_name": "maher-field-services-1290099",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1290099",
-  "app_name": "تطبيق ماهر الميداني — عمل إعلان على جوجل لمشروع ال",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "العلامات الثلاث للتهوية والذكاء التبريدي — نظام الجدولة الميدانية والدفع اللمسي",
+  "tagline": "منصة صيانة وتبريد متكاملة مع توثيق ميداني عبر نظام الملاحة وتقنيات الدفع الآمن مدى",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — عمل إعلان على جوجل لمشروع ال",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "العلامات الثلاث للتهوية والذكاء التبريدي — نظام الجدولة الميدانية والدفع اللمسي",
+    "subtitle": "منصة صيانة وتبريد متكاملة مع توثيق ميداني عبر نظام الملاحة وتقنيات الدفع الآمن مدى"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "عقود الصيانة الدورية للأنظمة المركزية",
+    "تشخيص أعطال الضاغط وضغط الفريون الرقمي",
+    "معايرة وتحكم غرف التبريد التجاري",
+    "الاستجابة السريعة والطوارئ الميدانية GPS"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "صيانة وتطهير مجاري الهواء المركزية",
+      "desc": "فحص شامل لتدفق الهواء، قياس درجة التبريد بالليزر، وتعقيم المرشحات بأحدث التقنيات الهندسية",
+      "price": "450 ر.س",
+      "icon": "wind",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "معايرة وحدة التحكم الإلكترونية للتشغيل الذكي",
+      "desc": "ربط اللوحة الرقمية لأنظمة التبريد مع الحساسات الذكية وضبط درجات الحرارة بدقة عالية",
+      "price": "320 ر.س",
+      "icon": "cpu",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "شحن وتعبئة غاز التبريد صديق البيئة",
+      "desc": "فحص التسريب بجهد إلكتروني، اختبار الضغط العالي والمنخفض، وتوثيق العملية عبر نظام مدى",
+      "price": "580 ر.س",
+      "icon": "shield-check",
+      "badge": "ضمان سنة"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "f07af80",
+  "commit_hash": "916f6ff",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maher-field-services-1290099",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2: AID A000000228 | GPS: 24.7136 N, 46.6753 E | R410A Pressure: 120 PSI | NFC Contactless Auth: APPROVED"
   }
 }
