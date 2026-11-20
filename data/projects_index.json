@@ -1161,8 +1161,8 @@
   },
   {
     "project_id": "1289926",
-    "app_name": "تطبيق نجد للأسطول — إعداد ملف اسكتش اب لمحل تجار",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "نجد للإدارة الذكية للأسطول — نظام تشخيص OBD-II ومفاتيح BLE الرقمية",
+    "tagline": "منصة متكاملة لرصد بيانات المحرك الحية عبر بروتوكول CAN-Bus والتحكم بالمركبات عبر تقنية البلوتوث منخفض الطاقة",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289926.json"

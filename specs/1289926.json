@@ -2,8 +2,8 @@
   "project_id": "1289926",
   "repo_name": "najd-mobility-car-rental-1289926",
   "repo_url": "https://github.com/hmoushim0-cloud/najd-mobility-car-rental-1289926",
-  "app_name": "تطبيق نجد للأسطول — إعداد ملف اسكتش اب لمحل تجار",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "نجد للإدارة الذكية للأسطول — نظام تشخيص OBD-II ومفاتيح BLE الرقمية",
+  "tagline": "منصة متكاملة لرصد بيانات المحرك الحية عبر بروتوكول CAN-Bus والتحكم بالمركبات عبر تقنية البلوتوث منخفض الطاقة",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق نجد للأسطول — إعداد ملف اسكتش اب لمحل تجار",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "نجد للإدارة الذكية للأسطول — نظام تشخيص OBD-II ومفاتيح BLE الرقمية",
+    "subtitle": "منصة متكاملة لرصد بيانات المحرك الحية عبر بروتوكول CAN-Bus والتحكم بالمركبات عبر تقنية البلوتوث منخفض الطاقة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تشخيص محركات OBD-II",
+    "إدارة المفاتيح الرقمية BLE",
+    "تتبع المسارات الحية RTK",
+    "مراقبة استهلاك الوقود والانبعاثات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "وحدة تشخيص الأعطال السريعة DTC",
+      "desc": "قراءة رموز أعطال المحرك المباشرة وعرض حالة حساسات الأكسجين وضغط الوقود عبر منفذ CAN-Bus",
+      "price": "450 ر.س",
+      "icon": "cpu",
+      "badge": "نشط حصري"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "مفتاح البلوتوث الرقمي المشفر BLE",
+      "desc": "إدارة تصاريح فتح الأبواب وتشغيل المحرك عن بعد عبر بروتوكول تشفير عالي الأمان",
+      "price": "890 ر.س",
+      "icon": "lock",
+      "badge": "عالي الأمان"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "محلل تباين استهلاك الوقود الحيوي",
+      "desc": "تتبع معدلات حرق الوقود اللحظية وكفاءة الحقن مقارنة بالمسافات المقطوعة ونمط القيادة",
+      "price": "320 ر.س",
+      "icon": "trending-up",
+      "badge": "تحليل فوري"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "46ec66e",
+  "commit_hash": "6eac3f4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "najd-mobility-car-rental-1289926",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN-Bus PID 0x0C: 3450 RPM | Coolant: 92C | BLE KeyFob RSSI: -64 dBm | Speed: 120 km/h"
   }
 }
