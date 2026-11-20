@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T20:47:25.246443+00:00",
+    "updated_at": "2026-11-20T21:16:40.984199+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1647,8 +1647,8 @@
     },
     {
       "project_id": "1290104",
-      "app_name": "تطبيق عدل للمحاماة — كتابة 150 سؤالًا مرجعيًا بأج",
-      "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+      "app_name": "مرجع نظام المنافسات — المنصة القانونية الذكية للمشتريات الحكومية",
+      "tagline": "استشارات قانونية موثقة ومحمولة عبر وحدة الأمان المشفرة FIPS 140-2 لنظام المنافسات والمشتريات الحكومية 1448",
       "preset": "legal_consulting",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290104",
       "stamp_id": "SA-KMP-1290104",

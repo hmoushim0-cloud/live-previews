@@ -1065,8 +1065,8 @@
   },
   {
     "project_id": "1290104",
-    "app_name": "تطبيق عدل للمحاماة — كتابة 150 سؤالًا مرجعيًا بأج",
-    "tagline": "منظومة legal_consulting المتكاملة مع ربط FIPS 140-2 Cryptographic HSM Security Token",
+    "app_name": "مرجع نظام المنافسات — المنصة القانونية الذكية للمشتريات الحكومية",
+    "tagline": "استشارات قانونية موثقة ومحمولة عبر وحدة الأمان المشفرة FIPS 140-2 لنظام المنافسات والمشتريات الحكومية 1448",
     "preset": "legal_consulting",
     "has_proofs": true,
     "spec_path": "specs/1290104.json"
