@@ -1,0 +1,114 @@
+{
+  "project_id": "1294374",
+  "repo_name": "wasl-mada-nfc-dispatch-hub-1294374",
+  "repo_url": "https://github.com/hmoushim0-cloud/wasl-mada-nfc-dispatch-hub-1294374",
+  "app_name": "تطبيق وصل لمدى والنقاط الذكية — بوابة الدفع السريع والتحصيل الميداني",
+  "tagline": "ربط متطور لمنظومة الويب عبر تقنية مدى لتقارب البطاقات (NFC L2) وتتبع الإحداثيات الجغرافية بدقة فائقة",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "تطبيق وصل لمدى والنقاط الذكية — بوابة الدفع السريع والتحصيل الميداني",
+    "subtitle": "ربط متطور لمنظومة الويب عبر تقنية مدى لتقارب البطاقات (NFC L2) وتتبع الإحداثيات الجغرافية بدقة فائقة"
+  },
+  "categories": [
+    "محطات الدفع الميداني (NFC L2)",
+    "تتبع الأسطول والإحداثيات (GPS)",
+    "إدارة محتوى الويب (WebView Bridge)",
+    "تقارير العوائد والإعلانات"
+  ],
+  "items": [
+    {
+      "title": "وحدة قراءة بطاقات مدى (EMV L2 Contactless)",
+      "desc": "بروتوكول اتصال آمن عبر شريحة NFC المدمجة لمعالجة مدفوعات مدى الفورية وتشفير بيانات المسار الميداني",
+      "price": "450 ر.س",
+      "icon": "terminal",
+      "badge": "مشفر أمنياً"
+    },
+    {
+      "title": "محطة التوجيه الجغرافي للتحصيل (GPS Dispatch)",
+      "desc": "تتبع حي لمواقع مناديب التحصيل عبر نظام الإحداثيات العالمي ومزامنة طلبات الويب اللحظية",
+      "price": "320 ر.س",
+      "icon": "navigation",
+      "badge": "نشط فوري"
+    },
+    {
+      "title": "جسر محتوى الويب المتقدم (WebView Core Bridge)",
+      "desc": "تحويل سلس لموقع GitHub Pages إلى بيئة أندرويد أصلية مع إدارة إعلانات AdMob المرنة (Banner & Rewarded)",
+      "price": "180 ر.س",
+      "icon": "globe",
+      "badge": "متوافق كلياً"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "38bcf24",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294374_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294374_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294374_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294374_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294374_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294374_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تحويل موقع ويب (GitHub Pages) إلى تطبيق أندرويد وربط إعلانات AdMob (Banner + Rewarded). لدي موقع ويب جاهز ومنشور على GitHub Pages وأحتاج إلى مبرمج أندرويد محترف لتحويله إلى تطبيق أندرويد احترافي (WebView) مع ربط إعلانات Google AdMob.",
+  "domain_data": {
+    "repo_name": "wasl-mada-nfc-dispatch-hub-1294374",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "NFC EMV L2 ISO/IEC 14443: AID A0000002283010 | GPS: 24.7136 N, 46.6753 E (Fix 3D, HDOP 0.8)"
+  }
+}
