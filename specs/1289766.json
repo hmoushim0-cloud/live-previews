@@ -2,8 +2,8 @@
   "project_id": "1289766",
   "repo_name": "kadi-salon-beauty-salon-1289766",
   "repo_url": "https://github.com/hmoushim0-cloud/kadi-salon-beauty-salon-1289766",
-  "app_name": "تطبيق كادي للتجميل — مطلوب أخصائية خدمة عملاء وإد",
-  "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+  "app_name": "تطبيق جوهرة العناية الذكية — منظومة إدارة مستحضرات التجميل وتعقيم الأجهزة المخبرية",
+  "tagline": "نظام رقمي متكامل لإدارة مبيعات العناية بالبشرة ومراقبة معقمات الأشعة فوق البنفسجية لضمان سلامة المنتجات",
   "preset": "beauty_salon",
   "layout_type": "beauty_salon",
   "layoutArchetype": "beauty_salon",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق كادي للتجميل — مطلوب أخصائية خدمة عملاء وإد",
-    "subtitle": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor"
+    "title": "تطبيق جوهرة العناية الذكية — منظومة إدارة مستحضرات التجميل وتعقيم الأجهزة المخبرية",
+    "subtitle": "نظام رقمي متكامل لإدارة مبيعات العناية بالبشرة ومراقبة معقمات الأشعة فوق البنفسجية لضمان سلامة المنتجات"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مستحضرات التجميل العلاجية الحيوية",
+    "سجلات تعقيم غرف الأشعة فوق البنفسجية",
+    "متابعة العربات المهجورة وسلات العملاء",
+    "أجهزة فحص البشرة الذكية المرتبطة بالبلوتوث"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع UV-C Chamber Sanitation IoT Sensor",
-      "price": "180 ر.س",
+      "title": "سيروم فيتامين سي النقي مع مستشعر التعقيم الحيوي",
+      "desc": "تركيبة علاجية متقدمة معتمدة من مختبرات الجودة مع تقرير تعقيم فوري عبر مستشعر الأشعة فوق البنفسجية",
+      "price": "340 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "معقم بالكامل"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "كريم التجديد الخلوي الليلي مع نظام تتبع الاستجابة",
+      "desc": "إدارة الطلبات السريعة وتحويل استفسارات واتساب بزنس إلى مبيعات مؤكدة عبر محرك الرد الآلي",
+      "price": "480 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "أعلى مبيعات"
+    },
+    {
+      "title": "جلسة استشارة وتوصيات العناية المخصصة عن بُعد",
+      "desc": "تحليل متقدم لنوع البشرة وربط مباشر مع لوحة تحكم خدمة العملاء ومتابعة الشحنات",
+      "price": "195 ر.س",
+      "icon": "zap",
+      "badge": "فوري وموثق"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b0be532",
+  "commit_hash": "f25eb8f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "kadi-salon-beauty-salon-1289766",
     "hardware_sensor": "UV-C Chamber Sanitation IoT Sensor",
-    "telemetry_preview": "UV-C Chamber Sanitation IoT Sensor: ONLINE | READY"
+    "telemetry_preview": "UV-C Chamber BLE 5.2: 28.4 mW/cm2 | Sterilization Cycle: 99.98% | Chamber Temp: 21.8°C | Batch #SKN-8891"
   }
 }

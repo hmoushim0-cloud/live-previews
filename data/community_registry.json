@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T09:35:07.110675+00:00",
+    "updated_at": "2026-11-20T10:32:58.848192+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2535,8 +2535,8 @@
     },
     {
       "project_id": "1289766",
-      "app_name": "تطبيق كادي للتجميل — مطلوب أخصائية خدمة عملاء وإد",
-      "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+      "app_name": "تطبيق جوهرة العناية الذكية — منظومة إدارة مستحضرات التجميل وتعقيم الأجهزة المخبرية",
+      "tagline": "نظام رقمي متكامل لإدارة مبيعات العناية بالبشرة ومراقبة معقمات الأشعة فوق البنفسجية لضمان سلامة المنتجات",
       "preset": "beauty_salon",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289766",
       "stamp_id": "SA-KMP-1289766",
