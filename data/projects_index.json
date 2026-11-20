@@ -1385,8 +1385,8 @@
   },
   {
     "project_id": "1289839",
-    "app_name": "تطبيق نقد تيرمنال — تطوير متجر إلكتروني — تطوير",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "منصة نجد للخدمات الرقمية ووساطة الأعمال — نظام نقاط بيع الخدمات الذكية",
+    "tagline": "ربط متقدم لأجهزة الطباعة الحرارية ومسح الباركود لإدارة وتوثيق عمليات الوساطة الرقمية الفورية",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289839.json"
