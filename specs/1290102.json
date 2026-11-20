@@ -2,8 +2,8 @@
   "project_id": "1290102",
   "repo_name": "f-classroom-smart-education-1290102",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1290102",
-  "app_name": "تطبيق فكر الذكية — مراجعة وتدقيق وتنسيق وتحليل",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق تمحيص الأكاديمي — منصة المراجعة والتحليل الذكي للرسائل العلمية",
+  "tagline": "تدقيق منهجي متقدم مدعوم بالقلم الرقمي ذي 4096 مستوى ضغط ومنارة التتبع لاسلكياً",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — مراجعة وتدقيق وتنسيق وتحليل",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق تمحيص الأكاديمي — منصة المراجعة والتحليل الذكي للرسائل العلمية",
+    "subtitle": "تدقيق منهجي متقدم مدعوم بالقلم الرقمي ذي 4096 مستوى ضغط ومنارة التتبع لاسلكياً"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "التدقيق اللغوي والمفاهيمي",
+    "التحليل المنهجي والإحصائي",
+    "تعليقات وملاحظات القلم الذكي",
+    "تتبع إشارات المراجع عبر البلوتوث"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "المراجعة الشاملة لرسالة الـ 180 صفحة",
+      "desc": "تدقيق علمي ومنهجي ولغوي متكامل للرسائل والبحوث الجامعية بترميز تفصيلي",
+      "price": "1,800 ر.س",
+      "icon": "layers",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "معايرة المخططات عبر القلم الضوئي 4096",
+      "desc": "تعديل ورسم المخططات البيانية والجداول الإحصائية بدقة ضغط فائقة",
+      "price": "650 ر.س",
+      "icon": "edit",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مزامنة الجلسات عبر منارة BLE Beacon",
+      "desc": "تأمين وتوثيق جلسات التحكيم الأكاديمي وتتبع الأجهزة المتصلة بالموقع",
+      "price": "350 ر.س",
+      "icon": "cpu",
+      "badge": "حديث"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3f2a124",
+  "commit_hash": "7a0d35f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "f-classroom-smart-education-1290102",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "Stylus 4096-L: Pressure 3892 | Tilt 12.4 deg | BLE Beacon ID: 0x4F89 | RSSI: -58 dBm"
   }
 }
