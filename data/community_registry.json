@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-19T23:30:56.178358+00:00",
+    "updated_at": "2026-11-20T00:20:35.515908+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2403,8 +2403,8 @@
     },
     {
       "project_id": "1289789",
-      "app_name": "تطبيق ورشة فوري — مبرمج خبير لسيرفر متين 2 (Me",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "تطبيق درع نجد لتوثيق وفحص خوادم متين 2 — نظام حماية وتشخيص عتادي متطور",
+      "tagline": "حماية سيادية متكاملة لخوادم متين 2 مع المصادقة عبر نقاط البيع ومراقبة الموقع الجغرافي",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289789",
       "stamp_id": "SA-KMP-1289789",

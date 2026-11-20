@@ -2,8 +2,8 @@
   "project_id": "1289789",
   "repo_name": "warsha-now-services-1289789",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services-1289789",
-  "app_name": "تطبيق ورشة فوري — مبرمج خبير لسيرفر متين 2 (Me",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق درع نجد لتوثيق وفحص خوادم متين 2 — نظام حماية وتشخيص عتادي متطور",
+  "tagline": "حماية سيادية متكاملة لخوادم متين 2 مع المصادقة عبر نقاط البيع ومراقبة الموقع الجغرافي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق ورشة فوري — مبرمج خبير لسيرفر متين 2 (Me",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق درع نجد لتوثيق وفحص خوادم متين 2 — نظام حماية وتشخيص عتادي متطور",
+    "subtitle": "حماية سيادية متكاملة لخوادم متين 2 مع المصادقة عبر نقاط البيع ومراقبة الموقع الجغرافي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "فحص الثغرات الأمنية",
+    "تدقيق ملفات السيرفر",
+    "المصادقة العتادية",
+    "المراقبة الميدانية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "تدقيق حزم المصادقة العتادية",
+      "desc": "فحص توافق نظام Mada Contactless EMV L2 NFC مع وحدات التحقق لمدفوعات اللعبة",
+      "price": "450 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تحليل إحداثيات الإرسال الجغرافي",
+      "desc": "مراقبة وتتبع عقد الخادم عبر GPS Dispatch لضمان استقرار قنوات الاتصال الحي",
+      "price": "680 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تأمين النواة وإغلاق المنافذ المفتوحة",
+      "desc": "فحص شامل لملفات السيرفر وإزالة البرمجيات الخبيثة وثغرات الحقن قبل الافتتاح",
+      "price": "1200 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "2679e06",
+  "commit_hash": "7a8e2ac",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services-1289789",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2 NFC 0xFE: Auth OK | GPS Dispatch: 24.7136 N, 46.6753 E | Core Load: 1.4%"
   }
 }
