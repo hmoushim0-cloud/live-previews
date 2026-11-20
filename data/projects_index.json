@@ -1377,8 +1377,8 @@
   },
   {
     "project_id": "1289842",
-    "app_name": "تطبيق ميزان نقاط البيع — تصميم وإنشاء قاعدة بيانات SQ",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "تطبيق نبراس لإدارة المستودعات الطبية ونقاط البيع المركزية",
+    "tagline": "نظام ذكي متكامل لإدارة المخزون الطبي والمشتريات مع ربط مباشر لطابعة الإيصالات الحرارية ESC/POS وماسح الباركود",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289842.json"
