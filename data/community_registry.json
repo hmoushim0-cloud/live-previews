@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T22:10:40.270580+00:00",
+    "updated_at": "2026-11-20T22:23:49.351631+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1467,8 +1467,8 @@
     },
     {
       "project_id": "1290133",
-      "app_name": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحص #1290133",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "مِقْيَاس التحصيلي — مراجعة الرياضيات بالقلم الرقمي",
+      "tagline": "منصة تصحيح فوري تقرأ ضغطات قلم 4096 مستوى وتبث إتقان الحل إلى منارة BLE لضمان مطابقة المنهج السعودي",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290133",
       "stamp_id": "SA-KMP-1290133",

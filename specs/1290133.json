@@ -2,8 +2,8 @@
   "project_id": "1290133",
   "repo_name": "ruya-academy-smart-education-1290133",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1290133",
-  "app_name": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحص #1290133",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "مِقْيَاس التحصيلي — مراجعة الرياضيات بالقلم الرقمي",
+  "tagline": "منصة تصحيح فوري تقرأ ضغطات قلم 4096 مستوى وتبث إتقان الحل إلى منارة BLE لضمان مطابقة المنهج السعودي",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحص #1290133",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "مِقْيَاس التحصيلي — مراجعة الرياضيات بالقلم الرقمي",
+    "subtitle": "منصة تصحيح فوري تقرأ ضغطات قلم 4096 مستوى وتبث إتقان الحل إلى منارة BLE لضمان مطابقة المنهج السعودي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الجبر والدوال",
+    "الهندسة المستوية",
+    "الإحصاء والاحتمالات",
+    "المصفوفات والتفاضل"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "مراجعة درس بالكتابة التفاعلية",
+      "desc": "درس من 102 درسا بتمارين من كتب أول وثاني ثانوي، يُصحح القلم الرقمي خطوات الحل خطوة بخطوة مع توجيه فوري",
+      "price": "150 ر.س",
+      "icon": "pen-tool",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "حزمة بنك التحصيلي 200 سؤال",
+      "desc": "تصفح 200 سؤال بصيغ اختبار التحصيلي مع تتبع زمن الحل وقلم رقمي يسجل الإجابات على الورق الذكي",
+      "price": "280 ر.س",
+      "icon": "check-square",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تقرير الإتقان عبر المنارة",
+      "desc": "بث بيانات الحل من قلم 4096 مستوى إلى منارة BLE وتحليل إتقان كل مهارة من مهارات الرياضيات",
+      "price": "95 ر.س",
+      "icon": "radio",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "e9ce744",
+  "commit_hash": "fc36955",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1290133",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE 0x180A stylus battery 87% | pressure 2047/4096 | tilt 21.4 deg | write speed 8.2 cm/s | mastery 0.84"
   }
 }

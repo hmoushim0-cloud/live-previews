@@ -945,8 +945,8 @@
   },
   {
     "project_id": "1290133",
-    "app_name": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحص #1290133",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "مِقْيَاس التحصيلي — مراجعة الرياضيات بالقلم الرقمي",
+    "tagline": "منصة تصحيح فوري تقرأ ضغطات قلم 4096 مستوى وتبث إتقان الحل إلى منارة BLE لضمان مطابقة المنهج السعودي",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1290133.json"
