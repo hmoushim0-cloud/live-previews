@@ -2,8 +2,8 @@
   "project_id": "1289860",
   "repo_name": "narjis-spa-beauty-salon-1289860",
   "repo_url": "https://github.com/hmoushim0-cloud/narjis-spa-beauty-salon-1289860",
-  "app_name": "تطبيق نرجس سبا — مندوبة تواصل مع صالونات تجمي",
-  "tagline": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor",
+  "app_name": "تطبيق رواء لتعقيم وصالونات الفخامة — منظومة استقطاب وتوثيق الصالونات النسائية مع الرقابة الحية للتعقيم",
+  "tagline": "إدارة وتوثيق انضمام الصالونات النسائية مع مراقبة حية لغرف التعقيم بالأشعة فوق البنفسجية",
   "preset": "beauty_salon",
   "layout_type": "beauty_salon",
   "layoutArchetype": "beauty_salon",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق نرجس سبا — مندوبة تواصل مع صالونات تجمي",
-    "subtitle": "منظومة beauty_salon المتكاملة مع ربط UV-C Chamber Sanitation IoT Sensor"
+    "title": "تطبيق رواء لتعقيم وصالونات الفخامة — منظومة استقطاب وتوثيق الصالونات النسائية مع الرقابة الحية للتعقيم",
+    "subtitle": "إدارة وتوثيق انضمام الصالونات النسائية مع مراقبة حية لغرف التعقيم بالأشعة فوق البنفسجية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "صالونات قيد التواصل والمتابعة",
+    "معايير تعقيم غرف الأشعة فوق البنفسجية",
+    "عقود التوثيق والانضمام الفوري",
+    "سجلات القياس الحية للاستشعار"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع UV-C Chamber Sanitation IoT Sensor",
-      "price": "180 ر.س",
+      "title": "بروتوكول تعقيم غرفة الأشعة فوق البنفسجية النسائية",
+      "desc": "فحص وتوثيق كفاءة تطهير الأدوات والمساحات عبر حساسات التعقيم المتصلة سحابياً",
+      "price": "0 ر.س (مضمن)",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "متحقق الامان"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "حزمة استقطاب وتفعيل صالونات النخبة",
+      "desc": "جدولة اتصالات ومتابعة عبر القنوات المعتمدة لتسجيل وتأهيل الصالونات النسائية ضمن المنصة المركزية",
+      "price": "1500 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "نشط حاليا"
+    },
+    {
+      "title": "مؤشر الجاهزية الرقمية والتشغيلية للصالون",
+      "desc": "تدقيق الملف التجاري وتفعيل بوابة الحجوزات الفورية المرتبطة بالمعايير الصحية والبيئية",
+      "price": "450 ر.س",
+      "icon": "zap",
+      "badge": "معتمد رسميا"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "470d798",
+  "commit_hash": "14f5f8f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "narjis-spa-beauty-salon-1289860",
     "hardware_sensor": "UV-C Chamber Sanitation IoT Sensor",
-    "telemetry_preview": "UV-C Chamber Sanitation IoT Sensor: ONLINE | READY"
+    "telemetry_preview": "UV-C Chamber Sensor #402: 254nm | Intensity: 42 mW/cm2 | Chamber Status: Sanitized (99.9%)"
   }
 }
