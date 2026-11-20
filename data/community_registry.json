@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T11:27:00.178909+00:00",
+    "updated_at": "2026-11-20T12:16:20.829596+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2139,8 +2139,8 @@
     },
     {
       "project_id": "1289853",
-      "app_name": "تطبيق نجد للأسطول — مطلوب مختص تسويق رقمي للتروي",
-      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "app_name": "منصة درعية لتأجير الأساطيل الذكية — التشخيص الحي والمفتاح الرقمي",
+      "tagline": "ربط متطور عبر بروتوكول كان-باس ومفاتيح البلوتوث الآمنة لإدارة المركبات الفاخرة",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289853",
       "stamp_id": "SA-KMP-1289853",

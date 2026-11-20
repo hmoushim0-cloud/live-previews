@@ -1393,8 +1393,8 @@
   },
   {
     "project_id": "1289853",
-    "app_name": "تطبيق نجد للأسطول — مطلوب مختص تسويق رقمي للتروي",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "منصة درعية لتأجير الأساطيل الذكية — التشخيص الحي والمفتاح الرقمي",
+    "tagline": "ربط متطور عبر بروتوكول كان-باس ومفاتيح البلوتوث الآمنة لإدارة المركبات الفاخرة",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289853.json"
