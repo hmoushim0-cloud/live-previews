@@ -1201,8 +1201,8 @@
   },
   {
     "project_id": "1289917",
-    "app_name": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "نظام الثريا لإدارة الأسطول الذكي — تقارير الأداء المتقدمة والتحكم عبر إنترنت الأشياء",
+    "tagline": "ربط مباشر مع مستشعرات OBD-II ومفاتيح BLE الرقمية لتحليل أداء الأسطول وإصدار تقارير تنفيذية فورية",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289917.json"

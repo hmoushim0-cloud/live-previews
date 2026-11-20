@@ -2,8 +2,8 @@
   "project_id": "1289917",
   "repo_name": "rekab-telematics-car-rental-1289917",
   "repo_url": "https://github.com/hmoushim0-cloud/rekab-telematics-car-rental-1289917",
-  "app_name": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "نظام الثريا لإدارة الأسطول الذكي — تقارير الأداء المتقدمة والتحكم عبر إنترنت الأشياء",
+  "tagline": "ربط مباشر مع مستشعرات OBD-II ومفاتيح BLE الرقمية لتحليل أداء الأسطول وإصدار تقارير تنفيذية فورية",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "نظام الثريا لإدارة الأسطول الذكي — تقارير الأداء المتقدمة والتحكم عبر إنترنت الأشياء",
+    "subtitle": "ربط مباشر مع مستشعرات OBD-II ومفاتيح BLE الرقمية لتحليل أداء الأسطول وإصدار تقارير تنفيذية فورية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تشخيص محركات OBD-II",
+    "مفاتيح BLE الرقمية",
+    "تقارير الإنجاز التنفيذية",
+    "مخططات الأداء الحي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "تشخيص ضغط الوقود وزعازع الاحتراق",
+      "desc": "قراءة مباشرة لبيانات محرك السيارة عبر منفذ CAN-Bus لتحليل كفاءة استهلاك الوقود والانبعاثات",
+      "price": "450 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "تحديث حي"
+    },
+    {
+      "title": "مفتاح BLE الرقمي الآمن",
+      "desc": "فتح وتشغيل المركبة تشفيرياً عبر بروتوكول البلوتوث منخفض الطاقة مع توثيق الأذونات التنفيذية",
+      "price": "890 ر.س",
+      "icon": "shield",
+      "badge": "مشفر"
+    },
+    {
+      "title": "تقرير الإنجاز الإحصائي للأسطول",
+      "desc": "تصدير تقارير بصرية متقدمة ورسوم بيانية تفاعلية تحاكي معايير الجودة التنفيذية العالية بأسلوب عصري",
+      "price": "320 ر.س",
+      "icon": "zap",
+      "badge": "معتمد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "0c14b8b",
+  "commit_hash": "d99c317",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rekab-telematics-car-rental-1289917",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN PID 0x0C: 2450 RPM | Coolant: 91 C | BLE Key RSSI: -54 dBm | DTC: None"
   }
 }

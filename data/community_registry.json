@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T16:28:30.620956+00:00",
+    "updated_at": "2026-11-20T16:43:24.613843+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1851,8 +1851,8 @@
     },
     {
       "project_id": "1289917",
-      "app_name": "تطبيق ركاب الذكي — مطلوب مصمم محترف لإعداد تقار",
-      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "app_name": "نظام الثريا لإدارة الأسطول الذكي — تقارير الأداء المتقدمة والتحكم عبر إنترنت الأشياء",
+      "tagline": "ربط مباشر مع مستشعرات OBD-II ومفاتيح BLE الرقمية لتحليل أداء الأسطول وإصدار تقارير تنفيذية فورية",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289917",
       "stamp_id": "SA-KMP-1289917",
