@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T07:43:15.745541+00:00",
+    "updated_at": "2026-11-20T08:19:26.033583+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1935,8 +1935,8 @@
     },
     {
       "project_id": "1289896",
-      "app_name": "تطبيق مقر الذكي — مطلوب مسوق إلكتروني لديه خبر",
-      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "app_name": "الدرعية الإبداعية — إدارة مساحات العمل المشتركة والتحقق الذكي",
+      "tagline": "منظومة رقمية متكاملة لإدارة الاستوديوهات الإبداعية وربطها ببوابات الدخول الذكية ذات التردد الراديوي وكلمات المرور المؤقتة",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289896",
       "stamp_id": "SA-KMP-1289896",
