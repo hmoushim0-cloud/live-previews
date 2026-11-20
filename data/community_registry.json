@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T21:32:50.465232+00:00",
+    "updated_at": "2026-11-20T21:58:53.340848+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1767,8 +1767,8 @@
     },
     {
       "project_id": "1290064",
-      "app_name": "تطبيق طبلية إكسبريس — ربط واتساب الاعمال مع ميتا —",
-      "tagline": "منظومة food المتكاملة مع ربط Kitchen Display System (KDS) TCP/IP Print Server",
+      "app_name": "مطبخ النورس الذكي — نظام مزامنة واتساب الموحد للمطاعم",
+      "tagline": "ربط مباشر بين منصة ميتا لخدمة العملاء وأجهزة الطهي المطبيعة عبر بروتوكول TCP/IP",
       "preset": "food",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290064",
       "stamp_id": "SA-KMP-1290064",
