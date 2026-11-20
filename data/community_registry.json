@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T18:19:56.436501+00:00",
+    "updated_at": "2026-11-20T18:57:29.917592+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1611,8 +1611,8 @@
     },
     {
       "project_id": "1290106",
-      "app_name": "تطبيق منارة التعليمية — كتابة 150 سؤالًا مرجعيًا بحل",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "مقياس القلم الرقمي — مرجع المعلم لرياضيات الثالث المتوسط",
+      "tagline": "قلم رقمي بضغط 4096 مستوى وبيكون بليوتوث لفحص 150 حلا مرجعيا ومطابقة كل خطوة بالدرس والصفحة",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290106",
       "stamp_id": "SA-KMP-1290106",

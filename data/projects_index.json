@@ -1041,8 +1041,8 @@
   },
   {
     "project_id": "1290106",
-    "app_name": "تطبيق منارة التعليمية — كتابة 150 سؤالًا مرجعيًا بحل",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "مقياس القلم الرقمي — مرجع المعلم لرياضيات الثالث المتوسط",
+    "tagline": "قلم رقمي بضغط 4096 مستوى وبيكون بليوتوث لفحص 150 حلا مرجعيا ومطابقة كل خطوة بالدرس والصفحة",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1290106.json"

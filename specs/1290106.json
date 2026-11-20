@@ -2,8 +2,8 @@
   "project_id": "1290106",
   "repo_name": "manara-edtech-smart-education-1290106",
   "repo_url": "https://github.com/hmoushim0-cloud/manara-edtech-smart-education-1290106",
-  "app_name": "تطبيق منارة التعليمية — كتابة 150 سؤالًا مرجعيًا بحل",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "مقياس القلم الرقمي — مرجع المعلم لرياضيات الثالث المتوسط",
+  "tagline": "قلم رقمي بضغط 4096 مستوى وبيكون بليوتوث لفحص 150 حلا مرجعيا ومطابقة كل خطوة بالدرس والصفحة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق منارة التعليمية — كتابة 150 سؤالًا مرجعيًا بحل",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "مقياس القلم الرقمي — مرجع المعلم لرياضيات الثالث المتوسط",
+    "subtitle": "قلم رقمي بضغط 4096 مستوى وبيكون بليوتوث لفحص 150 حلا مرجعيا ومطابقة كل خطوة بالدرس والصفحة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الأسئلة المرجعية",
+    "التحقق من الحلول",
+    "خطط الدروس والصفحات",
+    "تقارير الأداء"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
+      "title": "حزمة الأسئلة المرجعية 150",
+      "desc": "مكتبة سؤال من جزأي كتاب الثالث المتوسط مع تعريف وخاصية ومسألة ومرجع درس وصفحة.",
+      "price": "150 ر.س",
       "icon": "shield",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "تصحيح الحلول بالقلم الرقمي",
+      "desc": "التقاط الإجابات خطوة بخطوة عبر قلم 4096 مستوى ومطابقتها بمعيار فحص مرجعي حسب المنهج.",
+      "price": "280 ر.س",
+      "icon": "activity",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حضور قاعة البليوتوث",
+      "desc": "تسجيل وصول الطلاب عبر بيكون BLE وربطه بجلسات حل الأسئلة داخل الفصل.",
+      "price": "95 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "0f7b3d2",
+  "commit_hash": "9c31fdd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "manara-edtech-smart-education-1290106",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "Stylus 4096: pressure=2048 tilt=28.4 | BLE 0xFE9F: rssi=-42 dBm room=3A"
   }
 }
