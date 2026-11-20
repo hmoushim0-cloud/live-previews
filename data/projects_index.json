@@ -1617,8 +1617,8 @@
   },
   {
     "project_id": "1289770",
-    "app_name": "تطبيق قيادة الرقمي — تصميم وتنسيق قالب Word احترا",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "تطبيق أسلاف الأسطول الذكي — تأجير وتشخيص المركبات الفاخرة",
+    "tagline": "المنصة الذكية الأولى لإدارة الأساطيل الفاخرة عبر تشخيص ناقل الكان الفوري والمفتاح الرقمي المؤمّن",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289770.json"

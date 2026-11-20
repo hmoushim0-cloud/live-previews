@@ -2,8 +2,8 @@
   "project_id": "1289770",
   "repo_name": "qiyada-key-car-rental-1289770",
   "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1289770",
-  "app_name": "تطبيق قيادة الرقمي — تصميم وتنسيق قالب Word احترا",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "تطبيق أسلاف الأسطول الذكي — تأجير وتشخيص المركبات الفاخرة",
+  "tagline": "المنصة الذكية الأولى لإدارة الأساطيل الفاخرة عبر تشخيص ناقل الكان الفوري والمفتاح الرقمي المؤمّن",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق قيادة الرقمي — تصميم وتنسيق قالب Word احترا",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "تطبيق أسلاف الأسطول الذكي — تأجير وتشخيص المركبات الفاخرة",
+    "subtitle": "المنصة الذكية الأولى لإدارة الأساطيل الفاخرة عبر تشخيص ناقل الكان الفوري والمفتاح الرقمي المؤمّن"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "أسطول السيارات الفاخرة",
+    "تشخيص عتاد الأوبدي والكان",
+    "مفاتيح البلوتوث الرقمية",
+    "التحليلات التشغيلية الحية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
+      "title": "باقة رولز رويس جوست الفاخرة",
+      "desc": "عقد تأجير تنفيذي مع تفعيل مفتاح البلوتوث الرقمي المشفّر ومراقبة المحرك عبر بروتوكول أوبدي-2 الحي",
+      "price": "3500 ر.س / يوم",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "مؤمن بالكامل"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "وحدة تشخيص ناقل الكان المتقدمة",
+      "desc": "قراءة الفولتية وضغط الزيت ودرجة حرارة ناقل الحركة الميكانيكي بشكل لحظي عبر منفذ التشخيص",
+      "price": "850 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "قراءة حية"
+    },
+    {
+      "title": "مفتاح البلوتوث الرقمي للتحكم عن بعد",
+      "desc": "تفعيل فوري لفتح الأبواب وتشغيل المحرك ضمن نطاق خمسة أمتار باستخدام بروتوكول جي إيه تي تي الآمن",
+      "price": "450 ر.س",
+      "icon": "zap",
+      "badge": "تشفير عالي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "fc38ae0",
+  "commit_hash": "6e06cf6",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qiyada-key-car-rental-1289770",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN-Bus 500kbps: RPM 2450 | Coolant 88C | BLE Key RSSI: -62 dBm | Auth: SECURE_TOKEN_OK"
   }
 }
