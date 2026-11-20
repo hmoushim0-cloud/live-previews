@@ -417,9 +417,9 @@
   },
   {
     "project_id": "1291447",
-    "app_name": "تطبيق ميزان نقاط البيع — موقع إلكتروني لانشاء مواقع ا",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "preset": "pos_cashier",
+    "app_name": "متجرنا ساس — منصة إنشاء المتاجر الإلكترونية السحابية والربط الميداني",
+    "tagline": "بناء وتفعيل المتاجر الرقمية الفورية مع بوابة دفع مدى الذكية والإرسال الجغرافي",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1291447.json"
   },

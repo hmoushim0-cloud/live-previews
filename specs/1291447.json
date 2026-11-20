@@ -2,46 +2,46 @@
   "project_id": "1291447",
   "repo_name": "mizan-pos-pos-cashier-1291447",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1291447",
-  "app_name": "تطبيق ميزان نقاط البيع — موقع إلكتروني لانشاء مواقع ا",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-  "preset": "pos_cashier",
-  "layout_type": "pos_cashier",
-  "layoutArchetype": "pos_cashier",
+  "app_name": "متجرنا ساس — منصة إنشاء المتاجر الإلكترونية السحابية والربط الميداني",
+  "tagline": "بناء وتفعيل المتاجر الرقمية الفورية مع بوابة دفع مدى الذكية والإرسال الجغرافي",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f43f5e",
-    "accent_color": "#fb923c"
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — موقع إلكتروني لانشاء مواقع ا",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "متجرنا ساس — منصة إنشاء المتاجر الإلكترونية السحابية والربط الميداني",
+    "subtitle": "بناء وتفعيل المتاجر الرقمية الفورية مع بوابة دفع مدى الذكية والإرسال الجغرافي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "بناء المتاجر السحابية",
+    "ربط نقاط البيع ونظام مدى",
+    "إدارة الاشتراكات والفوترة",
+    "التوزيع اللوجستي والتتبع الجغرافي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "باقة المتجر التجاري المتقدم",
+      "desc": "إنشاء متجر إلكتروني متكامل مع دومين خاص ونظام دفع إلكتروني عبر بطاقات مدى لا تلامسية",
+      "price": "299 ر.س",
+      "icon": "server",
+      "badge": "الأكثر طلباً"
+    },
+    {
+      "title": "وحدة التشغيل الميداني لمدى (NFC L2)",
+      "desc": "برمجية تشغيل قارئ البطاقات اللاسلكية ومعالجة المعاملات المالية المعتمدة امنياً",
+      "price": "450 ر.س",
+      "icon": "cpu",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "جهاز الإرسال والتتبع الجغرافي (GPS Dispatch)",
+      "desc": "ربط المتاجر بمنظومة التوصيل السريع مع إحداثيات الموقع اللحظية وسجلات السائقين",
+      "price": "180 ر.س",
+      "icon": "navigation",
+      "badge": "مباشر"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "pos_cashier",
-      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "3375a01",
+  "commit_hash": "4b047ee",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1291447_02.png",
-      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1291447_ios_03.png"
     }
   ],
-  "detailed_desc": "موقع إلكتروني لانشاء مواقع الكترونية ومتاجر. مرحبا، لدي فكرة مشروع أريد الاستفسار عن إمكانية تنفيذها والتكلفة والمدة الزمنية. المشروع عبارة عن منصة SaaS لإنشاء المواقع والمتاجر الإلكترونية بنظام الاشتراكات الشهرية. الفكرة أن يدخل العميل إلى المنصة، وينشئ حسابا باستخدام رقم هاتفه والتحقق عبر WhatsApp، ثم يختار نوع الموقع الذي يريده (شركة، متجر، مطعم",
+  "detailed_desc": "موقع إلكتروني لانشاء مواقع الكترونية ومتاجر — مرحبا، لدي فكرة مشروع أريد الاستفسار عن إمكانية تنفيذها والتكلفة والمدة الزمنية. المشروع عبارة عن منصة SaaS لإنشاء المواقع والمتاجر الإلكترونية بنظام الاشتراكات الشهرية. الفكرة أن يدخل العميل إلى المنصة، وينشئ حسابا باستخدام رقم هاتفه والتحقق عبر Wha",
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1291447",
-    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada NFC L2 APDU: 0x00A40400 | GPS Dispatch 24.7136 N, 46.6753 E | Signal: -65dBm"
   }
 }
