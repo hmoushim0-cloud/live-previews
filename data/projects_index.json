@@ -3209,8 +3209,8 @@
   },
   {
     "project_id": "1287937",
-    "app_name": "تطبيق حيز للمكاتب — مطلوب متخصص Branding لتصميم",
-    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "app_name": "نظام نجد للعمل المشترك — إدارة الوصول الذكي وهويات الفضاءات",
+    "tagline": "بوابة رقمية متكاملة لإدارة المساحات المشتركة مع المصادقة الثنائية وبوابات الدخول عبر ترددات الراديو 13.56 ميغاهرتز",
     "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1287937.json"

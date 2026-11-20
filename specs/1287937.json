@@ -2,8 +2,8 @@
   "project_id": "1287937",
   "repo_name": "hayyiz-space-coworking-1287937",
   "repo_url": "https://github.com/hmoushim0-cloud/hayyiz-space-coworking-1287937",
-  "app_name": "تطبيق حيز للمكاتب — مطلوب متخصص Branding لتصميم",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "نظام نجد للعمل المشترك — إدارة الوصول الذكي وهويات الفضاءات",
+  "tagline": "بوابة رقمية متكاملة لإدارة المساحات المشتركة مع المصادقة الثنائية وبوابات الدخول عبر ترددات الراديو 13.56 ميغاهرتز",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#1e40af"
   },
   "banner": {
-    "title": "تطبيق حيز للمكاتب — مطلوب متخصص Branding لتصميم",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "نظام نجد للعمل المشترك — إدارة الوصول الذكي وهويات الفضاءات",
+    "subtitle": "بوابة رقمية متكاملة لإدارة المساحات المشتركة مع المصادقة الثنائية وبوابات الدخول عبر ترددات الراديو 13.56 ميغاهرتز"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "بوابات الدخول والتحقق",
+    "حجز غرف الاجتماعات الذكية",
+    "إدارة الأصول الرقمية والهوية",
+    "جلسات العمل المشترك"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "بوابة الدخول الرئيسية RFID",
+      "desc": "التحقق عبر تردد 13.56 ميغاهرتز للتحكم ببوابات المرور الدوارة",
+      "price": "مجاني للأعضاء",
+      "icon": "cpu",
+      "badge": "نشط"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "رمز المصادقة المؤقت TOTP",
+      "desc": "رمز دخول لمرة واحدة متزامن مع الوقت للضيوف والزوار",
+      "price": "45 ر.س",
+      "icon": "key",
+      "badge": "آمن"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "غرفة الابتكار التنفيذي",
+      "desc": "حجز مساحة عمل مخصصة مع نظام عرض تفاعلي وشاشة تحكم",
+      "price": "220 ر.س",
+      "icon": "layout",
+      "badge": "متاح"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "45534a0",
+  "commit_hash": "93682e6",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "hayyiz-space-coworking-1287937",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "13.56MHz RFID Gate #04: Auth Success | TOTP Token Validated: 849201 | Turnstile Locked: False"
   }
 }
