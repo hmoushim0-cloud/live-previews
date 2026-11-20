@@ -2,8 +2,8 @@
   "project_id": "1290132",
   "repo_name": "ruya-academy-smart-education-1290132",
   "repo_url": "https://github.com/hmoushim0-cloud/ruya-academy-smart-education-1290132",
-  "app_name": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحصيلي",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "روان الأحياء الذكية — منصة التحصيلي المتطورة بالقلم الرقمي",
+  "tagline": "مراجعة تفاعلية دقيقة لـ 192 سؤالاً و80 درساً في الأحياء وعلم البيئة مع مزامنة القلم الرقمي 4096 مستوى ومنارات BLE",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحصيلي",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "روان الأحياء الذكية — منصة التحصيلي المتطورة بالقلم الرقمي",
+    "subtitle": "مراجعة تفاعلية دقيقة لـ 192 سؤالاً و80 درساً في الأحياء وعلم البيئة مع مزامنة القلم الرقمي 4096 مستوى ومنارات BLE"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "أحياء 1 المتقدمة",
+    "أحياء 2 الوراثة والفسيولوجيا",
+    "علم البيئة والتنوع البيولوجي",
+    "المحاكاة العصبية للأسئلة المعيارية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مراجعة وحدة الوراثة الخلوية (24 سؤالاً معيارياً)",
+      "desc": "تدقيق علمي مطابق لمنهج المملكة مع تحليل الخطوط الدقيقة ورسم الخرائط الجينية عبر القلم الرقمي 4096 مستوى",
+      "price": "220 ر.س",
+      "icon": "pen-tool",
+      "badge": "معتمد رسمياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "مختبر علم البيئة الافتراضي والتنوع الحيوي",
+      "desc": "ربط عبر منارات BLE لتحليل النظم البيئية المحلية ومحاكاة سلاسل الغذاء ورسم التخطيطات البيئية بدقة عالية",
+      "price": "310 ر.س",
+      "icon": "cpu",
+      "badge": "تفاعلي فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بنك الأسئلة الموحد لاختبارات التحصيلي (192 سؤالاً)",
+      "desc": "مراجعة شاملة لأسئلة الأحياء وعلم البيئة مع تتبع ضغط القلم وحساسية الرسم في الرسوم البيانية الحيوية",
+      "price": "450 ر.س",
+      "icon": "layers",
+      "badge": "إصدار 2024"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "54921d0",
+  "commit_hash": "1386edd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ruya-academy-smart-education-1290132",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon 0x4F2A: RSSI -64dBm | Stylus Pressure: 4096 Level | Tilt: 14.2° | Battery: 94%"
   }
 }

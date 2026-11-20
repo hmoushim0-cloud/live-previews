@@ -953,8 +953,8 @@
   },
   {
     "project_id": "1290132",
-    "app_name": "تطبيق رؤية للتدريب — مراجعة أسئلة ودروس التحصيلي",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "روان الأحياء الذكية — منصة التحصيلي المتطورة بالقلم الرقمي",
+    "tagline": "مراجعة تفاعلية دقيقة لـ 192 سؤالاً و80 درساً في الأحياء وعلم البيئة مع مزامنة القلم الرقمي 4096 مستوى ومنارات BLE",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1290132.json"
