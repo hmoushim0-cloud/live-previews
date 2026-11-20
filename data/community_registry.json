@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T08:19:26.033583+00:00",
+    "updated_at": "2026-11-20T08:36:52.712039+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "425",
+      "value": "426",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -57,6 +57,18 @@
       "repo_url": "https://github.com/hmoushim0-cloud/app-1294231",
       "stamp_id": "SA-KMP-1294231",
       "crypto_hash": "sha256-1294231",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
+    {
+      "project_id": "1294191",
+      "app_name": "منصة منارات نجد — إدارة مساحات العمل المشتركة والتحكم بالأبواب الذكية",
+      "tagline": "نظام تشفير سحابي متعدّد المستأجرين مع مصادقة ثنائية وبوابات وصول ذكية تردد 13.56 ميغاهرتز",
+      "preset": "coworking",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294191",
+      "stamp_id": "SA-KMP-1294191",
+      "crypto_hash": "sha256-1294191",
       "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
       "provider_name": "OmniRoute Autonomous Gateway",
       "router_engine": "PM2 Managed"

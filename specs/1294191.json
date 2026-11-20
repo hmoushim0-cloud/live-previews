@@ -1,0 +1,114 @@
+{
+  "project_id": "1294191",
+  "repo_name": "manarat-najd-secure-tenant-hub-1294191",
+  "repo_url": "https://github.com/hmoushim0-cloud/manarat-najd-secure-tenant-hub-1294191",
+  "app_name": "منصة منارات نجد — إدارة مساحات العمل المشتركة والتحكم بالأبواب الذكية",
+  "tagline": "نظام تشفير سحابي متعدّد المستأجرين مع مصادقة ثنائية وبوابات وصول ذكية تردد 13.56 ميغاهرتز",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
+  },
+  "banner": {
+    "title": "منصة منارات نجد — إدارة مساحات العمل المشتركة والتحكم بالأبواب الذكية",
+    "subtitle": "نظام تشفير سحابي متعدّد المستأجرين مع مصادقة ثنائية وبوابات وصول ذكية تردد 13.56 ميغاهرتز"
+  },
+  "categories": [
+    "إدارة المستأجرين",
+    "سجلات البوابات الذكية",
+    "التشفير والتحصين الأمني",
+    "صلاحيات الاعتماد الرئاسي"
+  ],
+  "items": [
+    {
+      "title": "بوابة الدخول الذكية 13.56 ميغاهرتز",
+      "desc": "نظام تحكم بالوصول عبر بطاقات التردد اللاسلكي مع تسجيل بصمة الحضور اللحظية",
+      "price": "4,500 ر.س",
+      "icon": "shield",
+      "badge": "نشط"
+    },
+    {
+      "title": "مفتاح المصادقة الثنائية المعزز TOTP",
+      "desc": "وحدة تشفير ديناميكية تولد رموز مرور لمرة واحدة لحماية مساحات العمل الحساسة",
+      "price": "1,200 ر.س",
+      "icon": "lock",
+      "badge": "مشفر"
+    },
+    {
+      "title": "سجل الاعتماد الهرمي للمستأجرين",
+      "desc": "لوحة تحكم إدارية لاعتماد وتدقيق محتوى المستخدمين قبل النشر النهائي",
+      "price": "2,800 ر.س",
+      "icon": "cpu",
+      "badge": "آمن"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "d0d1161",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294191_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294191_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294191_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294191_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294191_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294191_ios_03.png"
+    }
+  ],
+  "detailed_desc": "بناء واجهة خلفية وتحصين أمني لمنصة ويب باشتراكات متعددة المستأجرين. منصة ويب سرية تعمل بنظام الاشتراك، واجهتها عربية (من اليمين إلى اليسار)، وتقدم تطبيق ويب تقدميا (PWA). لكل حساب عميل (مستأجر) مسؤول واحد يدير مساحة عمل خاصة تضم سجلات هرمية، ويضيف مستخدمون آخرون محتوى يعتمده المسؤول. نحن الفريق المؤسس، وقد بنينا نموذجا عاملا (الشاشات، ونصوص الواجهة",
+  "domain_data": {
+    "repo_name": "manarat-najd-secure-tenant-hub-1294191",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "RFID 13.56MHz UID: A4-3F-92-10 | TOTP Sync: OK (Delta: -0.2s) | Turnstile State: LOCKED_SECURE"
+  }
+}
