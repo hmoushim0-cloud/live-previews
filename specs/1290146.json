@@ -2,8 +2,8 @@
   "project_id": "1290146",
   "repo_name": "rawasi-proptech-real-estate-1290146",
   "repo_url": "https://github.com/hmoushim0-cloud/rawasi-proptech-real-estate-1290146",
-  "app_name": "تطبيق رواسي للأملاك — بناء معادلات رياضية قابلة لل",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "منصة درعية للمسح العقاري الرياضي — تحليل النماذج المكانية ومعادلات التقييم بالليزر",
+  "tagline": "دمج قياسات المسح الليزري ثلاثي الأبعاد مع النماذج الرياضية المتقدمة لتقييم الأصول العقارية بدقة متناهية",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق رواسي للأملاك — بناء معادلات رياضية قابلة لل",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "منصة درعية للمسح العقاري الرياضي — تحليل النماذج المكانية ومعادلات التقييم بالليزر",
+    "subtitle": "دمج قياسات المسح الليزري ثلاثي الأبعاد مع النماذج الرياضية المتقدمة لتقييم الأصول العقارية بدقة متناهية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المسح الليزري الفضائي",
+    "معادلات التقييم العقاري",
+    "مخططات الانعكاس المكاني",
+    "معايرة النماذج الحسابية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مصفوفة الانعكاس المكعي للمساحات الكبرى",
+      "desc": "تحليل بيانات المسح الضوئي المستخرجة عبر Matterport Pro3 واستخراج معاملات الانحناء الإنشائي والمساحي",
+      "price": "2,450 ر.س",
+      "icon": "box",
+      "badge": "المسح المكاني"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "محرك الحسابات الرياضية المكانية",
+      "desc": "اختبار معادلات التدفق العقاري والمؤشرات الحسابية الرياضية القابلة للتنفيذ لتقييم الكفاءة الهندسية",
+      "price": "1,890 ر.س",
+      "icon": "cpu",
+      "badge": "تحليل متقدم"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "معايرة مستشعر LiDAR ثلاثي الأبعاد",
+      "desc": "المزامنة اللحظية لنقاط الإحداثيات الليزرية مع خوارزميات التصحيح الهندسي والتحقق من صحة القياسات",
+      "price": "3,100 ر.س",
+      "icon": "terminal",
+      "badge": "معايرة الأجهزة"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "7f3720b",
+  "commit_hash": "19ecc26",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "rawasi-proptech-real-estate-1290146",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "Matterport Pro3 LiDAR Sync: 360,000 pts/sec | PointCloud XYZ: 142.890, 88.104, 12.450 | Range: 100m | SNR: 98.4%"
   }
 }
