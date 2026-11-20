@@ -1329,8 +1329,8 @@
   },
   {
     "project_id": "1289879",
-    "app_name": "تطبيق قلم الأكاديمية — مراجعة أسئلة القدرات العامة",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "منصة قلم التقدير الذكي — مراجعة وتدقيق أسئلة الخطأ السياقي بالقدرات",
+    "tagline": "نظام تشخيصي متقدم لمراجعة الخطأ السياقي مدعوم بالقلم الرقمي 4096 مستوى ومنارات BLE",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289879.json"
