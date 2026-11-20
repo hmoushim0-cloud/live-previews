@@ -2,8 +2,8 @@
   "project_id": "1290105",
   "repo_name": "bunyan-deeds-real-estate-1290105",
   "repo_url": "https://github.com/hmoushim0-cloud/bunyan-deeds-real-estate-1290105",
-  "app_name": "تطبيق بنيان للصكوك — مصمم Senior UI/UX متخصص في ت",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "منصة الدرعية العقارية الذكية — المسح المكاني الثلاثي والواقع المعزز",
+  "tagline": "تقنية المسح المكاني عبر ليدار ماتربرورت لتحويل العقارات الفاخرة إلى تجارب تفاعلية ثلاثية الأبعاد عالية التحويل",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "تطبيق بنيان للصكوك — مصمم Senior UI/UX متخصص في ت",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "منصة الدرعية العقارية الذكية — المسح المكاني الثلاثي والواقع المعزز",
+    "subtitle": "تقنية المسح المكاني عبر ليدار ماتربرورت لتحويل العقارات الفاخرة إلى تجارب تفاعلية ثلاثية الأبعاد عالية التحويل"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المسح الليزري المكاني",
+    "النماذج ثلاثية الأبعاد",
+    "تحليلات التحويل العقاري",
+    "الجولات الافتراضية المتقدمة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "مسح تفصيلي 360 درجة عبر Matterport Pro3",
+      "desc": "التقاط نقطي عالي الدقة يصل إلى 200 متر مع إعادة بناء الفراغات المعمارية بدقة مليمترية وتوليد مساحات افتراضية تفاعلية",
+      "price": "4,500 ر.س",
+      "icon": "cube",
+      "badge": "دقة فائقة"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "تحليل معدلات التحويل العقاري (CRO Spatial Heatmap)",
+      "desc": "تتبع حركة العميل داخل النموذج الافتراضي لتحديد نقاط الجذب البصري وتحسين مسارات واتخاذ قرارات الشراء الفوري",
+      "price": "2,800 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "تحليلي"
+    },
+    {
+      "title": "المعاينة الحية عبر الحساسات الليزرية المتزامنة",
+      "desc": "بث حي لبيانات المسح المكاني مع قياسات الأعماق والمساحات عبر بروتوكول LiDAR السحابي الآمن",
+      "price": "1,950 ر.س",
+      "icon": "zap",
+      "badge": "مباشر"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "3b03644",
+  "commit_hash": "d5fe7f3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "bunyan-deeds-real-estate-1290105",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "Matterport Pro3 LiDAR Stream: 120,000 pts/sec | Depth Accuracy: +-2mm | Spatial Mesh ID: #9081-DX"
   }
 }

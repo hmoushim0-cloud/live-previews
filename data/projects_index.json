@@ -1049,8 +1049,8 @@
   },
   {
     "project_id": "1290105",
-    "app_name": "تطبيق بنيان للصكوك — مصمم Senior UI/UX متخصص في ت",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "منصة الدرعية العقارية الذكية — المسح المكاني الثلاثي والواقع المعزز",
+    "tagline": "تقنية المسح المكاني عبر ليدار ماتربرورت لتحويل العقارات الفاخرة إلى تجارب تفاعلية ثلاثية الأبعاد عالية التحويل",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1290105.json"
