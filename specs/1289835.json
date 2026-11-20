@@ -2,8 +2,8 @@
   "project_id": "1289835",
   "repo_name": "asatir-fleet-car-rental-1289835",
   "repo_url": "https://github.com/hmoushim0-cloud/asatir-fleet-car-rental-1289835",
-  "app_name": "تطبيق أساطير للسيارات — مصمم أزياء محترف لتصميم قطعة",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "تطبيق أتيلييه نجد الفاخر — إدارة الأسطول الذكي ومقاييس الأزياء الملكية",
+  "tagline": "منظومة رقمية متكاملة تربط مقصورات القياس المتنقلة ببروتوكولات العتاد الحي وتصاميم المصانع الدولية",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق أساطير للسيارات — مصمم أزياء محترف لتصميم قطعة",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "تطبيق أتيلييه نجد الفاخر — إدارة الأسطول الذكي ومقاييس الأزياء الملكية",
+    "subtitle": "منظومة رقمية متكاملة تربط مقصورات القياس المتنقلة ببروتوكولات العتاد الحي وتصاميم المصانع الدولية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مواصفات القطع النموذجية",
+    "مزامنة المقاييس الحية",
+    "تشخيص عتاد الأسطول",
+    "مسارات الشحن والاعتماد"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "الملف التقني المعتمد للقطعة النسائية",
+      "desc": "مواصفات تصنيع تفصيلية متوافقة مع مصانع النسيج الدولية مع خرائط القص الرقمية المعتمدة",
+      "price": "2,450 ر.س",
+      "icon": "layers",
+      "badge": "معتمد رقميا"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "جلسة القياس الميداني عبر المفتاح الرقمي BLE",
+      "desc": "ربط أجهزة القياس الحيوية بالمركبة عبر مفتاح بلوتوث منخفض الطاقة لتسجيل المقاسات بدقة مليمترية",
+      "price": "890 ر.س",
+      "icon": "cpu",
+      "badge": "متصل بالعتاد"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "تشخيص منظومة أسطول المعارض المتنقلة",
+      "desc": "مراقبة حية لناقل الحركة وحالة الطاقة عبر نظام الشخيص الذكي OBD-II CAN-Bus",
+      "price": "1,200 ر.س",
+      "icon": "hard-drive",
+      "badge": "فحص آلي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "da3e3dd",
+  "commit_hash": "65c9fe0",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "asatir-fleet-car-rental-1289835",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "CAN-Bus 0x7DF: RPM 2450 | Coolant 89C | BLE Key: AUTH_SECURE_9921 | CAD Sync: 100%"
   }
 }
