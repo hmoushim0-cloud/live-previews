@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T19:53:34.990276+00:00",
+    "updated_at": "2026-11-20T20:07:40.913206+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -867,8 +867,8 @@
     },
     {
       "project_id": "1291003",
-      "app_name": "تطبيق سكن ثلاثي الأبعاد — تطوير واجهة ويب لموقع قائم.",
-      "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+      "app_name": "مِسّاح المجال — توثيق عقاري بالمسح الليزري المكاني",
+      "tagline": "منظومة متكاملة لتحويل الفضاءات العقارية إلى توأم رقمي دقيق عبر مستشعر ليدار 360 وماتر بورت برو3",
       "preset": "real_estate",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291003",
       "stamp_id": "SA-KMP-1291003",

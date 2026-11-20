@@ -545,8 +545,8 @@
   },
   {
     "project_id": "1291003",
-    "app_name": "تطبيق سكن ثلاثي الأبعاد — تطوير واجهة ويب لموقع قائم.",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "مِسّاح المجال — توثيق عقاري بالمسح الليزري المكاني",
+    "tagline": "منظومة متكاملة لتحويل الفضاءات العقارية إلى توأم رقمي دقيق عبر مستشعر ليدار 360 وماتر بورت برو3",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1291003.json"
