@@ -1361,8 +1361,8 @@
   },
   {
     "project_id": "1289872",
-    "app_name": "تطبيق قلم الأكاديمية — إنتاج فيديو تعريفي وتعليمي ل",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "أكاديمية نجد الرقمية — نظام التعليم الذكي بالقلم الماسي",
+    "tagline": "منصة تعليمية متكاملة مدعومة بمستشعرات القلم الرقمي 4096 مستوى وبث إشارات البلوتوث اللحظية",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289872.json"

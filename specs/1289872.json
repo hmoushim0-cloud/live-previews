@@ -2,8 +2,8 @@
   "project_id": "1289872",
   "repo_name": "qalam-campus-smart-education-1289872",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1289872",
-  "app_name": "تطبيق قلم الأكاديمية — إنتاج فيديو تعريفي وتعليمي ل",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "أكاديمية نجد الرقمية — نظام التعليم الذكي بالقلم الماسي",
+  "tagline": "منصة تعليمية متكاملة مدعومة بمستشعرات القلم الرقمي 4096 مستوى وبث إشارات البلوتوث اللحظية",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق قلم الأكاديمية — إنتاج فيديو تعريفي وتعليمي ل",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "أكاديمية نجد الرقمية — نظام التعليم الذكي بالقلم الماسي",
+    "subtitle": "منصة تعليمية متكاملة مدعومة بمستشعرات القلم الرقمي 4096 مستوى وبث إشارات البلوتوث اللحظية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الخطوط الرقمية الذكية",
+    "جلسات الشرح التفاعلي",
+    "مزامنة القلم والمنارات",
+    "تقارير الضغط والتدوين"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "title": "دورة الهندسة الرقمية المتقدمة بالقلم الذكي",
+      "desc": "شرح تفصيلي خطوة بخطوة للرسوم الهندسية باستخدام مستشعر 4096 مستوى ضغط مع تسجيل الشاشة",
+      "price": "450 ر.س",
+      "icon": "pen-tool",
+      "badge": "متقدم"
+    },
+    {
+      "title": "ورشة التعليق الصوتي الشامي للتعليم الرقمي",
+      "desc": "تدريب عملي على إنتاج الفيديوهات التعليمية مع مزامنة الشاشة والإشارات الصوتية",
+      "price": "320 ر.س",
+      "icon": "mic",
+      "badge": "حصري"
+    },
+    {
+      "title": "حزمة مزامنة منارات البلوتوث الصفية",
+      "desc": "ربط الحضور والنشاط اللحظي عبر تقنية BLE Beacon وقراءات ضغط القلم اللاسلكي",
       "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "radio",
+      "badge": "متزامن"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "8621bca",
+  "commit_hash": "d9f14fb",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1289872",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon #409: RSSI -62dBm | Stylus Pressure: 4096/4096 Lvl | Tilt: 12.5 deg"
   }
 }
