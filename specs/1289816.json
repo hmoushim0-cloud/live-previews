@@ -2,8 +2,8 @@
   "project_id": "1289816",
   "repo_name": "sumu-auctions-auction-live-1289816",
   "repo_url": "https://github.com/hmoushim0-cloud/sumu-auctions-auction-live-1289816",
-  "app_name": "تطبيق سمو للمزايدة — تسويق لتطبيق خليجي للبث المب",
-  "tagline": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
+  "app_name": "تطبيق صِفوة مزاد الخليج — منصة البث الحي والشراكات التجارية",
+  "tagline": "ربط تقني فوري عبر عتاد المزايدة الذكي وبث WebRTC بزمن انتقال أقل من 100 ملي ثانية",
   "preset": "auction_live",
   "layout_type": "auction_live",
   "layoutArchetype": "auction_live",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق سمو للمزايدة — تسويق لتطبيق خليجي للبث المب",
-    "subtitle": "منظومة auction_live المتكاملة مع ربط BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio"
+    "title": "تطبيق صِفوة مزاد الخليج — منصة البث الحي والشراكات التجارية",
+    "subtitle": "ربط تقني فوري عبر عتاد المزايدة الذكي وبث WebRTC بزمن انتقال أقل من 100 ملي ثانية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مزاد الساعات الفاخرة",
+    "معارض السيارات النادرة",
+    "تحف ومقتنيات ملكية",
+    "متاجر التجزئة الحية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "عصا المزايدة الذكية BLE GATT",
+      "desc": "جهاز إرسال لاسلكي مقترن بالبث المباشر لتسجيل النقرات والعروض الفورية بدقة متناهية",
+      "price": "1,250 ر.س",
+      "icon": "radio",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "حزمة شراكة المتاجر الكبرى",
+      "desc": "تفعيل حساب موثق للبث المباشر وإدارة المزادات المزمنة مع ربط مباشر ببوابة الدفع الخليجية",
+      "price": "4,500 ر.س",
+      "icon": "shopping-bag",
+      "badge": "حصري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بث WebRTC فائق السرعة",
+      "desc": "خوادم مخصصة لبث الفيديو والصوت بزمن انتقال تحت 100 ملي ثانية لضمان عدالة المزايدة المباشرة",
+      "price": "850 ر.س",
+      "icon": "cpu",
+      "badge": "فوري"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "33c6f6a",
+  "commit_hash": "2791cad",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sumu-auctions-auction-live-1289816",
     "hardware_sensor": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio",
-    "telemetry_preview": "BLE Hardware Bidding Paddle GATT + Sub-100ms WebRTC Audio: ONLINE | READY"
+    "telemetry_preview": "BLE GATT 0xFFB2: Bid Paddle #409 | RSSI -58dBm | WebRTC Audio Latency: 78ms"
   }
 }
