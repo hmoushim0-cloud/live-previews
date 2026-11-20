@@ -2,8 +2,8 @@
   "project_id": "1289923",
   "repo_name": "maher-field-services-1289923",
   "repo_url": "https://github.com/hmoushim0-cloud/maher-field-services-1289923",
-  "app_name": "تطبيق ماهر الميداني — تصميم فيديو تسويقي بالذكاء ا",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "منصة مرمرك السينمائية — إنتاج إعلانات الرخام بالذكاء الاصطناعي",
+  "tagline": "منظومة إنتاج مرئي ذكي مدعومة بدفع مادا اللاسلكي وتتبع جي بي إس الميداني لمناشر الحجر",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق ماهر الميداني — تصميم فيديو تسويقي بالذكاء ا",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة مرمرك السينمائية — إنتاج إعلانات الرخام بالذكاء الاصطناعي",
+    "subtitle": "منظومة إنتاج مرئي ذكي مدعومة بدفع مادا اللاسلكي وتتبع جي بي إس الميداني لمناشر الحجر"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "السيناريو البصري الذكي",
+    "توليد مشاهد الجرانيت",
+    "عقود الدفع الآمن مادا",
+    "إحداثيات النقل الميداني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "سيناريو محاكاة محاجر الرخام 4K",
+      "desc": "توليد مشاهد سينمائية بالذكاء الاصطناعي لخطوط إنتاج الرخام والجرانيت بدقة فائقة لمدة 40 ثانية",
+      "price": "4500 ر.س",
+      "icon": "film",
+      "badge": "تصدير فوري"
+    },
+    {
+      "title": "تفعيل عقد الدفع الآمن مادا NFC",
+      "desc": "ربط معالجة المدفوعات اللامنتظمة عبر بروتوكول مادا لتمويل إنتاج الحملة الإعلانية للمنشار",
+      "price": "1200 ر.س",
+      "icon": "credit-card",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "مزامنة إحداثيات GPS لتصوير المناشر",
+      "desc": "توجيه فريق التصوير الميداني وتحليل مسارات نقل كتل الحجر الطبيعي عبر الأقمار الصناعية",
+      "price": "850 ر.س",
+      "icon": "navigation",
+      "badge": "مباشر"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "4db0b90",
+  "commit_hash": "524aed5",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maher-field-services-1289923",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "MADA NFC L2: AUTH_SUCCESS (ID: 0x9AF4) | GPS DISPATCH: 24.7136 N, 46.6753 E [Velocity: 0.0 km/h]"
   }
 }
