@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T22:54:31.227144+00:00",
+    "updated_at": "2026-11-20T23:06:04.381810+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1575,8 +1575,8 @@
     },
     {
       "project_id": "1290117",
-      "app_name": "تطبيق فضاء كوويرك — تصميم داخلي لمكتب شركة — مكت",
-      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "app_name": "أتريوم نجد للأعمال — إدارة المساحات الذكية والتشطيبات المكتبية",
+      "tagline": "منصة رقمية متكاملة لإدارة المساحات المكتبية الذكية والتحكم ببوابات الدخول بالتردد الراديوي",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290117",
       "stamp_id": "SA-KMP-1290117",

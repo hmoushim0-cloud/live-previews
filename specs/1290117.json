@@ -2,8 +2,8 @@
   "project_id": "1290117",
   "repo_name": "fada-cowork-coworking-1290117",
   "repo_url": "https://github.com/hmoushim0-cloud/fada-cowork-coworking-1290117",
-  "app_name": "تطبيق فضاء كوويرك — تصميم داخلي لمكتب شركة — مكت",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "أتريوم نجد للأعمال — إدارة المساحات الذكية والتشطيبات المكتبية",
+  "tagline": "منصة رقمية متكاملة لإدارة المساحات المكتبية الذكية والتحكم ببوابات الدخول بالتردد الراديوي",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "تطبيق فضاء كوويرك — تصميم داخلي لمكتب شركة — مكت",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "أتريوم نجد للأعمال — إدارة المساحات الذكية والتشطيبات المكتبية",
+    "subtitle": "منصة رقمية متكاملة لإدارة المساحات المكتبية الذكية والتحكم ببوابات الدخول بالتردد الراديوي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تقسيم المساحات المفتوحة",
+    "التشطيبات والأرضيات الهندسية",
+    "أنظمة الدخول بالتردد الراديوي",
+    "إدارة خدمات المرافق"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "منطقة مكاتب التنفيذيين المفتوحة",
+      "desc": "تقسيم المساحة بمساحة 3100 متر مربع مع مطابقة الإحداثيات المعمارية الأوتوكاد",
+      "price": "4500 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "معتمد هندسياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "بوابة الدخول الذكية 13.56 MHz RFID",
+      "desc": "التحكم في مرور الموظفين عبر الحساسات الترددية وتشفير بصمة المرور المرن",
+      "price": "1200 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "نشط مباشر"
+    },
+    {
+      "title": "نظام المصادقة الثنائية TOTP Pass",
+      "desc": "توليد رموز مرور مؤقتة للوصول إلى غرف الاجتماعات الذكية والخدمات الخاصة",
+      "price": "350 ر.س",
+      "icon": "zap",
+      "badge": "آمن"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "0b07477",
+  "commit_hash": "3126203",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "fada-cowork-coworking-1290117",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz TURNSTILE_A: AUTH_OK | TOTP_GEN: 849201 | SIGNAL: -62dBm"
   }
 }
