@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-20T17:45:33.183965+00:00",
+    "updated_at": "2026-11-20T18:19:56.436501+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2691,8 +2691,8 @@
     },
     {
       "project_id": "1289736",
-      "app_name": "تطبيق مسار الفضائي — توجيه تصوير فيديو للمحتوى —",
-      "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
+      "app_name": "منصة مسار الزوايا السينمائية — توجيه احترافي لإحداثيات التصوير بمرجعيات RTK الجيومكانية",
+      "tagline": "ملاحة بصرية فائقة الدقة وموازنة جيروسكوبية لتوجيه كاميرات صناع المحتوى عبر إحداثيات RTK",
       "preset": "navigation",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289736",
       "stamp_id": "SA-KMP-1289736",

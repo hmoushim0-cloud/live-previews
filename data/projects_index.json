@@ -1761,8 +1761,8 @@
   },
   {
     "project_id": "1289736",
-    "app_name": "تطبيق مسار الفضائي — توجيه تصوير فيديو للمحتوى —",
-    "tagline": "منظومة navigation المتكاملة مع ربط GPS RTK High-Precision Receiver + Gyroscope",
+    "app_name": "منصة مسار الزوايا السينمائية — توجيه احترافي لإحداثيات التصوير بمرجعيات RTK الجيومكانية",
+    "tagline": "ملاحة بصرية فائقة الدقة وموازنة جيروسكوبية لتوجيه كاميرات صناع المحتوى عبر إحداثيات RTK",
     "preset": "navigation",
     "has_proofs": true,
     "spec_path": "specs/1289736.json"
