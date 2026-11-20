@@ -2,8 +2,8 @@
   "project_id": "1290149",
   "repo_name": "injaz-care-services-1290149",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1290149",
-  "app_name": "تطبيق إنجاز للخدمات — تصميم شعار لشركة مقاولات — م",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تراث نجد لترميم المباني التاريخية — منصة الميدان الذكية",
+  "tagline": "إدارة الفرق الهندسية للمواقع التراثية مع تتبع ميداني GPS وتحصيل لاتلامسي ببطاقات مدى",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — تصميم شعار لشركة مقاولات — م",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تراث نجد لترميم المباني التاريخية — منصة الميدان الذكية",
+    "subtitle": "إدارة الفرق الهندسية للمواقع التراثية مع تتبع ميداني GPS وتحصيل لاتلامسي ببطاقات مدى"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "ترميم الطين اللبن",
+    "دعامات الأخشاب التراثية",
+    "النقوش التاريخية",
+    "فحص الأساسات الحجرية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "معالجة التشققات الإنشائية بالحقن الجيري",
+      "desc": "حقن الجساءة التاريخية بملاط الجير الحي التقليدي مع مراعاة الخواص الميكانيكية للجدران الطينية",
+      "price": "4500 ر.س",
+      "icon": "layers",
+      "badge": "معتمد من التراث"
+    },
+    {
+      "title": "توثيق وتدعيم الأسقف الخشبية (العتبات والعصا)",
+      "desc": "معالجة أخشاب الأتل والدوم المعمارية بمواد طبيعية مقاومة للتآكل والحشرات مع رفع المساحي الإحداثي",
+      "price": "6200 ر.س",
+      "icon": "cpu",
+      "badge": "فوري ميداني"
+    },
+    {
+      "title": "إصلاح الواجهات الطينية وتكحيل الطراز النجدي",
+      "desc": "إعادة تأهيل اللياسة الطينية الخارجية والتشطيبات التراثية الأصيلة طبقاً لمعايير هيئة التراث",
+      "price": "3100 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "badge": "ضمان عالي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "05a6b0c",
+  "commit_hash": "a99e872",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "injaz-care-services-1290149",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "GPS Lat: 24.7136 N, Lon: 46.6753 E | Mada NFC L2 ISO/IEC 14443 Verified: Card UID #8F49C2"
   }
 }
