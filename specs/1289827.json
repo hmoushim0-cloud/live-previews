@@ -2,8 +2,8 @@
   "project_id": "1289827",
   "repo_name": "f-classroom-smart-education-1289827",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289827",
-  "app_name": "تطبيق فكر الذكية — إعداد وتنسيق المحتوى الأكادي",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق وسيلة الأكاديمية — منصة ذكية لتحليل وتلخيص المراجع والمحاضرات بقلم رقمي متطور",
+  "tagline": "مزامنة فورية للملاحظات البحثية عبر قلم ذكي بمستوى ضغط 4096 ومنارة بلوتوث دقيقة",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق فكر الذكية — إعداد وتنسيق المحتوى الأكادي",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق وسيلة الأكاديمية — منصة ذكية لتحليل وتلخيص المراجع والمحاضرات بقلم رقمي متطور",
+    "subtitle": "مزامنة فورية للملاحظات البحثية عبر قلم ذكي بمستوى ضغط 4096 ومنارة بلوتوث دقيقة"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تحليل وتلخيص المراجع",
+    "استخلاص النقاط الجوهرية",
+    "إدارة الأبحاث الأكاديمية",
+    "المزامنة القلمية المتقدمة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "title": "مختبر الأبحاث المتقدمة",
+      "desc": "تحليل آلي للأوراق البحثية الطويلة وتوليد خلاصات هيكلية دقيقة دون فقدان المحتوى الرئيسي",
+      "price": "320 ر.س",
+      "icon": "cpu",
+      "badge": "متقدم"
+    },
+    {
+      "title": "محفظة المحاضرات الصوتية",
+      "desc": "تحويل التسجيلات المحاضراتية إلى نصوص منسقة ومصنفة حسب الأبواب والمفاهيم العلمية",
       "price": "180 ر.س",
-      "icon": "shield",
+      "icon": "mic",
+      "badge": "ذكي"
+    },
+    {
+      "title": "مزامنة القلم الرقمي اللاسلكي",
+      "desc": "ربط مباشر مع قلم ديجيتال 4096 مستوى ضغط لنقل السكتات اليدوية إلى مستندات مرجعية معتمدة",
+      "price": "240 ر.س",
+      "icon": "pen-tool",
       "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "7e8e0b4",
+  "commit_hash": "0c82cd4",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "f-classroom-smart-education-1289827",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon ID: 0x4F8A | Stylus Pressure: 4096/4096 Level | Battery: 94% | Tilt: 12.4 deg"
   }
 }

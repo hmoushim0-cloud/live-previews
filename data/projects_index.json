@@ -1417,8 +1417,8 @@
   },
   {
     "project_id": "1289827",
-    "app_name": "تطبيق فكر الذكية — إعداد وتنسيق المحتوى الأكادي",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "تطبيق وسيلة الأكاديمية — منصة ذكية لتحليل وتلخيص المراجع والمحاضرات بقلم رقمي متطور",
+    "tagline": "مزامنة فورية للملاحظات البحثية عبر قلم ذكي بمستوى ضغط 4096 ومنارة بلوتوث دقيقة",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1289827.json"
