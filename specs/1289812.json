@@ -2,8 +2,8 @@
   "project_id": "1289812",
   "repo_name": "maqar-access-coworking-1289812",
   "repo_url": "https://github.com/hmoushim0-cloud/maqar-access-coworking-1289812",
-  "app_name": "تطبيق مقر الذكي — مبرمج ممثل تقني لاجتماع مراج",
-  "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+  "app_name": "تطبيق مساحات نكسس الذكية — إدارة مراكز العمل المشترك والبوابات الرقمية",
+  "tagline": "منصة متكاملة لإدارة مساحات العمل المشترك مع المصادقة الثنائية وربط بوابات الدخول عبر ترددات الراديو",
   "preset": "coworking",
   "layout_type": "coworking",
   "layoutArchetype": "coworking",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق مقر الذكي — مبرمج ممثل تقني لاجتماع مراج",
-    "subtitle": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass"
+    "title": "تطبيق مساحات نكسس الذكية — إدارة مراكز العمل المشترك والبوابات الرقمية",
+    "subtitle": "منصة متكاملة لإدارة مساحات العمل المشترك مع المصادقة الثنائية وربط بوابات الدخول عبر ترددات الراديو"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "قاعات الاجتماعات التنفيذية",
+    "مكاتب العمل المخصصة",
+    "بوابات الدخول والتحقق الذكي",
+    "ربط واجهات البرمجة والخطافات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 13.56 MHz RFID Turnstile Access + TOTP Pass",
-      "price": "180 ر.س",
+      "title": "بوابة الدخول الذكية RFID 13.56MHz",
+      "desc": "التحقق المباشر من صلاحيات العضوية عبر تمرير البطاقة الذكية مع مزامنة سجلات الدخول لحظياً عبر بروتوكول الاتصال القريب",
+      "price": "450 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "نشط عتاديا"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "المصادقة المؤقتة TOTP Pass",
+      "desc": "إصدار رموز التحقق أحادية الاستخدام للأعضاء والزوار للوصول الآمن للمرافق الحساسة وغرف الاجتماعات الخاصة",
+      "price": "120 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "آمن تماما"
+    },
+    {
+      "title": "جسر الربط البرمجي Webhooks & OAuth",
+      "desc": "مزامنة بيانات الاشتراكات وحركات الدخول مع منصات التجارة الإلكترونية وأنظمة التوثيق التجارية في المملكة",
+      "price": "890 ر.س",
+      "icon": "zap",
+      "badge": "تكامل متقدم"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c24f3be",
+  "commit_hash": "40488d9",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "maqar-access-coworking-1289812",
     "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
-    "telemetry_preview": "13.56 MHz RFID Turnstile Access + TOTP Pass: ONLINE | READY"
+    "telemetry_preview": "RFID 13.56MHz UID: 0x4F8A2B9C | TOTP Authenticated: VALID | Turnstile State: UNLOCKED"
   }
 }
