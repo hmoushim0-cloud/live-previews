@@ -2,8 +2,8 @@
   "project_id": "1289832",
   "repo_name": "mamlaka-realty-real-estate-1289832",
   "repo_url": "https://github.com/hmoushim0-cloud/mamlaka-realty-real-estate-1289832",
-  "app_name": "تطبيق مملكة العقار — إنشاء وكيل ذكي (AI Agent) عل",
-  "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+  "app_name": "جوهرة العقارية — وكيل المسح الفضائي والذكاء الاصطناعي",
+  "tagline": "أتمتة الجولات الافتراضية والنمذجة المكانية ثلاثية الأبعاد باستخدام ماسحات LiDAR ووكلاء Claude الذكيين",
   "preset": "real_estate",
   "layout_type": "real_estate",
   "layoutArchetype": "real_estate",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق مملكة العقار — إنشاء وكيل ذكي (AI Agent) عل",
-    "subtitle": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3"
+    "title": "جوهرة العقارية — وكيل المسح الفضائي والذكاء الاصطناعي",
+    "subtitle": "أتمتة الجولات الافتراضية والنمذجة المكانية ثلاثية الأبعاد باستخدام ماسحات LiDAR ووكلاء Claude الذكيين"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مسح المساحات بالليزر",
+    "النمذجة الافتراضية ماتربرت",
+    "أتمتة جولات المونتاج الذكي",
+    "التحليل العقاري الفضائي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 360 LiDAR Spatial Scanner + Matterport Pro3",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "سحب نقاط المسح ثلاثي الأبعاد 360",
+      "desc": "معالجة حية لبيانات السحاب النقطي عبر ماسح Matterport Pro3 وتوليد جولات افتراضية بدقة فائقة",
+      "price": "2,450 ر.س",
+      "icon": "scan",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "وكيل المونتاج العقاري التلقائي",
+      "desc": "دمج لقطات LiDAR مع توليد مسارات الكاميرا وتحرير الفيديو بالكامل عبر نموذج Claude الذكي",
+      "price": "1,200 ر.س",
+      "icon": "cpu",
+      "badge": "ذكاء اصطناعي"
+    },
+    {
+      "title": "مخطط الطوابق المعتمد هندسياً",
+      "desc": "استخراج مخططات CAD ودقة الأبعاد المليمترية مباشرة من حساسية الماسح الليزري المتصل",
+      "price": "850 ر.س",
+      "icon": "layout",
+      "badge": "معتمد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "89e5520",
+  "commit_hash": "e406cb6",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mamlaka-realty-real-estate-1289832",
     "hardware_sensor": "360 LiDAR Spatial Scanner + Matterport Pro3",
-    "telemetry_preview": "360 LiDAR Spatial Scanner + Matterport Pro3: ONLINE | READY"
+    "telemetry_preview": "Matterport Pro3 LiDAR Sync: 1.2M pts/sec | Azimuth: 360.0 deg | Thermal IR: 24.5C | IMU Drift: 0.02mm"
   }
 }

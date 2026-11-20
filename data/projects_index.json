@@ -1409,8 +1409,8 @@
   },
   {
     "project_id": "1289832",
-    "app_name": "تطبيق مملكة العقار — إنشاء وكيل ذكي (AI Agent) عل",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "جوهرة العقارية — وكيل المسح الفضائي والذكاء الاصطناعي",
+    "tagline": "أتمتة الجولات الافتراضية والنمذجة المكانية ثلاثية الأبعاد باستخدام ماسحات LiDAR ووكلاء Claude الذكيين",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289832.json"
