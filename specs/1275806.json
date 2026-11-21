@@ -2,8 +2,8 @@
   "project_id": "1275806",
   "repo_name": "qalam-campus-smart-education-1275806",
   "repo_url": "https://github.com/hmoushim0-cloud/qalam-campus-smart-education-1275806",
-  "app_name": "qalam-campus-smart-education-1275806",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "معجم فصيح الرقمي — المنصة الشاملة للمدونة الصوتية والنصوص اللغوية",
+  "tagline": "تحليل وتوثيق المدونات اللغوية عبر القلم الذكي وعقد بلوتوث منخفض الطاقة بدقة 4096 مستوى",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#fbbf24"
   },
   "banner": {
-    "title": "qalam-campus-smart-education-1275806",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "معجم فصيح الرقمي — المنصة الشاملة للمدونة الصوتية والنصوص اللغوية",
+    "subtitle": "تحليل وتوثيق المدونات اللغوية عبر القلم الذكي وعقد بلوتوث منخفض الطاقة بدقة 4096 مستوى"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "النصوص التراثية المحققة",
+    "المدونات الصوتية الصرفية",
+    "المخطوطات البصرية النادرة",
+    "التحليل الدلالي الصوتي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "title": "مخطوطة النحو الوافي الرقمية",
+      "desc": "مدخل لغوي موثق يضم شواهد نحوية معززة بالملفات الصوتية والتحليل الصرفي",
       "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "book-open",
+      "badge": "محقق"
+    },
+    {
+      "title": "تسجيل صوتي صوتيات الفصحى",
+      "desc": "عينة صوتية عالية الدقة لطبقات النطق الصوتي مرتبطة بإشارات القلم الذكي",
+      "price": "180 ر.س",
+      "icon": "mic",
+      "badge": "صوتي"
+    },
+    {
+      "title": "خريطة التوزيع الدلالي المعجمي",
+      "desc": "تمثيل بصري تفاعلي لتطور الألفاظ عبر العصور مدعوم باستشعار المنارة",
+      "price": "320 ر.س",
+      "icon": "cpu",
+      "badge": "متطور"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "9db33fa",
+  "commit_hash": "94246d7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qalam-campus-smart-education-1275806",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "STYLUS 4096-LEV: Pressure 88% | BLE Beacon ID: 0x4F8A RSSI -62dBm | Sampling 500Hz"
   }
 }

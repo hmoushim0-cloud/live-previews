@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T12:27:08.782197+00:00",
+    "updated_at": "2026-11-21T12:41:30.840446+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -5079,8 +5079,8 @@
     },
     {
       "project_id": "1275806",
-      "app_name": "qalam-campus-smart-education-1275806",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "معجم فصيح الرقمي — المنصة الشاملة للمدونة الصوتية والنصوص اللغوية",
+      "tagline": "تحليل وتوثيق المدونات اللغوية عبر القلم الذكي وعقد بلوتوث منخفض الطاقة بدقة 4096 مستوى",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1275806",
       "stamp_id": "SA-KMP-1275806",

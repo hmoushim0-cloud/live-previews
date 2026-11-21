@@ -3353,8 +3353,8 @@
   },
   {
     "project_id": "1275806",
-    "app_name": "qalam-campus-smart-education-1275806",
-    "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+    "app_name": "معجم فصيح الرقمي — المنصة الشاملة للمدونة الصوتية والنصوص اللغوية",
+    "tagline": "تحليل وتوثيق المدونات اللغوية عبر القلم الذكي وعقد بلوتوث منخفض الطاقة بدقة 4096 مستوى",
     "preset": "smart_education",
     "has_proofs": true,
     "spec_path": "specs/1275806.json"
