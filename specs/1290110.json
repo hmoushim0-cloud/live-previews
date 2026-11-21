@@ -2,8 +2,8 @@
   "project_id": "1290110",
   "repo_name": "mizan-pos-pos-cashier-1290110",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1290110",
-  "app_name": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "تطبيق روافد التربوي — نقطة بيع السجلات والخطط الرقمية التعليمية",
+  "tagline": "إصدار فوري للسجلات المدرسية والخطط الإدارية مع ربط مباشر بالطابعة الحرارية وقارئ الباركود",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "تطبيق روافد التربوي — نقطة بيع السجلات والخطط الرقمية التعليمية",
+    "subtitle": "إصدار فوري للسجلات المدرسية والخطط الإدارية مع ربط مباشر بالطابعة الحرارية وقارئ الباركود"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "السجلات المدرسية المركزية",
+    "خطط التوزيع والأداء الإشرافي",
+    "الحقائب الإدارية لقادة المدارس",
+    "أدوات التقويم والقياس التربوي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "سجل إنجاز المعلم الرقمي المعتمد",
+      "desc": "سجل متكامل وشامل لتوثيق الأنشطة والخطط الفصلية والمهام الإدارية مع دعم طباعة الإيصال الفوري",
+      "price": "120 ر.س",
+      "icon": "printer",
+      "badge": "ترخيص فوري"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "title": "حقيبة قائد المدرسة الشاملة للعام الدراسي",
+      "desc": "مجموعة نماذج إدارية وجداول متابعة الحصص والغياب متوافقة مع ماسح الباركود للتحقق السريع",
       "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "file-text",
+      "badge": "الأكثر طلبا"
+    },
+    {
+      "title": "خطة توزيع المناهج المطورة والفصلية",
+      "desc": "خطط زمنية دقيقة لجميع المراحل الدراسية مع تقارير إنجاز مرتبطة بالطابعة الحرارية ESC/POS",
+      "price": "85 ر.س",
+      "icon": "sliders",
+      "badge": "إصدار جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b494236",
+  "commit_hash": "85b12b3",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1290110",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS 80mm Thermal Printer: Ready (0x90) | Barcode Scanner HID: Connected (PID_4E22)"
   }
 }

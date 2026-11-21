@@ -1049,8 +1049,8 @@
   },
   {
     "project_id": "1290110",
-    "app_name": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "تطبيق روافد التربوي — نقطة بيع السجلات والخطط الرقمية التعليمية",
+    "tagline": "إصدار فوري للسجلات المدرسية والخطط الإدارية مع ربط مباشر بالطابعة الحرارية وقارئ الباركود",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1290110.json"

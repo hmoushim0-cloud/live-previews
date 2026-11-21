@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T01:18:57.149239+00:00",
+    "updated_at": "2026-11-21T01:38:20.917186+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1623,8 +1623,8 @@
     },
     {
       "project_id": "1290110",
-      "app_name": "تطبيق ميزان نقاط البيع — إنشاء وتجهيز متجر سلة لمنتجا",
-      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "app_name": "تطبيق روافد التربوي — نقطة بيع السجلات والخطط الرقمية التعليمية",
+      "tagline": "إصدار فوري للسجلات المدرسية والخطط الإدارية مع ربط مباشر بالطابعة الحرارية وقارئ الباركود",
       "preset": "pos_cashier",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290110",
       "stamp_id": "SA-KMP-1290110",
