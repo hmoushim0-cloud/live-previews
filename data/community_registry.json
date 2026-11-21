@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T12:41:30.840446+00:00",
+    "updated_at": "2026-11-21T13:28:02.084253+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2655,8 +2655,8 @@
     },
     {
       "project_id": "1289764",
-      "app_name": "تطبيق محور الصناعي — مصمم ومطور مواقع محترف ومستق",
-      "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+      "app_name": "نظام نجد الذكي لمراقبة الاهتزازات والصوتيات الصناعية — لوحة تحكم المصانع الثقيلة",
+      "tagline": "مراقبة حية متقدمة عبر حساسات التسارع ثلاثية المحاور ومسبار مودبوس الصوتي لضمان استمرارية التشغيل الصناعي",
       "preset": "industrial_iot",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289764",
       "stamp_id": "SA-KMP-1289764",

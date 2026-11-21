@@ -1737,8 +1737,8 @@
   },
   {
     "project_id": "1289764",
-    "app_name": "تطبيق محور الصناعي — مصمم ومطور مواقع محترف ومستق",
-    "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+    "app_name": "نظام نجد الذكي لمراقبة الاهتزازات والصوتيات الصناعية — لوحة تحكم المصانع الثقيلة",
+    "tagline": "مراقبة حية متقدمة عبر حساسات التسارع ثلاثية المحاور ومسبار مودبوس الصوتي لضمان استمرارية التشغيل الصناعي",
     "preset": "industrial_iot",
     "has_proofs": true,
     "spec_path": "specs/1289764.json"

@@ -2,8 +2,8 @@
   "project_id": "1289764",
   "repo_name": "mihwar-modbus-industrial-iot-1289764",
   "repo_url": "https://github.com/hmoushim0-cloud/mihwar-modbus-industrial-iot-1289764",
-  "app_name": "تطبيق محور الصناعي — مصمم ومطور مواقع محترف ومستق",
-  "tagline": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
+  "app_name": "نظام نجد الذكي لمراقبة الاهتزازات والصوتيات الصناعية — لوحة تحكم المصانع الثقيلة",
+  "tagline": "مراقبة حية متقدمة عبر حساسات التسارع ثلاثية المحاور ومسبار مودبوس الصوتي لضمان استمرارية التشغيل الصناعي",
   "preset": "industrial_iot",
   "layout_type": "industrial_iot",
   "layoutArchetype": "industrial_iot",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق محور الصناعي — مصمم ومطور مواقع محترف ومستق",
-    "subtitle": "منظومة industrial_iot المتكاملة مع ربط 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe"
+    "title": "نظام نجد الذكي لمراقبة الاهتزازات والصوتيات الصناعية — لوحة تحكم المصانع الثقيلة",
+    "subtitle": "مراقبة حية متقدمة عبر حساسات التسارع ثلاثية المحاور ومسبار مودبوس الصوتي لضمان استمرارية التشغيل الصناعي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مجسات الاهتزاز ثلاثية المحاور",
+    "محولات مودبوس الصوتية",
+    "تحليل الترددات الطيفية",
+    "تشخيص الأعطال التنبؤي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "وحدة تحليل الاهتزازات المحورية طراز AX-900",
+      "desc": "رصد التشوهات الميكانيكية والتسارع اللحظي لمحاور التوربينات الثقيلة بدقة فائقة",
+      "price": "4,500 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "نشط"
+    },
+    {
+      "title": "مسبار مودبوس الصوتي الرقمي MB-485",
+      "desc": "التقاط الترددات الصوتية فوق الصوتية للكشف المبكر عن تسريب الصمامات والاحتكاك الداخلي",
+      "price": "3,200 ر.س",
+      "icon": "zap",
+      "badge": "معاير"
+    },
+    {
+      "title": "بوابة التشخيص الطيفي المتقدمة",
+      "desc": "معالجة الإشارات الرقمية اللحظية وإنذارات التوقف الوبائي للمعدات الكبرى",
+      "price": "8,900 ر.س",
+      "icon": "shield",
+      "badge": "مرتبط"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "283c33c",
+  "commit_hash": "ebc7d6f",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mihwar-modbus-industrial-iot-1289764",
     "hardware_sensor": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe",
-    "telemetry_preview": "3-Axis Vibration Accelerometer + Modbus RS485 Acoustic Probe: ONLINE | READY"
+    "telemetry_preview": "ACCEL 3-AXIS: X=0.42g Y=0.38g Z=1.12g | MODBUS RS485 ACOUSTIC: 64.2 dB (420Hz) | STATUS: STABLE"
   }
 }
