@@ -1,0 +1,114 @@
+{
+  "project_id": "1294492",
+  "repo_name": "darb-mishal-pos-escpos-terminal-1294492",
+  "repo_url": "https://github.com/hmoushim0-cloud/darb-mishal-pos-escpos-terminal-1294492",
+  "app_name": "تطبيق درب مشعل لنقاط البيع الذكية — محطة كاشير متكاملة للطباعة الحرارية",
+  "tagline": "إدارة المبيعات وإصدار الفواتير الضريبية عبر طابعات ESC/POS وقارئات الباركود",
+  "preset": "pos_cashier",
+  "layout_type": "pos_cashier",
+  "layoutArchetype": "pos_cashier",
+  "theme": {
+    "primary_color": "#f43f5e",
+    "accent_color": "#fb923c"
+  },
+  "banner": {
+    "title": "تطبيق درب مشعل لنقاط البيع الذكية — محطة كاشير متكاملة للطباعة الحرارية",
+    "subtitle": "إدارة المبيعات وإصدار الفواتير الضريبية عبر طابعات ESC/POS وقارئات الباركود"
+  },
+  "categories": [
+    "المبيعات اليومية والتدقيق",
+    "إدارة المخزون السحابي",
+    "أجهزة الطباعة الحرارية",
+    "التقارير المالية اللحظية"
+  ],
+  "items": [
+    {
+      "title": "محطة الدفع السريع والباركود",
+      "desc": "إتمام عمليات البيع وقراءة الرموز الشريطية بدقة عالية مع ربط مباشر بطابعة الايصالات الحرارية",
+      "price": "450 ر.س",
+      "icon": "terminal",
+      "badge": "نشط"
+    },
+    {
+      "title": "إدارة الفواتير والضرائب",
+      "desc": "إصدار فواتير ضريبية إلكترونية متوافقة مع متطلبات هيئة الزكاة والضريبة والجمارك مع الرمز المربع",
+      "price": "620 ر.س",
+      "icon": "file-text",
+      "badge": "معتمد"
+    },
+    {
+      "title": "مزامنة المخزون اللحظية",
+      "desc": "تحديث مستويات المخزون تلقائيا عند كل عملية بيع مع تنبيهات انخفاض المخزون عبر الحساسات",
+      "price": "310 ر.س",
+      "icon": "database",
+      "badge": "تلقائي"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "pos_cashier",
+      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "1c13e1c",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294492_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294492_02.png",
+      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294492_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294492_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294492_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294492_ios_03.png"
+    }
+  ],
+  "detailed_desc": "رفع ونشر تطبيق أندرويد على حساب Google Play Console مفعل. السلام عليكم، أبحث عن مستقل محترف يمتلك حساب مطورين مفعل وجاهز للنشر على متجر جوجل بلاي (Google Play Developer Console)، وذلك للمساعدة في رفع ونشر تطبيق أندرويد خاص بي على المتجر. تفاصيل العمل المطلوب: رفع ملف التطبيق بصيغة (AAB) وتجهيز إعدادات الإصدار. إعداد صفحة التطبيق على المتجر بالكامل",
+  "domain_data": {
+    "repo_name": "darb-mishal-pos-escpos-terminal-1294492",
+    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "telemetry_preview": "ESC/POS Thermal Status: ONLINE | Paper Roll: 84% | BLE Barcode Scanner: Connected"
+  }
+}
