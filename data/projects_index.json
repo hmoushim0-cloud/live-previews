@@ -3113,8 +3113,8 @@
   },
   {
     "project_id": "1289290",
-    "app_name": "mizan-pos-pos-cashier-1289290",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+    "app_name": "نظام عطور الرياض الملكي — محطة نقاط البيع والطباعة الحرارية للعبوات الفاخرة",
+    "tagline": "إدارة مبيعات عطور النخبة مع التكامل اللحظي مع طابعات الإيصالات وقارئات الباركود",
     "preset": "pos_cashier",
     "has_proofs": true,
     "spec_path": "specs/1289290.json"

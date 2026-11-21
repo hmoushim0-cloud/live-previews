@@ -2,8 +2,8 @@
   "project_id": "1289290",
   "repo_name": "mizan-pos-pos-cashier-1289290",
   "repo_url": "https://github.com/hmoushim0-cloud/mizan-pos-pos-cashier-1289290",
-  "app_name": "mizan-pos-pos-cashier-1289290",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "نظام عطور الرياض الملكي — محطة نقاط البيع والطباعة الحرارية للعبوات الفاخرة",
+  "tagline": "إدارة مبيعات عطور النخبة مع التكامل اللحظي مع طابعات الإيصالات وقارئات الباركود",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "mizan-pos-pos-cashier-1289290",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "نظام عطور الرياض الملكي — محطة نقاط البيع والطباعة الحرارية للعبوات الفاخرة",
+    "subtitle": "إدارة مبيعات عطور النخبة مع التكامل اللحظي مع طابعات الإيصالات وقارئات الباركود"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الخلطات الملكية الخاصة",
+    "مستخلصات العود المعتق",
+    "مجموعات الهدايا الفاخرة",
+    "إكسسوارات التغليف اليدوي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
+      "title": "عطر ملكي مركز 100 مل",
+      "desc": "مزيج فاخر من الورد الطائفي والعود المعتق مع طباعة باركود الضمان الفوري",
+      "price": "850 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "حصري"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "دهن العود السيوفي الملكي",
+      "desc": "مستخلص نقي عالي الجودة مع إصدار إيصال حراري عبر منفذ ESC/POS",
+      "price": "1450 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "معتق"
+    },
+    {
+      "title": "مجموعة الهدايا المخملية",
+      "desc": "صندوق خشبي محفور يضم ثلاث عبوات عطرية مع مسح سريع للباركود",
+      "price": "2200 ر.س",
+      "icon": "zap",
+      "badge": "فاخر"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "03222a9",
+  "commit_hash": "789cfac",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "mizan-pos-pos-cashier-1289290",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS Thermal Head: 24C OK | Barcode Scanner: Laser Active (HID Mode) | Paper Roll: 80mm Full"
   }
 }
