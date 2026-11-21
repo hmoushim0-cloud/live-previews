@@ -2,46 +2,46 @@
   "project_id": "1291527",
   "repo_name": "pass-event-ticketing",
   "repo_url": "https://github.com/hmoushim0-cloud/pass-event-ticketing",
-  "app_name": "تطبيق موسم الفعاليات — مطلوب تصميم وتطوير تطبيق سفر",
-  "tagline": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
-  "preset": "event_ticketing",
-  "layout_type": "event_ticketing",
-  "layoutArchetype": "event_ticketing",
+  "app_name": "تطبيق مسار — منصة السفر الذكية والدفع اللاتلامسي",
+  "tagline": "تكاميل عتادية متقدمة تربط بوابات الطيران العالمية مع شريحة مدى اللاتلامسية وملاحة الـ GPS",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
-    "primary_color": "#f59e0b",
-    "accent_color": "#fbbf24"
+    "primary_color": "#10b981",
+    "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق موسم الفعاليات — مطلوب تصميم وتطوير تطبيق سفر",
-    "subtitle": "منظومة event_ticketing المتكاملة مع ربط 2D Turnstile QR Scanner + UHF RFID Wristband Programmer"
+    "title": "تطبيق مسار — منصة السفر الذكية والدفع اللاتلامسي",
+    "subtitle": "تكاميل عتادية متقدمة تربط بوابات الطيران العالمية مع شريحة مدى اللاتلامسية وملاحة الـ GPS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حجز الرحلات الجوية الذكية",
+    "محفظة مدى ونقاط البيع اللاتلامسية",
+    "التوجيه الجغرافي والتحقق الميداني",
+    "إدارة تصاريح السفر والخدمات السيادية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع 2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "مقعد درجة رجال الأعمال مع التوجيه الجغرافي",
+      "desc": "حجز فوري للرحلات العالمية مع مزامنة إحداثيات الـ GPS لتتبع الحافلات والخدمات الأرضية",
+      "price": "1850 ر.س",
+      "icon": "navigation",
+      "badge": "مؤكد"
+    },
+    {
+      "title": "سوار مدى اللاتلامسي لبوابات الصعود",
+      "desc": "مصادقة تشفيرية عبر بروتوكول NFC المستوى الثاني لتجاوز الطوابير والدفع الآمن",
+      "price": "320 ر.س",
+      "icon": "credit-card",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "حزمة الاستقبال السيادي وإرساليات الموقع",
+      "desc": "استقبال ميداني فوري عبر وحدة الإرسال الجغرافي ومرافق خاص معتمد للرحلات",
+      "price": "650 ر.س",
+      "icon": "shield",
+      "badge": "فاخر"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "event_ticketing",
-      "label": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "eec072e",
+  "commit_hash": "615efa7",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1291527_02.png",
-      "fallback": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer"
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1291527_ios_03.png"
     }
   ],
-  "detailed_desc": "مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App). مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App) أبحث عن تطوير تطبيق سفر وسياحة متكامل، بمستوى التطبيقات العالمية، يجمع جميع احتياجات المسافر في تطبيق واحد. أولا: خدمات الطيران البحث عن رحلات الطيران عالميا. مقارنة أسعار شركات الطيران. حجز التذاكر وإصدارها. اختيار المقاعد والأمتعة. إدارة",
+  "detailed_desc": "مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App) — مطلوب تصميم وتطوير تطبيق سفر متكامل (Travel Super App) أبحث عن تطوير تطبيق سفر وسياحة متكامل، بمستوى التطبيقات العالمية، يجمع جميع احتياجات المسافر في تطبيق واحد. أولا: خدمات الطيران البحث عن رحلات الطيران عالميا. مقارنة أسعار شركات الطيران. حجز التذ",
   "domain_data": {
     "repo_name": "pass-event-ticketing",
-    "hardware_sensor": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer",
-    "telemetry_preview": "2D Turnstile QR Scanner + UHF RFID Wristband Programmer: ONLINE | READY"
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada NFC L2 APDU: 0x00A40400 | GPS Dispatch: 24.7136 N, 46.6753 E (Accuracy: 1.2m)"
   }
 }
