@@ -1,0 +1,114 @@
+{
+  "project_id": "1294448",
+  "repo_name": "wajeeh-fleet-nfc-dispatch-1294448",
+  "repo_url": "https://github.com/hmoushim0-cloud/wajeeh-fleet-nfc-dispatch-1294448",
+  "app_name": "تطبيق وجيه للإسناد الميداني — إدارة العمليات والدفع اللاسلكي",
+  "tagline": "منظومة ميدانية متكاملة لربط محطات الدفع الإلكتروني بنظام التوجيه الجغرافي",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#fbbf24"
+  },
+  "banner": {
+    "title": "تطبيق وجيه للإسناد الميداني — إدارة العمليات والدفع اللاسلكي",
+    "subtitle": "منظومة ميدانية متكاملة لربط محطات الدفع الإلكتروني بنظام التوجيه الجغرافي"
+  },
+  "categories": [
+    "إسناد المهام الميدانية",
+    "معاملات الدفع عبر مدى اللامسكي",
+    "التتبع الجغرافي للأسطول",
+    "المزامنة السحابية للعمليات"
+  ],
+  "items": [
+    {
+      "title": "مهمة صيانة وتشغيل طوارئ",
+      "desc": "إسناد فوري لفرق العمل الميدانية مع معالجة المدفوعات عبر بروتوكول مدى L2",
+      "price": "450 ر.س",
+      "icon": "shield",
+      "badge": "معتمد ميدانياً"
+    },
+    {
+      "title": "تحصيل فوري عبر أجهزة NFC المحمولة",
+      "desc": "إتمام عمليات الدفع اللامسكي ببطاقات مدى مع المصادقة المشفرة عبر السحابة",
+      "price": "1,200 ر.س",
+      "icon": "activity",
+      "badge": "آمن ومثبت"
+    },
+    {
+      "title": "توجيه الأسطول والتحليل الجغرافي للرسوم",
+      "desc": "مراقبة الإحداثيات عبر نظام GPS Dispatch وتحديث حالة المسارات آنياً",
+      "price": "320 ر.س",
+      "icon": "zap",
+      "badge": "نشط الآن"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "35029ed",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294448_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294448_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294448_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294448_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294448_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294448_ios_03.png"
+    }
+  ],
+  "detailed_desc": "استكمال تطوير تطبيق جوال. ## مطلوب مطور تطبيقات iOS وAndroid لاستكمال مشروع قائم أبحث عن مطور تطبيقات جوال محترف لديه خبرة في تطوير تطبيقات iPhone وAndroid، للعمل على مشروع قائم واستكمال تطويره وتجهيزه للنشر. ### الوضع الحالي - يوجد موقع إلكتروني جاهز مبني باستخدام Next.js وReact. - يوجد مشروع تطبيق جوال باستخدام Expo وReact Native وCapacitor. - تم",
+  "domain_data": {
+    "repo_name": "wajeeh-fleet-nfc-dispatch-1294448",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "Mada EMV L2 NFC: UID=8A4F2B1C | GPS: 24.7136 N, 46.6753 E | Signal: -68 dBm"
+  }
+}
