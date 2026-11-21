@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T09:05:47.993077+00:00",
+    "updated_at": "2026-11-21T09:16:17.425417+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -2487,8 +2487,8 @@
     },
     {
       "project_id": "1289791",
-      "app_name": "تطبيق مسارك للتأجير — مراجعة وإصلاح البكسلات وإعدا",
-      "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+      "app_name": "تطبيق نجد الذكي لإدارة أسطول السيارات — منظومة التشخيص والربط التسويقي",
+      "tagline": "الربط المتقدم لبيانات الأسطول عبر ناقل الكان-باس وتحليلات التحويل التسويقي الرقمي",
       "preset": "car_rental",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289791",
       "stamp_id": "SA-KMP-1289791",

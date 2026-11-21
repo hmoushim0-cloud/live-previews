@@ -1625,8 +1625,8 @@
   },
   {
     "project_id": "1289791",
-    "app_name": "تطبيق مسارك للتأجير — مراجعة وإصلاح البكسلات وإعدا",
-    "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+    "app_name": "تطبيق نجد الذكي لإدارة أسطول السيارات — منظومة التشخيص والربط التسويقي",
+    "tagline": "الربط المتقدم لبيانات الأسطول عبر ناقل الكان-باس وتحليلات التحويل التسويقي الرقمي",
     "preset": "car_rental",
     "has_proofs": true,
     "spec_path": "specs/1289791.json"

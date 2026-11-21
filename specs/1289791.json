@@ -2,8 +2,8 @@
   "project_id": "1289791",
   "repo_name": "masarak-obd-car-rental-1289791",
   "repo_url": "https://github.com/hmoushim0-cloud/masarak-obd-car-rental-1289791",
-  "app_name": "تطبيق مسارك للتأجير — مراجعة وإصلاح البكسلات وإعدا",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "تطبيق نجد الذكي لإدارة أسطول السيارات — منظومة التشخيص والربط التسويقي",
+  "tagline": "الربط المتقدم لبيانات الأسطول عبر ناقل الكان-باس وتحليلات التحويل التسويقي الرقمي",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق مسارك للتأجير — مراجعة وإصلاح البكسلات وإعدا",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "تطبيق نجد الذكي لإدارة أسطول السيارات — منظومة التشخيص والربط التسويقي",
+    "subtitle": "الربط المتقدم لبيانات الأسطول عبر ناقل الكان-باس وتحليلات التحويل التسويقي الرقمي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "تشخيص ناقل الحركة CAN-Bus",
+    "إدارة المفتاح الرقمي BLE",
+    "تتبع الحملات وتحليلات الأداء",
+    "صيانة الأسطول التنبؤية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
+      "title": "فحص وحدة التحكم الإلكترونية OBD-II",
+      "desc": "قراءة أكواد الأعطال وتحليل استهلاك الوقود عبر منصة الكان-باس اللحظية",
       "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "icon": "cpu",
+      "badge": "نشط"
+    },
+    {
+      "title": "مزامنة البكسلات وحملات التأجير",
+      "desc": "ربط منصات ميتا وتيك توك وسناب شات مع أحداث حجز المركبات وتتبع التحويلات",
+      "price": "450 ر.س",
+      "icon": "bar-chart",
+      "badge": "محدث"
+    },
+    {
+      "title": "المفتاح الرقمي المشفر عبر البلوتوث BLE",
+      "desc": "إدارة صلاحيات فتح الأبواب وتشغيل المحرك عن بعد عبر بروتوكول الاتصال الآمن",
+      "price": "180 ر.س",
+      "icon": "key",
+      "badge": "آمن"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "b107d23",
+  "commit_hash": "973de71",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "masarak-obd-car-rental-1289791",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN 500kbps: PID 0x0C RPM 2450 | Coolant 88C | BLE RSSI -42dBm KeyFob #A94"
   }
 }
