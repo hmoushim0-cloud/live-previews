@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T06:59:01.896056+00:00",
+    "updated_at": "2026-11-21T07:18:18.149441+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1275,8 +1275,8 @@
     },
     {
       "project_id": "1290246",
-      "app_name": "masar-rtk-navigation-1290246",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "تطبيق تحصيل — بوابة مدفوعات مدى الذكية وإدارة الاشتراكات المؤسسية",
+      "tagline": "مصادقة مشفرة عبر أجهزة مدى لربط الاشتراكات المؤهلة وتتبع العمليات الميدانية بالزمن الحقيقي",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290246",
       "stamp_id": "SA-KMP-1290246",

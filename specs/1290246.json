@@ -2,8 +2,8 @@
   "project_id": "1290246",
   "repo_name": "masar-rtk-navigation-1290246",
   "repo_url": "https://github.com/hmoushim0-cloud/masar-rtk-navigation-1290246",
-  "app_name": "masar-rtk-navigation-1290246",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق تحصيل — بوابة مدفوعات مدى الذكية وإدارة الاشتراكات المؤسسية",
+  "tagline": "مصادقة مشفرة عبر أجهزة مدى لربط الاشتراكات المؤهلة وتتبع العمليات الميدانية بالزمن الحقيقي",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "masar-rtk-navigation-1290246",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق تحصيل — بوابة مدفوعات مدى الذكية وإدارة الاشتراكات المؤسسية",
+    "subtitle": "مصادقة مشفرة عبر أجهزة مدى لربط الاشتراكات المؤهلة وتتبع العمليات الميدانية بالزمن الحقيقي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "مصادقة مدى المؤسسية",
+    "الاشتراكات المجدولة",
+    "التتبع الجغرافي للعمليات",
+    "تدقيق حماية الإيرادات"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "إدارة تشفير الحزم وتجديد مدى",
+      "desc": "معالجة العقود الدورية الآمنة عبر واجهة بروتوكولات الدفع الموحدة وخدمات التوثيق السحابية مع منع التلاعب",
+      "price": "450 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
+      "badge": "مرخص سحابياً"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "محطة دفع مدى اللاسلكية L2 NFC",
+      "desc": "ربط مباشر مع قارئ البطاقات الذكية عبر واجهة الاتصال القريب لتأكيد المدفوعات الحية وإرسال الإحداثيات",
+      "price": "890 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "جاهز للميدان"
+    },
+    {
+      "title": "مستكشف المزامنة والاستعادة الفورية",
+      "desc": "أداة تحليل وتصحيح تفويضات المستخدمين المستعادة لضمان استمرارية الخدمات دون انقطاع أو تداخل",
+      "price": "320 ر.س",
+      "icon": "zap",
+      "badge": "تحقق آلي"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "6f125bd",
+  "commit_hash": "aecf342",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "masar-rtk-navigation-1290246",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2 NFC: UID 0x8F94B2 | GPS Lat: 24.7136 Lon: 46.6753 | Secure Enclave: Verified"
   }
 }
