@@ -1,0 +1,114 @@
+{
+  "project_id": "1294437",
+  "repo_name": "wasl-mada-nfc-fleet-pay-1294437",
+  "repo_url": "https://github.com/hmoushim0-cloud/wasl-mada-nfc-fleet-pay-1294437",
+  "app_name": "تطبيق وصل للفعاليات والمدفوعات الآمنة — محطة معالجة ونقاط بيع متنقلة",
+  "tagline": "منظومة معالجة المدفوعات اللاتلامسية عبر بطاقات مدى وشبكات التتبع الجغرافي الميداني",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
+  "theme": {
+    "primary_color": "#2563eb",
+    "accent_color": "#1e40af"
+  },
+  "banner": {
+    "title": "تطبيق وصل للفعاليات والمدفوعات الآمنة — محطة معالجة ونقاط بيع متنقلة",
+    "subtitle": "منظومة معالجة المدفوعات اللاتلامسية عبر بطاقات مدى وشبكات التتبع الجغرافي الميداني"
+  },
+  "categories": [
+    "معالجة مدى L2",
+    "التوجيه الجغرافي",
+    "سجلات الحوسبة الطرفية",
+    "المصادقة الأمنية المشفرة"
+  ],
+  "items": [
+    {
+      "title": "وحدة تفعيل نقاط البيع الميدانية",
+      "desc": "مزامنة مفاتيح المصادقة اللاتلامسية عبر بروتوكول مدى L2 ونظام التتبع الجغرافي",
+      "price": "450 ر.س",
+      "icon": "terminal",
+      "badge": "مشفر"
+    },
+    {
+      "title": "محطة المصادقة العميقة للبطاقات",
+      "desc": "فحص وتحليل حزم البيانات الصادرة والواردة عبر منفذ الاتصال قريب المدى NFC",
+      "price": "320 ر.س",
+      "icon": "cpu",
+      "badge": "نشط"
+    },
+    {
+      "title": "محلل حركة الشبكة والربط البرمجي",
+      "desc": "تتبع ومراقبة استجابات الواجهات البرمجية REST APIs وتوثيق الاعتماديات",
+      "price": "580 ر.س",
+      "icon": "hard-drive",
+      "badge": "متقدم"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "563aaf5",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294437_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294437_02.png",
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294437_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294437_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294437_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294437_ios_03.png"
+    }
+  ],
+  "detailed_desc": "استكمال جزء متبقي من مشروع بايثون. مطلوب مهندس Reverse Engineering وAPI Integration لتطبيق Android أبحث عن مهندس متخصص في Reverse Engineering لتطبيقات Android وتحليل Network Traffic لاستكمال جزء متبقي من مشروع مبني باستخدام: Python KivyMD Android REST APIs المشروع مكتمل إلى حد كبير، والجزء المتبقي هو اكتشاف ودمج API حقيقي لتنفيذ عملية تغيير/تفعيل ب",
+  "domain_data": {
+    "repo_name": "wasl-mada-nfc-fleet-pay-1294437",
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "NFC Mada EMV L2: UID 0x4A8B2C | GPS: 24.7136 N, 46.6753 E | Signal: -64 dBm"
+  }
+}
