@@ -1,0 +1,114 @@
+{
+  "project_id": "1294423",
+  "repo_name": "riyadh-hub-turnstile-access-1294423",
+  "repo_url": "https://github.com/hmoushim0-cloud/riyadh-hub-turnstile-access-1294423",
+  "app_name": "تطبيق مجاز للأعمال المشتركة — إدارة البوابات الذكية والعضويات",
+  "tagline": "منصة تشغيل متكاملة لمساحات العمل مع ربط عتادي بالبوابات الترددية 13.56 ميجاهرتز ومفاتيح التحقق المؤقتة",
+  "preset": "coworking",
+  "layout_type": "coworking",
+  "layoutArchetype": "coworking",
+  "theme": {
+    "primary_color": "#f59e0b",
+    "accent_color": "#06b6d4"
+  },
+  "banner": {
+    "title": "تطبيق مجاز للأعمال المشتركة — إدارة البوابات الذكية والعضويات",
+    "subtitle": "منصة تشغيل متكاملة لمساحات العمل مع ربط عتادي بالبوابات الترددية 13.56 ميجاهرتز ومفاتيح التحقق المؤقتة"
+  },
+  "categories": [
+    "مكاتب الأعمال الخاصة",
+    "قاعات الاجتماعات التفاعلية",
+    "المقاعد المشتركة المرنة",
+    "بوابات الدخول الذكية وتشفير الحضور"
+  ],
+  "items": [
+    {
+      "title": "حجز مكتب تنفيذي مخصص",
+      "desc": "مكتب مستقل مزود بشاشات عرض عالية الدقة واتصال شبكي فائق السرعة عبر الألياف البصرية",
+      "price": "450 ر.س",
+      "icon": "shield",
+      "badge": "متاح فوراً"
+    },
+    {
+      "title": "قاعة الاجتماعات الاستراتيجية",
+      "desc": "تجهيز متكامل مع أنظمة صوتية ذكية وكاميرات تتبع تلقائي للاجتماعات الهجينة",
+      "price": "1200 ر.س",
+      "icon": "activity",
+      "badge": "محجوز جزئياً"
+    },
+    {
+      "title": "تفعيل شريحة الدخول الترددي 13.56 ميجاهرتز",
+      "desc": "ربط مادي مباشر مع بوابات المرور الذكية ومزامنة مفاتيح المرور المؤقتة عبر التطبيق",
+      "price": "75 ر.س",
+      "icon": "zap",
+      "badge": "نشط"
+    }
+  ],
+  "nav_tabs": [
+    {
+      "id": "home",
+      "label": "الرئيسية",
+      "icon": "home"
+    },
+    {
+      "id": "catalog",
+      "label": "الخدمات",
+      "icon": "layers"
+    },
+    {
+      "id": "telemetry",
+      "label": "العتاد الحي",
+      "icon": "activity"
+    },
+    {
+      "id": "account",
+      "label": "حسابي",
+      "icon": "user"
+    }
+  ],
+  "sensors": [
+    {
+      "type": "coworking",
+      "label": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "status": "active"
+    }
+  ],
+  "commit_hash": "b4e2dd9",
+  "proof_screenshots": [
+    {
+      "title": "الشاشة الرئيسية واستعراض الخدمات",
+      "path": "shots/1294423_01.png",
+      "fallback": "Android 14 Compose Native"
+    },
+    {
+      "title": "شاشة التفاصيل والربط بالعتاد",
+      "path": "shots/1294423_02.png",
+      "fallback": "13.56 MHz RFID Turnstile Access + TOTP Pass"
+    },
+    {
+      "title": "شاشة إتمام العملية والتتبع",
+      "path": "shots/1294423_03.png",
+      "fallback": "Real-time Telemetry OK"
+    }
+  ],
+  "proof_screenshots_ios": [
+    {
+      "title": "واجهة iOS الرئيسية واستعراض الخدمات",
+      "path": "shots/1294423_ios_01.png"
+    },
+    {
+      "title": "واجهة iOS لتفاصيل الطلب والعتاد",
+      "path": "shots/1294423_ios_02.png"
+    },
+    {
+      "title": "واجهة iOS للدفع عبر Apple Pay والفاتورة المعتمدة",
+      "path": "shots/1294423_ios_03.png"
+    }
+  ],
+  "detailed_desc": "تعديل واستكمال تطبيق مبني بـ Expo و React Native. لدي مشروع تطبيق قائم مبني باستخدام Expo وReact Native (مع نظام تنقل عبر Expo Router)، وأحتاج إلى مطور متمرس لاستلام الكود ومراجعته وتنفيذ التعديلات المطلوبة عليه وضمان عمله واستقراره. المطلوب من المنفذ: فحص المشروع الحالي وتجهيز بيئة التشغيل والتأكد من عدم وجود أخطاء أو تعارضات في المكتبات. تنفيذ ال",
+  "domain_data": {
+    "repo_name": "riyadh-hub-turnstile-access-1294423",
+    "hardware_sensor": "13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "telemetry_preview": "RFID 13.56MHz ISO/IEC 14443A: UID 0x4A2F8B91 | TOTP Valid: 54s remaining | Turnstile State: UNLOCKED"
+  }
+}

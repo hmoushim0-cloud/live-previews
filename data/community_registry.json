@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T06:39:58.449116+00:00",
+    "updated_at": "2026-11-21T06:59:01.896056+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -16,7 +16,7 @@
       "desc": "المنصة الأولى المعتمدة لتطبيقات Kotlin Multiplatform"
     },
     "TOTAL_VERIFIED_PROJECTS": {
-      "value": "431",
+      "value": "432",
       "desc": "إجمالي المشاريع المعتمدة بسجل الـ SQL المجتمعي"
     },
     "COMMUNITY_SATISFACTION": {
@@ -49,6 +49,18 @@
     }
   },
   "verified_projects": [
+    {
+      "project_id": "1294423",
+      "app_name": "تطبيق مجاز للأعمال المشتركة — إدارة البوابات الذكية والعضويات",
+      "tagline": "منصة تشغيل متكاملة لمساحات العمل مع ربط عتادي بالبوابات الترددية 13.56 ميجاهرتز ومفاتيح التحقق المؤقتة",
+      "preset": "coworking",
+      "repo_url": "https://github.com/hmoushim0-cloud/app-1294423",
+      "stamp_id": "SA-KMP-1294423",
+      "crypto_hash": "sha256-1294423",
+      "generator_model": "Claude 3.7 Sonnet / Gemini 2.5 Flash",
+      "provider_name": "OmniRoute Autonomous Gateway",
+      "router_engine": "PM2 Managed"
+    },
     {
       "project_id": "1294396",
       "app_name": "تطبيق لقطة المنزلي — منصة الخدمات الميدانية الذكية في تعز",
