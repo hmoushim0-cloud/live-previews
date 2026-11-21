@@ -2,8 +2,8 @@
   "project_id": "1289253",
   "repo_name": "warsha-now-services",
   "repo_url": "https://github.com/hmoushim0-cloud/warsha-now-services",
-  "app_name": "warsha-now-services",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "وسام القابضة — تحقق الاتاحة الفورية للنطاقات والعلامات",
+  "tagline": "مسح ضوئي لبطاقة مدى وتحقق مباشر من توفر النطاق والاسم التجاري مع توجيه GPS لأقرب موثق",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "warsha-now-services",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "وسام القابضة — تحقق الاتاحة الفورية للنطاقات والعلامات",
+    "subtitle": "مسح ضوئي لبطاقة مدى وتحقق مباشر من توفر النطاق والاسم التجاري مع توجيه GPS لأقرب موثق"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "فحص الاتاحة",
+    "توثيق العلامات",
+    "خدمات النطاقات",
+    "الاستشارات القانونية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "حجز اسم شركة فوري",
+      "desc": "فحص شامل للاسم المقترح ضد السجل التجاري والنطاقات السعودية والعالمية مع تقرير اتاحة خلال دقائق",
+      "price": "199 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "توثيق علامة تجارية",
+      "desc": "إصدار شهادة توثيق أولية عبر مدى والتحقق من خلو العلامة مع رفع ملف الطلب إلكترونياً",
+      "price": "450 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "معتمد"
+    },
+    {
+      "title": "حجز نطاق .com و .sa",
+      "desc": "تدقيق التوفر لحظياً عبر NFC لبطاقة الهوية وإشعار فوري بالحجز مع خيار التفعيل",
+      "price": "120 ر.س",
+      "icon": "zap",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "33e2039",
+  "commit_hash": "8873d0b",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "warsha-now-services",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "NFC ATR: MADA EMV Level 2 | CVM 1.0 | GPS 24.7136N 46.6753E | Voucher ID #WSM-8842"
   }
 }
