@@ -2,8 +2,8 @@
   "project_id": "1289325",
   "repo_name": "ilmi-bootcamp-smart-education-1289325",
   "repo_url": "https://github.com/hmoushim0-cloud/ilmi-bootcamp-smart-education-1289325",
-  "app_name": "ilmi-bootcamp-smart-education-1289325",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "منصة نجد للتحصيلي — مختبر الأحياء الرقمي الذكي",
+  "tagline": "التحضير المتطور لاختبار التحصيلي العلمي عبر تقنية القلم الرقمي عالي الدقة ومنارات التتبع الذكية",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "ilmi-bootcamp-smart-education-1289325",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "منصة نجد للتحصيلي — مختبر الأحياء الرقمي الذكي",
+    "subtitle": "التحضير المتطور لاختبار التحصيلي العلمي عبر تقنية القلم الرقمي عالي الدقة ومنارات التتبع الذكية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الوراثة الجزيئية والتعبير الجيني",
+    "فسيولوجيا الخلية وعمليات الايض",
+    "التصنيف الحيوي والتشريح المقارن",
+    "آليات التنظيم الهرموني والعصبي"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "جلسة تفكيك الحمض النووي والتضاعف الخلوي",
+      "desc": "شرح مرئي مسجل بدقة عالية مع تتبع ضغط القلم الرقمي 4096 مستوى لرسم المسارات الجينية بدقة متناهية",
+      "price": "450 ر.س",
+      "icon": "edit-3",
+      "badge": "حصري"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "محاكاة الانقسام المتساوي والمنصف التفاعلية",
+      "desc": "تحليل تفصيلي لكروموسومات الخلية مع مزامنة إشارات منارة البلوتوث لقاعات المحاضرات الذكية",
+      "price": "320 ر.س",
+      "icon": "cpu",
+      "badge": "متقدم"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بنك الأسئلة الوزارية المحوسبة للأحياء",
+      "desc": "اختبارات تجريبية محاكية للنموذج السعودي مع تقارير أداء فورية مرتبطة بمعدل استجابة القلم",
+      "price": "210 ر.س",
+      "icon": "bar-chart-2",
+      "badge": "محدث"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "c1da1bd",
+  "commit_hash": "19e3f7d",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "ilmi-bootcamp-smart-education-1289325",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon ID: 0x4F92 | Stylus Pressure: 4096/4096 Lvl | Tip Tilt: 45.2° | Battery: 94%"
   }
 }
