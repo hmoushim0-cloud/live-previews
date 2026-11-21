@@ -2,8 +2,8 @@
   "project_id": "1289334",
   "repo_name": "f-classroom-smart-education-1289334",
   "repo_url": "https://github.com/hmoushim0-cloud/f-classroom-smart-education-1289334",
-  "app_name": "f-classroom-smart-education-1289334",
-  "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+  "app_name": "تطبيق منبر المعلم الذكي — نظام الترحيب الصوتي والتلخيص الرقمي المتقدم",
+  "tagline": "مزامنة بصرية صوتية متقدمة عبر القلم الذكي ومنارة البلوتوث لمرحلة التعليم الثانوي",
   "preset": "smart_education",
   "layout_type": "smart_education",
   "layoutArchetype": "smart_education",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "f-classroom-smart-education-1289334",
-    "subtitle": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon"
+    "title": "تطبيق منبر المعلم الذكي — نظام الترحيب الصوتي والتلخيص الرقمي المتقدم",
+    "subtitle": "مزامنة بصرية صوتية متقدمة عبر القلم الذكي ومنارة البلوتوث لمرحلة التعليم الثانوي"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الصوتيات الترحيبية الذكية",
+    "إشارات القلم الرقمي 4096",
+    "مزامنة منارة البلوتوث",
+    "التحليل الصوتي للمرحلة الثانوية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Smart Stylus Digitizer 4096-Level + BLE Beacon",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
+      "title": "معايرة نبرة الترحيب الرجالية",
+      "desc": "توليد تدفق صوتي عالي الدقة بترددات منخفضة مناسبة لتحفيز طلاب الثانوية عبر منارة البلوتوث",
+      "price": "450 ر.س",
+      "icon": "mic",
+      "badge": "تفعيل آلي"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
+      "title": "حزمة ضغط الحبر الرقمي 4096",
+      "desc": "معالجة بيانات مستشعر القلم الذكي وتحويل الضربات إلى حزم بيانات متزامنة مع الصوت",
+      "price": "320 ر.س",
+      "icon": "pen-tool",
+      "badge": "مباشر"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "بروتوكول البث الإذاعي الصفي",
+      "desc": "بث إشارات الترحيب التلقائية عند استشعار اقتراب الأجهزة اللوحية عبر نطاق البلوتوث منخفض الطاقة",
+      "price": "680 ر.س",
+      "icon": "radio",
+      "badge": "مُحدث"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "ca8b6a1",
+  "commit_hash": "1b1eb01",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "f-classroom-smart-education-1289334",
     "hardware_sensor": "Smart Stylus Digitizer 4096-Level + BLE Beacon",
-    "telemetry_preview": "Smart Stylus Digitizer 4096-Level + BLE Beacon: ONLINE | READY"
+    "telemetry_preview": "BLE Beacon 0xFF2A: RSSI -58dBm | Stylus Pressure: 4096 Lvl | Audio Frame: 48kHz PCM"
   }
 }

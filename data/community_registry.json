@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T10:52:02.019304+00:00",
+    "updated_at": "2026-11-21T11:00:56.830594+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -4431,8 +4431,8 @@
     },
     {
       "project_id": "1289334",
-      "app_name": "f-classroom-smart-education-1289334",
-      "tagline": "منظومة smart_education المتكاملة مع ربط Smart Stylus Digitizer 4096-Level + BLE Beacon",
+      "app_name": "تطبيق منبر المعلم الذكي — نظام الترحيب الصوتي والتلخيص الرقمي المتقدم",
+      "tagline": "مزامنة بصرية صوتية متقدمة عبر القلم الذكي ومنارة البلوتوث لمرحلة التعليم الثانوي",
       "preset": "smart_education",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289334",
       "stamp_id": "SA-KMP-1289334",
