@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T01:38:20.917186+00:00",
+    "updated_at": "2026-11-21T02:30:16.657954+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -1791,8 +1791,8 @@
     },
     {
       "project_id": "1290041",
-      "app_name": "kashta-radar-navigation-1290041",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "تطبيق وصل الميداني — المنصة الذكية لتبادل المشاهدات والترويج الموثق عبر تقنية مدا والتتبع المكاني",
+      "tagline": "منصة رائدة تدمج تبادل التفاعل الإعلامي مع المصادقة بالبطاقات اللاسلكية وتحديد المواقع الجغرافية بدقة فائقة",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1290041",
       "stamp_id": "SA-KMP-1290041",
