@@ -2,8 +2,8 @@
   "project_id": "1289811",
   "repo_name": "sajil-zatca-pos-cashier-1289811",
   "repo_url": "https://github.com/hmoushim0-cloud/sajil-zatca-pos-cashier-1289811",
-  "app_name": "تطبيق سجل زاتكا — إنشاء متجر إلكتروني — انشاء",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
+  "app_name": "درعية POS — نظام نقاط البيع الذكي وطباعة الفواتير الحرارية",
+  "tagline": "محطة نقاط البيع المتكاملة مع قارئ الباركود وطابعة الحركات الحرارية ESC/POS",
   "preset": "pos_cashier",
   "layout_type": "pos_cashier",
   "layoutArchetype": "pos_cashier",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق سجل زاتكا — إنشاء متجر إلكتروني — انشاء",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "درعية POS — نظام نقاط البيع الذكي وطباعة الفواتير الحرارية",
+    "subtitle": "محطة نقاط البيع المتكاملة مع قارئ الباركود وطابعة الحركات الحرارية ESC/POS"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "المخزون السريع",
+    "الباركود والمسح الضوئي",
+    "الفواتير الحرارية",
+    "التقارير المالية"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "مسدس باركود لاسلكي 2D",
+      "desc": "مسح ضوئي عالي السرعة للرموز الشريطية ورمز الاستجابة السريعة مع اتصال بلوتوث مزدوج",
+      "price": "450 ر.س",
+      "icon": "scan",
       "badge": "معتمد"
     },
     {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
+      "title": "طابعة فواتير حرارية ESC/POS",
+      "desc": "طابعة إيصالات حرارية 80 مم عالية الأداء مع قص تلقائي وربط عبر منفذ USB وشبكة محلية",
+      "price": "890 ر.س",
+      "icon": "printer",
       "badge": "فوري"
     },
     {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "title": "درج كاشير معدني أوتوماتيكي",
+      "desc": "درج نقود إلكتروني ثقيل الأمان مع مشابك معدنية ومستشعر فتح مزدوج",
+      "price": "320 ر.س",
+      "icon": "lock",
+      "badge": "جديد"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "401b0b9",
+  "commit_hash": "1d761dd",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "sajil-zatca-pos-cashier-1289811",
     "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "telemetry_preview": "ESC/POS 0x0483: Thermal Head 34C | Barcode: SCAN_OK [SKU-894201] | CashDrawer: CLOSED"
   }
 }
