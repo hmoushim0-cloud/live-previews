@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T04:57:22.198914+00:00",
+    "updated_at": "2026-11-21T05:22:06.829354+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -651,9 +651,9 @@
     },
     {
       "project_id": "1291535",
-      "app_name": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
-      "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "preset": "pos_cashier",
+      "app_name": "شبوة إكسبريس لتجارة المدن — منصة عزان الرقمية للمناديب والمتاجر",
+      "tagline": "ربط ذكي وموثوق لجميع متاجر مدينة عزان مع شبكة مناديب التوصيل والمدفوعات اللاسلكية",
+      "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1291535",
       "stamp_id": "SA-KMP-1291535",
       "crypto_hash": "sha256-1291535",

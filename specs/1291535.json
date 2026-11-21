@@ -2,46 +2,46 @@
   "project_id": "1291535",
   "repo_name": "naqd-terminal-pos-cashier",
   "repo_url": "https://github.com/hmoushim0-cloud/naqd-terminal-pos-cashier",
-  "app_name": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
-  "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-  "preset": "pos_cashier",
-  "layout_type": "pos_cashier",
-  "layoutArchetype": "pos_cashier",
+  "app_name": "شبوة إكسبريس لتجارة المدن — منصة عزان الرقمية للمناديب والمتاجر",
+  "tagline": "ربط ذكي وموثوق لجميع متاجر مدينة عزان مع شبكة مناديب التوصيل والمدفوعات اللاسلكية",
+  "preset": "services",
+  "layout_type": "services",
+  "layoutArchetype": "services",
   "theme": {
     "primary_color": "#10b981",
     "accent_color": "#34d399"
   },
   "banner": {
-    "title": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
-    "subtitle": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner"
+    "title": "شبوة إكسبريس لتجارة المدن — منصة عزان الرقمية للمناديب والمتاجر",
+    "subtitle": "ربط ذكي وموثوق لجميع متاجر مدينة عزان مع شبكة مناديب التوصيل والمدفوعات اللاسلكية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "متاجر التجزئة المركزية",
+    "أسواق المواد الغذائية",
+    "محطات التوصيل السريع",
+    "شبكة المناديب والاسطول"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع ESC/POS Thermal Receipt Printer + Barcode Scanner",
-      "price": "180 ر.س",
-      "icon": "shield",
+      "title": "إرسالية متاجر عزان المركزية",
+      "desc": "توصيل طلبات المتاجر الكبرى عبر نظام توجيه GPS مباشر للمندوب مع مصادقة Mada NFC",
+      "price": "35 ر.س",
+      "icon": "truck",
+      "badge": "نشط"
+    },
+    {
+      "title": "شحنة المواد الغذائية الطازجة",
+      "desc": "نقل مبرد عالي الدقة مع تتبع حراري وموقع جغرافي لحظي في مدينة عزان",
+      "price": "50 ر.س",
+      "icon": "compass",
+      "badge": "مضمون"
+    },
+    {
+      "title": "خدمة التحصيل الإلكتروني الفوري",
+      "desc": "دفع لاسلكي آمن عبر قارئ Mada EMV L2 عند نقطة التوصيل بدون تلامس",
+      "price": "15 ر.س",
+      "icon": "credit-card",
       "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -68,12 +68,12 @@
   ],
   "sensors": [
     {
-      "type": "pos_cashier",
-      "label": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
+      "type": "services",
+      "label": "Mada Contactless EMV L2 NFC + GPS Dispatch",
       "status": "active"
     }
   ],
-  "commit_hash": "1db8255",
+  "commit_hash": "d15d126",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -83,7 +83,7 @@
     {
       "title": "شاشة التفاصيل والربط بالعتاد",
       "path": "shots/1291535_02.png",
-      "fallback": "ESC/POS Thermal Receipt Printer + Barcode Scanner"
+      "fallback": "Mada Contactless EMV L2 NFC + GPS Dispatch"
     },
     {
       "title": "شاشة إتمام العملية والتتبع",
@@ -105,10 +105,10 @@
       "path": "shots/1291535_ios_03.png"
     }
   ],
-  "detailed_desc": "إنشاء تطبيق ويب بأكواد جاهزة. السلام عليكم ورحمة الله مطلوب مبرمج Next.js 14 Supabase لتركيب منصة جاهزة 100% - 20 ملف 3 صور تصميم - المطلوب تركيب وربط فقط ليس برمجة من الصفر. فكرة المشروع لبية عزان: منصة تربط جميع متاجر مدينة عزان شبوة اليمن بمناديب توصيل والعملاء مع خدمتين مميزتين: اكتب طلبك هنا (نص حر) واطلب من شي ان واي متجر عالمي (رابط او صورة)",
+  "detailed_desc": "إنشاء تطبيق ويب بأكواد جاهزة — السلام عليكم ورحمة الله مطلوب مبرمج Next.js 14 Supabase لتركيب منصة جاهزة 100% - 20 ملف 3 صور تصميم - المطلوب تركيب وربط فقط ليس برمجة من الصفر. فكرة المشروع لبية عزان: منصة تربط جميع متاجر مدينة عزان شبوة اليمن بمناديب توصيل والعملاء مع خدمتين مميزت",
   "domain_data": {
     "repo_name": "naqd-terminal-pos-cashier",
-    "hardware_sensor": "ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "telemetry_preview": "ESC/POS Thermal Receipt Printer + Barcode Scanner: ONLINE | READY"
+    "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
+    "telemetry_preview": "MADA EMV L2 NFC: AUTH_OK | GPS DISPATCH: 14.5122 N, 48.3156 E (Azzan Hub)"
   }
 }

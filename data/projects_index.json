@@ -401,9 +401,9 @@
   },
   {
     "project_id": "1291535",
-    "app_name": "تطبيق نقد تيرمنال — إنشاء تطبيق ويب بأكواد جاهزة",
-    "tagline": "منظومة pos_cashier المتكاملة مع ربط ESC/POS Thermal Receipt Printer + Barcode Scanner",
-    "preset": "pos_cashier",
+    "app_name": "شبوة إكسبريس لتجارة المدن — منصة عزان الرقمية للمناديب والمتاجر",
+    "tagline": "ربط ذكي وموثوق لجميع متاجر مدينة عزان مع شبكة مناديب التوصيل والمدفوعات اللاسلكية",
+    "preset": "services",
     "has_proofs": true,
     "spec_path": "specs/1291535.json"
   },
