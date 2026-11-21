@@ -2937,8 +2937,8 @@
   },
   {
     "project_id": "1289332",
-    "app_name": "riwaq-desk-coworking-1289332",
-    "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+    "app_name": "منصة رواق البلدية — إدارة المبادرات والمشاريع الحضرية",
+    "tagline": "بوابة تكامل الأعمال الحضرية ومصادقة الدخول عبر البوابات الترددية 13.56 ميغاهرتز",
     "preset": "coworking",
     "has_proofs": true,
     "spec_path": "specs/1289332.json"

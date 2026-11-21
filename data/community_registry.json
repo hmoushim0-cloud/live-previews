@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T11:12:09.284354+00:00",
+    "updated_at": "2026-11-21T11:48:12.497798+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -4455,8 +4455,8 @@
     },
     {
       "project_id": "1289332",
-      "app_name": "riwaq-desk-coworking-1289332",
-      "tagline": "منظومة coworking المتكاملة مع ربط 13.56 MHz RFID Turnstile Access + TOTP Pass",
+      "app_name": "منصة رواق البلدية — إدارة المبادرات والمشاريع الحضرية",
+      "tagline": "بوابة تكامل الأعمال الحضرية ومصادقة الدخول عبر البوابات الترددية 13.56 ميغاهرتز",
       "preset": "coworking",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289332",
       "stamp_id": "SA-KMP-1289332",
