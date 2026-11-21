@@ -2857,8 +2857,8 @@
   },
   {
     "project_id": "1289345",
-    "app_name": "sakan-lidar-real-estate-1289345",
-    "tagline": "منظومة real_estate المتكاملة مع ربط 360 LiDAR Spatial Scanner + Matterport Pro3",
+    "app_name": "منصة مساكن نجد الهندسية — الرفع المساحي والنمذجة الفراغية ثلاثية الأبعاد",
+    "tagline": "توظيف ماسح 360 LiDAR ونظام Matterport لإنشاء مخططات معمارية متوافقة تماماً مع كود البناء السعودي لوحدة 12x25 متر",
     "preset": "real_estate",
     "has_proofs": true,
     "spec_path": "specs/1289345.json"
