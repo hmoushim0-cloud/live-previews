@@ -2,8 +2,8 @@
   "project_id": "1291605",
   "repo_name": "injaz-care-services-1291605",
   "repo_url": "https://github.com/hmoushim0-cloud/injaz-care-services-1291605",
-  "app_name": "تطبيق إنجاز للخدمات — برمجة MVP لتطبيق وساطة بين أ",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "تطبيق ريان للوساطة الآمنة — منصة الضمان المالي والتعاقد الفردي",
+  "tagline": "وساطة مالية ذكية وموثوقة بين الأفراد مع دعم الدفع عبر مدى وتتبع المواقع الجغرافية",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#06b6d4"
   },
   "banner": {
-    "title": "تطبيق إنجاز للخدمات — برمجة MVP لتطبيق وساطة بين أ",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "تطبيق ريان للوساطة الآمنة — منصة الضمان المالي والتعاقد الفردي",
+    "subtitle": "وساطة مالية ذكية وموثوقة بين الأفراد مع دعم الدفع عبر مدى وتتبع المواقع الجغرافية"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "الضمان المالي المتبادل",
+    "عقود الإتفاق المشترك",
+    "التسليم الميداني المعتمد",
+    "تسوية النزاعات السريعة"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
+      "title": "حجز الدفعة المالية بعقد ضمان",
+      "desc": "تجميد المبلغ في حساب الوساطة الذكي لحين إتمام استلام الخدمة أو المنتج بين الطرفين",
+      "price": "350 ر.س",
       "icon": "shield",
+      "badge": "مضمون"
+    },
+    {
+      "title": "توجيه ميداني GPS لتسليم الأصول",
+      "desc": "تحديد إحداثيات موقع اللقاء بدقة عالية وتتبع مسار حركة الطرفين لحظياً لضمان الموثوقية",
+      "price": "150 ر.س",
+      "icon": "navigation",
+      "badge": "مباشر"
+    },
+    {
+      "title": "المصادقة السريعة عبر تقنية مدى NFC",
+      "desc": "إتمام التحقق من الهوية والدفع اللاسلكي الفوري عبر بطاقات مدى وقارئ الاتصال قريب المدى",
+      "price": "220 ر.س",
+      "icon": "cpu",
       "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "73c16bb",
+  "commit_hash": "5de717a",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -105,10 +105,10 @@
       "path": "shots/1291605_ios_03.png"
     }
   ],
-  "detailed_desc": "برمجة MVP لتطبيق وساطة بين أفراد. فكرة الابلكيشن هى وساطة بين أفراد تجمعهم مصالح مشتركة مطلوب مبرمج يقوم بعمل الابلكيشن بأقل تكلفة بنموذج mvp مع أخذ الوقت المناسب له",
+  "detailed_desc": "برمجة MVP لتطبيق وساطة بين أفراد — فكرة الابلكيشن هى وساطة بين أفراد تجمعهم مصالح مشتركة مطلوب مبرمج يقوم بعمل الابلكيشن بأقل تكلفة بنموذج mvp مع أخذ الوقت المناسب له",
   "domain_data": {
     "repo_name": "injaz-care-services-1291605",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2 NFC ATR: 3B 8F 80 01 80 | GPS Lat: 24.7136 N, Lon: 46.6753 E (Fix: 3D Satellites: 12)"
   }
 }
