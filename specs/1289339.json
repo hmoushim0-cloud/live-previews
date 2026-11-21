@@ -2,8 +2,8 @@
   "project_id": "1289339",
   "repo_name": "qiyada-key-car-rental-1289339",
   "repo_url": "https://github.com/hmoushim0-cloud/qiyada-key-car-rental-1289339",
-  "app_name": "qiyada-key-car-rental-1289339",
-  "tagline": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
+  "app_name": "تطبيق رَوِيْد لأسطول المركبات التخصصية — التشخيص الميداني والتحكم الرقمي",
+  "tagline": "إدارة متكاملة لأسطول المركبات الخدمية عبر قنوات OBD-II ومفاتيح BLE الرقمية بمدينة الرياض",
   "preset": "car_rental",
   "layout_type": "car_rental",
   "layoutArchetype": "car_rental",
@@ -12,36 +12,36 @@
     "accent_color": "#f59e0b"
   },
   "banner": {
-    "title": "qiyada-key-car-rental-1289339",
-    "subtitle": "منظومة car_rental المتكاملة مع ربط OBD-II CAN-Bus Telematics + BLE Digital Key Fob"
+    "title": "تطبيق رَوِيْد لأسطول المركبات التخصصية — التشخيص الميداني والتحكم الرقمي",
+    "subtitle": "إدارة متكاملة لأسطول المركبات الخدمية عبر قنوات OBD-II ومفاتيح BLE الرقمية بمدينة الرياض"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "التشخيص اللحظي لمحرك المركبة",
+    "إدارة المفاتيح الرقمية بالبلوتوث",
+    "مراقبة استهلاك الوقود والانبعاثات",
+    "جدولة مهام الأسطول الميداني"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-      "price": "180 ر.س",
+      "title": "وحدة تشخيص الأعطال الميدانية OBD-II",
+      "desc": "قراءة بيانات محرك الفان والتحقق من ضغط الزيت ودرجة حرارة المحرك لحظيا عبر بروتوكول CAN-Bus",
+      "price": "450 ر.س",
+      "icon": "cpu",
+      "badge": "اتصال مباشر"
+    },
+    {
+      "title": "مفتاح البلوتوث الرقمي الموثق BLE",
+      "desc": "فتح وإغلاق الأبواب الخلفية وصندوق المعدات عبر مصادقة تشفير مشفرة بالكامل من هاتفك الذكي",
+      "price": "320 ر.س",
+      "icon": "key",
+      "badge": "مفعل"
+    },
+    {
+      "title": "مستشعر مراقبة ضغط الإطارات TPMS",
+      "desc": "تحليل درجة حرارة وضغط الإطارات الأربع مع تنبيهات فورية عند الانحراف عن المعايير التشغيلية",
+      "price": "210 ر.س",
       "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
-      "icon": "activity",
-      "badge": "شامل"
+      "badge": "نشط"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "5cd3183",
+  "commit_hash": "3e15ae8",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "qiyada-key-car-rental-1289339",
     "hardware_sensor": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob",
-    "telemetry_preview": "OBD-II CAN-Bus Telematics + BLE Digital Key Fob: ONLINE | READY"
+    "telemetry_preview": "OBD-II CAN: RPM 2450 | Coolant: 88C | BLE Key: Connected (RSSI -58dBm)"
   }
 }
