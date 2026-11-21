@@ -3,7 +3,7 @@
     "title": "سجل التوثيق المجتمعي ونسب النماذج لتطبيقات Kotlin Multiplatform",
     "platform_ranking": "#1 Open Community Verified Registry",
     "database_type": "SQLite 3.x with AI Lineage Provenance",
-    "updated_at": "2026-11-21T05:22:06.829354+00:00",
+    "updated_at": "2026-11-21T06:19:12.294360+00:00",
     "ledger_hash": "dd7548477b2f1888"
   },
   "stats": {
@@ -4779,8 +4779,8 @@
     },
     {
       "project_id": "1289266",
-      "app_name": "itqan-dispatch-services-1289266",
-      "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+      "app_name": "منصة بيارق للتسويق الرقمي وإدارة الحملات الإعلانية — محطة الميديا باير المحترف",
+      "tagline": "إدارة احترافية للحملات الإعلانية عن بعد مع تسوية مالية عبر قارئ مدى اللاسلكي وتتبع الجي بي إس الميداني",
       "preset": "services",
       "repo_url": "https://github.com/hmoushim0-cloud/app-1289266",
       "stamp_id": "SA-KMP-1289266",

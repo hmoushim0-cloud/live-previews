@@ -2,8 +2,8 @@
   "project_id": "1289266",
   "repo_name": "itqan-dispatch-services-1289266",
   "repo_url": "https://github.com/hmoushim0-cloud/itqan-dispatch-services-1289266",
-  "app_name": "itqan-dispatch-services-1289266",
-  "tagline": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch",
+  "app_name": "منصة بيارق للتسويق الرقمي وإدارة الحملات الإعلانية — محطة الميديا باير المحترف",
+  "tagline": "إدارة احترافية للحملات الإعلانية عن بعد مع تسوية مالية عبر قارئ مدى اللاسلكي وتتبع الجي بي إس الميداني",
   "preset": "services",
   "layout_type": "services",
   "layoutArchetype": "services",
@@ -12,36 +12,36 @@
     "accent_color": "#fb923c"
   },
   "banner": {
-    "title": "itqan-dispatch-services-1289266",
-    "subtitle": "منظومة services المتكاملة مع ربط Mada Contactless EMV L2 NFC + GPS Dispatch"
+    "title": "منصة بيارق للتسويق الرقمي وإدارة الحملات الإعلانية — محطة الميديا باير المحترف",
+    "subtitle": "إدارة احترافية للحملات الإعلانية عن بعد مع تسوية مالية عبر قارئ مدى اللاسلكي وتتبع الجي بي إس الميداني"
   },
   "categories": [
-    "الخدمات الرئيسية",
-    "المراقبة الحية",
-    "التقارير الضريبية",
-    "الإعدادات"
+    "حملات وسائل التواصل الاجتماعي",
+    "إدارة ميزانيات الأداء وإعلانات الباير",
+    "عقود الرواتب الشهرية والمهام عن بعد",
+    "التسويات المالية الفورية عبر تقنية مدى"
   ],
   "items": [
     {
-      "title": "الباقة التنفيذية المعتمدة",
-      "desc": "تكامل مباشر مع Mada Contactless EMV L2 NFC + GPS Dispatch",
-      "price": "180 ر.س",
-      "icon": "shield",
-      "badge": "معتمد"
-    },
-    {
-      "title": "خدمة المعالجة الفورية",
-      "desc": "أداء أصيل بسرعة 60 إطار في الثانية",
-      "price": "95 ر.س",
-      "icon": "zap",
-      "badge": "فوري"
-    },
-    {
-      "title": "باقة الصيانة والدعم السحابي",
-      "desc": "تشفير كامل للبيانات المحلية ومزامنة آمنة",
-      "price": "250 ر.س",
+      "title": "إدارة حملة سناب شات وإنستغرام الاحترافية",
+      "desc": "تشغيل ومتابعة الحملات الإعلانية المستهدفة للسوق السعودي مع تحسين تكلفة الظهور والنقرات",
+      "price": "4,500 ر.س",
       "icon": "activity",
-      "badge": "شامل"
+      "badge": "عقد شهري"
+    },
+    {
+      "title": "متابعة الميدان عبر الإحداثيات وتوثيق العقود",
+      "desc": "ربط GPS Dispatch لتتبع مهام المنسقين الميدانيين مع مصادقة الهوية عبر شريحة مدى اللاسلكية",
+      "price": "1,200 ر.س",
+      "icon": "cpu",
+      "badge": "نشط الآن"
+    },
+    {
+      "title": "تقرير الأداء المتقدم وتحليل العائد على الإنفاق",
+      "desc": "لوحة تحكم حية تعرض مقاييس الإنفاق الإعلاني والتحويلات اللحظية بدقة عالية",
+      "price": "2,500 ر.س",
+      "icon": "shield",
+      "badge": "محدث فوري"
     }
   ],
   "nav_tabs": [
@@ -73,7 +73,7 @@
       "status": "active"
     }
   ],
-  "commit_hash": "29c5433",
+  "commit_hash": "6a5599c",
   "proof_screenshots": [
     {
       "title": "الشاشة الرئيسية واستعراض الخدمات",
@@ -109,6 +109,6 @@
   "domain_data": {
     "repo_name": "itqan-dispatch-services-1289266",
     "hardware_sensor": "Mada Contactless EMV L2 NFC + GPS Dispatch",
-    "telemetry_preview": "Mada Contactless EMV L2 NFC + GPS Dispatch: ONLINE | READY"
+    "telemetry_preview": "Mada EMV L2 NFC APDU: 0x00A40400 | GPS Dispatch: 24.7136 N, 46.6753 E (Riyadh Hub) | Signal: -68 dBm LTE"
   }
 }
